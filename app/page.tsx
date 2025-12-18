@@ -379,7 +379,7 @@ export default function HomePage() {
               <p className="text-gray-700 text-sm leading-relaxed">
                 <strong>Electrochemistry</strong> connects electrical and chemical energy. 
                 The <strong>Nernst equation</strong> calculates cell potentials, while 
-                <strong> Faraday's laws</strong> govern electrolysis. These principles enable 
+                <strong> Faraday&#39;s laws</strong> govern electrolysis. These principles enable 
                 batteries, fuel cells, and corrosion prevention.
               </p>
             </div>

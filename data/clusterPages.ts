@@ -256,6 +256,7 @@ export const clusterPages: ClusterPageData[] = [
     entityDefinition: {
       intro: 'Solution concentration calculations are fundamental to chemistry, determining the amount of solute dissolved in a given quantity of solvent or solution. These calculators help prepare solutions with precise concentrations.',
       whatItMeasures: 'Concentration calculators measure molarity (mol/L), molality (mol/kg), normality, mass percent, parts per million (ppm), and perform dilution calculations using the relationship C₁V₁ = C₂V₂.',
+      whyCalculationsNeeded: 'Accurate concentration calculations are crucial for preparing solutions with precise compositions, ensuring reproducible experimental results, maintaining safety in chemical handling, and achieving accurate analytical measurements in research and industry.',
       formulasInvolved: [
         'M = n/V (Molarity = moles/volume)',
         'm = n/mass_solvent (Molality)',
@@ -270,6 +271,121 @@ export const clusterPages: ClusterPageData[] = [
       industry: 'Pharmaceutical and chemical industries use concentration calculations for formulation, quality control, and regulatory compliance.',
       research: 'Research laboratories prepare reagent solutions, buffer systems, and reaction mixtures requiring accurate concentration calculations.'
     },
+    
+    // Historical & Conceptual Background
+    historicalContext: {
+      origin: 'Solution concentration concepts developed in the 18th century with the work of chemists like Antoine Lavoisier and Joseph Priestley, who needed precise measurements for their experiments.',
+      evolution: 'The mole concept introduced by Amedeo Avogadro in 1811 provided the foundation for modern concentration units. Molarity was defined in the late 19th century, while molality became important in the 20th century for temperature-independent measurements.',
+      significance: 'Accurate concentration measurements are fundamental to all quantitative chemistry, enabling precise control of reaction conditions, analytical measurements, and industrial processes.'
+    },
+    
+    // Core Formulas
+    coreFormulas: [
+      {
+        formula: 'M = n/V',
+        name: 'Molarity',
+        variables: 'M = molarity (mol/L), n = moles of solute, V = volume of solution (L)',
+        units: 'M (mol/L), n (mol), V (L)',
+        explanation: 'Molarity measures concentration as moles of solute per liter of solution. It changes with temperature due to volume expansion/contraction.'
+      },
+      {
+        formula: 'm = n/mass_solvent',
+        name: 'Molality',
+        variables: 'm = molality (mol/kg), n = moles of solute, mass_solvent = mass of solvent (kg)',
+        units: 'm (mol/kg), n (mol), mass_solvent (kg)',
+        explanation: 'Molality measures concentration as moles of solute per kilogram of solvent. It is temperature-independent since mass does not change with temperature.'
+      },
+      {
+        formula: 'C₁V₁ = C₂V₂',
+        name: 'Dilution Formula',
+        variables: 'C₁, C₂ = initial and final concentrations, V₁, V₂ = initial and final volumes',
+        units: 'C (any concentration unit), V (any volume unit)',
+        explanation: 'The dilution formula shows that the amount of solute remains constant during dilution. It applies to any concentration unit (molarity, normality, etc.).'
+      }
+    ],
+    
+    // Types of Calculations
+    calculationTypes: [
+      {
+        type: 'Molarity Calculations',
+        description: 'Converting between moles, volume, and molarity to determine solution concentrations.',
+        when: 'Used when preparing solutions of known concentration, calculating amounts needed for reactions, or analyzing solution composition.'
+      },
+      {
+        type: 'Molality Calculations',
+        description: 'Calculating concentration based on moles of solute and mass of solvent.',
+        when: 'Preferred for temperature-sensitive applications like colligative properties, where constant concentration is needed regardless of temperature changes.'
+      },
+      {
+        type: 'Dilution Problems',
+        description: 'Calculating how to prepare solutions of lower concentration from stock solutions.',
+        when: 'Common in laboratories when preparing working solutions from concentrated stock solutions, or when adjusting solution concentrations.'
+      },
+      {
+        type: 'Normality Calculations',
+        description: 'Working with equivalent concentrations for acids, bases, and redox reactions.',
+        when: 'Used in acid-base titrations and redox titrations where reaction stoichiometry involves multiple H⁺ or e⁻ per molecule.'
+      }
+    ],
+    
+    // Relationships With Other Topics
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Stoichiometry Calculators',
+          slug: 'stoichiometry-calculators',
+          relationship: 'Concentration calculations are essential for solution stoichiometry, particularly in titrations where molarity is used instead of mass measurements.'
+        },
+        {
+          topic: 'Acid-Base Calculators',
+          slug: 'acid-base-calculators',
+          relationship: 'pH calculations depend on concentration, and acid-base equilibrium constants are expressed in terms of concentration units.'
+        },
+        {
+          topic: 'Physical Chemistry Calculators',
+          slug: 'physical-chemistry-calculators',
+          relationship: 'Colligative properties like boiling point elevation and freezing point depression depend on solution concentration.'
+        }
+      ],
+      broaderConcepts: [
+        'The Mole Concept - understanding that concentration expresses the number of particles per unit volume or mass',
+        'Solution Chemistry - the behavior of substances dissolved in solvents',
+        'Quantitative Analysis - measuring chemical amounts accurately',
+        'Chemical Equilibrium - concentration affects reaction direction and equilibrium constants'
+      ]
+    },
+    
+    // FAQ Section
+    faqs: [
+      {
+        question: 'What is the difference between molarity and molality?',
+        answer: 'Molarity (M) is moles of solute per liter of solution and changes with temperature due to volume changes. Molality (m) is moles of solute per kilogram of solvent and is temperature-independent.'
+      },
+      {
+        question: 'When should I use molality instead of molarity?',
+        answer: 'Use molality when temperature changes are involved, particularly for colligative properties like boiling point elevation, freezing point depression, osmotic pressure, and vapor pressure lowering.'
+      },
+      {
+        question: 'How do I prepare a solution of specific molarity?',
+        answer: 'Calculate moles needed (n = M × V), convert to grams using molar mass (m = n × M), weigh the solute, dissolve in solvent, and adjust final volume to the desired amount.'
+      },
+      {
+        question: 'What is the dilution formula and when do I use it?',
+        answer: 'C₁V₁ = C₂V₂ relates initial concentration and volume to final concentration and volume. Use it when preparing dilute solutions from concentrated stock solutions.'
+      },
+      {
+        question: 'What is normality and how does it differ from molarity?',
+        answer: 'Normality (N) is equivalents of solute per liter of solution. For acids/bases, equivalents equal moles × number of H⁺/OH⁻. For redox, it equals moles × electrons transferred. Normality equals molarity × equivalents per mole.'
+      },
+      {
+        question: 'How does temperature affect concentration measurements?',
+        answer: 'Temperature affects molarity because liquids expand/contract, changing volume. Molality is unaffected since it uses mass. Always specify temperature when reporting molarity.'
+      },
+      {
+        question: 'What are common concentration units besides molarity?',
+        answer: 'Mass percent (% m/m), volume percent (% v/v), mass/volume percent (% m/v), mole fraction, molality, normality, and parts per million (ppm) are commonly used depending on the application.'
+      }
+    ],
     
     commonMistakes: [
       'Confusing molarity with molality',
@@ -297,6 +413,7 @@ export const clusterPages: ClusterPageData[] = [
     entityDefinition: {
       intro: 'Chemical reaction calculators analyze the kinetics, equilibrium, and energetics of chemical processes. These tools predict reaction behavior, calculate rate constants, and determine equilibrium positions.',
       whatItMeasures: 'These calculators determine equilibrium constants (Kc, Kp), reaction quotients (Q), rate constants, activation energy (Ea), half-lives, and predict reaction spontaneity.',
+      whyCalculationsNeeded: 'Understanding reaction kinetics and equilibrium is essential for controlling chemical processes, optimizing reaction conditions, predicting product yields, and designing efficient chemical syntheses.',
       formulasInvolved: [
         'K = [products]/[reactants] at equilibrium',
         'k = A·e^(-Ea/RT) (Arrhenius equation)',
@@ -311,6 +428,69 @@ export const clusterPages: ClusterPageData[] = [
       industry: 'Chemical process optimization requires understanding reaction kinetics for reactor design, yield maximization, and process control.',
       research: 'Mechanistic studies use kinetic data to propose reaction mechanisms, identify intermediates, and understand catalytic processes.'
     },
+    
+    // Historical & Conceptual Background
+    historicalContext: {
+      origin: 'Chemical kinetics developed in the 19th century with studies of reaction rates by chemists like Ludwig Wilhelmy and Peter Waage.',
+      evolution: 'The development of transition state theory and collision theory in the 20th century provided theoretical frameworks for understanding reaction mechanisms.',
+      significance: 'Understanding reaction rates and equilibrium is crucial for controlling chemical processes and designing efficient syntheses.'
+    },
+    
+    // Core Formulas
+    coreFormulas: [
+      {
+        formula: 'rate = k[A]^m[B]^n',
+        name: 'Rate Law',
+        variables: 'k = rate constant, [A], [B] = concentrations, m, n = reaction orders',
+        units: 'rate (mol/L·s), k depends on reaction order',
+        explanation: 'The rate law expresses how reaction rate depends on reactant concentrations.'
+      },
+      {
+        formula: 'K = k_f/k_r',
+        name: 'Equilibrium Constant',
+        variables: 'K = equilibrium constant, k_f, k_r = forward and reverse rate constants',
+        units: 'dimensionless or concentration units',
+        explanation: 'Equilibrium constant relates forward and reverse reaction rates at equilibrium.'
+      }
+    ],
+    
+    // Types of Calculations
+    calculationTypes: [
+      {
+        type: 'Rate Law Determination',
+        description: 'Analyzing experimental data to determine reaction order and rate constant.',
+        when: 'Used in kinetics experiments to understand reaction mechanisms.'
+      },
+      {
+        type: 'Equilibrium Calculations',
+        description: 'Calculating equilibrium concentrations and constants.',
+        when: 'Used to predict reaction direction and equilibrium composition.'
+      }
+    ],
+    
+    // Relationships With Other Topics
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Thermodynamics Calculators',
+          slug: 'thermodynamics-calculators',
+          relationship: 'Thermodynamics provides the driving force, while kinetics determines the speed of reactions.'
+        }
+      ],
+      broaderConcepts: [
+        'Reaction Mechanisms',
+        'Catalyst Effects',
+        'Temperature Dependence'
+      ]
+    },
+    
+    // FAQ Section
+    faqs: [
+      {
+        question: 'What is the difference between kinetics and thermodynamics?',
+        answer: 'Thermodynamics tells us whether a reaction can occur (spontaneity), while kinetics tells us how fast it occurs.'
+      }
+    ],
     
     commonMistakes: [
       'Using concentrations instead of activities for equilibrium',
@@ -338,6 +518,7 @@ export const clusterPages: ClusterPageData[] = [
     entityDefinition: {
       intro: 'Chemical thermodynamics calculators analyze energy changes in chemical systems, predicting whether reactions occur spontaneously and how much energy they release or consume.',
       whatItMeasures: 'These tools calculate enthalpy changes (ΔH), entropy changes (ΔS), Gibbs free energy (ΔG), internal energy (ΔU), heat capacity, and calorimetry measurements.',
+      whyCalculationsNeeded: 'Thermodynamic calculations are essential for understanding energy changes in chemical processes, predicting reaction feasibility, and designing energy-efficient chemical systems.',
       formulasInvolved: [
         'ΔG = ΔH - TΔS (Gibbs free energy)',
         'ΔU = Q - W (First law)',
@@ -352,6 +533,62 @@ export const clusterPages: ClusterPageData[] = [
       industry: 'Process engineering uses thermodynamic calculations for reactor design, energy efficiency, and safety analysis.',
       research: 'Computational chemistry and materials research rely on thermodynamic data to predict stability and reaction feasibility.'
     },
+    
+    // Historical & Conceptual Background
+    historicalContext: {
+      origin: 'Thermodynamics developed in the 19th century with the work of Sadi Carnot, Rudolf Clausius, and William Thomson (Lord Kelvin).',
+      evolution: 'The laws of thermodynamics were established through studies of heat engines and energy conversion, leading to modern chemical thermodynamics.',
+      significance: 'Thermodynamics provides the fundamental principles governing energy changes in chemical systems and predicts reaction feasibility.'
+    },
+    
+    // Core Formulas
+    coreFormulas: [
+      {
+        formula: 'ΔG = ΔH - TΔS',
+        name: 'Gibbs Free Energy',
+        variables: 'ΔG = free energy change, ΔH = enthalpy change, T = temperature, ΔS = entropy change',
+        units: 'energy units (J, kJ)',
+        explanation: 'Gibbs free energy determines reaction spontaneity: negative ΔG means spontaneous.'
+      }
+    ],
+    
+    // Types of Calculations
+    calculationTypes: [
+      {
+        type: 'Enthalpy Calculations',
+        description: 'Calculating heat changes in chemical reactions.',
+        when: 'Used to determine energy released or absorbed in reactions.'
+      },
+      {
+        type: 'Entropy Calculations',
+        description: 'Calculating disorder changes in systems.',
+        when: 'Used to understand spontaneity and equilibrium.'
+      }
+    ],
+    
+    // Relationships With Other Topics
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Chemical Reaction Calculators',
+          slug: 'chemical-reaction-calculators',
+          relationship: 'Thermodynamics provides the driving force for reactions, while kinetics determines the rate.'
+        }
+      ],
+      broaderConcepts: [
+        'Energy Conservation',
+        'Spontaneity',
+        'Equilibrium'
+      ]
+    },
+    
+    // FAQ Section
+    faqs: [
+      {
+        question: 'What is the difference between ΔH and ΔG?',
+        answer: 'ΔH is the heat of reaction at constant pressure, while ΔG includes both enthalpy and entropy changes to determine spontaneity.'
+      }
+    ],
     
     commonMistakes: [
       'Using Celsius instead of Kelvin for temperature',
@@ -379,6 +616,7 @@ export const clusterPages: ClusterPageData[] = [
     entityDefinition: {
       intro: 'Electrochemistry calculators analyze the relationship between electrical energy and chemical reactions, calculating cell potentials, predicting redox spontaneity, and determining electrolysis products.',
       whatItMeasures: 'These calculators determine standard cell potentials, Nernst equation results, electrolysis quantities via Faraday\'s laws, and oxidation-reduction relationships.',
+      whyCalculationsNeeded: 'Electrochemistry calculations are essential for understanding batteries, fuel cells, corrosion, and electrolysis processes, enabling the design of energy storage and conversion systems.',
       formulasInvolved: [
         'E = E° - (RT/nF)lnQ (Nernst equation)',
         'E°_cell = E°_cathode - E°_anode',
@@ -393,6 +631,62 @@ export const clusterPages: ClusterPageData[] = [
       industry: 'Battery development, electroplating, corrosion prevention, and metal refining all rely on electrochemical principles.',
       research: 'Electroanalytical chemistry, fuel cell research, and materials electrochemistry use these calculations extensively.'
     },
+    
+    // Historical & Conceptual Background
+    historicalContext: {
+      origin: 'Electrochemistry began with Alessandro Volta\'s invention of the battery in 1800 and Michael Faraday\'s laws in the 1830s.',
+      evolution: 'The development of the Nernst equation and modern electroanalytical techniques expanded the field significantly.',
+      significance: 'Electrochemistry bridges electricity and chemistry, enabling batteries, fuel cells, and many industrial processes.'
+    },
+    
+    // Core Formulas
+    coreFormulas: [
+      {
+        formula: 'E = E° - (RT/nF)lnQ',
+        name: 'Nernst Equation',
+        variables: 'E = cell potential, E° = standard potential, R = gas constant, T = temperature, n = electrons, F = Faraday constant, Q = reaction quotient',
+        units: 'volts',
+        explanation: 'The Nernst equation calculates cell potential under non-standard conditions.'
+      }
+    ],
+    
+    // Types of Calculations
+    calculationTypes: [
+      {
+        type: 'Cell Potential Calculations',
+        description: 'Calculating standard and non-standard cell potentials.',
+        when: 'Used to predict spontaneity and measure electrode potentials.'
+      },
+      {
+        type: 'Electrolysis Calculations',
+        description: 'Determining products and quantities in electrolysis.',
+        when: 'Used in electroplating and metal refining processes.'
+      }
+    ],
+    
+    // Relationships With Other Topics
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Thermodynamics Calculators',
+          slug: 'thermodynamics-calculators',
+          relationship: 'Cell potential is related to Gibbs free energy change.'
+        }
+      ],
+      broaderConcepts: [
+        'Redox Reactions',
+        'Energy Conversion',
+        'Electrode Processes'
+      ]
+    },
+    
+    // FAQ Section
+    faqs: [
+      {
+        question: 'What is the difference between galvanic and electrolytic cells?',
+        answer: 'Galvanic cells convert chemical energy to electrical energy (batteries), while electrolytic cells use electrical energy to drive non-spontaneous reactions.'
+      }
+    ],
     
     commonMistakes: [
       'Confusing anode and cathode in different cell types',
@@ -420,6 +714,7 @@ export const clusterPages: ClusterPageData[] = [
     entityDefinition: {
       intro: 'Physical chemistry calculators apply mathematical principles to understand the physical properties and behavior of chemical systems, from gas laws to colligative properties.',
       whatItMeasures: 'These tools calculate ideal gas law relationships, real gas behavior, colligative properties (boiling point elevation, freezing point depression, osmotic pressure), and vapor pressure.',
+      whyCalculationsNeeded: 'Physical chemistry calculations are essential for understanding how matter behaves under different conditions, predicting phase changes, and explaining macroscopic properties from molecular interactions.',
       formulasInvolved: [
         'PV = nRT (Ideal gas law)',
         'ΔTb = Kb·m (Boiling point elevation)',
@@ -434,6 +729,62 @@ export const clusterPages: ClusterPageData[] = [
       industry: 'Chemical engineering, refrigeration, and process design applications rely on physical chemistry principles.',
       research: 'Atmospheric chemistry, materials science, and computational modeling use physical chemistry calculations.'
     },
+    
+    // Historical & Conceptual Background
+    historicalContext: {
+      origin: 'Physical chemistry emerged in the 19th century with the work of chemists like van der Waals and Arrhenius.',
+      evolution: 'The development of quantum mechanics and statistical thermodynamics expanded the field significantly.',
+      significance: 'Physical chemistry provides the theoretical foundation for understanding chemical behavior and properties.'
+    },
+    
+    // Core Formulas
+    coreFormulas: [
+      {
+        formula: 'PV = nRT',
+        name: 'Ideal Gas Law',
+        variables: 'P = pressure, V = volume, n = moles, R = gas constant, T = temperature',
+        units: 'various',
+        explanation: 'The ideal gas law relates the physical properties of gases.'
+      }
+    ],
+    
+    // Types of Calculations
+    calculationTypes: [
+      {
+        type: 'Gas Law Calculations',
+        description: 'Solving for pressure, volume, temperature, or moles in gas systems.',
+        when: 'Used in gas behavior predictions and laboratory gas measurements.'
+      },
+      {
+        type: 'Colligative Property Calculations',
+        description: 'Calculating boiling point elevation, freezing point depression, etc.',
+        when: 'Used for solutions and phase change predictions.'
+      }
+    ],
+    
+    // Relationships With Other Topics
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Thermodynamics Calculators',
+          slug: 'thermodynamics-calculators',
+          relationship: 'Physical chemistry provides the microscopic basis for thermodynamic principles.'
+        }
+      ],
+      broaderConcepts: [
+        'Molecular Interactions',
+        'Phase Behavior',
+        'Energy Transfer'
+      ]
+    },
+    
+    // FAQ Section
+    faqs: [
+      {
+        question: 'What is the difference between ideal and real gases?',
+        answer: 'Ideal gases follow PV = nRT exactly, while real gases deviate due to intermolecular forces and molecular volume.'
+      }
+    ],
     
     commonMistakes: [
       'Using wrong gas constant value for units',
@@ -461,6 +812,7 @@ export const clusterPages: ClusterPageData[] = [
     entityDefinition: {
       intro: 'Organic chemistry calculators analyze carbon-containing compounds, determining structural features, nomenclature, and molecular properties essential for understanding organic reactions.',
       whatItMeasures: 'These calculators determine degree of unsaturation (DBE), molecular geometry using VSEPR theory, functional groups, isomer counts, and hybridization states.',
+      whyCalculationsNeeded: 'Organic chemistry calculations are crucial for predicting molecular structure, reactivity, and properties of carbon-based compounds, which form the basis of life and many materials.',
       formulasInvolved: [
         'DBE = (2C + 2 + N - H - X)/2',
         'Steric number = bonds + lone pairs',
@@ -475,6 +827,62 @@ export const clusterPages: ClusterPageData[] = [
       industry: 'Pharmaceutical, polymer, and fine chemical industries rely on organic structure analysis for drug design and synthesis.',
       research: 'Organic synthesis, natural product chemistry, and medicinal chemistry research require detailed structural analysis.'
     },
+    
+    // Historical & Conceptual Background
+    historicalContext: {
+      origin: 'Organic chemistry began with the study of compounds from living organisms in the early 19th century.',
+      evolution: 'The development of structural theory and spectroscopic methods revolutionized organic chemistry.',
+      significance: 'Organic chemistry is fundamental to understanding life processes and developing new materials.'
+    },
+    
+    // Core Formulas
+    coreFormulas: [
+      {
+        formula: 'DBE = (2C + 2 + N - H - X)/2',
+        name: 'Degree of Unsaturation',
+        variables: 'C = carbons, N = nitrogens, H = hydrogens, X = halogens',
+        units: 'dimensionless',
+        explanation: 'Calculates the number of rings and double bonds in a molecule.'
+      }
+    ],
+    
+    // Types of Calculations
+    calculationTypes: [
+      {
+        type: 'Structure Determination',
+        description: 'Analyzing molecular formulas to determine possible structures.',
+        when: 'Used in spectroscopic analysis and unknown compound identification.'
+      },
+      {
+        type: 'Nomenclature',
+        description: 'Systematic naming of organic compounds.',
+        when: 'Essential for clear communication in organic chemistry.'
+      }
+    ],
+    
+    // Relationships With Other Topics
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Stoichiometry Calculators',
+          slug: 'stoichiometry-calculators',
+          relationship: 'Organic reactions follow stoichiometric principles for yield calculations.'
+        }
+      ],
+      broaderConcepts: [
+        'Molecular Structure',
+        'Reactivity Patterns',
+        'Functional Groups'
+      ]
+    },
+    
+    // FAQ Section
+    faqs: [
+      {
+        question: 'What is the difference between constitutional isomers and stereoisomers?',
+        answer: 'Constitutional isomers have different connectivity of atoms, while stereoisomers have the same connectivity but different spatial arrangements.'
+      }
+    ],
     
     commonMistakes: [
       'Incorrectly counting hydrogen atoms in condensed formulas',
@@ -502,6 +910,7 @@ export const clusterPages: ClusterPageData[] = [
     entityDefinition: {
       intro: 'Biochemistry calculators apply chemical principles to biological systems, analyzing enzyme kinetics, protein properties, DNA/RNA calculations, and buffer systems.',
       whatItMeasures: 'These tools calculate Michaelis-Menten kinetics, protein molecular weight, isoelectric point, DNA/RNA concentration from absorbance, melting temperature, and buffer capacity.',
+      whyCalculationsNeeded: 'Biochemical calculations are essential for understanding biological processes, drug design, genetic analysis, and maintaining physiological conditions.',
       formulasInvolved: [
         'v = (Vmax·[S])/(Km + [S]) (Michaelis-Menten)',
         'pH = pKa + log([A⁻]/[HA]) (Henderson-Hasselbalch)',
@@ -516,6 +925,62 @@ export const clusterPages: ClusterPageData[] = [
       industry: 'Biotechnology and pharmaceutical companies rely on biochemistry calculations for drug development and quality control.',
       research: 'Enzyme engineering, protein design, and genomics research require extensive biochemical calculations.'
     },
+    
+    // Historical & Conceptual Background
+    historicalContext: {
+      origin: 'Biochemistry emerged from the study of fermentation and enzyme action in the late 19th century.',
+      evolution: 'The discovery of DNA structure and enzyme mechanisms revolutionized biochemistry in the 20th century.',
+      significance: 'Biochemistry provides the chemical basis for understanding life processes and developing medical treatments.'
+    },
+    
+    // Core Formulas
+    coreFormulas: [
+      {
+        formula: 'v = (Vmax·[S])/(Km + [S])',
+        name: 'Michaelis-Menten Equation',
+        variables: 'v = reaction velocity, Vmax = maximum velocity, [S] = substrate concentration, Km = Michaelis constant',
+        units: 'various',
+        explanation: 'Describes enzyme-catalyzed reaction kinetics.'
+      }
+    ],
+    
+    // Types of Calculations
+    calculationTypes: [
+      {
+        type: 'Enzyme Kinetics',
+        description: 'Analyzing enzyme reaction rates and mechanisms.',
+        when: 'Used in drug design and metabolic studies.'
+      },
+      {
+        type: 'Protein Analysis',
+        description: 'Calculating protein properties and concentrations.',
+        when: 'Essential for protein purification and characterization.'
+      }
+    ],
+    
+    // Relationships With Other Topics
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Acid-Base Calculators',
+          slug: 'acid-base-calculators',
+          relationship: 'Buffer systems in biochemistry rely on acid-base equilibrium calculations.'
+        }
+      ],
+      broaderConcepts: [
+        'Molecular Biology',
+        'Metabolism',
+        'Enzyme Function'
+      ]
+    },
+    
+    // FAQ Section
+    faqs: [
+      {
+        question: 'What is the difference between Km and Vmax?',
+        answer: 'Km is the substrate concentration at half-maximum velocity and indicates enzyme affinity. Vmax is the maximum reaction rate.'
+      }
+    ],
     
     commonMistakes: [
       'Confusing Km with Kd or affinity',
@@ -600,27 +1065,27 @@ export const clusterPages: ClusterPageData[] = [
       {
         type: 'Isotope Average Atomic Mass',
         description: 'Calculate weighted average mass from isotope data',
-        whenToUse: 'When determining the atomic mass of elements with multiple natural isotopes using abundance data'
+        when: 'When determining the atomic mass of elements with multiple natural isotopes using abundance data'
       },
       {
         type: 'Electron Configuration',
         description: 'Determine electron distribution in orbitals',
-        whenToUse: 'When predicting chemical properties, bonding behavior, or ionization patterns of atoms and ions'
+        when: 'When predicting chemical properties, bonding behavior, or ionization patterns of atoms and ions'
       },
       {
         type: 'Valence Electron Determination',
         description: 'Identify outermost electrons for bonding',
-        whenToUse: 'When predicting chemical reactivity, oxidation states, or drawing Lewis structures'
+        when: 'When predicting chemical reactivity, oxidation states, or drawing Lewis structures'
       },
       {
         type: 'Quantum Number Calculations',
         description: 'Calculate n, l, ml, ms values for electrons',
-        whenToUse: 'When describing electron states in atoms or understanding spectroscopic transitions'
+        when: 'When describing electron states in atoms or understanding spectroscopic transitions'
       },
       {
         type: 'Oxidation State Assignment',
         description: 'Determine oxidation numbers in compounds',
-        whenToUse: 'When balancing redox reactions, predicting compound formation, or analyzing electron transfer'
+        when: 'When balancing redox reactions, predicting compound formation, or analyzing electron transfer'
       }
     ],
     
@@ -637,18 +1102,18 @@ export const clusterPages: ClusterPageData[] = [
       connectedTopics: [
         {
           topic: 'Chemical Bonding',
-          relationship: 'Electron configurations determine bonding capacity and molecular geometry',
-          linkTo: '#'
+          slug: 'chemical-bonding-calculators',
+          relationship: 'Electron configurations determine bonding capacity and molecular geometry'
         },
         {
           topic: 'Periodic Trends',
-          relationship: 'Atomic structure explains periodic table organization and elemental properties',
-          linkTo: '#'
+          slug: 'periodic-trends-calculators',
+          relationship: 'Atomic structure explains periodic table organization and elemental properties'
         },
         {
           topic: 'Spectroscopy',
-          relationship: 'Electron transitions between energy levels produce characteristic spectra',
-          linkTo: '#'
+          slug: 'spectroscopy-calculators',
+          relationship: 'Electron transitions between energy levels produce characteristic spectra'
         }
       ],
       broaderConcepts: [
@@ -709,5 +1174,5 @@ export const getRelatedClusterPages = (slug: string) => {
   
   return currentPage.relatedClusters
     .map(relatedSlug => getClusterPageBySlug(relatedSlug))
-    .filter(Boolean);
+    .filter((item): item is ClusterPageData => item !== undefined);
 };

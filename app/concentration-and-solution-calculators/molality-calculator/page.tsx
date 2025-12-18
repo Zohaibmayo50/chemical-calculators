@@ -59,7 +59,7 @@ export default function MolalityCalculatorPage() {
                 </h2>
                 <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    This molality calculator determines the <strong>concentration of a solution</strong> by dividing the number of moles of solute by the mass of solvent in kilograms. Unlike molarity, molality (m) is temperature-independent because it's based on mass rather than volume.
+                    This molality calculator determines the <strong>concentration of a solution</strong> by dividing the number of moles of solute by the mass of solvent in kilograms. Unlike molarity, molality (m) is temperature-independent because it&#39;s based on mass rather than volume.
                   </p>
                 </div>
               </section>
@@ -301,7 +301,7 @@ export default function MolalityCalculatorPage() {
                   What is molality in chemistry?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Molality (m) is a measure of concentration defined as moles of solute per kilogram of solvent. Unlike molarity, it's temperature-independent since it's based on mass, not volume.
+                  Molality (m) is a measure of concentration defined as moles of solute per kilogram of solvent. Unlike molarity, it&#39;s temperature-independent since it&#39;s based on mass, not volume.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
@@ -309,7 +309,7 @@ export default function MolalityCalculatorPage() {
                   How is molality different from molarity?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Molality uses kilograms of solvent (m = mol/kg) and doesn't change with temperature. Molarity uses liters of solution (M = mol/L) and varies with temperature as liquids expand/contract.
+                  Molality uses kilograms of solvent (m = mol/kg) and doesn&#39;t change with temperature. Molarity uses liters of solution (M = mol/L) and varies with temperature as liquids expand/contract.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
@@ -317,7 +317,7 @@ export default function MolalityCalculatorPage() {
                   Why use molality instead of molarity?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Molality is preferred when temperature changes are involved (colligative properties, thermodynamics) because mass doesn't change with temperature, ensuring constant concentration values.
+                  Molality is preferred when temperature changes are involved (colligative properties, thermodynamics) because mass doesn&#39;t change with temperature, ensuring constant concentration values.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">

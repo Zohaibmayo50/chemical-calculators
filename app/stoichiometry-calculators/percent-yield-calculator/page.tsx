@@ -301,7 +301,7 @@ export default function PercentYieldCalculatorPage() {
                   What is percent yield in chemistry?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Percent yield measures reaction efficiency by comparing actual product obtained to the maximum theoretical amount possible. It's expressed as a percentage, with 100% being a perfect reaction.
+                  Percent yield measures reaction efficiency by comparing actual product obtained to the maximum theoretical amount possible. It&#39;s expressed as a percentage, with 100% being a perfect reaction.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
@@ -309,7 +309,7 @@ export default function PercentYieldCalculatorPage() {
                   Can percent yield exceed 100%?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  No, percent yield should never exceed 100%. If it does, there's an error—likely impurities in the product, incomplete drying, incorrect theoretical calculation, or measurement mistakes.
+                  No, percent yield should never exceed 100%. If it does, there&#39;s an error—likely impurities in the product, incomplete drying, incorrect theoretical calculation, or measurement mistakes.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
@@ -325,7 +325,7 @@ export default function PercentYieldCalculatorPage() {
                   Why is percent yield less than 100%?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Common reasons include incomplete reactions, side reactions, product loss during purification, measurement errors, and reversible equilibrium reactions that don't go to completion.
+                  Common reasons include incomplete reactions, side reactions, product loss during purification, measurement errors, and reversible equilibrium reactions that don&#39;t go to completion.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
@@ -341,7 +341,7 @@ export default function PercentYieldCalculatorPage() {
                   Does temperature affect percent yield?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Yes indirectly. Temperature doesn't change the theoretical yield calculation, but it affects reaction rate, equilibrium position, and side reactions—all of which impact actual yield and thus percent yield.
+                  Yes indirectly. Temperature doesn&#39;t change the theoretical yield calculation, but it affects reaction rate, equilibrium position, and side reactions—all of which impact actual yield and thus percent yield.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">

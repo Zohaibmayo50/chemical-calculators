@@ -312,7 +312,7 @@ export default function StoichiometryCalculatorsPage() {
                 </div>
                 <div>
                   <h3 className="font-heading text-xl font-bold text-gray-900 dark:text-white mb-2">Mole Conversions</h3>
-                  <p className="text-gray-600 dark:text-gray-300">Convert between mass, moles, and particles using molar mass and Avogadro's number. The mole is the bridge between the microscopic world of atoms and the macroscopic world of grams.</p>
+                  <p className="text-gray-600 dark:text-gray-300">Convert between mass, moles, and particles using molar mass and Avogadro&#39;s number. The mole is the bridge between the microscopic world of atoms and the macroscopic world of grams.</p>
                 </div>
               </div>
             </div>

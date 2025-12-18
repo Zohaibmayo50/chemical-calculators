@@ -97,7 +97,7 @@ export default function EducationalLevels() {
         <div className="mt-12 bg-gradient-to-r from-primary-600 to-primary-700 rounded-2xl p-8 text-white shadow-2xl">
           <h3 className="text-2xl font-bold mb-4">Chemistry Problem Solvers for Every Student</h3>
           <p className="text-lg leading-relaxed">
-            Whether you're working on <strong>chemistry homework calculators</strong> for basic problems or 
+            Whether you&#39;re working on <strong>chemistry homework calculators</strong> for basic problems or 
             need advanced <strong>chemistry problem solvers</strong> for research, our tools provide accurate 
             results with clear explanations. All calculators include formula references and step-by-step logic 
             to help you learn while solving problems.

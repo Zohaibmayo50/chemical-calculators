@@ -301,7 +301,7 @@ export default function MolarityCalculatorPage() {
                   What is molarity in chemistry?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Molarity (M) is a measure of concentration defined as the number of moles of solute per liter of solution. It's expressed as mol/L or M and is temperature-dependent since volume changes with temperature.
+                  Molarity (M) is a measure of concentration defined as the number of moles of solute per liter of solution. It&#39;s expressed as mol/L or M and is temperature-dependent since volume changes with temperature.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
@@ -314,7 +314,7 @@ export default function MolarityCalculatorPage() {
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
                 <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-3">
-                  What's the difference between molarity and molality?
+                  What&#39;s the difference between molarity and molality?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
                   Molarity (M) uses liters of solution and changes with temperature, while molality (m) uses kilograms of solvent and is temperature-independent. Molarity is more common in lab work.
@@ -341,7 +341,7 @@ export default function MolarityCalculatorPage() {
                   How does temperature affect molarity?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  As temperature increases, liquids expand, increasing volume and decreasing molarity. This is why molality is preferred for temperature-sensitive applications, as it doesn't depend on volume.
+                  As temperature increases, liquids expand, increasing volume and decreasing molarity. This is why molality is preferred for temperature-sensitive applications, as it doesn&#39;t depend on volume.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">

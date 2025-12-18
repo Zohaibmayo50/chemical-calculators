@@ -66,7 +66,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
 
       {isFocused && query && results.length === 0 && (
         <div className="absolute z-50 w-full mt-2 bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-xl shadow-xl p-4 animate-fade-in">
-          <p className="text-gray-600 dark:text-gray-300 text-center">No calculators found for "{query}"</p>
+          <p className="text-gray-600 dark:text-gray-300 text-center">No calculators found for &#34;{query}&#34;</p>
         </div>
       )}
     </div>
