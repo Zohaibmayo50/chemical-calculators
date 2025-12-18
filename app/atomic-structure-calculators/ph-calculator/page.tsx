@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: '/chemical-reaction-calculators/ph-calculator'
+    canonical: '/atomic-structure-calculators/ph-calculator'
   }
 };
 
@@ -27,8 +27,8 @@ export default function PhCalculatorPage() {
               Home
             </Link>
             <span className="text-gray-400">/</span>
-            <Link href="/chemical-reaction-calculators" className="text-primary-600 dark:text-primary-400 hover:underline">
-              Chemical Reaction Calculators
+            <Link href="/atomic-structure-calculators" className="text-primary-600 dark:text-primary-400 hover:underline">
+              Atomic Structure Calculators
             </Link>
             <span className="text-gray-400">/</span>
             <span className="text-gray-600 dark:text-gray-300">pH Calculator</span>
