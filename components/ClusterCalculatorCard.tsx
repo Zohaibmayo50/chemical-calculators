@@ -3,12 +3,13 @@ import { Calculator } from '@/data/calculators';
 interface ClusterCalculatorCardProps {
   calculator: Calculator;
   index: number;
+  clusterSlug?: string;
 }
 
-export default function ClusterCalculatorCard({ calculator, index }: ClusterCalculatorCardProps) {
+export default function ClusterCalculatorCard({ calculator, index, clusterSlug }: ClusterCalculatorCardProps) {
   return (
     <a
-      href={`/${calculator.slug}`}
+      href={clusterSlug ? `/${clusterSlug}/${calculator.slug}` : `/${calculator.slug}`}
       className="block group bg-white dark:bg-gray-800 rounded-xl p-6 border-2 border-gray-200 dark:border-gray-600 hover:border-primary-500 dark:hover:border-primary-400 hover:shadow-xl dark:hover:shadow-primary-900/50 transition-all duration-300 transform hover:-translate-y-1 animate-fade-in-up"
       style={{ animationDelay: `${index * 50}ms` }}
     >

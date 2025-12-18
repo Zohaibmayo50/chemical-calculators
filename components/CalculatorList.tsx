@@ -2,6 +2,7 @@ import { Calculator } from '@/data/calculators';
 
 interface CalculatorListProps {
   calculators: Calculator[];
+  clusterSlug?: string;
 }
 
 const colorSchemes = [
@@ -11,7 +12,7 @@ const colorSchemes = [
   'from-tertiary-50 to-tertiary-100 dark:from-tertiary-900/30 dark:to-tertiary-800/30',
 ];
 
-export default function CalculatorList({ calculators }: CalculatorListProps) {
+export default function CalculatorList({ calculators, clusterSlug }: CalculatorListProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {calculators.map((calc, index) => {
@@ -19,7 +20,7 @@ export default function CalculatorList({ calculators }: CalculatorListProps) {
         return (
         <a
           key={calc.id}
-          href={`/${calc.slug}`}
+          href={clusterSlug ? `/${clusterSlug}/${calc.slug}` : `/${calc.slug}`}
           id={calc.slug}
           className="block group bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-700 border-2 border-gray-200 dark:border-gray-600 rounded-2xl p-6 hover:border-primary-500 dark:hover:border-primary-400 hover:shadow-2xl hover:shadow-primary-200/50 dark:hover:shadow-primary-900/50 transition-all duration-300 transform hover:-translate-y-2 hover:scale-[1.02] animate-zoom-in hover:animate-float"
           style={{ animationDelay: `${index * 50}ms` }}

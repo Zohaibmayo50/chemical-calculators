@@ -126,6 +126,7 @@ export default function StoichiometryCalculatorsPage() {
                 key={calculator.id}
                 calculator={calculator}
                 index={index}
+                clusterSlug="stoichiometry-calculators"
               />
             ))}
           </div>

@@ -9,6 +9,21 @@ interface ClusterSectionProps {
 export default function ClusterSection({ category, index }: ClusterSectionProps) {
   const isEven = index % 2 === 0;
   
+  // Map category IDs to cluster slugs
+  const categoryToClusterSlug: Record<string, string> = {
+    'stoichiometry': 'stoichiometry-calculators',
+    'solutions-concentrations': 'concentration-and-solution-calculators',
+    'chemical-reactions': 'chemical-reaction-calculators',
+    'thermodynamics': 'thermodynamics-calculators',
+    'electrochemistry': 'electrochemistry-calculators',
+    'physical-chemistry': 'physical-chemistry-calculators',
+    'organic-chemistry': 'organic-chemistry-calculators',
+    'biochemistry': 'biochemistry-calculators',
+    'general-chemistry': 'atomic-structure-calculators'
+  };
+  
+  const clusterSlug = categoryToClusterSlug[category.id] || category.id;
+  
   return (
     <section 
       id={category.id}
@@ -33,7 +48,7 @@ export default function ClusterSection({ category, index }: ClusterSectionProps)
           </div>
         </div>
 
-        <CalculatorList calculators={category.calculators} />
+        <CalculatorList calculators={category.calculators} clusterSlug={clusterSlug} />
       </div>
     </section>
   );

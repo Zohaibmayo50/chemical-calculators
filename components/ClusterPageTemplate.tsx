@@ -154,7 +154,7 @@ export default function ClusterPageTemplate({ clusterData, category, relatedClus
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {category.calculators.map((calculator, index) => (
-              <ClusterCalculatorCard key={calculator.id} calculator={calculator} index={index} />
+              <ClusterCalculatorCard key={calculator.id} calculator={calculator} index={index} clusterSlug={clusterData.slug} />
             ))}
           </div>
         </div>

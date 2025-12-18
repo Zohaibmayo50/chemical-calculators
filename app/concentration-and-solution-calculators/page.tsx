@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function ConcentrationSolutionCalculatorsPage() {
   const clusterData = getClusterPageBySlug('concentration-and-solution-calculators');
-  const category = calculatorCategories.find(cat => cat.id === 'concentration-and-solution');
+  const category = calculatorCategories.find(cat => cat.id === 'solutions-concentrations');
   const relatedClusters = getRelatedClusterPages('concentration-and-solution-calculators');
 
   if (!clusterData || !category) {
@@ -160,6 +160,7 @@ export default function ConcentrationSolutionCalculatorsPage() {
                 key={calculator.id}
                 calculator={calculator}
                 index={index}
+                clusterSlug="concentration-and-solution-calculators"
               />
             ))}
           </div>
