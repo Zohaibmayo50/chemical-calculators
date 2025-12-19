@@ -14,35 +14,43 @@ export default function IdealGasLawCalculatorPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
-        <div className="max-w-4xl mx-auto">
-          {/* Breadcrumb */}
-          <nav className="mb-4 text-sm text-gray-600 dark:text-gray-400">
-            <Link href="/" className="hover:text-primary-600 dark:hover:text-primary-400">Home</Link>
-            <span className="mx-2">/</span>
-            <Link href="/physical-chemistry-calculators" className="hover:text-primary-600 dark:hover:text-primary-400">
+      <main className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-primary-50/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        {/* Breadcrumb Navigation */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+          <nav className="flex items-center gap-2 text-sm mb-6 animate-fade-in">
+            <Link href="/" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors">
+              Chemistry Calculators
+            </Link>
+            <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            <Link href="/physical-chemistry-calculators" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors">
               Physical Chemistry Calculators
             </Link>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900 dark:text-white">Ideal Gas Law Calculator</span>
+            <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            <span className="text-gray-600 dark:text-gray-300">Ideal Gas Law Calculator</span>
           </nav>
+        </div>
 
-          {/* Page Title */}
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Ideal Gas Law Calculator
-          </h1>
+        {/* Main Content Container */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Left Column - Calculator (ABOVE THE FOLD) */}
+            <div className="lg:col-span-2">
+              {/* H1 Title */}
+              <h1 className="font-display text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in-up">
+                Ideal Gas Law Calculator
+              </h1>
 
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Calculate pressure (P), volume (V), moles (n), or temperature (T) using the fundamental ideal gas equation PV = nRT. Essential for chemistry, physics, and engineering applications.
-          </p>
-
-          {/* Calculator Component */}
-          <div className="mb-12">
-            <IdealGasLawCalculator />
-          </div>
+              {/* Calculator Tool - FIRST ELEMENT */}
+              <div className="animate-slide-in-up" style={{ animationDelay: '100ms' }}>
+                <IdealGasLawCalculator />
+              </div>
 
           {/* Educational Content */}
-          <div className="space-y-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+          <div className="space-y-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mt-8">
             {/* What It Does Section */}
             <section>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
@@ -412,6 +420,105 @@ export default function IdealGasLawCalculatorPage() {
                 </div>
               </div>
             </section>
+          </div>
+            </div>
+
+            {/* Right Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-8 space-y-6">
+                {/* Key Information */}
+                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 animate-fade-in">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Quick Reference</h3>
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Units</p>
+                        <p className="text-gray-600 dark:text-gray-400">atm, L, mol, K</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Formula</p>
+                        <p className="text-gray-600 dark:text-gray-400">PV = nRT</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Applications</p>
+                        <p className="text-gray-600 dark:text-gray-400">Gas behavior, engineering</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Level</p>
+                        <p className="text-gray-600 dark:text-gray-400">High school chemistry</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Related Calculators */}
+                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 animate-fade-in" style={{ animationDelay: '100ms' }}>
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Calculators</h3>
+                  <div className="space-y-2">
+                    <Link href="/concentration-and-solution-calculators/molarity-calculator" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Molarity Calculator</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Calculate molar concentration</p>
+                    </Link>
+                    <Link href="/stoichiometry-calculators/stoichiometry-calculator" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Stoichiometry Calculator</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Balance equations</p>
+                    </Link>
+                    <Link href="/concentration-and-solution-calculators/solution-preparation-calculator" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Solution Preparation</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Prepare lab solutions</p>
+                    </Link>
+                    <Link href="/physical-chemistry-calculators" className="block p-3 rounded-lg bg-primary-50 dark:bg-primary-900/20 hover:bg-primary-100 dark:hover:bg-primary-900/30 transition-colors group">
+                      <p className="font-semibold text-primary-700 dark:text-primary-300">View All Physical Chemistry Calculators →</p>
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Where It's Used */}
+                <div className="bg-gradient-to-br from-primary-50 to-accent-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-6 shadow-lg border border-primary-200 dark:border-primary-700 animate-fade-in" style={{ animationDelay: '200ms' }}>
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Where It&apos;s Used</h3>
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🎈</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Engineering</p>
+                        <p className="text-gray-600 dark:text-gray-400">HVAC, compression</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🔬</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Laboratory</p>
+                        <p className="text-gray-600 dark:text-gray-400">Gas calculations</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🏥</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Medical</p>
+                        <p className="text-gray-600 dark:text-gray-400">Respiratory therapy</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🏭</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Industry</p>
+                        <p className="text-gray-600 dark:text-gray-400">Process control</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
