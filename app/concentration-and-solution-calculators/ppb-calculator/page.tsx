@@ -584,6 +584,103 @@ export default function PPBCalculatorPage() {
         </div>
       </section>
             </div>
+
+            {/* Right Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-8 space-y-6">
+                {/* Key Information */}
+                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 animate-fade-in">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Quick Reference</h3>
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Units</p>
+                        <p className="text-gray-600 dark:text-gray-400">ppb, μg/L, μg/kg</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Formula</p>
+                        <p className="text-gray-600 dark:text-gray-400">ppb = (mass solute/mass solution) × 10⁹</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Applications</p>
+                        <p className="text-gray-600 dark:text-gray-400">Trace analysis, environmental</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Level</p>
+                        <p className="text-gray-600 dark:text-gray-400">Advanced chemistry</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Related Calculators */}
+                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 animate-fade-in" style={{ animationDelay: '100ms' }}>
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Calculators</h3>
+                  <div className="space-y-2">
+                    <Link href="/concentration-and-solution-calculators/concentration-converter" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Concentration Converter</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Convert between units</p>
+                    </Link>
+                    <Link href="/concentration-and-solution-calculators/ppm-calculator" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">PPM Calculator</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Calculate parts per million</p>
+                    </Link>
+                    <Link href="/concentration-and-solution-calculators/mass-percent-calculator" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Mass Percent Calculator</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Calculate mass percentage</p>
+                    </Link>
+                    <Link href="/concentration-and-solution-calculators" className="block p-3 rounded-lg bg-primary-50 dark:bg-primary-900/20 hover:bg-primary-100 dark:hover:bg-primary-900/30 transition-colors group">
+                      <p className="font-semibold text-primary-700 dark:text-primary-300">View All Concentration Calculators →</p>
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Where It's Used */}
+                <div className="bg-gradient-to-br from-primary-50 to-accent-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-6 shadow-lg border border-primary-200 dark:border-primary-700 animate-fade-in" style={{ animationDelay: '200ms' }}>
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Where It&apos;s Used</h3>
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🔬</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Research Labs</p>
+                        <p className="text-gray-600 dark:text-gray-400">Ultrapure analysis</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">💻</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Semiconductor</p>
+                        <p className="text-gray-600 dark:text-gray-400">Purity control</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🍎</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Food Safety</p>
+                        <p className="text-gray-600 dark:text-gray-400">Contaminant testing</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🌍</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Environmental</p>
+                        <p className="text-gray-600 dark:text-gray-400">Pollution monitoring</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>

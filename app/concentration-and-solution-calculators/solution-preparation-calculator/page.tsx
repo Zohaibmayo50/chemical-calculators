@@ -14,35 +14,43 @@ export default function SolutionPreparationPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
-        <div className="max-w-4xl mx-auto">
-          {/* Breadcrumb */}
-          <nav className="mb-4 text-sm text-gray-600 dark:text-gray-400">
-            <Link href="/" className="hover:text-primary-600 dark:hover:text-primary-400">Home</Link>
-            <span className="mx-2">/</span>
-            <Link href="/concentration-and-solution-calculators" className="hover:text-primary-600 dark:hover:text-primary-400">
+      <main className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-primary-50/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        {/* Breadcrumb Navigation */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+          <nav className="flex items-center gap-2 text-sm mb-6 animate-fade-in">
+            <Link href="/" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors">
+              Chemistry Calculators
+            </Link>
+            <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            <Link href="/concentration-and-solution-calculators" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors">
               Concentration & Solution Calculators
             </Link>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900 dark:text-white">Solution Preparation Calculator</span>
+            <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            <span className="text-gray-600 dark:text-gray-300">Solution Preparation Calculator</span>
           </nav>
+        </div>
 
-          {/* Page Title */}
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Solution Preparation Calculator
-          </h1>
+        {/* Main Content Container */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Left Column - Calculator (ABOVE THE FOLD) */}
+            <div className="lg:col-span-2">
+              {/* H1 Title */}
+              <h1 className="font-display text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in-up">
+                Solution Preparation Calculator
+              </h1>
 
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Calculate the mass of solute needed, volume required, or resulting molarity for laboratory solution preparation. Perfect for chemistry students, researchers, and laboratory technicians.
-          </p>
-
-          {/* Calculator Component */}
-          <div className="mb-12">
-            <SolutionPreparationCalculator />
-          </div>
+              {/* Calculator Tool - FIRST ELEMENT */}
+              <div className="animate-slide-in-up" style={{ animationDelay: '100ms' }}>
+                <SolutionPreparationCalculator />
+              </div>
 
           {/* Educational Content */}
-          <div className="space-y-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+          <div className="space-y-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mt-8">
             {/* What It Does Section */}
             <section>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
@@ -449,6 +457,105 @@ export default function SolutionPreparationPage() {
                 </div>
               </div>
             </section>
+          </div>
+            </div>
+
+            {/* Right Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-8 space-y-6">
+                {/* Key Information */}
+                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 animate-fade-in">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Quick Reference</h3>
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Units</p>
+                        <p className="text-gray-600 dark:text-gray-400">M, g, L, g/mol</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Formula</p>
+                        <p className="text-gray-600 dark:text-gray-400">mass = M × V × MM</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Applications</p>
+                        <p className="text-gray-600 dark:text-gray-400">Lab solution prep</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary-600 dark:text-primary-400 mt-1">▸</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Level</p>
+                        <p className="text-gray-600 dark:text-gray-400">High school chemistry</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Related Calculators */}
+                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 animate-fade-in" style={{ animationDelay: '100ms' }}>
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Calculators</h3>
+                  <div className="space-y-2">
+                    <Link href="/concentration-and-solution-calculators/molarity-calculator" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Molarity Calculator</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Calculate molar concentration</p>
+                    </Link>
+                    <Link href="/concentration-and-solution-calculators/dilution-calculator" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Dilution Calculator</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Dilute solutions</p>
+                    </Link>
+                    <Link href="/concentration-and-solution-calculators/concentration-converter" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Concentration Converter</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Convert between units</p>
+                    </Link>
+                    <Link href="/concentration-and-solution-calculators" className="block p-3 rounded-lg bg-primary-50 dark:bg-primary-900/20 hover:bg-primary-100 dark:hover:bg-primary-900/30 transition-colors group">
+                      <p className="font-semibold text-primary-700 dark:text-primary-300">View All Concentration Calculators →</p>
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Where It's Used */}
+                <div className="bg-gradient-to-br from-primary-50 to-accent-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-6 shadow-lg border border-primary-200 dark:border-primary-700 animate-fade-in" style={{ animationDelay: '200ms' }}>
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Where It&apos;s Used</h3>
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🧪</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Laboratory</p>
+                        <p className="text-gray-600 dark:text-gray-400">Solution preparation</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🔬</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Research</p>
+                        <p className="text-gray-600 dark:text-gray-400">Chemical analysis</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🏥</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Medical</p>
+                        <p className="text-gray-600 dark:text-gray-400">Drug formulations</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <span className="text-2xl">🏭</span>
+                      <div>
+                        <p className="font-semibold text-gray-900 dark:text-white">Industry</p>
+                        <p className="text-gray-600 dark:text-gray-400">Process solutions</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
