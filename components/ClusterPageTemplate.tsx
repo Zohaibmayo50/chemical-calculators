@@ -238,8 +238,37 @@ export default function ClusterPageTemplate({ clusterData, category, relatedClus
         </div>
       </section>
 
-      {/* Related Topics */}
+      {/* FAQ Section */}
       <section className="py-16 bg-white dark:bg-gray-800">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-heading text-4xl font-bold text-gray-900 dark:text-white mb-4 text-center animate-rotate-in">
+            Frequently Asked Questions
+          </h2>
+          <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '100ms' }}>
+            Common questions about {clusterData.h1.toLowerCase()}
+          </p>
+          <div className="space-y-6">
+            {clusterData.faqs.map((faq, index) => (
+              <div 
+                key={index}
+                className="bg-gradient-to-r from-gray-50 to-primary-50 dark:from-gray-700 dark:to-gray-900 rounded-xl p-6 shadow-md animate-slide-in-left"
+                style={{ animationDelay: `${index * 80}ms` }}
+              >
+                <h3 className="font-heading text-xl font-bold text-primary-700 dark:text-primary-400 mb-3 flex items-start gap-3">
+                  <svg className="w-6 h-6 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  {faq.question}
+                </h3>
+                <p className="text-gray-700 dark:text-gray-300 leading-relaxed ml-9">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Related Topics */}
+      <section className={`py-16 bg-gradient-to-br ${colors.gradient}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-4xl font-bold text-gray-900 dark:text-white mb-4 text-center animate-swing">
             Related Calculator Topics
