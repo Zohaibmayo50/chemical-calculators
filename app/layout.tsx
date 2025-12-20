@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chemical Calculators | 102+ Chemistry Tools',
+    title: 'Chemical Calculators | 100+ Chemistry Tools',
     description: 'Comprehensive chemistry calculation tools covering stoichiometry, solutions, thermodynamics, equilibrium, and more.',
   },
   robots: {

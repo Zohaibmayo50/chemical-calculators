@@ -104,7 +104,7 @@ export default function Hero() {
               <div className="w-2 h-2 rounded-full bg-accent-400" />
               <div className="w-2 h-2 rounded-full bg-accent-300" />
             </div>
-            <span className="text-white font-medium text-sm">102+ Chemistry Tools</span>
+            <span className="text-white font-medium text-sm">100+ Chemistry Tools</span>
           </div>
 
           {/* Main Heading */}

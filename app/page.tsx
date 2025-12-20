@@ -14,8 +14,8 @@ import { calculatorCategories, getTotalCalculatorCount } from '@/data/calculator
 import { clusterPages } from '@/data/clusterPages';
 
 export const metadata: Metadata = {
-  title: 'Chemical Calculators | 102+ Chemistry Tools & Calculation Solvers',
-  description: 'A complete collection of 102+ chemical calculators covering molarity, molality, stoichiometry, pH, thermodynamics, equilibrium, electrochemistry, organic chemistry, and biochemistry. Free, accurate chemistry calculation tools for students, researchers, and professionals.',
+  title: 'Chemical Calculators | 100+ Chemistry Tools & Calculation Solvers',
+  description: 'A complete collection of 100+ chemical calculators covering molarity, molality, stoichiometry, pH, thermodynamics, equilibrium, electrochemistry, organic chemistry, and biochemistry. Free, accurate chemistry calculation tools for students, researchers, and professionals.',
   alternates: {
     canonical: 'https://chemicalcalculators.com',
   },
