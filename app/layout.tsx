@@ -36,10 +36,10 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://chemicalcalculators.com'),
   title: {
-    default: 'Chemical Calculators | 102+ Chemistry Tools & Calculation Solvers',
+    default: 'Chemical Calculators | 100+ Chemistry Tools & Calculation Solvers',
     template: '%s | Chemical Calculators'
   },
-  description: 'Comprehensive collection of 102+ chemical calculators for stoichiometry, molarity, molality, pH, thermodynamics, equilibrium, electrochemistry, organic chemistry, and biochemistry calculations. Free, accurate chemistry tools for students and professionals.',
+  description: 'Comprehensive collection of 100+ chemical calculators for stoichiometry, molarity, molality, pH, thermodynamics, equilibrium, electrochemistry, organic chemistry, and biochemistry calculations. Free, accurate chemistry tools for students and professionals.',
   keywords: [
     'chemical calculators',
     'chemistry calculators',

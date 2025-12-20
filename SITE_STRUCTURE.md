@@ -5,7 +5,7 @@
                                     │      HOMEPAGE (/)            │
                                     │                              │
                                     │  "Chemistry Calculators"     │
-                                    │  102 Calculators Total       │
+                                    │  100+ Calculators Total      │
                                     │  Main Entity Hub             │
                                     └──────────────┬───────────────┘
                                                    │
@@ -54,7 +54,7 @@
                                                    ▼
                                     ┌──────────────────────────────┐
                                     │    Individual Calculator     │
-                                    │         Pages (102)          │
+                                    │         Pages (100+)         │
                                     └──────────────────────────────┘
 ```
 
