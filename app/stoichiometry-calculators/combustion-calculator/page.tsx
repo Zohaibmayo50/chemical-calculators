@@ -20,8 +20,58 @@ export default function CombustionCalculatorPage() {
             </p>
           </div>
 
-          <div className="mb-12">
-            <CombustionCalculator />
+          <div className="grid lg:grid-cols-3 gap-8 mb-12">
+            <div className="lg:col-span-2">
+              <CombustionCalculator />
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                  Related Calculators
+                </h2>
+                <div className="space-y-3">
+                  <a href="/stoichiometry-calculators/balancing-equations-calculator" className="block p-3 bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-blue-900 dark:text-blue-100">Equation Balancer</h3>
+                    <p className="text-sm text-blue-700 dark:text-blue-300">Balance chemical equations</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/stoichiometry-calculator" className="block p-3 bg-green-50 dark:bg-green-900/30 hover:bg-green-100 dark:hover:bg-green-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-green-900 dark:text-green-100">Stoichiometry</h3>
+                    <p className="text-sm text-green-700 dark:text-green-300">Reaction calculations</p>
+                  </a>
+                  <a href="/thermodynamics-calculators/enthalpy-reaction-calculator" className="block p-3 bg-purple-50 dark:bg-purple-900/30 hover:bg-purple-100 dark:hover:bg-purple-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-purple-900 dark:text-purple-100">Enthalpy of Reaction</h3>
+                    <p className="text-sm text-purple-700 dark:text-purple-300">Calculate heat changes</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/limiting-reactant-calculator" className="block p-3 bg-orange-50 dark:bg-orange-900/30 hover:bg-orange-100 dark:hover:bg-orange-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-orange-900 dark:text-orange-100">Limiting Reactant</h3>
+                    <p className="text-sm text-orange-700 dark:text-orange-300">Find limiting reagent</p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                  Combustion Types
+                </h3>
+                <div className="prose dark:prose-invert max-w-none text-sm">
+                  <div className="space-y-2">
+                    <div className="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
+                      <p className="font-semibold text-green-900 dark:text-green-100">Complete</p>
+                      <p className="text-xs text-green-700 dark:text-green-300">
+                        Produces CO₂ + H₂O (blue flame)
+                      </p>
+                    </div>
+                    <div className="p-3 bg-orange-50 dark:bg-orange-900/30 rounded-lg">
+                      <p className="font-semibold text-orange-900 dark:text-orange-100">Incomplete</p>
+                      <p className="text-xs text-orange-700 dark:text-orange-300">
+                        Produces CO + soot (yellow flame)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 mb-8">

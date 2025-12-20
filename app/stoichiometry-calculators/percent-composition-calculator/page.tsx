@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function PercentCompositionCalculatorPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      <div className="max-w-5xl mx-auto px-4 py-12">
+      <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="text-center mb-12 animate-fade-in">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent mb-4">
             Percent Composition Calculator
@@ -21,7 +21,61 @@ export default function PercentCompositionCalculatorPage() {
           </p>
         </div>
 
-        <PercentCompositionCalculator />
+        <div className="grid lg:grid-cols-3 gap-8 mb-12">
+          <div className="lg:col-span-2">
+            <PercentCompositionCalculator />
+          </div>
+
+          <div className="space-y-6">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                Related Calculators
+              </h2>
+              <div className="space-y-3">
+                <a href="/stoichiometry-calculators/molecular-weight-calculator" className="block p-3 bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-900/50 rounded-lg transition-colors">
+                  <h3 className="font-semibold text-blue-900 dark:text-blue-100">Molecular Weight</h3>
+                  <p className="text-sm text-blue-700 dark:text-blue-300">Calculate molar mass</p>
+                </a>
+                <a href="/stoichiometry-calculators/empirical-formula-calculator" className="block p-3 bg-green-50 dark:bg-green-900/30 hover:bg-green-100 dark:hover:bg-green-900/50 rounded-lg transition-colors">
+                  <h3 className="font-semibold text-green-900 dark:text-green-100">Empirical Formula</h3>
+                  <p className="text-sm text-green-700 dark:text-green-300">Find simplest ratio</p>
+                </a>
+                <a href="/stoichiometry-calculators/molecular-formula-calculator" className="block p-3 bg-purple-50 dark:bg-purple-900/30 hover:bg-purple-100 dark:hover:bg-purple-900/50 rounded-lg transition-colors">
+                  <h3 className="font-semibold text-purple-900 dark:text-purple-100">Molecular Formula</h3>
+                  <p className="text-sm text-purple-700 dark:text-purple-300">Determine actual formula</p>
+                </a>
+                <a href="/stoichiometry-calculators/stoichiometry-calculator" className="block p-3 bg-orange-50 dark:bg-orange-900/30 hover:bg-orange-100 dark:hover:bg-orange-900/50 rounded-lg transition-colors">
+                  <h3 className="font-semibold text-orange-900 dark:text-orange-100">Stoichiometry</h3>
+                  <p className="text-sm text-orange-700 dark:text-orange-300">Reaction calculations</p>
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                Quick Tips
+              </h3>
+              <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  <span>Percentages must add up to 100%</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  <span>Use accurate atomic masses for precision</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  <span>Check your chemical formula is correct</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  <span>Useful for determining empirical formulas</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
         {/* Educational Content */}
         <div className="mt-12 space-y-8 text-gray-800 dark:text-gray-200">

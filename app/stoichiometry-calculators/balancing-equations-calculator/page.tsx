@@ -20,8 +20,64 @@ export default function ChemicalEquationBalancerPage() {
             </p>
           </div>
 
-          <div className="mb-12">
-            <ChemicalEquationBalancer />
+          <div className="grid lg:grid-cols-3 gap-8 mb-12">
+            <div className="lg:col-span-2">
+              <ChemicalEquationBalancer />
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                  Related Calculators
+                </h2>
+                <div className="space-y-3">
+                  <a href="/stoichiometry-calculators/stoichiometry-calculator" className="block p-3 bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-blue-900 dark:text-blue-100">Stoichiometry</h3>
+                    <p className="text-sm text-blue-700 dark:text-blue-300">Mole ratio calculations</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/combustion-calculator" className="block p-3 bg-green-50 dark:bg-green-900/30 hover:bg-green-100 dark:hover:bg-green-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-green-900 dark:text-green-100">Combustion</h3>
+                    <p className="text-sm text-green-700 dark:text-green-300">Burning reactions</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/limiting-reactant-calculator" className="block p-3 bg-purple-50 dark:bg-purple-900/30 hover:bg-purple-100 dark:hover:bg-purple-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-purple-900 dark:text-purple-100">Limiting Reactant</h3>
+                    <p className="text-sm text-purple-700 dark:text-purple-300">Find limiting reagent</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/theoretical-yield-calculator" className="block p-3 bg-orange-50 dark:bg-orange-900/30 hover:bg-orange-100 dark:hover:bg-orange-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-orange-900 dark:text-orange-100">Theoretical Yield</h3>
+                    <p className="text-sm text-orange-700 dark:text-orange-300">Maximum product</p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                  Balancing Strategy
+                </h3>
+                <div className="prose dark:prose-invert max-w-none text-sm">
+                  <div className="space-y-2">
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                      <p className="font-semibold">1. Balance complex first</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400">
+                        Start with most complex molecule
+                      </p>
+                    </div>
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                      <p className="font-semibold">2. H and O last</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400">
+                        Leave these for final balancing
+                      </p>
+                    </div>
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                      <p className="font-semibold">3. Verify all elements</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400">
+                        Check atoms match on both sides
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 mb-8">

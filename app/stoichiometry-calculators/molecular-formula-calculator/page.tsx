@@ -20,8 +20,58 @@ export default function MolecularFormulaCalculatorPage() {
             </p>
           </div>
 
-          <div className="mb-12">
-            <MolecularFormulaCalculator />
+          <div className="grid lg:grid-cols-3 gap-8 mb-12">
+            <div className="lg:col-span-2">
+              <MolecularFormulaCalculator />
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                  Related Calculators
+                </h2>
+                <div className="space-y-3">
+                  <a href="/stoichiometry-calculators/empirical-formula-calculator" className="block p-3 bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-blue-900 dark:text-blue-100">Empirical Formula</h3>
+                    <p className="text-sm text-blue-700 dark:text-blue-300">Find simplest ratio</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/molecular-weight-calculator" className="block p-3 bg-green-50 dark:bg-green-900/30 hover:bg-green-100 dark:hover:bg-green-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-green-900 dark:text-green-100">Molecular Weight</h3>
+                    <p className="text-sm text-green-700 dark:text-green-300">Calculate molar mass</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/percent-composition-calculator" className="block p-3 bg-purple-50 dark:bg-purple-900/30 hover:bg-purple-100 dark:hover:bg-purple-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-purple-900 dark:text-purple-100">Percent Composition</h3>
+                    <p className="text-sm text-purple-700 dark:text-purple-300">Mass percent analysis</p>
+                  </a>
+                  <a href="/stoichiometry-calculators/stoichiometry-calculator" className="block p-3 bg-orange-50 dark:bg-orange-900/30 hover:bg-orange-100 dark:hover:bg-orange-900/50 rounded-lg transition-colors">
+                    <h3 className="font-semibold text-orange-900 dark:text-orange-100">Stoichiometry</h3>
+                    <p className="text-sm text-orange-700 dark:text-orange-300">Reaction calculations</p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                  Quick Reference
+                </h3>
+                <div className="prose dark:prose-invert max-w-none text-sm">
+                  <div className="space-y-2">
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                      <p className="font-semibold">n = MW / EFM</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400">
+                        Multiplier from molecular weight
+                      </p>
+                    </div>
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                      <p className="font-semibold">Molecular = Empirical × n</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400">
+                        Apply multiplier to formula
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 mb-8">
