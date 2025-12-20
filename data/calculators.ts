@@ -105,6 +105,36 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'mol',
         educationalLevel: ['high-school', 'college']
       },
+      {
+        id: 'molecular-formula',
+        name: 'Molecular Formula Calculator',
+        description: 'Calculate molecular formula from empirical formula and molecular weight',
+        slug: 'molecular-formula-calculator',
+        formula: 'Molecular Formula = (Empirical Formula) × n',
+        variables: 'n = Molecular Weight / Empirical Formula Mass',
+        units: 'g/mol',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'combustion',
+        name: 'Combustion Calculator',
+        description: 'Calculate combustion reactions and products for hydrocarbons',
+        slug: 'combustion-calculator',
+        formula: 'CₓHᵧ + O₂ → CO₂ + H₂O',
+        variables: 'Complete and incomplete combustion analysis',
+        units: 'mol, kJ',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'balancing-equations',
+        name: 'Chemical Equation Balancer',
+        description: 'Automatically balance chemical equations using conservation of mass',
+        slug: 'balancing-equations-calculator',
+        formula: 'Coefficients adjusted to balance atoms',
+        variables: 'Reactants and products balanced by stoichiometry',
+        units: 'unitless',
+        educationalLevel: ['high-school', 'college']
+      },
     ]
   },
   {
