@@ -1,5 +1,8 @@
 import BohrModelCalculator from '@/components/calculators/BohrModelCalculator';
 import { Metadata } from 'next';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'Bohr Model Calculator - Hydrogen Atom Energy Levels & Spectral Lines | ChemCalc',
@@ -7,9 +10,10 @@ export const metadata: Metadata = {
   keywords: 'Bohr model calculator, hydrogen spectrum, Rydberg equation, energy levels, spectral lines, Balmer series, Lyman series, quantum mechanics',
 };
 
-export default function BohrModelCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+export default function BohrModelCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
@@ -424,7 +428,8 @@ export default function BohrModelCalculatorPage() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

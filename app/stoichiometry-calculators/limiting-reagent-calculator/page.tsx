@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import LimitingReagentCalculator from '@/components/calculators/LimitingReagentCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'Limiting Reagent Calculator | Identify Limiting Reactant in Chemical Reactions',
@@ -16,9 +19,10 @@ export const metadata: Metadata = {
   }
 };
 
-export default function LimitingReagentCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+export default function LimitingReagentCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       {/* Breadcrumb Navigation */}
       <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-10">
         <div className="container mx-auto px-4 py-3">
@@ -322,7 +326,8 @@ export default function LimitingReagentCalculatorPage() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

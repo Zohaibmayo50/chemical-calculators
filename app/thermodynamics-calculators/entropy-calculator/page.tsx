@@ -1,5 +1,8 @@
 import { Metadata } from 'next';
 import EntropyCalculator from '@/components/calculators/EntropyCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: "Entropy Calculator | ΔS° | Reaction Spontaneity",
@@ -7,9 +10,10 @@ export const metadata: Metadata = {
   keywords: ['entropy', 'entropy change', 'delta s', 'thermodynamics', 'spontaneity', 'disorder', 'second law', 'standard entropy'],
 };
 
-export default function EntropyCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function EntropyCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -357,7 +361,8 @@ export default function EntropyCalculatorPage() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

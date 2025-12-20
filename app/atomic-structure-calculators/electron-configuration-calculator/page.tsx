@@ -1,5 +1,8 @@
 import React from 'react';
 import ElectronConfigurationCalculator from '@/components/calculators/ElectronConfigurationCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata = {
   title: 'Electron Configuration Calculator | ChemCalc',
@@ -7,9 +10,10 @@ export const metadata = {
   keywords: 'electron configuration, Aufbau principle, orbital diagram, noble gas notation, atomic structure, quantum mechanics, chemistry calculator',
 };
 
-export default function ElectronConfigurationPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+export default function ElectronConfigurationPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-5xl mx-auto">
           {/* Header */}
@@ -493,7 +497,8 @@ export default function ElectronConfigurationPage() {
             </section>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

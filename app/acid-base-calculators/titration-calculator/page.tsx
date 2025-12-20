@@ -1,4 +1,7 @@
 import TitrationCalculator from '@/components/calculators/TitrationCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata = {
   title: 'Titration Calculator | Chemistry Calculators',
@@ -6,9 +9,10 @@ export const metadata = {
   keywords: 'titration calculator, acid-base titration, pH calculation, equivalence point, indicator selection, chemistry calculator',
 };
 
-export default function TitrationCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
+export default function TitrationCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -349,7 +353,8 @@ export default function TitrationCalculatorPage() {
             </div>
           </section>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

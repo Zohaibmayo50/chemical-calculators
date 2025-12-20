@@ -1,5 +1,8 @@
 import { Metadata } from 'next';
 import CalorimetryCalculator from '@/components/calculators/CalorimetryCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: "Calorimetry Calculator | Heat Capacity | q=mcΔT",
@@ -7,9 +10,10 @@ export const metadata: Metadata = {
   keywords: ['calorimetry', 'specific heat', 'heat capacity', 'temperature change', 'thermochemistry', 'q=mcΔT', 'energy transfer'],
 };
 
-export default function CalorimetryCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function CalorimetryCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -208,7 +212,8 @@ export default function CalorimetryCalculatorPage() {
             Complete All 5 Calculators - Commit and Push
           </h2>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

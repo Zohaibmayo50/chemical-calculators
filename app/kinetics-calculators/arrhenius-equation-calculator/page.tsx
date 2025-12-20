@@ -1,4 +1,7 @@
 import ArrheniusEquationCalculator from '@/components/calculators/ArrheniusEquationCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata = {
   title: 'Arrhenius Equation Calculator | Chemistry Calculators',
@@ -6,9 +9,10 @@ export const metadata = {
   keywords: 'Arrhenius equation, activation energy, rate constant, temperature effect, chemical kinetics, reaction rate',
 };
 
-export default function ArrheniusEquationCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
+export default function ArrheniusEquationCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -374,7 +378,8 @@ export default function ArrheniusEquationCalculatorPage() {
             </div>
           </section>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

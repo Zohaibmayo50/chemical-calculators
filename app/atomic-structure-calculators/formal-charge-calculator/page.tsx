@@ -1,5 +1,8 @@
 import FormalChargeCalculator from '@/components/calculators/FormalChargeCalculator';
 import { Metadata } from 'next';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'Formal Charge Calculator - Lewis Structures & Resonance | ChemCalc',
@@ -7,9 +10,10 @@ export const metadata: Metadata = {
   keywords: 'formal charge calculator, Lewis structures, resonance, electron distribution, molecular structure, valence electrons, chemistry calculator',
 };
 
-export default function FormalChargeCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+export default function FormalChargeCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
@@ -531,7 +535,8 @@ export default function FormalChargeCalculatorPage() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

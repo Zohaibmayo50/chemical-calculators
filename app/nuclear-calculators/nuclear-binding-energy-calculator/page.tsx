@@ -1,6 +1,9 @@
 import React from 'react';
 import NuclearBindingEnergyCalculator from '@/components/calculators/NuclearBindingEnergyCalculator';
 import type { Metadata } from 'next';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'Nuclear Binding Energy Calculator - Mass Defect & E=mc²',
@@ -8,9 +11,10 @@ export const metadata: Metadata = {
   keywords: ['nuclear binding energy', 'mass defect', 'E=mc²', 'binding energy per nucleon', 'nuclear stability', 'chemistry calculator', 'nuclear physics'],
 };
 
-export default function NuclearBindingEnergyCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+export default function NuclearBindingEnergyCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-5xl mx-auto px-4 py-12">
         <div className="text-center mb-12 animate-fade-in">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent mb-4">
@@ -614,7 +618,8 @@ export default function NuclearBindingEnergyCalculatorPage() {
             </div>
           </section>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import CoordinationNumberCalculator from '@/components/calculators/CoordinationNumberCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'Coordination Number Calculator | Geometry & Ligand Analysis',
@@ -19,9 +22,10 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function CoordinationNumberCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function CoordinationNumberCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -68,7 +72,8 @@ export default function CoordinationNumberCalculatorPage() {
               - Quick reference tables
           */}
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

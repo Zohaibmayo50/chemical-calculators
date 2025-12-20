@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import HeisenbergUncertaintyCalculator from '@/components/calculators/HeisenbergUncertaintyCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'Heisenberg Uncertainty Principle Calculator | Chemistry Calculators',
@@ -19,9 +22,10 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function HeisenbergUncertaintyCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function HeisenbergUncertaintyCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -562,7 +566,8 @@ export default function HeisenbergUncertaintyCalculatorPage() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

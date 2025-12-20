@@ -1,5 +1,8 @@
 import { Metadata } from 'next';
 import GrahamsLawCalculator from '@/components/calculators/GrahamsLawCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: "Graham's Law Calculator | Gas Diffusion | Effusion Rates",
@@ -7,9 +10,10 @@ export const metadata: Metadata = {
   keywords: ['grahams law', 'diffusion', 'effusion', 'gas rates', 'molar mass', 'molecular velocity', 'gas separation', 'kinetic theory'],
 };
 
-export default function GrahamsLawCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function GrahamsLawCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -364,7 +368,8 @@ export default function GrahamsLawCalculatorPage() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

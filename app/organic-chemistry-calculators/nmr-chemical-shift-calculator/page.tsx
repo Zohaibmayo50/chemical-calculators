@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import NMRChemicalShiftCalculator from '@/components/calculators/NMRChemicalShiftCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'NMR Chemical Shift Calculator | ¹H and ¹³C NMR Prediction',
@@ -19,9 +22,10 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function NMRChemicalShiftCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function NMRChemicalShiftCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600 dark:from-primary-400 dark:to-secondary-400 mb-4">
@@ -53,7 +57,8 @@ export default function NMRChemicalShiftCalculatorPage() {
             </div>
           </section>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

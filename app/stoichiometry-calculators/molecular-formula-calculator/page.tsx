@@ -1,5 +1,8 @@
 import MolecularFormulaCalculator from '@/components/calculators/MolecularFormulaCalculator';
 
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 export const metadata = {
   title: 'Molecular Formula Calculator - ChemCalc',
   description: 'Calculate molecular formulas from empirical formulas and molecular weights. Determine the actual number of atoms in molecules with step-by-step calculations.',
@@ -8,7 +11,9 @@ export const metadata = {
 
 export default function MolecularFormulaCalculatorPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -293,5 +298,7 @@ export default function MolecularFormulaCalculatorPage() {
         </div>
       </div>
     </div>
+        <Footer />
+    </>
   );
 }

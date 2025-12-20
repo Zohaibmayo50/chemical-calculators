@@ -1,5 +1,8 @@
 import { Metadata } from 'next';
 import LimitingReactantCalculator from '@/components/calculators/LimitingReactantCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: "Limiting Reactant Calculator | Excess Reactant | Stoichiometry",
@@ -7,9 +10,10 @@ export const metadata: Metadata = {
   keywords: ['limiting reactant', 'excess reactant', 'theoretical yield', 'stoichiometry', 'chemical reactions', 'balanced equation'],
 };
 
-export default function LimitingReactantCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function LimitingReactantCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -256,7 +260,8 @@ export default function LimitingReactantCalculatorPage() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }

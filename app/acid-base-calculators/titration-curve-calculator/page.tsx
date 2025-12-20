@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import TitrationCurveCalculator from '@/components/calculators/TitrationCurveCalculator';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
 
 export const metadata: Metadata = {
   title: 'Titration Curve Calculator | pH Analysis & Equivalence Points',
@@ -19,9 +22,10 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function TitrationCurveCalculatorPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
+export default function TitrationCurveCalculatorPage() {  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -519,7 +523,8 @@ export default function TitrationCurveCalculatorPage() {
             </div>
           </section>
         </div>
-      </div>
-    </div>
+      </div>      </div>
+      <Footer />
+    </>
   );
 }
