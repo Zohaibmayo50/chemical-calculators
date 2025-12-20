@@ -1,10 +1,10 @@
 # Chemical Calculators Website
 
-A comprehensive Next.js 14 website featuring 102+ chemistry calculators organized by topical authority and semantic SEO principles.
+A comprehensive Next.js 14 website featuring 100+ chemistry calculators organized by topical authority and semantic SEO principles.
 
 ## 🧪 Features
 
-- **102+ Chemistry Calculators** across 10 semantic topic clusters
+- **100+ Chemistry Calculators** across 10 semantic topic clusters
 - **Semantic SEO Optimized** following Koray Tuğberk Gübür's methodology
 - **Next.js 14 App Router** with TypeScript
 - **Server Components** for optimal performance

@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://chemicalcalculators.com',
-    title: 'Chemical Calculators | 102+ Chemistry Tools & Solvers',
+    title: 'Chemical Calculators | 100+ Chemistry Tools & Solvers',
     description: 'Free online chemistry calculators for stoichiometry, molarity, pH, thermodynamics, and more. Accurate chemical calculation tools for students and professionals.',
     siteName: 'Chemical Calculators',
   },
