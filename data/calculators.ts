@@ -86,33 +86,23 @@ export const calculatorCategories: CalculatorCategory[] = [
         educationalLevel: ['high-school', 'college']
       },
       {
-        id: 'molecular-formula',
-        name: 'Molecular Formula Calculator',
-        description: 'Calculate molecular formula from empirical formula',
-        slug: 'molecular-formula-calculator',
-        formula: 'n = M_molecular / M_empirical',
-        variables: 'n = multiplier for empirical formula',
-        units: 'g/mol',
+        id: 'percent-composition',
+        name: 'Percent Composition Calculator',
+        description: 'Calculate mass percent of elements in compounds',
+        slug: 'percent-composition-calculator',
+        formula: '% = (mass_element / mass_total) × 100',
+        variables: 'Element mass divided by compound mass',
+        units: '%',
         educationalLevel: ['high-school', 'college']
       },
       {
-        id: 'combustion',
-        name: 'Combustion Calculator',
-        description: 'Analyze combustion reactions and energy release',
-        slug: 'combustion-calculator',
-        formula: 'CₓHᵧ + O₂ → CO₂ + H₂O',
-        variables: 'Complete combustion with oxygen',
-        units: 'mol, kJ',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'balancing-equations',
-        name: 'Chemical Equation Balancer',
-        description: 'Balance chemical equations automatically',
-        slug: 'balancing-equations-calculator',
-        formula: 'aA + bB → cC + dD',
-        variables: 'Coefficients a,b,c,d balance atoms on both sides',
-        units: 'stoichiometric coefficients',
+        id: 'limiting-reactant',
+        name: 'Limiting Reactant Calculator',
+        description: 'Identify the limiting reactant in chemical reactions',
+        slug: 'limiting-reactant-calculator',
+        formula: 'moles / stoichiometric_coefficient',
+        variables: 'Compare reactant ratios to determine limiting reagent',
+        units: 'mol',
         educationalLevel: ['high-school', 'college']
       },
     ]
