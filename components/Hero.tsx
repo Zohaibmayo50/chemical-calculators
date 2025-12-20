@@ -147,7 +147,7 @@ export default function Hero() {
           {/* Stats Grid */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <div className="group bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 hover:border-accent-400/50 transition-all">
-              <div className="text-4xl sm:text-5xl font-bold text-accent-400 mb-2">102+</div>
+              <div className="text-4xl sm:text-5xl font-bold text-accent-400 mb-2">100+</div>
               <div className="text-sm sm:text-base text-white/90 font-medium">Chemistry Tools</div>
             </div>
             <div className="group bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 hover:border-accent-400/50 transition-all">
