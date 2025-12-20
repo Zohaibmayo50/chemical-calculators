@@ -76,6 +76,16 @@ export const calculatorCategories: CalculatorCategory[] = [
         educationalLevel: ['high-school', 'college']
       },
       {
+        id: 'molecular-weight',
+        name: 'Molecular Weight Calculator',
+        description: 'Calculate molecular weight and molar mass from chemical formulas',
+        slug: 'molecular-weight-calculator',
+        formula: 'MW = Σ(atomic_mass × count)',
+        variables: 'Sum of all atomic masses in molecule',
+        units: 'g/mol',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
         id: 'molecular-formula',
         name: 'Molecular Formula Calculator',
         description: 'Calculate molecular formula from empirical formula',
@@ -252,12 +262,22 @@ export const calculatorCategories: CalculatorCategory[] = [
         educationalLevel: ['college']
       },
       {
+        id: 'rate-law',
+        name: 'Rate Law Calculator',
+        description: 'Determine reaction orders and rate constants from experimental data',
+        slug: 'rate-law-calculator',
+        formula: 'Rate = k[A]ᵐ[B]ⁿ',
+        variables: 'k = rate constant, m,n = reaction orders (experimental)',
+        units: 'varies with order (M/s, s⁻¹, M⁻¹s⁻¹)',
+        educationalLevel: ['college']
+      },
+      {
         id: 'half-life',
         name: 'Half-Life Calculator',
-        description: 'Calculate radioactive decay and reaction half-lives',
+        description: 'Calculate half-life for zero, first, and second order reactions',
         slug: 'half-life-calculator',
-        formula: 't₁/₂ = ln(2)/k',
-        variables: 't₁/₂ = half-life, k = decay/rate constant',
+        formula: 't₁/₂ = ln(2)/k (first-order)',
+        variables: 't₁/₂ = half-life, k = rate constant, formulas vary by order',
         units: 's, min, h, days, years',
         educationalLevel: ['college']
       },
@@ -369,6 +389,26 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'J, L·atm',
         educationalLevel: ['college']
       },
+      {
+        id: 'gibbs-free-energy',
+        name: 'Gibbs Free Energy Calculator',
+        description: 'Determine reaction spontaneity using Gibbs free energy',
+        slug: 'gibbs-free-energy-calculator',
+        formula: 'ΔG = ΔH - TΔS',
+        variables: 'ΔG = Gibbs free energy, ΔH = enthalpy, T = temperature, ΔS = entropy',
+        units: 'kJ/mol, K, J/(mol·K)',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'enthalpy-reaction',
+        name: 'Enthalpy of Reaction Calculator',
+        description: 'Calculate heat of reaction using formation enthalpies or bond energies',
+        slug: 'enthalpy-reaction-calculator',
+        formula: 'ΔH°rxn = ΣΔH°f(products) - ΣΔH°f(reactants)',
+        variables: 'ΔH°rxn = enthalpy of reaction, ΔH°f = formation enthalpy',
+        units: 'kJ/mol',
+        educationalLevel: ['college']
+      },
     ]
   },
   {
@@ -386,6 +426,36 @@ export const calculatorCategories: CalculatorCategory[] = [
         variables: 'P = pressure, V = volume, n = moles, R = gas constant, T = temperature',
         units: 'atm, L, mol, K (R = 0.0821 L·atm/(mol·K))',
         educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'beers-law',
+        name: 'Beer\'s Law Calculator',
+        description: 'Calculate concentration using Beer-Lambert Law for spectroscopy',
+        slug: 'beers-law-calculator',
+        formula: 'A = εbc',
+        variables: 'A = absorbance, ε = molar absorptivity, b = path length, c = concentration',
+        units: 'M, L/(mol·cm), cm',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'combined-gas-law',
+        name: 'Combined Gas Law Calculator',
+        description: 'Relate P, V, T changes for fixed amount of gas',
+        slug: 'combined-gas-law-calculator',
+        formula: 'P₁V₁/T₁ = P₂V₂/T₂',
+        variables: 'Initial and final pressure, volume, temperature',
+        units: 'atm, L, K',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'osmotic-pressure',
+        name: 'Osmotic Pressure Calculator',
+        description: 'Calculate osmotic pressure of solutions',
+        slug: 'osmotic-pressure-calculator',
+        formula: 'π = MRT',
+        variables: 'π = osmotic pressure, M = molarity, R = gas constant',
+        units: 'atm, M, K',
+        educationalLevel: ['college']
       },
       {
         id: 'boiling-point-elevation',
