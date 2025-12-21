@@ -26,7 +26,9 @@ export default function ActivityCoefficientCalculatorPage() {  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-2 space-y-8">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600 dark:from-primary-400 dark:to-secondary-400 mb-4">
@@ -626,7 +628,58 @@ export default function ActivityCoefficientCalculatorPage() {  return (
             </div>
           </div>
         </div>
-      </div>      </div>
+          </div>
+
+          {/* Sidebar */}
+          <div className="lg:col-span-1">
+            <div className="sticky top-24">
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                  🔗 Related Calculators
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a
+                      href="/solution-calculators/osmotic-pressure-calculator"
+                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                    >
+                      <span>→</span>
+                      <span>Osmotic Pressure Calculator</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/concentration-and-solution-calculators/molarity-calculator"
+                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                    >
+                      <span>→</span>
+                      <span>Molarity Calculator</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/solution-calculators/colligative-properties-calculator"
+                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                    >
+                      <span>→</span>
+                      <span>Colligative Properties</span>
+                    </a>
+                  </li>
+                </ul>
+                <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                  <a
+                    href="/calculators"
+                    className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
+                  >
+                    View All Calculators →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
       <Footer />
     </>
   );

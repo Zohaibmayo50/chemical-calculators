@@ -373,6 +373,50 @@ export default function DaltonsLawCalculatorPage() {  return (
                 </li>
               </ul>
             </div>
+
+            {/* Related Calculators */}
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mt-6">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                🔗 Related Calculators
+              </h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="/gas-calculators/ideal-gas-law-calculator"
+                    className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                  >
+                    <span>→</span>
+                    <span>Ideal Gas Law Calculator</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/physical-chemistry-calculators/grahams-law-calculator"
+                    className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                  >
+                    <span>→</span>
+                    <span>Graham's Law Calculator</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/gas-calculators/gas-density-calculator"
+                    className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                  >
+                    <span>→</span>
+                    <span>Gas Density Calculator</span>
+                  </a>
+                </li>
+              </ul>
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <a
+                  href="/calculators"
+                  className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
+                >
+                  View All Calculators →
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>      </div>
