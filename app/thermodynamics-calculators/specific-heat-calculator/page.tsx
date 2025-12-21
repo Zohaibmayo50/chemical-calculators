@@ -15,7 +15,9 @@ export default function SpecificHeatPage() {  return (
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-4 py-12">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2 space-y-8">
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -603,6 +605,56 @@ export default function SpecificHeatPage() {  return (
                 </div>
               </div>
             </section>
+          </div>
+            </div>
+
+            {/* Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-24">
+                <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                    🔗 Related Calculators
+                  </h3>
+                  <ul className="space-y-3">
+                    <li>
+                      <a
+                        href="/thermodynamics-calculators/calorimetry-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Calorimetry Calculator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/thermodynamics-calculators/bond-energy-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Bond Energy Calculator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/thermodynamics-calculators/entropy-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Entropy Calculator</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <a
+                      href="/calculators"
+                      className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
+                    >
+                      View All Calculators →
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>      </div>
