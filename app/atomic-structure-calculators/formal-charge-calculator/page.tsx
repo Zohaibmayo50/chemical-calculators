@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   keywords: 'formal charge calculator, Lewis structures, resonance, electron distribution, molecular structure, valence electrons, chemistry calculator',
 };
 
-export default function FormalChargeCalculatorPage() {  return (
+export default function FormalChargeCalculatorPage() {
+  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">

@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   keywords: 'wavelength calculator, photon energy, frequency calculator, electromagnetic spectrum, quantum mechanics, spectroscopy, E = hf, Planck constant',
 };
 
-export default function WavelengthEnergyCalculatorPage() {  return (
+export default function WavelengthEnergyCalculatorPage() {
+  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">

@@ -10,7 +10,8 @@ export const metadata = {
   keywords: 'redox balancing, half-reaction method, oxidation reduction, acidic basic solutions, electron transfer, redox equations, chemistry calculator',
 };
 
-export default function RedoxBalancingPage() {  return (
+export default function RedoxBalancingPage() {
+  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">

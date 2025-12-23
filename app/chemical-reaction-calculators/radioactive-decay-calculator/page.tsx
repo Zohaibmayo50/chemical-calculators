@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   keywords: 'radioactive decay calculator, half-life, nuclear chemistry, decay constant, carbon dating, isotopes, first-order kinetics, nuclear decay',
 };
 
-export default function RadioactiveDecayCalculatorPage() {  return (
+export default function RadioactiveDecayCalculatorPage() {
+  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">

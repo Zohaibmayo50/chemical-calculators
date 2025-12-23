@@ -10,7 +10,8 @@ export const metadata = {
   keywords: 'bond energy, bond dissociation energy, enthalpy, reaction energy, exothermic, endothermic, thermodynamics, chemistry calculator',
 };
 
-export default function BondEnergyPage() {  return (
+export default function BondEnergyPage() {
+  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
