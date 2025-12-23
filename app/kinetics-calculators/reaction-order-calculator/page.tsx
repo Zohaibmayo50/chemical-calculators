@@ -13,7 +13,10 @@ export default function ReactionOrderCalculatorPage() {  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="container mx-auto">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2 space-y-8">
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Reaction Order Calculator
@@ -306,6 +309,57 @@ export default function ReactionOrderCalculatorPage() {  return (
               </p>
             </div>
           </section>
+        </div>
+            </div>
+
+            {/* Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-24">
+                <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                    🔗 Related Calculators
+                  </h3>
+                  <ul className="space-y-3">
+                    <li>
+                      <a
+                        href="/kinetics-calculators/integrated-rate-law-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Integrated Rate Law Calculator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/kinetics-calculators/collision-theory-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Collision Theory Calculator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/chemical-reaction-calculators/radioactive-decay-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Radioactive Decay Calculator</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <a
+                      href="/calculators"
+                      className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
+                    >
+                      View All Calculators →
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>      </div>
       <Footer />
