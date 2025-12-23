@@ -26,7 +26,10 @@ export default function QuantumNumbersCalculatorPage() {  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="container mx-auto">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2 space-y-8">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600 dark:from-primary-400 dark:to-secondary-400 mb-4">
             Quantum Numbers Calculator
@@ -52,6 +55,57 @@ export default function QuantumNumbersCalculatorPage() {  return (
               </p>
             </div>
           </section>
+        </div>
+            </div>
+
+            {/* Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-24">
+                <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                    🔗 Related Calculators
+                  </h3>
+                  <ul className="space-y-3">
+                    <li>
+                      <a
+                        href="/atomic-structure-calculators/electron-configuration-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Electron Configuration Calculator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/atomic-structure-calculators/bohr-model-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Bohr Model Calculator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/quantum-calculators/heisenberg-uncertainty-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Heisenberg Uncertainty Calculator</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <a
+                      href="/calculators"
+                      className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
+                    >
+                      View All Calculators →
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>      </div>
       <Footer />
