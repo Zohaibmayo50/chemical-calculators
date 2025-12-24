@@ -15,7 +15,7 @@ export default function ReactionRateCalculatorPage() {  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      <div className="max-w-5xl mx-auto px-4 py-12">
+      <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="text-center mb-12 animate-fade-in">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent mb-4">
             Reaction Rate Calculator
@@ -25,7 +25,34 @@ export default function ReactionRateCalculatorPage() {  return (
           </p>
         </div>
 
-        <ReactionRateCalculator />
+        <div className="grid lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-2">
+            <ReactionRateCalculator />
+          </div>
+
+          <div className="lg:col-span-1">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 sticky top-24">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Calculators</h3>
+              <div className="space-y-3">
+                <a href="/kinetics-calculators/arrhenius-equation-calculator" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                  <div className="font-semibold text-gray-900 dark:text-white">Arrhenius Equation</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Calculate activation energy and rate constants</div>
+                </a>
+                <a href="/kinetics-calculators/reaction-order-calculator" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                  <div className="font-semibold text-gray-900 dark:text-white">Reaction Order</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Determine reaction order from data</div>
+                </a>
+                <a href="/kinetics-calculators/integrated-rate-law-calculator" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                  <div className="font-semibold text-gray-900 dark:text-white">Integrated Rate Laws</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Calculate concentrations over time</div>
+                </a>
+              </div>
+              <a href="/" className="block mt-4 text-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                View All Calculators →
+              </a>
+            </div>
+          </div>
+        </div>
 
         {/* Educational Content */}
         <div className="mt-12 space-y-8 text-gray-800 dark:text-gray-200">

@@ -13,7 +13,7 @@ export default function ArrheniusEquationCalculatorPage() {  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-tertiary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Arrhenius Equation Calculator
@@ -23,7 +23,34 @@ export default function ArrheniusEquationCalculatorPage() {  return (
           </p>
         </div>
 
-        <ArrheniusEquationCalculator />
+        <div className="grid lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-2">
+            <ArrheniusEquationCalculator />
+          </div>
+
+          <div className="lg:col-span-1">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 sticky top-24">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Calculators</h3>
+              <div className="space-y-3">
+                <a href="/kinetics-calculators/reaction-rate-calculator" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                  <div className="font-semibold text-gray-900 dark:text-white">Reaction Rate</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Calculate average and instantaneous rates</div>
+                </a>
+                <a href="/kinetics-calculators/integrated-rate-law-calculator" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                  <div className="font-semibold text-gray-900 dark:text-white">Integrated Rate Laws</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Calculate concentrations over time</div>
+                </a>
+                <a href="/chemical-reaction-calculators/half-life-calculator" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                  <div className="font-semibold text-gray-900 dark:text-white">Half-Life</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Calculate reaction half-life</div>
+                </a>
+              </div>
+              <a href="/" className="block mt-4 text-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                View All Calculators →
+              </a>
+            </div>
+          </div>
+        </div>
 
         {/* Educational Content */}
         <div className="mt-12 space-y-8">
