@@ -1,594 +1,485 @@
 import React from 'react';
 import ClausiusClapeyronCalculator from '@/components/calculators/ClausiusClapeyronCalculator';
-import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata: Metadata = {
-  title: 'Clausius-Clapeyron Calculator - Vapor Pressure & Phase Transitions',
-  description: 'Calculate vapor pressure at different temperatures, determine heat of vaporization, and predict boiling points using the Clausius-Clapeyron equation.',
-  keywords: ['Clausius-Clapeyron', 'vapor pressure', 'heat of vaporization', 'boiling point', 'phase transition', 'chemistry calculator', 'thermodynamics'],
+export const metadata = {
+  title: 'Clausius-Clapeyron Calculator | ChemCalc',
+  description: 'Calculate vapor pressure, boiling point, and enthalpy of vaporization using the Clausius-Clapeyron equation. Essential for phase transitions and thermodynamics.',
+  keywords: 'Clausius-Clapeyron equation, vapor pressure, boiling point, enthalpy of vaporization, phase transition, thermodynamics, chemistry calculator',
 };
 
 export default function ClausiusClapeyronCalculatorPage() {  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-2 space-y-8">
-        <div className="text-center mb-12 animate-fade-in">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent mb-4">
-            Clausius-Clapeyron Calculator
-          </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">
-            Calculate vapor pressure, heat of vaporization, and boiling points
-          </p>
-        </div>
-
-        <ClausiusClapeyronCalculator />
-
-        {/* Educational Content */}
-        <div className="mt-12 space-y-8 text-gray-800 dark:text-gray-200">
-          {/* What is Clausius-Clapeyron Equation */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              What is the Clausius-Clapeyron Equation?
-            </h2>
-            <div className="prose dark:prose-invert max-w-none">
-              <p className="text-lg leading-relaxed mb-4">
-                The <strong>Clausius-Clapeyron equation</strong> describes how the vapor pressure of a substance changes 
-                with temperature. It's a fundamental equation in thermodynamics that relates phase equilibrium to temperature 
-                and enthalpy changes.
-              </p>
-              <p className="leading-relaxed mb-4">
-                This equation is derived from the more general <strong>Clapeyron equation</strong> with the assumption that 
-                the gas phase behaves ideally and the volume of the liquid phase is negligible compared to the gas phase. 
-                It's particularly useful for liquid-vapor equilibria.
-              </p>
-              <div className="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-lg border-l-4 border-blue-500 mt-6">
-                <p className="font-semibold text-blue-900 dark:text-blue-100 mb-2">Key Concept:</p>
-                <p className="text-blue-800 dark:text-blue-200">
-                  The equation shows that vapor pressure increases exponentially with temperature. The rate of increase 
-                  depends on the <strong>heat of vaporization (ΔH<sub>vap</sub>)</strong> - substances with higher ΔH<sub>vap</sub> 
-                  show stronger temperature dependence of vapor pressure.
-                </p>
-              </div>
+      <div className="container mx-auto px-4 py-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2 space-y-8">
+          <div className="text-center mb-12 animate-fade-in">
+            <div className="inline-block p-3 bg-gradient-to-br from-primary-100 to-secondary-100 dark:from-primary-900/30 dark:to-secondary-900/30 rounded-2xl mb-4">
+              <svg className="w-16 h-16 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
             </div>
-          </section>
+            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
+              Clausius-Clapeyron Calculator
+            </h1>
+            <p className="text-xl text-gray-600 dark:text-gray-300">
+              Vapor Pressure & Phase Transitions
+            </p>
+          </div>
 
-          {/* The Equation Derivation */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              The Clausius-Clapeyron Equation
-            </h2>
-            <div className="prose dark:prose-invert max-w-none">
-              <div className="bg-gradient-to-r from-primary-50 to-secondary-50 dark:from-primary-900/30 dark:to-secondary-900/30 p-6 rounded-lg mb-6">
-                <div className="text-center space-y-4">
-                  <div>
-                    <p className="text-sm mb-2">Differential Form:</p>
-                    <p className="font-mono text-2xl">d(ln P) / dT = ΔH<sub>vap</sub> / (R × T²)</p>
-                  </div>
-                  <div className="border-t-2 border-gray-300 dark:border-gray-600 pt-4">
-                    <p className="text-sm mb-2">Integrated Form (Two-Point):</p>
-                    <p className="font-mono text-2xl">ln(P₂/P₁) = -(ΔH<sub>vap</sub>/R) × (1/T₂ - 1/T₁)</p>
-                  </div>
-                </div>
+          <ClausiusClapeyronCalculator />
+
+          {/* Educational Content */}
+          <div className="mt-12 prose prose-lg max-w-none dark:prose-invert">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+              
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
+                Understanding the Bohr Model of the Hydrogen Atom
+              </h2>
+
+              <div className="space-y-6 text-gray-700 dark:text-gray-300">
                 
-                <div className="mt-6 grid md:grid-cols-2 gap-4 text-sm">
-                  <div>
-                    <p className="font-semibold mb-2">Where:</p>
-                    <ul className="space-y-1">
-                      <li>P = vapor pressure (atm, Pa, mmHg, etc.)</li>
-                      <li>T = absolute temperature (K)</li>
-                      <li>ΔH<sub>vap</sub> = heat of vaporization (J/mol)</li>
-                      <li>R = gas constant = 8.314 J/(mol·K)</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p className="font-semibold mb-2">Subscripts:</p>
-                    <ul className="space-y-1">
-                      <li>1 = initial state (known conditions)</li>
-                      <li>2 = final state (conditions to find)</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-yellow-50 dark:bg-yellow-900/30 p-6 rounded-lg border-l-4 border-yellow-500">
-                <p className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">Important Assumptions:</p>
-                <ul className="list-disc list-inside text-yellow-800 dark:text-yellow-200 space-y-1">
-                  <li>ΔH<sub>vap</sub> is constant over the temperature range (valid for small ΔT)</li>
-                  <li>The gas phase obeys the ideal gas law</li>
-                  <li>The molar volume of liquid is negligible compared to gas</li>
-                  <li>The system is at equilibrium (liquid and vapor coexist)</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-          {/* Worked Example */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Worked Example: Water Boiling at Altitude
-            </h2>
-            <div className="prose dark:prose-invert max-w-none">
-              <div className="bg-gray-50 dark:bg-gray-700/50 p-6 rounded-lg space-y-4">
-                <div>
-                  <h4 className="font-semibold text-lg mb-2">Problem:</h4>
-                  <p>
-                    Water boils at 100°C at sea level (1 atm). At what temperature does water boil in Denver, 
-                    where atmospheric pressure is approximately 0.82 atm? The heat of vaporization of water is 40.7 kJ/mol.
+                <section>
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    What is the Bohr Model?
+                  </h3>
+                  <p className="leading-relaxed mb-4">
+                    The <strong>Bohr model</strong>, proposed by Niels Bohr in 1913, was a revolutionary quantum mechanical model 
+                    of the hydrogen atom. It introduced the concept of <strong>quantized energy levels</strong>, explaining why 
+                    atoms emit light at specific wavelengths rather than a continuous spectrum.
                   </p>
-                </div>
+                  <p className="leading-relaxed">
+                    While the Bohr model has been superseded by more accurate quantum mechanical models (Schrödinger equation), 
+                    it remains incredibly useful for understanding atomic structure and calculating the hydrogen spectrum. It 
+                    successfully explains the <strong>Rydberg formula</strong> and predicts the correct wavelengths for hydrogen's 
+                    spectral lines.
+                  </p>
+                </section>
 
-                <div>
-                  <h4 className="font-semibold text-lg mb-2">Solution:</h4>
-                  <div className="bg-white dark:bg-gray-800 p-4 rounded border border-gray-200 dark:border-gray-600 space-y-4">
-                    <div>
-                      <p className="font-semibold">Step 1: Identify Given Information</p>
-                      <ul className="list-disc list-inside ml-4 space-y-1">
-                        <li>P₁ = 1.00 atm (sea level)</li>
-                        <li>T₁ = 100°C = 373.15 K</li>
-                        <li>P₂ = 0.82 atm (Denver)</li>
-                        <li>ΔH<sub>vap</sub> = 40.7 kJ/mol = 40,700 J/mol</li>
-                        <li>R = 8.314 J/(mol·K)</li>
-                        <li>T₂ = ? (to find)</li>
+                <section className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-6 rounded-lg">
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Key Equations
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded border-l-4 border-blue-500">
+                      <p className="font-bold text-lg mb-2">Energy of Level n:</p>
+                      <p className="text-3xl font-mono mb-3">E<sub>n</sub> = -13.6 eV / n²</p>
+                      <ul className="space-y-1 text-sm">
+                        <li><strong>E<sub>n</sub></strong> = energy of electron in level n (eV or Joules)</li>
+                        <li><strong>n</strong> = principal quantum number (1, 2, 3, ...)</li>
+                        <li><strong>-13.6 eV</strong> = ground state energy of hydrogen</li>
+                        <li>Negative values indicate bound states (electron is trapped)</li>
                       </ul>
                     </div>
 
-                    <div>
-                      <p className="font-semibold">Step 2: Rearrange Clausius-Clapeyron Equation</p>
-                      <p className="font-mono text-sm">ln(P₂/P₁) = -(ΔH<sub>vap</sub>/R) × (1/T₂ - 1/T₁)</p>
-                      <p className="mt-2 text-sm">Solve for T₂:</p>
-                      <p className="font-mono text-sm">1/T₂ = 1/T₁ + (R/ΔH<sub>vap</sub>) × ln(P₂/P₁)</p>
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded border-l-4 border-purple-500">
+                      <p className="font-bold text-lg mb-2">Energy of Transition:</p>
+                      <p className="text-3xl font-mono mb-3">ΔE = E<sub>n₂</sub> - E<sub>n₁</sub> = hf = hc/λ</p>
+                      <ul className="space-y-1 text-sm">
+                        <li><strong>ΔE</strong> = energy difference between levels</li>
+                        <li><strong>n₂</strong> = upper (initial) level, <strong>n₁</strong> = lower (final) level</li>
+                        <li>For emission: ΔE is released as a photon</li>
+                        <li>For absorption: ΔE must be provided to promote electron</li>
+                      </ul>
                     </div>
 
-                    <div>
-                      <p className="font-semibold">Step 3: Calculate ln(P₂/P₁)</p>
-                      <p className="font-mono text-sm">ln(P₂/P₁) = ln(0.82/1.00)</p>
-                      <p className="font-mono text-sm">= ln(0.82)</p>
-                      <p className="font-mono text-sm font-bold">= -0.1985</p>
-                    </div>
-
-                    <div>
-                      <p className="font-semibold">Step 4: Calculate (R/ΔH<sub>vap</sub>) × ln(P₂/P₁)</p>
-                      <p className="font-mono text-sm">
-                        = (8.314 J/(mol·K) / 40,700 J/mol) × (-0.1985)
-                      </p>
-                      <p className="font-mono text-sm">
-                        = (2.043 × 10⁻⁴ K⁻¹) × (-0.1985)
-                      </p>
-                      <p className="font-mono text-sm font-bold">
-                        = -4.055 × 10⁻⁵ K⁻¹
-                      </p>
-                    </div>
-
-                    <div>
-                      <p className="font-semibold">Step 5: Calculate 1/T₂</p>
-                      <p className="font-mono text-sm">1/T₂ = 1/T₁ + (R/ΔH<sub>vap</sub>) × ln(P₂/P₁)</p>
-                      <p className="font-mono text-sm">
-                        = 1/373.15 + (-4.055 × 10⁻⁵)
-                      </p>
-                      <p className="font-mono text-sm">
-                        = 2.6797 × 10⁻³ - 4.055 × 10⁻⁵
-                      </p>
-                      <p className="font-mono text-sm font-bold">
-                        = 2.6391 × 10⁻³ K⁻¹
-                      </p>
-                    </div>
-
-                    <div>
-                      <p className="font-semibold">Step 6: Calculate T₂</p>
-                      <p className="font-mono text-sm">T₂ = 1 / (2.6391 × 10⁻³)</p>
-                      <p className="font-mono text-sm font-bold">
-                        = 378.9 K = 95.8°C
-                      </p>
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded border-l-4 border-green-500">
+                      <p className="font-bold text-lg mb-2">Rydberg Equation:</p>
+                      <p className="text-3xl font-mono mb-3">1/λ = R<sub>H</sub> (1/n₁² - 1/n₂²)</p>
+                      <ul className="space-y-1 text-sm">
+                        <li><strong>λ</strong> = wavelength of emitted/absorbed light</li>
+                        <li><strong>R<sub>H</sub></strong> = Rydberg constant = 1.097 × 10⁷ m⁻¹</li>
+                        <li><strong>n₁</strong> = lower level, <strong>n₂</strong> = upper level (n₂ &gt; n₁)</li>
+                        <li>Directly relates energy levels to spectral lines</li>
+                      </ul>
                     </div>
                   </div>
-                </div>
+                </section>
 
-                <div className="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg border-l-4 border-green-500">
-                  <p className="font-semibold text-green-900 dark:text-green-100">Answer:</p>
-                  <p className="text-green-800 dark:text-green-200">
-                    Water boils at approximately <strong>95.8°C</strong> in Denver. This is why cooking times are longer 
-                    at high altitudes - water boils at a lower temperature, so food cooks more slowly. The ~4°C decrease 
-                    corresponds to the ~0.18 atm decrease in atmospheric pressure.
+                <section>
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Energy Level Diagram
+                  </h3>
+                  <p className="leading-relaxed mb-4">
+                    The energy levels of hydrogen get closer together as n increases, asymptotically approaching zero energy 
+                    (ionization) at n = ∞. The largest energy gap is between n = 1 and n = 2.
                   </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Vapor Pressure Curves */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Understanding Vapor Pressure Curves
-            </h2>
-            <div className="prose dark:prose-invert max-w-none">
-              <p className="text-lg leading-relaxed mb-6">
-                The Clausius-Clapeyron equation describes vapor pressure curves, which show how a substance's vapor 
-                pressure changes with temperature:
-              </p>
-
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 p-6 rounded-lg mb-6">
-                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-100 mb-4">Key Characteristics:</h3>
-                <div className="space-y-3 text-blue-800 dark:text-blue-200">
-                  <div className="flex items-start">
-                    <span className="font-bold text-2xl mr-3">1.</span>
-                    <div>
-                      <p className="font-semibold">Exponential Increase:</p>
-                      <p className="text-sm">
-                        Vapor pressure increases exponentially with temperature. A small temperature increase causes 
-                        a large pressure increase.
-                      </p>
-                    </div>
-                  </div>
                   
-                  <div className="flex items-start">
-                    <span className="font-bold text-2xl mr-3">2.</span>
-                    <div>
-                      <p className="font-semibold">Boiling Point Definition:</p>
-                      <p className="text-sm">
-                        A liquid boils when its vapor pressure equals the external pressure. At 1 atm, this is the 
-                        "normal boiling point."
-                      </p>
+                  <div className="bg-gray-50 dark:bg-gray-700/50 p-5 rounded-lg">
+                    <div className="space-y-2 font-mono text-sm">
+                      <div className="flex justify-between items-center border-b border-gray-400 pb-1">
+                        <span>n = ∞</span>
+                        <span className="font-bold">E = 0 eV (ionization)</span>
+                      </div>
+                      <div className="flex justify-between items-center border-b border-gray-300 dark:border-gray-600 pb-1">
+                        <span>n = 5</span>
+                        <span>E = -0.544 eV</span>
+                      </div>
+                      <div className="flex justify-between items-center border-b border-gray-300 dark:border-gray-600 pb-1">
+                        <span>n = 4</span>
+                        <span>E = -0.850 eV</span>
+                      </div>
+                      <div className="flex justify-between items-center border-b border-gray-300 dark:border-gray-600 pb-1">
+                        <span>n = 3</span>
+                        <span>E = -1.511 eV</span>
+                      </div>
+                      <div className="flex justify-between items-center border-b border-gray-300 dark:border-gray-600 pb-1">
+                        <span>n = 2</span>
+                        <span>E = -3.400 eV</span>
+                      </div>
+                      <div className="flex justify-between items-center border-b-2 border-gray-500 pb-2">
+                        <span className="font-bold">n = 1 (ground state)</span>
+                        <span className="font-bold">E = -13.6 eV</span>
+                      </div>
                     </div>
+                    <p className="text-xs mt-3 text-gray-600 dark:text-gray-400">
+                      Energy increases (becomes less negative) as n increases. Ground state (n=1) is most stable.
+                    </p>
                   </div>
+                </section>
+
+                <section>
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Hydrogen Spectral Series
+                  </h3>
+                  <p className="leading-relaxed mb-4">
+                    When electrons transition between energy levels, they emit or absorb photons. Each series is named after 
+                    its discoverer and corresponds to transitions ending at a particular n₁ level:
+                  </p>
                   
-                  <div className="flex items-start">
-                    <span className="font-bold text-2xl mr-3">3.</span>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg">
+                      <thead>
+                        <tr className="bg-gradient-to-r from-primary-100 to-secondary-100 dark:from-primary-900/30 dark:to-secondary-900/30">
+                          <th className="px-4 py-3 text-left font-semibold border-b">Series</th>
+                          <th className="px-4 py-3 text-left font-semibold border-b">n₁</th>
+                          <th className="px-4 py-3 text-left font-semibold border-b">n₂ Range</th>
+                          <th className="px-4 py-3 text-left font-semibold border-b">Region</th>
+                          <th className="px-4 py-3 text-left font-semibold border-b">λ Range</th>
+                        </tr>
+                      </thead>
+                      <tbody className="text-sm">
+                        <tr className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                          <td className="px-4 py-3 border-b font-semibold">Lyman</td>
+                          <td className="px-4 py-3 border-b">1</td>
+                          <td className="px-4 py-3 border-b">2, 3, 4, ...</td>
+                          <td className="px-4 py-3 border-b">Ultraviolet</td>
+                          <td className="px-4 py-3 border-b">91-122 nm</td>
+                        </tr>
+                        <tr className="bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30">
+                          <td className="px-4 py-3 border-b font-semibold">Balmer</td>
+                          <td className="px-4 py-3 border-b">2</td>
+                          <td className="px-4 py-3 border-b">3, 4, 5, ...</td>
+                          <td className="px-4 py-3 border-b"><strong>Visible</strong></td>
+                          <td className="px-4 py-3 border-b">365-656 nm</td>
+                        </tr>
+                        <tr className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                          <td className="px-4 py-3 border-b font-semibold">Paschen</td>
+                          <td className="px-4 py-3 border-b">3</td>
+                          <td className="px-4 py-3 border-b">4, 5, 6, ...</td>
+                          <td className="px-4 py-3 border-b">Infrared</td>
+                          <td className="px-4 py-3 border-b">820-1875 nm</td>
+                        </tr>
+                        <tr className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                          <td className="px-4 py-3 border-b font-semibold">Brackett</td>
+                          <td className="px-4 py-3 border-b">4</td>
+                          <td className="px-4 py-3 border-b">5, 6, 7, ...</td>
+                          <td className="px-4 py-3 border-b">Infrared</td>
+                          <td className="px-4 py-3 border-b">1.46-4.05 μm</td>
+                        </tr>
+                        <tr className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                          <td className="px-4 py-3 border-b font-semibold">Pfund</td>
+                          <td className="px-4 py-3 border-b">5</td>
+                          <td className="px-4 py-3 border-b">6, 7, 8, ...</td>
+                          <td className="px-4 py-3 border-b">Infrared</td>
+                          <td className="px-4 py-3 border-b">2.28-7.46 μm</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div className="mt-4 bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border-l-4 border-blue-500">
+                    <p className="text-sm">
+                      <strong>Balmer Series:</strong> The only series visible to the human eye! These transitions (n → 2) 
+                      produce the characteristic red, blue-green, blue-violet, and violet lines of hydrogen's spectrum. 
+                      The Hα line (n=3→2) at 656 nm is prominently red.
+                    </p>
+                  </div>
+                </section>
+
+                <section className="bg-gradient-to-br from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20 p-6 rounded-lg">
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Worked Example: Balmer Alpha (Hα)
+                  </h3>
+                  <div className="space-y-4">
                     <div>
-                      <p className="font-semibold">Substance Dependence:</p>
+                      <p className="font-semibold mb-2">Problem:</p>
+                      <p>
+                        Calculate the wavelength of light emitted when an electron in hydrogen transitions from n = 3 to n = 2 
+                        (the Balmer alpha or Hα line).
+                      </p>
+                    </div>
+                    
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded">
+                      <p className="font-semibold mb-2">Step 1: Calculate energy of each level</p>
+                      <p className="font-mono text-sm">E₂ = -13.6 eV / 2² = -13.6 / 4 = -3.40 eV</p>
+                      <p className="font-mono text-sm">E₃ = -13.6 eV / 3² = -13.6 / 9 = -1.51 eV</p>
+                    </div>
+                    
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded">
+                      <p className="font-semibold mb-2">Step 2: Calculate energy difference</p>
+                      <p className="font-mono text-sm">ΔE = E₃ - E₂ = -1.51 - (-3.40) = 1.89 eV</p>
+                      <p className="text-xs mt-2">Convert to Joules: 1.89 eV × 1.602×10⁻¹⁹ J/eV = 3.03×10⁻¹⁹ J</p>
+                    </div>
+                    
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded">
+                      <p className="font-semibold mb-2">Step 3: Calculate wavelength using E = hc/λ</p>
+                      <p className="font-mono text-sm">λ = hc / ΔE</p>
+                      <p className="font-mono text-sm">λ = (6.626×10⁻³⁴ J·s)(2.998×10⁸ m/s) / (3.03×10⁻¹⁹ J)</p>
+                      <p className="font-mono text-sm">λ = 6.56 × 10⁻⁷ m = 656 nm</p>
+                    </div>
+
+                    <div className="bg-white dark:bg-gray-800 p-4 rounded">
+                      <p className="font-semibold mb-2">Alternative: Use Rydberg equation</p>
+                      <p className="font-mono text-sm">1/λ = R<sub>H</sub> (1/n₁² - 1/n₂²)</p>
+                      <p className="font-mono text-sm">1/λ = 1.097×10⁷ (1/4 - 1/9) = 1.097×10⁷ (0.1389)</p>
+                      <p className="font-mono text-sm">1/λ = 1.524×10⁶ m⁻¹</p>
+                      <p className="font-mono text-sm">λ = 656 nm ✓</p>
+                    </div>
+                    
+                    <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded border-l-4 border-green-600">
+                      <p className="font-semibold mb-1">Answer:</p>
+                      <p>The Hα line has a wavelength of <strong>656 nm</strong>, which appears as <strong>red light</strong> 
+                      in the visible spectrum. This is one of the most prominent lines in hydrogen's emission spectrum and is 
+                      used extensively in astronomy.</p>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Applications of the Bohr Model
+                  </h3>
+                  
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="bg-blue-50 dark:bg-blue-900/20 p-5 rounded-lg">
+                      <h4 className="font-bold text-blue-900 dark:text-blue-100 mb-2 flex items-center gap-2">
+                        <span className="text-2xl">🌌</span>
+                        Astronomy
+                      </h4>
                       <p className="text-sm">
-                        Substances with stronger intermolecular forces have lower vapor pressures at a given temperature 
-                        and higher boiling points. This is reflected in higher ΔH<sub>vap</sub> values.
+                        Hydrogen spectral lines (especially Hα) are used to study stars, nebulae, and galaxies. Redshift/blueshift 
+                        of these lines reveals the velocity and distance of celestial objects.
+                      </p>
+                    </div>
+                    
+                    <div className="bg-green-50 dark:bg-green-900/20 p-5 rounded-lg">
+                      <h4 className="font-bold text-green-900 dark:text-green-100 mb-2 flex items-center gap-2">
+                        <span className="text-2xl">🔬</span>
+                        Spectroscopy
+                      </h4>
+                      <p className="text-sm">
+                        Emission and absorption spectroscopy identify elements in unknown samples. Each element has a unique 
+                        spectral fingerprint based on its electronic structure.
+                      </p>
+                    </div>
+                    
+                    <div className="bg-purple-50 dark:bg-purple-900/20 p-5 rounded-lg">
+                      <h4 className="font-bold text-purple-900 dark:text-purple-100 mb-2 flex items-center gap-2">
+                        <span className="text-2xl">⚛️</span>
+                        Quantum Mechanics
+                      </h4>
+                      <p className="text-sm">
+                        The Bohr model introduced quantization of energy, laying the groundwork for modern quantum mechanics. 
+                        It demonstrated that classical physics fails at the atomic scale.
+                      </p>
+                    </div>
+                    
+                    <div className="bg-red-50 dark:bg-red-900/20 p-5 rounded-lg">
+                      <h4 className="font-bold text-red-900 dark:text-red-100 mb-2 flex items-center gap-2">
+                        <span className="text-2xl">💡</span>
+                        Plasma Physics
+                      </h4>
+                      <p className="text-sm">
+                        Understanding hydrogen spectra is crucial for fusion research and plasma diagnostics. The Balmer lines 
+                        are monitored in fusion reactors to measure plasma conditions.
                       </p>
                     </div>
                   </div>
-                </div>
-              </div>
+                </section>
 
-              <div className="overflow-x-auto mb-6">
-                <table className="w-full bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
-                  <thead className="bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
-                    <tr>
-                      <th className="p-3 text-left">Substance</th>
-                      <th className="p-3 text-left">Normal BP (°C)</th>
-                      <th className="p-3 text-left">ΔH<sub>vap</sub> (kJ/mol)</th>
-                      <th className="p-3 text-left">IMF Strength</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
-                    <tr className="hover:bg-gray-50 dark:hover:bg-gray-700/50">
-                      <td className="p-3">Diethyl ether</td>
-                      <td className="p-3">34.6</td>
-                      <td className="p-3">26.0</td>
-                      <td className="p-3 text-green-600">Weak (dispersion)</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 dark:hover:bg-gray-700/50">
-                      <td className="p-3">Acetone</td>
-                      <td className="p-3">56.2</td>
-                      <td className="p-3">29.1</td>
-                      <td className="p-3 text-yellow-600">Moderate (dipole)</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 dark:hover:bg-gray-700/50">
-                      <td className="p-3">Methanol</td>
-                      <td className="p-3">64.7</td>
-                      <td className="p-3">35.3</td>
-                      <td className="p-3 text-orange-600">Strong (H-bonding)</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 dark:hover:bg-gray-700/50">
-                      <td className="p-3">Ethanol</td>
-                      <td className="p-3">78.4</td>
-                      <td className="p-3">38.6</td>
-                      <td className="p-3 text-orange-600">Strong (H-bonding)</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 dark:hover:bg-gray-700/50 bg-blue-50 dark:bg-blue-900/30">
-                      <td className="p-3 font-bold">Water</td>
-                      <td className="p-3 font-bold">100.0</td>
-                      <td className="p-3 font-bold">40.7</td>
-                      <td className="p-3 text-red-600 font-bold">Very Strong (H-bonding)</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div className="bg-purple-50 dark:bg-purple-900/30 p-6 rounded-lg border-l-4 border-purple-500">
-                <p className="font-semibold text-purple-900 dark:text-purple-100 mb-2">Why Water is Special:</p>
-                <p className="text-purple-800 dark:text-purple-200">
-                  Water has an unusually high ΔH<sub>vap</sub> and boiling point for its molecular weight due to extensive 
-                  hydrogen bonding. Each water molecule can form up to 4 H-bonds, creating a strong network that requires 
-                  significant energy to overcome during vaporization.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Applications */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Real-World Applications
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-100 mb-3">
-                  1. Distillation Processes
-                </h3>
-                <p className="text-blue-800 dark:text-blue-200">
-                  Industrial separation of liquids relies on vapor pressure differences. The Clausius-Clapeyron equation 
-                  helps design distillation columns, optimize operating conditions, and predict separation efficiency for 
-                  petroleum refining, alcohol production, and chemical purification.
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-green-900 dark:text-green-100 mb-3">
-                  2. Meteorology & Weather
-                </h3>
-                <p className="text-green-800 dark:text-green-200">
-                  Understanding water vapor pressure is crucial for weather prediction. The equation explains dew point, 
-                  cloud formation, humidity calculations, and why altitude affects weather patterns. It's fundamental to 
-                  atmospheric science and climate modeling.
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-purple-900 dark:text-purple-100 mb-3">
-                  3. Refrigeration & HVAC
-                </h3>
-                <p className="text-purple-800 dark:text-purple-200">
-                  Refrigerants are selected based on their vapor pressure-temperature relationships. The equation helps 
-                  design cooling systems, optimize refrigerant choice, and predict system performance. Air conditioning 
-                  and heat pumps rely on controlled phase transitions.
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-orange-900 dark:text-orange-100 mb-3">
-                  4. Food Science & Cooking
-                </h3>
-                <p className="text-orange-800 dark:text-orange-200">
-                  Pressure cookers work by increasing pressure to raise boiling point, cooking food faster. High-altitude 
-                  cooking requires adjustments because water boils at lower temperatures. Freeze-drying and vacuum 
-                  evaporation use reduced pressure for preservation.
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/20 dark:to-blue-900/20 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-teal-900 dark:text-teal-100 mb-3">
-                  5. Chemical Engineering
-                </h3>
-                <p className="text-teal-800 dark:text-teal-200">
-                  Design of evaporators, condensers, and heat exchangers requires accurate vapor pressure predictions. 
-                  The equation guides reactor design, solvent recovery systems, and crystallization processes in 
-                  pharmaceutical and chemical manufacturing.
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-yellow-900 dark:text-yellow-100 mb-3">
-                  6. Environmental Science
-                </h3>
-                <p className="text-yellow-800 dark:text-yellow-200">
-                  Predicting the evaporation of pollutants, understanding volatile organic compound (VOC) emissions, 
-                  and modeling soil moisture dynamics all use the Clausius-Clapeyron relationship. It's essential for 
-                  environmental risk assessment and remediation.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Problem-Solving Strategy */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Problem-Solving Strategy
-            </h2>
-            <div className="prose dark:prose-invert max-w-none">
-              <div className="space-y-6">
-                <div className="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-lg border-l-4 border-blue-500">
-                  <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-100 mb-3">
-                    Step 1: Identify Known and Unknown Variables
+                <section>
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Limitations of the Bohr Model
                   </h3>
-                  <ul className="list-disc list-inside space-y-2 text-blue-800 dark:text-blue-200">
-                    <li>What are you solving for? P₂, T₂, or ΔH<sub>vap</sub>?</li>
-                    <li>List all given values with units</li>
-                    <li>Determine if normal boiling point data is provided</li>
-                  </ul>
-                </div>
+                  <div className="bg-yellow-50 dark:bg-yellow-900/20 p-5 rounded-lg space-y-3">
+                    <p className="leading-relaxed">
+                      While successful for hydrogen, the Bohr model has significant limitations:
+                    </p>
+                    <div className="space-y-2">
+                      <div className="flex items-start gap-3">
+                        <span className="text-xl">❌</span>
+                        <div>
+                          <p className="font-semibold text-sm">Only works for hydrogen-like ions</p>
+                          <p className="text-xs">Cannot accurately predict spectra of multi-electron atoms</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <span className="text-xl">❌</span>
+                        <div>
+                          <p className="font-semibold text-sm">Doesn't explain fine structure</p>
+                          <p className="text-xs">Cannot account for splitting of spectral lines in magnetic fields (Zeeman effect)</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <span className="text-xl">❌</span>
+                        <div>
+                          <p className="font-semibold text-sm">Violates Heisenberg uncertainty principle</p>
+                          <p className="text-xs">Assumes precise knowledge of both position and momentum</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <span className="text-xl">❌</span>
+                        <div>
+                          <p className="font-semibold text-sm">No explanation for chemical bonding</p>
+                          <p className="text-xs">Cannot predict molecular structures or bond formation</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mt-4 bg-white dark:bg-gray-800 p-3 rounded">
+                      <p className="text-sm">
+                        <strong>Modern Replacement:</strong> The Schrödinger equation and quantum mechanical orbital theory 
+                        provide a more complete and accurate description of atomic structure, though the Bohr model remains 
+                        pedagogically valuable.
+                      </p>
+                    </div>
+                  </div>
+                </section>
 
-                <div className="bg-green-50 dark:bg-green-900/30 p-6 rounded-lg border-l-4 border-green-500">
-                  <h3 className="text-xl font-semibold text-green-900 dark:text-green-100 mb-3">
-                    Step 2: Convert to Proper Units
+                <section>
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Historical Significance
                   </h3>
-                  <ul className="list-disc list-inside space-y-2 text-green-800 dark:text-green-200">
-                    <li>Temperature: MUST be in Kelvin (K = °C + 273.15)</li>
-                    <li>ΔH<sub>vap</sub>: Convert kJ/mol to J/mol (multiply by 1000)</li>
-                    <li>Pressure: Keep units consistent (atm, Pa, mmHg, etc.)</li>
-                    <li>R = 8.314 J/(mol·K) when using J and K</li>
-                  </ul>
-                </div>
+                  <div className="space-y-3">
+                    <div className="border-l-4 border-primary-500 pl-4">
+                      <p className="font-bold mb-1">1885: Johann Balmer</p>
+                      <p className="text-sm">
+                        Empirically discovered the formula for hydrogen's visible spectral lines (Balmer series), 
+                        not knowing the underlying physics.
+                      </p>
+                    </div>
+                    
+                    <div className="border-l-4 border-secondary-500 pl-4">
+                      <p className="font-bold mb-1">1888: Johannes Rydberg</p>
+                      <p className="text-sm">
+                        Generalized Balmer's formula to the Rydberg equation, covering all spectral series. Introduced 
+                        the Rydberg constant.
+                      </p>
+                    </div>
+                    
+                    <div className="border-l-4 border-tertiary-500 pl-4">
+                      <p className="font-bold mb-1">1913: Niels Bohr</p>
+                      <p className="text-sm">
+                        Developed quantum model explaining WHY the Rydberg equation works. Introduced quantized angular 
+                        momentum and stationary states. Won 1922 Nobel Prize.
+                      </p>
+                    </div>
 
-                <div className="bg-purple-50 dark:bg-purple-900/30 p-6 rounded-lg border-l-4 border-purple-500">
-                  <h3 className="text-xl font-semibold text-purple-900 dark:text-purple-100 mb-3">
-                    Step 3: Apply the Equation
-                  </h3>
-                  <ul className="list-disc list-inside space-y-2 text-purple-800 dark:text-purple-200">
-                    <li>Use: ln(P₂/P₁) = -(ΔH<sub>vap</sub>/R) × (1/T₂ - 1/T₁)</li>
-                    <li>Rearrange algebraically to solve for the unknown</li>
-                    <li>Be careful with signs: note the negative sign in the equation</li>
-                  </ul>
-                </div>
+                    <div className="border-l-4 border-green-500 pl-4">
+                      <p className="font-bold mb-1">1926: Erwin Schrödinger</p>
+                      <p className="text-sm">
+                        Formulated wave equation that completely describes atomic structure, superseding Bohr's model 
+                        while confirming its main results for hydrogen.
+                      </p>
+                    </div>
+                  </div>
+                </section>
 
-                <div className="bg-orange-50 dark:bg-orange-900/30 p-6 rounded-lg border-l-4 border-orange-500">
-                  <h3 className="text-xl font-semibold text-orange-900 dark:text-orange-100 mb-3">
-                    Step 4: Calculate and Check
+                <section className="bg-gradient-to-r from-primary-50 to-secondary-50 dark:from-primary-900/20 dark:to-secondary-900/20 p-6 rounded-lg">
+                  <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                    Quick Reference Guide
                   </h3>
-                  <ul className="list-disc list-inside space-y-2 text-orange-800 dark:text-orange-200">
-                    <li>Perform calculation with proper significant figures</li>
-                    <li>Convert temperature back to °C if needed</li>
-                    <li>Check reasonableness: higher T → higher P, lower altitude → higher BP</li>
-                  </ul>
-                </div>
+                  <div className="grid md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                      <h4 className="font-bold mb-2">Key Equations:</h4>
+                      <ul className="space-y-1 font-mono text-xs">
+                        <li>E<sub>n</sub> = -13.6 eV / n²</li>
+                        <li>ΔE = E<sub>upper</sub> - E<sub>lower</sub></li>
+                        <li>1/λ = R<sub>H</sub>(1/n₁² - 1/n₂²)</li>
+                        <li>R<sub>H</sub> = 1.097×10⁷ m⁻¹</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold mb-2">Famous Lines:</h4>
+                      <ul className="space-y-1">
+                        <li>Hα (n=3→2): 656 nm (red)</li>
+                        <li>Hβ (n=4→2): 486 nm (blue-green)</li>
+                        <li>Hγ (n=5→2): 434 nm (violet)</li>
+                        <li>Lyman α (n=2→1): 121 nm (UV)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+
               </div>
             </div>
-          </section>
-
-          {/* Common Mistakes */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Common Mistakes to Avoid
-            </h2>
-            <div className="space-y-4">
-              <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
-                <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  ❌ Using Celsius Instead of Kelvin
-                </h3>
-                <p className="text-red-800 dark:text-red-200 mb-2">
-                  The equation requires absolute temperature in Kelvin. Using °C gives completely wrong results.
-                </p>
-                <p className="text-sm text-red-700 dark:text-red-300">
-                  <strong>Correct:</strong> Always convert: K = °C + 273.15
-                </p>
-              </div>
-
-              <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
-                <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  ❌ Forgetting to Convert ΔH<sub>vap</sub> to J/mol
-                </h3>
-                <p className="text-red-800 dark:text-red-200 mb-2">
-                  ΔH<sub>vap</sub> is often given in kJ/mol but R is in J/(mol·K). Units must match.
-                </p>
-                <p className="text-sm text-red-700 dark:text-red-300">
-                  <strong>Correct:</strong> Multiply kJ/mol by 1000 to get J/mol
-                </p>
-              </div>
-
-              <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
-                <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  ❌ Incorrectly Calculating (1/T₂ - 1/T₁)
-                </h3>
-                <p className="text-red-800 dark:text-red-200 mb-2">
-                  Order matters! It's (1/T₂ - 1/T₁), NOT (1/(T₂ - T₁)).
-                </p>
-                <p className="text-sm text-red-700 dark:text-red-300">
-                  <strong>Correct:</strong> Calculate 1/T₂ and 1/T₁ separately, then subtract
-                </p>
-              </div>
-
-              <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
-                <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  ❌ Ignoring the Negative Sign
-                </h3>
-                <p className="text-red-800 dark:text-red-200 mb-2">
-                  The equation has a negative sign: ln(P₂/P₁) = -(ΔH<sub>vap</sub>/R) × (1/T₂ - 1/T₁).
-                </p>
-                <p className="text-sm text-red-700 dark:text-red-300">
-                  <strong>Correct:</strong> Don't drop the negative sign - it's crucial for correct results
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Quick Reference */}
-          <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Quick Reference Guide
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-primary-50 to-secondary-50 dark:from-primary-900/20 dark:to-secondary-900/20 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-4">Key Constants</h3>
-                <div className="space-y-2 text-sm">
-                  <p>R = 8.314 J/(mol·K)</p>
-                  <p>R = 0.08206 L·atm/(mol·K)</p>
-                  <p>1 atm = 101.325 kPa = 760 mmHg</p>
-                  <p>K = °C + 273.15</p>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-br from-tertiary-50 to-primary-50 dark:from-tertiary-900/20 dark:to-primary-900/20 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-4">Key Formulas</h3>
-                <div className="space-y-2 text-sm font-mono">
-                  <p>ln(P₂/P₁) = -(ΔH<sub>vap</sub>/R)(1/T₂ - 1/T₁)</p>
-                  <p>P₂ = P₁ × exp[-(ΔH<sub>vap</sub>/R)(1/T₂ - 1/T₁)]</p>
-                  <p>T₂ = 1/[1/T₁ + (R/ΔH<sub>vap</sub>)ln(P₂/P₁)]</p>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-br from-secondary-50 to-tertiary-50 dark:from-secondary-900/20 dark:to-tertiary-900/20 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-4">Typical ΔH<sub>vap</sub> Values</h3>
-                <div className="space-y-2 text-sm">
-                  <p>Water: 40.7 kJ/mol</p>
-                  <p>Ethanol: 38.6 kJ/mol</p>
-                  <p>Acetone: 29.1 kJ/mol</p>
-                  <p>Diethyl ether: 26.0 kJ/mol</p>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-br from-primary-50 to-tertiary-50 dark:from-primary-900/20 dark:to-tertiary-900/20 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-4">Quick Checks</h3>
-                <div className="space-y-2 text-sm">
-                  <p>• Higher T → Higher P (always)</p>
-                  <p>• BP at 1 atm = normal BP</p>
-                  <p>• Lower altitude → Higher P → Higher BP</p>
-                  <p>• Stronger IMF → Higher ΔH<sub>vap</sub> → Higher BP</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
           </div>
+            </div>
 
-          {/* Sidebar */}
-          <div className="lg:col-span-1">
-            <div className="sticky top-24">
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  🔗 Related Calculators
-                </h3>
-                <ul className="space-y-3">
-                  <li>
+            {/* Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-24">
+                <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                    🔗 Related Calculators
+                  </h3>
+                  <ul className="space-y-3">
+                    <li>
+                      <a
+                        href="/atomic-structure-calculators/wavelength-energy-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Wavelength Energy Calculator</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/atomic-structure-calculators/electron-configuration-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Electron Configuration</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/quantum-calculators/quantum-numbers-calculator"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Quantum Numbers Calculator</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <a
-                      href="/thermodynamics-calculators/entropy-calculator"
-                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      href="/calculators"
+                      className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      <span>→</span>
-                      <span>Entropy Calculator</span>
+                      View All Calculators →
                     </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/thermodynamics-calculators/bond-energy-calculator"
-                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
-                    >
-                      <span>→</span>
-                      <span>Bond Energy Calculator</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/physical-chemistry-calculators/raoults-law-calculator"
-                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
-                    >
-                      <span>→</span>
-                      <span>Raoult's Law Calculator</span>
-                    </a>
-                  </li>
-                </ul>
-                <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-                  <a
-                    href="/calculators"
-                    className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
-                  >
-                    View All Calculators →
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </div>      </div>
       <Footer />
     </>
