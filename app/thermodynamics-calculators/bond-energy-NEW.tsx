@@ -1,32 +1,32 @@
-import React from 'react';
-import HessLawCalculator from '@/components/calculators/HessLawCalculator';
+import { Metadata } from 'next';
+import EntropyCalculator from '@/components/calculators/EntropyCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
-  title: 'Hess\'s Law Calculator | ChemCalc',
-  description: 'Calculate enthalpy changes using Hess\'s Law. Combine multiple reactions to find ΔH for complex processes in thermodynamics and thermochemistry.',
-  keywords: 'Hess law, enthalpy, thermochemistry, heat of reaction, reaction enthalpy, thermodynamics, chemistry calculator',
+export const metadata: Metadata = {
+  title: "Entropy Calculator | ΔS° | Reaction Spontaneity",
+  description: "Calculate entropy change (ΔS°) for chemical reactions. Essential for thermodynamics, spontaneity predictions, and Gibbs free energy calculations.",
+  keywords: ['entropy', 'entropy change', 'delta s', 'thermodynamics', 'spontaneity', 'disorder', 'second law', 'standard entropy'],
 };
 
-export default function HessLawCalculatorPage() {  return (
+export default function EntropyCalculatorPage() {  return (
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Hess's Law Calculator
+            Entropy Calculator
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Calculate enthalpy changes using Hess's Law
+            Calculate entropy change (ΔS°) for chemical reactions and understand disorder in thermodynamic processes
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <HessLawCalculator />
+            <EntropyCalculator />
           </div>
 
           <div className="space-y-6">

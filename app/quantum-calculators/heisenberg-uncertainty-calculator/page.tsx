@@ -30,7 +30,7 @@ export default function HeisenbergUncertaintyCalculatorPage() {  return (
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
-        {/* Header */}}
+        {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600 dark:from-primary-400 dark:to-secondary-400 mb-4">
             Heisenberg Uncertainty Principle Calculator
