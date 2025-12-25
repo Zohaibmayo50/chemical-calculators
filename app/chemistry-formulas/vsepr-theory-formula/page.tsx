@@ -1,0 +1,410 @@
+import React from 'react';
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+export const metadata: Metadata = {
+  title: 'VSEPR Theory Formula | Molecular Geometry Prediction',
+  description: 'VSEPR theory for predicting molecular geometry, bond angles, and electron domain arrangements.',
+  keywords: ['VSEPR theory', 'molecular geometry', 'electron geometry', 'bond angles', 'Lewis structures']
+};
+
+export default function VSEPRTheoryFormulaPage() {
+  return (
+    <>
+      <Header />
+      <main className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-violet-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+          <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
+            <Link href="/">Home</Link>
+            <span>→</span>
+            <Link href="/chemistry-formulas">Chemistry Formulas</Link>
+            <span>→</span>
+            <span className="text-gray-900 dark:text-white font-medium">VSEPR Theory</span>
+          </nav>
+        </div>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-600 rounded-3xl p-12 text-white shadow-2xl">
+            <h1 className="text-5xl font-bold mb-4 text-center">VSEPR Theory</h1>
+            <p className="text-xl text-center text-violet-100">
+              Valence Shell Electron Pair Repulsion Theory
+            </p>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border-l-4 border-violet-500">
+            <h2 className="text-3xl font-bold mb-6">VSEPR Principle</h2>
+            
+            <div className="bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/30 dark:to-purple-900/30 rounded-xl p-6 mb-6">
+              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <strong>Core Concept:</strong> Electron pairs around a central atom repel each other and arrange themselves to minimize repulsion, achieving maximum distance from each other.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-3">1. Draw Lewis Structure</h3>
+                <p className="text-gray-700 dark:text-gray-300">Determine total valence electrons and draw bonds</p>
+              </div>
+
+              <div className="bg-purple-50 dark:bg-purple-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-3">2. Count Electron Domains</h3>
+                <p className="text-gray-700 dark:text-gray-300">
+                  • Bonding domains: Single, double, or triple bonds (each counts as ONE)<br />
+                  • Lone pairs: Non-bonding electron pairs
+                </p>
+              </div>
+
+              <div className="bg-indigo-50 dark:bg-indigo-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-indigo-900 dark:text-indigo-300 mb-3">3. Determine Electron Geometry</h3>
+                <p className="text-gray-700 dark:text-gray-300">Based on total number of electron domains</p>
+              </div>
+
+              <div className="bg-pink-50 dark:bg-pink-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-pink-900 dark:text-pink-300 mb-3">4. Determine Molecular Geometry</h3>
+                <p className="text-gray-700 dark:text-gray-300">Based on bonding domains only (ignore lone pairs for shape name)</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-3xl font-bold mb-6">Electron Domain Geometries</h2>
+            
+            <div className="space-y-6">
+              <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-3">2 Electron Domains</h3>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Electron Geometry:</strong> Linear</p>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Bond Angle:</strong> 180°</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Example: BeCl₂, CO₂</p>
+              </div>
+
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-3">3 Electron Domains</h3>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Electron Geometry:</strong> Trigonal Planar</p>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Bond Angle:</strong> 120°</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Example: BF₃, SO₃</p>
+              </div>
+
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-3">4 Electron Domains</h3>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Electron Geometry:</strong> Tetrahedral</p>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Bond Angle:</strong> 109.5°</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Example: CH₄, NH₄⁺</p>
+              </div>
+
+              <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-orange-900 dark:text-orange-300 mb-3">5 Electron Domains</h3>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Electron Geometry:</strong> Trigonal Bipyramidal</p>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Bond Angles:</strong> 90°, 120°, 180°</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Example: PCl₅, AsF₅</p>
+              </div>
+
+              <div className="bg-gradient-to-r from-red-50 to-rose-50 dark:from-red-900/20 dark:to-rose-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-red-900 dark:text-red-300 mb-3">6 Electron Domains</h3>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Electron Geometry:</strong> Octahedral</p>
+                <p className="text-gray-700 dark:text-gray-300"><strong>Bond Angle:</strong> 90°, 180°</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Example: SF₆, PF₆⁻</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-3xl font-bold mb-6">Molecular Geometries with Lone Pairs</h2>
+            
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-gradient-to-r from-violet-100 to-purple-100 dark:from-violet-900/50 dark:to-purple-900/50">
+                    <th className="p-3 text-left font-bold">Domains</th>
+                    <th className="p-3 text-left font-bold">Bonding</th>
+                    <th className="p-3 text-left font-bold">Lone Pairs</th>
+                    <th className="p-3 text-left font-bold">Molecular Shape</th>
+                    <th className="p-3 text-left font-bold">Bond Angle</th>
+                    <th className="p-3 text-left font-bold">Example</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+                  <tr>
+                    <td className="p-3">2</td>
+                    <td className="p-3">2</td>
+                    <td className="p-3">0</td>
+                    <td className="p-3 font-bold">Linear</td>
+                    <td className="p-3">180°</td>
+                    <td className="p-3">CO₂</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-800/50">
+                    <td className="p-3">3</td>
+                    <td className="p-3">3</td>
+                    <td className="p-3">0</td>
+                    <td className="p-3 font-bold">Trigonal Planar</td>
+                    <td className="p-3">120°</td>
+                    <td className="p-3">BF₃</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3">3</td>
+                    <td className="p-3">2</td>
+                    <td className="p-3">1</td>
+                    <td className="p-3 font-bold">Bent</td>
+                    <td className="p-3">&lt;120°</td>
+                    <td className="p-3">SO₂</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-800/50">
+                    <td className="p-3">4</td>
+                    <td className="p-3">4</td>
+                    <td className="p-3">0</td>
+                    <td className="p-3 font-bold">Tetrahedral</td>
+                    <td className="p-3">109.5°</td>
+                    <td className="p-3">CH₄</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3">4</td>
+                    <td className="p-3">3</td>
+                    <td className="p-3">1</td>
+                    <td className="p-3 font-bold">Trigonal Pyramidal</td>
+                    <td className="p-3">~107°</td>
+                    <td className="p-3">NH₃</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-800/50">
+                    <td className="p-3">4</td>
+                    <td className="p-3">2</td>
+                    <td className="p-3">2</td>
+                    <td className="p-3 font-bold">Bent</td>
+                    <td className="p-3">~104.5°</td>
+                    <td className="p-3">H₂O</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3">5</td>
+                    <td className="p-3">5</td>
+                    <td className="p-3">0</td>
+                    <td className="p-3 font-bold">Trigonal Bipyramidal</td>
+                    <td className="p-3">90°, 120°</td>
+                    <td className="p-3">PCl₅</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-800/50">
+                    <td className="p-3">5</td>
+                    <td className="p-3">4</td>
+                    <td className="p-3">1</td>
+                    <td className="p-3 font-bold">See-Saw</td>
+                    <td className="p-3">&lt;120°, &lt;90°</td>
+                    <td className="p-3">SF₄</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3">5</td>
+                    <td className="p-3">3</td>
+                    <td className="p-3">2</td>
+                    <td className="p-3 font-bold">T-Shaped</td>
+                    <td className="p-3">&lt;90°</td>
+                    <td className="p-3">ClF₃</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-800/50">
+                    <td className="p-3">5</td>
+                    <td className="p-3">2</td>
+                    <td className="p-3">3</td>
+                    <td className="p-3 font-bold">Linear</td>
+                    <td className="p-3">180°</td>
+                    <td className="p-3">XeF₂</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3">6</td>
+                    <td className="p-3">6</td>
+                    <td className="p-3">0</td>
+                    <td className="p-3 font-bold">Octahedral</td>
+                    <td className="p-3">90°</td>
+                    <td className="p-3">SF₆</td>
+                  </tr>
+                  <tr className="bg-gray-50 dark:bg-gray-800/50">
+                    <td className="p-3">6</td>
+                    <td className="p-3">5</td>
+                    <td className="p-3">1</td>
+                    <td className="p-3 font-bold">Square Pyramidal</td>
+                    <td className="p-3">&lt;90°</td>
+                    <td className="p-3">BrF₅</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3">6</td>
+                    <td className="p-3">4</td>
+                    <td className="p-3">2</td>
+                    <td className="p-3 font-bold">Square Planar</td>
+                    <td className="p-3">90°</td>
+                    <td className="p-3">XeF₄</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-3xl font-bold mb-6">Bond Angle Modifications</h2>
+            
+            <div className="space-y-4">
+              <div className="bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-red-900 dark:text-red-300 mb-3">Lone Pair Repulsion</h3>
+                <p className="text-gray-700 dark:text-gray-300 mb-3">
+                  <strong>Repulsion Strength:</strong> LP-LP &gt; LP-BP &gt; BP-BP
+                </p>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Lone pairs occupy more space than bonding pairs, compressing bond angles
+                </p>
+                <div className="mt-3 p-4 bg-white dark:bg-gray-700 rounded">
+                  <p className="font-mono text-sm">
+                    CH₄: 109.5° (no LP)<br />
+                    NH₃: 107° (1 LP)<br />
+                    H₂O: 104.5° (2 LP)
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-3">Multiple Bonds</h3>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Double and triple bonds contain more electron density, slightly repel other bonds more
+                </p>
+                <div className="mt-3 p-4 bg-white dark:bg-gray-700 rounded">
+                  <p className="font-mono text-sm">
+                    H₂CO (formaldehyde): H-C-H angle &lt; 120°
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-3">Electronegativity Effects</h3>
+                <p className="text-gray-700 dark:text-gray-300">
+                  More electronegative substituents attract bonding electrons, slightly reducing bond angles
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-3xl font-bold mb-6">Worked Examples</h2>
+            
+            <div className="space-y-8">
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: H₂O (Water)</h3>
+                <div className="space-y-3 text-gray-700 dark:text-gray-300">
+                  <p><strong>Step 1:</strong> Draw Lewis structure</p>
+                  <p className="ml-6">O has 6 valence e⁻, each H has 1 → total = 8 e⁻</p>
+                  
+                  <p className="mt-4"><strong>Step 2:</strong> Count electron domains around O</p>
+                  <p className="ml-6">2 bonding domains (O-H bonds)</p>
+                  <p className="ml-6">2 lone pairs</p>
+                  <p className="ml-6 font-bold">Total = 4 electron domains</p>
+                  
+                  <p className="mt-4"><strong>Step 3:</strong> Electron geometry</p>
+                  <p className="ml-6 font-bold">Tetrahedral</p>
+                  
+                  <p className="mt-4"><strong>Step 4:</strong> Molecular geometry (2 bonds, 2 LP)</p>
+                  <p className="ml-6 font-bold text-green-600 text-xl">Bent, ~104.5°</p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: SF₄ (Sulfur Tetrafluoride)</h3>
+                <div className="space-y-3 text-gray-700 dark:text-gray-300">
+                  <p><strong>Step 1:</strong> Lewis structure</p>
+                  <p className="ml-6">S has 6 valence e⁻, each F has 7 → S forms 4 bonds, 1 LP remains</p>
+                  
+                  <p className="mt-4"><strong>Step 2:</strong> Count electron domains</p>
+                  <p className="ml-6">4 bonding domains (S-F bonds)</p>
+                  <p className="ml-6">1 lone pair</p>
+                  <p className="ml-6 font-bold">Total = 5 electron domains</p>
+                  
+                  <p className="mt-4"><strong>Step 3:</strong> Electron geometry</p>
+                  <p className="ml-6 font-bold">Trigonal Bipyramidal</p>
+                  
+                  <p className="mt-4"><strong>Step 4:</strong> Lone pair placement</p>
+                  <p className="ml-6">Lone pairs prefer equatorial positions (less repulsion)</p>
+                  
+                  <p className="mt-4"><strong>Step 5:</strong> Molecular geometry (4 bonds, 1 LP)</p>
+                  <p className="ml-6 font-bold text-green-600 text-xl">See-Saw shape</p>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Example 3: XeF₄ (Xenon Tetrafluoride)</h3>
+                <div className="space-y-3 text-gray-700 dark:text-gray-300">
+                  <p><strong>Step 1:</strong> Lewis structure</p>
+                  <p className="ml-6">Xe has 8 valence e⁻, forms 4 bonds, 2 LP remain</p>
+                  
+                  <p className="mt-4"><strong>Step 2:</strong> Count electron domains</p>
+                  <p className="ml-6">4 bonding domains</p>
+                  <p className="ml-6">2 lone pairs</p>
+                  <p className="ml-6 font-bold">Total = 6 electron domains</p>
+                  
+                  <p className="mt-4"><strong>Step 3:</strong> Electron geometry</p>
+                  <p className="ml-6 font-bold">Octahedral</p>
+                  
+                  <p className="mt-4"><strong>Step 4:</strong> Lone pair placement</p>
+                  <p className="ml-6">2 LP occupy opposite positions (trans)</p>
+                  
+                  <p className="mt-4"><strong>Step 5:</strong> Molecular geometry (4 bonds, 2 LP)</p>
+                  <p className="ml-6 font-bold text-green-600 text-xl">Square Planar, 90°</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-3xl font-bold mb-6">Common Mistakes</h2>
+            
+            <div className="space-y-4">
+              <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
+                <span className="text-2xl">⚠️</span>
+                <div>
+                  <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting Lone Pairs</h3>
+                  <p className="text-gray-700 dark:text-gray-300">Always count ALL electron domains, not just bonds!</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
+                <span className="text-2xl">⚠️</span>
+                <div>
+                  <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Multiple Bonds = Multiple Domains</h3>
+                  <p className="text-gray-700 dark:text-gray-300">Double and triple bonds count as ONE electron domain!</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
+                <span className="text-2xl">⚠️</span>
+                <div>
+                  <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Confusing Electron vs Molecular Geometry</h3>
+                  <p className="text-gray-700 dark:text-gray-300">Electron geometry uses all domains; molecular shape ignores LP positions!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-gradient-to-br from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20 rounded-2xl shadow-xl p-8">
+            <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <Link href="/chemistry-formulas/lewis-structure-formula" className="block p-6 bg-gradient-to-r from-violet-600 to-purple-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Lewis Structures</h3>
+                <p className="text-violet-100">Draw electron arrangements</p>
+              </Link>
+              <Link href="/chemistry-formulas/molecular-geometry" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Molecular Geometry</h3>
+                <p className="text-gray-600 dark:text-gray-400">Shape predictions</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}

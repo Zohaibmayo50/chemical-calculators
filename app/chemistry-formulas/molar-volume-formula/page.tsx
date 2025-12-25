@@ -1,0 +1,79 @@
+import React from 'react'
+import { Metadata } from 'next'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+
+export const metadata: Metadata = {
+  title: 'Molar Volume Formula | ChemCalc',
+  description: 'Calculate volume of one mole of gas at STP: 22.4 L/mol.',
+  keywords: 'molar volume, STP, ideal gas, Avogadro, 22.4 L, gas stoichiometry',
+}
+
+export default function MolarVolumeFormulaPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+      <main className="container mx-auto px-4 py-8">
+        <nav className="text-sm breadcrumbs mb-8">
+          <ul className="flex space-x-2 text-gray-600">
+            <li><a href="/" className="hover:text-blue-600">Home</a></li>
+            <li><span className="mx-2">/</span></li>
+            <li><a href="/chemistry-formulas" className="hover:text-blue-600">Chemistry Formulas</a></li>
+            <li><span className="mx-2">/</span></li>
+            <li className="text-gray-900">Molar Volume Formula</li>
+          </ul>
+        </nav>
+
+        <div className="bg-gradient-to-r from-sky-600 to-blue-600 text-white rounded-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold mb-3">Molar Volume Formula</h1>
+          <p className="text-lg opacity-90">Volume occupied by one mole of gas</p>
+        </div>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
+          <div className="bg-sky-50 border-l-4 border-sky-500 p-4 mb-4">
+            <p className="text-2xl font-bold text-sky-700 text-center">V<sub>m</sub> = 22.4 L/mol (at STP)</p>
+            <p className="text-gray-700 mt-3 text-center">V = n × V<sub>m</sub></p>
+          </div>
+          <ul className="grid md:grid-cols-2 gap-4 text-gray-700 mt-4">
+            <li><strong>V<sub>m</sub></strong> = molar volume</li>
+            <li><strong>STP</strong> = 273.15 K, 1 atm</li>
+            <li><strong>V</strong> = total volume (L)</li>
+            <li><strong>n</strong> = number of moles</li>
+          </ul>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Derivation from Ideal Gas Law</h2>
+          <div className="space-y-2 text-gray-700">
+            <p>PV = nRT</p>
+            <p>At STP: P = 1 atm, T = 273.15 K, R = 0.08206 L·atm/(mol·K)</p>
+            <p>V/n = RT/P = (0.08206 × 273.15) / 1 = 22.4 L/mol</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example</h2>
+          <p className="text-gray-700 mb-3"><strong>Problem:</strong> What volume does 3.5 moles of N₂ occupy at STP?</p>
+          <div className="space-y-2 text-gray-700">
+            <p>V = n × V<sub>m</sub> = 3.5 mol × 22.4 L/mol = 78.4 L</p>
+          </div>
+          <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
+            <p className="font-semibold">Answer: 78.4 L</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Important Notes</h2>
+          <ul className="list-disc pl-5 text-gray-700 space-y-2">
+            <li>Valid for ideal gases only; real gases deviate at high P or low T</li>
+            <li>At non-STP conditions, use full ideal gas law PV = nRT</li>
+            <li>All ideal gases have same molar volume at same T and P (Avogadro's hypothesis)</li>
+            <li>Modern STP sometimes uses 273.15 K and 1 bar (100 kPa) → V<sub>m</sub> ≈ 22.7 L/mol</li>
+          </ul>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  )
+}
