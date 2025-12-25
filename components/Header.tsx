@@ -88,9 +88,9 @@ export default function Header() {
               )}
             </div>
             
-            <a href="#formulas" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
+            <Link href="/chemistry-formulas" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
               Formulas
-            </a>
+            </Link>
             <a href="#learn" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
               Learn
             </a>
@@ -193,9 +193,9 @@ export default function Header() {
                 )}
               </div>
               
-              <a href="#formulas" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
+              <Link href="/chemistry-formulas" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
                 Formulas
-              </a>
+              </Link>
               <a href="#learn" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
                 Learn
               </a>
