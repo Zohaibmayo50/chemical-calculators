@@ -16,7 +16,7 @@ export default function LewisStructurePage() {
       <Header />
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         {/* Breadcrumb */}
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               Home
@@ -31,7 +31,7 @@ export default function LewisStructurePage() {
         </div>
 
         {/* Hero Section */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 rounded-3xl p-12 text-white shadow-2xl">
             <h1 className="text-5xl font-bold mb-4 text-center">Lewis Structure Formula</h1>
             <p className="text-xl text-center text-blue-100 max-w-3xl mx-auto leading-relaxed">
@@ -41,7 +41,7 @@ export default function LewisStructurePage() {
         </section>
 
         {/* Formula Section */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border-l-4 border-blue-500">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Steps to Draw Lewis Structure</h2>
             
@@ -78,7 +78,7 @@ export default function LewisStructurePage() {
         </section>
 
         {/* Variables Section */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Key Concepts</h2>
             
@@ -107,7 +107,7 @@ export default function LewisStructurePage() {
         </section>
 
         {/* Examples Section */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Step-by-Step Examples</h2>
             
@@ -167,7 +167,7 @@ export default function LewisStructurePage() {
         </section>
 
         {/* Common Mistakes */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes to Avoid</h2>
             
@@ -216,7 +216,7 @@ export default function LewisStructurePage() {
         </section>
 
         {/* Applications */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Applications</h2>
             
@@ -245,7 +245,7 @@ export default function LewisStructurePage() {
         </section>
 
         {/* Related Calculators */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators & Formulas</h2>
             

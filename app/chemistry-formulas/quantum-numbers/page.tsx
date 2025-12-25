@@ -16,7 +16,7 @@ export default function QuantumNumbersPage() {
       <Header />
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         {/* Breadcrumb */}
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               Home
@@ -31,7 +31,7 @@ export default function QuantumNumbersPage() {
         </div>
 
         {/* Hero Section */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600 rounded-3xl p-12 text-white shadow-2xl">
             <h1 className="text-5xl font-bold mb-4 text-center">Quantum Numbers</h1>
             <p className="text-xl text-center text-purple-100 max-w-3xl mx-auto leading-relaxed">
@@ -41,7 +41,7 @@ export default function QuantumNumbersPage() {
         </section>
 
         {/* Four Quantum Numbers */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border-l-4 border-indigo-500">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">The Four Quantum Numbers</h2>
             
@@ -102,7 +102,7 @@ export default function QuantumNumbersPage() {
         </section>
 
         {/* Quantum Number Rules */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Allowed Values & Relationships</h2>
             
@@ -171,7 +171,7 @@ export default function QuantumNumbersPage() {
         </section>
 
         {/* Examples */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Worked Examples</h2>
             
@@ -214,7 +214,7 @@ export default function QuantumNumbersPage() {
         </section>
 
         {/* Common Mistakes */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             
@@ -255,7 +255,7 @@ export default function QuantumNumbersPage() {
         </section>
 
         {/* Related Calculators */}
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Tools</h2>
             

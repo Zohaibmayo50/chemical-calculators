@@ -15,7 +15,7 @@ export default function VSEPRTheoryFormulaPage() {
     <>
       <Header />
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
             <span>→</span>
@@ -25,7 +25,7 @@ export default function VSEPRTheoryFormulaPage() {
           </nav>
         </div>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-600 rounded-3xl p-12 text-white shadow-2xl">
             <h1 className="text-5xl font-bold mb-4 text-center">VSEPR Theory</h1>
             <p className="text-xl text-center text-violet-100">
@@ -34,7 +34,7 @@ export default function VSEPRTheoryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border-l-4 border-violet-500">
             <h2 className="text-3xl font-bold mb-6">VSEPR Principle</h2>
             
@@ -71,7 +71,7 @@ export default function VSEPRTheoryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Electron Domain Geometries</h2>
             
@@ -114,7 +114,7 @@ export default function VSEPRTheoryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Molecular Geometries with Lone Pairs</h2>
             
@@ -241,7 +241,7 @@ export default function VSEPRTheoryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Bond Angle Modifications</h2>
             
@@ -285,7 +285,7 @@ export default function VSEPRTheoryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Worked Examples</h2>
             
@@ -356,7 +356,7 @@ export default function VSEPRTheoryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Common Mistakes</h2>
             
@@ -388,7 +388,7 @@ export default function VSEPRTheoryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">

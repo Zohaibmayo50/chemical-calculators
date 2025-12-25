@@ -14,7 +14,7 @@ export default function BeersLawPage() {
     <>
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <nav className="mb-8 text-sm">
             <Link href="/" className="text-primary-600 dark:text-primary-400 hover:underline">Home</Link>
             <span className="mx-2 text-gray-400">/</span>

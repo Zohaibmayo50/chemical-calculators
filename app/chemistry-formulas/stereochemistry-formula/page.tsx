@@ -15,7 +15,7 @@ export default function StereochemistryFormulaPage() {
     <>
       <Header />
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
             <span>→</span>
@@ -25,7 +25,7 @@ export default function StereochemistryFormulaPage() {
           </nav>
         </div>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 rounded-3xl p-12 text-white shadow-2xl">
             <h1 className="text-5xl font-bold mb-4 text-center">Stereochemistry</h1>
             <p className="text-xl text-center text-pink-100">
@@ -34,7 +34,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border-l-4 border-pink-500">
             <h2 className="text-3xl font-bold mb-6">Cahn-Ingold-Prelog Priority Rules</h2>
             
@@ -96,7 +96,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Assigning R/S Configuration</h2>
             
@@ -153,7 +153,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Worked Example</h2>
             
@@ -230,7 +230,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Types of Stereoisomers</h2>
             
@@ -288,7 +288,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Number of Stereoisomers</h2>
             
@@ -319,7 +319,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Optical Activity</h2>
             
@@ -351,7 +351,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Common Mistakes</h2>
             
@@ -391,7 +391,7 @@ export default function StereochemistryFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">

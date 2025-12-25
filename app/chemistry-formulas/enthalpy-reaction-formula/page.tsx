@@ -15,7 +15,7 @@ export default function EnthalpyReactionFormulaPage() {
     <>
       <Header />
       <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
             <span>→</span>
@@ -25,7 +25,7 @@ export default function EnthalpyReactionFormulaPage() {
           </nav>
         </div>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 rounded-3xl p-12 text-white shadow-2xl">
             <h1 className="text-5xl font-bold mb-4 text-center">Enthalpy of Reaction Formula</h1>
             <p className="text-xl text-center text-orange-100">
@@ -34,7 +34,7 @@ export default function EnthalpyReactionFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border-l-4 border-indigo-500">
             <h2 className="text-3xl font-bold mb-6">Main Formula</h2>
             
@@ -76,7 +76,7 @@ export default function EnthalpyReactionFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Common ΔH°<sub>f</sub> Values (kJ/mol)</h2>
             
@@ -138,7 +138,7 @@ export default function EnthalpyReactionFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Interpreting ΔH°<sub>rxn</sub></h2>
             
@@ -174,7 +174,7 @@ export default function EnthalpyReactionFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Worked Examples</h2>
             
@@ -252,7 +252,7 @@ export default function EnthalpyReactionFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Common Mistakes</h2>
             
@@ -300,7 +300,7 @@ export default function EnthalpyReactionFormulaPage() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
