@@ -273,9 +273,9 @@ export default function NernstEquationPage() {
                 <p className="text-gray-600 dark:text-gray-400">Calculate E° for cells</p>
               </Link>
 
-              <Link href="/redox-calculators/half-cell-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Half-Cell Calculator</h3>
-                <p className="text-gray-600 dark:text-gray-400">Half-reaction potentials</p>
+              <Link href="/electrochemistry-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Electrochemistry Calculators</h3>
+                <p className="text-white/90">Explore all electrochemistry tools</p>
               </Link>
 
               <Link href="/redox-calculators/redox-balancing-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">

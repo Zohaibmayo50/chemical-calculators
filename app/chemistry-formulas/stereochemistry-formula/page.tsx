@@ -88,6 +88,30 @@ export default function StereochemistryFormulaPage() {
                     <p className="text-gray-700 dark:text-gray-300">Deuterium (²H) &gt; Hydrogen (¹H)</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
                       Tritium (³H) &gt; Deuterium (²H) &gt; Hydrogen (¹H)
+
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Related Calculators</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <a href="/organic-chemistry-calculators/stereochemistry-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Stereochemistry Calculator</h3>
+                <p className="text-sm text-gray-600">Assign R/S configuration</p>
+              </a>
+              <a href="/organic-chemistry-calculators/nmr-chemical-shift-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">NMR Chemical Shift Calculator</h3>
+                <p className="text-sm text-gray-600">Structure determination</p>
+              </a>
+              <a href="/chemistry-formulas/degree-of-unsaturation" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Degree of Unsaturation</h3>
+                <p className="text-sm text-gray-600">Molecular formula analysis</p>
+              </a>
+              <a href="/organic-chemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Organic Chemistry Calculators</h3>
+                <p className="text-sm opacity-90">Explore all organic chemistry tools</p>
+              </a>
+            </div>
+          </div>
+        </section>
                     </p>
                   </div>
                 </div>

@@ -84,7 +84,7 @@ export default function PercentCompositionFormulaPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">FAQ</h2>
           <div className="space-y-4 text-gray-700">
             <div>
@@ -99,6 +99,28 @@ export default function PercentCompositionFormulaPage() {
               <h3 className="font-semibold">What about solutions?</h3>
               <p>Use mass percent formula (m_solute/m_solution × 100) for solutions rather than formula-based composition.</p>
             </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/stoichiometry-calculators/molecular-weight-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Molecular Weight Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate molar mass from formula</p>
+            </a>
+            <a href="/stoichiometry-calculators/empirical-formula-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Empirical Formula Calculator</h3>
+              <p className="text-sm text-gray-600">Derive empirical formula from composition</p>
+            </a>
+            <a href="/stoichiometry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Stoichiometry Calculators</h3>
+              <p className="text-sm opacity-90">Explore all stoichiometry tools</p>
+            </a>
+            <a href="/mole-vs-molar-mass" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Mole vs Molar Mass</h3>
+              <p className="text-sm text-gray-600">Understand the difference</p>
+            </a>
           </div>
         </section>
       </main>

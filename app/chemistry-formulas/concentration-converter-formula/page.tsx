@@ -320,6 +320,10 @@ export default function ConcentrationConverterFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">PPM/PPB</h3>
                 <p className="text-gray-600 dark:text-gray-400">Trace analysis</p>
               </Link>
+              <Link href="/concentration-and-solution-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Concentration Calculators</h3>
+                <p className="text-sm opacity-90">Explore all solution and concentration tools</p>
+              </Link>
             </div>
           </div>
         </section>

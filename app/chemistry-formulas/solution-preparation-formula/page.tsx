@@ -273,6 +273,10 @@ export default function SolutionPreparationFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Mass Percent</h3>
                 <p className="text-gray-600 dark:text-gray-400">Concentration by mass</p>
               </Link>
+              <Link href="/concentration-and-solution-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Concentration & Solution Calculators</h3>
+                <p className="text-white/90">All concentration tools</p>
+              </Link>
             </div>
           </div>
         </section>

@@ -326,6 +326,11 @@ export default function BeersLawPage() {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Standard Curve</h3>
                 <p className="text-gray-600 dark:text-gray-400">Calibration curves from Beer's Law</p>
               </Link>
+
+              <Link href="/physical-chemistry-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Physical Chemistry Calculators</h3>
+                <p className="text-sm opacity-90">Explore all physical chemistry tools</p>
+              </Link>
             </div>
           </section>
 

@@ -293,24 +293,34 @@ export default function MolecularOrbitalTheoryPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Tools</h2>
             
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/quantum-calculators/molecular-orbital-calculator" className="block p-6 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">MO Calculator</h3>
-                <p className="text-indigo-100">Generate MO diagrams and bond orders</p>
+              <Link href="/quantum-and-atomic-structure-calculators/molecular-orbital-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">MO Calculator</h3>
+                <p className="text-sm text-gray-600">Generate MO diagrams and bond orders</p>
               </Link>
 
-              <Link href="/chemistry-formulas/lewis-structure" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Lewis Structures</h3>
-                <p className="text-gray-600 dark:text-gray-400">Alternative bonding theory</p>
+              <Link href="/quantum-and-atomic-structure-calculators/electron-configuration-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Electron Configuration Calculator</h3>
+                <p className="text-sm text-gray-600">Atomic electron arrangements</p>
               </Link>
 
-              <Link href="/chemistry-formulas/hybridization" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Hybridization</h3>
-                <p className="text-gray-600 dark:text-gray-400">Atomic orbital mixing</p>
+              <Link href="/chemistry-formulas/lewis-structure" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Lewis Structures</h3>
+                <p className="text-sm text-gray-600">Alternative bonding theory</p>
               </Link>
 
-              <Link href="/chemistry-formulas/electron-configuration" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Electron Configuration</h3>
-                <p className="text-gray-600 dark:text-gray-400">Atomic electron arrangements</p>
+              <Link href="/chemistry-formulas/hybridization" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Hybridization</h3>
+                <p className="text-sm text-gray-600">Atomic orbital mixing</p>
+              </Link>
+
+              <Link href="/chemistry-formulas/electron-configuration" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Electron Configuration</h3>
+                <p className="text-sm text-gray-600">Aufbau and orbital filling</p>
+              </Link>
+
+              <Link href="/quantum-and-atomic-structure-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
+                <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
               </Link>
             </div>
           </div>

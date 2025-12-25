@@ -134,9 +134,13 @@ export default function VantHoffEquation() {
               <h3 className="font-semibold text-blue-600 mb-2">Arrhenius Equation</h3>
               <p className="text-sm text-gray-600">Temperature-rate relationships</p>
             </a>
-            <a href="/chemistry-formulas/equilibrium-constant" className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
-              <h3 className="font-semibold text-blue-600 mb-2">Equilibrium Constant</h3>
-              <p className="text-sm text-gray-600">K expressions and calculations</p>
+            <a href="/thermodynamics-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Thermodynamics Calculators</h3>
+              <p className="text-sm opacity-90">Explore all thermodynamics tools</p>
+            </a>
+            <a href="/physical-chemistry-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Physical Chemistry Calculators</h3>
+              <p className="text-sm opacity-90">Explore all physical chemistry tools</p>
             </a>
           </div>
         </div>

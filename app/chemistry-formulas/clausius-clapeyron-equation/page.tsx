@@ -236,9 +236,9 @@ export default function ClausiusClapeyronEquation() {
               <h3 className="font-semibold text-blue-600 mb-2">Ideal Gas Law</h3>
               <p className="text-sm text-gray-600">PV = nRT calculations</p>
             </a>
-            <a href="/chemistry-formulas/gibbs-free-energy" className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
-              <h3 className="font-semibold text-blue-600 mb-2">Gibbs Free Energy</h3>
-              <p className="text-sm text-gray-600">Thermodynamic calculations</p>
+            <a href="/thermodynamics-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Thermodynamics Calculators</h3>
+              <p className="text-sm opacity-90">Explore all thermodynamics tools</p>
             </a>
           </div>
         </div>

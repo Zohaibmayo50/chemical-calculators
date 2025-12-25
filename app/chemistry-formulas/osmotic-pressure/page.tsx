@@ -131,6 +131,10 @@ export default function OsmoticPressure() {
               <h3 className="font-semibold text-blue-600 mb-2">Molarity</h3>
               <p className="text-sm text-gray-600">M = moles / volume</p>
             </a>
+            <a href="/concentration-and-solution-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-all">
+              <h3 className="font-semibold mb-2">Concentration Calculators</h3>
+              <p className="text-sm text-white/90">All concentration tools</p>
+            </a>
           </div>
         </div>
 

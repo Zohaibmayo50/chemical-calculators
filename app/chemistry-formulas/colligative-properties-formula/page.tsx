@@ -306,6 +306,10 @@ export default function ColligativePropertiesFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Colligative Properties Calculator</h3>
                 <p className="text-blue-100">Automated calculations</p>
               </Link>
+              <Link href="/solution-calculators/osmotic-pressure-calculator" className="block p-6 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Osmotic Pressure Calculator</h3>
+                <p className="text-blue-100">Calculate π = MRT</p>
+              </Link>
               <Link href="/chemistry-formulas/boiling-point-elevation" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Boiling Point Elevation</h3>
                 <p className="text-gray-600 dark:text-gray-400">Detailed guide</p>
@@ -317,6 +321,10 @@ export default function ColligativePropertiesFormulaPage() {
               <Link href="/chemistry-formulas/osmotic-pressure" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Osmotic Pressure</h3>
                 <p className="text-gray-600 dark:text-gray-400">Detailed guide</p>
+              </Link>
+              <Link href="/solution-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Solution Calculators</h3>
+                <p className="text-gray-100">Explore all solution chemistry tools</p>
               </Link>
             </div>
           </div>

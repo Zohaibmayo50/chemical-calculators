@@ -102,6 +102,24 @@ export default function NormalityFormulaPage() {
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/concentration-and-solution-calculators/normality-calculator" className="block p-4 bg-gradient-to-r from-blue-50 to-indigo-100 rounded-lg hover:shadow-lg transition-all border border-blue-200">
+              <h3 className="font-semibold text-blue-700 mb-2">Normality Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate equivalents per liter</p>
+            </a>
+            <a href="/concentration-and-solution-calculators/molarity-calculator" className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+              <h3 className="font-semibold text-blue-600 mb-2">Molarity Calculator</h3>
+              <p className="text-sm text-gray-600">Moles per liter</p>
+            </a>
+            <a href="/concentration-and-solution-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-all">
+              <h3 className="font-semibold text-white mb-2">Concentration & Solution Calculators</h3>
+              <p className="text-sm text-white/90">All concentration tools</p>
+            </a>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">FAQ</h2>
           <div className="space-y-4 text-gray-700">
             <div>

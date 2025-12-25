@@ -66,7 +66,7 @@ export default function CommonIonEffectPage() {
           </ul>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Points</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Common ion must be from strong electrolyte (fully dissociated)</li>
@@ -74,6 +74,32 @@ export default function CommonIonEffectPage() {
             <li>K<sub>sp</sub> value doesn't change; only solubility decreases</li>
             <li>Equilibrium shifts left (toward solid) when common ion added</li>
           </ul>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/chemical-equilibrium-calculators/solubility-product-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Solubility Product Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate Ksp and solubility</p>
+            </a>
+            <a href="/chemical-equilibrium-calculators/equilibrium-constant-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Equilibrium Constant Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate K from concentrations</p>
+            </a>
+            <a href="/chemistry-formulas/solubility-product-constant-ksp" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Solubility Product Ksp Formula</h3>
+              <p className="text-sm text-gray-600">Ksp equilibrium expression</p>
+            </a>
+            <a href="/chemistry-formulas/le-chateliers-principle" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Le Chatelier's Principle</h3>
+              <p className="text-sm text-gray-600">Equilibrium shifts and stress</p>
+            </a>
+            <a href="/chemical-equilibrium-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Chemical Equilibrium Calculators</h3>
+              <p className="text-sm opacity-90">Explore all equilibrium tools and calculators</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

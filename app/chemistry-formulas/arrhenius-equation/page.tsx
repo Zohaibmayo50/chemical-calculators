@@ -247,24 +247,34 @@ export default function ArrheniusEquationPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/kinetics-calculators/arrhenius-equation-calculator" className="block p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Arrhenius Equation Calculator</h3>
-                <p>Calculate k, Ea, or T instantly</p>
+              <Link href="/kinetics-calculators/arrhenius-equation-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Arrhenius Equation Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate k, Ea, or T instantly</p>
               </Link>
 
-              <Link href="/kinetics-calculators/activation-energy-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Activation Energy</h3>
-                <p className="text-gray-600 dark:text-gray-400">Find Ea from temperature data</p>
+              <Link href="/kinetics-calculators/rate-constant-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Rate Constant Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate k at different T</p>
               </Link>
 
-              <Link href="/kinetics-calculators/rate-constant-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Rate Constant</h3>
-                <p className="text-gray-600 dark:text-gray-400">Calculate k at different T</p>
+              <Link href="/kinetics-calculators/reaction-rate-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Reaction Rate Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate reaction rates</p>
               </Link>
 
-              <Link href="/kinetics-calculators/reaction-rate-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Reaction Rate</h3>
-                <p className="text-gray-600 dark:text-gray-400">Calculate reaction rates</p>
+              <Link href="/chemistry-formulas/collision-theory" className="block p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Collision Theory</h3>
+                <p className="text-sm text-gray-600">Molecular basis of reaction rates</p>
+              </Link>
+
+              <Link href="/chemistry-formulas/rate-law" className="block p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Rate Law Formula</h3>
+                <p className="text-sm text-gray-600">Rate expressions and orders</p>
+              </Link>
+
+              <Link href="/chemical-kinetics-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
+                <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
               </Link>
             </div>
           </section>

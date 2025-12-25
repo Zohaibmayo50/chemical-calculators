@@ -88,6 +88,30 @@ export default function SolubilityFormulaPage() {
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = ∛(Ksp/4)</p>
               </div>
 
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Related Calculators</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <a href="/solution-calculators/solubility-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Solubility Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate Ksp and molar solubility</p>
+              </a>
+              <a href="/equilibrium-calculators/solubility-product-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Solubility Product Calculator</h3>
+                <p className="text-sm text-gray-600">K<sub>sp</sub> calculations</p>
+              </a>
+              <a href="/chemistry-formulas/solubility-product-constant-ksp" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Solubility Product Constant</h3>
+                <p className="text-sm text-gray-600">K<sub>sp</sub> = [A⁺]^x[B⁻]^y</p>
+              </a>
+              <a href="/solution-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Solution Calculators</h3>
+                <p className="text-sm opacity-90">Explore all solution tools</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
               <div className="bg-violet-50 dark:bg-violet-900/20 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-violet-900 dark:text-violet-300 mb-3">A₃B Type (3:1)</h3>
                 <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">Ca₃(PO₄)₂ ⇌ 3Ca²⁺ + 2PO₄³⁻</p>

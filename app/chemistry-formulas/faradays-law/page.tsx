@@ -48,13 +48,35 @@ export default function FaradaysLawPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Notes & Pitfalls</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Use correct valence n; for Ag⁺, n = 1; for Al³⁺, n = 3.</li>
             <li>Ensure molar mass M corresponds to the deposited species.</li>
             <li>Account for efficiency if the process is not 100% current efficient.</li>
           </ul>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/electrochemistry-calculators/electrolysis-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Electrolysis Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate mass deposited</p>
+            </a>
+            <a href="/electrochemistry-calculators/cell-potential-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Cell Potential Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate cell potentials</p>
+            </a>
+            <a href="/electrochemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Electrochemistry Calculators</h3>
+              <p className="text-sm opacity-90">Explore all electrochemistry tools</p>
+            </a>
+            <a href="/chemistry-formulas/electrolysis-formula" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Electrolysis Formula</h3>
+              <p className="text-sm text-gray-600">Electrolysis calculations</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

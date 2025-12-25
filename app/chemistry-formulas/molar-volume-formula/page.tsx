@@ -63,7 +63,7 @@ export default function MolarVolumeFormulaPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Important Notes</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Valid for ideal gases only; real gases deviate at high P or low T</li>
@@ -71,6 +71,28 @@ export default function MolarVolumeFormulaPage() {
             <li>All ideal gases have same molar volume at same T and P (Avogadro's hypothesis)</li>
             <li>Modern STP sometimes uses 273.15 K and 1 bar (100 kPa) → V<sub>m</sub> ≈ 22.7 L/mol</li>
           </ul>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/gas-laws-calculators/ideal-gas-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Ideal Gas Law Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate PV = nRT</p>
+            </a>
+            <a href="/gas-laws-calculators/gas-stoichiometry-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Gas Stoichiometry Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate gas volumes in reactions</p>
+            </a>
+            <a href="/gas-laws-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Gas Laws Calculators</h3>
+              <p className="text-sm opacity-90">Explore all gas law tools</p>
+            </a>
+            <a href="/chemistry-formulas/avogadros-law" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Avogadro's Law</h3>
+              <p className="text-sm text-gray-600">V/n relationship</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

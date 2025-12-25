@@ -319,6 +319,10 @@ export default function OxidationNumberFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Oxidation Number Calculator</h3>
                 <p className="text-red-100">Automated calculations</p>
               </Link>
+              <Link href="/redox-calculators/redox-balancing-calculator" className="block p-6 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Redox Balancing Calculator</h3>
+                <p className="text-red-100">Balance redox equations</p>
+              </Link>
               <Link href="/chemistry-formulas/redox-balancing-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Redox Balancing</h3>
                 <p className="text-gray-600 dark:text-gray-400">Balance redox equations</p>
@@ -327,9 +331,13 @@ export default function OxidationNumberFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Nernst Equation</h3>
                 <p className="text-gray-600 dark:text-gray-400">Cell potential</p>
               </Link>
-              <Link href="/chemistry-formulas/cell-potential" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/chemistry-formulas/cell-potential-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Cell Potential</h3>
                 <p className="text-gray-600 dark:text-gray-400">Electrochemistry</p>
+              </Link>
+              <Link href="/redox-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Redox Calculators</h3>
+                <p className="text-gray-100">Explore all redox chemistry tools</p>
               </Link>
             </div>
           </div>

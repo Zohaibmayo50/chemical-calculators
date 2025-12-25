@@ -363,13 +363,21 @@ export default function NuclearChemistryFormulaPage() {
           <div className="bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/chemistry-formulas/half-life-formula" className="block p-6 bg-gradient-to-r from-emerald-600 to-green-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Half-Life Calculator</h3>
-                <p className="text-emerald-100">Radioactive decay</p>
+              <Link href="/nuclear-calculators/nuclear-binding-energy-calculator" className="block p-6 bg-gradient-to-r from-emerald-600 to-green-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Nuclear Binding Energy Calculator</h3>
+                <p className="text-emerald-100">Mass defect and E = Δmc²</p>
               </Link>
-              <Link href="/chemistry-formulas/atomic-mass-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Atomic Mass</h3>
-                <p className="text-gray-600 dark:text-gray-400">Isotope calculations</p>
+              <Link href="/chemistry-formulas/nuclear-binding-energy" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Nuclear Binding Energy</h3>
+                <p className="text-gray-600 dark:text-gray-400">Binding energy formula</p>
+              </Link>
+              <Link href="/chemistry-formulas/half-life-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Half-Life Formula</h3>
+                <p className="text-gray-600 dark:text-gray-400">Radioactive decay</p>
+              </Link>
+              <Link href="/nuclear-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Nuclear Calculators</h3>
+                <p className="text-gray-100">Explore all nuclear chemistry tools</p>
               </Link>
             </div>
           </div>

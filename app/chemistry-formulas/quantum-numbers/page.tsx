@@ -260,24 +260,29 @@ export default function QuantumNumbersPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Tools</h2>
             
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/quantum-calculators/quantum-numbers-calculator" className="block p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Quantum Numbers Calculator</h3>
-                <p className="text-purple-100">Validate quantum number sets</p>
+              <Link href="/quantum-and-atomic-structure-calculators/quantum-numbers-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Quantum Numbers Calculator</h3>
+                <p className="text-sm text-gray-600">Validate quantum number sets</p>
               </Link>
 
-              <Link href="/chemistry-formulas/electron-configuration" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Electron Configuration</h3>
-                <p className="text-gray-600 dark:text-gray-400">Apply quantum numbers to atoms</p>
+              <Link href="/quantum-and-atomic-structure-calculators/electron-configuration-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Electron Configuration Calculator</h3>
+                <p className="text-sm text-gray-600">Apply quantum numbers to atoms</p>
               </Link>
 
-              <Link href="/chemistry-formulas/bohr-model" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Bohr Model</h3>
-                <p className="text-gray-600 dark:text-gray-400">Energy levels and shells</p>
+              <Link href="/chemistry-formulas/electron-configuration" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Electron Configuration</h3>
+                <p className="text-sm text-gray-600">Orbital filling rules</p>
               </Link>
 
-              <Link href="/atomic-structure-calculators" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Atomic Structure Tools</h3>
-                <p className="text-gray-600 dark:text-gray-400">All atomic calculators</p>
+              <Link href="/chemistry-formulas/bohr-model" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Bohr Model</h3>
+                <p className="text-sm text-gray-600">Energy levels and shells</p>
+              </Link>
+
+              <Link href="/quantum-and-atomic-structure-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
+                <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
               </Link>
             </div>
           </div>

@@ -365,6 +365,10 @@ export default function RedoxBalancingFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Redox Balancing Calculator</h3>
                 <p className="text-orange-100">Automated balancing</p>
               </Link>
+              <Link href="/redox-calculators/oxidation-number-calculator" className="block p-6 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Oxidation Number Calculator</h3>
+                <p className="text-orange-100">Assign oxidation states</p>
+              </Link>
               <Link href="/chemistry-formulas/oxidation-number-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Oxidation Number</h3>
                 <p className="text-gray-600 dark:text-gray-400">Assign oxidation states</p>
@@ -376,6 +380,10 @@ export default function RedoxBalancingFormulaPage() {
               <Link href="/chemistry-formulas/nernst-equation" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Nernst Equation</h3>
                 <p className="text-gray-600 dark:text-gray-400">Non-standard conditions</p>
+              </Link>
+              <Link href="/redox-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Redox Calculators</h3>
+                <p className="text-gray-100">Explore all redox chemistry tools</p>
               </Link>
             </div>
           </div>

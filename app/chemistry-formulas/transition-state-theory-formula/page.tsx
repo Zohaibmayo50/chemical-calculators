@@ -340,9 +340,13 @@ export default function TransitionStateTheoryFormulaPage() {
           <div className="bg-gradient-to-br from-red-50 to-pink-50 dark:from-red-900/20 dark:to-pink-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/chemistry-formulas/activation-energy-formula" className="block p-6 bg-gradient-to-r from-red-600 to-pink-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Activation Energy</h3>
-                <p className="text-red-100">Arrhenius equation</p>
+              <Link href="/kinetics-calculators/arrhenius-equation-calculator" className="block p-6 bg-gradient-to-r from-red-600 to-pink-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Arrhenius Equation Calculator</h3>
+                <p className="text-red-100">Calculate activation energy</p>
+              </Link>
+              <Link href="/kinetics-calculators/reaction-rate-calculator" className="block p-6 bg-gradient-to-r from-red-600 to-pink-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Reaction Rate Calculator</h3>
+                <p className="text-red-100">Kinetics calculations</p>
               </Link>
               <Link href="/chemistry-formulas/reaction-rate-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Reaction Rate</h3>
@@ -352,9 +356,13 @@ export default function TransitionStateTheoryFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Gibbs Free Energy</h3>
                 <p className="text-gray-600 dark:text-gray-400">Thermodynamics</p>
               </Link>
-              <Link href="/chemistry-formulas/equilibrium-constant-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Equilibrium Constant</h3>
-                <p className="text-gray-600 dark:text-gray-400">K and ΔG relationship</p>
+              <Link href="/chemistry-formulas/rate-law" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Rate Law</h3>
+                <p className="text-gray-600 dark:text-gray-400">Kinetics fundamentals</p>
+              </Link>
+              <Link href="/kinetics-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Kinetics Calculators</h3>
+                <p className="text-gray-100">Explore all chemical kinetics tools</p>
               </Link>
             </div>
           </div>

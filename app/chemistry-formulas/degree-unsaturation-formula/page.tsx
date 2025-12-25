@@ -172,9 +172,13 @@ export default function DegreeUnsaturationFormulaPage() {
           <div className="bg-gradient-to-br from-teal-50 to-cyan-50 dark:from-teal-900/20 dark:to-cyan-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/organic-calculators/degree-of-unsaturation-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/organic-chemistry-calculators/degree-unsaturation-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">DBE Calculator</h3>
                 <p className="text-teal-100">Automated calculations</p>
+              </Link>
+              <Link href="/organic-chemistry-calculators/nmr-chemical-shift-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">NMR Chemical Shift Calculator</h3>
+                <p className="text-teal-100">Predict NMR spectra</p>
               </Link>
               <Link href="/chemistry-formulas/molecular-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Molecular Formula</h3>
@@ -187,6 +191,10 @@ export default function DegreeUnsaturationFormulaPage() {
               <Link href="/chemistry-formulas/stereochemistry-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Stereochemistry</h3>
                 <p className="text-gray-600 dark:text-gray-400">R/S configuration</p>
+              </Link>
+              <Link href="/organic-chemistry-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Organic Chemistry Calculators</h3>
+                <p className="text-gray-100">Explore all organic chemistry tools</p>
               </Link>
             </div>
           </div>

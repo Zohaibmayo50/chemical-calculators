@@ -349,13 +349,25 @@ export default function CoordinationChemistryFormulaPage() {
           <div className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/chemistry-formulas/oxidation-number-formula" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Oxidation Numbers</h3>
-                <p className="text-amber-100">Determine oxidation states</p>
+              <Link href="/coordination-chemistry-calculators/coordination-number-calculator" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Coordination Number Calculator</h3>
+                <p className="text-amber-100">Automated calculations</p>
               </Link>
-              <Link href="/chemistry-formulas/lewis-structure-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Lewis Structures</h3>
-                <p className="text-gray-600 dark:text-gray-400">Bonding fundamentals</p>
+              <Link href="/coordination-chemistry-calculators/crystal-field-splitting-calculator" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Crystal Field Splitting Calculator</h3>
+                <p className="text-amber-100">Calculate Δo and electron configurations</p>
+              </Link>
+              <Link href="/chemistry-formulas/oxidation-number-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Oxidation Numbers</h3>
+                <p className="text-gray-600 dark:text-gray-400">Determine oxidation states</p>
+              </Link>
+              <Link href="/chemistry-formulas/crystal-field-theory" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Crystal Field Theory</h3>
+                <p className="text-gray-600 dark:text-gray-400">d-orbital splitting</p>
+              </Link>
+              <Link href="/coordination-chemistry-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Coordination Chemistry Calculators</h3>
+                <p className="text-gray-100">Explore all coordination chemistry tools</p>
               </Link>
             </div>
           </div>

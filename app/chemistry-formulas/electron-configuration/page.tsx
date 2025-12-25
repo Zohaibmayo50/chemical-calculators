@@ -56,7 +56,7 @@ export default function ElectronConfigurationPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Orbital Capacity</h2>
           <div className="grid md:grid-cols-2 gap-4 text-gray-700">
             <div className="bg-gray-50 p-3 rounded">
@@ -67,6 +67,32 @@ export default function ElectronConfigurationPage() {
               <p className="font-semibold">d orbitals: 10 electrons (5 orbitals)</p>
               <p className="font-semibold">f orbitals: 14 electrons (7 orbitals)</p>
             </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/quantum-and-atomic-structure-calculators/electron-configuration-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Electron Configuration Calculator</h3>
+              <p className="text-sm text-gray-600">Generate configurations for any element</p>
+            </a>
+            <a href="/quantum-and-atomic-structure-calculators/quantum-numbers-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Quantum Numbers Calculator</h3>
+              <p className="text-sm text-gray-600">Validate quantum number sets</p>
+            </a>
+            <a href="/chemistry-formulas/quantum-numbers" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Quantum Numbers</h3>
+              <p className="text-sm text-gray-600">n, l, m<sub>l</sub>, m<sub>s</sub> explained</p>
+            </a>
+            <a href="/chemistry-formulas/bohr-model" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Bohr Model</h3>
+              <p className="text-sm text-gray-600">Energy levels and shells</p>
+            </a>
+            <a href="/quantum-and-atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
+              <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
+            </a>
           </div>
         </section>
       </main>

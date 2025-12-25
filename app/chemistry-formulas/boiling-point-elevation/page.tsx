@@ -131,9 +131,9 @@ export default function BoilingPointElevation() {
               <h3 className="font-semibold text-blue-600 mb-2">Osmotic Pressure</h3>
               <p className="text-sm text-gray-600">Π = i M R T</p>
             </a>
-            <a href="/chemistry-formulas/molarity-formula" className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
-              <h3 className="font-semibold text-blue-600 mb-2">Molarity</h3>
-              <p className="text-sm text-gray-600">M = moles / volume</p>
+            <a href="/thermodynamics-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Thermodynamics Calculators</h3>
+              <p className="text-sm opacity-90">Explore all thermodynamics tools</p>
             </a>
           </div>
         </div>

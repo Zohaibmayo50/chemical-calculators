@@ -261,24 +261,34 @@ export default function HalfLifeFormulaPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/kinetics-calculators/half-life-calculator" className="block p-6 bg-gradient-to-r from-violet-600 to-purple-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Half-Life Calculator</h3>
-                <p>Calculate decay instantly</p>
+              <Link href="/kinetics-calculators/half-life-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Half-Life Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate decay instantly</p>
               </Link>
 
-              <Link href="/chemical-reaction-calculators/radioactive-decay-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Radioactive Decay</h3>
-                <p className="text-gray-600 dark:text-gray-400">Nuclear decay calculations</p>
+              <Link href="/chemical-reaction-calculators/radioactive-decay-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Radioactive Decay Calculator</h3>
+                <p className="text-sm text-gray-600">Nuclear decay calculations</p>
               </Link>
 
-              <Link href="/kinetics-calculators/first-order-kinetics-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">First-Order Kinetics</h3>
-                <p className="text-gray-600 dark:text-gray-400">Rate constant & concentration</p>
+              <Link href="/kinetics-calculators/first-order-kinetics-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">First-Order Kinetics Calculator</h3>
+                <p className="text-sm text-gray-600">Rate constant & concentration</p>
               </Link>
 
-              <Link href="/kinetics-calculators/carbon-dating-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Carbon Dating</h3>
-                <p className="text-gray-600 dark:text-gray-400">C-14 age determination</p>
+              <Link href="/chemistry-formulas/radioactive-decay-formula" className="block p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Radioactive Decay Formula</h3>
+                <p className="text-sm text-gray-600">Exponential decay calculations</p>
+              </Link>
+
+              <Link href="/chemistry-formulas/integrated-rate-laws" className="block p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Integrated Rate Laws</h3>
+                <p className="text-sm text-gray-600">Zero, first, and second-order kinetics</p>
+              </Link>
+
+              <Link href="/chemical-kinetics-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
+                <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
               </Link>
             </div>
           </section>

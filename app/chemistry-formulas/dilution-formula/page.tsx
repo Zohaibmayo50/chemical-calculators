@@ -198,6 +198,10 @@ export default function DilutionFormulaPage() {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Solution Preparation</h3>
                 <p className="text-gray-600 dark:text-gray-400">Plan solution preparation steps</p>
               </Link>
+              <Link href="/concentration-and-solution-calculators" className="block p-6 bg-gradient-to-r from-secondary-600 to-primary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">Concentration & Solution Calculators</h3>
+                <p className="text-white/90">Explore all concentration tools</p>
+              </Link>
             </div>
           </section>
 

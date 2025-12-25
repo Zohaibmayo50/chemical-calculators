@@ -219,13 +219,13 @@ export default function LimitingReagentFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Stoichiometry</h3>
                 <p className="text-gray-600 dark:text-gray-400">Mole ratio calculations</p>
               </Link>
-              <Link href="/chemistry-formulas/theoretical-yield-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Theoretical Yield</h3>
-                <p className="text-gray-600 dark:text-gray-400">Maximum product calculation</p>
+              <Link href="/stoichiometry-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Stoichiometry Calculators</h3>
+                <p className="text-white/90">Explore all stoichiometry tools</p>
               </Link>
-              <Link href="/chemistry-formulas/percent-yield-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Percent Yield</h3>
-                <p className="text-gray-600 dark:text-gray-400">Compare actual vs theoretical</p>
+              <Link href="/theoretical-yield-vs-percent-yield" className="block p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl border border-green-200 dark:border-green-700 shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-2">Theoretical Yield vs Percent Yield</h3>
+                <p className="text-gray-600 dark:text-gray-400">Understand the difference</p>
               </Link>
             </div>
           </div>

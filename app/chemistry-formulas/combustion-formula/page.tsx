@@ -207,13 +207,13 @@ export default function CombustionFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Empirical Formula</h3>
                 <p className="text-gray-600 dark:text-gray-400">From percent composition</p>
               </Link>
-              <Link href="/stoichiometry-calculators/empirical-formula-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Empirical Formula Calculator</h3>
-                <p className="text-gray-600 dark:text-gray-400">Calculate from masses</p>
+              <Link href="/stoichiometry-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Stoichiometry Calculators</h3>
+                <p className="text-white/90">Explore all stoichiometry tools</p>
               </Link>
-              <Link href="/stoichiometry-calculators/molecular-formula-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Molecular Formula</h3>
-                <p className="text-gray-600 dark:text-gray-400">From empirical + molar mass</p>
+              <Link href="/mole-vs-molar-mass" className="block p-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl border border-green-200 dark:border-green-700 shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-2">Mole vs Molar Mass</h3>
+                <p className="text-gray-600 dark:text-gray-400">Understand the difference</p>
               </Link>
             </div>
           </div>

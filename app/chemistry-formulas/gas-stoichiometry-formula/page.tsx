@@ -88,6 +88,30 @@ export default function GasStoichiometryFormulaPage() {
               <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-blue-900 dark:text-blue-300 mb-2">Gas Constant (R)</h3>
                 <div className="space-y-2 text-gray-700 dark:text-gray-300 font-mono text-sm">
+
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Related Calculators</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <a href="/gas-calculators/gas-stoichiometry-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Gas Stoichiometry Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate gas volumes in reactions</p>
+              </a>
+              <a href="/physical-chemistry-calculators/ideal-gas-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Ideal Gas Law Calculator</h3>
+                <p className="text-sm text-gray-600">PV = nRT calculations</p>
+              </a>
+              <a href="/chemistry-formulas/ideal-gas-law" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Ideal Gas Law Formula</h3>
+                <p className="text-sm text-gray-600">PV = nRT derivations</p>
+              </a>
+              <a href="/gas-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Gas Calculators</h3>
+                <p className="text-sm opacity-90">Explore all gas law tools</p>
+              </a>
+            </div>
+          </div>
+        </section>
                   <p>0.0821 L·atm/(mol·K)</p>
                   <p>8.314 J/(mol·K)</p>
                   <p>8.314 kPa·L/(mol·K)</p>
@@ -217,9 +241,9 @@ export default function GasStoichiometryFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Ideal Gas Law</h3>
                 <p className="text-gray-600 dark:text-gray-400">PV=nRT formula</p>
               </Link>
-              <Link href="/chemistry-formulas/stoichiometry-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Stoichiometry</h3>
-                <p className="text-gray-600 dark:text-gray-400">Mole ratio calculations</p>
+              <Link href="/gas-laws-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Gas Laws Calculators</h3>
+                <p className="text-white/90">Explore all gas law tools</p>
               </Link>
               <Link href="/chemistry-formulas/molar-volume-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Molar Volume</h3>

@@ -134,6 +134,14 @@ export default function RaoultsLaw() {
               <h3 className="font-semibold text-blue-600 mb-2">Freezing Point Depression</h3>
               <p className="text-sm text-gray-600">ΔTf = i Kf m</p>
             </a>
+            <a href="/chemistry-formulas/vapor-pressure-formula" className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+              <h3 className="font-semibold text-blue-600 mb-2">Vapor Pressure Formula</h3>
+              <p className="text-sm text-gray-600">ln(P₂/P₁) = -ΔH<sub>vap</sub>/R(1/T₂-1/T₁)</p>
+            </a>
+            <a href="/physical-chemistry-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Physical Chemistry Calculators</h3>
+              <p className="text-sm opacity-90">Explore all physical chemistry tools</p>
+            </a>
           </div>
         </div>
 

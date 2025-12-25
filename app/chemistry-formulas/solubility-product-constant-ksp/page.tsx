@@ -43,13 +43,39 @@ export default function KspPage() {
           <p className="text-gray-700">If Ksp(AgCl) = 1.8 × 10⁻¹⁰, then s = √Ksp ≈ 1.34 × 10⁻⁵ M.</p>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Notes</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Common ion effect reduces solubility: presence of shared ions shifts equilibrium.</li>
             <li>Complexation and pH changes can alter apparent solubility.</li>
             <li>Use activities for concentrated solutions; γ &lt; 1 lowers effective concentration.</li>
           </ul>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/chemical-equilibrium-calculators/solubility-product-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Solubility Product Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate Ksp and solubility</p>
+            </a>
+            <a href="/chemical-equilibrium-calculators/equilibrium-constant-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Equilibrium Constant Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate K from concentrations</p>
+            </a>
+            <a href="/chemistry-formulas/common-ion-effect" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Common Ion Effect</h3>
+              <p className="text-sm text-gray-600">Shared ions affect solubility</p>
+            </a>
+            <a href="/chemistry-formulas/equilibrium-constant" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Equilibrium Constant Formula</h3>
+              <p className="text-sm text-gray-600">K expression and calculations</p>
+            </a>
+            <a href="/chemical-equilibrium-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Chemical Equilibrium Calculators</h3>
+              <p className="text-sm opacity-90">Explore all equilibrium tools and calculators</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

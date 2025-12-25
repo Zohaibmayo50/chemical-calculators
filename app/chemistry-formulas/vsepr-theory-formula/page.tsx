@@ -88,6 +88,30 @@ export default function VSEPRTheoryFormulaPage() {
                 <p className="text-gray-700 dark:text-gray-300"><strong>Electron Geometry:</strong> Trigonal Planar</p>
                 <p className="text-gray-700 dark:text-gray-300"><strong>Bond Angle:</strong> 120°</p>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Example: BF₃, SO₃</p>
+
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Related Calculators</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <a href="/atomic-structure-calculators/lewis-structure-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Lewis Structure Calculator</h3>
+                <p className="text-sm text-gray-600">Draw Lewis structures</p>
+              </a>
+              <a href="/atomic-structure-calculators/hybridization-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Hybridization Calculator</h3>
+                <p className="text-sm text-gray-600">Determine orbital hybridization</p>
+              </a>
+              <a href="/chemistry-formulas/lewis-structure" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Lewis Structure Formula</h3>
+                <p className="text-sm text-gray-600">Electron dot structures</p>
+              </a>
+              <a href="/atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Atomic Structure Calculators</h3>
+                <p className="text-sm opacity-90">Explore all molecular structure tools</p>
+              </a>
+            </div>
+          </div>
+        </section>
               </div>
 
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">

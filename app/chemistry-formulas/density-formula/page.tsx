@@ -288,80 +288,25 @@ export default function DensityFormulaPage() {
           {/* Related Calculators */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/general-chemistry-calculators/density-calculator" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Density Calculator</h3>
-                <p>Calculate d, m, or V instantly</p>
-              </Link>
-
-              <Link href="/gas-laws-calculators/gas-density-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Gas Density Calculator</h3>
-                <p className="text-gray-600 dark:text-gray-400">Calculate gas density from PV=nRT</p>
-              </Link>
-
-              <Link href="/solution-calculators/solution-density-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Solution Density</h3>
-                <p className="text-gray-600 dark:text-gray-400">Density of solutions</p>
-              </Link>
-
-              <Link href="/general-chemistry-calculators/mass-volume-converter" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Mass-Volume Converter</h3>
-                <p className="text-gray-600 dark:text-gray-400">Convert using density</p>
-              </Link>
+            <div className="grid md:grid-cols-2 gap-4">
+              <a href="/stoichiometry-calculators/molecular-weight-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Molecular Weight Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate molar mass for density conversions</p>
+              </a>
+              <a href="/gas-calculators/gas-density-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Gas Density Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate gas density at STP</p>
+              </a>
+              <a href="/chemistry-formulas/gas-density-formula" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Gas Density Formula</h3>
+                <p className="text-sm text-gray-600">d = PM/RT for gases</p>
+              </a>
+              <a href="/stoichiometry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Stoichiometry Calculators</h3>
+                <p className="text-sm opacity-90">Explore all calculation tools</p>
+              </a>
             </div>
           </section>
-
-          {/* FAQs */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Frequently Asked Questions</h2>
-            <div className="space-y-6">
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">What is density?</h3>
-                <p className="text-gray-700 dark:text-gray-300">
-                  d = m/V. Density is mass per unit volume. It tells you how much matter is packed into a given space.
-                </p>
-              </div>
-
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">Why does ice float on water?</h3>
-                <p className="text-gray-700 dark:text-gray-300">
-                  Ice has lower density (0.917 g/cm³) than liquid water (1.00 g/cm³). Objects float when less dense than the liquid.
-                </p>
-              </div>
-
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">Is 1 g/mL the same as 1 g/cm³?</h3>
-                <p className="text-gray-700 dark:text-gray-300">
-                  Yes! 1 mL = 1 cm³ exactly, so g/mL and g/cm³ are interchangeable units.
-                </p>
-              </div>
-
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">How do you measure density experimentally?</h3>
-                <p className="text-gray-700 dark:text-gray-300">
-                  Measure mass with a balance. Measure volume by water displacement (for irregular objects) or direct measurement (for regular shapes). Then calculate d = m/V.
-                </p>
-              </div>
-
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">Why are gas densities so much smaller?</h3>
-                <p className="text-gray-700 dark:text-gray-300">
-                  Gas molecules are far apart with lots of empty space, while solid and liquid molecules are closely packed. This makes gases much less dense.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
-            <div className="flex justify-between">
-              <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                ← Back to All Formulas
-              </Link>
-              <Link href="/chemistry-formulas/specific-heat-formula" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Specific Heat →
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
       <Footer />

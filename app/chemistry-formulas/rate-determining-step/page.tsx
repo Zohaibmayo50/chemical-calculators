@@ -68,7 +68,7 @@ export default function RateDeterminingStepPage() {
           </ul>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Points</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>If slow step is first: rate law uses reactants directly</li>
@@ -76,6 +76,29 @@ export default function RateDeterminingStepPage() {
             <li>Fast steps after slow step don't affect rate law</li>
             <li>Sum of elementary steps = overall balanced equation</li>
           </ul>
+        </section>
+
+        {/* Related Calculators */}
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/chemical-reaction-calculators/rate-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Rate Law Calculator</h3>
+              <p className="text-sm text-gray-600">Determine rate = k[A]^m[B]^n</p>
+            </a>
+            <a href="/chemical-reaction-calculators/arrhenius-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Arrhenius Calculator</h3>
+              <p className="text-sm text-gray-600">Activation energy E<sub>a</sub></p>
+            </a>
+            <a href="/chemistry-formulas/rate-law" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Rate Law Formula</h3>
+              <p className="text-sm text-gray-600">Reaction kinetics principles</p>
+            </a>
+            <a href="/chemical-reaction-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Chemical Reaction Calculators</h3>
+              <p className="text-sm opacity-90">Explore all kinetics tools</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

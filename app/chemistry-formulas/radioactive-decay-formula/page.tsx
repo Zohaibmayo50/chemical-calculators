@@ -49,7 +49,7 @@ export default function RadioactiveDecayFormulaPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Common Mistakes</h2>
           <div className="grid md:grid-cols-2 gap-4 text-gray-700">
             <div className="border-l-4 border-red-500 pl-4">
@@ -60,6 +60,32 @@ export default function RadioactiveDecayFormulaPage() {
               <h3 className="font-semibold text-red-700">Using percent incorrectly</h3>
               <p>Work with absolute quantities or fractions; convert to percentages at the end.</p>
             </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/chemical-reaction-calculators/radioactive-decay-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Radioactive Decay Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate remaining quantity</p>
+            </a>
+            <a href="/kinetics-calculators/half-life-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Half-Life Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate decay half-life</p>
+            </a>
+            <a href="/chemistry-formulas/half-life-formula" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Half-Life Formula</h3>
+              <p className="text-sm text-gray-600">t₁/₂ = ln(2)/λ relationship</p>
+            </a>
+            <a href="/chemistry-formulas/integrated-rate-laws" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Integrated Rate Laws</h3>
+              <p className="text-sm text-gray-600">First-order kinetics formulas</p>
+            </a>
+            <a href="/chemical-kinetics-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
+              <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
+            </a>
           </div>
         </section>
       </main>

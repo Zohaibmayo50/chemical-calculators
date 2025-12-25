@@ -343,6 +343,44 @@ export default function MolarityFormulaPage() {
               </div>
             </section>
 
+            {/* Related Calculators Section */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+                Use these calculators to apply the molarity formula in practical chemistry problems:
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                <Link 
+                  href="/concentration-and-solution-calculators/molarity-calculator"
+                  className="block bg-gradient-to-r from-primary-50 to-primary-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-primary-200 dark:border-primary-700"
+                >
+                  <h3 className="text-xl font-bold text-primary-700 dark:text-primary-400 mb-2">Molarity Calculator</h3>
+                  <p className="text-gray-700 dark:text-gray-300 text-sm">Calculate molarity from moles and volume</p>
+                </Link>
+                <Link 
+                  href="/concentration-and-solution-calculators/dilution-calculator"
+                  className="block bg-gradient-to-r from-accent-50 to-accent-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-accent-200 dark:border-accent-700"
+                >
+                  <h3 className="text-xl font-bold text-accent-700 dark:text-accent-400 mb-2">Dilution Calculator</h3>
+                  <p className="text-gray-700 dark:text-gray-300 text-sm">Apply M₁V₁ = M₂V₂ for dilutions</p>
+                </Link>
+                <Link 
+                  href="/concentration-and-solution-calculators"
+                  className="block bg-gradient-to-r from-secondary-50 to-secondary-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-secondary-200 dark:border-secondary-700"
+                >
+                  <h3 className="text-xl font-bold text-secondary-700 dark:text-secondary-400 mb-2">Concentration & Solution Calculators</h3>
+                  <p className="text-gray-700 dark:text-gray-300 text-sm">Explore all concentration calculators</p>
+                </Link>
+                <Link 
+                  href="/molarity-vs-molality"
+                  className="block bg-gradient-to-r from-purple-50 to-indigo-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-purple-200 dark:border-purple-700"
+                >
+                  <h3 className="text-xl font-bold text-purple-700 dark:text-purple-400 mb-2">Molarity vs Molality</h3>
+                  <p className="text-gray-700 dark:text-gray-300 text-sm">Compare molarity with molality</p>
+                </Link>
+              </div>
+            </section>
+
             {/* Bottom Navigation */}
             <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
               <div className="flex justify-between items-center">

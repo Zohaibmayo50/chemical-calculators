@@ -280,21 +280,29 @@ export default function ReactionOrderFormulaPage() {
           <div className="bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/kinetics-calculators/reaction-order-calculator" className="block p-6 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Reaction Order Calculator</h3>
-                <p className="text-indigo-100">Automated order determination</p>
+              <Link href="/kinetics-calculators/reaction-order-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Reaction Order Calculator</h3>
+                <p className="text-sm text-gray-600">Automated order determination</p>
               </Link>
-              <Link href="/chemistry-formulas/rate-law" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Rate Law</h3>
-                <p className="text-gray-600 dark:text-gray-400">Rate expressions</p>
+              <Link href="/kinetics-calculators/rate-law-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-blue-900 mb-2">Rate Law Calculator</h3>
+                <p className="text-sm text-gray-600">Calculate rates and orders</p>
               </Link>
-              <Link href="/chemistry-formulas/integrated-rate-law-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Integrated Rate Laws</h3>
-                <p className="text-gray-600 dark:text-gray-400">Concentration vs time</p>
+              <Link href="/chemistry-formulas/rate-law" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Rate Law Formula</h3>
+                <p className="text-sm text-gray-600">Rate expressions</p>
               </Link>
-              <Link href="/chemistry-formulas/arrhenius-equation" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold mb-2">Arrhenius Equation</h3>
-                <p className="text-gray-600 dark:text-gray-400">Temperature effects on k</p>
+              <Link href="/chemistry-formulas/integrated-rate-law-formula" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Integrated Rate Laws</h3>
+                <p className="text-sm text-gray-600">Concentration vs time</p>
+              </Link>
+              <Link href="/chemistry-formulas/arrhenius-equation" className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-green-900 mb-2">Arrhenius Equation</h3>
+                <p className="text-sm text-gray-600">Temperature effects on k</p>
+              </Link>
+              <Link href="/chemical-kinetics-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+                <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
+                <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
               </Link>
             </div>
           </div>

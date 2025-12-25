@@ -269,6 +269,11 @@ export default function LewisStructurePage() {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Hybridization Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Determine orbital hybridization</p>
               </Link>
+
+              <Link href="/atomic-structure-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                <h3 className="text-xl font-bold mb-2">All Atomic Structure Calculators</h3>
+                <p className="text-sm opacity-90">Explore all molecular structure tools</p>
+              </Link>
             </div>
           </div>
         </section>

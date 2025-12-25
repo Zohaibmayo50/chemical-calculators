@@ -101,6 +101,28 @@ export default function MolecularWeightFormulaPage() {
             </div>
           </div>
         </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/stoichiometry-calculators/molecular-weight-calculator" className="block p-4 bg-gradient-to-r from-cyan-50 to-blue-100 rounded-lg hover:shadow-lg transition-all border border-cyan-200">
+              <h3 className="font-semibold text-cyan-700 mb-2">Molecular Weight Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate molar mass</p>
+            </a>
+            <a href="/stoichiometry-calculators/empirical-formula-calculator" className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+              <h3 className="font-semibold text-blue-600 mb-2">Empirical Formula</h3>
+              <p className="text-sm text-gray-600">Find simplest formula</p>
+            </a>
+            <a href="/stoichiometry-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-all">
+              <h3 className="font-semibold mb-2">Stoichiometry Calculators</h3>
+              <p className="text-sm text-white/90">All stoichiometry tools</p>
+            </a>
+            <a href="/mole-vs-molar-mass" className="block p-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:shadow-lg transition-all">
+              <h3 className="font-semibold mb-2">Mole vs Molar Mass</h3>
+              <p className="text-sm text-white/90">Understand the difference</p>
+            </a>
+          </div>
+        </section>
       </main>
 
       <Footer />

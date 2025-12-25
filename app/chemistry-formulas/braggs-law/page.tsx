@@ -63,6 +63,20 @@ export default function BraggsLawPage() {
             <li>Constructive interference occurs when path difference = nλ.</li>
           </ul>
         </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/coordination-chemistry-calculators/crystal-field-splitting-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Crystal Field Splitting Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate d-orbital energy splitting</p>
+            </a>
+            <a href="/coordination-chemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Coordination Chemistry Calculators</h3>
+              <p className="text-sm opacity-90">Explore all coordination chemistry tools</p>
+            </a>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

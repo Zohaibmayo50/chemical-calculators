@@ -64,6 +64,28 @@ export default function TheoreticalYieldFormulaPage() {
             </div>
           </div>
         </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/stoichiometry-calculators/theoretical-yield-calculator" className="block p-4 bg-gradient-to-r from-green-50 to-emerald-100 rounded-lg hover:shadow-lg transition-all border border-green-200">
+              <h3 className="font-semibold text-green-700 mb-2">Theoretical Yield Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate maximum product</p>
+            </a>
+            <a href="/stoichiometry-calculators/limiting-reactant-calculator" className="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+              <h3 className="font-semibold text-blue-600 mb-2">Limiting Reactant</h3>
+              <p className="text-sm text-gray-600">Find limiting reagent</p>
+            </a>
+            <a href="/stoichiometry-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-all">
+              <h3 className="font-semibold mb-2">Stoichiometry Calculators</h3>
+              <p className="text-sm text-white/90">All stoichiometry tools</p>
+            </a>
+            <a href="/theoretical-yield-vs-percent-yield" className="block p-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:shadow-lg transition-all">
+              <h3 className="font-semibold mb-2">Theoretical vs Percent Yield</h3>
+              <p className="text-sm text-white/90">Compare yield concepts</p>
+            </a>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

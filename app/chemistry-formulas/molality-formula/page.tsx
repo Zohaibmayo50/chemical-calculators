@@ -299,6 +299,29 @@ export default function MolalityFormulaPage() {
             </div>
           </section>
 
+          {/* Related Calculators */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <Link href="/concentration-and-solution-calculators/molality-calculator" className="block bg-gradient-to-r from-primary-50 to-primary-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-primary-200 dark:border-primary-700">
+                <h3 className="text-xl font-bold text-primary-700 dark:text-primary-400 mb-2">Molality Calculator</h3>
+                <p className="text-gray-700 dark:text-gray-300 text-sm">Calculate molality from moles and mass</p>
+              </Link>
+              <Link href="/thermodynamics-calculators/freezing-point-depression-calculator" className="block bg-gradient-to-r from-accent-50 to-accent-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-accent-200 dark:border-accent-700">
+                <h3 className="text-xl font-bold text-accent-700 dark:text-accent-400 mb-2">Freezing Point Depression</h3>
+                <p className="text-gray-700 dark:text-gray-300 text-sm">Apply molality to colligative properties</p>
+              </Link>
+              <Link href="/concentration-and-solution-calculators" className="block bg-gradient-to-r from-secondary-50 to-secondary-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-secondary-200 dark:border-secondary-700">
+                <h3 className="text-xl font-bold text-secondary-700 dark:text-secondary-400 mb-2">Concentration & Solution Calculators</h3>
+                <p className="text-gray-700 dark:text-gray-300 text-sm">Explore all concentration tools</p>
+              </Link>
+              <Link href="/molarity-vs-molality" className="block bg-gradient-to-r from-purple-50 to-indigo-100 dark:from-gray-700 dark:to-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow border-2 border-purple-200 dark:border-purple-700">
+                <h3 className="text-xl font-bold text-purple-700 dark:text-purple-400 mb-2">Molarity vs Molality</h3>
+                <p className="text-gray-700 dark:text-gray-300 text-sm">Compare concentration units</p>
+              </Link>
+            </div>
+          </section>
+
           {/* FAQs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Frequently Asked Questions</h2>

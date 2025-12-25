@@ -70,13 +70,39 @@ export default function RydbergEquationPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Notes</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Strictly valid for hydrogen; modified for other atoms using Z².</li>
             <li>Energy: ΔE = hc/λ relates wavelength to photon energy.</li>
             <li>n₂ → n₁ transition emits photon; reverse absorbs.</li>
           </ul>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/quantum-and-atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Wavelength-Energy Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate spectral line properties</p>
+            </a>
+            <a href="/quantum-and-atomic-structure-calculators/bohr-model-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Bohr Model Calculator</h3>
+              <p className="text-sm text-gray-600">Energy levels and transitions</p>
+            </a>
+            <a href="/chemistry-formulas/bohr-model" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Bohr Model Formula</h3>
+              <p className="text-sm text-gray-600">E<sub>n</sub> = -13.6 Z²/n²</p>
+            </a>
+            <a href="/chemistry-formulas/planck-equation" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Planck Equation</h3>
+              <p className="text-sm text-gray-600">E = hν photon energy</p>
+            </a>
+            <a href="/quantum-and-atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
+              <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

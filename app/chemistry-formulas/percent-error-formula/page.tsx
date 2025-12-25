@@ -55,7 +55,7 @@ export default function PercentErrorFormulaPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Notes</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Lower percent error = higher accuracy (closer to true value)</li>
@@ -63,6 +63,29 @@ export default function PercentErrorFormulaPage() {
             <li>Different from percent yield (which can be &lt; or &gt; 100%)</li>
             <li>Common in lab reports to assess experimental technique</li>
           </ul>
+        </section>
+
+        {/* Related Calculators */}
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/stoichiometry-calculators/percent-yield-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Percent Yield Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate experimental efficiency</p>
+            </a>
+            <a href="/stoichiometry-calculators/theoretical-yield-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Theoretical Yield Calculator</h3>
+              <p className="text-sm text-gray-600">Find expected product amount</p>
+            </a>
+            <a href="/chemistry-formulas/percent-yield-formula" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Percent Yield Formula</h3>
+              <p className="text-sm text-gray-600">(actual/theoretical) × 100%</p>
+            </a>
+            <a href="/stoichiometry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Stoichiometry Calculators</h3>
+              <p className="text-sm opacity-90">Explore all calculation tools</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

@@ -220,9 +220,9 @@ export default function IdealGasLawPage() {
                 <p className="text-gray-600 dark:text-gray-400">P₁V₁/T₁ = P₂V₂/T₂</p>
               </Link>
 
-              <Link href="/physical-chemistry-calculators/daltons-law-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Dalton's Law</h3>
-                <p className="text-gray-600 dark:text-gray-400">Partial pressures</p>
+              <Link href="/gas-laws-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <h3 className="text-xl font-bold mb-2">All Gas Laws Calculators</h3>
+                <p className="text-white/90">Explore all gas law tools</p>
               </Link>
 
               <Link href="/gas-calculators/gas-density-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">

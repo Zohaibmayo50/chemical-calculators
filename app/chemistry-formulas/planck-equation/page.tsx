@@ -65,13 +65,39 @@ export default function PlanckEquationPage() {
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Applications</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Photoelectric effect: photon must have E ≥ work function.</li>
             <li>Spectroscopy: ΔE of transitions = hν of absorbed/emitted photon.</li>
             <li>Higher frequency (shorter λ) = higher energy photon.</li>
           </ul>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/quantum-and-atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Wavelength-Energy Calculator</h3>
+              <p className="text-sm text-gray-600">Calculate photon properties</p>
+            </a>
+            <a href="/quantum-and-atomic-structure-calculators/bohr-model-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Bohr Model Calculator</h3>
+              <p className="text-sm text-gray-600">Energy level transitions</p>
+            </a>
+            <a href="/chemistry-formulas/wavelength-energy-relationship" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Wavelength-Energy Relationship</h3>
+              <p className="text-sm text-gray-600">E = hc/λ formula</p>
+            </a>
+            <a href="/chemistry-formulas/de-broglie-wavelength" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">De Broglie Wavelength</h3>
+              <p className="text-sm text-gray-600">Matter wave properties</p>
+            </a>
+            <a href="/quantum-and-atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
+              <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
+            </a>
+          </div>
         </section>
       </main>
       <Footer />

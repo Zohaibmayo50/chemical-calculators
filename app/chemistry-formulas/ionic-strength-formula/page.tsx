@@ -77,6 +77,28 @@ export default function IonicStrengthFormulaPage() {
             <li>For 1:1 electrolyte, I = molarity; for others, I &gt; molarity</li>
           </ul>
         </section>
+        {/* Related Calculators */}
+        <section className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <a href="/physical-chemistry-calculators/ionic-strength-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-900 mb-2">Ionic Strength Calculator</h3>
+              <p className="text-sm text-gray-600">I = ½Σ(c<sub>i</sub>z<sub>i</sub>²) calculator</p>
+            </a>
+            <a href="/chemistry-formulas/activity-coefficient" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Activity Coefficient</h3>
+              <p className="text-sm text-gray-600">a = γ × [C] using ionic strength</p>
+            </a>
+            <a href="/chemistry-formulas/molarity-formula" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-green-900 mb-2">Molarity Formula</h3>
+              <p className="text-sm text-gray-600">Calculate concentrations for ionic strength</p>
+            </a>
+            <a href="/physical-chemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Physical Chemistry Calculators</h3>
+              <p className="text-sm opacity-90">Explore all physical chemistry tools</p>
+            </a>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
