@@ -14,7 +14,7 @@ export default function StereochemistryFormulaPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+      <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
@@ -26,7 +26,7 @@ export default function StereochemistryFormulaPage() {
         </div>
 
         <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-          <div className="bg-gradient-to-br from-pink-600 via-rose-600 to-purple-600 rounded-3xl p-12 text-white shadow-2xl">
+          <div className="bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 rounded-3xl p-12 text-white shadow-2xl">
             <h1 className="text-5xl font-bold mb-4 text-center">Stereochemistry</h1>
             <p className="text-xl text-center text-pink-100">
               R/S configuration, chirality, and 3D molecular structure

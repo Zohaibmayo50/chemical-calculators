@@ -13,7 +13,7 @@ export default function DilutionFormulaPage() {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
         <div className="max-w-4xl mx-auto">
           <nav className="mb-8 text-sm">
             <Link href="/" className="text-primary-600 dark:text-primary-400 hover:underline">Home</Link>
