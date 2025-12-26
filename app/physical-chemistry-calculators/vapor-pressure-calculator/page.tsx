@@ -220,9 +220,29 @@ export default function VaporPressureCalculatorPage() {
                         Ideal Gas Law
                       </Link>
                     </li>
+                  </ul>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      <span className="text-2xl">📐</span>
+                      Related Formulas
+                    </h3>
+                    <ul className="space-y-3">
+                      <li>
+                        <Link href="/chemistry-formulas/vapor-pressure-formula" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
+                          Vapor Pressure Formula
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/chemistry-formulas/clausius-clapeyron-formula" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
+                          Clausius-Clapeyron Formula
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <ul className="space-y-3 mt-6">
                     <li>
-                      <Link href="/" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold">
-                        View All Calculators →
+                      <Link href="/physical-chemistry-calculators" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold">
+                        All Physical Chemistry Calculators →
                       </Link>
                     </li>
                   </ul>

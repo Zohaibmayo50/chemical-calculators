@@ -326,12 +326,38 @@ export default function CombinedGasLawCalculatorPage() {
                         Boiling Point Elevation
                       </Link>
                     </li>
+                  </ul>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      <span className="text-2xl">📐</span>
+                      Related Formulas
+                    </h3>
+                    <ul className="space-y-3">
+                      <li>
+                        <Link 
+                          href="/chemistry-formulas/combined-gas-law-formula"
+                          className="text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors"
+                        >
+                          Combined Gas Law Formula
+                        </Link>
+                      </li>
+                      <li>
+                        <Link 
+                          href="/chemistry-formulas/ideal-gas-law-formula"
+                          className="text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors"
+                        >
+                          Ideal Gas Law Formula
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <ul className="space-y-3 mt-6">
                     <li>
                       <Link 
-                        href="/"
+                        href="/physical-chemistry-calculators"
                         className="text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors font-semibold"
                       >
-                        View All Calculators →
+                        All Physical Chemistry Calculators →
                       </Link>
                     </li>
                   </ul>

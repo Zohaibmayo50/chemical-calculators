@@ -525,6 +525,19 @@ export default function MassPercentCalculatorPage() {
                       <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">PPM Calculator</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Calculate parts per million</p>
                     </Link>
+                  </div>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Formulas</h3>
+                    <div className="space-y-2">
+                      <Link href="/chemistry-formulas/mass-percent-formula" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                        <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Mass Percent Formula</p>
+                      </Link>
+                      <Link href="/mass-percent-vs-mole-fraction" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                        <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Mass Percent vs Mole Fraction</p>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="space-y-2 mt-4">
                     <Link href="/concentration-and-solution-calculators" className="block p-3 rounded-lg bg-primary-50 dark:bg-primary-900/20 hover:bg-primary-100 dark:hover:bg-primary-900/30 transition-colors group">
                       <p className="font-semibold text-primary-700 dark:text-primary-300">View All Concentration Calculators →</p>
                     </Link>

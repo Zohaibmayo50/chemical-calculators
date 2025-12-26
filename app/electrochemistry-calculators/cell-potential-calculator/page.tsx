@@ -45,8 +45,19 @@ export default function CellPotentialCalculatorPage() {  return (
                   <div className="text-sm text-gray-600 dark:text-gray-400">Determine oxidation states</div>
                 </a>
               </div>
-              <a href="/" className="block mt-4 text-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
-                View All Calculators →
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">📐 Related Formulas</h3>
+                <div className="space-y-3">
+                  <a href="/chemistry-formulas/cell-potential-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                    <div className="font-semibold text-gray-900 dark:text-white">Cell Potential Formula</div>
+                  </a>
+                  <a href="/chemistry-formulas/nernst-equation" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                    <div className="font-semibold text-gray-900 dark:text-white">Nernst Equation</div>
+                  </a>
+                </div>
+              </div>
+              <a href="/electrochemistry-calculators" className="block mt-4 text-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                All Electrochemistry Calculators →
               </a>
             </div>
           </div>

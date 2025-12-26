@@ -280,6 +280,23 @@ export default function MolalityCalculatorPage() {
                     </p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Calculate equivalent concentration</p>
                   </Link>
+                </div>
+                <div className="mt-4 pt-4 border-t border-primary-200 dark:border-primary-700">
+                  <h3 className="font-heading text-lg font-semibold text-gray-900 dark:text-white mb-3">Related Formulas</h3>
+                  <div className="space-y-2">
+                    <Link href="/chemistry-formulas/molality-formula" className="block p-2 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
+                      <p className="font-semibold text-sm text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                        Molality Formula (m = n/kg)
+                      </p>
+                    </Link>
+                    <Link href="/molarity-vs-molality" className="block p-2 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
+                      <p className="font-semibold text-sm text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                        Molarity vs Molality Comparison
+                      </p>
+                    </Link>
+                  </div>
+                </div>
+                <div className="mt-4">
                   <Link href="/concentration-and-solution-calculators" className="block p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg border-2 border-primary-300 dark:border-primary-600 hover:border-primary-500 dark:hover:border-primary-400 hover:shadow-md transition-all group">
                     <p className="font-semibold text-primary-700 dark:text-primary-400 group-hover:text-primary-800 dark:group-hover:text-primary-300 transition-colors">
                       All Concentration Calculators →

@@ -99,11 +99,36 @@ export default function LatticeEnergyCalculatorPage() {  return (
                   </li>
                 </ul>
                 <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                    📐 Related Formulas
+                  </h3>
+                  <ul className="space-y-3">
+                    <li>
+                      <a
+                        href="/chemistry-formulas/lattice-energy-formula"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Lattice Energy Formula</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/chemistry-formulas/born-haber-cycle-formula"
+                        className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                      >
+                        <span>→</span>
+                        <span>Born-Haber Cycle Formula</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                   <a
-                    href="/calculators"
+                    href="/thermodynamics-calculators"
                     className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                   >
-                    View All Calculators →
+                    All Thermodynamics Calculators →
                   </a>
                 </div>
               </div>

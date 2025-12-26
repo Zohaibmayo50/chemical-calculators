@@ -216,6 +216,19 @@ export default function DilutionCalculatorPage() {  return (
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">Normality Calculator</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Calculate equivalent concentration</p>
                 </Link>
+              </div>
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Formulas</h3>
+                <div className="space-y-3">
+                  <Link href="/chemistry-formulas/dilution-formula" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 transition-all">
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Dilution Formula (M₁V₁ = M₂V₂)</h4>
+                  </Link>
+                  <Link href="/chemistry-formulas/molarity-formula" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 transition-all">
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Molarity Formula</h4>
+                  </Link>
+                </div>
+              </div>
+              <div className="mt-6">
                 <Link href="/concentration-and-solution-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Concentration Calculators →</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">View complete collection</p>

@@ -53,6 +53,22 @@ export default function MolecularFormulaCalculatorPage() {
                     <p className="text-sm text-orange-700 dark:text-orange-300">Reaction calculations</p>
                   </a>
                 </div>
+                <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Related Formulas</h3>
+                  <div className="space-y-3">
+                    <a href="/chemistry-formulas/molecular-formula-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
+                      <h3 className="font-semibold text-gray-900 dark:text-gray-100">Molecular Formula</h3>
+                    </a>
+                    <a href="/chemistry-formulas/empirical-formula-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
+                      <h3 className="font-semibold text-gray-900 dark:text-gray-100">Empirical Formula</h3>
+                    </a>
+                  </div>
+                </div>
+                <div className="mt-4">
+                  <a href="/stoichiometry-calculators" className="block p-3 bg-primary-50 dark:bg-primary-900/20 hover:bg-primary-100 dark:hover:bg-primary-900/30 rounded-lg transition-colors">
+                    <p className="font-semibold text-primary-700 dark:text-primary-300">All Stoichiometry Calculators →</p>
+                  </a>
+                </div>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">

@@ -280,6 +280,23 @@ export default function PercentYieldCalculatorPage() {
                     </p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Determine empirical formula from percent composition</p>
                   </Link>
+                </div>
+                <div className="mt-6 pt-6 border-t border-primary-200 dark:border-primary-700">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Formulas</h3>
+                  <div className="space-y-3">
+                    <Link href="/chemistry-formulas/percent-yield-formula" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                        Percent Yield Formula
+                      </p>
+                    </Link>
+                    <Link href="/chemistry-formulas/theoretical-yield-formula" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                        Theoretical Yield Formula
+                      </p>
+                    </Link>
+                  </div>
+                </div>
+                <div className="space-y-3 mt-4">
                   <Link href="/stoichiometry-calculators" className="block p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg border-2 border-primary-300 dark:border-primary-600 hover:border-primary-500 dark:hover:border-primary-400 hover:shadow-md transition-all group">
                     <p className="font-semibold text-primary-700 dark:text-primary-400 group-hover:text-primary-800 dark:group-hover:text-primary-300 transition-colors">
                       All Stoichiometry Calculators →

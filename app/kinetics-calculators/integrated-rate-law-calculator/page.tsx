@@ -705,11 +705,36 @@ export default function IntegratedRateLawCalculatorPage() {  return (
                     </li>
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      📐 Related Formulas
+                    </h3>
+                    <ul className="space-y-3">
+                      <li>
+                        <a
+                          href="/chemistry-formulas/integrated-rate-laws"
+                          className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>Integrated Rate Laws</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/chemistry-formulas/rate-law"
+                          className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>Rate Law Formula</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <a
-                      href="/calculators"
+                      href="/kinetics-calculators"
                       className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      View All Calculators →
+                      All Kinetics Calculators →
                     </a>
                   </div>
                 </div>

@@ -97,6 +97,44 @@ export default function ActivityCoefficientCalculatorPage() {  return (
               Understanding Activity and Concentration
             </h3>
 
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-6">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                📐 Related Formulas
+              </h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="/chemistry-formulas/activity-coefficient-formula"
+                    className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                  >
+                    <span>→</span>
+                    <span>Activity Coefficient Formula</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/chemistry-formulas/debye-huckel-formula"
+                    className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                  >
+                    <span>→</span>
+                    <span>Debye-Hückel Formula</span>
+                  </a>
+                </li>
+              </ul>
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <a
+                  href="/physical-chemistry-calculators"
+                  className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
+                >
+                  All Physical Chemistry Calculators →
+                </a>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold text-gray-800 dark:text-white mt-8 mb-4">
+              Understanding Activity and Concentration
+            </h3>
+
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
               The distinction between activity and concentration is crucial for accurate thermodynamic calculations:
             </p>

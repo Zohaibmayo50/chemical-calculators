@@ -336,15 +336,42 @@ export default function DegreeOfUnsaturationCalculatorPage() {
                         Molarity Calculator
                       </Link>
                     </li>
-                    <li>
-                      <Link 
-                        href="/"
-                        className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold"
-                      >
-                        View All Calculators →
-                      </Link>
-                    </li>
                   </ul>
+                  
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      📐 Related Formulas
+                    </h3>
+                    <ul className="space-y-3">
+                      <li>
+                        <a
+                          href="/chemistry-formulas/degree-of-unsaturation"
+                          className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>Degree of Unsaturation Formula</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/chemistry-formulas/molecular-formula"
+                          className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>Molecular Formula</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <Link 
+                      href="/organic-chemistry-calculators"
+                      className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold"
+                    >
+                      All Organic Chemistry Calculators →
+                    </Link>
+                  </div>
                 </div>
 
                 {/* Where It's Used */}

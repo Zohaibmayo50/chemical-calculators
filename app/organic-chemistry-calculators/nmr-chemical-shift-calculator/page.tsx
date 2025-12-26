@@ -98,12 +98,39 @@ export default function NMRChemicalShiftCalculatorPage() {  return (
                       </a>
                     </li>
                   </ul>
+                  
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      📐 Related Formulas
+                    </h3>
+                    <ul className="space-y-3">
+                      <li>
+                        <a
+                          href="/chemistry-formulas/nmr-chemical-shift-formula"
+                          className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>NMR Chemical Shift Formula</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/chemistry-formulas/molecular-orbital-theory"
+                          className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>Molecular Orbital Theory</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <a
-                      href="/calculators"
+                      href="/organic-chemistry-calculators"
                       className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      View All Calculators →
+                      All Organic Chemistry Calculators →
                     </a>
                   </div>
                 </div>

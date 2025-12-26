@@ -211,12 +211,39 @@ export default function ColligativePropertiesCalculatorPage() {  return (
                   </a>
                 </li>
               </ul>
+              
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                  📐 Related Formulas
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a
+                      href="/chemistry-formulas/colligative-properties-formula"
+                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                    >
+                      <span>→</span>
+                      <span>Colligative Properties Formula</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/chemistry-formulas/osmotic-pressure"
+                      className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                    >
+                      <span>→</span>
+                      <span>Osmotic Pressure Formula</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <a
-                  href="/calculators"
+                  href="/solution-calculators"
                   className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                 >
-                  View All Calculators →
+                  All Solution Calculators →
                 </a>
               </div>
             </div>          </div>

@@ -47,8 +47,19 @@ export default function ReactionRateCalculatorPage() {  return (
                   <div className="text-sm text-gray-600 dark:text-gray-400">Calculate concentrations over time</div>
                 </a>
               </div>
-              <a href="/" className="block mt-4 text-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
-                View All Calculators →
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">📐 Related Formulas</h3>
+                <div className="space-y-3">
+                  <a href="/chemistry-formulas/reaction-rate-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                    <div className="font-semibold text-gray-900 dark:text-white">Reaction Rate Formula</div>
+                  </a>
+                  <a href="/chemistry-formulas/rate-law" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+                    <div className="font-semibold text-gray-900 dark:text-white">Rate Law Formula</div>
+                  </a>
+                </div>
+              </div>
+              <a href="/kinetics-calculators" className="block mt-4 text-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                All Kinetics Calculators →
               </a>
             </div>
           </div>

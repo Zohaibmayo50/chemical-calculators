@@ -366,12 +366,38 @@ export default function GibbsFreeEnergyCalculatorPage() {
                         Nernst Equation
                       </Link>
                     </li>
+                  </ul>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      <span className="text-2xl">📐</span>
+                      Related Formulas
+                    </h3>
+                    <ul className="space-y-3">
+                      <li>
+                        <Link 
+                          href="/chemistry-formulas/gibbs-free-energy-formula"
+                          className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
+                        >
+                          Gibbs Free Energy Formula
+                        </Link>
+                      </li>
+                      <li>
+                        <Link 
+                          href="/chemistry-formulas/entropy-formula"
+                          className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
+                        >
+                          Entropy Formula
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <ul className="space-y-3 mt-6">
                     <li>
                       <Link 
-                        href="/"
+                        href="/thermodynamics-calculators"
                         className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors font-semibold"
                       >
-                        View All Calculators →
+                        All Thermodynamics Calculators →
                       </Link>
                     </li>
                   </ul>

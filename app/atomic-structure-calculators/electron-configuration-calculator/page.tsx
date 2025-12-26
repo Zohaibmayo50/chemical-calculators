@@ -537,11 +537,36 @@ export default function ElectronConfigurationPage() {  return (
                     </li>
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      📐 Related Formulas
+                    </h3>
+                    <ul className="space-y-3">
+                      <li>
+                        <a
+                          href="/chemistry-formulas/electron-configuration-formula"
+                          className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>Electron Configuration Formula</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/chemistry-formulas/aufbau-principle-formula"
+                          className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
+                        >
+                          <span>→</span>
+                          <span>Aufbau Principle</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <a
-                      href="/calculators"
+                      href="/atomic-structure-calculators"
                       className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      View All Calculators →
+                      All Atomic Structure Calculators →
                     </a>
                   </div>
                 </div>
