@@ -94,9 +94,9 @@ export default function Header() {
             <a href="#learn" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
               Learn
             </a>
-            <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
+            <Link href="/about" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
               About
-            </a>
+            </Link>
             
             {/* Theme Toggle */}
             <ThemeToggle />
@@ -199,9 +199,9 @@ export default function Header() {
               <a href="#learn" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
                 Learn
               </a>
-              <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
+              <Link href="/about" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
                 About
-              </a>
+              </Link>
               
               {/* Mobile Search */}
               <div className="pt-2 border-t border-gray-200 dark:border-gray-700">

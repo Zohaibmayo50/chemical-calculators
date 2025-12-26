@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import ReviewedByNotice from '@/components/ReviewedByNotice';
 
 export const metadata = {
   title: 'Ideal Gas Law | PV = nRT | Gas Equation Explained',
@@ -268,6 +269,9 @@ export default function IdealGasLawPage() {
               </div>
             </div>
           </section>
+
+          {/* Reviewed By Notice */}
+          <ReviewedByNotice />
 
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">

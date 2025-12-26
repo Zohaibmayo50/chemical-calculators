@@ -58,7 +58,26 @@ export default function HomePage() {
             "name": "Chemical Calculators",
             "url": "https://chemicalcalculators.com",
             "description": "Provider of free chemistry calculation tools and educational resources",
-            "sameAs": []
+            "founder": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist, Web Developer",
+              "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Lahore Garrison University",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Lahore",
+                  "addressCountry": "Pakistan"
+                }
+              },
+              "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Master's Degree in Chemistry"
+              },
+              "knowsAbout": ["Chemistry", "Chemical Calculations", "Computational Chemistry"]
+            }
           })
         }}
       />

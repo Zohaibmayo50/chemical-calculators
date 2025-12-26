@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PercentYieldCalculator from '@/components/calculators/PercentYieldCalculator';
+import ReviewedByNotice from '@/components/ReviewedByNotice';
 
 export const metadata: Metadata = {
   title: 'Percent Yield Calculator | Calculate Reaction Efficiency',
@@ -385,6 +386,9 @@ export default function PercentYieldCalculatorPage() {
               </div>
             </div>
           </section>
+
+          {/* Reviewed By Notice */}
+          <ReviewedByNotice />
         </div>
       </main>
       <Footer />
