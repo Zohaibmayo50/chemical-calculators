@@ -474,7 +474,7 @@ export default function WavelengthEnergyCalculatorPage() {  return (
                     <ul className="space-y-3">
                       <li>
                         <a
-                          href="/chemistry-formulas/wavelength-energy-formula"
+                          href="/chemistry-formulas/wavelength-energy-relationship"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
                           <span>→</span>
@@ -483,7 +483,7 @@ export default function WavelengthEnergyCalculatorPage() {  return (
                       </li>
                       <li>
                         <a
-                          href="/chemistry-formulas/planck-equation-formula"
+                          href="/chemistry-formulas/planck-equation"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
                           <span>→</span>

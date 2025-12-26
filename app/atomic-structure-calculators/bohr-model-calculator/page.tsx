@@ -474,7 +474,7 @@ export default function BohrModelCalculatorPage() {  return (
                     <ul className="space-y-3">
                       <li>
                         <a
-                          href="/chemistry-formulas/bohr-model-formula"
+                          href="/chemistry-formulas/bohr-model"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
                           <span>→</span>
@@ -483,7 +483,7 @@ export default function BohrModelCalculatorPage() {  return (
                       </li>
                       <li>
                         <a
-                          href="/chemistry-formulas/rydberg-equation-formula"
+                          href="/chemistry-formulas/rydberg-equation"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
                           <span>→</span>

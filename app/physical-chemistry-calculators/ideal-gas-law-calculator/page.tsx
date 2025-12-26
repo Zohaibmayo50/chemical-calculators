@@ -481,10 +481,10 @@ export default function IdealGasLawCalculatorPage() {
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">Related Formulas</h3>
                     <div className="space-y-2">
-                      <Link href="/chemistry-formulas/ideal-gas-law-formula" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <Link href="/chemistry-formulas/ideal-gas-law" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
                         <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Ideal Gas Law Formula</p>
                       </Link>
-                      <Link href="/chemistry-formulas/combined-gas-law-formula" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
+                      <Link href="/chemistry-formulas/combined-gas-law" className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors group">
                         <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">Combined Gas Law Formula</p>
                       </Link>
                     </div>

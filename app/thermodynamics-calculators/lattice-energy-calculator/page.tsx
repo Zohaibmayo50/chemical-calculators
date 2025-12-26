@@ -105,7 +105,7 @@ export default function LatticeEnergyCalculatorPage() {  return (
                   <ul className="space-y-3">
                     <li>
                       <a
-                        href="/chemistry-formulas/lattice-energy-formula"
+                        href="/chemistry-formulas/lattice-energy"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
                         <span>→</span>
@@ -114,7 +114,7 @@ export default function LatticeEnergyCalculatorPage() {  return (
                     </li>
                     <li>
                       <a
-                        href="/chemistry-formulas/born-haber-cycle-formula"
+                        href="/chemistry-formulas/lattice-energy"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
                         <span>→</span>

@@ -252,7 +252,7 @@ export default function KineticMolecularTheoryCalculatorPage() {  return (
                   </li>
                   <li>
                     <a
-                      href="/chemistry-formulas/rms-velocity-formula"
+                      href="/chemistry-formulas/rms-speed"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>

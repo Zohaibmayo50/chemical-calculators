@@ -56,10 +56,10 @@ export default function MolecularFormulaCalculatorPage() {
                 <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Related Formulas</h3>
                   <div className="space-y-3">
-                    <a href="/chemistry-formulas/molecular-formula-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
+                    <a href="/chemistry-formulas/molecular-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
                       <h3 className="font-semibold text-gray-900 dark:text-gray-100">Molecular Formula</h3>
                     </a>
-                    <a href="/chemistry-formulas/empirical-formula-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
+                    <a href="/chemistry-formulas/empirical-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
                       <h3 className="font-semibold text-gray-900 dark:text-gray-100">Empirical Formula</h3>
                     </a>
                   </div>

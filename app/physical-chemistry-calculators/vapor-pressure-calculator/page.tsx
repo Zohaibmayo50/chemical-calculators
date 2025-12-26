@@ -233,7 +233,7 @@ export default function VaporPressureCalculatorPage() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/chemistry-formulas/clausius-clapeyron-formula" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
+                        <Link href="/chemistry-formulas/clausius-clapeyron-equation" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
                           Clausius-Clapeyron Formula
                         </Link>
                       </li>

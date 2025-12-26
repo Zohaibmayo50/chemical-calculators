@@ -227,7 +227,7 @@ export default function MolecularWeightCalculatorPage() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/chemistry-formulas/molar-mass-formula" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
+                        <Link href="/chemistry-formulas/molecular-weight-formula" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
                           Molar Mass Formula
                         </Link>
                       </li>

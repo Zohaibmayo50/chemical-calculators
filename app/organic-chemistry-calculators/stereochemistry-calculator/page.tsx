@@ -110,7 +110,7 @@ export default function StereochemistryCalculatorPage() {  return (
                       </li>
                       <li>
                         <a
-                          href="/chemistry-formulas/molecular-geometry-formula"
+                          href="/chemistry-formulas/vsepr-theory-formula"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
                           <span>→</span>

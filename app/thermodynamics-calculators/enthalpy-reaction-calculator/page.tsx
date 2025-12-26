@@ -224,7 +224,7 @@ export default function EnthalpyReactionCalculatorPage() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/chemistry-formulas/hess-law-formula" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
+                        <Link href="/chemistry-formulas/hess-law" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
                           Hess's Law Formula
                         </Link>
                       </li>

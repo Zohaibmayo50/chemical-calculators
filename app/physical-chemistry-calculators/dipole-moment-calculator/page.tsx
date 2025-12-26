@@ -108,7 +108,7 @@ export default function DipoleMomentCalculatorPage() {  return (
                     </li>
                     <li>
                       <a
-                        href="/chemistry-formulas/electronegativity-formula"
+                        href="/chemistry-formulas/dipole-moment-formula"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
                         <span>→</span>

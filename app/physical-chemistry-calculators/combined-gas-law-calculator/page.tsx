@@ -335,7 +335,7 @@ export default function CombinedGasLawCalculatorPage() {
                     <ul className="space-y-3">
                       <li>
                         <Link 
-                          href="/chemistry-formulas/combined-gas-law-formula"
+                          href="/chemistry-formulas/combined-gas-law"
                           className="text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors"
                         >
                           Combined Gas Law Formula
@@ -343,7 +343,7 @@ export default function CombinedGasLawCalculatorPage() {
                       </li>
                       <li>
                         <Link 
-                          href="/chemistry-formulas/ideal-gas-law-formula"
+                          href="/chemistry-formulas/ideal-gas-law"
                           className="text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors"
                         >
                           Ideal Gas Law Formula

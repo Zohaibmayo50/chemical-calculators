@@ -59,7 +59,7 @@ export default function PercentCompositionCalculatorPage() {  return (
                   <a href="/chemistry-formulas/percent-composition-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
                     <h3 className="font-semibold text-gray-900 dark:text-gray-100">Percent Composition Formula</h3>
                   </a>
-                  <a href="/chemistry-formulas/empirical-formula-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
+                  <a href="/chemistry-formulas/empirical-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-lg transition-colors">
                     <h3 className="font-semibold text-gray-900 dark:text-gray-100">Empirical Formula</h3>
                   </a>
                 </div>

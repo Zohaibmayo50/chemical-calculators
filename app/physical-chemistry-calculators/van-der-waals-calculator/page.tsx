@@ -422,7 +422,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="/chemistry-formulas/van-der-waals-equation-formula"
+                      href="/chemistry-formulas/van-der-waals-equation"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>
@@ -431,7 +431,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
                   </li>
                   <li>
                     <a
-                      href="/chemistry-formulas/ideal-gas-law-formula"
+                      href="/chemistry-formulas/ideal-gas-law"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>

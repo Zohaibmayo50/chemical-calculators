@@ -375,7 +375,7 @@ export default function GibbsFreeEnergyCalculatorPage() {
                     <ul className="space-y-3">
                       <li>
                         <Link 
-                          href="/chemistry-formulas/gibbs-free-energy-formula"
+                          href="/chemistry-formulas/gibbs-free-energy"
                           className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
                         >
                           Gibbs Free Energy Formula

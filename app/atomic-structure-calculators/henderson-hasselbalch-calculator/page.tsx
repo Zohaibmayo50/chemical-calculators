@@ -390,7 +390,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                     <ul className="space-y-3">
                       <li>
                         <Link 
-                          href="/chemistry-formulas/henderson-hasselbalch-formula"
+                          href="/chemistry-formulas/henderson-hasselbalch-equation"
                           className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors"
                         >
                           Henderson-Hasselbalch Formula

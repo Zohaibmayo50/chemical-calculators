@@ -402,7 +402,7 @@ export default function BeersLawCalculatorPage() {
                     <ul className="space-y-3">
                       <li>
                         <Link 
-                          href="/chemistry-formulas/beer-lambert-law-formula"
+                          href="/chemistry-formulas/beers-law"
                           className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors"
                         >
                           Beer-Lambert Law Formula
@@ -410,7 +410,7 @@ export default function BeersLawCalculatorPage() {
                       </li>
                       <li>
                         <Link 
-                          href="/chemistry-formulas/absorbance-formula"
+                          href="/chemistry-formulas/beers-law"
                           className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors"
                         >
                           Absorbance Formula

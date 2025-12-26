@@ -104,7 +104,7 @@ export default function ActivityCoefficientCalculatorPage() {  return (
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="/chemistry-formulas/activity-coefficient-formula"
+                    href="/chemistry-formulas/activity-coefficient"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>
@@ -113,7 +113,7 @@ export default function ActivityCoefficientCalculatorPage() {  return (
                 </li>
                 <li>
                   <a
-                    href="/chemistry-formulas/debye-huckel-formula"
+                    href="/chemistry-formulas/activity-coefficient"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>

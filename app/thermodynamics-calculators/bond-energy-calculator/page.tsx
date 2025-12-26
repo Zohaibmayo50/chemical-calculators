@@ -411,7 +411,7 @@ export default function BondEnergyPage() {  return (
                 </li>
                 <li>
                   <a
-                    href="/chemistry-formulas/hess-law-formula"
+                    href="/chemistry-formulas/hess-law"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>

@@ -415,7 +415,7 @@ export default function DaltonsLawCalculatorPage() {  return (
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="/chemistry-formulas/daltons-law-formula"
+                      href="/chemistry-formulas/daltons-law"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>
@@ -424,7 +424,7 @@ export default function DaltonsLawCalculatorPage() {  return (
                   </li>
                   <li>
                     <a
-                      href="/chemistry-formulas/partial-pressure-formula"
+                      href="/chemistry-formulas/daltons-law"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>

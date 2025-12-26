@@ -321,7 +321,7 @@ export default function RaoultsLawCalculatorPage() {  return (
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="/chemistry-formulas/raoults-law-formula"
+                    href="/chemistry-formulas/raoults-law"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>

@@ -198,7 +198,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Related Formulas</h3>
                 <div className="grid sm:grid-cols-2 gap-4">
-                  <Link href="/chemistry-formulas/empirical-formula-formula" className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+                  <Link href="/chemistry-formulas/empirical-formula" className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
                     <h3 className="font-bold text-gray-900 dark:text-white mb-1">Empirical Formula</h3>
                   </Link>
                   <Link href="/chemistry-formulas/percent-composition-formula" className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">

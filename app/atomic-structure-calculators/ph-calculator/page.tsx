@@ -212,7 +212,7 @@ export default function PhCalculatorPage() {  return (
                   <Link href="/chemistry-formulas/ph-formula" className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
                     <h3 className="font-bold text-gray-900 dark:text-white mb-1">pH Formula</h3>
                   </Link>
-                  <Link href="/chemistry-formulas/poh-formula" className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+                  <Link href="/chemistry-formulas/ph-formula" className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
                     <h3 className="font-bold text-gray-900 dark:text-white mb-1">pOH Formula</h3>
                   </Link>
                 </div>

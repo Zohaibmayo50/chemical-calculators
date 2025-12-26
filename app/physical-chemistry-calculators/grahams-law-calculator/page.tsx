@@ -408,7 +408,7 @@ export default function GrahamsLawCalculatorPage() {  return (
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="/chemistry-formulas/grahams-law-formula"
+                      href="/chemistry-formulas/grahams-law"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>
@@ -417,7 +417,7 @@ export default function GrahamsLawCalculatorPage() {  return (
                   </li>
                   <li>
                     <a
-                      href="/chemistry-formulas/diffusion-formula"
+                      href="/chemistry-formulas/grahams-law"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>

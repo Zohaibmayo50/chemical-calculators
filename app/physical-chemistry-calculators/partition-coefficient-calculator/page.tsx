@@ -104,7 +104,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                   <ul className="space-y-3">
                     <li>
                       <a
-                        href="/chemistry-formulas/partition-coefficient-formula"
+                        href="/chemistry-formulas/partition-coefficient"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
                         <span>→</span>
@@ -113,7 +113,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                     </li>
                     <li>
                       <a
-                        href="/chemistry-formulas/distribution-coefficient-formula"
+                        href="/chemistry-formulas/partition-coefficient"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
                         <span>→</span>

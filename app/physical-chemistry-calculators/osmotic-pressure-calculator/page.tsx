@@ -326,7 +326,7 @@ export default function OsmoticPressureCalculatorPage() {
                     <ul className="space-y-3">
                       <li>
                         <Link 
-                          href="/chemistry-formulas/osmotic-pressure-formula"
+                          href="/chemistry-formulas/osmotic-pressure"
                           className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
                         >
                           Osmotic Pressure Formula
@@ -334,7 +334,7 @@ export default function OsmoticPressureCalculatorPage() {
                       </li>
                       <li>
                         <Link 
-                          href="/chemistry-formulas/vant-hoff-equation-formula"
+                          href="/chemistry-formulas/vant-hoff-equation"
                           className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
                         >
                           Van't Hoff Equation
