@@ -224,6 +224,12 @@ export default function TheoreticalYieldCalculatorPage() {  return (
                   </Link>
                 </div>
               </div>
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <Link href="/theoretical-yield-vs-percent-yield" className="block p-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl hover:shadow-xl transition-all">
+                  <h3 className="font-bold mb-1">📊 Theoretical Yield vs Percent Yield</h3>
+                  <p className="text-sm text-purple-100">Compare theoretical and percent yield concepts</p>
+                </Link>
+              </div>
               <div className="grid sm:grid-cols-2 gap-4 mt-4">
                 <Link href="/stoichiometry-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Stoichiometry Calculators →</h3>

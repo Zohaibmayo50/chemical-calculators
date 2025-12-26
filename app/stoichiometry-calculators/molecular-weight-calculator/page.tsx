@@ -233,6 +233,15 @@ export default function MolecularWeightCalculatorPage() {
                       </li>
                     </ul>
                   </div>
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <Link href="/mole-vs-molar-mass" className="block p-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl hover:shadow-xl transition-all">
+                      <h3 className="font-bold mb-1 flex items-center gap-2">
+                        <span>📊</span>
+                        <span>Mole vs Molar Mass</span>
+                      </h3>
+                      <p className="text-sm text-purple-100">Understand the key differences between mole and molar mass</p>
+                    </Link>
+                  </div>
                   <ul className="space-y-3 mt-6">
                     <li>
                       <Link href="/stoichiometry-calculators" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold">

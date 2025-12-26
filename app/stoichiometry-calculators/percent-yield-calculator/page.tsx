@@ -296,6 +296,12 @@ export default function PercentYieldCalculatorPage() {
                     </Link>
                   </div>
                 </div>
+                <div className="mt-6 pt-6 border-t border-primary-200 dark:border-primary-700">
+                  <Link href="/theoretical-yield-vs-percent-yield" className="block p-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg hover:shadow-xl transition-all">
+                    <p className="font-bold mb-1">📊 Theoretical Yield vs Percent Yield</p>
+                    <p className="text-sm text-purple-100">Compare theoretical and percent yield concepts</p>
+                  </Link>
+                </div>
                 <div className="space-y-3 mt-4">
                   <Link href="/stoichiometry-calculators" className="block p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg border-2 border-primary-300 dark:border-primary-600 hover:border-primary-500 dark:hover:border-primary-400 hover:shadow-md transition-all group">
                     <p className="font-semibold text-primary-700 dark:text-primary-400 group-hover:text-primary-800 dark:group-hover:text-primary-300 transition-colors">
