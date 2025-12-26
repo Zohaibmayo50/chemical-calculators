@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Rate Law Calculator & Formula | ChemCalc',
   description: 'Learn rate law formulas, reaction orders, and rate constants with step-by-step calculations and examples. Master chemical kinetics.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/rate-law',
+  },
   keywords: 'rate law, chemical kinetics, reaction rate, rate constant, reaction order, chemistry calculator, chemistry help',
 }
 

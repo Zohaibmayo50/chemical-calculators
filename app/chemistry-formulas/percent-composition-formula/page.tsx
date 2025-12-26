@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Percent Composition Formula | ChemCalc',
   description: 'Calculate percent composition of elements in a compound by mass with examples and common pitfalls.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/percent-composition-formula',
+  },
   keywords: 'percent composition formula, elemental percent, stoichiometry, composition by mass',
 }
 

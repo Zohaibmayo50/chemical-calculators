@@ -8,6 +8,9 @@ import ComparisonTable from '@/components/ComparisonTable';
 export const metadata: Metadata = {
   title: 'Molarity vs Molality: Key Differences & When to Use Each | Chemistry Guide',
   description: 'Understand the crucial differences between molarity (M) and molality (m). Learn formulas, temperature dependence, units, and when to use each concentration measure.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/molarity-vs-molality',
+  },
   keywords: ['molarity vs molality', 'molarity molality difference', 'concentration units', 'molar concentration', 'molal concentration', 'temperature dependent concentration']
 };
 

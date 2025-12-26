@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Boiling Point Elevation Calculator & Formula | ChemCalc',
   description: 'Calculate boiling point elevation using ΔTb = i Kb m with examples, assumptions, and common pitfalls.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/boiling-point-elevation',
+  },
   keywords: 'boiling point elevation, delta Tb, colligative properties, Kb, molality, chemistry calculator',
 }
 

@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Concentration Converter Formula | Molarity, Molality, PPM, PPB',
   description: 'Convert between concentration units: molarity, molality, mass percent, ppm, ppb, mole fraction, and normality.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/concentration-converter-formula',
+  },
   keywords: ['concentration converter', 'molarity', 'molality', 'ppm', 'ppb', 'mass percent', 'mole fraction', 'normality']
 };
 

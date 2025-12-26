@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Cell Potential Formula | ChemCalc',
   description: 'Calculate standard and non-standard cell potentials with examples and common pitfalls.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/cell-potential-formula',
+  },
   keywords: 'cell potential formula, electrochemistry, Ecell, standard reduction potential',
 }
 

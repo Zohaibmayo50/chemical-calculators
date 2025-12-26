@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Calorimetry Formula | ChemCalc',
   description: 'Calculate heat transfer: q = mcΔT for temperature changes.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/calorimetry-formula',
+  },
   keywords: 'calorimetry, heat capacity, specific heat, temperature, thermal energy',
 }
 

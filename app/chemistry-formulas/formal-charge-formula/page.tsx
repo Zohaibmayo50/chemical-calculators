@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Formal Charge Formula | ChemCalc',
   description: 'Calculate formal charge: FC = V - N - B/2 for Lewis structures.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/formal-charge-formula',
+  },
   keywords: 'formal charge, Lewis structure, valence electrons, bonding',
 }
 

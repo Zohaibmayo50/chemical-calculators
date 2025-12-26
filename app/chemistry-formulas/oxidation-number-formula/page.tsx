@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Oxidation Number Formula | Assign Oxidation States & Rules',
   description: 'Determine oxidation numbers using systematic rules. Identify oxidation and reduction in redox reactions.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/oxidation-number-formula',
+  },
   keywords: ['oxidation number', 'oxidation state', 'redox', 'oxidation rules', 'reduction', 'electron transfer']
 };
 

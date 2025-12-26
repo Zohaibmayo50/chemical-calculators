@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Nernst Equation | E = E° - (RT/nF)lnQ | Cell Potential',
   description: 'Master the Nernst equation for calculating electrochemical cell potentials under non-standard conditions. Includes examples and calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/nernst-equation',
+  },
   keywords: 'Nernst equation, cell potential, electrochemistry, redox, galvanic cell, half-cell potential',
 };
 

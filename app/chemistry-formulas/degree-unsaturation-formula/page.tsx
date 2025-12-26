@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Degree of Unsaturation Formula | DBE & IHD Calculator Guide',
   description: 'Calculate degree of unsaturation (DBE, IHD) from molecular formula. Determine rings and double bonds in organic molecules.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/degree-unsaturation-formula',
+  },
   keywords: ['degree of unsaturation', 'DBE', 'IHD', 'double bond equivalent', 'index of hydrogen deficiency', 'rings plus double bonds']
 };
 

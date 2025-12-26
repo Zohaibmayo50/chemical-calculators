@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Mass Percent Formula | % = (mass part/mass total) × 100',
   description: 'Master the mass percent formula for calculating composition percentages in chemistry. Includes examples and concentration calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/mass-percent-formula',
+  },
   keywords: 'mass percent, percent composition, weight percent, mass fraction, concentration, solution composition',
 };
 

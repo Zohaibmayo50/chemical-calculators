@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Oxidation Number Rules | ChemCalc',
   description: 'Determine oxidation states using systematic rules for redox chemistry.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/oxidation-number-rules',
+  },
   keywords: 'oxidation number, oxidation state, redox, reduction, rules',
 }
 

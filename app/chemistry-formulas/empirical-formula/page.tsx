@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Empirical Formula | Find Simplest Ratio from Percent Composition',
   description: 'Master empirical formula calculations from percent composition. Step-by-step method to find the simplest whole number ratio of elements.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/empirical-formula',
+  },
   keywords: 'empirical formula, percent composition, simplest ratio, molecular formula, combustion analysis',
 };
 

@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Buffer Solution Formula | pH Calculation & Buffer Capacity',
   description: 'Calculate buffer pH using Henderson-Hasselbalch equation. Understand buffer capacity, composition, and resistance to pH change.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/buffer-solution-formula',
+  },
   keywords: ['buffer solution', 'buffer capacity', 'henderson hasselbalch', 'weak acid buffer', 'conjugate base', 'pH buffer', 'buffer system']
 };
 

@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Quantum Numbers Formula | n, l, ml, ms Electron Configuration',
   description: 'Learn quantum numbers: principal (n), angular momentum (l), magnetic (ml), and spin (ms). Understand electron configuration and orbital designation.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/quantum-numbers',
+  },
   keywords: ['quantum numbers', 'principal quantum number', 'angular momentum', 'magnetic quantum number', 'spin quantum number', 'electron orbitals', 'quantum mechanics']
 };
 

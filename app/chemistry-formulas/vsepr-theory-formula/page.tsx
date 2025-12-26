@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'VSEPR Theory Formula | Molecular Geometry Prediction',
   description: 'VSEPR theory for predicting molecular geometry, bond angles, and electron domain arrangements.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/vsepr-theory-formula',
+  },
   keywords: ['VSEPR theory', 'molecular geometry', 'electron geometry', 'bond angles', 'Lewis structures']
 };
 

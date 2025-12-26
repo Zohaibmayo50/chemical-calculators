@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Bohr Model Formula | ChemCalc',
   description: 'Energy levels and radius of hydrogen-like atoms: E = -13.6 Z²/n².',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/bohr-model',
+  },
   keywords: 'Bohr model, hydrogen atom, energy levels, atomic radius, quantum',
 }
 

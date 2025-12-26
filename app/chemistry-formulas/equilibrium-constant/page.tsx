@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Equilibrium Constant (K) | ChemCalc',
   description: 'Learn how to write equilibrium constant expressions and calculate K from concentrations or partial pressures.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/equilibrium-constant',
+  },
   keywords: 'equilibrium constant, Kc, Kp, reaction quotient, chemical equilibrium',
 }
 

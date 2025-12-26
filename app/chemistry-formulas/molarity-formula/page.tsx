@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Molarity Formula | M = n/V | Chemistry Equation Explained',
   description: 'Learn the molarity formula (M = n/V) with clear variable definitions, step-by-step examples, and rearranged forms. Master molar concentration calculations.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molarity-formula',
+  },
   keywords: 'molarity formula, molar concentration, M = n/V, chemistry formula, solution concentration, moles per liter',
 };
 

@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Bond Enthalpy Formula | ChemCalc',
   description: 'Calculate reaction enthalpy from bond energies: ΔH = Σ(bonds broken) - Σ(bonds formed).',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/bond-enthalpy-formula',
+  },
   keywords: 'bond enthalpy, bond energy, reaction enthalpy, bond dissociation',
 }
 

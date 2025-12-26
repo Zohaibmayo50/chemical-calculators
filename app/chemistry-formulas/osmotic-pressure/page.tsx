@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Osmotic Pressure Calculator & Formula | ChemCalc',
   description: 'Calculate osmotic pressure using Π = i M R T with examples, assumptions, and common pitfalls.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/osmotic-pressure',
+  },
   keywords: 'osmotic pressure, pi = iMRT, van hoff factor, solutions, semipermeable membrane, chemistry calculator',
 }
 

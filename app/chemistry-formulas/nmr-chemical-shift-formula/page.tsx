@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'NMR Chemical Shift Formula | ¹H & ¹³C NMR Reference Guide',
   description: 'Understand NMR chemical shifts for ¹H and ¹³C nuclei. Predict chemical shifts based on electron-withdrawing groups and molecular structure.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/nmr-chemical-shift-formula',
+  },
   keywords: ['NMR', 'chemical shift', 'proton NMR', 'carbon NMR', 'spectroscopy', 'ppm', 'shielding', 'deshielding']
 };
 

@@ -8,6 +8,9 @@ import ComparisonTable from '@/components/ComparisonTable';
 export const metadata: Metadata = {
   title: 'Mass Percent vs Mole Fraction: Key Differences & Conversions | Chemistry Guide',
   description: 'Compare mass percent and mole fraction concentration units. Learn definitions, formulas, conversions, and when to use each in chemistry calculations.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/mass-percent-vs-mole-fraction',
+  },
   keywords: ['mass percent vs mole fraction', 'weight percent', 'mole fraction', 'concentration units', 'composition', 'solution chemistry']
 };
 

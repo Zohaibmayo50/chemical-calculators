@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Combustion Analysis Formula | Empirical Formula from CxHyOz',
   description: 'Determine empirical formulas from combustion analysis data. Calculate C, H, O composition from CO₂ and H₂O masses.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/combustion-formula',
+  },
   keywords: ['combustion analysis', 'empirical formula', 'hydrocarbon combustion', 'elemental analysis', 'CO2 H2O', 'CHO composition']
 };
 

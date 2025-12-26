@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Entropy Formula | ChemCalc',
   description: 'Calculate reaction entropy changes using standard molar entropies with clear steps and examples.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/entropy-formula',
+  },
   keywords: 'entropy formula, delta S, reaction entropy, standard molar entropy, thermodynamics',
 }
 

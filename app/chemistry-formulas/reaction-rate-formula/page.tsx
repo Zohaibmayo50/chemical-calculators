@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Reaction Rate Formula | Rate Law & Kinetics',
   description: 'Calculate reaction rates using rate laws. Understand rate constants, reaction orders, and concentration-time relationships.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/reaction-rate-formula',
+  },
   keywords: ['reaction rate', 'rate law', 'rate constant', 'reaction order', 'chemical kinetics', 'concentration', 'rate equation']
 };
 

@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Avogadro\'s Law | ChemCalc',
   description: 'Volume-mole relationship for gases: V/n = constant at constant T and P.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/avogadros-law',
+  },
   keywords: 'Avogadro law, gas volume, moles, ideal gas, gas laws',
 }
 

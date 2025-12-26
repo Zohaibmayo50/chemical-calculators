@@ -8,6 +8,9 @@ import ComparisonTable from '@/components/ComparisonTable';
 export const metadata: Metadata = {
   title: 'Mole vs Molar Mass: Understanding the Key Difference | Chemistry Guide',
   description: 'Clarify the difference between mole (amount of substance) and molar mass (mass per mole). Learn definitions, units, and applications with examples.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/mole-vs-molar-mass',
+  },
   keywords: ['mole vs molar mass', 'mole definition', 'molar mass definition', 'molecular weight', 'avogadro number', 'chemistry units']
 };
 

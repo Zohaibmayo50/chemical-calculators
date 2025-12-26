@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Lattice Energy Formula | ChemCalc',
   description: 'Calculate ionic solid stability using Born-Haber cycle and lattice energy.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/lattice-energy',
+  },
   keywords: 'lattice energy, Born-Haber cycle, ionic compounds, crystal energy',
 }
 

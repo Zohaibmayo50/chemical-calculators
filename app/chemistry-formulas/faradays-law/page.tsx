@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: "Faraday's Law of Electrolysis | ChemCalc",
   description: 'Compute mass deposited using m = (Q M) / (n F).',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/faradays-law',
+  },
   keywords: 'Faraday law, electrolysis, mass deposited, charge, molar mass, Faraday constant',
 }
 

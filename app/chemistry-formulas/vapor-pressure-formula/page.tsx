@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Vapor Pressure Formula | Clausius-Clapeyron & Raoult\'s Law',
   description: 'Calculate vapor pressure using Clausius-Clapeyron equation. Understand temperature dependence, phase equilibrium, and solution vapor pressure.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/vapor-pressure-formula',
+  },
   keywords: ['vapor pressure', 'clausius clapeyron', 'raoults law', 'evaporation', 'boiling point', 'phase equilibrium', 'enthalpy vaporization']
 };
 

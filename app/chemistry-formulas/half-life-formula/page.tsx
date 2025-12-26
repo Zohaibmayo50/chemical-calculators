@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Half-Life Formula | N(t) = N₀(½)^(t/t₁/₂) | Radioactive Decay',
   description: 'Master the half-life formula for radioactive decay and first-order kinetics. Includes examples and decay calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/half-life-formula',
+  },
   keywords: 'half-life, radioactive decay, first order kinetics, exponential decay, nuclear chemistry',
 };
 

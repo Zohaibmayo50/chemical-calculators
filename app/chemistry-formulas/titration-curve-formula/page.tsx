@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Titration Curve Formula | pH vs Volume Graph Analysis',
   description: 'Understand pH changes during titration. Identify equivalence point, buffer regions, and calculate pH at any point on the titration curve.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/titration-curve-formula',
+  },
   keywords: ['titration curve', 'pH curve', 'equivalence point', 'half-equivalence point', 'buffer region', 'endpoint', 'strong acid', 'weak acid']
 };
 

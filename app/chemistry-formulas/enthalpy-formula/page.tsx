@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Enthalpy Formula | ChemCalc',
   description: 'Calculate reaction enthalpy using heats of formation with step-by-step guidance and examples.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/enthalpy-formula',
+  },
   keywords: 'enthalpy formula, reaction enthalpy, heats of formation, delta H, thermochemistry',
 }
 

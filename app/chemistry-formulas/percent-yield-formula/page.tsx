@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Percent Yield Formula | % Yield = (Actual/Theoretical) × 100',
   description: 'Calculate reaction efficiency with the percent yield formula. Includes examples, definitions, and links to stoichiometry calculators.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/percent-yield-formula',
+  },
   keywords: 'percent yield formula, reaction efficiency, actual yield, theoretical yield, stoichiometry',
 };
 

@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Gibbs Free Energy | ΔG = ΔH - TΔS | Reaction Spontaneity',
   description: 'Master Gibbs free energy (ΔG = ΔH - TΔS) to predict reaction spontaneity. Includes examples and thermodynamics calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/gibbs-free-energy',
+  },
   keywords: 'Gibbs free energy, delta G, spontaneity, enthalpy, entropy, thermodynamics',
 };
 

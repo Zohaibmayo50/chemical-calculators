@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: "Michaelis-Menten Equation | ChemCalc",
   description: "Understand v = (Vmax [S])/(Km + [S]) with variable definitions, examples, and common mistakes.",
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/michaelis-menten-equation',
+  },
   keywords: "michaelis menten equation, Vmax, Km, enzyme kinetics",
 }
 

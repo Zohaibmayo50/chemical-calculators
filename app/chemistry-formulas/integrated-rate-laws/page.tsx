@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Integrated Rate Laws | ChemCalc',
   description: 'Zero, first, and second-order integrated rate law equations with examples and common pitfalls.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/integrated-rate-laws',
+  },
   keywords: 'integrated rate law, zero order, first order, second order, kinetics',
 }
 

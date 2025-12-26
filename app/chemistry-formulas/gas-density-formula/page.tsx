@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Gas Density Formula | ChemCalc',
   description: 'Compute density using ρ = (P M) / (R T).',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/gas-density-formula',
+  },
   keywords: 'gas density, ideal gas, molar mass, pressure, temperature',
 }
 

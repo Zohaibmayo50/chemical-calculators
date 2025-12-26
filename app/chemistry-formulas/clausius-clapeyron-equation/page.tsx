@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Clausius-Clapeyron Equation Calculator & Formula | ChemCalc',
   description: 'Learn the Clausius-Clapeyron equation with step-by-step vapor pressure calculations and examples.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/clausius-clapeyron-equation',
+  },
   keywords: 'clausius clapeyron equation, vapor pressure, enthalpy of vaporization, phase transitions, chemistry calculator, thermodynamics',
 }
 

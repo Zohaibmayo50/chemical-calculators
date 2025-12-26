@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Henderson-Hasselbalch Equation | pH = pKa + log([A⁻]/[HA])',
   description: 'Master the Henderson-Hasselbalch equation for buffer pH calculations. Includes derivation, examples, and calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/henderson-hasselbalch-equation',
+  },
   keywords: 'Henderson-Hasselbalch equation, buffer pH, pKa, acid base equilibrium, buffer chemistry',
 };
 

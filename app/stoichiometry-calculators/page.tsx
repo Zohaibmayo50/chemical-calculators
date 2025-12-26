@@ -12,6 +12,9 @@ import RelatedClusterLink from '@/components/RelatedClusterLink';
 export const metadata: Metadata = {
   title: 'Stoichiometry Calculators | Mole Ratios & Chemical Equations',
   description: 'Accurate stoichiometry calculators for chemical equations, mole ratios, limiting reagents, and percent yield. Calculate reaction quantities based on balanced equations.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/stoichiometry-calculators',
+  },
 };
 
 export default function StoichiometryCalculatorsPage() {

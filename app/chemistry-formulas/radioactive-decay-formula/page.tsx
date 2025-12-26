@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Radioactive Decay Formula | ChemCalc',
   description: 'Use N = N0 e^(−λt) and the relationship with half-life to compute remaining quantity.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/radioactive-decay-formula',
+  },
   keywords: 'radioactive decay formula, half-life, decay constant, nuclear decay',
 }
 

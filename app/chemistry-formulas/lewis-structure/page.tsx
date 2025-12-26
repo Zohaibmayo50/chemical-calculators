@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Lewis Structure Formula | Dot Structures & Electron Distribution',
   description: 'Learn how to draw Lewis structures using valence electrons, octet rule, and formal charge. Master electron dot structures for molecules and ions.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/lewis-structure',
+  },
   keywords: ['lewis structure', 'electron dot structure', 'valence electrons', 'octet rule', 'formal charge', 'bonding pairs', 'lone pairs', 'lewis formula']
 };
 

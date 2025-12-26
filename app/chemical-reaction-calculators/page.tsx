@@ -6,6 +6,9 @@ import ClusterPageTemplate from '@/components/ClusterPageTemplate';
 export const metadata: Metadata = {
   title: 'Chemical Reaction Calculators | Equilibrium, Kinetics & Rates',
   description: 'Calculate reaction rates, equilibrium constants, activation energy, and reaction quotients. Tools for chemical kinetics and equilibrium analysis.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemical-reaction-calculators',
+  },
 };
 
 export default function ChemicalReactionCalculatorsPage() {

@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Solubility Formula | Ksp & Solution Equilibrium',
   description: 'Calculate solubility using solubility product constant (Ksp). Understand dissolution equilibrium and molar solubility.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/solubility-formula',
+  },
   keywords: ['solubility', 'Ksp', 'solubility product', 'molar solubility', 'dissolution', 'precipitation', 'common ion effect']
 };
 

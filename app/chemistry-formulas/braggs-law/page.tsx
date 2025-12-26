@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: "Bragg's Law | ChemCalc",
   description: 'X-ray diffraction: nλ = 2d sinθ for crystal structure determination.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/braggs-law',
+  },
   keywords: 'Bragg law, X-ray diffraction, crystal structure, lattice spacing',
 }
 

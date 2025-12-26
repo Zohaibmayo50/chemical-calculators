@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Ionic Strength Formula | ChemCalc',
   description: 'Calculate ionic strength: I = 1/2 Σ(ci zi²) for electrolyte solutions.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/ionic-strength-formula',
+  },
   keywords: 'ionic strength, electrolyte, activity coefficient, solution chemistry, charge',
 }
 

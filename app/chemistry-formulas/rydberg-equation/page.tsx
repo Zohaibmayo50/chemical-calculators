@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Rydberg Equation | ChemCalc',
   description: 'Calculate wavelength of atomic spectral lines using 1/λ = R(1/n₁² - 1/n₂²).',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/rydberg-equation',
+  },
   keywords: 'Rydberg equation, hydrogen spectrum, atomic emission, spectral lines',
 }
 

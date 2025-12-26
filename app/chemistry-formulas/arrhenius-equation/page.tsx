@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Arrhenius Equation | k = Ae^(-Ea/RT) | Reaction Rate & Temperature',
   description: 'Master the Arrhenius equation relating reaction rate constant to temperature and activation energy. Includes examples and calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/arrhenius-equation',
+  },
   keywords: 'Arrhenius equation, activation energy, rate constant, reaction kinetics, temperature dependence',
 };
 

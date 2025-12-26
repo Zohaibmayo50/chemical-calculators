@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Redox Balancing Formula | Half-Reaction Method Guide',
   description: 'Balance redox equations using the half-reaction method. Complete guide to balancing complex redox reactions in acidic and basic solutions.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/redox-balancing-formula',
+  },
   keywords: ['redox balancing', 'half-reaction method', 'oxidation-reduction', 'electron transfer', 'balancing equations']
 };
 

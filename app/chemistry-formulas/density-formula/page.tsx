@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Density Formula | d = m/V | Mass Volume Relationship',
   description: 'Master the density formula (d = m/V) for calculating mass, volume, and density. Includes examples and density calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/density-formula',
+  },
   keywords: 'density, density formula, mass volume, specific gravity, buoyancy',
 };
 

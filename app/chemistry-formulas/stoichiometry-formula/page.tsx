@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Stoichiometry Formula | Mole Ratios & Mass Calculations',
   description: 'Master stoichiometric calculations using balanced equations. Calculate moles, mass, and limiting reagents from chemical reactions.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/stoichiometry-formula',
+  },
   keywords: ['stoichiometry', 'mole ratio', 'balanced equation', 'chemical calculations', 'mass to mole', 'limiting reagent', 'theoretical yield']
 };
 

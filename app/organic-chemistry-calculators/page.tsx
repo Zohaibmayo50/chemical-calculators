@@ -6,6 +6,9 @@ import ClusterPageTemplate from '@/components/ClusterPageTemplate';
 export const metadata: Metadata = {
   title: 'Organic Chemistry Calculators | Functional Groups, Reactions & Mechanisms',
   description: 'Calculate organic reaction parameters, functional group properties, stereochemistry, and molecular structure characteristics.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/organic-chemistry-calculators',
+  },
 };
 
 export default function OrganicChemistryCalculatorsPage() {

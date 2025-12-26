@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: '/atomic-structure-calculators/ph-calculator'
+    canonical: 'https://chemicalcalculators.com/atomic-structure-calculators/ph-calculator'
   }
 };
 

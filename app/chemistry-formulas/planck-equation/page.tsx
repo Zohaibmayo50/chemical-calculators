@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Planck Equation | ChemCalc',
   description: 'Relate photon energy and frequency using E = hν.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/planck-equation',
+  },
   keywords: 'Planck equation, photon energy, frequency, quantum mechanics, wavelength',
 }
 

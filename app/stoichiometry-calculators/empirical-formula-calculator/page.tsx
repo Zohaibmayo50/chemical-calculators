@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: '/stoichiometry-calculators/empirical-formula-calculator'
+    canonical: 'https://chemicalcalculators.com/stoichiometry-calculators/empirical-formula-calculator'
   }
 };
 

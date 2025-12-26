@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Chemistry Formulas Library | Essential Equations & Definitions',
   description: 'Complete library of chemistry formulas with clear explanations, variable definitions, and step-by-step examples. From molarity to thermodynamics.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas',
+  },
   keywords: 'chemistry formulas, chemical equations, molarity formula, ideal gas law, stoichiometry formulas, thermodynamics equations',
 };
 

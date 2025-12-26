@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Enthalpy of Reaction Formula | Calculate ΔH°rxn from ΔH°f',
   description: 'Calculate reaction enthalpy using standard enthalpies of formation. ΔH°rxn = Σ(ΔH°f products) - Σ(ΔH°f reactants).',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/enthalpy-reaction-formula',
+  },
   keywords: ['enthalpy of reaction', 'heat of reaction', 'standard enthalpy', 'enthalpy of formation', 'thermochemistry', 'ΔHrxn', 'ΔHf']
 };
 

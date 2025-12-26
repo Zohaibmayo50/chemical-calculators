@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Nuclear Binding Energy | ChemCalc',
   description: 'Calculate binding energy using E = Δm c² from mass defect.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/nuclear-binding-energy',
+  },
   keywords: 'nuclear binding energy, mass defect, Einstein equation, nuclear stability',
 }
 

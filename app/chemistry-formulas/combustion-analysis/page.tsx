@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Combustion Analysis Formula | ChemCalc',
   description: 'Determine empirical formula from combustion product masses.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/combustion-analysis',
+  },
   keywords: 'combustion analysis, empirical formula, elemental analysis, CHN',
 }
 

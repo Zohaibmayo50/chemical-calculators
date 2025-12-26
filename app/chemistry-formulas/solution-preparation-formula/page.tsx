@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Solution Preparation Formula | Molarity & Dilution Calculations',
   description: 'Prepare solutions with precise concentrations. Calculate mass, volume, and dilutions for accurate solution preparation.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/solution-preparation-formula',
+  },
   keywords: ['solution preparation', 'molarity', 'dilution', 'M1V1=M2V2', 'concentration', 'mass per volume']
 };
 

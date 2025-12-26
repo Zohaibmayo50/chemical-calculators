@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Combined Gas Law | P₁V₁/T₁ = P₂V₂/T₂ | Gas Calculations',
   description: 'Master the combined gas law relating pressure, volume, and temperature. Includes examples and gas law calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/combined-gas-law',
+  },
   keywords: 'combined gas law, gas laws, pressure volume temperature, PVT, ideal gas',
 };
 

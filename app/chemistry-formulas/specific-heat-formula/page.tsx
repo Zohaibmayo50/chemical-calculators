@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Specific Heat Formula | q = mcΔT | Heat Capacity Calculations',
   description: 'Master the specific heat formula (q = mcΔT) for calculating heat transfer. Includes examples and calorimetry calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/specific-heat-formula',
+  },
   keywords: 'specific heat, heat capacity, calorimetry, q=mcat, temperature change, enthalpy',
 };
 

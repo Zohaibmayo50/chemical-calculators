@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Molecular Weight Formula | ChemCalc',
   description: 'Compute molecular weight (molar mass) from atomic masses with step-by-step examples.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molecular-weight-formula',
+  },
   keywords: 'molecular weight formula, molar mass, atomic masses, chemistry calculator',
 }
 

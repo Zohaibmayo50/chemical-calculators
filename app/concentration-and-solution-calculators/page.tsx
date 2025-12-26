@@ -6,6 +6,9 @@ import ClusterPageTemplate from '@/components/ClusterPageTemplate';
 export const metadata: Metadata = {
   title: 'Concentration & Solution Calculators | Molarity, Dilution & Normality',
   description: 'Precise concentration and solution calculators for molarity, molality, dilution, normality, and percent composition. Calculate solution properties accurately.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/concentration-and-solution-calculators',
+  },
 };
 
 export default function ConcentrationSolutionCalculatorsPage() {

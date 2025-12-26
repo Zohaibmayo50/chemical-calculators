@@ -6,6 +6,9 @@ import ClusterPageTemplate from '@/components/ClusterPageTemplate';
 export const metadata: Metadata = {
   title: 'Atomic Structure Calculators | Quantum Numbers, Electron Configuration & Energy Levels',
   description: 'Calculate quantum numbers, electron configurations, atomic orbitals, and energy levels for atoms and ions.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/atomic-structure-calculators',
+  },
 };
 
 export default function AtomicStructureCalculatorsPage() {

@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Dilution Formula | M₁V₁ = M₂V₂ | Calculate Solution Dilutions',
   description: 'Learn the dilution formula (M₁V₁ = M₂V₂) for preparing dilute solutions. Includes step-by-step examples and calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/dilution-formula',
+  },
   keywords: 'dilution formula, M1V1 = M2V2, dilution equation, solution preparation, chemistry dilution',
 };
 

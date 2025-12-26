@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: '/concentration-and-solution-calculators/dilution-calculator'
+    canonical: 'https://chemicalcalculators.com/concentration-and-solution-calculators/dilution-calculator'
   }
 };
 

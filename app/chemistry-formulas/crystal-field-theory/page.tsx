@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Crystal Field Theory | ChemCalc',
   description: 'Understand d-orbital splitting and stability of coordination complexes.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/crystal-field-theory',
+  },
   keywords: 'crystal field theory, d orbital splitting, coordination chemistry, ligand field',
 }
 

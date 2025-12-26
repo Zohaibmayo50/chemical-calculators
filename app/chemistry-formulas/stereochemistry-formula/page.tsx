@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Stereochemistry Formula | R/S Configuration & Chirality Guide',
   description: 'Assign R and S configurations using Cahn-Ingold-Prelog priority rules. Master stereochemistry, chirality, and optical activity.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/stereochemistry-formula',
+  },
   keywords: ['stereochemistry', 'R S configuration', 'chirality', 'enantiomers', 'diastereomers', 'Cahn Ingold Prelog', 'optical activity']
 };
 

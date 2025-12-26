@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Theoretical Yield Formula | ChemCalc',
   description: 'Calculate maximum product from stoichiometry and limiting reactant.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/theoretical-yield-formula',
+  },
   keywords: 'theoretical yield, stoichiometry, limiting reactant, maximum product',
 }
 

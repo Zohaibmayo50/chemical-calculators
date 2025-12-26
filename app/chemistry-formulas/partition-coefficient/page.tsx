@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Partition Coefficient (Kp) | ChemCalc',
   description: 'Kp = [solute in organic] / [solute in aqueous] for extraction equilibrium.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/partition-coefficient',
+  },
   keywords: 'partition coefficient, distribution, extraction, log P',
 }
 

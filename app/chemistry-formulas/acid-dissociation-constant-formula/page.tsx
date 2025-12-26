@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Acid Dissociation Constant Formula | Ka, pKa & pH Calculations',
   description: 'Acid dissociation constant (Ka), pKa, pH calculations for weak acids and bases, and acid-base equilibria.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/acid-dissociation-constant-formula',
+  },
   keywords: ['acid dissociation constant', 'Ka', 'pKa', 'weak acid', 'pH calculation', 'acid equilibrium']
 };
 

@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Reaction Order Formula | Determine Order from Experimental Data',
   description: 'Determine reaction order using method of initial rates, integrated rate laws, and half-life data. Calculate overall and individual orders.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/reaction-order-formula',
+  },
   keywords: ['reaction order', 'method of initial rates', 'zero order', 'first order', 'second order', 'rate law', 'kinetics']
 };
 

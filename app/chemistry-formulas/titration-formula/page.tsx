@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Titration Formula | Acid-Base Neutralization & Equivalence Point',
   description: 'Master titration calculations using M₁V₁ = M₂V₂ and stoichiometry. Calculate unknown concentrations, equivalence points, and titrant volumes.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/titration-formula',
+  },
   keywords: ['titration formula', 'acid base titration', 'equivalence point', 'M1V1=M2V2', 'neutralization', 'titrant', 'analyte', 'burette']
 };
 

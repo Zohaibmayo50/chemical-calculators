@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Colligative Properties Formula | Boiling Point, Freezing Point, Osmotic Pressure',
   description: 'Complete guide to colligative properties: boiling point elevation, freezing point depression, vapor pressure lowering, and osmotic pressure.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/colligative-properties-formula',
+  },
   keywords: ['colligative properties', 'boiling point elevation', 'freezing point depression', 'osmotic pressure', 'vapor pressure lowering', 'Raoult law']
 };
 

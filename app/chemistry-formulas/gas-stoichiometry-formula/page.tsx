@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Gas Stoichiometry Formula | Molar Volume & Gas Calculations',
   description: 'Calculate stoichiometry involving gases using molar volume at STP and ideal gas law. Convert between mass, moles, and volume.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/gas-stoichiometry-formula',
+  },
   keywords: ['gas stoichiometry', 'molar volume', 'STP', 'ideal gas law', 'gas reactions', '22.4 L/mol', 'PV=nRT']
 };
 

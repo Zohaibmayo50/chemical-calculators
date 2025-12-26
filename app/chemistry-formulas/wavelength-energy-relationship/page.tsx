@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Wavelength-Energy Relationship | E = hc/λ Photon Energy',
   description: 'Calculate photon energy from wavelength using E = hc/λ. Understand the inverse relationship between wavelength and energy in electromagnetic radiation.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/wavelength-energy-relationship',
+  },
   keywords: ['wavelength energy relationship', 'photon energy', 'planck constant', 'speed of light', 'electromagnetic spectrum', 'E=hc/lambda']
 };
 

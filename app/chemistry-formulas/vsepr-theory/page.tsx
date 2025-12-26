@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'VSEPR Theory | ChemCalc',
   description: 'Predict molecular geometry using Valence Shell Electron Pair Repulsion theory.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/vsepr-theory',
+  },
   keywords: 'VSEPR theory, molecular geometry, electron pairs, bond angles, Lewis structure',
 }
 

@@ -8,6 +8,9 @@ import ComparisonTable from '@/components/ComparisonTable';
 export const metadata: Metadata = {
   title: 'Theoretical Yield vs Percent Yield: Key Differences & Calculations | Chemistry Guide',
   description: 'Understand the difference between theoretical yield (calculated maximum) and percent yield (actual efficiency). Learn formulas, calculations, and practical applications.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/theoretical-yield-vs-percent-yield',
+  },
   keywords: ['theoretical yield vs percent yield', 'actual yield', 'reaction efficiency', 'stoichiometry', 'yield calculations', 'chemistry calculations']
 };
 

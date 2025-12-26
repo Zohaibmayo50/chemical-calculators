@@ -3,9 +3,12 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: "Raoult's Law Calculator & Formula | ChemCalc",
+  title: "Raoult's Law | Vapor Pressure Formula & Explanation",
   description: "Learn Raoult's law for vapor pressure of solutions with worked examples, assumptions, and common pitfalls.",
-  keywords: "raoults law, vapor pressure lowering, ideal solutions, mole fraction, chemistry calculator",
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/raoults-law',
+  },
+  keywords: "raoults law, vapor pressure lowering, ideal solutions, mole fraction, chemistry formula",
 }
 
 export default function RaoultsLaw() {

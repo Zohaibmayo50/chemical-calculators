@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Molecular Orbital Theory | MO Diagrams & Bond Order',
   description: 'Understand molecular orbital theory, MO diagrams, bond order calculation, and electron configuration in molecules using LCAO method.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molecular-orbital-theory',
+  },
   keywords: ['molecular orbital theory', 'MO diagram', 'bond order', 'LCAO', 'bonding orbital', 'antibonding orbital', 'sigma pi orbitals']
 };
 

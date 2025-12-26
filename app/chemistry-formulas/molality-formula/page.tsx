@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Molality Formula | m = n/kg_solvent | Concentration Calculation',
   description: 'Master the molality formula (m = n/kg_solvent) for concentration calculations. Includes examples and concentration calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molality-formula',
+  },
   keywords: 'molality, molality formula, concentration, colligative properties, moles per kilogram',
 };
 

@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Balancing Chemical Equations | Systematic Methods & Examples',
   description: 'Learn to balance chemical equations using inspection, algebraic, and redox methods. Master conservation of mass and atom counting.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/balancing-equations-formula',
+  },
   keywords: ['balancing equations', 'chemical equations', 'conservation of mass', 'stoichiometric coefficients', 'atom balance', 'redox balancing']
 };
 

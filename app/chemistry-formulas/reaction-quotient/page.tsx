@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Reaction Quotient (Q) | ChemCalc',
   description: 'Write the reaction quotient and compare Q to K to predict reaction direction.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/reaction-quotient',
+  },
   keywords: 'reaction quotient, Q vs K, chemical equilibrium direction',
 }
 

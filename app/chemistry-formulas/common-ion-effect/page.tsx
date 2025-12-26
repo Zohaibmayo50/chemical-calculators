@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Common Ion Effect | ChemCalc',
   description: 'Understand how adding a common ion suppresses solubility and shifts equilibrium.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/common-ion-effect',
+  },
   keywords: 'common ion effect, solubility, equilibrium, Le Chatelier, precipitation',
 }
 

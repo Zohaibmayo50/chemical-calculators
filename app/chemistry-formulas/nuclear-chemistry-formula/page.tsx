@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Nuclear Chemistry Formula | Radioactivity, Decay & Binding Energy',
   description: 'Nuclear reactions, radioactive decay, half-life, mass defect, binding energy, and nuclear equations.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/nuclear-chemistry-formula',
+  },
   keywords: ['nuclear chemistry', 'radioactivity', 'half-life', 'binding energy', 'mass defect', 'nuclear decay']
 };
 

@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Limiting Reagent Formula | Identify Reactant That Runs Out First',
   description: 'Determine limiting reagents in chemical reactions. Calculate theoretical yield based on the reactant that limits product formation.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/limiting-reagent-formula',
+  },
   keywords: ['limiting reagent', 'limiting reactant', 'excess reagent', 'theoretical yield', 'stoichiometry', 'mole ratio']
 };
 

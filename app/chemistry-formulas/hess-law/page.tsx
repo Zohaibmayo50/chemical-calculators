@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: "Hess's Law | ChemCalc",
   description: "Calculate reaction enthalpy by summing enthalpy changes of intermediate steps.",
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/hess-law',
+  },
   keywords: "Hess law, enthalpy, thermochemistry, reaction pathways",
 }
 

@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Collision Theory Formula | ChemCalc',
   description: 'Understand reaction rate dependence on collisions, energy, and orientation.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/collision-theory',
+  },
   keywords: 'collision theory, reaction rate, activation energy, kinetic molecular theory',
 }
 

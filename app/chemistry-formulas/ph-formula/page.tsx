@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'pH Formula | pH = -log[H⁺] | Calculate Solution Acidity',
   description: 'Learn the pH formula (pH = -log[H⁺]) with clear explanations, examples, and pOH calculations. Master acid-base chemistry.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/ph-formula',
+  },
   keywords: 'pH formula, acidity, pH calculation, hydrogen ion concentration, acid base chemistry',
 };
 

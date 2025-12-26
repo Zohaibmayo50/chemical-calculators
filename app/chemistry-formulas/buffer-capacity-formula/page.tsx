@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Buffer Capacity Formula | ChemCalc',
   description: 'Calculate buffer capacity (beta) with step-by-step guidance and practical examples.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/buffer-capacity-formula',
+  },
   keywords: 'buffer capacity, beta formula, buffer strength, acid base chemistry',
 }
 

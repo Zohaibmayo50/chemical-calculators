@@ -6,6 +6,9 @@ import ClusterPageTemplate from '@/components/ClusterPageTemplate';
 export const metadata: Metadata = {
   title: 'Physical Chemistry Calculators | Gases, Phase Transitions & Colligative Properties',
   description: 'Calculate gas laws, phase diagrams, colligative properties, and physical chemistry parameters for ideal and real systems.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/physical-chemistry-calculators',
+  },
 };
 
 export default function PhysicalChemistryCalculatorsPage() {

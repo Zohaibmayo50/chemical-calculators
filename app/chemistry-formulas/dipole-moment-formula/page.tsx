@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Dipole Moment Formula | ChemCalc',
   description: 'Calculate molecular dipole moment using μ = q × d.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/dipole-moment-formula',
+  },
   keywords: 'dipole moment, polarity, charge separation, debye',
 }
 

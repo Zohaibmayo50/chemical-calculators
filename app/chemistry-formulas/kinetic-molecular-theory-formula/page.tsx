@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Kinetic Molecular Theory Formula | KMT Postulates & Gas Laws',
   description: 'Understand kinetic molecular theory: postulates, RMS speed, average kinetic energy, and gas behavior at the molecular level.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/kinetic-molecular-theory-formula',
+  },
   keywords: ['kinetic molecular theory', 'KMT', 'RMS speed', 'average kinetic energy', 'gas postulates', 'molecular motion']
 };
 

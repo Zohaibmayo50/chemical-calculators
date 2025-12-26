@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Transition State Theory Formula | Activated Complex & Eyring Equation',
   description: 'Transition state theory, activated complex, Eyring equation, activation energy, and reaction coordinate diagrams.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/transition-state-theory-formula',
+  },
   keywords: ['transition state theory', 'activated complex', 'Eyring equation', 'activation energy', 'reaction coordinate']
 };
 

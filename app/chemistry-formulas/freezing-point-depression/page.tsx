@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Freezing Point Depression Calculator & Formula | ChemCalc',
   description: 'Calculate freezing point depression using ΔTf = i Kf m with examples, units, and common pitfalls.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/freezing-point-depression',
+  },
   keywords: 'freezing point depression, delta Tf, colligative properties, Kf, molality, chemistry calculator',
 }
 

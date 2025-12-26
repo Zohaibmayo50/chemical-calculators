@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Limiting Reactant Formula | Find Which Reactant Runs Out First',
   description: 'Master limiting reactant calculations to determine which reagent limits product formation. Includes step-by-step examples and stoichiometry calculator links.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/limiting-reactant',
+  },
   keywords: 'limiting reactant, limiting reagent, excess reactant, stoichiometry, mole ratio, theoretical yield',
 };
 

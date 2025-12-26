@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Degree of Unsaturation | ChemCalc',
   description: 'Calculate rings + double bonds using molecular formula.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/degree-of-unsaturation',
+  },
   keywords: 'degree of unsaturation, index of hydrogen deficiency, rings, double bonds',
 }
 

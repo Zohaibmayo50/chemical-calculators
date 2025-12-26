@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Le Chatelier\'s Principle | ChemCalc',
   description: 'Predict how equilibrium shifts in response to stress (concentration, pressure, temperature).',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/le-chateliers-principle',
+  },
   keywords: 'Le Chatelier principle, equilibrium shift, stress, concentration, pressure, temperature',
 }
 

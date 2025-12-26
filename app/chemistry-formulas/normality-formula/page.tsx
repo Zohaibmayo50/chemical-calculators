@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Normality Formula | ChemCalc',
   description: 'Learn how to calculate normality (equivalents per liter) with worked examples and common pitfalls.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/normality-formula',
+  },
   keywords: 'normality formula, equivalents per liter, chemistry concentration, normal solution',
 }
 

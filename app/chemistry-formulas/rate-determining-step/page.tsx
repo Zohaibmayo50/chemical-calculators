@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Rate Determining Step | ChemCalc',
   description: 'Understand how the slowest step controls overall reaction rate in multi-step mechanisms.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/rate-determining-step',
+  },
   keywords: 'rate determining step, reaction mechanism, slowest step, kinetics, elementary steps',
 }
 

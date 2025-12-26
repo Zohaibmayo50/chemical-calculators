@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Coordination Chemistry Formula | Complex Ions & Ligands',
   description: 'Coordination compounds, complex ions, ligands, coordination number, nomenclature, and crystal field theory.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/coordination-chemistry-formula',
+  },
   keywords: ['coordination chemistry', 'complex ions', 'ligands', 'coordination number', 'crystal field theory', 'Werner theory']
 };
 

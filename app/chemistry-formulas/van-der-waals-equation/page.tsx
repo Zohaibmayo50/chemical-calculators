@@ -5,6 +5,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Van der Waals Equation Calculator & Formula | ChemCalc',
   description: 'Learn the Van der Waals equation for real gases (P + a/V²)(V - b) = RT with step-by-step calculations and examples. Understand gas deviations.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/van-der-waals-equation',
+  },
   keywords: 'van der waals equation, real gas equation, gas deviation, chemistry calculator, non-ideal gas, gas law formula, chemistry help',
 }
 

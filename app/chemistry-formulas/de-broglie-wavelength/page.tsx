@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'De Broglie Wavelength Formula | ChemCalc',
   description: 'Calculate wavelength of matter waves using λ = h / p.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/de-broglie-wavelength',
+  },
   keywords: 'de Broglie wavelength, matter waves, momentum, quantum mechanics',
 }
 

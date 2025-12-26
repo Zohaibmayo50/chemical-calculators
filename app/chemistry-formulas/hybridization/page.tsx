@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Hybridization Rules | ChemCalc',
   description: 'Determine sp, sp², sp³, and other hybrid orbitals from molecular geometry.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/hybridization',
+  },
   keywords: 'hybridization, sp, sp2, sp3, VSEPR, molecular geometry',
 }
 

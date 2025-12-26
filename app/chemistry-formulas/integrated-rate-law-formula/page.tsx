@@ -7,6 +7,9 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Integrated Rate Law Formula | Zero, First & Second Order Kinetics',
   description: 'Integrated rate laws for zero, first, and second order reactions. Calculate concentration at any time from rate constants.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/integrated-rate-law-formula',
+  },
   keywords: ['integrated rate law', 'zero order', 'first order', 'second order', 'half-life', 'reaction kinetics', 'concentration vs time']
 };
 

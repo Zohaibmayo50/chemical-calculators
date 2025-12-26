@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Ideal Gas Law | PV = nRT | Gas Equation Explained',
   description: 'Master the ideal gas law (PV = nRT) with clear variable definitions, rearrangements, and examples. Essential for gas calculations.',
+  alternates: {
+    canonical: 'https://chemicalcalculators.com/chemistry-formulas/ideal-gas-law',
+  },
   keywords: 'ideal gas law, PV = nRT, gas equation, pressure volume temperature, chemistry gas laws',
 };
 
