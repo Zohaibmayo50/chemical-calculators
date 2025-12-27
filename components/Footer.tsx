@@ -10,11 +10,10 @@ export default function Footer() {
           <div>
             <h3 className="text-white dark:text-primary-400 font-bold text-lg mb-4 flex items-center gap-2">
               <span className="text-2xl">⚗️</span>
-              Chemical Calculators
+              ChemSolved
             </h3>
             <p className="text-sm leading-relaxed mb-4 transition-colors">
-              Comprehensive chemistry calculation tools for students, researchers, and professionals. 
-              Accurate, free, and accessible 24/7.
+              ChemSolved is an educational chemistry calculator platform. Accurate, free, and accessible 24/7.
             </p>
           </div>
 
@@ -88,7 +87,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/about" className="hover:text-primary-400 transition-colors">
-                  About
+                  About ChemSolved
                 </a>
               </li>
               <li>
@@ -104,7 +103,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm">
             <p className="mb-4 md:mb-0">
-              © {new Date().getFullYear()} Chemical Calculators. All rights reserved.
+              © {new Date().getFullYear()} ChemSolved — Chemistry Calculators & Educational Tools
             </p>
             <div className="flex gap-6">
               <a href="/privacy" className="hover:text-primary-400 transition-colors">

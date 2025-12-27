@@ -34,12 +34,12 @@ const playfairDisplay = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chemicalcalculators.com'),
+  metadataBase: new URL('https://chemsolved.com'),
   title: {
-    default: 'Chemical Calculators | 100+ Chemistry Tools & Calculation Solvers',
-    template: '%s | Chemical Calculators'
+    default: 'Chemistry Calculators – Accurate & Free Tools | ChemSolved',
+    template: '%s | ChemSolved'
   },
-  description: 'Comprehensive collection of 100+ chemical calculators for stoichiometry, molarity, molality, pH, thermodynamics, equilibrium, electrochemistry, organic chemistry, and biochemistry calculations. Free, accurate chemistry tools for students and professionals.',
+  description: 'ChemSolved is an educational chemistry calculator platform offering 100+ accurate, free tools for students and professionals. Human-reviewed, accessible, and trusted.',
   keywords: [
     'chemical calculators',
     'chemistry calculators',
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
     'dilution calculator',
     'percent yield calculator'
   ],
-  authors: [{ name: 'Chemical Calculators Team' }],
-  creator: 'Chemical Calculators',
-  publisher: 'Chemical Calculators',
+  authors: [{ name: 'ChemSolved' }],
+  creator: 'ChemSolved',
+  publisher: 'ChemSolved',
   formatDetection: {
     email: false,
     address: false,
@@ -68,15 +68,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://chemicalcalculators.com',
-    title: 'Chemical Calculators | 100+ Chemistry Tools & Solvers',
-    description: 'Free online chemistry calculators for stoichiometry, molarity, pH, thermodynamics, and more. Accurate chemical calculation tools for students and professionals.',
-    siteName: 'Chemical Calculators',
+    url: 'https://chemsolved.com',
+    title: 'Chemistry Calculators – Accurate & Free Tools | ChemSolved',
+    description: 'ChemSolved offers 100+ free, accurate chemistry calculators for students and professionals. Human-reviewed and trusted.',
+    siteName: 'ChemSolved',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chemical Calculators | 100+ Chemistry Tools',
-    description: 'Comprehensive chemistry calculation tools covering stoichiometry, solutions, thermodynamics, equilibrium, and more.',
+    title: 'Chemistry Calculators – Accurate & Free Tools | ChemSolved',
+    description: 'ChemSolved: 100+ free, accurate chemistry calculators. Human-reviewed, accessible, and trusted.',
   },
   robots: {
     index: true,

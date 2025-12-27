@@ -4,10 +4,10 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Editorial Policy | Chemical Calculators - Accuracy & Review Standards',
-  description: 'Our commitment to scientific accuracy: how chemistry formulas are verified, calculators are tested, and content is reviewed by qualified chemists.',
+  title: 'Editorial Policy | ChemSolved - Accuracy & Review Standards',
+  description: 'At ChemSolved, all chemistry calculators and formulas are reviewed for accuracy using standard academic chemistry references. Learn about our scientific accuracy and review process.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/editorial-policy',
+    canonical: 'https://chemsolved.com/editorial-policy',
   },
 };
 
@@ -44,7 +44,7 @@ export default function EditorialPolicyPage() {
             </h2>
             <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
               <p className="text-lg">
-                All chemistry formulas, definitions, and calculations on Chemical Calculators adhere to rigorous academic standards:
+                At <strong>ChemSolved</strong>, all chemistry calculators and formulas are reviewed for accuracy using standard academic chemistry references. Every tool is created and checked by a qualified chemist for scientific integrity.
               </p>
 
               <div className="bg-primary-50 dark:bg-primary-900/20 p-6 rounded-lg border-l-4 border-primary-600">

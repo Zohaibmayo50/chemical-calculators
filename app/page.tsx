@@ -12,27 +12,27 @@ import WhereUsed from '@/components/WhereUsed';
 import WhyAccurate from '@/components/WhyAccurate';
 import { calculatorCategories, getTotalCalculatorCount } from '@/data/calculators';
 import { clusterPages } from '@/data/clusterPages';
-
-export const metadata: Metadata = {
-  title: 'Chemical Calculators | 100+ Chemistry Tools & Calculation Solvers',
-  description: 'A complete collection of 100+ chemical calculators covering molarity, molality, stoichiometry, pH, thermodynamics, equilibrium, electrochemistry, organic chemistry, and biochemistry. Free, accurate chemistry calculation tools for students, researchers, and professionals.',
-  alternates: {
-    canonical: 'https://chemicalcalculators.com',
-  },
-};
-
-// Enable ISR with revalidation
-export const revalidate = 3600; // Revalidate every hour
-
-export default function HomePage() {
-  const totalCalculators = getTotalCalculatorCount();
-
-  return (
-    <main className="min-h-screen">
-      {/* Structured Data - Website Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ChemSolved",
+        "url": "https://chemsolved.com",
+        "publisher": {
+          "@type": "Organization",
+          "name": "ChemSolved",
+          "url": "https://chemsolved.com"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://chemsolved.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      })
+    }}
+  />
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
@@ -126,38 +126,43 @@ export default function HomePage() {
               Find the right calculator from our collection of {totalCalculators} tools
             </p>
           </div>
-          <SearchBar />
-        </div>
-      </section>
-
-      {/* Topical Calculator Pages Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-primary-50/30 to-accent-50/30 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 border-b-2 border-primary-200 dark:border-primary-800">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12 animate-fade-in-up">
-            <h2 className="text-4xl sm:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
-              Explore Calculator Topics
-            </h2>
-            <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Dive deep into specialized chemistry topics with our comprehensive calculator pages. 
-              Each page includes detailed formulas, explanations, and multiple calculators.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {clusterPages.map((cluster, index) => (
-              <Link
-                key={cluster.slug}
-                href={`/${cluster.slug}`}
-                className="group bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-2xl border-2 border-primary-200 dark:border-primary-700 hover:border-primary-400 dark:hover:border-primary-500 transition-all duration-300 hover:scale-105 animate-zoom-in"
-                style={{ animationDelay: `${index * 80}ms` }}
-              >
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-700 dark:from-primary-600 dark:to-primary-800 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <div className="flex-1">
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "ChemSolved",
+                "url": "https://chemsolved.com",
+                "logo": "https://chemsolved.com/logo.png",
+                "founder": {
+                  "@type": "Person",
+                  "name": "Muhammad Zohaib",
+                  "jobTitle": "Chemist, Web Developer",
+                  "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lahore Garrison University",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "addressLocality": "Lahore",
+                      "addressCountry": "Pakistan"
+                    }
+                  },
+                  "hasCredential": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "degree",
+                    "name": "Master's Degree in Chemistry"
+                  },
+                  "knowsAbout": ["Chemistry", "Chemical Calculations", "Computational Chemistry"],
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "ChemSolved",
+                    "url": "https://chemsolved.com"
+                  }
+                }
+              })
+            }}
+          />
                     <h3 className="font-heading text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                       {cluster.h1}
                     </h3>

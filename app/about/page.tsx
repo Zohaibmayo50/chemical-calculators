@@ -4,10 +4,10 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About | Chemical Calculators - Educational Chemistry Tools',
-  description: 'Learn about Chemical Calculators: created by Muhammad Zohaib, MSc Chemistry, to make accurate chemistry calculations accessible to students and educators worldwide.',
+  title: 'About | ChemSolved - Educational Chemistry Tools',
+  description: 'Learn about ChemSolved: an educational chemistry calculator platform created and reviewed by a chemist to make accurate chemistry calculations accessible to students and educators worldwide.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/about',
+    canonical: 'https://chemsolved.com/about',
   },
 };
 
@@ -60,13 +60,23 @@ export default function AboutPage() {
                   "name": "Master's Degree in Chemistry"
                 },
                 "knowsAbout": ["Chemistry", "Chemical Calculations", "Computational Chemistry", "Chemical Education"],
-                "description": "Chemist with a Master's degree in Chemistry, combining academic chemistry knowledge with software engineering to build accurate chemistry calculators"
+                "description": "Chemist with a Master's degree in Chemistry, combining academic chemistry knowledge with software engineering to build accurate chemistry calculators",
+                "affiliation": {
+                  "@type": "Organization",
+                  "name": "ChemSolved",
+                  "url": "https://chemsolved.com"
+                }
               })
             }}
           />
 
-          {/* Who Created This Website */}
+          {/* ChemSolved Brand Statement */}
           <section className="mb-12 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
+            <div className="mb-6">
+              <p className="text-lg text-primary-700 dark:text-primary-300 font-semibold">
+                ChemSolved is an educational chemistry calculator platform designed to make chemistry problem-solving accurate, accessible, and easy through technology. All tools are created and reviewed by a chemist for scientific accuracy.
+              </p>
+            </div>
             <div className="flex items-start gap-6">
               <div className="flex-shrink-0">
                 <div className="w-24 h-24 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center text-white text-3xl font-bold">
@@ -97,12 +107,12 @@ export default function AboutPage() {
                   </div>
 
                   <p className="text-lg mt-6">
-                    This platform focuses on four core principles:
+                    ChemSolved focuses on four core principles:
                   </p>
                   <ul className="space-y-2 ml-6">
                     <li className="flex items-start gap-2">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
-                      <span><strong>Purpose:</strong> Helping students and educators perform accurate chemistry calculations</span>
+                      <span><strong>Mission:</strong> Helping students and educators perform accurate chemistry calculations</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
@@ -110,11 +120,11 @@ export default function AboutPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
-                      <span><strong>Accuracy:</strong> All formulas verified against academic standards</span>
+                      <span><strong>Accuracy:</strong> All formulas and calculators are human-reviewed for scientific correctness</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
-                      <span><strong>Accessibility:</strong> Free, no-signup tools available to everyone</span>
+                      <span><strong>Human Review:</strong> Every tool is checked by a qualified chemist before publication</span>
                     </li>
                   </ul>
                 </div>

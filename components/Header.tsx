@@ -37,8 +37,8 @@ export default function Header() {
               </svg>
             </div>
             <div className="hidden sm:block">
-              <div className="text-lg font-heading font-bold text-gray-900 dark:text-white transition-colors">ChemCalc</div>
-              <div className="text-xs font-medium text-primary-600 dark:text-primary-400 transition-colors">Chemistry Tools</div>
+              <div className="text-lg font-heading font-bold text-gray-900 dark:text-white transition-colors">ChemSolved</div>
+              <div className="text-xs font-medium text-primary-600 dark:text-primary-400 transition-colors">Chemistry Calculators</div>
             </div>
           </a>
 
