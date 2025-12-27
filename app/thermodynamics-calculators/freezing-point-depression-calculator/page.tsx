@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Calculate freezing point depression (ΔTf) using molality and Kf constant. Free online calculator for colligative properties and antifreeze solutions.',
   keywords: ['freezing point depression', 'colligative properties', 'molality', 'Kf constant', 'cryoscopic constant', 'antifreeze', 'solution chemistry'],
   alternates: {
-    canonical: 'https://chemicalcalculators.com/thermodynamics-calculators/freezing-point-depression-calculator',
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/freezing-point-depression-calculator',
   },
 };
 
@@ -311,6 +311,56 @@ export default function FreezingPointDepressionCalculatorPage() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Freezing Point Depression Calculator",
+            "description": "Freezing Point Depression Calculator on ChemSolved",
+            "url": "https://chemsolved.com/thermodynamics-calculators/freezing-point-depression-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Freezing Point Depression Calculator",
+                "item": "https://chemsolved.com/thermodynamics-calculators/freezing-point-depression-calculator"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

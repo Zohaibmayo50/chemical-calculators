@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'NMR Chemical Shift Formula | ¹H & ¹³C NMR Reference Guide',
   description: 'Understand NMR chemical shifts for ¹H and ¹³C nuclei. Predict chemical shifts based on electron-withdrawing groups and molecular structure.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/nmr-chemical-shift-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/nmr-chemical-shift-formula',
   },
   keywords: ['NMR', 'chemical shift', 'proton NMR', 'carbon NMR', 'spectroscopy', 'ppm', 'shielding', 'deshielding']
 };
@@ -414,6 +414,56 @@ export default function NMRChemicalShiftFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Nmr Chemical Shift Formula",
+            "description": "Nmr Chemical Shift Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/nmr-chemical-shift-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Nmr Chemical Shift Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/nmr-chemical-shift-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

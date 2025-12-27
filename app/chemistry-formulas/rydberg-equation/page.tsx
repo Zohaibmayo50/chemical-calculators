@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Rydberg Equation | ChemCalc',
   description: 'Calculate wavelength of atomic spectral lines using 1/λ = R(1/n₁² - 1/n₂²).',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/rydberg-equation',
+    canonical: 'https://chemsolved.com/chemistry-formulas/rydberg-equation',
   },
   keywords: 'Rydberg equation, hydrogen spectrum, atomic emission, spectral lines',
 }
@@ -107,6 +107,56 @@ export default function RydbergEquationPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Rydberg Equation",
+            "description": "Rydberg Equation on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/rydberg-equation",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Rydberg Equation",
+                "item": "https://chemsolved.com/chemistry-formulas/rydberg-equation"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

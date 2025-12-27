@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Molecular Weight Formula | ChemCalc',
   description: 'Compute molecular weight (molar mass) from atomic masses with step-by-step examples.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molecular-weight-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/molecular-weight-formula',
   },
   keywords: 'molecular weight formula, molar mass, atomic masses, chemistry calculator',
 }
@@ -126,6 +126,56 @@ export default function MolecularWeightFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Molecular Weight Formula",
+            "description": "Molecular Weight Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/molecular-weight-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Molecular Weight Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/molecular-weight-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

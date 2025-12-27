@@ -505,7 +505,57 @@ export default function BohrModelCalculatorPage() {  return (
             </div>
           </div>
         </div>
-      </div>      </div>
+      </div>
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Bohr Model Calculator",
+            "description": "Bohr Model Calculator on ChemSolved",
+            "url": "https://chemsolved.com/atomic-structure-calculators/bohr-model-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Bohr Model Calculator",
+                "item": "https://chemsolved.com/atomic-structure-calculators/bohr-model-calculator"
+              }
+            ]
+          })
+        }}
+      />
+      </div>
       <Footer />
     </>
   );

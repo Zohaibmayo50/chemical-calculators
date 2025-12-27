@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Specific Heat Formula | q = mcΔT | Heat Capacity Calculations',
   description: 'Master the specific heat formula (q = mcΔT) for calculating heat transfer. Includes examples and calorimetry calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/specific-heat-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/specific-heat-formula',
   },
   keywords: 'specific heat, heat capacity, calorimetry, q=mcat, temperature change, enthalpy',
 };
@@ -372,6 +372,56 @@ export default function SpecificHeatFormulaPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Specific Heat Formula",
+            "description": "Specific Heat Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/specific-heat-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Specific Heat Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/specific-heat-formula"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

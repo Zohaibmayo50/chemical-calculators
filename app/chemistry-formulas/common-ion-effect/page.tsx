@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Common Ion Effect | ChemCalc',
   description: 'Understand how adding a common ion suppresses solubility and shifts equilibrium.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/common-ion-effect',
+    canonical: 'https://chemsolved.com/chemistry-formulas/common-ion-effect',
   },
   keywords: 'common ion effect, solubility, equilibrium, Le Chatelier, precipitation',
 }
@@ -104,6 +104,56 @@ export default function CommonIonEffectPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Common Ion Effect",
+            "description": "Common Ion Effect on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/common-ion-effect",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Common Ion Effect",
+                "item": "https://chemsolved.com/chemistry-formulas/common-ion-effect"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

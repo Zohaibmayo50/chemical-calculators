@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Vapor Pressure Formula | Clausius-Clapeyron & Raoult\'s Law',
   description: 'Calculate vapor pressure using Clausius-Clapeyron equation. Understand temperature dependence, phase equilibrium, and solution vapor pressure.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/vapor-pressure-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/vapor-pressure-formula',
   },
   keywords: ['vapor pressure', 'clausius clapeyron', 'raoults law', 'evaporation', 'boiling point', 'phase equilibrium', 'enthalpy vaporization']
 };
@@ -216,6 +216,56 @@ export default function VaporPressureFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Vapor Pressure Formula",
+            "description": "Vapor Pressure Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/vapor-pressure-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Vapor Pressure Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/vapor-pressure-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Oxidation Number Rules | ChemCalc',
   description: 'Determine oxidation states using systematic rules for redox chemistry.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/oxidation-number-rules',
+    canonical: 'https://chemsolved.com/chemistry-formulas/oxidation-number-rules',
   },
   keywords: 'oxidation number, oxidation state, redox, reduction, rules',
 }
@@ -91,6 +91,56 @@ export default function OxidationNumberPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Oxidation Number Rules",
+            "description": "Oxidation Number Rules on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/oxidation-number-rules",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Oxidation Number Rules",
+                "item": "https://chemsolved.com/chemistry-formulas/oxidation-number-rules"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

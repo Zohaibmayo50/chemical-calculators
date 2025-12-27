@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Freezing Point Depression Calculator & Formula | ChemCalc',
   description: 'Calculate freezing point depression using ΔTf = i Kf m with examples, units, and common pitfalls.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/freezing-point-depression',
+    canonical: 'https://chemsolved.com/chemistry-formulas/freezing-point-depression',
   },
   keywords: 'freezing point depression, delta Tf, colligative properties, Kf, molality, chemistry calculator',
 }
@@ -159,6 +159,56 @@ export default function FreezingPointDepression() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Freezing Point Depression",
+            "description": "Freezing Point Depression on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/freezing-point-depression",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Freezing Point Depression",
+                "item": "https://chemsolved.com/chemistry-formulas/freezing-point-depression"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

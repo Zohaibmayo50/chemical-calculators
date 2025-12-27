@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Heisenberg Uncertainty Principle | ChemCalc',
   description: 'Understand Δx Δp ≥ h/(4π) and the fundamental limit on precision.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/heisenberg-uncertainty',
+    canonical: 'https://chemsolved.com/chemistry-formulas/heisenberg-uncertainty',
   },
   keywords: 'Heisenberg uncertainty, quantum mechanics, position momentum',
 }
@@ -97,6 +97,56 @@ export default function HeisenbergUncertaintyPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Heisenberg Uncertainty",
+            "description": "Heisenberg Uncertainty on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/heisenberg-uncertainty",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Heisenberg Uncertainty",
+                "item": "https://chemsolved.com/chemistry-formulas/heisenberg-uncertainty"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

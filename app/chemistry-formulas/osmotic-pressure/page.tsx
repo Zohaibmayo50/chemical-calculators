@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Osmotic Pressure Calculator & Formula | ChemCalc',
   description: 'Calculate osmotic pressure using Π = i M R T with examples, assumptions, and common pitfalls.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/osmotic-pressure',
+    canonical: 'https://chemsolved.com/chemistry-formulas/osmotic-pressure',
   },
   keywords: 'osmotic pressure, pi = iMRT, van hoff factor, solutions, semipermeable membrane, chemistry calculator',
 }
@@ -159,6 +159,56 @@ export default function OsmoticPressure() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Osmotic Pressure",
+            "description": "Osmotic Pressure on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/osmotic-pressure",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Osmotic Pressure",
+                "item": "https://chemsolved.com/chemistry-formulas/osmotic-pressure"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

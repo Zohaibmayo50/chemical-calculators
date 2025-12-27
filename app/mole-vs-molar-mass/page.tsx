@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Mole vs Molar Mass: Understanding the Key Difference | Chemistry Guide',
   description: 'Clarify the difference between mole (amount of substance) and molar mass (mass per mole). Learn definitions, units, and applications with examples.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/mole-vs-molar-mass',
+    canonical: 'https://chemsolved.com/mole-vs-molar-mass',
   },
   keywords: ['mole vs molar mass', 'mole definition', 'molar mass definition', 'molecular weight', 'avogadro number', 'chemistry units']
 };
@@ -369,6 +369,54 @@ export default function MoleVsMolarMassPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Mole Vs Molar Mass",
+            "description": "Mole Vs Molar Mass on ChemSolved",
+            "url": "https://chemsolved.com/mole-vs-molar-mass",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Mole Vs Molar Mass",
+                "item": "https://chemsolved.com/mole-vs-molar-mass"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Solution Preparation Formula | Molarity & Dilution Calculations',
   description: 'Prepare solutions with precise concentrations. Calculate mass, volume, and dilutions for accurate solution preparation.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/solution-preparation-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/solution-preparation-formula',
   },
   keywords: ['solution preparation', 'molarity', 'dilution', 'M1V1=M2V2', 'concentration', 'mass per volume']
 };
@@ -283,6 +283,56 @@ export default function SolutionPreparationFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Solution Preparation Formula",
+            "description": "Solution Preparation Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/solution-preparation-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Solution Preparation Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/solution-preparation-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

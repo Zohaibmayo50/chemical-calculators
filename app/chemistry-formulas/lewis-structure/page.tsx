@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Lewis Structure Formula | Dot Structures & Electron Distribution',
   description: 'Learn how to draw Lewis structures using valence electrons, octet rule, and formal charge. Master electron dot structures for molecules and ions.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/lewis-structure',
+    canonical: 'https://chemsolved.com/chemistry-formulas/lewis-structure',
   },
   keywords: ['lewis structure', 'electron dot structure', 'valence electrons', 'octet rule', 'formal charge', 'bonding pairs', 'lone pairs', 'lewis formula']
 };
@@ -280,6 +280,56 @@ export default function LewisStructurePage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Lewis Structure",
+            "description": "Lewis Structure on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/lewis-structure",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Lewis Structure",
+                "item": "https://chemsolved.com/chemistry-formulas/lewis-structure"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

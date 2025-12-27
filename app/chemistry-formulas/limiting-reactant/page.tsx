@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Limiting Reactant Formula | Find Which Reactant Runs Out First',
   description: 'Master limiting reactant calculations to determine which reagent limits product formation. Includes step-by-step examples and stoichiometry calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/limiting-reactant',
+    canonical: 'https://chemsolved.com/chemistry-formulas/limiting-reactant',
   },
   keywords: 'limiting reactant, limiting reagent, excess reactant, stoichiometry, mole ratio, theoretical yield',
 };
@@ -330,6 +330,56 @@ export default function LimitingReactantPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Limiting Reactant",
+            "description": "Limiting Reactant on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/limiting-reactant",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Limiting Reactant",
+                "item": "https://chemsolved.com/chemistry-formulas/limiting-reactant"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

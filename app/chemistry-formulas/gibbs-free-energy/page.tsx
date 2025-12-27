@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Gibbs Free Energy | ΔG = ΔH - TΔS | Reaction Spontaneity',
   description: 'Master Gibbs free energy (ΔG = ΔH - TΔS) to predict reaction spontaneity. Includes examples and thermodynamics calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/gibbs-free-energy',
+    canonical: 'https://chemsolved.com/chemistry-formulas/gibbs-free-energy',
   },
   keywords: 'Gibbs free energy, delta G, spontaneity, enthalpy, entropy, thermodynamics',
 };
@@ -312,6 +312,56 @@ export default function GibbsFreeEnergyPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Gibbs Free Energy",
+            "description": "Gibbs Free Energy on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/gibbs-free-energy",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Gibbs Free Energy",
+                "item": "https://chemsolved.com/chemistry-formulas/gibbs-free-energy"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

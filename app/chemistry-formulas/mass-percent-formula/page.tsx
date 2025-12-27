@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Mass Percent Formula | % = (mass part/mass total) × 100',
   description: 'Master the mass percent formula for calculating composition percentages in chemistry. Includes examples and concentration calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/mass-percent-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/mass-percent-formula',
   },
   keywords: 'mass percent, percent composition, weight percent, mass fraction, concentration, solution composition',
 };
@@ -357,6 +357,56 @@ export default function MassPercentFormulaPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Mass Percent Formula",
+            "description": "Mass Percent Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/mass-percent-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Mass Percent Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/mass-percent-formula"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

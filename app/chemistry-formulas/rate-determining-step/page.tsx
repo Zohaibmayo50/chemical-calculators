@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Rate Determining Step | ChemCalc',
   description: 'Understand how the slowest step controls overall reaction rate in multi-step mechanisms.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/rate-determining-step',
+    canonical: 'https://chemsolved.com/chemistry-formulas/rate-determining-step',
   },
   keywords: 'rate determining step, reaction mechanism, slowest step, kinetics, elementary steps',
 }
@@ -103,6 +103,56 @@ export default function RateDeterminingStepPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Rate Determining Step",
+            "description": "Rate Determining Step on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/rate-determining-step",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Rate Determining Step",
+                "item": "https://chemsolved.com/chemistry-formulas/rate-determining-step"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

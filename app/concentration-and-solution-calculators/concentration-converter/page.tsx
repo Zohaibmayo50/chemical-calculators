@@ -513,6 +513,58 @@ export default function ConcentrationConverterPage() {
             </div>
           </div>
         </div>
+
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Concentration Converter",
+            "description": "Convert between different concentration units: molarity (M), molality (m), mass percent (%), parts per million (ppm), and parts per billion (ppb).",
+            "url": "https://chemsolved.com/concentration-and-solution-calculators/concentration-converter",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Concentration Converter",
+                "item": "https://chemsolved.com/concentration-and-solution-calculators/concentration-converter"
+              }
+            ]
+          })
+        }}
+      />
+
       </main>
       <Footer />
     </>

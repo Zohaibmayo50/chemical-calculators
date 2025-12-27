@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Stoichiometry Formula | Mole Ratios & Mass Calculations',
   description: 'Master stoichiometric calculations using balanced equations. Calculate moles, mass, and limiting reagents from chemical reactions.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/stoichiometry-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/stoichiometry-formula',
   },
   keywords: ['stoichiometry', 'mole ratio', 'balanced equation', 'chemical calculations', 'mass to mole', 'limiting reagent', 'theoretical yield']
 };
@@ -246,6 +246,56 @@ export default function StoichiometryFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Stoichiometry Formula",
+            "description": "Stoichiometry Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/stoichiometry-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Stoichiometry Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/stoichiometry-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

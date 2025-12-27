@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Activity Coefficient (γ) | ChemCalc',
   description: 'Understand activity a = γ × [C] for non-ideal solutions.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/activity-coefficient',
+    canonical: 'https://chemsolved.com/chemistry-formulas/activity-coefficient',
   },
   keywords: 'activity coefficient, non-ideal solutions, ionic strength, Debye-Hückel',
 }
@@ -92,6 +92,56 @@ export default function ActivityCoefficientPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Activity Coefficient",
+            "description": "Activity Coefficient on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/activity-coefficient",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Activity Coefficient",
+                "item": "https://chemsolved.com/chemistry-formulas/activity-coefficient"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

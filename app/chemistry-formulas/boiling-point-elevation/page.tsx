@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Boiling Point Elevation Calculator & Formula | ChemCalc',
   description: 'Calculate boiling point elevation using ΔTb = i Kb m with examples, assumptions, and common pitfalls.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/boiling-point-elevation',
+    canonical: 'https://chemsolved.com/chemistry-formulas/boiling-point-elevation',
   },
   keywords: 'boiling point elevation, delta Tb, colligative properties, Kb, molality, chemistry calculator',
 }
@@ -159,6 +159,56 @@ export default function BoilingPointElevation() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Boiling Point Elevation",
+            "description": "Boiling Point Elevation on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/boiling-point-elevation",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Boiling Point Elevation",
+                "item": "https://chemsolved.com/chemistry-formulas/boiling-point-elevation"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

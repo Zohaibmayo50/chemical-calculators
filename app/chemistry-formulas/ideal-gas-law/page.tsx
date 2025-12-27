@@ -8,7 +8,7 @@ export const metadata = {
   title: 'Ideal Gas Law | PV = nRT | Gas Equation Explained',
   description: 'Master the ideal gas law (PV = nRT) with clear variable definitions, rearrangements, and examples. Essential for gas calculations.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/ideal-gas-law',
+    canonical: 'https://chemsolved.com/chemistry-formulas/ideal-gas-law',
   },
   keywords: 'ideal gas law, PV = nRT, gas equation, pressure volume temperature, chemistry gas laws',
 };
@@ -284,6 +284,56 @@ export default function IdealGasLawPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Ideal Gas Law",
+            "description": "Ideal Gas Law on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/ideal-gas-law",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ideal Gas Law",
+                "item": "https://chemsolved.com/chemistry-formulas/ideal-gas-law"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

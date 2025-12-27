@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Raoult's Law | Vapor Pressure Formula & Explanation",
   description: "Learn Raoult's law for vapor pressure of solutions with worked examples, assumptions, and common pitfalls.",
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/raoults-law',
+    canonical: 'https://chemsolved.com/chemistry-formulas/raoults-law',
   },
   keywords: "raoults law, vapor pressure lowering, ideal solutions, mole fraction, chemistry formula",
 }
@@ -166,6 +166,56 @@ export default function RaoultsLaw() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Raoults Law",
+            "description": "Raoults Law on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/raoults-law",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Raoults Law",
+                "item": "https://chemsolved.com/chemistry-formulas/raoults-law"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

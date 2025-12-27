@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Calculate parts per million (ppm) concentration for water quality, air quality, and trace analysis. Free online calculator with mg/L conversion and examples.',
   keywords: ['ppm calculator', 'parts per million', 'ppm to mg/L', 'water quality', 'trace concentration', 'dilute solutions'],
   alternates: {
-    canonical: 'https://chemicalcalculators.com/concentration-and-solution-calculators/ppm-calculator',
+    canonical: 'https://chemsolved.com/concentration-and-solution-calculators/ppm-calculator',
   },
 };
 
@@ -604,6 +604,56 @@ export default function PPMCalculatorPage() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Ppm Calculator",
+            "description": "Ppm Calculator on ChemSolved",
+            "url": "https://chemsolved.com/concentration-and-solution-calculators/ppm-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ppm Calculator",
+                "item": "https://chemsolved.com/concentration-and-solution-calculators/ppm-calculator"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

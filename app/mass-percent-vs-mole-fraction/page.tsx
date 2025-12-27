@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Mass Percent vs Mole Fraction: Key Differences & Conversions | Chemistry Guide',
   description: 'Compare mass percent and mole fraction concentration units. Learn definitions, formulas, conversions, and when to use each in chemistry calculations.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/mass-percent-vs-mole-fraction',
+    canonical: 'https://chemsolved.com/mass-percent-vs-mole-fraction',
   },
   keywords: ['mass percent vs mole fraction', 'weight percent', 'mole fraction', 'concentration units', 'composition', 'solution chemistry']
 };
@@ -375,6 +375,54 @@ export default function MassPercentVsMoleFractionPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Mass Percent Vs Mole Fraction",
+            "description": "Mass Percent Vs Mole Fraction on ChemSolved",
+            "url": "https://chemsolved.com/mass-percent-vs-mole-fraction",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Mass Percent Vs Mole Fraction",
+                "item": "https://chemsolved.com/mass-percent-vs-mole-fraction"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Density Formula | d = m/V | Mass Volume Relationship',
   description: 'Master the density formula (d = m/V) for calculating mass, volume, and density. Includes examples and density calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/density-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/density-formula',
   },
   keywords: 'density, density formula, mass volume, specific gravity, buoyancy',
 };
@@ -311,6 +311,56 @@ export default function DensityFormulaPage() {
             </div>
           </section>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Density Formula",
+            "description": "Density Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/density-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Density Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/density-formula"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

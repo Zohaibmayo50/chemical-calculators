@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Quantum Numbers Formula | n, l, ml, ms Electron Configuration',
   description: 'Learn quantum numbers: principal (n), angular momentum (l), magnetic (ml), and spin (ms). Understand electron configuration and orbital designation.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/quantum-numbers',
+    canonical: 'https://chemsolved.com/chemistry-formulas/quantum-numbers',
   },
   keywords: ['quantum numbers', 'principal quantum number', 'angular momentum', 'magnetic quantum number', 'spin quantum number', 'electron orbitals', 'quantum mechanics']
 };
@@ -290,6 +290,56 @@ export default function QuantumNumbersPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Quantum Numbers",
+            "description": "Quantum Numbers on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/quantum-numbers",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Quantum Numbers",
+                "item": "https://chemsolved.com/chemistry-formulas/quantum-numbers"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

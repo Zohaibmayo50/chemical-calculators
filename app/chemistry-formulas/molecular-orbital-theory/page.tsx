@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Molecular Orbital Theory | MO Diagrams & Bond Order',
   description: 'Understand molecular orbital theory, MO diagrams, bond order calculation, and electron configuration in molecules using LCAO method.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molecular-orbital-theory',
+    canonical: 'https://chemsolved.com/chemistry-formulas/molecular-orbital-theory',
   },
   keywords: ['molecular orbital theory', 'MO diagram', 'bond order', 'LCAO', 'bonding orbital', 'antibonding orbital', 'sigma pi orbitals']
 };
@@ -328,6 +328,56 @@ export default function MolecularOrbitalTheoryPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Molecular Orbital Theory",
+            "description": "Molecular Orbital Theory on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/molecular-orbital-theory",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Molecular Orbital Theory",
+                "item": "https://chemsolved.com/chemistry-formulas/molecular-orbital-theory"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Combustion Analysis Formula | Empirical Formula from CxHyOz',
   description: 'Determine empirical formulas from combustion analysis data. Calculate C, H, O composition from CO₂ and H₂O masses.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/combustion-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/combustion-formula',
   },
   keywords: ['combustion analysis', 'empirical formula', 'hydrocarbon combustion', 'elemental analysis', 'CO2 H2O', 'CHO composition']
 };
@@ -221,6 +221,56 @@ export default function CombustionFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Combustion Formula",
+            "description": "Combustion Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/combustion-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Combustion Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/combustion-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

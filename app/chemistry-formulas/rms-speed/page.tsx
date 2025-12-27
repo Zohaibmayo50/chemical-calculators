@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Root Mean Square Speed | ChemCalc',
   description: 'Calculate RMS speed of gas molecules: v_rms = √(3RT/M).',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/rms-speed',
+    canonical: 'https://chemsolved.com/chemistry-formulas/rms-speed',
   },
   keywords: 'rms speed, kinetic molecular theory, gas velocity, Maxwell-Boltzmann',
 }
@@ -88,6 +88,56 @@ export default function RmsSpeedPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Rms Speed",
+            "description": "Rms Speed on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/rms-speed",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Rms Speed",
+                "item": "https://chemsolved.com/chemistry-formulas/rms-speed"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

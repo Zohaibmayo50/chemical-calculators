@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Arrhenius Equation | k = Ae^(-Ea/RT) | Reaction Rate & Temperature',
   description: 'Master the Arrhenius equation relating reaction rate constant to temperature and activation energy. Includes examples and calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/arrhenius-equation',
+    canonical: 'https://chemsolved.com/chemistry-formulas/arrhenius-equation',
   },
   keywords: 'Arrhenius equation, activation energy, rate constant, reaction kinetics, temperature dependence',
 };
@@ -334,6 +334,56 @@ export default function ArrheniusEquationPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Arrhenius Equation",
+            "description": "Arrhenius Equation on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/arrhenius-equation",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Arrhenius Equation",
+                "item": "https://chemsolved.com/chemistry-formulas/arrhenius-equation"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

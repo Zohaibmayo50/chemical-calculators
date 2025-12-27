@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -12,36 +12,36 @@ import WhereUsed from '@/components/WhereUsed';
 import WhyAccurate from '@/components/WhyAccurate';
 import { calculatorCategories, getTotalCalculatorCount } from '@/data/calculators';
 import { clusterPages } from '@/data/clusterPages';
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "ChemSolved",
-        "url": "https://chemsolved.com",
-        "publisher": {
-          "@type": "Organization",
-          "name": "ChemSolved",
-          "url": "https://chemsolved.com"
-        },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://chemsolved.com/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      })
-    }}
-  />
+
+export const metadata: Metadata = {
+  title: 'Chemical Calculators | 100+ Chemistry Tools & Calculation Solvers',
+  description: 'A complete collection of 100+ chemical calculators covering molarity, molality, stoichiometry, pH, thermodynamics, equilibrium, electrochemistry, organic chemistry, and biochemistry. Free, accurate chemistry calculation tools for students, researchers, and professionals.',
+  alternates: {
+    canonical: 'https://chemsolved.com',
+  },
+};
+
+// Enable ISR with revalidation
+export const revalidate = 3600; // Revalidate every hour
+
+export default function HomePage() {
+  const totalCalculators = getTotalCalculatorCount();
+
+  return (
+    <main className="min-h-screen">
+      {/* Structured Data - Website Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "Chemical Calculators",
-            "url": "https://chemicalcalculators.com",
+            "url": "https://chemsolved.com",
             "description": "Comprehensive chemistry calculators for stoichiometry, molarity, pH, thermodynamics, and chemical calculations",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://chemicalcalculators.com/?q={search_term_string}",
+              "target": "https://chemsolved.com/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           })
@@ -56,7 +56,7 @@ import { clusterPages } from '@/data/clusterPages';
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
             "name": "Chemical Calculators",
-            "url": "https://chemicalcalculators.com",
+            "url": "https://chemsolved.com",
             "description": "Provider of free chemistry calculation tools and educational resources",
             "founder": {
               "@type": "Person",
@@ -126,43 +126,38 @@ import { clusterPages } from '@/data/clusterPages';
               Find the right calculator from our collection of {totalCalculators} tools
             </p>
           </div>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                "name": "ChemSolved",
-                "url": "https://chemsolved.com",
-                "logo": "https://chemsolved.com/logo.png",
-                "founder": {
-                  "@type": "Person",
-                  "name": "Muhammad Zohaib",
-                  "jobTitle": "Chemist, Web Developer",
-                  "alumniOf": {
-                    "@type": "EducationalOrganization",
-                    "name": "Lahore Garrison University",
-                    "address": {
-                      "@type": "PostalAddress",
-                      "addressLocality": "Lahore",
-                      "addressCountry": "Pakistan"
-                    }
-                  },
-                  "hasCredential": {
-                    "@type": "EducationalOccupationalCredential",
-                    "credentialCategory": "degree",
-                    "name": "Master's Degree in Chemistry"
-                  },
-                  "knowsAbout": ["Chemistry", "Chemical Calculations", "Computational Chemistry"],
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "ChemSolved",
-                    "url": "https://chemsolved.com"
-                  }
-                }
-              })
-            }}
-          />
+          <SearchBar />
+        </div>
+      </section>
+
+      {/* Topical Calculator Pages Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-primary-50/30 to-accent-50/30 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 border-b-2 border-primary-200 dark:border-primary-800">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12 animate-fade-in-up">
+            <h2 className="text-4xl sm:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+              Explore Calculator Topics
+            </h2>
+            <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              Dive deep into specialized chemistry topics with our comprehensive calculator pages. 
+              Each page includes detailed formulas, explanations, and multiple calculators.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {clusterPages.map((cluster, index) => (
+              <Link
+                key={cluster.slug}
+                href={`/${cluster.slug}`}
+                className="group bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-2xl border-2 border-primary-200 dark:border-primary-700 hover:border-primary-400 dark:hover:border-primary-500 transition-all duration-300 hover:scale-105 animate-zoom-in"
+                style={{ animationDelay: `${index * 80}ms` }}
+              >
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-700 dark:from-primary-600 dark:to-primary-800 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
                     <h3 className="font-heading text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                       {cluster.h1}
                     </h3>
@@ -221,12 +216,12 @@ import { clusterPages } from '@/data/clusterPages';
                 to solve quantitative problems. These tools incorporate established principles such as 
                 the <strong className="text-primary-700">law of conservation of mass</strong>, <strong className="text-primary-700">ideal gas law</strong> (PV = nRT), 
                 <strong className="text-primary-700"> stoichiometric ratios</strong> from balanced equations, and 
-                <strong className="text-primary-700"> thermodynamic relationships</strong> (ΔG = ΔH - TΔS).
+                <strong className="text-primary-700"> thermodynamic relationships</strong> (╬öG = ╬öH - T╬öS).
               </p>
               <p className="text-gray-700 leading-relaxed text-lg">
                 Each calculator uses specific formulas relevant to its domain. For instance, 
                 <strong className="text-primary-600"> molarity calculations</strong> use M = n/V (moles per liter), while 
-                <strong className="text-primary-600"> pH calculations</strong> apply pH = -log[H⁺] based on hydrogen ion concentration. 
+                <strong className="text-primary-600"> pH calculations</strong> apply pH = -log[HΓü║] based on hydrogen ion concentration. 
                 <strong className="text-primary-600"> Stoichiometry calculators</strong> determine mole ratios from balanced chemical 
                 equations to predict product quantities and identify limiting reagents.
               </p>
@@ -240,7 +235,7 @@ import { clusterPages } from '@/data/clusterPages';
                 <p className="text-gray-700 text-sm leading-relaxed mb-3">
                   <strong>Molarity</strong>, <strong>molality</strong>, and <strong>normality</strong> calculators 
                   determine solution concentrations using molar mass, volume, and mass relationships. 
-                  The <strong>dilution calculator</strong> applies C₁V₁ = C₂V₂ to find final concentrations 
+                  The <strong>dilution calculator</strong> applies CΓéüVΓéü = CΓééVΓéé to find final concentrations 
                   after dilution.
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
@@ -261,7 +256,7 @@ import { clusterPages } from '@/data/clusterPages';
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
                   <code className="text-sm text-gray-800">
-                    % Yield = (Actual Yield / Theoretical Yield) × 100
+                    % Yield = (Actual Yield / Theoretical Yield) ├ù 100
                   </code>
                 </div>
               </div>
@@ -277,7 +272,7 @@ import { clusterPages } from '@/data/clusterPages';
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
                   <code className="text-sm text-gray-800">
-                    ΔG = ΔH - TΔS (Gibbs Free Energy)
+                    ╬öG = ╬öH - T╬öS (Gibbs Free Energy)
                   </code>
                 </div>
               </div>
@@ -293,7 +288,7 @@ import { clusterPages } from '@/data/clusterPages';
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
                   <code className="text-sm text-gray-800">
-                    pH = pKa + log([A⁻]/[HA])
+                    pH = pKa + log([AΓü╗]/[HA])
                   </code>
                 </div>
               </div>
@@ -382,8 +377,8 @@ import { clusterPages } from '@/data/clusterPages';
               <h3 className="text-xl font-bold text-primary-700 mb-3">Thermodynamics</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
                 <strong>Chemical thermodynamics</strong> studies energy changes in reactions. 
-                <strong> Enthalpy</strong> (ΔH), <strong>entropy</strong> (ΔS), and 
-                <strong> Gibbs free energy</strong> (ΔG) determine whether reactions occur 
+                <strong> Enthalpy</strong> (╬öH), <strong>entropy</strong> (╬öS), and 
+                <strong> Gibbs free energy</strong> (╬öG) determine whether reactions occur 
                 spontaneously and how much energy they release or consume.
               </p>
             </div>
@@ -443,13 +438,13 @@ import { clusterPages } from '@/data/clusterPages';
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://chemicalcalculators.com"
+                "item": "https://chemsolved.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Chemistry Calculators",
-                "item": "https://chemicalcalculators.com/#calculators"
+                "item": "https://chemsolved.com/#calculators"
               }
             ]
           })
@@ -465,7 +460,7 @@ import { clusterPages } from '@/data/clusterPages';
             "@type": "CollectionPage",
             "name": "Chemical Calculators Collection",
             "description": "Comprehensive collection of chemistry calculators for stoichiometry, solutions, thermodynamics, and chemical calculations",
-            "url": "https://chemicalcalculators.com",
+            "url": "https://chemsolved.com",
             "numberOfItems": totalCalculators,
             "about": {
               "@type": "Thing",

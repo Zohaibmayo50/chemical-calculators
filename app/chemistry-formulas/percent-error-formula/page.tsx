@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Percent Error Formula | ChemCalc',
   description: 'Calculate percent error between experimental and theoretical values.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/percent-error-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/percent-error-formula',
   },
   keywords: 'percent error, experimental error, accuracy, theoretical value, chemistry lab',
 }
@@ -90,6 +90,56 @@ export default function PercentErrorFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Percent Error Formula",
+            "description": "Percent Error Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/percent-error-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Percent Error Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/percent-error-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

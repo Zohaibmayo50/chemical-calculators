@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Degree of Unsaturation | ChemCalc',
   description: 'Calculate rings + double bonds using molecular formula.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/degree-of-unsaturation',
+    canonical: 'https://chemsolved.com/chemistry-formulas/degree-of-unsaturation',
   },
   keywords: 'degree of unsaturation, index of hydrogen deficiency, rings, double bonds',
 }
@@ -90,6 +90,56 @@ export default function DegreeOfUnsaturationPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Degree Of Unsaturation",
+            "description": "Degree Of Unsaturation on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/degree-of-unsaturation",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Degree Of Unsaturation",
+                "item": "https://chemsolved.com/chemistry-formulas/degree-of-unsaturation"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

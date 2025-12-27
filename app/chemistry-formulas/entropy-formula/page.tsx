@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Entropy Formula | ChemCalc',
   description: 'Calculate reaction entropy changes using standard molar entropies with clear steps and examples.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/entropy-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/entropy-formula',
   },
   keywords: 'entropy formula, delta S, reaction entropy, standard molar entropy, thermodynamics',
 }
@@ -127,6 +127,56 @@ export default function EntropyFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Entropy Formula",
+            "description": "Entropy Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/entropy-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Entropy Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/entropy-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

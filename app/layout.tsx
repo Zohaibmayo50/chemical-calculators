@@ -102,7 +102,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} ${poppins.variable} ${inter.variable} ${playfairDisplay.variable}`}>
       <head>
-        <link rel="canonical" href="https://chemicalcalculators.com" />
+        <link rel="canonical" href="https://chemsolved.com" />
       </head>
       <body className="font-sans antialiased">
         {children}

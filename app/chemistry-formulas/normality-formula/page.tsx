@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Normality Formula | ChemCalc',
   description: 'Learn how to calculate normality (equivalents per liter) with worked examples and common pitfalls.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/normality-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/normality-formula',
   },
   keywords: 'normality formula, equivalents per liter, chemistry concentration, normal solution',
 }
@@ -139,6 +139,56 @@ export default function NormalityFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Normality Formula",
+            "description": "Normality Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/normality-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Normality Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/normality-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Concentration Converter Formula | Molarity, Molality, PPM, PPB',
   description: 'Convert between concentration units: molarity, molality, mass percent, ppm, ppb, mole fraction, and normality.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/concentration-converter-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/concentration-converter-formula',
   },
   keywords: ['concentration converter', 'molarity', 'molality', 'ppm', 'ppb', 'mass percent', 'mole fraction', 'normality']
 };
@@ -330,6 +330,56 @@ export default function ConcentrationConverterFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Concentration Converter Formula",
+            "description": "Concentration Converter Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/concentration-converter-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Concentration Converter Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/concentration-converter-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

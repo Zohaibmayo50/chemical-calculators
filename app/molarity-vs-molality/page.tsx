@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Molarity vs Molality: Key Differences & When to Use Each | Chemistry Guide',
   description: 'Understand the crucial differences between molarity (M) and molality (m). Learn formulas, temperature dependence, units, and when to use each concentration measure.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/molarity-vs-molality',
+    canonical: 'https://chemsolved.com/molarity-vs-molality',
   },
   keywords: ['molarity vs molality', 'molarity molality difference', 'concentration units', 'molar concentration', 'molal concentration', 'temperature dependent concentration']
 };
@@ -369,6 +369,54 @@ export default function MolarityVsMolalityPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Molarity Vs Molality",
+            "description": "Molarity Vs Molality on ChemSolved",
+            "url": "https://chemsolved.com/molarity-vs-molality",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Molarity Vs Molality",
+                "item": "https://chemsolved.com/molarity-vs-molality"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

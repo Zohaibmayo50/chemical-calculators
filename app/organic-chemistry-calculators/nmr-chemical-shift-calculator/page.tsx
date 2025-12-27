@@ -138,7 +138,57 @@ export default function NMRChemicalShiftCalculatorPage() {  return (
             </div>
           </div>
         </div>
-      </div>      </div>
+      </div>
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Nmr Chemical Shift Calculator",
+            "description": "Nmr Chemical Shift Calculator on ChemSolved",
+            "url": "https://chemsolved.com/organic-chemistry-calculators/nmr-chemical-shift-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Nmr Chemical Shift Calculator",
+                "item": "https://chemsolved.com/organic-chemistry-calculators/nmr-chemical-shift-calculator"
+              }
+            ]
+          })
+        }}
+      />
+      </div>
       <Footer />
     </>
   );

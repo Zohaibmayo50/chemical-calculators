@@ -7,7 +7,7 @@ export const metadata = {
   title: 'pH Formula | pH = -log[H⁺] | Calculate Solution Acidity',
   description: 'Learn the pH formula (pH = -log[H⁺]) with clear explanations, examples, and pOH calculations. Master acid-base chemistry.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/ph-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/ph-formula',
   },
   keywords: 'pH formula, acidity, pH calculation, hydrogen ion concentration, acid base chemistry',
 };
@@ -285,6 +285,56 @@ export default function PHFormulaPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Ph Formula",
+            "description": "Ph Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/ph-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ph Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/ph-formula"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

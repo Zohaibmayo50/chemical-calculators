@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'PPM Formula | ChemCalc',
   description: 'Parts per million: ppm = (mass of solute / mass of solution) × 10^6.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/ppm-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/ppm-formula',
   },
   keywords: 'ppm, parts per million, concentration, solution',
 }
@@ -58,6 +58,56 @@ export default function PpmFormulaPage() {
             <li>Check density if solution is not water; mg/L may not equal ppm.</li>
           </ul>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Ppm Formula",
+            "description": "Ppm Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/ppm-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ppm Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/ppm-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

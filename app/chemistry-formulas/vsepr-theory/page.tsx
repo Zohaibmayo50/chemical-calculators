@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'VSEPR Theory | ChemCalc',
   description: 'Predict molecular geometry using Valence Shell Electron Pair Repulsion theory.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/vsepr-theory',
+    canonical: 'https://chemsolved.com/chemistry-formulas/vsepr-theory',
   },
   keywords: 'VSEPR theory, molecular geometry, electron pairs, bond angles, Lewis structure',
 }
@@ -112,6 +112,56 @@ export default function VSEPRTheoryPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Vsepr Theory",
+            "description": "Vsepr Theory on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/vsepr-theory",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Vsepr Theory",
+                "item": "https://chemsolved.com/chemistry-formulas/vsepr-theory"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

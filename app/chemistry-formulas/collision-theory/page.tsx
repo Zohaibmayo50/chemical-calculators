@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Collision Theory Formula | ChemCalc',
   description: 'Understand reaction rate dependence on collisions, energy, and orientation.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/collision-theory',
+    canonical: 'https://chemsolved.com/chemistry-formulas/collision-theory',
   },
   keywords: 'collision theory, reaction rate, activation energy, kinetic molecular theory',
 }
@@ -106,6 +106,56 @@ export default function CollisionTheoryPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Collision Theory",
+            "description": "Collision Theory on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/collision-theory",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Collision Theory",
+                "item": "https://chemsolved.com/chemistry-formulas/collision-theory"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

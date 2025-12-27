@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Henderson-Hasselbalch Equation | pH = pKa + log([A⁻]/[HA])',
   description: 'Master the Henderson-Hasselbalch equation for buffer pH calculations. Includes derivation, examples, and calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/henderson-hasselbalch-equation',
+    canonical: 'https://chemsolved.com/chemistry-formulas/henderson-hasselbalch-equation',
   },
   keywords: 'Henderson-Hasselbalch equation, buffer pH, pKa, acid base equilibrium, buffer chemistry',
 };
@@ -312,6 +312,56 @@ export default function HendersonHasselbalchPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Henderson Hasselbalch Equation",
+            "description": "Henderson Hasselbalch Equation on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/henderson-hasselbalch-equation",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Henderson Hasselbalch Equation",
+                "item": "https://chemsolved.com/chemistry-formulas/henderson-hasselbalch-equation"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

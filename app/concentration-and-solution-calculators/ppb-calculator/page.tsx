@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Calculate parts per billion (ppb) concentration for trace analysis and environmental testing. Convert ppb to μg/L with step-by-step calculations.',
   keywords: ['ppb calculator', 'parts per billion', 'ppb to ug/L', 'trace analysis', 'ultratrace concentration', 'environmental testing'],
   alternates: {
-    canonical: 'https://chemicalcalculators.com/concentration-and-solution-calculators/ppb-calculator',
+    canonical: 'https://chemsolved.com/concentration-and-solution-calculators/ppb-calculator',
   },
 };
 
@@ -696,6 +696,56 @@ export default function PPBCalculatorPage() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Ppb Calculator",
+            "description": "Ppb Calculator on ChemSolved",
+            "url": "https://chemsolved.com/concentration-and-solution-calculators/ppb-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ppb Calculator",
+                "item": "https://chemsolved.com/concentration-and-solution-calculators/ppb-calculator"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

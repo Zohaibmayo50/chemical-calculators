@@ -395,6 +395,56 @@ export default function OsmoticPressureCalculatorPage() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Osmotic Pressure Calculator",
+            "description": "Osmotic Pressure Calculator on ChemSolved",
+            "url": "https://chemsolved.com/physical-chemistry-calculators/osmotic-pressure-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Osmotic Pressure Calculator",
+                "item": "https://chemsolved.com/physical-chemistry-calculators/osmotic-pressure-calculator"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Reaction Rate Formula | Rate Law & Kinetics',
   description: 'Calculate reaction rates using rate laws. Understand rate constants, reaction orders, and concentration-time relationships.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/reaction-rate-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/reaction-rate-formula',
   },
   keywords: ['reaction rate', 'rate law', 'rate constant', 'reaction order', 'chemical kinetics', 'concentration', 'rate equation']
 };
@@ -258,6 +258,56 @@ export default function ReactionRateFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Reaction Rate Formula",
+            "description": "Reaction Rate Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/reaction-rate-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Reaction Rate Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/reaction-rate-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

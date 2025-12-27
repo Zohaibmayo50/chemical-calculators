@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Free percent yield calculator to determine reaction efficiency from actual and theoretical yields. Calculate % yield = (actual/theoretical) × 100 instantly.',
   keywords: 'percent yield calculator, reaction efficiency, actual yield, theoretical yield, stoichiometry calculator',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/stoichiometry-calculators/percent-yield-calculator',
+    canonical: 'https://chemsolved.com/stoichiometry-calculators/percent-yield-calculator',
   },
 };
 
@@ -390,6 +390,56 @@ export default function PercentYieldCalculatorPage() {
           {/* Reviewed By Notice */}
           <ReviewedByNotice />
         </div>
+      
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Percent Yield Calculator",
+            "description": "Percent Yield Calculator on ChemSolved",
+            "url": "https://chemsolved.com/stoichiometry-calculators/percent-yield-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Percent Yield Calculator",
+                "item": "https://chemsolved.com/stoichiometry-calculators/percent-yield-calculator"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

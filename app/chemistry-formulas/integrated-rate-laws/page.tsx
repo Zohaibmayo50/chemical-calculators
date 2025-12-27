@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Integrated Rate Laws | ChemCalc',
   description: 'Zero, first, and second-order integrated rate law equations with examples and common pitfalls.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/integrated-rate-laws',
+    canonical: 'https://chemsolved.com/chemistry-formulas/integrated-rate-laws',
   },
   keywords: 'integrated rate law, zero order, first order, second order, kinetics',
 }
@@ -106,7 +106,57 @@ export default function IntegratedRateLawsPage() {
               <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
             </a>
           </div>
-        </section>      </main>
+        </section>      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Integrated Rate Laws",
+            "description": "Integrated Rate Laws on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/integrated-rate-laws",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Integrated Rate Laws",
+                "item": "https://chemsolved.com/chemistry-formulas/integrated-rate-laws"
+              }
+            ]
+          })
+        }}
+      />
+      </main>
       <Footer />
     </div>
   )

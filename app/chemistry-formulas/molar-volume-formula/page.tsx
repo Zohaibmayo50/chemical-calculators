@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Molar Volume Formula | ChemCalc',
   description: 'Calculate volume of one mole of gas at STP: 22.4 L/mol.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molar-volume-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/molar-volume-formula',
   },
   keywords: 'molar volume, STP, ideal gas, Avogadro, 22.4 L, gas stoichiometry',
 }
@@ -97,6 +97,56 @@ export default function MolarVolumeFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Molar Volume Formula",
+            "description": "Molar Volume Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/molar-volume-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Molar Volume Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/molar-volume-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

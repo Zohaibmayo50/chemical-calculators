@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Cell Potential Formula | ChemCalc',
   description: 'Calculate standard and non-standard cell potentials with examples and common pitfalls.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/cell-potential-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/cell-potential-formula',
   },
   keywords: 'cell potential formula, electrochemistry, Ecell, standard reduction potential',
 }
@@ -127,6 +127,56 @@ export default function CellPotentialFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Cell Potential Formula",
+            "description": "Cell Potential Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/cell-potential-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Cell Potential Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/cell-potential-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

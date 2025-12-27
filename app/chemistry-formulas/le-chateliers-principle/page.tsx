@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Le Chatelier\'s Principle | ChemCalc',
   description: 'Predict how equilibrium shifts in response to stress (concentration, pressure, temperature).',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/le-chateliers-principle',
+    canonical: 'https://chemsolved.com/chemistry-formulas/le-chateliers-principle',
   },
   keywords: 'Le Chatelier principle, equilibrium shift, stress, concentration, pressure, temperature',
 }
@@ -107,6 +107,56 @@ export default function LeChateliersPrinciplePage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Le Chateliers Principle",
+            "description": "Le Chateliers Principle on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/le-chateliers-principle",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Le Chateliers Principle",
+                "item": "https://chemsolved.com/chemistry-formulas/le-chateliers-principle"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

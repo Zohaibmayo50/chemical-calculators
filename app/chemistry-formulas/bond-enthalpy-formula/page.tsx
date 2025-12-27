@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Bond Enthalpy Formula | ChemCalc',
   description: 'Calculate reaction enthalpy from bond energies: ΔH = Σ(bonds broken) - Σ(bonds formed).',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/bond-enthalpy-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/bond-enthalpy-formula',
   },
   keywords: 'bond enthalpy, bond energy, reaction enthalpy, bond dissociation',
 }
@@ -103,6 +103,56 @@ export default function BondEnthalpyFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Bond Enthalpy Formula",
+            "description": "Bond Enthalpy Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/bond-enthalpy-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Bond Enthalpy Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/bond-enthalpy-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Reaction Order Formula | Determine Order from Experimental Data',
   description: 'Determine reaction order using method of initial rates, integrated rate laws, and half-life data. Calculate overall and individual orders.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/reaction-order-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/reaction-order-formula',
   },
   keywords: ['reaction order', 'method of initial rates', 'zero order', 'first order', 'second order', 'rate law', 'kinetics']
 };
@@ -310,6 +310,56 @@ export default function ReactionOrderFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Reaction Order Formula",
+            "description": "Reaction Order Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/reaction-order-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Reaction Order Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/reaction-order-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

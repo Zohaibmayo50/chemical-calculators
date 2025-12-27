@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Bond Energy Formula | Calculate Enthalpy from Bond Energies',
   description: 'Calculate reaction enthalpy using bond energies. ΔH = Σ(bonds broken) - Σ(bonds formed). Estimate heat of reaction from bond strengths.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/bond-energy-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/bond-energy-formula',
   },
   keywords: ['bond energy', 'bond dissociation energy', 'enthalpy', 'reaction energy', 'bond breaking', 'bond formation', 'endothermic', 'exothermic']
 };
@@ -299,6 +299,56 @@ export default function BondEnergyFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Bond Energy Formula",
+            "description": "Bond Energy Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/bond-energy-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Bond Energy Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/bond-energy-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

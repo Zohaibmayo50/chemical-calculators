@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Radioactive Decay Formula | ChemCalc',
   description: 'Use N = N0 e^(−λt) and the relationship with half-life to compute remaining quantity.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/radioactive-decay-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/radioactive-decay-formula',
   },
   keywords: 'radioactive decay formula, half-life, decay constant, nuclear decay',
 }
@@ -91,6 +91,56 @@ export default function RadioactiveDecayFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Radioactive Decay Formula",
+            "description": "Radioactive Decay Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/radioactive-decay-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Radioactive Decay Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/radioactive-decay-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

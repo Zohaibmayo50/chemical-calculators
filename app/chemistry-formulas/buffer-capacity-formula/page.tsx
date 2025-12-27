@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Buffer Capacity Formula | ChemCalc',
   description: 'Calculate buffer capacity (beta) with step-by-step guidance and practical examples.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/buffer-capacity-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/buffer-capacity-formula',
   },
   keywords: 'buffer capacity, beta formula, buffer strength, acid base chemistry',
 }
@@ -127,6 +127,56 @@ export default function BufferCapacityFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Buffer Capacity Formula",
+            "description": "Buffer Capacity Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/buffer-capacity-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Buffer Capacity Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/buffer-capacity-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

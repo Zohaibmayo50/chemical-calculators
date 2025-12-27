@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Chemistry Formulas Library | Essential Equations & Definitions',
   description: 'Complete library of chemistry formulas with clear explanations, variable definitions, and step-by-step examples. From molarity to thermodynamics.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas',
+    canonical: 'https://chemsolved.com/chemistry-formulas',
   },
   keywords: 'chemistry formulas, chemical equations, molarity formula, ideal gas law, stoichiometry formulas, thermodynamics equations',
 };
@@ -608,6 +608,56 @@ export default function ChemistryFormulasPage() {
           </div>
         </div>
       </div>
+
+      {/* Structured Data - CollectionPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Chemistry Formulas Library",
+            "description": "Complete library of chemistry formulas with clear explanations, variable definitions, and step-by-step examples.",
+            "url": "https://chemsolved.com/chemistry-formulas",
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Chemistry Formulas Library",
+                "item": "https://chemsolved.com/chemistry-formulas"
+              }
+            ]
+          })
+        }}
+      />
+
       <Footer />
     </>
   );

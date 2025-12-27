@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Bragg's Law | ChemCalc",
   description: 'X-ray diffraction: nλ = 2d sinθ for crystal structure determination.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/braggs-law',
+    canonical: 'https://chemsolved.com/chemistry-formulas/braggs-law',
   },
   keywords: 'Bragg law, X-ray diffraction, crystal structure, lattice spacing',
 }
@@ -80,6 +80,56 @@ export default function BraggsLawPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Braggs Law",
+            "description": "Braggs Law on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/braggs-law",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Braggs Law",
+                "item": "https://chemsolved.com/chemistry-formulas/braggs-law"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

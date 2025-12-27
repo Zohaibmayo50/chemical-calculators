@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Wavelength-Energy Relationship | E = hc/λ Photon Energy',
   description: 'Calculate photon energy from wavelength using E = hc/λ. Understand the inverse relationship between wavelength and energy in electromagnetic radiation.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/wavelength-energy-relationship',
+    canonical: 'https://chemsolved.com/chemistry-formulas/wavelength-energy-relationship',
   },
   keywords: ['wavelength energy relationship', 'photon energy', 'planck constant', 'speed of light', 'electromagnetic spectrum', 'E=hc/lambda']
 };
@@ -120,6 +120,56 @@ export default function WavelengthEnergyPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Wavelength Energy Relationship",
+            "description": "Wavelength Energy Relationship on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/wavelength-energy-relationship",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Wavelength Energy Relationship",
+                "item": "https://chemsolved.com/chemistry-formulas/wavelength-energy-relationship"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

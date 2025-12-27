@@ -574,7 +574,57 @@ export default function ElectronConfigurationPage() {  return (
             </div>
           </div>
         </div>
-      </div>      </div>
+      </div>
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Electron Configuration Calculator",
+            "description": "Electron Configuration Calculator on ChemSolved",
+            "url": "https://chemsolved.com/atomic-structure-calculators/electron-configuration-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Electron Configuration Calculator",
+                "item": "https://chemsolved.com/atomic-structure-calculators/electron-configuration-calculator"
+              }
+            ]
+          })
+        }}
+      />
+      </div>
       <Footer />
     </>
   );

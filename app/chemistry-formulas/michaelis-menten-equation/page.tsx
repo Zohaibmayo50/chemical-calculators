@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Michaelis-Menten Equation | ChemCalc",
   description: "Understand v = (Vmax [S])/(Km + [S]) with variable definitions, examples, and common mistakes.",
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/michaelis-menten-equation',
+    canonical: 'https://chemsolved.com/chemistry-formulas/michaelis-menten-equation',
   },
   keywords: "michaelis menten equation, Vmax, Km, enzyme kinetics",
 }
@@ -116,6 +116,56 @@ export default function MichaelisMentenEquationPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Michaelis Menten Equation",
+            "description": "Michaelis Menten Equation on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/michaelis-menten-equation",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Michaelis Menten Equation",
+                "item": "https://chemsolved.com/chemistry-formulas/michaelis-menten-equation"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

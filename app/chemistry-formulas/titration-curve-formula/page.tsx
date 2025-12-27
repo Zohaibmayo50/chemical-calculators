@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Titration Curve Formula | pH vs Volume Graph Analysis',
   description: 'Understand pH changes during titration. Identify equivalence point, buffer regions, and calculate pH at any point on the titration curve.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/titration-curve-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/titration-curve-formula',
   },
   keywords: ['titration curve', 'pH curve', 'equivalence point', 'half-equivalence point', 'buffer region', 'endpoint', 'strong acid', 'weak acid']
 };
@@ -302,6 +302,56 @@ export default function TitrationCurveFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Titration Curve Formula",
+            "description": "Titration Curve Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/titration-curve-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Titration Curve Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/titration-curve-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

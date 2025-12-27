@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Equilibrium Constant (K) | ChemCalc',
   description: 'Learn how to write equilibrium constant expressions and calculate K from concentrations or partial pressures.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/equilibrium-constant',
+    canonical: 'https://chemsolved.com/chemistry-formulas/equilibrium-constant',
   },
   keywords: 'equilibrium constant, Kc, Kp, reaction quotient, chemical equilibrium',
 }
@@ -112,6 +112,56 @@ export default function EquilibriumConstantPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Equilibrium Constant",
+            "description": "Equilibrium Constant on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/equilibrium-constant",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Equilibrium Constant",
+                "item": "https://chemsolved.com/chemistry-formulas/equilibrium-constant"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

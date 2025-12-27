@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Van der Waals Equation Calculator & Formula | ChemCalc',
   description: 'Learn the Van der Waals equation for real gases (P + a/V²)(V - b) = RT with step-by-step calculations and examples. Understand gas deviations.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/van-der-waals-equation',
+    canonical: 'https://chemsolved.com/chemistry-formulas/van-der-waals-equation',
   },
   keywords: 'van der waals equation, real gas equation, gas deviation, chemistry calculator, non-ideal gas, gas law formula, chemistry help',
 }
@@ -249,6 +249,56 @@ export default function VanDerWaalsEquation() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Van Der Waals Equation",
+            "description": "Van Der Waals Equation on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/van-der-waals-equation",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Van Der Waals Equation",
+                "item": "https://chemsolved.com/chemistry-formulas/van-der-waals-equation"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

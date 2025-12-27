@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Crystal Field Theory | ChemCalc',
   description: 'Understand d-orbital splitting and stability of coordination complexes.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/crystal-field-theory',
+    canonical: 'https://chemsolved.com/chemistry-formulas/crystal-field-theory',
   },
   keywords: 'crystal field theory, d orbital splitting, coordination chemistry, ligand field',
 }
@@ -94,6 +94,56 @@ export default function CrystalFieldTheoryPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Crystal Field Theory",
+            "description": "Crystal Field Theory on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/crystal-field-theory",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Crystal Field Theory",
+                "item": "https://chemsolved.com/chemistry-formulas/crystal-field-theory"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

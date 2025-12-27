@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Buffer Solution Formula | pH Calculation & Buffer Capacity',
   description: 'Calculate buffer pH using Henderson-Hasselbalch equation. Understand buffer capacity, composition, and resistance to pH change.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/buffer-solution-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/buffer-solution-formula',
   },
   keywords: ['buffer solution', 'buffer capacity', 'henderson hasselbalch', 'weak acid buffer', 'conjugate base', 'pH buffer', 'buffer system']
 };
@@ -168,6 +168,56 @@ export default function BufferSolutionFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Buffer Solution Formula",
+            "description": "Buffer Solution Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/buffer-solution-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Buffer Solution Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/buffer-solution-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Coordination Chemistry Formula | Complex Ions & Ligands',
   description: 'Coordination compounds, complex ions, ligands, coordination number, nomenclature, and crystal field theory.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/coordination-chemistry-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/coordination-chemistry-formula',
   },
   keywords: ['coordination chemistry', 'complex ions', 'ligands', 'coordination number', 'crystal field theory', 'Werner theory']
 };
@@ -375,6 +375,56 @@ export default function CoordinationChemistryFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Coordination Chemistry Formula",
+            "description": "Coordination Chemistry Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/coordination-chemistry-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Coordination Chemistry Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/coordination-chemistry-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Acid Dissociation Constant Formula | Ka, pKa & pH Calculations',
   description: 'Acid dissociation constant (Ka), pKa, pH calculations for weak acids and bases, and acid-base equilibria.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/acid-dissociation-constant-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/acid-dissociation-constant-formula',
   },
   keywords: ['acid dissociation constant', 'Ka', 'pKa', 'weak acid', 'pH calculation', 'acid equilibrium']
 };
@@ -363,6 +363,56 @@ export default function AcidDissociationConstantFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Acid Dissociation Constant Formula",
+            "description": "Acid Dissociation Constant Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/acid-dissociation-constant-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Acid Dissociation Constant Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/acid-dissociation-constant-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

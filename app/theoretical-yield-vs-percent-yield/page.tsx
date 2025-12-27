@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Theoretical Yield vs Percent Yield: Key Differences & Calculations | Chemistry Guide',
   description: 'Understand the difference between theoretical yield (calculated maximum) and percent yield (actual efficiency). Learn formulas, calculations, and practical applications.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/theoretical-yield-vs-percent-yield',
+    canonical: 'https://chemsolved.com/theoretical-yield-vs-percent-yield',
   },
   keywords: ['theoretical yield vs percent yield', 'actual yield', 'reaction efficiency', 'stoichiometry', 'yield calculations', 'chemistry calculations']
 };
@@ -378,6 +378,54 @@ export default function TheoreticalYieldVsPercentYieldPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Theoretical Yield Vs Percent Yield",
+            "description": "Theoretical Yield Vs Percent Yield on ChemSolved",
+            "url": "https://chemsolved.com/theoretical-yield-vs-percent-yield",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Theoretical Yield Vs Percent Yield",
+                "item": "https://chemsolved.com/theoretical-yield-vs-percent-yield"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

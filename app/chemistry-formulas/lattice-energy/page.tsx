@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Lattice Energy Formula | ChemCalc',
   description: 'Calculate ionic solid stability using Born-Haber cycle and lattice energy.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/lattice-energy',
+    canonical: 'https://chemsolved.com/chemistry-formulas/lattice-energy',
   },
   keywords: 'lattice energy, Born-Haber cycle, ionic compounds, crystal energy',
 }
@@ -102,6 +102,56 @@ export default function LatticeEnergyPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Lattice Energy",
+            "description": "Lattice Energy on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/lattice-energy",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Lattice Energy",
+                "item": "https://chemsolved.com/chemistry-formulas/lattice-energy"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

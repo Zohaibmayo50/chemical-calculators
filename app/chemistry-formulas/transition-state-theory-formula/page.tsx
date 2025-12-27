@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Transition State Theory Formula | Activated Complex & Eyring Equation',
   description: 'Transition state theory, activated complex, Eyring equation, activation energy, and reaction coordinate diagrams.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/transition-state-theory-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/transition-state-theory-formula',
   },
   keywords: ['transition state theory', 'activated complex', 'Eyring equation', 'activation energy', 'reaction coordinate']
 };
@@ -370,6 +370,56 @@ export default function TransitionStateTheoryFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Transition State Theory Formula",
+            "description": "Transition State Theory Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/transition-state-theory-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Transition State Theory Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/transition-state-theory-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

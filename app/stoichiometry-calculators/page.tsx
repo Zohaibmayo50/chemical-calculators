@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Stoichiometry Calculators | Mole Ratios & Chemical Equations',
   description: 'Accurate stoichiometry calculators for chemical equations, mole ratios, limiting reagents, and percent yield. Calculate reaction quantities based on balanced equations.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/stoichiometry-calculators',
+    canonical: 'https://chemsolved.com/stoichiometry-calculators',
   },
 };
 
@@ -478,6 +478,54 @@ export default function StoichiometryCalculatorsPage() {
           </div>
         </div>
       </section>
+      
+      {/* Structured Data - CollectionPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Stoichiometry Calculators",
+            "description": "Stoichiometry Calculators on ChemSolved",
+            "url": "https://chemsolved.com/stoichiometry-calculators",
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Stoichiometry Calculators",
+                "item": "https://chemsolved.com/stoichiometry-calculators"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

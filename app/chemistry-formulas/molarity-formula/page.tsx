@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Molarity Formula | M = n/V | Chemistry Equation Explained',
   description: 'Learn the molarity formula (M = n/V) with clear variable definitions, step-by-step examples, and rearranged forms. Master molar concentration calculations.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/molarity-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/molarity-formula',
   },
   keywords: 'molarity formula, molar concentration, M = n/V, chemistry formula, solution concentration, moles per liter',
 };
@@ -397,6 +397,56 @@ export default function MolarityFormulaPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Molarity Formula",
+            "description": "Molarity Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/molarity-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Molarity Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/molarity-formula"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

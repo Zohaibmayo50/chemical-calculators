@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Half-Life Formula | N(t) = N₀(½)^(t/t₁/₂) | Radioactive Decay',
   description: 'Master the half-life formula for radioactive decay and first-order kinetics. Includes examples and decay calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/half-life-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/half-life-formula',
   },
   keywords: 'half-life, radioactive decay, first order kinetics, exponential decay, nuclear chemistry',
 };
@@ -348,6 +348,56 @@ export default function HalfLifeFormulaPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Half Life Formula",
+            "description": "Half Life Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/half-life-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Half Life Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/half-life-formula"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

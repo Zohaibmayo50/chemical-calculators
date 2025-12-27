@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Reaction Quotient (Q) | ChemCalc',
   description: 'Write the reaction quotient and compare Q to K to predict reaction direction.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/reaction-quotient',
+    canonical: 'https://chemsolved.com/chemistry-formulas/reaction-quotient',
   },
   keywords: 'reaction quotient, Q vs K, chemical equilibrium direction',
 }
@@ -100,6 +100,56 @@ export default function ReactionQuotientPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Reaction Quotient",
+            "description": "Reaction Quotient on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/reaction-quotient",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Reaction Quotient",
+                "item": "https://chemsolved.com/chemistry-formulas/reaction-quotient"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

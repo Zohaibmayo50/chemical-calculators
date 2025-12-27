@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Dipole Moment Formula | ChemCalc',
   description: 'Calculate molecular dipole moment using μ = q × d.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/dipole-moment-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/dipole-moment-formula',
   },
   keywords: 'dipole moment, polarity, charge separation, debye',
 }
@@ -107,6 +107,56 @@ export default function DipoleMomentFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Dipole Moment Formula",
+            "description": "Dipole Moment Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/dipole-moment-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Dipole Moment Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/dipole-moment-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

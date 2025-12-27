@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Calculate mole fraction of components in mixtures and solutions. Free online calculator with chi (χ) calculations for chemistry and chemical engineering.',
   keywords: ['mole fraction calculator', 'chi calculator', 'mixture composition', 'solution chemistry', 'vapor pressure', 'Raoults law'],
   alternates: {
-    canonical: 'https://chemicalcalculators.com/concentration-and-solution-calculators/mole-fraction-calculator',
+    canonical: 'https://chemsolved.com/concentration-and-solution-calculators/mole-fraction-calculator',
   },
 };
 
@@ -657,6 +657,56 @@ export default function MoleFractionCalculatorPage() {
             </div>
           </div>
         </div>
+      
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Mole Fraction Calculator",
+            "description": "Mole Fraction Calculator on ChemSolved",
+            "url": "https://chemsolved.com/concentration-and-solution-calculators/mole-fraction-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Mole Fraction Calculator",
+                "item": "https://chemsolved.com/concentration-and-solution-calculators/mole-fraction-calculator"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

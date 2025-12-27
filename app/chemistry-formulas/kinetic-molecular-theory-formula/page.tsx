@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Kinetic Molecular Theory Formula | KMT Postulates & Gas Laws',
   description: 'Understand kinetic molecular theory: postulates, RMS speed, average kinetic energy, and gas behavior at the molecular level.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/kinetic-molecular-theory-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/kinetic-molecular-theory-formula',
   },
   keywords: ['kinetic molecular theory', 'KMT', 'RMS speed', 'average kinetic energy', 'gas postulates', 'molecular motion']
 };
@@ -330,6 +330,56 @@ export default function KineticMolecularTheoryFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Kinetic Molecular Theory Formula",
+            "description": "Kinetic Molecular Theory Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/kinetic-molecular-theory-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kinetic Molecular Theory Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/kinetic-molecular-theory-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

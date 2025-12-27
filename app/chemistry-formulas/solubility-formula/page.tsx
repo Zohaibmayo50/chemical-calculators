@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Solubility Formula | Ksp & Solution Equilibrium',
   description: 'Calculate solubility using solubility product constant (Ksp). Understand dissolution equilibrium and molar solubility.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/solubility-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/solubility-formula',
   },
   keywords: ['solubility', 'Ksp', 'solubility product', 'molar solubility', 'dissolution', 'precipitation', 'common ion effect']
 };
@@ -269,6 +269,56 @@ export default function SolubilityFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Solubility Formula",
+            "description": "Solubility Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/solubility-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Solubility Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/solubility-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

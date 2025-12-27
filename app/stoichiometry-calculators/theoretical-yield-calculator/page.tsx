@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://chemicalcalculators.com/stoichiometry-calculators/theoretical-yield-calculator'
+    canonical: 'https://chemsolved.com/stoichiometry-calculators/theoretical-yield-calculator'
   }
 };
 
@@ -348,7 +348,57 @@ export default function TheoreticalYieldCalculatorPage() {  return (
             </div>
           </div>
         </div>
-      </div>      </div>
+      </div>
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Theoretical Yield Calculator",
+            "description": "Theoretical Yield Calculator on ChemSolved",
+            "url": "https://chemsolved.com/stoichiometry-calculators/theoretical-yield-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Theoretical Yield Calculator",
+                "item": "https://chemsolved.com/stoichiometry-calculators/theoretical-yield-calculator"
+              }
+            ]
+          })
+        }}
+      />
+      </div>
       <Footer />
     </>
   );

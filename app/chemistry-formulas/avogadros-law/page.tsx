@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Avogadro\'s Law | ChemCalc',
   description: 'Volume-mole relationship for gases: V/n = constant at constant T and P.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/avogadros-law',
+    canonical: 'https://chemsolved.com/chemistry-formulas/avogadros-law',
   },
   keywords: 'Avogadro law, gas volume, moles, ideal gas, gas laws',
 }
@@ -99,6 +99,56 @@ export default function AvogadrosLawPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Avogadros Law",
+            "description": "Avogadros Law on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/avogadros-law",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Avogadros Law",
+                "item": "https://chemsolved.com/chemistry-formulas/avogadros-law"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </div>

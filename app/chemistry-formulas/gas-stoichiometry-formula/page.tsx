@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Gas Stoichiometry Formula | Molar Volume & Gas Calculations',
   description: 'Calculate stoichiometry involving gases using molar volume at STP and ideal gas law. Convert between mass, moles, and volume.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/gas-stoichiometry-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/gas-stoichiometry-formula',
   },
   keywords: ['gas stoichiometry', 'molar volume', 'STP', 'ideal gas law', 'gas reactions', '22.4 L/mol', 'PV=nRT']
 };
@@ -255,6 +255,56 @@ export default function GasStoichiometryFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Gas Stoichiometry Formula",
+            "description": "Gas Stoichiometry Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/gas-stoichiometry-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Gas Stoichiometry Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/gas-stoichiometry-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Titration Formula | Acid-Base Neutralization & Equivalence Point',
   description: 'Master titration calculations using M₁V₁ = M₂V₂ and stoichiometry. Calculate unknown concentrations, equivalence points, and titrant volumes.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/titration-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/titration-formula',
   },
   keywords: ['titration formula', 'acid base titration', 'equivalence point', 'M1V1=M2V2', 'neutralization', 'titrant', 'analyte', 'burette']
 };
@@ -205,6 +205,56 @@ export default function TitrationFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Titration Formula",
+            "description": "Titration Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/titration-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Titration Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/titration-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

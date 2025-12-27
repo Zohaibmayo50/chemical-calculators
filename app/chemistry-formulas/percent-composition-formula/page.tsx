@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Percent Composition Formula | ChemCalc',
   description: 'Calculate percent composition of elements in a compound by mass with examples and common pitfalls.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/percent-composition-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/percent-composition-formula',
   },
   keywords: 'percent composition formula, elemental percent, stoichiometry, composition by mass',
 }
@@ -126,6 +126,56 @@ export default function PercentCompositionFormulaPage() {
             </a>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Percent Composition Formula",
+            "description": "Percent Composition Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/percent-composition-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Percent Composition Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/percent-composition-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
 
       <Footer />

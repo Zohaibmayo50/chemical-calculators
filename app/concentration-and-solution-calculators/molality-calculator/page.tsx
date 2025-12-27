@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Free molality calculator to determine solution concentration from moles and solvent mass. Calculate m = n/kg with instant results.',
   keywords: 'molality calculator, solution concentration, molality formula, mol/kg calculator, solvent mass',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/concentration-and-solution-calculators/molality-calculator',
+    canonical: 'https://chemsolved.com/concentration-and-solution-calculators/molality-calculator',
   },
 };
 
@@ -380,6 +380,56 @@ export default function MolalityCalculatorPage() {
             </div>
           </section>
         </div>
+      
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Molality Calculator",
+            "description": "Molality Calculator on ChemSolved",
+            "url": "https://chemsolved.com/concentration-and-solution-calculators/molality-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Molality Calculator",
+                "item": "https://chemsolved.com/concentration-and-solution-calculators/molality-calculator"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

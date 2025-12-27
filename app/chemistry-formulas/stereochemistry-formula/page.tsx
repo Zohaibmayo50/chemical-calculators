@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Stereochemistry Formula | R/S Configuration & Chirality Guide',
   description: 'Assign R and S configurations using Cahn-Ingold-Prelog priority rules. Master stereochemistry, chirality, and optical activity.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/stereochemistry-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/stereochemistry-formula',
   },
   keywords: ['stereochemistry', 'R S configuration', 'chirality', 'enantiomers', 'diastereomers', 'Cahn Ingold Prelog', 'optical activity']
 };
@@ -441,6 +441,56 @@ export default function StereochemistryFormulaPage() {
             </div>
           </div>
         </section>
+      
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Stereochemistry Formula",
+            "description": "Stereochemistry Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/stereochemistry-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Stereochemistry Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/stereochemistry-formula"
+              }
+            ]
+          })
+        }}
+      />
       </main>
       <Footer />
     </>

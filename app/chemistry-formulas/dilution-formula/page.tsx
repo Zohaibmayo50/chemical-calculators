@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Dilution Formula | M₁V₁ = M₂V₂ | Calculate Solution Dilutions',
   description: 'Learn the dilution formula (M₁V₁ = M₂V₂) for preparing dilute solutions. Includes step-by-step examples and calculator links.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/chemistry-formulas/dilution-formula',
+    canonical: 'https://chemsolved.com/chemistry-formulas/dilution-formula',
   },
   keywords: 'dilution formula, M1V1 = M2V2, dilution equation, solution preparation, chemistry dilution',
 };
@@ -248,6 +248,56 @@ export default function DilutionFormulaPage() {
             </div>
           </div>
         </div>
+      {/* Structured Data - EducationalArticle */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "Dilution Formula",
+            "description": "Dilution Formula on ChemSolved",
+            "url": "https://chemsolved.com/chemistry-formulas/dilution-formula",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammad Zohaib",
+              "jobTitle": "Chemist"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            },
+            "educationalLevel": "University",
+            "educationalUse": "Reference"
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Dilution Formula",
+                "item": "https://chemsolved.com/chemistry-formulas/dilution-formula"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>

@@ -130,6 +130,56 @@ export default function DipoleMomentCalculatorPage() {  return (
           </div>
         </div>
       </div>
+      {/* Structured Data - SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Dipole Moment Calculator",
+            "description": "Dipole Moment Calculator on ChemSolved",
+            "url": "https://chemsolved.com/physical-chemistry-calculators/dipole-moment-calculator",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@type": "EducationalOrganization",
+              "name": "ChemSolved",
+              "url": "https://chemsolved.com"
+            }
+          })
+        }}
+      />
+      {/* Structured Data - BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://chemsolved.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Dipole Moment Calculator",
+                "item": "https://chemsolved.com/physical-chemistry-calculators/dipole-moment-calculator"
+              }
+            ]
+          })
+        }}
+      />
+
       </div>
       <Footer />
     </>
