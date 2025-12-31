@@ -553,56 +553,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'dimensionless (rings + double bonds)',
         educationalLevel: ['college']
       },
-      {
-        id: 'iupac-naming',
-        name: 'IUPAC Naming Helper',
-        description: 'Generate IUPAC names for organic compounds',
-        slug: 'iupac-naming-calculator',
-        formula: 'prefix-parent-suffix',
-        variables: 'Systematic naming: longest chain, functional groups, substituents',
-        units: 'nomenclature',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'functional-group',
-        name: 'Functional Group Identifier',
-        description: 'Identify functional groups in organic molecules',
-        slug: 'functional-group-calculator',
-        formula: 'Pattern recognition',
-        variables: 'Alkene, alcohol, carbonyl, carboxyl, amine, etc.',
-        units: 'functional group names',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'isomer-calculator',
-        name: 'Isomer Calculator',
-        description: 'Calculate possible isomers for molecular formulas',
-        slug: 'isomer-calculator',
-        formula: 'Combinatorial analysis',
-        variables: 'Structural, geometric, optical isomers',
-        units: 'number of isomers',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'hybridization',
-        name: 'Hybridization Calculator',
-        description: 'Determine atomic orbital hybridization',
-        slug: 'hybridization-calculator',
-        formula: 'Steric number = bonds + lone pairs',
-        variables: 'sp, sp², sp³, sp³d, sp³d²',
-        units: 'hybridization type',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'molecular-geometry',
-        name: 'Molecular Geometry Calculator',
-        description: 'Predict 3D molecular shapes using VSEPR',
-        slug: 'molecular-geometry-calculator',
-        formula: 'VSEPR theory',
-        variables: 'Linear, bent, trigonal, tetrahedral, octahedral',
-        units: 'geometry names',
-        educationalLevel: ['high-school', 'college']
-      },
     ]
   },
   {
