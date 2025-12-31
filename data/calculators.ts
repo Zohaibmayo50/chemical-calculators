@@ -571,56 +571,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'M/s, M',
         educationalLevel: ['college']
       },
-      {
-        id: 'protein-molecular-weight',
-        name: 'Protein Molecular Weight Calculator',
-        description: 'Calculate molecular weight from amino acid sequence',
-        slug: 'protein-molecular-weight-calculator',
-        formula: 'MW = Σ(amino acid masses) - (n-1)×18',
-        variables: 'n = number of amino acids, subtract water for peptide bonds',
-        units: 'Da, kDa',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'isoelectric-point',
-        name: 'Isoelectric Point Calculator',
-        description: 'Calculate pI of proteins and amino acids',
-        slug: 'isoelectric-point-calculator',
-        formula: 'pI = (pKa₁ + pKa₂) / 2',
-        variables: 'Average of pKa values where net charge = 0',
-        units: 'pH units',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'dna-concentration',
-        name: 'DNA Concentration Calculator',
-        description: 'Calculate DNA concentration from absorbance',
-        slug: 'dna-concentration-calculator',
-        formula: '[DNA] = A₂₆₀ × 50 µg/mL',
-        variables: 'A₂₆₀ = absorbance at 260 nm',
-        units: 'µg/mL, ng/µL',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'tm-calculator',
-        name: 'DNA Melting Temperature Calculator',
-        description: 'Calculate Tm for DNA sequences',
-        slug: 'tm-calculator',
-        formula: 'Tm = 4(G+C) + 2(A+T)',
-        variables: 'Simple formula for short sequences (<14 bp)',
-        units: '°C',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'buffer-capacity',
-        name: 'Buffer Capacity Calculator',
-        description: 'Calculate buffering capacity of solutions',
-        slug: 'buffer-capacity-calculator',
-        formula: 'β = 2.303C(Ka[H⁺])/(Ka + [H⁺])²',
-        variables: 'C = total buffer concentration',
-        units: 'mol/(L·pH)',
-        educationalLevel: ['college']
-      },
     ]
   },
   {
