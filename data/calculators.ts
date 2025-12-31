@@ -310,24 +310,14 @@ export const calculatorCategories: CalculatorCategory[] = [
     semanticContext: 'Chemical thermodynamics studies energy transformations in chemical systems. These calculators determine enthalpy changes, entropy variations, free energy values, and heat capacities to predict whether reactions occur spontaneously and how much energy they release or consume.',
     calculators: [
       {
-        id: 'internal-energy',
-        name: 'Internal Energy Calculator',
-        description: 'Calculate change in internal energy',
-        slug: 'internal-energy-calculator',
-        formula: 'ΔU = Q - W',
-        variables: 'Q = heat added to system, W = work done by system',
-        units: 'J, kJ, cal',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'heat-capacity',
-        name: 'Heat Capacity Calculator',
-        description: 'Calculate specific and molar heat capacity',
-        slug: 'heat-capacity-calculator',
-        formula: 'C = q / ΔT',
-        variables: 'C = heat capacity, q = heat, ΔT = temperature change',
-        units: 'J/K, J/(mol·K), J/(g·K)',
-        educationalLevel: ['college']
+        id: 'specific-heat',
+        name: 'Specific Heat Calculator',
+        description: 'Calculate heat transfer using q = mcΔT',
+        slug: 'specific-heat-calculator',
+        formula: 'q = mcΔT',
+        variables: 'm = mass, c = specific heat, ΔT = temperature change',
+        units: 'J, g, J/(g·K), K',
+        educationalLevel: ['high-school', 'college']
       },
       {
         id: 'calorimetry',
@@ -350,23 +340,13 @@ export const calculatorCategories: CalculatorCategory[] = [
         educationalLevel: ['college']
       },
       {
-        id: 'born-haber',
-        name: 'Born-Haber Cycle Calculator',
-        description: 'Calculate lattice energy using Born-Haber cycle',
-        slug: 'born-haber-calculator',
-        formula: 'ΔH_f = ΔH_sub + IE + EA + ΔH_lattice',
+        id: 'lattice-energy',
+        name: 'Lattice Energy Calculator',
+        description: 'Calculate lattice energy using Born-Haber cycle and Kapustinskii equation',
+        slug: 'lattice-energy-calculator',
+        formula: 'Born-Haber cycle: ΔH_f = ΔH_sub + IE + EA + ΔH_lattice',
         variables: 'Cyclical calculation of ionic compound formation',
         units: 'kJ/mol',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'work',
-        name: 'Work Calculator',
-        description: 'Calculate PV work and expansion work',
-        slug: 'work-calculator',
-        formula: 'W = -PΔV (constant pressure)',
-        variables: 'P = pressure, ΔV = volume change',
-        units: 'J, L·atm',
         educationalLevel: ['college']
       },
       {
