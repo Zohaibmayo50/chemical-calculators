@@ -272,16 +272,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         educationalLevel: ['college']
       },
       {
-        id: 'rate-constant',
-        name: 'Rate Constant Calculator',
-        description: 'Calculate reaction rate constants and orders',
-        slug: 'rate-constant-calculator',
-        formula: 'rate = k[A]ᵐ[B]ⁿ',
-        variables: 'k = rate constant, m,n = reaction orders',
-        units: 'varies with order (M/s, 1/s, 1/(M·s))',
-        educationalLevel: ['college']
-      },
-      {
         id: 'rate-law',
         name: 'Rate Law Calculator',
         description: 'Determine reaction orders and rate constants from experimental data',
@@ -309,36 +299,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         formula: 'k = A·e^(-Ea/RT)',
         variables: 'k = rate constant, A = frequency factor, Ea = activation energy',
         units: 'J/mol, K',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'gibbs-free-energy',
-        name: 'Gibbs Free Energy Calculator',
-        description: 'Determine reaction spontaneity and equilibrium',
-        slug: 'gibbs-free-energy-calculator',
-        formula: 'ΔG = ΔH - TΔS',
-        variables: 'ΔG = Gibbs free energy, ΔH = enthalpy, T = temperature, ΔS = entropy',
-        units: 'kJ/mol, K, J/(mol·K)',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'enthalpy',
-        name: 'Enthalpy Calculator',
-        description: 'Calculate heat of reaction and formation',
-        slug: 'enthalpy-calculator',
-        formula: 'ΔH = Σ(ΔH_products) - Σ(ΔH_reactants)',
-        variables: 'ΔH = enthalpy change, ΔH° = standard enthalpy',
-        units: 'kJ/mol, kcal/mol',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'entropy',
-        name: 'Entropy Calculator',
-        description: 'Calculate entropy change in reactions',
-        slug: 'entropy-calculator',
-        formula: 'ΔS = Σ(S_products) - Σ(S_reactants)',
-        variables: 'ΔS = entropy change, S° = standard entropy',
-        units: 'J/(mol·K)',
         educationalLevel: ['college']
       },
     ]
@@ -427,6 +387,16 @@ export const calculatorCategories: CalculatorCategory[] = [
         formula: 'ΔH°rxn = ΣΔH°f(products) - ΣΔH°f(reactants)',
         variables: 'ΔH°rxn = enthalpy of reaction, ΔH°f = formation enthalpy',
         units: 'kJ/mol',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'entropy',
+        name: 'Entropy Calculator',
+        description: 'Calculate entropy change in chemical reactions and processes',
+        slug: 'entropy-calculator',
+        formula: 'ΔS = Σ(S_products) - Σ(S_reactants)',
+        variables: 'ΔS = entropy change, S° = standard entropy',
+        units: 'J/(mol·K)',
         educationalLevel: ['college']
       },
     ]
