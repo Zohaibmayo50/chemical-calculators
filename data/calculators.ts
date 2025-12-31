@@ -535,46 +535,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'V (volts)',
         educationalLevel: ['college']
       },
-      {
-        id: 'faradays-law',
-        name: 'Faraday\'s Law Calculator',
-        description: 'Calculate electrolysis products and charge',
-        slug: 'faradays-law-calculator',
-        formula: 'm = (Q × M) / (n × F)',
-        variables: 'Q = charge (C), M = molar mass, n = electrons, F = 96485 C/mol',
-        units: 'g, C, g/mol',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'oxidation-number',
-        name: 'Oxidation Number Calculator',
-        description: 'Determine oxidation states in compounds',
-        slug: 'oxidation-number-calculator',
-        formula: 'Σ(oxidation states) = charge',
-        variables: 'Rules: O = -2, H = +1, alkali = +1, alkaline earth = +2',
-        units: 'dimensionless integers',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'redox-balancer',
-        name: 'Redox Reaction Balancer',
-        description: 'Balance oxidation-reduction equations',
-        slug: 'redox-balancer',
-        formula: 'e⁻ lost = e⁻ gained',
-        variables: 'Half-reaction method or oxidation number method',
-        units: 'stoichiometric coefficients',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'battery-capacity',
-        name: 'Battery Capacity Calculator',
-        description: 'Calculate electrochemical cell capacity',
-        slug: 'battery-capacity-calculator',
-        formula: 'Capacity = (n × F) / 3600',
-        variables: 'n = moles of reactant, F = Faraday constant',
-        units: 'Ah (ampere-hours), mAh',
-        educationalLevel: ['college']
-      },
     ]
   },
   {
