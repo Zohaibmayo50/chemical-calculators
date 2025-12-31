@@ -195,7 +195,7 @@ export default function HomePage() {
         </div>
 
         {calculatorCategories
-          .filter(category => category.id !== 'general-chemistry')
+          .filter(category => category.id !== 'general-chemistry' && category.id !== 'other-tools')
           .map((category, index) => (
             <ClusterSection key={category.id} category={category} index={index} />
           ))}
