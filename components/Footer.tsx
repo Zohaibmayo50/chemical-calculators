@@ -22,32 +22,32 @@ export default function Footer() {
             <h4 className="text-white dark:text-primary-400 font-semibold mb-4">Popular Calculators</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/molarity-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
+                <a href="/concentration-and-solution-calculators/molarity-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
                   → Molarity Calculator
                 </a>
               </li>
               <li>
-                <a href="/stoichiometry-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
+                <a href="/stoichiometry-calculators/stoichiometry-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
                   → Stoichiometry Calculator
                 </a>
               </li>
               <li>
-                <a href="/ph-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
+                <a href="/atomic-structure-calculators/ph-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
                   → pH Calculator
                 </a>
               </li>
               <li>
-                <a href="/molar-mass-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
+                <a href="/stoichiometry-calculators/molecular-weight-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
                   → Molar Mass Calculator
                 </a>
               </li>
               <li>
-                <a href="/dilution-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
+                <a href="/concentration-and-solution-calculators/dilution-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
                   → Dilution Calculator
                 </a>
               </li>
               <li>
-                <a href="/percent-yield-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
+                <a href="/stoichiometry-calculators/percent-yield-calculator" className="hover:text-primary-400 dark:hover:text-primary-300 transition-all hover:translate-x-1 inline-block">
                   → Percent Yield Calculator
                 </a>
               </li>
