@@ -194,9 +194,11 @@ export default function HomePage() {
           </div>
         </div>
 
-        {calculatorCategories.map((category, index) => (
-          <ClusterSection key={category.id} category={category} index={index} />
-        ))}
+        {calculatorCategories
+          .filter(category => category.id !== 'general-chemistry')
+          .map((category, index) => (
+            <ClusterSection key={category.id} category={category} index={index} />
+          ))}
       </section>
 
       {/* How These Calculators Work Section */}
