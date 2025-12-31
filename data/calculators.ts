@@ -379,6 +379,26 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'J/(mol·K)',
         educationalLevel: ['college']
       },
+      {
+        id: 'boiling-point-elevation',
+        name: 'Boiling Point Elevation Calculator',
+        description: 'Calculate change in boiling point for solutions',
+        slug: 'boiling-point-elevation-calculator',
+        formula: 'ΔTb = Kb·m',
+        variables: 'Kb = ebullioscopic constant, m = molality',
+        units: '°C, K, mol/kg',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'freezing-point-depression',
+        name: 'Freezing Point Depression Calculator',
+        description: 'Calculate change in freezing point for solutions',
+        slug: 'freezing-point-depression-calculator',
+        formula: 'ΔTf = Kf·m',
+        variables: 'Kf = cryoscopic constant, m = molality',
+        units: '°C, K, mol/kg',
+        educationalLevel: ['college']
+      },
     ]
   },
   {
@@ -416,36 +436,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         variables: 'Initial and final pressure, volume, temperature',
         units: 'atm, L, K',
         educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'osmotic-pressure',
-        name: 'Osmotic Pressure Calculator',
-        description: 'Calculate osmotic pressure of solutions',
-        slug: 'osmotic-pressure-calculator',
-        formula: 'π = MRT',
-        variables: 'π = osmotic pressure, M = molarity, R = gas constant',
-        units: 'atm, M, K',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'boiling-point-elevation',
-        name: 'Boiling Point Elevation Calculator',
-        description: 'Calculate change in boiling point for solutions',
-        slug: 'boiling-point-elevation-calculator',
-        formula: 'ΔTb = Kb·m',
-        variables: 'Kb = ebullioscopic constant, m = molality',
-        units: '°C, K, mol/kg',
-        educationalLevel: ['college']
-      },
-      {
-        id: 'freezing-point-depression',
-        name: 'Freezing Point Depression Calculator',
-        description: 'Calculate change in freezing point for solutions',
-        slug: 'freezing-point-depression-calculator',
-        formula: 'ΔTf = Kf·m',
-        variables: 'Kf = cryoscopic constant, m = molality',
-        units: '°C, K, mol/kg',
-        educationalLevel: ['college']
       },
       {
         id: 'osmotic-pressure',
