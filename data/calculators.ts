@@ -535,6 +535,46 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'V (volts)',
         educationalLevel: ['college']
       },
+      {
+        id: 'oxidation-number',
+        name: 'Oxidation Number Calculator',
+        description: 'Determine oxidation numbers for elements',
+        slug: 'oxidation-number-calculator',
+        formula: 'Σ(oxidation numbers) = total charge',
+        variables: 'Apply oxidation state rules',
+        units: 'dimensionless integers',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'oxidation-state',
+        name: 'Oxidation State Calculator',
+        description: 'Calculate oxidation states in compounds',
+        slug: 'oxidation-state-calculator',
+        formula: 'Σ(oxidation numbers) = total charge',
+        variables: 'Apply oxidation state rules systematically',
+        units: 'dimensionless integers',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'redox-balancing',
+        name: 'Redox Balancing Calculator',
+        description: 'Balance redox equations using half-reactions',
+        slug: 'redox-balancing-calculator',
+        formula: 'Half-reaction method',
+        variables: 'Oxidation and reduction half-reactions',
+        units: 'balanced equation',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'electrolysis',
+        name: 'Electrolysis Calculator',
+        description: 'Calculate electrolysis products and requirements',
+        slug: 'electrolysis-calculator',
+        formula: 'Q = n·F',
+        variables: 'Q = charge, n = moles of electrons, F = Faraday constant',
+        units: 'C, mol, coulombs',
+        educationalLevel: ['college']
+      },
     ]
   },
   {
@@ -647,16 +687,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         formula: 'Group number (for main group elements)',
         variables: 'Outermost shell electrons',
         units: 'number of electrons',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'oxidation-state',
-        name: 'Oxidation State Calculator',
-        description: 'Determine oxidation numbers in compounds',
-        slug: 'oxidation-state-calculator',
-        formula: 'Σ(oxidation numbers) = total charge',
-        variables: 'Apply oxidation state rules systematically',
-        units: 'dimensionless integers',
         educationalLevel: ['high-school', 'college']
       },
       {

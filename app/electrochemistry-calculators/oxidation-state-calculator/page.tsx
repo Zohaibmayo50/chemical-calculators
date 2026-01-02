@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://chemsolved.com/redox-calculators/oxidation-state-calculator'
+    canonical: 'https://chemsolved.com/electrochemistry-calculators/oxidation-state-calculator'
   }
 };
 
@@ -31,8 +31,8 @@ export default function OxidationStateCalculatorPage() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/redox-calculators" className="text-primary-600 dark:text-primary-400 hover:underline">
-                Redox Calculators
+              <Link href="/electrochemistry-calculators" className="text-primary-600 dark:text-primary-400 hover:underline">
+                Electrochemistry Calculators
               </Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-600 dark:text-gray-300">Oxidation State Calculator</span>
@@ -196,11 +196,11 @@ export default function OxidationStateCalculatorPage() {
               <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
                 <div className="grid sm:grid-cols-2 gap-4">
-                  <Link href="/redox-calculators/redox-balancing-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
+                  <Link href="/electrochemistry-calculators/redox-balancing-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
                     <h3 className="font-bold text-gray-900 dark:text-white mb-1">Redox Balancing</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Balance redox equations</p>
                   </Link>
-                  <Link href="/redox-calculators/oxidation-number-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
+                  <Link href="/electrochemistry-calculators/oxidation-number-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
                     <h3 className="font-bold text-gray-900 dark:text-white mb-1">Oxidation Number</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Find oxidation numbers</p>
                   </Link>
@@ -210,8 +210,8 @@ export default function OxidationStateCalculatorPage() {
                   </Link>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-4 mt-4">
-                  <Link href="/redox-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
-                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Redox Calculators →</h3>
+                  <Link href="/electrochemistry-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Electrochemistry Calculators →</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">View complete collection</p>
                   </Link>
                 </div>
@@ -330,7 +330,7 @@ export default function OxidationStateCalculatorPage() {
               "@type": "SoftwareApplication",
               "name": "Oxidation State Calculator",
               "description": "Oxidation State Calculator on ChemSolved",
-              "url": "https://chemsolved.com/redox-calculators/oxidation-state-calculator",
+              "url": "https://chemsolved.com/electrochemistry-calculators/oxidation-state-calculator",
               "applicationCategory": "EducationalApplication",
               "operatingSystem": "Web",
               "offers": {
@@ -363,7 +363,7 @@ export default function OxidationStateCalculatorPage() {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Oxidation State Calculator",
-                  "item": "https://chemsolved.com/redox-calculators/oxidation-state-calculator"
+                  "item": "https://chemsolved.com/electrochemistry-calculators/oxidation-state-calculator"
                 }
               ]
             })
