@@ -7,6 +7,10 @@ import ProteinSolubilityCalculator from '@/components/calculators/ProteinSolubil
 export const metadata: Metadata = {
   title: 'Protein Solubility Calculator | Predict Protein Precipitation',
   description: 'Predict protein solubility based on pH, temperature, salt concentration, and isoelectric point. Optimize buffer conditions to prevent precipitation.',
+  keywords: 'protein solubility calculator, protein precipitation, buffer optimization, isoelectric point, protein aggregation, pH solubility',
+  alternates: {
+    canonical: 'https://chemsolved.com/biochemistry-calculators/protein-solubility-calculator',
+  },
 };
 
 export default function ProteinSolubilityCalculatorPage() {

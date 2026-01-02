@@ -7,6 +7,10 @@ import EnzymeActivityCalculator from '@/components/calculators/EnzymeActivityCal
 export const metadata: Metadata = {
   title: 'Enzyme Activity Calculator | Specific Activity Calculator',
   description: 'Calculate enzyme activity and specific activity from product formation. Determine enzyme purity and characterize enzyme kinetics for biochemical assays.',
+  keywords: 'enzyme activity calculator, specific activity, enzyme units, Units per mg, enzyme purity, biochemical assay',
+  alternates: {
+    canonical: 'https://chemsolved.com/biochemistry-calculators/enzyme-activity-calculator',
+  },
 };
 
 export default function EnzymeActivityCalculatorPage() {

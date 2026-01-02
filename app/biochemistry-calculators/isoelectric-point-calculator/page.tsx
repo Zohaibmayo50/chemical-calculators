@@ -7,6 +7,10 @@ import IsoelectricPointCalculator from '@/components/calculators/IsoelectricPoin
 export const metadata: Metadata = {
   title: 'Isoelectric Point Calculator | pI Calculator for Amino Acids',
   description: 'Calculate the isoelectric point (pI) of amino acids and proteins from pKa values. Determine pH where net charge is zero for electrophoresis and purification.',
+  keywords: 'isoelectric point calculator, pI calculator, amino acid pI, protein charge, isoelectric focusing, electrophoresis',
+  alternates: {
+    canonical: 'https://chemsolved.com/biochemistry-calculators/isoelectric-point-calculator',
+  },
 };
 
 export default function IsoelectricPointCalculatorPage() {

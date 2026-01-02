@@ -7,6 +7,10 @@ import CalibrationCurveCalculator from '@/components/calculators/CalibrationCurv
 export const metadata: Metadata = {
   title: 'Calibration Curve Calculator | Linear Regression for Standards',
   description: 'Calculate calibration curves using linear regression. Generate slope, intercept, R² correlation, and determine unknown concentrations from measured responses.',
+  keywords: 'calibration curve calculator, linear regression, R squared, standard curve, Beer\'s law, spectrophotometry, HPLC calibration',
+  alternates: {
+    canonical: 'https://chemsolved.com/biochemistry-calculators/calibration-curve-calculator',
+  },
 };
 
 export default function CalibrationCurveCalculatorPage() {

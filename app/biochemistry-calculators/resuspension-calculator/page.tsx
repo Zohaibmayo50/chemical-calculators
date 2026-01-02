@@ -7,6 +7,10 @@ import ResuspensionCalculator from '@/components/calculators/ResuspensionCalcula
 export const metadata: Metadata = {
   title: 'Resuspension Calculator | Reconstitute Proteins and Compounds',
   description: 'Calculate volume needed to resuspend lyophilized proteins, DNA, or compounds to desired concentration. Includes molarity conversion and protocol steps.',
+  keywords: 'resuspension calculator, reconstitution calculator, lyophilized protein, antibody reconstitution, stock solution preparation',
+  alternates: {
+    canonical: 'https://chemsolved.com/biochemistry-calculators/resuspension-calculator',
+  },
 };
 
 export default function ResuspensionCalculatorPage() {
