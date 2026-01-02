@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { searchCalculators } from '@/data/calculators';
 import { clusterPages } from '@/data/clusterPages';
 import ThemeToggle from './ThemeToggle';
@@ -31,10 +32,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-600 to-primary-800 dark:from-primary-500 dark:to-primary-700 flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300 animate-bounce-in">
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-              </svg>
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-600 to-primary-800 dark:from-primary-500 dark:to-primary-700 flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300 animate-bounce-in overflow-hidden">
+              <Image 
+                src="/logo.svg" 
+                alt="ChemSolved Logo" 
+                width={40} 
+                height={40}
+                className="w-full h-full"
+                priority
+              />
             </div>
             <div className="hidden sm:block">
               <div className="text-lg font-heading font-bold text-gray-900 dark:text-white transition-colors">ChemSolved</div>

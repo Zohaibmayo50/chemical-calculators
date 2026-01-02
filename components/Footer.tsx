@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { calculatorCategories } from '@/data/calculators';
 
 export default function Footer() {
@@ -9,7 +10,15 @@ export default function Footer() {
           {/* About Section */}
           <div>
             <h3 className="text-white dark:text-primary-400 font-bold text-lg mb-4 flex items-center gap-2">
-              <span className="text-2xl">⚗️</span>
+              <div className="w-8 h-8 flex-shrink-0">
+                <Image 
+                  src="/logo.svg" 
+                  alt="ChemSolved Logo" 
+                  width={32} 
+                  height={32}
+                  className="w-full h-full"
+                />
+              </div>
               ChemSolved
             </h3>
             <p className="text-sm leading-relaxed mb-4 transition-colors">

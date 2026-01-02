@@ -60,6 +60,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'ChemSolved' }],
   creator: 'ChemSolved',
   publisher: 'ChemSolved',
+  icons: {
+    icon: '/icon',
+    apple: '/apple-icon',
+  },
   formatDetection: {
     email: false,
     address: false,
