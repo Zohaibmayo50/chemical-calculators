@@ -593,6 +593,56 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'dimensionless (rings + double bonds)',
         educationalLevel: ['college']
       },
+      {
+        id: 'chemical-oxygen-demand',
+        name: 'Chemical Oxygen Demand Calculator',
+        description: 'Calculate COD levels in water samples',
+        slug: 'chemical-oxygen-demand-calculator',
+        formula: 'COD = [(Vblank - Vsample) × M × 8000] / Vsample',
+        variables: 'V = titration volume (mL), M = oxidant molarity',
+        units: 'mg/L',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'combustion-analysis',
+        name: 'Combustion Analysis Calculator',
+        description: 'Determine elemental composition from combustion data',
+        slug: 'combustion-analysis-calculator',
+        formula: 'mass C = (12.01/44.01) × mass CO₂',
+        variables: 'mass CO₂, mass H₂O, mass sample',
+        units: '%, mg',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'crude-protein',
+        name: 'Crude Protein Calculator',
+        description: 'Calculate protein content from nitrogen percentage',
+        slug: 'crude-protein-calculator',
+        formula: 'Protein (%) = Nitrogen (%) × Factor',
+        variables: 'N%, conversion factor (6.25 general)',
+        units: '% protein',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'liquid-ethylene-density',
+        name: 'Liquid Ethylene Density Calculator',
+        description: 'Calculate density of liquid ethylene at different temperatures',
+        slug: 'liquid-ethylene-density-calculator',
+        formula: 'ρ = ρ₀ × [1 + α(T - T₀)] × [1 + β(P - P₀)]',
+        variables: 'T = temperature (°C), P = pressure (bar)',
+        units: 'kg/m³, g/cm³',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'radiocarbon-dating',
+        name: 'Radiocarbon Dating Calculator',
+        description: 'Calculate age of organic samples using C-14 dating',
+        slug: 'radiocarbon-dating-calculator',
+        formula: 't = (t₁/₂ / ln2) × ln(A₀ / A)',
+        variables: 't₁/₂ = 5730 years, A₀ = initial activity, A = current activity',
+        units: 'years',
+        educationalLevel: ['college']
+      },
     ]
   },
   {
