@@ -611,6 +611,56 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'M/s, M',
         educationalLevel: ['college']
       },
+      {
+        id: 'calibration-curve',
+        name: 'Calibration Curve Calculator',
+        description: 'Calculate calibration curves using linear regression',
+        slug: 'calibration-curve-calculator',
+        formula: 'y = mx + b',
+        variables: 'm = slope, b = intercept, x = concentration, y = response',
+        units: 'varies, R²',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'enzyme-activity',
+        name: 'Enzyme Activity Calculator',
+        description: 'Calculate enzyme activity and specific activity',
+        slug: 'enzyme-activity-calculator',
+        formula: 'Specific Activity = Units/mg protein',
+        variables: 'Units = µmol/min, mg protein',
+        units: 'Units/mg, Units/mL',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'isoelectric-point',
+        name: 'Isoelectric Point Calculator',
+        description: 'Calculate isoelectric point of amino acids and proteins',
+        slug: 'isoelectric-point-calculator',
+        formula: 'pI = (pKa₁ + pKa₂)/2',
+        variables: 'pKa₁, pKa₂ = ionization constants',
+        units: 'pH units',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'protein-solubility',
+        name: 'Protein Solubility Calculator',
+        description: 'Predict protein solubility and optimize buffer conditions',
+        slug: 'protein-solubility-calculator',
+        formula: 'Solubility Score (pH, T, salt, pI)',
+        variables: 'pH, temperature, salt concentration, pI',
+        units: 'score (0-100)',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'resuspension',
+        name: 'Resuspension Calculator',
+        description: 'Calculate volume for reconstituting lyophilized samples',
+        slug: 'resuspension-calculator',
+        formula: 'Volume = Weight/Concentration',
+        variables: 'weight (mg), concentration (mg/mL)',
+        units: 'mL, M',
+        educationalLevel: ['college']
+      },
     ]
   },
   {
