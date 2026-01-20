@@ -27,11 +27,11 @@ export default function AboutPage() {
 
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-12">
-            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
+          <div className="text-center mb-6 sm:mb-8 md:mb-12">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
               About Chemical Calculators
             </h1>
-            <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
               Making chemistry education accurate, accessible, and easy through technology
             </p>
           </div>
@@ -71,58 +71,58 @@ export default function AboutPage() {
           />
 
           {/* ChemSolved Brand Statement */}
-          <section className="mb-12 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
-            <div className="mb-6">
-              <p className="text-lg text-primary-700 dark:text-primary-300 font-semibold">
+          <section className="mb-6 sm:mb-8 md:mb-12 bg-white dark:bg-gray-800 rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg">
+            <div className="mb-4 sm:mb-6">
+              <p className="text-base sm:text-lg text-primary-700 dark:text-primary-300 font-semibold">
                 ChemSolved is an educational chemistry calculator platform designed to make chemistry problem-solving accurate, accessible, and easy through technology. All tools are created and reviewed by a chemist for scientific accuracy.
               </p>
             </div>
-            <div className="flex items-start gap-6">
-              <div className="flex-shrink-0">
-                <div className="w-24 h-24 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center text-white text-3xl font-bold">
+            <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+              <div className="flex-shrink-0 mx-auto sm:mx-0">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center text-white text-2xl sm:text-3xl font-bold">
                   MZ
                 </div>
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
-                  <span className="text-3xl">🔬</span>
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4 flex items-center gap-2 sm:gap-3 justify-center sm:justify-start">
+                  <span className="text-2xl sm:text-3xl">🔬</span>
                   Who Created This Website
                 </h2>
-                <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-                  <p className="text-lg">
+                <div className="space-y-3 sm:space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
+                  <p className="text-base sm:text-lg">
                     <strong className="text-gray-900 dark:text-white">Muhammad Zohaib</strong> is a chemist with a <strong>Master's degree in Chemistry</strong> from{' '}
                     <strong>Lahore Garrison University, Lahore, Pakistan</strong>. He combines academic chemistry knowledge with software engineering and AI 
                     to build accurate and easy-to-use chemistry calculators.
                   </p>
                   
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-                    <div className="bg-primary-50 dark:bg-primary-900/20 p-4 rounded-lg">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mt-4 sm:mt-6">
+                    <div className="bg-primary-50 dark:bg-primary-900/20 p-3 sm:p-4 rounded-lg">
                       <h3 className="font-semibold text-gray-900 dark:text-white mb-2">🎓 Education</h3>
                       <p className="text-sm">Master's Degree in Chemistry<br/>Lahore Garrison University</p>
                     </div>
-                    <div className="bg-primary-50 dark:bg-primary-900/20 p-4 rounded-lg">
+                    <div className="bg-primary-50 dark:bg-primary-900/20 p-3 sm:p-4 rounded-lg">
                       <h3 className="font-semibold text-gray-900 dark:text-white mb-2">💼 Expertise</h3>
                       <p className="text-sm">Chemistry, Web Development, AI Engineering</p>
                     </div>
                   </div>
 
-                  <p className="text-lg mt-6">
+                  <p className="text-base sm:text-lg mt-4 sm:mt-6">
                     ChemSolved focuses on four core principles:
                   </p>
-                  <ul className="space-y-2 ml-6">
-                    <li className="flex items-start gap-2">
+                  <ul className="space-y-2 ml-4 sm:ml-6">
+                    <li className="flex items-start gap-2 text-sm sm:text-base">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
                       <span><strong>Mission:</strong> Helping students and educators perform accurate chemistry calculations</span>
                     </li>
-                    <li className="flex items-start gap-2">
+                    <li className="flex items-start gap-2 text-sm sm:text-base">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
                       <span><strong>Educational Intent:</strong> Teaching chemistry concepts through interactive tools</span>
                     </li>
-                    <li className="flex items-start gap-2">
+                    <li className="flex items-start gap-2 text-sm sm:text-base">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
                       <span><strong>Accuracy:</strong> All formulas and calculators are human-reviewed for scientific correctness</span>
                     </li>
-                    <li className="flex items-start gap-2">
+                    <li className="flex items-start gap-2 text-sm sm:text-base">
                       <span className="text-primary-600 dark:text-primary-400 mt-1">✓</span>
                       <span><strong>Human Review:</strong> Every tool is checked by a qualified chemist before publication</span>
                     </li>
@@ -133,15 +133,15 @@ export default function AboutPage() {
           </section>
 
           {/* Why This Website Exists */}
-          <section className="mb-12 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-              <span className="text-3xl">🎯</span>
+          <section className="mb-6 sm:mb-8 md:mb-12 bg-white dark:bg-gray-800 rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 flex items-center gap-2 sm:gap-3">
+              <span className="text-2xl sm:text-3xl">🎯</span>
               Why This Website Exists
             </h2>
-            <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-              <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded">
-                <h3 className="font-semibold text-red-900 dark:text-red-200 mb-2">The Problem</h3>
-                <ul className="space-y-2 text-red-800 dark:text-red-300">
+            <div className="space-y-3 sm:space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
+              <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-3 sm:p-4 rounded">
+                <h3 className="font-semibold text-red-900 dark:text-red-200 mb-2 text-base sm:text-lg">The Problem</h3>
+                <ul className="space-y-1 sm:space-y-2 text-red-800 dark:text-red-300 text-sm sm:text-base">
                   <li>• Students struggle with complex chemistry calculations</li>
                   <li>• Manual calculations are time-consuming and error-prone</li>
                   <li>• Unit conversions cause frequent mistakes</li>
@@ -149,9 +149,9 @@ export default function AboutPage() {
                 </ul>
               </div>
 
-              <div className="bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-4 rounded">
-                <h3 className="font-semibold text-green-900 dark:text-green-200 mb-2">The Solution</h3>
-                <ul className="space-y-2 text-green-800 dark:text-green-300">
+              <div className="bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-3 sm:p-4 rounded">
+                <h3 className="font-semibold text-green-900 dark:text-green-200 mb-2 text-base sm:text-lg">The Solution</h3>
+                <ul className="space-y-1 sm:space-y-2 text-green-800 dark:text-green-300 text-sm sm:text-base">
                   <li>• Free, instant chemistry calculations with step-by-step explanations</li>
                   <li>• Automatic unit handling and conversions</li>
                   <li>• Clear formula transparency for educational understanding</li>
@@ -159,7 +159,7 @@ export default function AboutPage() {
                 </ul>
               </div>
 
-              <p className="text-lg mt-6">
+              <p className="text-base sm:text-lg mt-4 sm:mt-6">
                 Technology can reduce learning friction in chemistry education. This website bridges the gap between 
                 theoretical chemistry knowledge and practical computational tools, allowing students to focus on 
                 understanding concepts rather than arithmetic.
@@ -168,60 +168,60 @@ export default function AboutPage() {
           </section>
 
           {/* Role of Technology & AI */}
-          <section className="mb-12 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
-              <span className="text-3xl">🧠</span>
+          <section className="mb-6 sm:mb-8 md:mb-12 bg-white dark:bg-gray-800 rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 flex items-center gap-2 sm:gap-3">
+              <span className="text-2xl sm:text-3xl">🧠</span>
               Role of Technology & AI
             </h2>
-            <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-              <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border border-blue-200 dark:border-blue-800">
-                <p className="text-lg font-semibold text-blue-900 dark:text-blue-200 mb-3">
+            <div className="space-y-3 sm:space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
+              <div className="bg-blue-50 dark:bg-blue-900/20 p-4 sm:p-6 rounded-lg border border-blue-200 dark:border-blue-800">
+                <p className="text-base sm:text-lg font-semibold text-blue-900 dark:text-blue-200 mb-2 sm:mb-3">
                   ⚠️ Transparency Statement
                 </p>
-                <p className="text-blue-800 dark:text-blue-300">
+                <p className="text-sm sm:text-base text-blue-800 dark:text-blue-300">
                   Software and AI are used to <strong>automate calculations and improve usability</strong>, while all chemistry 
                   formulas and definitions are based on <strong>standard academic sources</strong> and <strong>reviewed manually</strong> by 
                   a qualified chemist.
                 </p>
               </div>
 
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">What Technology Does:</h3>
-              <ul className="space-y-2 ml-6">
-                <li className="flex items-start gap-2">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mt-4 sm:mt-6">What Technology Does:</h3>
+              <ul className="space-y-1 sm:space-y-2 ml-4 sm:ml-6">
+                <li className="flex items-start gap-2 text-sm sm:text-base">
                   <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
                   <span>Automates repetitive calculations for speed and consistency</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 text-sm sm:text-base">
                   <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
                   <span>Handles unit conversions automatically</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 text-sm sm:text-base">
                   <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
                   <span>Provides instant validation of user inputs</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 text-sm sm:text-base">
                   <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
                   <span>Improves user interface and accessibility</span>
                 </li>
               </ul>
 
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">What Technology Does NOT Do:</h3>
-              <ul className="space-y-2 ml-6">
-                <li className="flex items-start gap-2">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mt-4 sm:mt-6">What Technology Does NOT Do:</h3>
+              <ul className="space-y-1 sm:space-y-2 ml-4 sm:ml-6">
+                <li className="flex items-start gap-2 text-sm sm:text-base">
                   <span className="text-red-600 dark:text-red-400 mt-1">✗</span>
                   <span>AI does <strong>not</strong> invent or modify chemical formulas</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 text-sm sm:text-base">
                   <span className="text-red-600 dark:text-red-400 mt-1">✗</span>
                   <span>AI does <strong>not</strong> generate chemistry definitions without human review</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 text-sm sm:text-base">
                   <span className="text-red-600 dark:text-red-400 mt-1">✗</span>
                   <span>Technology does <strong>not</strong> replace chemistry expertise</span>
                 </li>
               </ul>
 
-              <p className="text-lg mt-6 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+              <p className="text-base sm:text-lg mt-4 sm:mt-6 bg-gray-50 dark:bg-gray-700 p-3 sm:p-4 rounded-lg">
                 <strong>Human Review is Mandatory:</strong> Every calculator and formula page is reviewed for scientific 
                 accuracy by Muhammad Zohaib before publication.
               </p>
@@ -229,38 +229,38 @@ export default function AboutPage() {
           </section>
 
           {/* Mission Statement */}
-          <section className="mb-12 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl p-8 shadow-lg border-2 border-primary-200 dark:border-primary-700">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">
+          <section className="mb-6 sm:mb-8 md:mb-12 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg border-2 border-primary-200 dark:border-primary-700">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 text-center">
               Our Mission
             </h2>
-            <p className="text-xl text-center text-gray-800 dark:text-gray-200 leading-relaxed italic">
+            <p className="text-lg sm:text-xl text-center text-gray-800 dark:text-gray-200 leading-relaxed italic">
               "Making chemistry education accurate, accessible, and easy through technology"
             </p>
-            <p className="text-center text-gray-700 dark:text-gray-300 mt-4">
+            <p className="text-center text-sm sm:text-base text-gray-700 dark:text-gray-300 mt-3 sm:mt-4">
               — Muhammad Zohaib, MSc Chemistry
             </p>
           </section>
 
           {/* Additional Information */}
-          <section className="mb-12 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Contact & Policies</h2>
-            <div className="space-y-4 text-gray-700 dark:text-gray-300">
-              <p>
+          <section className="mb-6 sm:mb-8 md:mb-12 bg-white dark:bg-gray-800 rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">Contact & Policies</h2>
+            <div className="space-y-3 sm:space-y-4 text-gray-700 dark:text-gray-300">
+              <p className="text-sm sm:text-base">
                 For questions about calculator accuracy, formula verification, or educational use:
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
                 <Link 
                   href="/editorial-policy" 
-                  className="block p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg hover:shadow-md transition-shadow"
+                  className="block p-3 sm:p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg hover:shadow-md transition-shadow"
                 >
-                  <h3 className="font-semibold text-primary-900 dark:text-primary-200 mb-2">📋 Editorial Policy</h3>
-                  <p className="text-sm text-gray-700 dark:text-gray-300">
+                  <h3 className="font-semibold text-primary-900 dark:text-primary-200 mb-2 text-sm sm:text-base">📋 Editorial Policy</h3>
+                  <p className="text-xs sm:text-sm text-gray-700 dark:text-gray-300">
                     Learn about our accuracy standards and review process
                   </p>
                 </Link>
-                <div className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                  <h3 className="font-semibold text-gray-900 dark:text-gray-200 mb-2">🎓 Educational Use</h3>
-                  <p className="text-sm text-gray-700 dark:text-gray-300">
+                <div className="block p-3 sm:p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-200 mb-2 text-sm sm:text-base">🎓 Educational Use</h3>
+                  <p className="text-xs sm:text-sm text-gray-700 dark:text-gray-300">
                     Free for students, educators, and researchers
                   </p>
                 </div>
