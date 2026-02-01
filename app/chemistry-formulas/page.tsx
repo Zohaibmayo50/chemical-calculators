@@ -450,12 +450,6 @@ export default function ChemistryFormulasPage() {
                 <p className="text-gray-700 dark:text-gray-300 mt-2">Cell potential under non-standard conditions</p>
               </Link>
 
-              <Link href="/chemistry-formulas/daltons-law" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-yellow-600 dark:text-yellow-400 mb-2">Dalton's Law</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">P<sub>total</sub> = P<sub>1</sub> + P<sub>2</sub> + ...</p>
-                <p className="text-gray-700 dark:text-gray-300 mt-2">Partial pressures in mixtures</p>
-              </Link>
-
               <Link href="/chemistry-formulas/cell-potential-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-bold text-yellow-600 dark:text-yellow-400 mb-2">Cell Potential</h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">E°cell = E°cathode - E°anode</p>
@@ -540,16 +534,11 @@ export default function ChemistryFormulasPage() {
                 <p className="text-gray-600 dark:text-gray-400 text-sm">I = 1/2 Σ c<sub>i</sub> z<sub>i</sub>²</p>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">Total ion concentration measure</p>
               </Link>
+
               <Link href="/chemistry-formulas/vsepr-theory" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-bold text-pink-600 dark:text-pink-400 mb-2">VSEPR Theory</h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">Electron pair repulsion</p>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">Predict molecular geometry</p>
-              </Link>
-
-              <Link href="/chemistry-formulas/ionic-strength-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-bold text-pink-600 dark:text-pink-400 mb-2">Ionic Strength Formula</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">I = 1/2 Σ c<sub>i</sub> z<sub>i</sub>²</p>
-                <p className="text-gray-700 dark:text-gray-300 mt-2">Total ion concentration measure</p>
               </Link>
 
               <Link href="/chemistry-formulas/dipole-moment-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
