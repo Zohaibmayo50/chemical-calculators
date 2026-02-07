@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Equilibrium Constant (K) | ChemCalc',
+  title: 'Equilibrium Constant (K)',
   description: 'Learn how to write equilibrium constant expressions and calculate K from concentrations or partial pressures.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/equilibrium-constant',

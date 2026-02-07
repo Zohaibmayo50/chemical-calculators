@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Molecular Formula Calculator - ChemCalc',
+  title: 'Molecular Formula Calculator',
   description: 'Calculate molecular formulas from empirical formulas and molecular weights. Determine the actual number of atoms in molecules with step-by-step calculations.',
   keywords: 'molecular formula, empirical formula, molecular weight, chemistry calculator, stoichiometry, formula determination',
 };

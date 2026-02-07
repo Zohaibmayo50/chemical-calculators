@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Combustion Analysis Formula | ChemCalc',
+  title: 'Combustion Analysis Formula',
   description: 'Determine empirical formula from combustion product masses.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/combustion-analysis',

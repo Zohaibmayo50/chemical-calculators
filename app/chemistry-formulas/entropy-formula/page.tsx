@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Entropy Formula | ChemCalc',
+  title: 'Entropy Formula',
   description: 'Calculate reaction entropy changes using standard molar entropies with clear steps and examples.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/entropy-formula',

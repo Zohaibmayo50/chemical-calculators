@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: "Michaelis-Menten Equation | ChemCalc",
+  title: "Michaelis-Menten Equation",
   description: "Understand v = (Vmax [S])/(Km + [S]) with variable definitions, examples, and common mistakes.",
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/michaelis-menten-equation',

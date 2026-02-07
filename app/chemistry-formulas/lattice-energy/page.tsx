@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Lattice Energy Formula | ChemCalc',
+  title: 'Lattice Energy Formula',
   description: 'Calculate ionic solid stability using Born-Haber cycle and lattice energy.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/lattice-energy',

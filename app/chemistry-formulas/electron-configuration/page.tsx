@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Electron Configuration Rules | ChemCalc',
+  title: 'Electron Configuration Rules',
   description: 'Aufbau principle, Pauli exclusion, and Hund\'s rule for electron arrangement.',
   keywords: 'electron configuration, Aufbau principle, Pauli exclusion, Hund rule, orbital filling',
 }

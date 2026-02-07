@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Activity Coefficient (γ) | ChemCalc',
+  title: 'Activity Coefficient (γ)',
   description: 'Understand activity a = γ × [C] for non-ideal solutions.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/activity-coefficient',

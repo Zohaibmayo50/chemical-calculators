@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Integrated Rate Laws | ChemCalc',
+  title: 'Integrated Rate Laws',
   description: 'Zero, first, and second-order integrated rate law equations with examples and common pitfalls.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/integrated-rate-laws',

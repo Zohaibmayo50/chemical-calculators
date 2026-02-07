@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Clausius-Clapeyron Equation Calculator & Formula | ChemCalc',
+  title: 'Clausius-Clapeyron Equation Calculator & Formula',
   description: 'Learn the Clausius-Clapeyron equation with step-by-step vapor pressure calculations and examples.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/clausius-clapeyron-equation',

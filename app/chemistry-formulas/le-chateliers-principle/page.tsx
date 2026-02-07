@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Le Chatelier\'s Principle | ChemCalc',
+  title: 'Le Chatelier\'s Principle',
   description: 'Predict how equilibrium shifts in response to stress (concentration, pressure, temperature).',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/le-chateliers-principle',

@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Radioactive Decay Formula | ChemCalc',
+  title: 'Radioactive Decay Formula',
   description: 'Use N = N0 e^(−λt) and the relationship with half-life to compute remaining quantity.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/radioactive-decay-formula',

@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Collision Theory Formula | ChemCalc',
+  title: 'Collision Theory Formula',
   description: 'Understand reaction rate dependence on collisions, energy, and orientation.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/collision-theory',

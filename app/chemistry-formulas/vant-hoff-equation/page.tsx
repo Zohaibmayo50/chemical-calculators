@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: "Van't Hoff Equation Calculator & Formula | ChemCalc",
+  title: "Van't Hoff Equation Calculator & Formula",
   description: "Learn the Van't Hoff equation for equilibrium constants vs temperature with step-by-step examples and practice questions.",
   keywords: "vant hoff equation, equilibrium constant temperature, delta h, van't hoff plot, chemistry calculator",
 }

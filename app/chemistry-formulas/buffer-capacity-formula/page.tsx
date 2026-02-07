@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Buffer Capacity Formula | ChemCalc',
+  title: 'Buffer Capacity Formula',
   description: 'Calculate buffer capacity (beta) with step-by-step guidance and practical examples.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/buffer-capacity-formula',

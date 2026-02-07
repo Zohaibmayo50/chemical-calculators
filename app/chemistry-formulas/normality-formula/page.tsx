@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Normality Formula | ChemCalc',
+  title: 'Normality Formula',
   description: 'Learn how to calculate normality (equivalents per liter) with worked examples and common pitfalls.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/normality-formula',

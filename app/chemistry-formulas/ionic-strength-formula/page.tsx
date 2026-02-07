@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Ionic Strength Formula | ChemCalc',
+  title: 'Ionic Strength Formula',
   description: 'Calculate ionic strength: I = 1/2 Σ(ci zi²) for electrolyte solutions.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/ionic-strength-formula',

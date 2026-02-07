@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Calorimetry Formula | ChemCalc',
+  title: 'Calorimetry Formula',
   description: 'Calculate heat transfer: q = mcΔT for temperature changes.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/calorimetry-formula',

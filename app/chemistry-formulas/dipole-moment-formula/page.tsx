@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Dipole Moment Formula | ChemCalc',
+  title: 'Dipole Moment Formula',
   description: 'Calculate molecular dipole moment using μ = q × d.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/dipole-moment-formula',

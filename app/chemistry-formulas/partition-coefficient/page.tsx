@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Partition Coefficient (Kp) | ChemCalc',
+  title: 'Partition Coefficient (Kp)',
   description: 'Kp = [solute in organic] / [solute in aqueous] for extraction equilibrium.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/partition-coefficient',

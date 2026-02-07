@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Formal Charge Formula | ChemCalc',
+  title: 'Formal Charge Formula',
   description: 'Calculate formal charge: FC = V - N - B/2 for Lewis structures.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/formal-charge-formula',

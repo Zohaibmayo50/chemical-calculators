@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Rate Determining Step | ChemCalc',
+  title: 'Rate Determining Step',
   description: 'Understand how the slowest step controls overall reaction rate in multi-step mechanisms.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/rate-determining-step',

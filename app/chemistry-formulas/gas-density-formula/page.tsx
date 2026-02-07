@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Gas Density Formula | ChemCalc',
+  title: 'Gas Density Formula',
   description: 'Compute density using ρ = (P M) / (R T).',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/gas-density-formula',

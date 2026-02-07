@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Rate Law Calculator & Formula | ChemCalc',
+  title: 'Rate Law Calculator & Formula',
   description: 'Learn rate law formulas, reaction orders, and rate constants with step-by-step calculations and examples. Master chemical kinetics.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/rate-law',

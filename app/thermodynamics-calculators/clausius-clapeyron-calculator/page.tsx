@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 
 export const metadata = {
-  title: 'Clausius-Clapeyron Calculator | ChemCalc',
+  title: 'Clausius-Clapeyron Calculator',
   description: 'Calculate vapor pressure, boiling point, and enthalpy of vaporization using the Clausius-Clapeyron equation. Essential for phase transitions and thermodynamics.',
   keywords: 'Clausius-Clapeyron equation, vapor pressure, boiling point, enthalpy of vaporization, phase transition, thermodynamics, chemistry calculator',
 };

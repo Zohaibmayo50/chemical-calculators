@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Osmotic Pressure Calculator & Formula | ChemCalc',
+  title: 'Osmotic Pressure Calculator & Formula',
   description: 'Calculate osmotic pressure using Π = i M R T with examples, assumptions, and common pitfalls.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/osmotic-pressure',

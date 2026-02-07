@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 
 export const metadata = {
-  title: 'Redox Balancing Calculator | ChemCalc',
+  title: 'Redox Balancing Calculator',
   description: 'Balance redox reactions using the half-reaction method in acidic, basic, or neutral solutions. Learn step-by-step how to balance oxidation-reduction equations.',
   keywords: 'redox balancing, half-reaction method, oxidation reduction, acidic basic solutions, electron transfer, redox equations, chemistry calculator',
 };

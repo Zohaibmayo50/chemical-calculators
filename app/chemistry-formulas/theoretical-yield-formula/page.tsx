@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Theoretical Yield Formula | ChemCalc',
+  title: 'Theoretical Yield Formula',
   description: 'Calculate maximum product from stoichiometry and limiting reactant.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/theoretical-yield-formula',

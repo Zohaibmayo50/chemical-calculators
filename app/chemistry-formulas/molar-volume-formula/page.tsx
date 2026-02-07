@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Molar Volume Formula | ChemCalc',
+  title: 'Molar Volume Formula',
   description: 'Calculate volume of one mole of gas at STP: 22.4 L/mol.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/molar-volume-formula',

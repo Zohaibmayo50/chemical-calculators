@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 
 export const metadata = {
-  title: 'Specific Heat Calculator | ChemCalc',
+  title: 'Specific Heat Calculator',
   description: 'Calculate heat transfer using q = mcΔT. Find heat energy, mass, specific heat capacity, or temperature change for any substance.',
   keywords: 'specific heat, heat capacity, calorimetry, heat transfer, temperature change, q = mcΔT, thermodynamics, energy, chemistry calculator',
 };

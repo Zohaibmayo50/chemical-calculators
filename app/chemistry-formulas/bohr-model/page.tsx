@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Bohr Model Formula | ChemCalc',
+  title: 'Bohr Model Formula',
   description: 'Energy levels and radius of hydrogen-like atoms: E = -13.6 Z²/n².',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/bohr-model',

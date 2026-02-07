@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Freezing Point Depression Calculator & Formula | ChemCalc',
+  title: 'Freezing Point Depression Calculator & Formula',
   description: 'Calculate freezing point depression using ΔTf = i Kf m with examples, units, and common pitfalls.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/freezing-point-depression',

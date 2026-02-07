@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: "Faraday's Law of Electrolysis | ChemCalc",
+  title: "Faraday's Law of Electrolysis",
   description: 'Compute mass deposited using m = (Q M) / (n F).',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/faradays-law',

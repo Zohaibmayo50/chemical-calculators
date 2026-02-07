@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Boiling Point Elevation Calculator & Formula | ChemCalc',
+  title: 'Boiling Point Elevation Calculator & Formula',
   description: 'Calculate boiling point elevation using ΔTb = i Kb m with examples, assumptions, and common pitfalls.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/boiling-point-elevation',

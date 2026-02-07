@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Bond Enthalpy Formula | ChemCalc',
+  title: 'Bond Enthalpy Formula',
   description: 'Calculate reaction enthalpy from bond energies: ΔH = Σ(bonds broken) - Σ(bonds formed).',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/bond-enthalpy-formula',

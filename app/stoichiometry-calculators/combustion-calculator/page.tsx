@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Combustion Calculator - ChemCalc',
+  title: 'Combustion Calculator',
   description: 'Calculate complete and incomplete combustion reactions. Balance combustion equations, determine products, and calculate energy released.',
   keywords: 'combustion, burning, hydrocarbon, oxygen, CO2, energy, enthalpy, complete combustion, incomplete combustion',
 };

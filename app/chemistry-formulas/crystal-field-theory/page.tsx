@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Crystal Field Theory | ChemCalc',
+  title: 'Crystal Field Theory',
   description: 'Understand d-orbital splitting and stability of coordination complexes.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/crystal-field-theory',

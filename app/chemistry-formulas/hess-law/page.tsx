@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: "Hess's Law | ChemCalc",
+  title: "Hess's Law",
   description: "Calculate reaction enthalpy by summing enthalpy changes of intermediate steps.",
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/hess-law',

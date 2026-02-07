@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Solubility Product Constant (Ksp) | ChemCalc',
+  title: 'Solubility Product Constant (Ksp)',
   description: 'Ksp expresses the equilibrium solubility of sparingly soluble salts.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/solubility-product-constant-ksp',

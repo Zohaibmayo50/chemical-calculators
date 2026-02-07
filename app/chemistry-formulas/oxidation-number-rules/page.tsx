@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Oxidation Number Rules | ChemCalc',
+  title: 'Oxidation Number Rules',
   description: 'Determine oxidation states using systematic rules for redox chemistry.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/oxidation-number-rules',

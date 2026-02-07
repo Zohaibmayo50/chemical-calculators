@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Hybridization Rules | ChemCalc',
+  title: 'Hybridization Rules',
   description: 'Determine sp, sp², sp³, and other hybrid orbitals from molecular geometry.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/hybridization',

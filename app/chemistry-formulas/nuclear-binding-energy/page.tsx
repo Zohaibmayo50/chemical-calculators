@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Nuclear Binding Energy | ChemCalc',
+  title: 'Nuclear Binding Energy',
   description: 'Calculate binding energy using E = Δm c² from mass defect.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/nuclear-binding-energy',

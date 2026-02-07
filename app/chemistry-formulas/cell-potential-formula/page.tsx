@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Cell Potential Formula | ChemCalc',
+  title: 'Cell Potential Formula',
   description: 'Calculate standard and non-standard cell potentials with examples and common pitfalls.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/cell-potential-formula',

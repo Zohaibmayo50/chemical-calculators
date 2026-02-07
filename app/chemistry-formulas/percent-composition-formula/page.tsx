@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Percent Composition Formula | ChemCalc',
+  title: 'Percent Composition Formula',
   description: 'Calculate percent composition of elements in a compound by mass with examples and common pitfalls.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/percent-composition-formula',

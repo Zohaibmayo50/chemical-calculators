@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Molecular Weight Formula | ChemCalc',
+  title: 'Molecular Weight Formula',
   description: 'Compute molecular weight (molar mass) from atomic masses with step-by-step examples.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/molecular-weight-formula',

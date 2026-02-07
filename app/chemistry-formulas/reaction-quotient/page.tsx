@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Reaction Quotient (Q) | ChemCalc',
+  title: 'Reaction Quotient (Q)',
   description: 'Write the reaction quotient and compare Q to K to predict reaction direction.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/reaction-quotient',

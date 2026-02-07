@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Degree of Unsaturation | ChemCalc',
+  title: 'Degree of Unsaturation',
   description: 'Calculate rings + double bonds using molecular formula.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/degree-of-unsaturation',

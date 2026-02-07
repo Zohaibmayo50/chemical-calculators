@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Common Ion Effect | ChemCalc',
+  title: 'Common Ion Effect',
   description: 'Understand how adding a common ion suppresses solubility and shifts equilibrium.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/common-ion-effect',

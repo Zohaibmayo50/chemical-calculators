@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Percent Error Formula | ChemCalc',
+  title: 'Percent Error Formula',
   description: 'Calculate percent error between experimental and theoretical values.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/percent-error-formula',
