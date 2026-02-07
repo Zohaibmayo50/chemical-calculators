@@ -430,7 +430,7 @@ export default function StereochemistryFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">NMR Chemical Shift</h3>
                 <p className="text-gray-600 dark:text-gray-400">Structure elucidation</p>
               </Link>
-              <Link href="/chemistry-formulas/degree-unsaturation-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/chemistry-formulas/degree-of-unsaturation" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Degree of Unsaturation</h3>
                 <p className="text-gray-600 dark:text-gray-400">DBE calculations</p>
               </Link>
