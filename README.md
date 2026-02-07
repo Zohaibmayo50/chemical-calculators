@@ -1,4 +1,4 @@
-# Chemical Calculators Website
+# ChemSolved - Chemistry Calculators
 
 A comprehensive Next.js 14 website featuring 100+ chemistry calculators organized by topical authority and semantic SEO principles.
 
@@ -61,7 +61,7 @@ pnpm dev
 ## 📁 Project Structure
 
 ```
-chemcalc/
+chemsolved/
 ├── app/
 │   ├── layout.tsx          # Root layout with metadata
 │   ├── page.tsx            # Homepage
