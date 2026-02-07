@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'buffer range',
     'phosphate buffer',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/acid-base-calculators/buffer-capacity-calculator',
+  },
 };
 
 export default function BufferCapacityCalculatorPage() {  return (

@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'acid base chemistry',
     'titration analysis',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/acid-base-calculators/titration-curve-calculator',
+  },
 };
 
 export default function TitrationCurveCalculatorPage() {  return (

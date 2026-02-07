@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Entropy Calculator | ΔS° | Reaction Spontaneity",
   description: "Calculate entropy change (ΔS°) for chemical reactions. Essential for thermodynamics, spontaneity predictions, and Gibbs free energy calculations.",
   keywords: ['entropy', 'entropy change', 'delta s', 'thermodynamics', 'spontaneity', 'disorder', 'second law', 'standard entropy'],
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/entropy-calculator',
+  },
 };
 
 export default function EntropyCalculatorPage() {  return (

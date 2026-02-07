@@ -7,6 +7,9 @@ import ArrheniusCalculator from '@/components/calculators/ArrheniusCalculator';
 export const metadata: Metadata = {
   title: 'Arrhenius Equation Calculator | Activation Energy | Temperature Effects',
   description: 'Calculate rate constants, activation energy, and temperature effects using the Arrhenius equation: k = A·e^(-Ea/RT). Essential for chemical kinetics.',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemical-reaction-calculators/arrhenius-calculator',
+  },
 };
 
 export default function ArrheniusCalculatorPage() {

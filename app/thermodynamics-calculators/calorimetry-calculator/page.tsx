@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Calorimetry Calculator | Heat Capacity | q=mcΔT",
   description: "Calculate heat transfer using q=mcΔT. Essential for thermochemistry, specific heat determination, and energy calculations.",
   keywords: ['calorimetry', 'specific heat', 'heat capacity', 'temperature change', 'thermochemistry', 'q=mcΔT', 'energy transfer'],
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/calorimetry-calculator',
+  },
 };
 
 export default function CalorimetryCalculatorPage() {  return (

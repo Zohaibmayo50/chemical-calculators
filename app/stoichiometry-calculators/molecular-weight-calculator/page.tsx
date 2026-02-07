@@ -7,6 +7,9 @@ import MolecularWeightCalculator from '@/components/calculators/MolecularWeightC
 export const metadata: Metadata = {
   title: 'Molecular Weight Calculator | Molar Mass Calculator | Formula Weight',
   description: 'Calculate molecular weight and molar mass from chemical formulas. Get composition breakdown and percent composition for any molecule.',
+  alternates: {
+    canonical: 'https://chemsolved.com/stoichiometry-calculators/molecular-weight-calculator',
+  },
 };
 
 export default function MolecularWeightCalculatorPage() {

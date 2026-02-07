@@ -7,6 +7,9 @@ import EnthalpyReactionCalculator from '@/components/calculators/EnthalpyReactio
 export const metadata: Metadata = {
   title: 'Enthalpy of Reaction Calculator | ΔH Calculator | Heat of Reaction',
   description: 'Calculate enthalpy of reaction using formation enthalpies or bond energies. Determine if reactions are exothermic or endothermic.',
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/enthalpy-reaction-calculator',
+  },
 };
 
 export default function EnthalpyReactionCalculatorPage() {

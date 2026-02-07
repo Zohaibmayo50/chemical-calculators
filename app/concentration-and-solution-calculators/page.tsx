@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Concentration & Solution Calculators | Molarity, Dilution & Normality',
   description: 'Precise concentration and solution calculators for molarity, molality, dilution, normality, and percent composition. Calculate solution properties accurately.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/concentration-and-solution-calculators',
+    canonical: 'https://chemsolved.com/concentration-and-solution-calculators',
   },
 };
 

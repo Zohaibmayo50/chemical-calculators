@@ -7,6 +7,9 @@ import RateLawCalculator from '@/components/calculators/RateLawCalculator';
 export const metadata: Metadata = {
   title: 'Rate Law Calculator | Chemical Kinetics | Reaction Order Calculator',
   description: 'Determine reaction orders, rate constants, and reaction rates using the rate law equation: Rate = k[A]^m[B]^n. Essential for chemical kinetics studies.',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemical-reaction-calculators/rate-law-calculator',
+  },
 };
 
 export default function RateLawCalculatorPage() {

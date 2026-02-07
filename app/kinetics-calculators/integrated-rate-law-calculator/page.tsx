@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Integrated Rate Law Calculator - Zero, First & Second Order Kinetics',
   description: 'Calculate concentration vs time for zero, first, and second order reactions. Determine rate constants, half-lives, and reaction progress with instant calculations.',
   keywords: ['integrated rate law', 'reaction kinetics', 'zero order', 'first order', 'second order', 'half-life', 'rate constant', 'chemical kinetics', 'concentration'],
+  alternates: {
+    canonical: 'https://chemsolved.com/kinetics-calculators/integrated-rate-law-calculator',
+  },
 };
 
 export default function IntegratedRateLawCalculatorPage() {  return (

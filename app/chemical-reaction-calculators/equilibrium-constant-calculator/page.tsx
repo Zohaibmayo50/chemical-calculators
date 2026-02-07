@@ -7,6 +7,9 @@ import EquilibriumConstantCalculator from '@/components/calculators/EquilibriumC
 export const metadata: Metadata = {
   title: 'Equilibrium Constant Calculator | Kc & Reaction Quotient Calculator',
   description: 'Calculate equilibrium constant (Kc) for chemical reactions. Determine equilibrium position from product and reactant concentrations for reversible reactions.',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemical-reaction-calculators/equilibrium-constant-calculator',
+  },
 };
 
 export default function EquilibriumConstantCalculatorPage() {

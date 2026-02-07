@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Limiting Reactant Calculator | Excess Reactant | Stoichiometry",
   description: "Determine the limiting reactant and calculate theoretical yield. Essential for stoichiometry and chemical reactions.",
   keywords: ['limiting reactant', 'excess reactant', 'theoretical yield', 'stoichiometry', 'chemical reactions', 'balanced equation'],
+  alternates: {
+    canonical: 'https://chemsolved.com/stoichiometry-calculators/limiting-reactant-calculator',
+  },
 };
 
 export default function LimitingReactantCalculatorPage() {  return (

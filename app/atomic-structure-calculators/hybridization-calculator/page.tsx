@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Hybridization Calculator - sp, sp2, sp3, sp3d, sp3d2',
   description: 'Determine orbital hybridization from molecular geometry or bonding pairs. Calculate sp, sp2, sp3, sp3d, and sp3d2 hybridization states with VSEPR theory.',
   keywords: ['hybridization', 'sp', 'sp2', 'sp3', 'orbital hybridization', 'VSEPR', 'molecular geometry', 'bonding', 'chemistry calculator'],
+  alternates: {
+    canonical: 'https://chemsolved.com/atomic-structure-calculators/hybridization-calculator',
+  },
 };
 
 export default function HybridizationCalculatorPage() {  return (

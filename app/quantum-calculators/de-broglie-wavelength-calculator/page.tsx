@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'de Broglie Wavelength Calculator - Matter Waves & Quantum Mechanics',
   description: 'Calculate de Broglie wavelength from momentum, mass, and velocity. Explore wave-particle duality and matter wave properties in quantum mechanics.',
   keywords: ['de Broglie wavelength', 'matter waves', 'wave-particle duality', 'quantum mechanics', 'momentum', 'chemistry calculator', 'physics'],
+  alternates: {
+    canonical: 'https://chemsolved.com/quantum-calculators/de-broglie-wavelength-calculator',
+  },
 };
 
 export default function DeBroglieWavelengthCalculatorPage() {  return (

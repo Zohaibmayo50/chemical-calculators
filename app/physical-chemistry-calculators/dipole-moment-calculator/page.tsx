@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'chemistry polarity',
     'molecular dipole',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/dipole-moment-calculator',
+  },
 };
 
 export default function DipoleMomentCalculatorPage() {  return (

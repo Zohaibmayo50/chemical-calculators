@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Thermodynamics Calculators | Enthalpy, Entropy & Gibbs Free Energy',
   description: 'Calculate thermodynamic properties including enthalpy, entropy, Gibbs free energy, and heat capacity. Predict reaction spontaneity and equilibrium.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/thermodynamics-calculators',
+    canonical: 'https://chemsolved.com/thermodynamics-calculators',
   },
 };
 

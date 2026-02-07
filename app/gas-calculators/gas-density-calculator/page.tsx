@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Gas Density Calculator - Ideal Gas Law & Molar Mass',
   description: 'Calculate gas density, molar mass, pressure, or temperature using the ideal gas law. Determine molecular weight from density measurements.',
   keywords: ['gas density', 'molar mass', 'ideal gas law', 'molecular weight', 'gas calculator', 'chemistry', 'STP', 'D=PM/RT'],
+  alternates: {
+    canonical: 'https://chemsolved.com/gas-calculators/gas-density-calculator',
+  },
 };
 
 export default function GasDensityCalculatorPage() {  return (

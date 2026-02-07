@@ -7,6 +7,9 @@ import MichaelisMentenCalculator from '@/components/calculators/MichaelisMentenC
 export const metadata: Metadata = {
   title: 'Michaelis-Menten Calculator | Enzyme Kinetics Calculator',
   description: 'Calculate enzyme reaction velocity using the Michaelis-Menten equation. Determine v, Vmax, Km, and substrate concentration for enzyme kinetics analysis.',
+  alternates: {
+    canonical: 'https://chemsolved.com/biochemistry-calculators/michaelis-menten-calculator',
+  },
 };
 
 export default function MichaelisMentenCalculatorPage() {

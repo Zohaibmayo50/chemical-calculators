@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'chemical kinetics',
     'temperature dependence',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/kinetics-calculators/collision-theory-calculator',
+  },
 };
 
 export default function CollisionTheoryCalculatorPage() {  return (

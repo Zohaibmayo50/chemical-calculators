@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'functional group analysis',
     'nmr interpretation',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/organic-chemistry-calculators/nmr-chemical-shift-calculator',
+  },
 };
 
 export default function NMRChemicalShiftCalculatorPage() {  return (

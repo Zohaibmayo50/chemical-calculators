@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Disclaimer',
   description: 'Disclaimer for ChemSolved - Important information about the use and limitations of our chemistry calculators and educational content.',
   keywords: ['disclaimer', 'liability disclaimer', 'ChemSolved disclaimer', 'chemistry calculators disclaimer'],
+  alternates: {
+    canonical: 'https://chemsolved.com/disclaimer',
+  },
   openGraph: {
     title: 'Disclaimer | ChemSolved',
     description: 'Disclaimer for ChemSolved - Important information about the use and limitations of our chemistry calculators.',

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Raoult's Law Calculator | Vapor Pressure | Ideal Solutions",
   description: "Calculate partial vapor pressure and vapor pressure lowering using Raoult's Law. Perfect for colligative properties, ideal solutions, and solution chemistry.",
   keywords: ['raoults law', 'vapor pressure', 'colligative properties', 'ideal solutions', 'mole fraction', 'vapor pressure lowering', 'solution chemistry', 'partial pressure'],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/raoults-law-calculator',
+  },
 };
 
 export default function RaoultsLawCalculatorPage() {  return (

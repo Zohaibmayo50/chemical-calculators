@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Colligative Properties Calculator | Freezing Point Depression | Boiling Point Elevation",
   description: "Calculate freezing point depression, boiling point elevation, and osmotic pressure. Essential for solution chemistry.",
   keywords: ['colligative properties', 'freezing point depression', 'boiling point elevation', 'osmotic pressure', 'van\'t Hoff factor', 'molality'],
+  alternates: {
+    canonical: 'https://chemsolved.com/solution-calculators/colligative-properties-calculator',
+  },
 };
 
 export default function ColligativePropertiesCalculatorPage() {  return (

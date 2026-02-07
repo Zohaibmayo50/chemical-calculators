@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Formal Charge Calculator - Lewis Structures & Resonance | ChemCalc',
   description: 'Calculate formal charge using FC = V - N - B/2 for Lewis structures and resonance forms. Includes common atoms, molecules, and stability guidelines.',
   keywords: 'formal charge calculator, Lewis structures, resonance, electron distribution, molecular structure, valence electrons, chemistry calculator',
+  alternates: {
+    canonical: 'https://chemsolved.com/atomic-structure-calculators/formal-charge-calculator',
+  },
 };
 
 export default function FormalChargeCalculatorPage() {  return (

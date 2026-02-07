@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Terms of Use',
   description: 'Terms of Use for ChemSolved - Read the terms and conditions for using our chemistry calculators and educational tools.',
   keywords: ['terms of use', 'terms and conditions', 'ChemSolved terms', 'chemistry calculators terms'],
+  alternates: {
+    canonical: 'https://chemsolved.com/terms',
+  },
   openGraph: {
     title: 'Terms of Use | ChemSolved',
     description: 'Terms of Use for ChemSolved - Read the terms and conditions for using our chemistry calculators.',

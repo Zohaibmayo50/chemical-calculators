@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Organic Chemistry Calculators | Functional Groups, Reactions & Mechanisms',
   description: 'Calculate organic reaction parameters, functional group properties, stereochemistry, and molecular structure characteristics.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/organic-chemistry-calculators',
+    canonical: 'https://chemsolved.com/organic-chemistry-calculators',
   },
 };
 

@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'optical isomers',
     'organic chemistry stereochemistry',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/organic-chemistry-calculators/stereochemistry-calculator',
+  },
 };
 
 export default function StereochemistryCalculatorPage() {  return (

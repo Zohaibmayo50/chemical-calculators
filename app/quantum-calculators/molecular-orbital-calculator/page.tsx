@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'quantum chemistry',
     'chemical bonding',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/quantum-calculators/molecular-orbital-calculator',
+  },
 };
 
 export default function MolecularOrbitalCalculatorPage() {  return (

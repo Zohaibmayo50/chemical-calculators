@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Kinetic Molecular Theory Calculator | RMS Velocity | Molecular Speed",
   description: "Calculate root-mean-square velocity and molecular kinetic energy. Essential for understanding gas behavior and molecular motion.",
   keywords: ['kinetic molecular theory', 'rms velocity', 'molecular speed', 'kinetic energy', 'gas molecules', 'temperature', 'KMT'],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/kinetic-molecular-theory-calculator',
+  },
 };
 
 export default function KineticMolecularTheoryCalculatorPage() {  return (

@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'ionic interactions',
     'solution chemistry',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/activity-coefficient-calculator',
+  },
 };
 
 export default function ActivityCoefficientCalculatorPage() {  return (

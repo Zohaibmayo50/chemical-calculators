@@ -7,6 +7,9 @@ import NernstEquationCalculator from '@/components/calculators/NernstEquationCal
 export const metadata: Metadata = {
   title: 'Nernst Equation Calculator | Cell Potential Under Non-Standard Conditions',
   description: 'Calculate electrochemical cell potential under non-standard conditions using the Nernst equation. Determine E, E°, Q, temperature, and electron transfer effects.',
+  alternates: {
+    canonical: 'https://chemsolved.com/electrochemistry-calculators/nernst-equation-calculator',
+  },
 };
 
 export default function NernstEquationCalculatorPage() {

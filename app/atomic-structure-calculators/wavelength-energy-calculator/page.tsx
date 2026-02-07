@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Wavelength Energy Calculator - Photon Energy & Frequency | ChemCalc',
   description: 'Calculate photon energy, wavelength, and frequency using E = hf. Includes electromagnetic spectrum regions, quantum mechanics calculations, and spectroscopy applications.',
   keywords: 'wavelength calculator, photon energy, frequency calculator, electromagnetic spectrum, quantum mechanics, spectroscopy, E = hf, Planck constant',
+  alternates: {
+    canonical: 'https://chemsolved.com/atomic-structure-calculators/wavelength-energy-calculator',
+  },
 };
 
 export default function WavelengthEnergyCalculatorPage() {  return (

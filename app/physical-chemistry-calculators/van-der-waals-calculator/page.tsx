@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Van der Waals Calculator | Real Gas Equation | Non-Ideal Gases",
   description: "Calculate real gas behavior using Van der Waals equation. Account for molecular size and intermolecular forces in gas calculations.",
   keywords: ['van der waals', 'real gas', 'non-ideal gas', 'intermolecular forces', 'molecular volume', 'gas constants', 'high pressure'],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/van-der-waals-calculator',
+  },
 };
 
 export default function VanDerWaalsCalculatorPage() {  return (

@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'quantum chemistry',
     'wavefunction',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/quantum-calculators/heisenberg-uncertainty-calculator',
+  },
 };
 
 export default function HeisenbergUncertaintyCalculatorPage() {  return (

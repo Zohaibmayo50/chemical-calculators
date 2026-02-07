@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Concentration Converter | ChemCalc - Convert M, m, %, ppm, ppb',
   description: 'Convert between different concentration units: molarity (M), molality (m), mass percent (%), parts per million (ppm), and parts per billion (ppb). Free chemistry concentration converter calculator.',
   keywords: ['concentration converter', 'molarity to ppm', 'molality to molarity', 'ppm to molarity', 'mass percent to molarity', 'ppb converter', 'chemistry unit converter', 'concentration units'],
+  alternates: {
+    canonical: 'https://chemsolved.com/concentration-and-solution-calculators/concentration-converter',
+  },
 };
 
 export default function ConcentrationConverterPage() {

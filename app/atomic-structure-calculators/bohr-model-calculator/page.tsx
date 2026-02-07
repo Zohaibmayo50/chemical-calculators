@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Bohr Model Calculator - Hydrogen Atom Energy Levels & Spectral Lines | ChemCalc',
   description: 'Calculate energy levels, wavelengths, and frequencies for hydrogen atom electron transitions using the Bohr model and Rydberg equation. Includes all spectral series.',
   keywords: 'Bohr model calculator, hydrogen spectrum, Rydberg equation, energy levels, spectral lines, Balmer series, Lyman series, quantum mechanics',
+  alternates: {
+    canonical: 'https://chemsolved.com/atomic-structure-calculators/bohr-model-calculator',
+  },
 };
 
 export default function BohrModelCalculatorPage() {  return (

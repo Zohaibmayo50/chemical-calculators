@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy Policy for ChemSolved - Learn how we collect, use, and protect your information when using our chemistry calculators.',
   keywords: ['privacy policy', 'data protection', 'ChemSolved privacy', 'chemistry calculators privacy'],
+  alternates: {
+    canonical: 'https://chemsolved.com/privacy',
+  },
   openGraph: {
     title: 'Privacy Policy | ChemSolved',
     description: 'Privacy Policy for ChemSolved - Learn how we collect, use, and protect your information.',

@@ -7,6 +7,9 @@ import BeersLawCalculator from '@/components/calculators/BeersLawCalculator';
 export const metadata: Metadata = {
   title: 'Beer\'s Law Calculator | Beer-Lambert Law | Absorbance Calculator',
   description: 'Calculate concentration, absorbance, molar absorptivity, or path length using Beer\'s Law: A = εbc. Essential for spectroscopy and analytical chemistry.',
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/beers-law-calculator',
+  },
 };
 
 export default function BeersLawCalculatorPage() {

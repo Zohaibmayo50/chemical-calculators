@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'coordination chemistry',
     'spectrochemical series',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/coordination-chemistry-calculators/ligand-field-stabilization-energy-calculator',
+  },
 };
 
 export default function LFSECalculatorPage() {  return (

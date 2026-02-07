@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Lewis Structure Calculator - Valence Electrons & Formal Charge',
   description: 'Calculate valence electrons, bonding pairs, lone pairs, and formal charges for Lewis structures. Determine molecular bonding and electron distribution.',
   keywords: ['Lewis structure', 'valence electrons', 'formal charge', 'bonding pairs', 'lone pairs', 'octet rule', 'chemistry calculator', 'electron dot structure'],
+  alternates: {
+    canonical: 'https://chemsolved.com/atomic-structure-calculators/lewis-structure-calculator',
+  },
 };
 
 export default function LewisStructureCalculatorPage() {  return (

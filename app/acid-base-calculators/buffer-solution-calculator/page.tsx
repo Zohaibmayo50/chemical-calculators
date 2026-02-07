@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Buffer Solution Calculator | Henderson-Hasselbalch | pH Buffer",
   description: "Calculate buffer pH using the Henderson-Hasselbalch equation. Essential for biochemistry, analytical chemistry, and pH control.",
   keywords: ['buffer solution', 'Henderson-Hasselbalch', 'pH buffer', 'pKa', 'conjugate base', 'weak acid', 'buffer capacity'],
+  alternates: {
+    canonical: 'https://chemsolved.com/acid-base-calculators/buffer-solution-calculator',
+  },
 };
 
 export default function BufferSolutionCalculatorPage() {  return (

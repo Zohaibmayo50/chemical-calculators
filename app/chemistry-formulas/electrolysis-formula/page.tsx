@@ -7,7 +7,10 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Electrolysis Formula | Faraday\'s Laws & Electroplating Calculations',
   description: 'Calculate mass deposited, charge, and current in electrolysis. Faraday\'s laws for electroplating and electrolytic cell calculations.',
-  keywords: ['electrolysis', 'Faraday\'s law', 'electroplating', 'coulombs', 'current', 'moles of electrons', 'electrochemistry']
+  keywords: ['electrolysis', 'Faraday\'s law', 'electroplating', 'coulombs', 'current', 'moles of electrons', 'electrochemistry'],
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/electrolysis-formula',
+  },
 };
 
 export default function ElectrolysisFormulaPage() {

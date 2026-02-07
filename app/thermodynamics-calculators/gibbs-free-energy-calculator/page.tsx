@@ -7,6 +7,9 @@ import GibbsFreeEnergyCalculator from '@/components/calculators/GibbsFreeEnergyC
 export const metadata: Metadata = {
   title: 'Gibbs Free Energy Calculator | ΔG = ΔH - TΔS | Spontaneity Predictor',
   description: 'Calculate Gibbs free energy (ΔG) and predict reaction spontaneity from enthalpy, entropy, and temperature. Determine thermodynamic favorability.',
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/gibbs-free-energy-calculator',
+  },
 };
 
 export default function GibbsFreeEnergyCalculatorPage() {

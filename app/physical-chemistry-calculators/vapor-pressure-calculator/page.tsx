@@ -7,6 +7,9 @@ import VaporPressureCalculator from '@/components/calculators/VaporPressureCalcu
 export const metadata: Metadata = {
   title: 'Vapor Pressure Calculator | Clausius-Clapeyron Equation | Phase Equilibrium',
   description: 'Calculate vapor pressure at different temperatures using the Clausius-Clapeyron equation. Determine heat of vaporization and predict boiling points.',
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/vapor-pressure-calculator',
+  },
 };
 
 export default function VaporPressureCalculatorPage() {

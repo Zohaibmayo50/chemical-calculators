@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Reaction Rate Calculator - Average & Instantaneous Rates',
   description: 'Calculate average and instantaneous reaction rates from concentration vs time data. Determine rate of disappearance, concentration changes, and reaction progress.',
   keywords: ['reaction rate', 'kinetics', 'average rate', 'instantaneous rate', 'concentration', 'rate of reaction', 'chemistry calculator', 'chemical kinetics'],
+  alternates: {
+    canonical: 'https://chemsolved.com/kinetics-calculators/reaction-rate-calculator',
+  },
 };
 
 export default function ReactionRateCalculatorPage() {  return (

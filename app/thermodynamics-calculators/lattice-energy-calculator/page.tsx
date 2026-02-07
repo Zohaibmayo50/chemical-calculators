@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'electrostatic energy',
     'formation enthalpy',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/lattice-energy-calculator',
+  },
 };
 
 export default function LatticeEnergyCalculatorPage() {  return (

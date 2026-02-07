@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'orbital degeneracy',
     'quantum mechanics',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/quantum-calculators/quantum-numbers-calculator',
+  },
 };
 
 export default function QuantumNumbersCalculatorPage() {  return (

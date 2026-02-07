@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'lipinski rule',
     'solvent extraction',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/partition-coefficient-calculator',
+  },
 };
 
 export default function PartitionCoefficientCalculatorPage() {  return (

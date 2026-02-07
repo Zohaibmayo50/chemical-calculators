@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Electrolysis Calculator - Faraday\'s Laws of Electrolysis',
   description: 'Calculate mass of products, charge, time, or current for electrolysis reactions using Faraday\'s laws. Determine electroplating mass, gas production, and electrolytic cell parameters.',
   keywords: ['electrolysis', 'Faraday\'s law', 'electrochemistry', 'electroplating', 'current', 'charge', 'coulombs', 'electrolytic cell', 'chemistry calculator'],
+  alternates: {
+    canonical: 'https://chemsolved.com/electrochemistry-calculators/electrolysis-calculator',
+  },
 };
 
 export default function ElectrolysisCalculatorPage() {  return (

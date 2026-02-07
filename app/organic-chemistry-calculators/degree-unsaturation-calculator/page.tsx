@@ -7,6 +7,9 @@ import DegreeOfUnsaturationCalculator from '@/components/calculators/DegreeOfUns
 export const metadata: Metadata = {
   title: 'Degree of Unsaturation Calculator | DBE | Rings + Double Bonds Calculator',
   description: 'Calculate degree of unsaturation (DBE) from molecular formula. Determine the number of rings and double bonds in organic molecules using (2C+2+N-H-X)/2.',
+  alternates: {
+    canonical: 'https://chemsolved.com/organic-chemistry-calculators/degree-unsaturation-calculator',
+  },
 };
 
 export default function DegreeOfUnsaturationCalculatorPage() {

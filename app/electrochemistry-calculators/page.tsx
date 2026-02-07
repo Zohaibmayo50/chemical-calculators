@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Electrochemistry Calculators | Nernst Equation, Cell Potential & pH',
   description: 'Calculate electrode potentials, cell EMF, pH, and electrochemical cell parameters using the Nernst equation and related formulas.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/electrochemistry-calculators',
+    canonical: 'https://chemsolved.com/electrochemistry-calculators',
   },
 };
 

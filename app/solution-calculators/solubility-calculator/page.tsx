@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Solubility Calculator - Ksp & Molar Solubility',
   description: 'Calculate molar solubility from Ksp, determine solubility product constants, and explore common ion effects. Predict precipitation and dissolution.',
   keywords: ['solubility', 'Ksp', 'solubility product', 'molar solubility', 'common ion effect', 'precipitation', 'chemistry calculator', 'equilibrium'],
+  alternates: {
+    canonical: 'https://chemsolved.com/solution-calculators/solubility-calculator',
+  },
 };
 
 export default function SolubilityCalculatorPage() {  return (

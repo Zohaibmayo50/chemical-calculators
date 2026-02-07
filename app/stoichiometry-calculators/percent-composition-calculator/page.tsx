@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Percent Composition Calculator - Mass Percent of Elements in Compounds',
   description: 'Calculate the mass percent composition of elements in chemical compounds. Determine the percentage by mass of each element with instant calculations and detailed breakdowns.',
   keywords: ['percent composition', 'mass percent', 'elemental analysis', 'molar mass', 'stoichiometry', 'chemistry calculator', 'empirical formula', 'chemical composition'],
+  alternates: {
+    canonical: 'https://chemsolved.com/stoichiometry-calculators/percent-composition-calculator',
+  },
 };
 
 export default function PercentCompositionCalculatorPage() {  return (

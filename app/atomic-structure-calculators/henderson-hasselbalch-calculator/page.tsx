@@ -7,6 +7,9 @@ import HendersonHassalbalchCalculator from '@/components/calculators/HendersonHa
 export const metadata: Metadata = {
   title: 'Henderson-Hasselbalch Calculator | Buffer pH Calculator | pKa Calculator',
   description: 'Calculate buffer solution pH using the Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). Essential for acid-base chemistry and biochemistry.',
+  alternates: {
+    canonical: 'https://chemsolved.com/atomic-structure-calculators/henderson-hasselbalch-calculator',
+  },
 };
 
 export default function HendersonHassalbalchCalculatorPage() {

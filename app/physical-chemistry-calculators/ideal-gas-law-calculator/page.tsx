@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Ideal Gas Law Calculator (PV=nRT) | ChemCalc - Calculate P, V, n, T',
   description: 'Calculate pressure, volume, moles, or temperature using the Ideal Gas Law equation PV=nRT. Free online calculator with multiple R constants for chemistry and physics.',
   keywords: ['ideal gas law calculator', 'PV=nRT', 'gas law calculator', 'pressure volume temperature', 'moles calculator', 'gas constant R', 'chemistry calculator'],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/ideal-gas-law-calculator',
+  },
 };
 
 export default function IdealGasLawCalculatorPage() {

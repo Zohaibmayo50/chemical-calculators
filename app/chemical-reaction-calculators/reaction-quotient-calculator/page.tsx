@@ -7,6 +7,9 @@ import ReactionQuotientCalculator from '@/components/calculators/ReactionQuotien
 export const metadata: Metadata = {
   title: 'Reaction Quotient Calculator | Q vs K | Equilibrium Direction',
   description: 'Calculate reaction quotient (Q) and compare to equilibrium constant (K) to determine reaction direction. Essential for chemical equilibrium predictions.',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemical-reaction-calculators/reaction-quotient-calculator',
+  },
 };
 
 export default function ReactionQuotientCalculatorPage() {

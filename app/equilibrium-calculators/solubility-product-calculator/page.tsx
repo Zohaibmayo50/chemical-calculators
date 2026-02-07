@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Solubility Product Calculator | Ksp | Precipitation",
   description: "Calculate solubility product constant (Ksp), reaction quotient (Qsp), and predict precipitation. Essential for equilibrium chemistry.",
   keywords: ['solubility product', 'Ksp', 'Qsp', 'precipitation', 'molar solubility', 'equilibrium', 'ionic compounds'],
+  alternates: {
+    canonical: 'https://chemsolved.com/equilibrium-calculators/solubility-product-calculator',
+  },
 };
 
 export default function SolubilityProductCalculatorPage() {  return (

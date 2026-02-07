@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Atomic Structure Calculators | Quantum Numbers, Electron Configuration & Energy Levels',
   description: 'Calculate quantum numbers, electron configurations, atomic orbitals, and energy levels for atoms and ions.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/atomic-structure-calculators',
+    canonical: 'https://chemsolved.com/atomic-structure-calculators',
   },
 };
 

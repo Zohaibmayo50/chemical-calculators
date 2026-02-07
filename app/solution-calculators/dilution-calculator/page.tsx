@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Dilution Calculator | M1V1=M2V2 | Solution Preparation",
   description: "Calculate solution dilutions using M1V1=M2V2. Essential for laboratory work, stock solutions, and concentration adjustments.",
   keywords: ['dilution calculator', 'M1V1=M2V2', 'solution preparation', 'stock solution', 'concentration', 'dilution factor'],
+  alternates: {
+    canonical: 'https://chemsolved.com/solution-calculators/dilution-calculator',
+  },
 };
 
 export default function DilutionCalculatorPage() {  return (

@@ -7,6 +7,9 @@ import CombinedGasLawCalculator from '@/components/calculators/CombinedGasLawCal
 export const metadata: Metadata = {
   title: 'Combined Gas Law Calculator | P₁V₁/T₁ = P₂V₂/T₂ Calculator',
   description: 'Calculate pressure, volume, or temperature changes for a fixed amount of gas using the combined gas law. Solve for any variable in P₁V₁/T₁ = P₂V₂/T₂.',
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/combined-gas-law-calculator',
+  },
 };
 
 export default function CombinedGasLawCalculatorPage() {

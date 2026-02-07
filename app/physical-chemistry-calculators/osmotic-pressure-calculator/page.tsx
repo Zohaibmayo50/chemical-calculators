@@ -7,6 +7,9 @@ import OsmoticPressureCalculator from '@/components/calculators/OsmoticPressureC
 export const metadata: Metadata = {
   title: 'Osmotic Pressure Calculator | Colligative Property Calculator',
   description: 'Calculate osmotic pressure of solutions using π = iMRT. Determine osmotic pressure from molarity, temperature, and van\'t Hoff factor for colligative property analysis.',
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/osmotic-pressure-calculator',
+  },
 };
 
 export default function OsmoticPressureCalculatorPage() {

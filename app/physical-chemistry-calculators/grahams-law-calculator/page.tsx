@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Graham's Law Calculator | Gas Diffusion | Effusion Rates",
   description: "Calculate diffusion and effusion rates using Graham's Law. Essential for gas separation, molecular velocity calculations, and isotope separation.",
   keywords: ['grahams law', 'diffusion', 'effusion', 'gas rates', 'molar mass', 'molecular velocity', 'gas separation', 'kinetic theory'],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/grahams-law-calculator',
+  },
 };
 
 export default function GrahamsLawCalculatorPage() {  return (

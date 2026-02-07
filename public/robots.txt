@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://chemicalcalculators.com/sitemap.xml
+Sitemap: https://chemsolved.com/sitemap.xml

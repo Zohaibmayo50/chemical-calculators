@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'spectrochemical series',
     'octahedral tetrahedral',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/coordination-chemistry-calculators/crystal-field-splitting-calculator',
+  },
 };
 
 export default function CrystalFieldSplittingCalculatorPage() {  return (

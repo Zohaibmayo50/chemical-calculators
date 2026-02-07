@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Nuclear Binding Energy Calculator - Mass Defect & E=mc²',
   description: 'Calculate nuclear binding energy from mass defect, determine binding energy per nucleon, and explore nuclear stability using Einstein\'s mass-energy equivalence.',
   keywords: ['nuclear binding energy', 'mass defect', 'E=mc²', 'binding energy per nucleon', 'nuclear stability', 'chemistry calculator', 'nuclear physics'],
+  alternates: {
+    canonical: 'https://chemsolved.com/nuclear-calculators/nuclear-binding-energy-calculator',
+  },
 };
 
 export default function NuclearBindingEnergyCalculatorPage() {  return (

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Solution Preparation Calculator | ChemCalc - Calculate Mass, Volume, Molarity',
   description: 'Calculate the mass of solute needed to prepare solutions of specific molarity and volume. Essential tool for laboratory solution preparation and chemistry experiments.',
   keywords: ['solution preparation', 'molarity calculator', 'mass calculation', 'solution preparation chemistry', 'laboratory solutions', 'stock solution', 'solution making'],
+  alternates: {
+    canonical: 'https://chemsolved.com/concentration-and-solution-calculators/solution-preparation-calculator',
+  },
 };
 
 export default function SolutionPreparationPage() {

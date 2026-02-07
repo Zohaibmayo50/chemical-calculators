@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Biochemistry Calculators | Enzyme Kinetics, DNA & Protein Analysis',
   description: 'Calculate enzyme kinetics parameters, DNA concentrations, protein properties, and biochemical reaction rates for life science applications.',
   alternates: {
-    canonical: 'https://chemicalcalculators.com/biochemistry-calculators',
+    canonical: 'https://chemsolved.com/biochemistry-calculators',
   },
 };
 

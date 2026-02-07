@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Dalton's Law Calculator | Partial Pressure | Gas Mixtures",
   description: "Calculate total and partial pressures in gas mixtures using Dalton's Law. Essential for gas calculations, atmospheric science, and scuba diving.",
   keywords: ['daltons law', 'partial pressure', 'gas mixtures', 'total pressure', 'mole fraction', 'ideal gas', 'atmospheric pressure', 'gas calculations'],
+  alternates: {
+    canonical: 'https://chemsolved.com/physical-chemistry-calculators/daltons-law-calculator',
+  },
 };
 
 export default function DaltonsLawCalculatorPage() {  return (

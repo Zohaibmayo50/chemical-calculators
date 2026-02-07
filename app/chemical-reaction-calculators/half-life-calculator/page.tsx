@@ -7,6 +7,9 @@ import HalfLifeCalculator from '@/components/calculators/HalfLifeCalculator';
 export const metadata: Metadata = {
   title: 'Half-Life Calculator | Reaction Kinetics | Zero, First, Second Order',
   description: 'Calculate half-life, concentration, or rate constant for zero, first, and second-order reactions. Essential for chemical kinetics and radioactive decay.',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemical-reaction-calculators/half-life-calculator',
+  },
 };
 
 export default function HalfLifeCalculatorPage() {

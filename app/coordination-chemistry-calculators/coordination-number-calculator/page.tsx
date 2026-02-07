@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     'EDTA complex',
     'coordination geometry',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/coordination-chemistry-calculators/coordination-number-calculator',
+  },
 };
 
 export default function CoordinationNumberCalculatorPage() {  return (
