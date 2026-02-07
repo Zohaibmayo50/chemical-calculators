@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 
 export const metadata: Metadata = {
-  title: 'Radioactive Decay Calculator - Half-Life & Nuclear Kinetics | ChemCalc',
+  title: 'Radioactive Decay Calculator - Half-Life & Nuclear Kinetics',
   description: 'Calculate radioactive decay, half-life, and decay constants using N = N₀e^(-λt). Includes common isotopes, carbon dating, and nuclear chemistry applications.',
   keywords: 'radioactive decay calculator, half-life, nuclear chemistry, decay constant, carbon dating, isotopes, first-order kinetics, nuclear decay',
   alternates: {
