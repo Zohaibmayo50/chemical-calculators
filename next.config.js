@@ -13,6 +13,8 @@ const nextConfig = {
     optimizeCss: true,
   },
   
+  transpilePackages: [],
+  
   images: {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 31536000,
