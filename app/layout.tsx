@@ -8,6 +8,8 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
   preload: true,
   fallback: ['Courier New', 'monospace'],
+  weight: ['400', '500', '600'],
+  adjustFontFallback: true,
 })
 
 const inter = Inter({
@@ -16,6 +18,8 @@ const inter = Inter({
   display: 'swap',
   preload: true,
   fallback: ['system-ui', 'sans-serif'],
+  weight: ['400', '500', '600', '700'],
+  adjustFontFallback: true,
 })
 
 export const metadata: Metadata = {
@@ -97,6 +101,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg" />
