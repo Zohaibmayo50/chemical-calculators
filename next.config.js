@@ -11,6 +11,7 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react'],
     optimizeCss: true,
+    webpackBuildWorker: true,
   },
   
   transpilePackages: [],
@@ -19,6 +20,9 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 31536000,
   },
+  
+  // Turbopack config for Next.js 16+
+  turbopack: {},
 }
 
 module.exports = nextConfig
