@@ -63,8 +63,8 @@ export default function PartitionCoefficientPage() {
             </div>
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-teal-700 mb-2">Key Relationship:</p>
-              <p>High K<sub>p</sub> (>1) → solute prefers organic phase (lipophilic)</p>
-              <p>Low K<sub>p</sub> (<1) → solute prefers aqueous phase (hydrophilic)</p>
+              <p>High K<sub>p</sub> (&gt;1) → solute prefers organic phase (lipophilic)</p>
+              <p>Low K<sub>p</sub> (&lt;1) → solute prefers aqueous phase (hydrophilic)</p>
               <p>K<sub>p</sub> = 1 → equal distribution between phases</p>
             </div>
           </div>
