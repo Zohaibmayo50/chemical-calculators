@@ -33,44 +33,221 @@ export default function CrystalFieldTheoryPage() {
         </div>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Octahedral Splitting</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Crystal Field Theory</h2>
+          <p className="text-gray-700 mb-4">
+            Crystal Field Theory (CFT), developed by Hans Bethe in 1929 and refined by John Hasbrouck van Vleck, is a fundamental model explaining the electronic structure, bonding, and properties of transition metal coordination complexes. CFT treats metal-ligand interactions as purely electrostatic, viewing ligands as point negative charges that interact with the d electrons of the central metal ion. While this simplification ignores covalent bonding aspects (addressed by Ligand Field Theory and Molecular Orbital Theory), CFT successfully explains many experimental observations including complex colors, magnetic properties, and thermodynamic stabilities.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The theory's central premise is that ligands create an electric field that breaks the degeneracy of the five d orbitals, which are equivalent in energy for an isolated metal ion. In an octahedral complex, ligands approach along the x, y, and z axes, causing d orbitals pointing directly toward ligands (d<sub>z²</sub> and d<sub>x²-y²</sub>, collectively called e<sub>g</sub>) to experience greater repulsion and rise in energy. Meanwhile, d orbitals pointing between the axes (d<sub>xy</sub>, d<sub>xz</sub>, and d<sub>yz</sub>, collectively called t<sub>2g</sub>) experience less repulsion and decrease in energy. This splitting pattern is reversed in tetrahedral geometry where ligands approach along body diagonals rather than axes.
+          </p>
+          <p className="text-gray-700">
+            The magnitude of crystal field splitting energy (Δ) determines whether complexes are high-spin or low-spin, directly affecting magnetic properties and reactivity. CFT successfully predicts spectroscopic properties—the beautiful colors of transition metal complexes arise from d-d electronic transitions corresponding to Δ energy. Practical applications span analytical chemistry (colorimetric analysis), materials science (magnetic materials, pigments), and bioinorganic chemistry (understanding metalloproteins like hemoglobin and cytochromes).
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Octahedral Crystal Field Splitting</h2>
           <div className="bg-indigo-50 border-l-4 border-indigo-500 p-4 mb-4">
-            <p className="text-lg font-semibold text-indigo-700">Δ<sub>o</sub> = crystal field splitting energy</p>
-            <p className="text-gray-700 mt-2">e<sub>g</sub> orbitals (d<sub>z²</sub>, d<sub>x²-y²</sub>) higher energy</p>
-            <p className="text-gray-700">t<sub>2g</sub> orbitals (d<sub>xy</sub>, d<sub>xz</sub>, d<sub>yz</sub>) lower energy</p>
+            <p className="text-lg font-semibold text-indigo-700">Δ<sub>o</sub> (or 10Dq) = octahedral crystal field splitting energy</p>
+            <p className="text-gray-700 mt-2">e<sub>g</sub> orbitals (d<sub>z²</sub>, d<sub>x²-y²</sub>) → +0.6Δ<sub>o</sub> destabilization (2 orbitals)</p>
+            <p className="text-gray-700">t<sub>2g</sub> orbitals (d<sub>xy</sub>, d<sub>xz</sub>, d<sub>yz</sub>) → -0.4Δ<sub>o</sub> stabilization (3 orbitals)</p>
           </div>
-          <p className="text-gray-700">Ligands on axes repel e<sub>g</sub> orbitals more than t<sub>2g</sub>.</p>
-        </section>
-
-        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Tetrahedral Splitting</h2>
-          <div className="bg-indigo-50 p-4 rounded">
-            <p className="text-lg font-semibold text-indigo-700">Δ<sub>t</sub> ≈ (4/9) Δ<sub>o</sub></p>
-            <p className="text-gray-700 mt-2">Reverse order: e orbitals lower, t₂ orbitals higher</p>
-          </div>
-        </section>
-
-        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Spectrochemical Series</h2>
-          <p className="text-gray-700 mb-3">Ligands ranked by Δ (weak to strong field):</p>
-          <div className="bg-gray-50 p-4 rounded text-center">
-            <p className="font-semibold text-gray-800">I⁻ &lt; Br⁻ &lt; Cl⁻ &lt; F⁻ &lt; H₂O &lt; NH₃ &lt; en &lt; NO₂⁻ &lt; CN⁻ &lt; CO</p>
+          <p className="text-gray-700 mb-3">
+            In an octahedral field, six ligands approach along the ±x, ±y, and ±z axes. The d<sub>z²</sub> orbital has lobes along the z-axis, and d<sub>x²-y²</sub> has lobes along x and y axes—both point directly at approaching ligands, experiencing maximum electrostatic repulsion. The t<sub>2g</sub> orbitals (d<sub>xy</sub>, d<sub>xz</sub>, d<sub>yz</sub>) have lobes pointing between the axes, experiencing less repulsion.
+          </p>
+          <div className="bg-gray-50 p-4 rounded">
+            <p className="font-semibold text-indigo-700 mb-2">Energy Relationships:</p>
+            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+              <li>Total stabilization from t<sub>2g</sub>: 3 × (-0.4Δ<sub>o</sub>) = -1.2Δ<sub>o</sub></li>
+              <li>Total destabilization from e<sub>g</sub>: 2 × (+0.6Δ<sub>o</sub>) = +1.2Δ<sub>o</sub></li>
+              <li>Net energy change = 0 (barycenter principle maintained)</li>
+              <li>Typical Δ<sub>o</sub> values: 10,000-25,000 cm⁻¹ (120-300 kJ/mol)</li>
+            </ul>
           </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">High-Spin vs Low-Spin</h2>
-          <ul className="list-disc pl-5 text-gray-700 space-y-2">
-            <li><strong>Weak field (small Δ):</strong> electrons prefer to remain unpaired → high-spin</li>
-            <li><strong>Strong field (large Δ):</strong> pairing energy &lt; Δ → electrons pair → low-spin</li>
-            <li>Example: [Fe(H₂O)₆]³⁺ high-spin (5 unpaired); [Fe(CN)₆]³⁻ low-spin (1 unpaired)</li>
-          </ul>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Concepts in Crystal Field Theory</h2>
+          
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-2">1. Tetrahedral Crystal Field Splitting</h3>
+              <div className="bg-indigo-50 p-4 rounded mb-2">
+                <p className="text-lg font-semibold text-indigo-700">Δ<sub>t</sub> ≈ (4/9) Δ<sub>o</sub></p>
+                <p className="text-gray-700 mt-2">Inverted order: e orbitals lower energy, t<sub>2</sub> orbitals higher energy</p>
+              </div>
+              <p className="text-gray-700">
+                In tetrahedral complexes, only four ligands approach along body diagonal directions (not along axes). This geometry produces weaker splitting than octahedral for two reasons: fewer ligands (4 vs 6) and ligands don't point directly at any d orbitals. The splitting pattern inverts because d<sub>xy</sub>, d<sub>xz</sub>, d<sub>yz</sub> orbitals now point more toward ligands than d<sub>z²</sub> and d<sub>x²-y²</sub>. Tetrahedral complexes are almost always high-spin because Δ<sub>t</sub> is too small to overcome pairing energy.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-2">2. The Spectrochemical Series</h3>
+              <p className="text-gray-700 mb-3">Ligands ranked by crystal field splitting strength (weak field → strong field):</p>
+              <div className="bg-gray-50 p-4 rounded text-center mb-3">
+                <p className="font-semibold text-gray-800">I⁻ &lt; Br⁻ &lt; SCN⁻ &lt; Cl⁻ &lt; F⁻ &lt; OH⁻ &lt; H₂O &lt; NCS⁻ &lt; NH₃ &lt; en &lt; bipy &lt; phen &lt; NO₂⁻ &lt; CN⁻ &lt; CO</p>
+              </div>
+              <p className="text-gray-700">
+                The spectrochemical series is determined experimentally and reflects both σ-bonding and π-bonding interactions. Weak field ligands (halides) produce small Δ favoring high-spin configurations. Strong field ligands (CN⁻, CO) produce large Δ favoring low-spin configurations. π-donor ligands (halides, OH⁻) decrease Δ, while π-acceptor ligands (CO, CN⁻) increase Δ through back-bonding that stabilizes t<sub>2g</sub> orbitals further.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-2">3. Square Planar Geometry</h3>
+              <p className="text-gray-700">
+                Square planar complexes form from octahedral geometry by removing two trans ligands (typically along z-axis). This dramatically stabilizes d<sub>xy</sub> orbital (lowest energy), followed by d<sub>xz</sub> and d<sub>yz</sub>, then d<sub>z²</sub>, with d<sub>x²-y²</sub> highest in energy. Large splitting makes d<sup>8</sup> metal ions (Ni²⁺, Pd²⁺, Pt²⁺, Au³⁺) prefer square planar geometry with strong field ligands, producing diamagnetic low-spin complexes.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-2">4. Factors Affecting Crystal Field Splitting</h3>
+              <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                <li><strong>Metal oxidation state:</strong> Higher oxidation states → larger Δ (smaller, more polarizing metal ion)</li>
+                <li><strong>Metal identity:</strong> 4d and 5d metals → larger Δ than 3d metals (more diffuse d orbitals, better overlap)</li>
+                <li><strong>Ligand field strength:</strong> Strong field ligands → larger Δ (spectrochemical series)</li>
+                <li><strong>Geometry:</strong> Δ<sub>square planar</sub> &gt; Δ<sub>octahedral</sub> &gt; Δ<sub>tetrahedral</sub></li>
+              </ul>
+            </div>
+          </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">High-Spin vs Low-Spin Configurations</h2>
+          <div className="space-y-4">
+            <div className="bg-indigo-50 border-l-4 border-indigo-500 p-4">
+              <p className="font-semibold text-indigo-800 mb-2">Critical Energy Relationship:</p>
+              <p className="text-gray-700">If Δ &lt; Pairing Energy (P): electrons occupy all five d orbitals singly before pairing → <strong>high-spin</strong></p>
+              <p className="text-gray-700 mt-1">If Δ &gt; Pairing Energy (P): electrons pair in lower energy orbitals first → <strong>low-spin</strong></p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="bg-gray-50 p-4 rounded">
+                <h3 className="font-semibold text-indigo-700 mb-2">High-Spin (Weak Field)</h3>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                  <li><strong>Example:</strong> [Fe(H₂O)₆]³⁺ with weak field H₂O ligands</li>
+                  <li>Fe³⁺ has d⁵ configuration</li>
+                  <li>Electron configuration: t<sub>2g</sub>³ e<sub>g</sub>² (all unpaired)</li>
+                  <li><strong>5 unpaired electrons</strong> → paramagnetic</li>
+                  <li>Pale violet color</li>
+                  <li>Small Δ<sub>o</sub> ≈ 13,700 cm⁻¹</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gray-50 p-4 rounded">
+                <h3 className="font-semibold text-indigo-700 mb-2">Low-Spin (Strong Field)</h3>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                  <li><strong>Example:</strong> [Fe(CN)₆]³⁻ with strong field CN⁻ ligands</li>
+                  <li>Fe³⁺ has d⁵ configuration</li>
+                  <li>Electron configuration: t<sub>2g</sub>⁵ e<sub>g</sub>⁰ (maximum pairing)</li>
+                  <li><strong>1 unpaired electron</strong> → weakly paramagnetic</li>
+                  <li>Deep yellow color</li>
+                  <li>Large Δ<sub>o</sub> ≈ 35,000 cm⁻¹</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mt-4 bg-yellow-50 border border-yellow-200 rounded p-4">
+              <p className="font-semibold text-yellow-800 mb-2">Important Notes:</p>
+              <ul className="list-disc pl-5 text-gray-700 space-y-1">
+                <li>High-spin/low-spin possibilities exist only for d⁴-d⁷ octahedral complexes</li>
+                <li>d¹-d³ have only one possible configuration (not enough electrons to fill t<sub>2g</sub>)</li>
+                <li>d⁸-d¹⁰ have only one configuration (too many electrons; pairing unavoidable)</li>
+                <li>Tetrahedral complexes are almost always high-spin (Δ<sub>t</sub> too small)</li>
+                <li>3d metals more likely high-spin; 4d and 5d metals favor low-spin (larger Δ)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Crystal Field Stabilization Energy (CFSE)</h2>
-          <p className="text-gray-700">Energy gained by placing electrons in lower orbitals:</p>
-          <p className="text-gray-700 mt-2">CFSE = (number in t<sub>2g</sub>) × (-0.4 Δ<sub>o</sub>) + (number in e<sub>g</sub>) × (+0.6 Δ<sub>o</sub>)</p>
+          <p className="text-gray-700 mb-4">
+            CFSE quantifies the stabilization energy gained when d electrons occupy orbitals in a crystal field compared to a hypothetical spherical field. This energy difference explains trends in hydration enthalpies, lattice energies, and ionic radii across the transition series.
+          </p>
+          
+          <div className="bg-indigo-50 border-l-4 border-indigo-500 p-4 mb-4">
+            <p className="text-lg font-semibold text-indigo-700">Octahedral CFSE Formula:</p>
+            <p className="text-gray-700 mt-2">CFSE = [(number in t<sub>2g</sub>) × (-0.4Δ<sub>o</sub>)] + [(number in e<sub>g</sub>) × (+0.6Δ<sub>o</sub>)] + (pairing energy if low-spin)</p>
+          </div>
+          
+          <div className="space-y-3">
+            <div className="bg-gray-50 p-4 rounded">
+              <p className="font-semibold text-indigo-700 mb-2">Example 1: Ti³⁺ (d¹) in octahedral field</p>
+              <p className="text-gray-700">Configuration: t<sub>2g</sub>¹ e<sub>g</sub>⁰</p>
+              <p className="text-gray-700">CFSE = (1 × -0.4Δ<sub>o</sub>) + (0 × 0.6Δ<sub>o</sub>) = <strong>-0.4Δ<sub>o</sub></strong></p>
+            </div>
+            
+            <div className="bg-gray-50 p-4 rounded">
+              <p className="font-semibold text-indigo-700 mb-2">Example 2: Fe³⁺ (d⁵) high-spin octahedral</p>
+              <p className="text-gray-700">Configuration: t<sub>2g</sub>³ e<sub>g</sub>²</p>
+              <p className="text-gray-700">CFSE = (3 × -0.4Δ<sub>o</sub>) + (2 × 0.6Δ<sub>o</sub>) = -1.2Δ<sub>o</sub> + 1.2Δ<sub>o</sub> = <strong>0</strong></p>
+              <p className="text-gray-600 text-sm mt-1">High-spin d⁵ has zero CFSE</p>
+            </div>
+            
+            <div className="bg-gray-50 p-4 rounded">
+              <p className="font-semibold text-indigo-700 mb-2">Example 3: Fe³⁺ (d⁵) low-spin octahedral</p>
+              <p className="text-gray-700">Configuration: t<sub>2g</sub>⁵ e<sub>g</sub>⁰</p>
+              <p className="text-gray-700">CFSE = (5 × -0.4Δ<sub>o</sub>) + (0 × 0.6Δ<sub>o</sub>) + 2P = <strong>-2.0Δ<sub>o</sub> + 2P</strong></p>
+              <p className="text-gray-600 text-sm mt-1">Includes pairing energy cost for two paired electrons</p>
+            </div>
+            
+            <div className="bg-gray-50 p-4 rounded">
+              <p className="font-semibold text-indigo-700 mb-2">Example 4: Ni²⁺ (d⁸) octahedral</p>
+              <p className="text-gray-700">Configuration: t<sub>2g</sub>⁶ e<sub>g</sub>²</p>
+              <p className="text-gray-700">CFSE = (6 × -0.4Δ<sub>o</sub>) + (2 × 0.6Δ<sub>o</sub>) = -2.4Δ<sub>o</sub> + 1.2Δ<sub>o</sub> = <strong>-1.2Δ<sub>o</sub></strong></p>
+              <p className="text-gray-600 text-sm mt-1">Plus 3P for three pairs (relative to high-spin d⁸ in tetrahedral)</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Real-World Applications</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 mb-2">Colors and Pigments</h3>
+              <p className="text-gray-700">Crystal field splitting explains the vibrant colors of transition metal complexes. Prussian blue Fe₄[Fe(CN)₆]₃, chromium oxide Cr₂O₃ (green), and cobalt blue CoAl₂O₄ are pigments whose colors arise from d-d transitions corresponding to specific Δ values. Artists and ceramicists exploit these properties in paints, glazes, and dyes.</p>
+            </div>
+            
+            <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 mb-2">Magnetic Materials</h3>
+              <p className="text-gray-700">High-spin complexes with multiple unpaired electrons exhibit strong paramagnetism used in MRI contrast agents (Gd³⁺ complexes). Low-spin Fe²⁺ in hemoglobin (diamagnetic when oxygenated) versus high-spin deoxyhemoglobin (paramagnetic) allows BOLD fMRI imaging to track brain oxygen levels.</p>
+            </div>
+            
+            <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 mb-2">Catalysis</h3>
+              <p className="text-gray-700">Crystal field effects influence catalytic activity. Square planar Pt²⁺ and Pd²⁺ complexes catalyze cross-coupling reactions (Suzuki, Heck, Negishi) essential for pharmaceutical synthesis. The empty d<sub>x²-y²</sub> orbital facilitates oxidative addition, while filled d orbitals enable reductive elimination through back-bonding.</p>
+            </div>
+            
+            <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 mb-2">Bioinorganic Chemistry</h3>
+              <p className="text-gray-700">Understanding CFT is crucial for metalloproteins. Cytochrome P450 enzymes use low-spin Fe³⁺/Fe²⁺ cycling for drug metabolism. Blue copper proteins exploit unique square planar Cu²⁺ geometry for electron transfer. Zinc fingers use tetrahedral Zn²⁺ (d¹⁰, no CFSE) for structural roles without redox activity.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Common Mistakes to Avoid</h2>
+          <div className="space-y-4">
+            <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
+              <h3 className="font-semibold text-red-700 mb-1">Confusing Octahedral and Tetrahedral Splitting Patterns</h3>
+              <p className="text-gray-700">Remember: octahedral has e<sub>g</sub> higher, t<sub>2g</sub> lower; tetrahedral reverses this to e lower, t<sub>2</sub> higher. Don't use the same orbital labels—tetrahedral uses e and t<sub>2</sub>, not e<sub>g</sub> and t<sub>2g</sub>. The subscript g (gerade) only applies to centrosymmetric geometries like octahedral.</p>
+            </div>
+            
+            <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
+              <h3 className="font-semibold text-red-700 mb-1">Incorrect CFSE Calculations</h3>
+              <p className="text-gray-700">When calculating CFSE, remember to use -0.4Δ<sub>o</sub> for each t<sub>2g</sub> electron and +0.6Δ<sub>o</sub> for each e<sub>g</sub> electron. Don't forget to subtract the barycenter (average energy). For low-spin complexes, include pairing energy penalties. Also verify: total stabilization equals total destabilization in the absence of electrons.</p>
+            </div>
+            
+            <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
+              <h3 className="font-semibold text-red-700 mb-1">Assuming All Octahedral Complexes Show High-Spin/Low-Spin Behavior</h3>
+              <p className="text-gray-700">Only d⁴, d⁵, d⁶, and d⁷ octahedral complexes can be high-spin or low-spin depending on ligand field strength. d¹, d², d³ have insufficient electrons to fill t<sub>2g</sub>, so only one configuration exists. d⁸, d⁹, d¹⁰ must have paired electrons in e<sub>g</sub>, giving only one ground state configuration.</p>
+            </div>
+            
+            <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
+              <h3 className="font-semibold text-red-700 mb-1">Treating CFT as a Complete Bonding Model</h3>
+              <p className="text-gray-700">Crystal Field Theory treats bonding as purely ionic/electrostatic, ignoring covalency. While useful for qualitative predictions, CFT cannot explain the spectrochemical series order (why CO and CN⁻ are strong field) or properties requiring orbital overlap. For more accuracy, use Ligand Field Theory or Molecular Orbital Theory that incorporate covalent bonding.</p>
+            </div>
+          </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6">

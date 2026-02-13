@@ -46,7 +46,38 @@ export default function BraggsLawPage() {
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Bragg's Law</h2>
+          <p className="text-gray-700 mb-4">
+            Bragg's Law, formulated by William Henry Bragg and William Lawrence Bragg in 1913, describes the condition for constructive interference when X-rays are scattered by a crystalline material. When X-rays strike crystal planes at specific angles, they reflect and interfere constructively only when the path difference between rays equals an integer multiple of the wavelength.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The law is fundamental to X-ray crystallography, allowing scientists to determine atomic arrangements in crystals. Each set of parallel planes in a crystal has a characteristic spacing (d), and X-rays diffracted from adjacent planes travel different distances. Constructive interference produces detectable diffraction peaks only when the Bragg condition is satisfied.
+          </p>
+          <p className="text-gray-700">
+            The order of diffraction (n) represents how many wavelengths fit into the path difference. First-order diffraction (n=1) is typically strongest, while higher-order reflections (n=2, 3...) become progressively weaker.
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Concepts</h2>
+          <div className="space-y-4 text-gray-700">
+            <div className="border-l-4 border-teal-500 pl-4">
+              <h3 className="font-semibold text-gray-800 mb-2">Constructive Interference</h3>
+              <p>When X-rays from adjacent crystal planes arrive in phase (path difference = nλ), their amplitudes add to create strong reflection peaks.</p>
+            </div>
+            <div className="border-l-4 border-teal-500 pl-4">
+              <h3 className="font-semibold text-gray-800 mb-2">Bragg Angle (θ)</h3>
+              <p>The angle between incident X-ray beam and crystal planes, not the incident surface. Measured from the plane itself rather than the surface normal.</p>
+            </div>
+            <div className="border-l-4 border-teal-500 pl-4">
+              <h3 className="font-semibold text-gray-800 mb-2">Lattice Spacing (d)</h3>
+              <p>Distance between parallel crystal planes. Different crystal families (hkl planes) have different d-spacing values, creating unique diffraction patterns.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Worked Example</h2>
           <p className="text-gray-700 mb-3"><strong>Given:</strong> λ = 1.54 Å (Cu Kα), θ = 15°, n = 1.</p>
           <div className="space-y-2 text-gray-700">
             <p>d = n λ / (2 sin θ)</p>
@@ -55,15 +86,77 @@ export default function BraggsLawPage() {
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
             <p className="font-semibold">Answer: d ≈ 2.98 Å</p>
+            <p className="text-sm text-gray-600 mt-2">This spacing is typical for metal crystalline structures and ceramics.</p>
           </div>
         </section>
 
-        <section className="bg-white rounded-lg shadow-md p-6">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Applications</h2>
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Applications in Science</h2>
+          <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+            <div className="bg-blue-50 p-4 rounded-lg">
+              <h3 className="font-semibold text-blue-900 mb-2">Materials Science</h3>
+              <p className="text-sm">Determine crystal structures, phase composition, grain size, and crystallinity in metals, ceramics, and semiconductors.</p>
+            </div>
+            <div className="bg-green-50 p-4 rounded-lg">
+              <h3 className="font-semibold text-green-900 mb-2">Structural Biology</h3>
+              <p className="text-sm">Solve protein and DNA structures at atomic resolution using synchrotron X-ray sources and cryo-crystallography.</p>
+            </div>
+            <div className="bg-purple-50 p-4 rounded-lg">
+              <h3 className="font-semibold text-purple-900 mb-2">Geology & Mineralogy</h3>
+              <p className="text-sm">Identify minerals and determine their crystallographic orientation in rocks and geological samples.</p>
+            </div>
+            <div className="bg-orange-50 p-4 rounded-lg">
+              <h3 className="font-semibold text-orange-900 mb-2">Pharmaceutical Industry</h3>
+              <p className="text-sm">Analyze drug polymorphs, crystallinity of active ingredients, and quality control of pharmaceutical compounds.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Common X-ray Sources</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-gray-700">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="px-4 py-2 text-left">Source</th>
+                  <th className="px-4 py-2 text-left">Wavelength (Å)</th>
+                  <th className="px-4 py-2 text-left">Application</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y">
+                <tr>
+                  <td className="px-4 py-2">Cu Kα</td>
+                  <td className="px-4 py-2">1.5418</td>
+                  <td className="px-4 py-2">Most common for routine analysis</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2">Mo Kα</td>
+                  <td className="px-4 py-2">0.7107</td>
+                  <td className="px-4 py-2">Protein crystallography</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2">Co Kα</td>
+                  <td className="px-4 py-2">1.7902</td>
+                  <td className="px-4 py-2">Iron-containing samples</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2">Synchrotron</td>
+                  <td className="px-4 py-2">Variable</td>
+                  <td className="px-4 py-2">High-resolution studies</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Practical Tips</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
-            <li>Determine crystal structure and lattice parameters.</li>
-            <li>Identify compounds via powder diffraction patterns.</li>
-            <li>Constructive interference occurs when path difference = nλ.</li>
+            <li>Always convert angles to radians when using calculators without degree mode.</li>
+            <li>For powder diffraction, multiple grain orientations produce cone-shaped diffraction patterns captured as rings on detectors.</li>
+            <li>Single crystals require careful alignment to obtain diffraction from specific planes.</li>
+            <li>Sample preparation is critical—powder samples should be finely ground for accurate d-spacing measurements.</li>
+            <li>Temperature affects lattice spacing; most standard measurements are at room temperature (25°C).</li>
           </ul>
         </section>
 
