@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Electrochemical Cell Potential Calculator | Chemistry Calculators',
   description: 'Calculate standard and non-standard cell potentials for galvanic and electrolytic cells. Apply the Nernst equation for concentration effects.',
   keywords: 'cell potential, galvanic cell, voltaic cell, Nernst equation, electrochemistry, reduction potential, oxidation',
+  alternates: {
+    canonical: 'https://chemsolved.com/electrochemistry-calculators/cell-potential-calculator',
+  },
 };
 
 export default function CellPotentialCalculatorPage() {  return (

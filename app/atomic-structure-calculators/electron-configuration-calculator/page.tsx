@@ -8,6 +8,9 @@ export const metadata = {
   title: 'Electron Configuration Calculator',
   description: 'Determine electron configurations for any element using the Aufbau principle. Get full configurations, noble gas notation, and orbital diagrams.',
   keywords: 'electron configuration, Aufbau principle, orbital diagram, noble gas notation, atomic structure, quantum mechanics, chemistry calculator',
+  alternates: {
+    canonical: 'https://chemsolved.com/atomic-structure-calculators/electron-configuration-calculator',
+  },
 };
 
 export default function ElectronConfigurationPage() {  return (

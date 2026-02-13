@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Titration Calculator | Chemistry Calculators',
   description: 'Calculate pH at various points during acid-base titrations. Determine equivalence points, initial pH, and select appropriate indicators.',
   keywords: 'titration calculator, acid-base titration, pH calculation, equivalence point, indicator selection, chemistry calculator',
+  alternates: {
+    canonical: 'https://chemsolved.com/acid-base-calculators/titration-calculator',
+  },
 };
 
 export default function TitrationCalculatorPage() {  return (

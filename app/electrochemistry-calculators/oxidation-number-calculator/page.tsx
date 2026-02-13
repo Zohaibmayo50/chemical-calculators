@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Oxidation Number Calculator | Chemistry Calculators',
   description: 'Calculate oxidation numbers (oxidation states) for elements in chemical compounds and ions. Understand redox chemistry and electron transfer.',
   keywords: 'oxidation number, oxidation state, redox calculator, electron transfer, chemistry calculator, valence state',
+  alternates: {
+    canonical: 'https://chemsolved.com/electrochemistry-calculators/oxidation-number-calculator',
+  },
 };
 
 export default function OxidationNumberCalculatorPage() {  return (

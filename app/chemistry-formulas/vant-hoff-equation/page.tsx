@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Van't Hoff Equation Calculator & Formula",
   description: "Learn the Van't Hoff equation for equilibrium constants vs temperature with step-by-step examples and practice questions.",
   keywords: "vant hoff equation, equilibrium constant temperature, delta h, van't hoff plot, chemistry calculator",
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/vant-hoff-equation',
+  },
 }
 
 export default function VantHoffEquation() {

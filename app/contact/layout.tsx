@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     'chemistry help',
     'ChemSolved feedback',
   ],
+  alternates: {
+    canonical: 'https://chemsolved.com/contact',
+  },
   openGraph: {
     title: 'Contact Us | ChemSolved',
     description: 'Get in touch with ChemSolved. Ask questions, report issues, or provide feedback about our chemistry calculators.',

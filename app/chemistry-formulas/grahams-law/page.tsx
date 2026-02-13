@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Graham\'s Law of Effusion | Rate₁/Rate₂ = √(M₂/M₁)',
   description: 'Master Graham\'s Law relating gas effusion rates to molar mass. Includes examples and gas calculator links.',
   keywords: 'Grahams law, effusion, diffusion, molar mass, gas velocity, kinetic molecular theory',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/grahams-law',
+  },
 };
 
 export default function GrahamsLawPage() {

@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Charles\'s Law | V₁/T₁ = V₂/T₂ | Volume-Temperature Relationship',
   description: 'Master Charles\'s Law (V₁/T₁ = V₂/T₂) for gas volume-temperature calculations at constant pressure. Includes examples and calculator links.',
   keywords: 'charles law, volume temperature, gas laws, direct relationship, V1/T1 V2/T2, kelvin temperature',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/charles-law',
+  },
 };
 
 export default function CharlesLawPage() {

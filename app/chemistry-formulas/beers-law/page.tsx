@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Beer\'s Law | A = εbc | Absorbance & Concentration Formula',
   description: 'Master Beer\'s Law (A = εbc) for spectroscopy and concentration analysis. Includes examples and spectrophotometry calculator links.',
   keywords: 'beers law, absorbance, spectrophotometry, concentration, molar absorptivity, lambert beer law',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/beers-law',
+  },
 };
 
 export default function BeersLawPage() {

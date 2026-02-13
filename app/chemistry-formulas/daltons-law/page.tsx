@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Dalton\'s Law of Partial Pressures | P_total = ΣP_i',
   description: 'Master Dalton\'s Law of partial pressures for gas mixtures. Includes examples and gas law calculator links.',
   keywords: 'Daltons law, partial pressure, gas mixtures, total pressure, mole fraction',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/daltons-law',
+  },
 };
 
 export default function DaltonsLawPage() {

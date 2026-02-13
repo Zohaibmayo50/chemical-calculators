@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Molecular Formula Calculator',
   description: 'Calculate molecular formulas from empirical formulas and molecular weights. Determine the actual number of atoms in molecules with step-by-step calculations.',
   keywords: 'molecular formula, empirical formula, molecular weight, chemistry calculator, stoichiometry, formula determination',
+  alternates: {
+    canonical: 'https://chemsolved.com/stoichiometry-calculators/molecular-formula-calculator',
+  },
 };
 
 export default function MolecularFormulaCalculatorPage() {

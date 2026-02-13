@@ -8,6 +8,9 @@ export const metadata = {
   title: 'Hess\'s Law Calculator',
   description: 'Calculate enthalpy changes using Hess\'s Law. Combine multiple reactions to find ΔH for complex processes in thermodynamics and thermochemistry.',
   keywords: 'Hess law, enthalpy, thermochemistry, heat of reaction, reaction enthalpy, thermodynamics, chemistry calculator',
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/hess-law-calculator',
+  },
 };
 
 export default function HessLawCalculatorPage() {  return (

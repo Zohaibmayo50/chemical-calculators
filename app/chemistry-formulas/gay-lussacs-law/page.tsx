@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Gay-Lussac\'s Law | P₁/T₁ = P₂/T₂ | Pressure-Temperature Relationship',
   description: 'Master Gay-Lussac\'s Law (P₁/T₁ = P₂/T₂) for gas pressure-temperature calculations at constant volume. Includes examples and calculator links.',
   keywords: 'gay lussacs law, pressure temperature, gas laws, direct relationship, P1/T1 P2/T2, kelvin temperature',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/gay-lussacs-law',
+  },
 };
 
 export default function GayLussacsLawPage() {

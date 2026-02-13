@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Molecular Formula',
   description: 'Determine a compound\'s molecular formula from its empirical formula and molar mass with worked examples.',
   keywords: 'molecular formula, empirical formula, molar mass, stoichiometry',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/molecular-formula',
+  },
 }
 
 export default function MolecularFormulaPage() {

@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Chemical Equation Balancer',
   description: 'Automatically balance chemical equations using the law of conservation of mass. Balance complex reactions with step-by-step verification.',
   keywords: 'equation balancing, chemical equations, stoichiometry, conservation of mass, coefficients, balancing calculator',
+  alternates: {
+    canonical: 'https://chemsolved.com/stoichiometry-calculators/balancing-equations-calculator',
+  },
 };
 
 export default function ChemicalEquationBalancerPage() {

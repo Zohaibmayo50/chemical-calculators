@@ -8,6 +8,9 @@ export const metadata = {
   title: 'Bond Energy Calculator',
   description: 'Calculate reaction enthalpy (ΔH) from bond energies. Use bond dissociation energies to determine whether reactions are exothermic or endothermic.',
   keywords: 'bond energy, bond dissociation energy, enthalpy, reaction energy, exothermic, endothermic, thermodynamics, chemistry calculator',
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/bond-energy-calculator',
+  },
 };
 
 export default function BondEnergyPage() {  return (

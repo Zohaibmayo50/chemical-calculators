@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Boyle\'s Law | P₁V₁ = P₂V₂ | Pressure-Volume Relationship',
   description: 'Master Boyle\'s Law (P₁V₁ = P₂V₂) for gas pressure-volume calculations at constant temperature. Includes examples and calculator links.',
   keywords: 'boyles law, pressure volume, gas laws, inverse relationship, P1V1 P2V2',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/boyles-law',
+  },
 };
 
 export default function BoylesLawPage() {

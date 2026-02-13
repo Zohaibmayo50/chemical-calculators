@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Electron Configuration Rules',
   description: 'Aufbau principle, Pauli exclusion, and Hund\'s rule for electron arrangement.',
   keywords: 'electron configuration, Aufbau principle, Pauli exclusion, Hund rule, orbital filling',
+  alternates: {
+    canonical: 'https://chemsolved.com/chemistry-formulas/electron-configuration',
+  },
 }
 
 export default function ElectronConfigurationPage() {
