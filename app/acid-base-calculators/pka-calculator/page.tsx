@@ -31,10 +31,6 @@ export default function PkaCalculatorPage() {
                 Home
               </Link>
               <span className="text-gray-400">/</span>
-              <Link href="/acid-base-calculators" className="text-primary-600 dark:text-primary-400 hover:underline">
-                Acid-Base Calculators
-              </Link>
-              <span className="text-gray-400">/</span>
               <span className="text-gray-600 dark:text-gray-300">pKa Calculator</span>
             </nav>
           </div>
@@ -198,15 +194,9 @@ export default function PkaCalculatorPage() {
                     <h3 className="font-bold text-gray-900 dark:text-white mb-1">Henderson-Hasselbalch</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Calculate buffer pH using pKa</p>
                   </Link>
-                  <Link href="/acid-base-calculators/buffer-capacity-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
-                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">Buffer Capacity</h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Calculate buffer solution capacity</p>
-                  </Link>
-                </div>
-                <div className="grid sm:grid-cols-2 gap-4 mt-4">
-                  <Link href="/acid-base-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
-                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Acid-Base Calculators →</h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">View complete collection</p>
+                  <Link href="/acid-base-calculators/titration-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">Titration Calculator</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Calculate pH during titrations</p>
                   </Link>
                 </div>
               </section>

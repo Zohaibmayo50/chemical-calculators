@@ -352,7 +352,7 @@ export default function AcidDissociationConstantFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Buffer Solutions</h3>
                 <p className="text-gray-600 dark:text-gray-400">Henderson-Hasselbalch</p>
               </Link>
-              <Link href="/acid-base-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">All Acid-Base Calculators</h3>
                 <p className="text-white/90">Explore all acid-base tools</p>
               </Link>

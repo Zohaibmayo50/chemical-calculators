@@ -155,14 +155,6 @@ export default function SolubilityProductCalculatorPage() {  return (
                   </li>
                 </ul>
               </div>
-              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-                <a
-                  href="/equilibrium-calculators"
-                  className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
-                >
-                  All Equilibrium Calculators →
-                </a>
-              </div>
             </div>
           </div>
         </div>

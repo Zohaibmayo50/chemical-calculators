@@ -117,7 +117,7 @@ export default function BufferCapacityFormulaPage() {
               <h3 className="font-semibold text-blue-900 mb-2">Henderson-Hasselbalch Calculator</h3>
               <p className="text-sm text-gray-600">Calculate buffer pH</p>
             </a>
-            <a href="/acid-base-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Acid-Base Calculators</h3>
               <p className="text-sm opacity-90">Explore all acid-base tools</p>
             </a>
