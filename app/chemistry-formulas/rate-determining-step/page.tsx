@@ -33,6 +33,19 @@ export default function RateDeterminingStepPage() {
         </div>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Rate-Determining Steps</h2>
+          <p className="text-gray-700 mb-4">
+            The rate-determining step (RDS) is the slowest elementary step in a multistep reaction mechanism, and it controls the overall reaction rate much like a bottleneck restricts water flow through connected pipes. Understanding the RDS concept is fundamental to chemical kinetics because it allows chemists to predict reaction rates, design more efficient catalysts, and optimize industrial processes. The RDS has the highest activation energy barrier among all elementary steps, making it the most difficult transition to achieve and thus the limiting factor for the entire reaction sequence.
+          </p>
+          <p className="text-gray-700 mb-4">
+            In complex reaction mechanisms with multiple elementary steps, each step proceeds at its own characteristic rate determined by its activation energy and the concentrations of reactants involved in that particular step. However, the overall reaction cannot proceed faster than its slowest step. This principle has profound implications: even if subsequent steps are extremely fast, they must wait for the slow step to provide the necessary intermediates. This concept is analogous to an assembly line where one slow worker determines the overall production rate regardless of how fast other workers operate.
+          </p>
+          <p className="text-gray-700">
+            Identifying the rate-determining step is crucial for deriving the overall rate law of a reaction. The rate law for a multistep mechanism is determined solely by the RDS and any fast pre-equilibrium steps that precede it. Species that appear in the RDS will appear in the experimentally observed rate law, while species involved only in fast steps after the RDS do not affect the overall rate expression. This relationship between mechanism and rate law allows chemists to propose and test reaction mechanisms by comparing predicted rate laws with experimental kinetic data.
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Core Concept</h2>
           <div className="bg-rose-50 border-l-4 border-rose-500 p-4 mb-4">
             <p className="text-lg font-semibold text-rose-700">Overall reaction rate = rate of slowest elementary step</p>
@@ -72,13 +85,55 @@ export default function RateDeterminingStepPage() {
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Points</h2>
-          <ul className="list-disc pl-5 text-gray-700 space-y-2">
-            <li>If slow step is first: rate law uses reactants directly</li>
-            <li>If slow step is later: may need pre-equilibrium approximation for intermediates</li>
-            <li>Fast steps after slow step don't affect rate law</li>
-            <li>Sum of elementary steps = overall balanced equation</li>
-          </ul>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Concepts &amp; Applications</h2>
+          
+          <div className="mb-4">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">Position of RDS in Mechanism</h3>
+            <ul className="list-disc pl-5 text-gray-700 space-y-2">
+              <li><strong>If slow step is first:</strong> Rate law uses reactants directly from the slow step</li>
+              <li><strong>If slow step is later:</strong> May need pre-equilibrium approximation to express intermediates in terms of initial reactants</li>
+              <li><strong>Fast steps after RDS:</strong> Don't affect rate law but must occur for products to form</li>
+            </ul>
+          </div>
+
+          <div className="mb-4">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">Catalysis &amp; RDS</h3>
+            <p className="text-gray-700">
+              Catalysts accelerate reactions by lowering the activation energy of the rate-determining step, providing an alternative mechanism with a faster RDS. Understanding which step is rate-determining allows chemists to design catalysts that specifically address that bottleneck, leading to more efficient chemical processes in industry and biological systems.
+            </p>
+          </div>
+
+          <div className="mb-4">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">Temperature Effects</h3>
+            <p className="text-gray-700">
+              The RDS is most sensitive to temperature changes because it has the highest activation energy. The Arrhenius equation predicts that reactions with high E<sub>a</sub> show dramatic rate increases with temperature, explaining why the overall reaction rate responds primarily to temperature-induced changes in the RDS rate.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">Industrial Applications</h3>
+            <p className="text-gray-700">
+              In industrial chemistry, identifying the RDS allows optimization of reaction conditions (temperature, pressure, concentration) to maximize throughput. For example, in ammonia synthesis via the Haber process, understanding the RDS helps engineers optimize catalyst design and operating conditions to improve efficiency.
+            </p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Common Mistakes</h2>
+          <div className="space-y-3">
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Assuming the first step is always slow</h3>
+              <p className="text-gray-700">The RDS can occur at any position in the mechanism. Always examine activation energies or kinetic data to identify it.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Forgetting to account for intermediates</h3>
+              <p className="text-gray-700">When the RDS is not first, intermediates from pre-equilibrium steps must be expressed in terms of reactants using equilibrium expressions.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Confusing molecularity with reaction order</h3>
+              <p className="text-gray-700">For elementary steps, molecularity equals reaction order, but this is not true for overall reactions with multiple steps.</p>
+            </div>
+          </div>
         </section>
 
         {/* Related Calculators */}

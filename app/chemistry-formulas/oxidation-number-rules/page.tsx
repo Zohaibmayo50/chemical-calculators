@@ -33,6 +33,19 @@ export default function OxidationNumberPage() {
         </div>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Oxidation Numbers</h2>
+          <p className="text-gray-700 mb-4">
+            Oxidation numbers (also called oxidation states) are a bookkeeping tool that tracks electron distribution in chemical compounds and helps identify which atoms are oxidized or reduced during chemical reactions. While oxidation numbers don't represent actual charges on atoms in covalent compounds, they provide a systematic method for analyzing electron transfer in redox reactions. The concept dates to the early 20th century and has become indispensable for balancing redox equations, predicting reaction products, understanding electrochemistry, and organizing chemical knowledge about element reactivity patterns.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The rules for assigning oxidation numbers follow a priority system that resolves conflicts when multiple rules could apply. For example, in most compounds oxygen has oxidation number -2, but this rule is overruled by the fluorine rule (fluorine always -1) in OF₂, where oxygen becomes +2. Understanding this priority hierarchy is crucial for correctly assigning oxidation states. The most fundamental rule is that oxidation numbers must sum to the overall charge: zero for neutral molecules, or the ion charge for polyatomic ions. This constraint allows calculation of unknown oxidation states through algebraic equations.
+          </p>
+          <p className="text-gray-700">
+            Oxidation numbers reveal patterns in periodic table chemistry: Group 1 metals always +1, Group 2 always +2, while transition metals exhibit variable oxidation states (Fe can be +2 or +3, Mn ranges from -1 to +7). These patterns help predict compound formulas and reaction outcomes. In organic chemistry, tracking carbon oxidation states helps classify reactions: oxidation increases oxygen/decreases hydrogen content (alcohols → aldehydes → acids), while reduction does the opposite (aldehydes → alcohols). Mastering oxidation numbers is essential for understanding redox chemistry, electrochemistry, corrosion, metabolism, and industrial chemical processes.
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Priority Rules (Apply in Order)</h2>
           <ol className="list-decimal pl-6 space-y-3 text-gray-700">
             <li><strong>Free elements:</strong> Oxidation number = 0 (e.g., Na, O₂, Cl₂)</li>
@@ -57,6 +70,41 @@ export default function OxidationNumberPage() {
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
             <p className="font-semibold">Answer: S has oxidation number +6</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Additional Worked Example: Dichromate Ion (Cr₂O₇²⁻)</h2>
+          <div className="space-y-3 text-gray-700">
+            <p><strong>Step 1:</strong> Identify the overall charge: -2</p>
+            <p><strong>Step 2:</strong> Oxygen usually -2 (rule 4), so 7 O = 7(-2) = -14 total</p>
+            <p><strong>Step 3:</strong> Let Cr oxidation state = x for each Cr atom</p>
+            <p><strong>Step 4:</strong> Sum rule: 2(x) + 7(-2) = -2</p>
+            <p><strong>Step 5:</strong> Solve: 2x - 14 = -2 → 2x = 12 → x = +6</p>
+          </div>
+          <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
+            <p className="font-semibold">Answer: Each Cr has oxidation number +6</p>
+            <p className="text-sm text-gray-700 mt-1">Cr₂O₇²⁻ is a powerful oxidizing agent, as Cr⁺⁶ readily accepts electrons to become Cr⁺³.</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Applications</h2>
+          <div className="space-y-3">
+            <div className="bg-yellow-50 p-4 rounded">
+              <h3 className="font-semibold text-yellow-900 mb-2">Balancing Redox Equations</h3>
+              <p className="text-gray-700">Identify oxidation/reduction by tracking oxidation number changes. Oxidation = increase in oxidation number; reduction = decrease.</p>
+            </div>
+
+            <div className="bg-yellow-50 p-4 rounded">
+              <h3 className="font-semibold text-yellow-900 mb-2">Predicting Compound Formulas</h3>
+              <p className="text-gray-700">Use common oxidation states to predict formulas: Fe⁺³ + O⁻² → Fe₂O₃ (charges must balance).</p>
+            </div>
+
+            <div className="bg-yellow-50 p-4 rounded">
+              <h3 className="font-semibold text-yellow-900 mb-2">Identifying Redox Reactions</h3>
+              <p className="text-gray-700">If oxidation numbers change, it's a redox reaction. If no change, it's not redox (e.g., precipitation, acid-base).</p>
+            </div>
           </div>
         </section>
 

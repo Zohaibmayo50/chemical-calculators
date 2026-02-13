@@ -33,16 +33,48 @@ export default function DipoleMomentFormulaPage() {
         </div>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Dipole Moment</h2>
+          <p className="text-gray-700 mb-4">
+            The dipole moment (μ) is a fundamental molecular property that quantifies the separation of positive and negative electrical charges within a molecule. First introduced by physicist Peter Debye in 1912, the dipole moment concept revolutionized our understanding of molecular polarity, intermolecular forces, and chemical reactivity. Molecules with high dipole moments exhibit strong polarity, leading to elevated boiling points, increased solubility in polar solvents like water, and enhanced chemical reactivity in polar environments.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Dipole moments arise when atoms with different electronegativities form covalent bonds, creating partial positive (δ⁺) and partial negative (δ⁻) charges. For instance, in HCl, chlorine's higher electronegativity pulls electron density away from hydrogen, creating a dipole pointing from H⁺ᵟ to Cl⁻ᵟ. The magnitude and direction of this dipole determine many physical and chemical properties, from microwave absorption in rotational spectroscopy to drug-receptor interactions in pharmaceutical design.
+          </p>
+          <p className="text-gray-700">
+            For polyatomic molecules, the overall dipole moment is the vector sum of individual bond dipoles. Molecular geometry plays a critical role: linear CO₂ has zero dipole moment despite polar C=O bonds because the two bond dipoles cancel due to symmetry. In contrast, bent H₂O has a large dipole moment (1.85 D) because the two O-H bond dipoles add constructively. This vector nature makes dipole moment predictions more complex but also more informative about three-dimensional molecular structure.
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula &amp; Units</h2>
           <div className="bg-cyan-50 border-l-4 border-cyan-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-bold text-cyan-700">μ = q × d</p>
+            <p className="text-3xl font-bold text-cyan-700 mb-3">μ = q × d</p>
+            <p className="text-sm text-gray-600">Vector quantity pointing from positive to negative charge</p>
           </div>
-          <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
-            <li><strong>μ</strong> = dipole moment (C·m or D)</li>
-            <li><strong>q</strong> = magnitude of charge (C)</li>
-            <li><strong>d</strong> = distance between charges (m)</li>
-            <li>1 Debye (D) = 3.336 × 10⁻³⁰ C·m</li>
-          </ul>
+          <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
+            <div className="bg-cyan-50 p-3 rounded">
+              <p><strong>μ</strong> = dipole moment (C·m or Debye)</p>
+            </div>
+            <div className="bg-cyan-50 p-3 rounded">
+              <p><strong>q</strong> = magnitude of charge (Coulombs)</p>
+            </div>
+            <div className="bg-cyan-50 p-3 rounded">
+              <p><strong>d</strong> = distance between charges (meters)</p>
+            </div>
+            <div className="bg-cyan-50 p-3 rounded">
+              <p><strong>1 Debye (D)</strong> = 3.336 × 10⁻³⁰ C·m</p>
+            </div>
+          </div>
+          <div className="bg-blue-50 border border-blue-200 rounded p-4">
+            <p className="font-semibold text-blue-800 mb-2">Important Notes:</p>
+            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+              <li>Dipole moment is a vector: magnitude AND direction matter</li>
+              <li>Direction: from positive charge to negative charge (convention)</li>
+              <li>For bond dipoles: arrow points toward more electronegative atom</li>
+              <li>Typical molecular dipoles: 0-11 D (water = 1.85 D, HCl = 1.08 D)</li>
+              <li>μ = 0 for homonuclear diatomics (H₂, N₂, O₂) and symmetric molecules (CH₄, CO₂)</li>
+            </ul>
+          </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">

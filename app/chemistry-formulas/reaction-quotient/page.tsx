@@ -33,6 +33,19 @@ export default function ReactionQuotientPage() {
         </div>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding the Reaction Quotient</h2>
+          <p className="text-gray-700 mb-4">
+            The reaction quotient (Q) is a mathematical expression that describes the relative amounts of products and reactants at any point during a chemical reaction, not just at equilibrium. While the equilibrium constant K describes the ratio of products to reactants at equilibrium, Q provides a snapshot of the reaction composition at any moment in time. This distinction is crucial for predicting reaction behavior: by comparing Q to K, chemists can determine whether a reaction will proceed forward (toward products), reverse (toward reactants), or remain at equilibrium.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The reaction quotient is calculated using the same mathematical form as the equilibrium constant expression, raising product concentrations (or activities) to their stoichiometric coefficients and dividing by reactant concentrations raised to their respective stoichiometric coefficients. However, Q uses current or initial concentrations rather than equilibrium values. This makes Q a dynamic quantity that changes as the reaction progresses, eventually converging to the value of K when equilibrium is reached. The relationship between Q and K is fundamental to Le Chatelier's principle and helps explain how systems respond to stress.
+          </p>
+          <p className="text-gray-700">
+            In industrial and laboratory settings, the reaction quotient is invaluable for process control and optimization. By monitoring Q throughout a reaction, chemists can determine how close the system is to equilibrium and make real-time adjustments to improve yield. For example, in continuous flow reactors, maintaining Q less than K ensures that the forward reaction continues to produce products efficiently. Understanding Q also helps predict precipitation in analytical chemistry, optimize buffer systems in biochemistry, and design efficient separation processes in chemical engineering.
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Definition</h2>
           <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 mb-4 text-center">
             <p className="text-2xl font-bold text-emerald-700">For aA + bB ⇌ cC + dD:</p>
@@ -42,22 +55,104 @@ export default function ReactionQuotientPage() {
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Direction Prediction</h2>
-          <ul className="list-disc ml-6 space-y-2 text-gray-700">
-            <li>Q &lt; K: reaction shifts right (toward products)</li>
-            <li>Q = K: at equilibrium</li>
-            <li>Q &gt; K: reaction shifts left (toward reactants)</li>
-          </ul>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Direction Prediction Table</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300">
+              <thead className="bg-emerald-100">
+                <tr>
+                  <th className="px-4 py-3 border-b border-gray-300 text-left font-semibold text-gray-700">Condition</th>
+                  <th className="px-4 py-3 border-b border-gray-300 text-left font-semibold text-gray-700">Q vs K</th>
+                  <th className="px-4 py-3 border-b border-gray-300 text-left font-semibold text-gray-700">Reaction Direction</th>
+                  <th className="px-4 py-3 border-b border-gray-300 text-left font-semibold text-gray-700">Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="hover:bg-gray-50">
+                  <td className="px-4 py-3 border-b border-gray-200">Too few products</td>
+                  <td className="px-4 py-3 border-b border-gray-200 font-semibold text-blue-700">Q &lt; K</td>
+                  <td className="px-4 py-3 border-b border-gray-200">Forward (→)</td>
+                  <td className="px-4 py-3 border-b border-gray-200">Forms more products</td>
+                </tr>
+                <tr className="hover:bg-gray-50">
+                  <td className="px-4 py-3 border-b border-gray-200">At equilibrium</td>
+                  <td className="px-4 py-3 border-b border-gray-200 font-semibold text-green-700">Q = K</td>
+                  <td className="px-4 py-3 border-b border-gray-200">No net change</td>
+                  <td className="px-4 py-3 border-b border-gray-200">System remains balanced</td>
+                </tr>
+                <tr className="hover:bg-gray-50">
+                  <td className="px-4 py-3 border-b border-gray-200">Too many products</td>
+                  <td className="px-4 py-3 border-b border-gray-200 font-semibold text-red-700">Q &gt; K</td>
+                  <td className="px-4 py-3 border-b border-gray-200">Reverse (←)</td>
+                  <td className="px-4 py-3 border-b border-gray-200">Forms more reactants</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example</h2>
-          <p className="text-gray-700 mb-3"><strong>Given:</strong> A ⇌ B, K = 2.0; at some time [A]=0.50 M, [B]=0.60 M.</p>
-          <div className="space-y-2 text-gray-700">
-            <p>Q = [B]/[A] = 0.60/0.50 = 1.2; Q &lt; K so reaction proceeds to the right.</p>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Worked Example: More Complex System</h2>
+          <p className="text-gray-700 mb-3"><strong>Given:</strong> 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), K<sub>p</sub> = 4.0 × 10² at 1000 K</p>
+          <p className="text-gray-700 mb-3"><strong>Initial pressures:</strong> P<sub>SO₂</sub> = 0.50 atm, P<sub>O₂</sub> = 0.30 atm, P<sub>SO₃</sub> = 0.10 atm</p>
+          
+          <div className="bg-gray-50 p-4 rounded mb-3">
+            <p className="font-semibold text-gray-800 mb-2">Step 1: Write Q<sub>p</sub> expression</p>
+            <p className="text-gray-700">Q<sub>p</sub> = (P<sub>SO₃</sub>)² / [(P<sub>SO₂</sub>)² × P<sub>O₂</sub>]</p>
           </div>
-          <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Answer: Shifts toward products</p>
+
+          <div className="bg-gray-50 p-4 rounded mb-3">
+            <p className="font-semibold text-gray-800 mb-2">Step 2: Substitute values</p>
+            <p className="text-gray-700">Q<sub>p</sub> = (0.10)² / [(0.50)² × 0.30]</p>
+            <p className="text-gray-700">Q<sub>p</sub> = 0.01 / (0.25 × 0.30) = 0.01 / 0.075 ≈ 0.133</p>
+          </div>
+
+          <div className="bg-gray-50 p-4 rounded mb-3">
+            <p className="font-semibold text-gray-800 mb-2">Step 3: Compare Q to K</p>
+            <p className="text-gray-700">Q<sub>p</sub> = 0.133 &lt;&lt; K<sub>p</sub> = 400</p>
+            <p className="text-gray-700">Since Q &lt; K, reaction shifts forward</p>
+          </div>
+
+          <div className="bg-green-50 border border-green-200 rounded p-4">
+            <p className="font-semibold">Answer: Reaction proceeds to the right, converting SO₂ and O₂ into SO₃ until equilibrium is reached.</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Applications</h2>
+          
+          <div className="space-y-4">
+            <div className="bg-blue-50 p-4 rounded">
+              <h3 className="font-semibold text-blue-900 mb-2">Precipitation Prediction</h3>
+              <p className="text-gray-700">Calculate Q for an ionic product and compare to K<sub>sp</sub>. If Q &gt; K<sub>sp</sub>, precipitation occurs.</p>
+            </div>
+
+            <div className="bg-blue-50 p-4 rounded">
+              <h3 className="font-semibold text-blue-900 mb-2">Process Optimization</h3>
+              <p className="text-gray-700">Monitor Q in real-time to adjust concentrations, temperature, or pressure to maximize product yield in industrial reactors.</p>
+            </div>
+
+            <div className="bg-blue-50 p-4 rounded">
+              <h3 className="font-semibold text-blue-900 mb-2">Biological Systems</h3>
+              <p className="text-gray-700">Calculate Q for biochemical reactions (like ATP hydrolysis) to determine if reactions are thermodynamically favorable under cellular conditions.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Common Mistakes</h2>
+          <div className="space-y-3">
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Including pure solids or liquids in Q</h3>
+              <p className="text-gray-700">Remember: activities of pure solids and liquids are unity (1), so they don't appear in Q or K expressions.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Using molarity when partial pressures are needed</h3>
+              <p className="text-gray-700">For gas-phase reactions, use Q<sub>p</sub> with partial pressures, not Q<sub>c</sub> with concentrations, unless specifically required.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Forgetting stoichiometric coefficients</h3>
+              <p className="text-gray-700">Always raise concentrations to the power of their stoichiometric coefficients from the balanced equation.</p>
+            </div>
           </div>
         </section>
 

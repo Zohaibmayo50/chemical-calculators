@@ -1,0 +1,21 @@
+EXPANSIONS COMPLETED:
+1. bohr-model - ✓ DONE
+2. wavelength-energy-relationship - ✓ DONE
+3. dipole-moment-formula - PARTIAL (already has Understanding section, needs more examples)
+4. vsepr-theory - ✓ ALREADY COMPLETE (339 lines)
+
+REMAINING TO EXPAND:
+5. collision-theory
+6. integrated-rate-laws
+7. rate-determining-step
+8. reaction-quotient
+9. faradays-law
+10. bond-enthalpy-formula
+11. calorimetry-formula
+12. gas-density-formula
+13. activity-coefficient
+14. oxidation-number-rules
+15. solubility-product-constant-ksp
+16. hybridization
+
+Total: 12 pages need full expansion

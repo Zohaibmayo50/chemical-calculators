@@ -33,6 +33,19 @@ export default function BondEnthalpyFormulaPage() {
         </div>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Bond Enthalpy</h2>
+          <p className="text-gray-700 mb-4">
+            Bond enthalpy (also called bond energy or bond dissociation energy) is the energy required to break one mole of a particular type of bond in gaseous molecules under standard conditions, producing gaseous atoms or radicals. This fundamental thermochemical concept allows chemists to estimate reaction enthalpies (ΔH<sub>rxn</sub>) by considering the energy changes involved in breaking existing bonds in reactants and forming new bonds in products. The basic principle is elegant: breaking bonds requires energy input (endothermic, positive values) while forming bonds releases energy (exothermic, negative values).
+          </p>
+          <p className="text-gray-700 mb-4">
+            Bond enthalpy values are typically reported as average values across many molecules because the exact energy required to break a specific bond depends on its molecular environment. For example, the C-H bond energy in methane (CH₄) differs slightly from that in ethane (C₂H₆) or benzene (C₆H₆) due to differences in neighboring atoms and molecular structure. Despite this limitation, average bond enthalpies provide remarkably useful estimates for predicting reaction energetics, especially when more precise thermodynamic data (like standard enthalpies of formation) are unavailable.
+          </p>
+          <p className="text-gray-700">
+            The bond enthalpy approach is particularly valuable in organic chemistry where countless reaction pathways exist, making it impractical to measure ΔH<sub>rxn</sub> experimentally for every possible transformation. By calculating ΔH<sub>rxn</sub> = Σ(bonds broken) - Σ(bonds formed), chemists can quickly estimate whether a proposed reaction is thermodynamically favorable (exothermic, ΔH &lt; 0) or unfavorable (endothermic, ΔH &gt; 0). This method is also pedagogically powerful, reinforcing the concept that chemical reactions involve rearranging atoms by breaking old bonds and making new ones.
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-4 text-center">
             <p className="text-2xl font-bold text-red-700">ΔH<sub>rxn</sub> = Σ(bonds broken) - Σ(bonds formed)</p>
@@ -70,6 +83,44 @@ export default function BondEnthalpyFormulaPage() {
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
             <p className="font-semibold">Answer: ΔH ≈ -802 kJ/mol (exothermic)</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Concepts</h2>
+          <div className="space-y-4">
+            <div className="bg-red-50 p-4 rounded">
+              <h3 className="font-semibold text-red-900 mb-2">Bond Order &amp; Bond Strength</h3>
+              <p className="text-gray-700">Higher bond order = stronger bond = higher bond enthalpy. Single bonds (C-C: 348 kJ/mol) &lt; Double bonds (C=C: 614 kJ/mol) &lt; Triple bonds (C≡C: 839 kJ/mol).</p>
+            </div>
+
+            <div className="bg-red-50 p-4 rounded">
+              <h3 className="font-semibold text-red-900 mb-2">Limitations of Average Values</h3>
+              <p className="text-gray-700">Bond enthalpies are averages. For more accuracy, use standard enthalpies of formation (ΔH<sub>f</sub>°) when available. Typical errors from bond enthalpies: ±10-20 kJ/mol.</p>
+            </div>
+
+            <div className="bg-red-50 p-4 rounded">
+              <h3 className="font-semibold text-red-900 mb-2">Predicting Exothermic vs Endothermic</h3>
+              <p className="text-gray-700">If stronger bonds form than break, reaction is exothermic (ΔH &lt; 0). If weaker bonds form than break, reaction is endothermic (ΔH &gt; 0).</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Common Mistakes</h2>
+          <div className="space-y-3">
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Forgetting to count ALL bonds</h3>
+              <p className="text-gray-700">In CH₄, there are FOUR C-H bonds to break. Count bonds carefully in structural formulas.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Sign errors</h3>
+              <p className="text-gray-700">Bonds broken = positive contribution; bonds formed = negative contribution. Don't flip signs.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Treating diatomic molecules as single atoms</h3>
+              <p className="text-gray-700">O₂ requires breaking one O=O bond (498 kJ/mol), not two O atoms.</p>
+            </div>
           </div>
         </section>
 

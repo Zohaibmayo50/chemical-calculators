@@ -33,6 +33,19 @@ export default function CalorimetryFormulaPage() {
         </div>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Calorimetry</h2>
+          <p className="text-gray-700 mb-4">
+            Calorimetry is the experimental science of measuring heat changes during chemical reactions, physical transformations, and thermal processes. The fundamental equation q = mcΔT relates heat transfer to measurable quantities: mass, specific heat capacity, and temperature change. This simple yet powerful relationship allows chemists to determine reaction enthalpies, calculate nutritional energy content in foods, design thermal management systems, and characterize material properties. Calorimetry is essential in thermodynamics, providing direct experimental access to energy changes that govern chemical and physical behavior.
+          </p>
+          <p className="text-gray-700 mb-4">
+            The specific heat capacity (c) is a material property representing the amount of energy needed to raise one gram of a substance by one degree Celsius (or Kelvin). Water has an exceptionally high specific heat (4.184 J·g⁻¹·°C⁻¹), making it an excellent thermal buffer and heat sink—properties crucial for life on Earth and industrial cooling applications. Different materials have vastly different specific heats: metals like copper (0.385 J·g⁻¹·°C⁻¹) heat and cool quickly, while water changes temperature slowly, explaining why metal feels cold to touch while wood at the same temperature does not.
+          </p>
+          <p className="text-gray-700">
+            Calorimetric measurements underpin numerous applications: determining the caloric content of foods (bomb calorimetry), measuring reaction enthalpies for industrial process design, calibrating thermometers, designing heat exchangers, and developing phase-change materials for energy storage. In chemistry laboratories, simple coffee-cup calorimeters measure heat changes at constant pressure, while bomb calorimeters operate at constant volume for combustion reactions. Understanding calorimetry is fundamental for anyone working with energy, from chemical engineers optimizing reactor heat management to nutritionists calculating dietary energy content.
+          </p>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-4 text-center">
             <p className="text-2xl font-bold text-red-700">q = m c ΔT</p>
@@ -69,6 +82,49 @@ export default function CalorimetryFormulaPage() {
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
             <p className="font-semibold">Answer: q ≈ 12.6 kJ required</p>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Concepts &amp; Applications</h2>
+          <div className="space-y-4">
+            <div className="bg-blue-50 p-4 rounded">
+              <h3 className="font-semibold text-blue-900 mb-2">Heat Transfer Direction</h3>
+              <p className="text-gray-700">Positive q = heat absorbed (endothermic); temperature increases. Negative q = heat released (exothermic); temperature decreases. Sign of ΔT indicates direction.</p>
+            </div>
+
+            <div className="bg-blue-50 p-4 rounded">
+              <h3 className="font-semibold text-blue-900 mb-2">Conservation of Energy</h3>
+              <p className="text-gray-700">In isolated systems: q<sub>hot</sub> + q<sub>cold</sub> = 0. Heat lost by hot object equals heat gained by cold object. Used to determine unknown specific heats.</p>
+            </div>
+
+            <div className="bg-blue-50 p-4 rounded">
+              <h3 className="font-semibold text-blue-900 mb-2">Phase Changes</h3>
+              <p className="text-gray-700">The q = mcΔT equation applies only to temperature changes without phase change. For melting/freezing, use q = n·ΔH<sub>fus</sub>; for boiling/condensing, use q = n·ΔH<sub>vap</sub>.</p>
+            </div>
+
+            <div className="bg-blue-50 p-4 rounded">
+              <h3 className="font-semibold text-blue-900 mb-2">Real-World Applications</h3>
+              <p className="text-gray-700">Food calorimetry, thermal insulation design, HVAC systems, battery thermal management, determining reaction enthalpies, material characterization.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Common Mistakes</h2>
+          <div className="space-y-3">
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Wrong units for specific heat</h3>
+              <p className="text-gray-700">Always check units: J·g⁻¹·°C⁻¹ is common, but kJ·kg⁻¹·K⁻¹ and cal·g⁻¹·°C⁻¹ also exist. Convert appropriately.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Using ΔT = T<sub>initial</sub> - T<sub>final</sub></h3>
+              <p className="text-gray-700">Correct: ΔT = T<sub>final</sub> - T<sub>initial</sub>. If substance cools, ΔT is negative.</p>
+            </div>
+            <div className="border-l-4 border-red-500 pl-4">
+              <h3 className="font-semibold text-red-700">Applying q = mcΔT during phase changes</h3>
+              <p className="text-gray-700">Temperature doesn't change during phase transitions. Use latent heat equations instead.</p>
+            </div>
           </div>
         </section>
 
