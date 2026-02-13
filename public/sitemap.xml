@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://chemsolved.com</loc>
@@ -7,25 +7,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://chemsolved.com/acid-base-calculators/buffer-capacity-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/acid-base-calculators/buffer-solution-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://chemsolved.com/acid-base-calculators/titration-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/acid-base-calculators/titration-curve-calculator</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -895,24 +877,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chemsolved.com/coordination-chemistry-calculators/coordination-number-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/coordination-chemistry-calculators/crystal-field-splitting-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/coordination-chemistry-calculators/ligand-field-stabilization-energy-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://chemsolved.com/electrochemistry-calculators</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -943,48 +907,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chemsolved.com/gas-calculators/gas-density-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/gas-calculators/gas-stoichiometry-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/kinetics-calculators/arrhenius-equation-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/kinetics-calculators/collision-theory-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/kinetics-calculators/integrated-rate-law-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/kinetics-calculators/reaction-order-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/kinetics-calculators/reaction-rate-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://chemsolved.com/mass-percent-vs-mole-fraction</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -998,12 +920,6 @@
   </url>
   <url>
     <loc>https://chemsolved.com/mole-vs-molar-mass</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/nuclear-calculators/nuclear-binding-energy-calculator</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1147,30 +1063,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chemsolved.com/quantum-calculators/de-broglie-wavelength-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/quantum-calculators/heisenberg-uncertainty-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/quantum-calculators/molecular-orbital-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/quantum-calculators/quantum-numbers-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://chemsolved.com/redox-calculators/oxidation-number-calculator</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -1178,30 +1070,6 @@
   </url>
   <url>
     <loc>https://chemsolved.com/redox-calculators/redox-balancing-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/solution-calculators/colligative-properties-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/solution-calculators/dilution-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/solution-calculators/osmotic-pressure-calculator</loc>
-    <lastmod>2025-12-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://chemsolved.com/solution-calculators/solubility-calculator</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
