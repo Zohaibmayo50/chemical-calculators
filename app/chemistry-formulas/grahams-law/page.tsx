@@ -254,22 +254,22 @@ export default function GrahamsLawPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/gas-laws-calculators/grahams-law-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-emerald-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/physical-chemistry-calculators/grahams-law-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-emerald-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Graham's Law Calculator</h3>
                 <p>Calculate effusion rates instantly</p>
               </Link>
 
-              <Link href="/gas-laws-calculators/gas-diffusion-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Gas Diffusion Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Calculate diffusion rates</p>
               </Link>
 
-              <Link href="/gas-laws-calculators/molar-mass-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/general-chemistry-calculators/molar-mass-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Molar Mass Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Find MM from formula</p>
               </Link>
 
-              <Link href="/gas-laws-calculators/kinetic-molecular-theory-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/physical-chemistry-calculators/kinetic-molecular-theory-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">KMT Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Molecular velocities</p>
               </Link>

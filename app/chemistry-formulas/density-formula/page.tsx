@@ -296,7 +296,7 @@ export default function DensityFormulaPage() {
                 <h3 className="font-semibold text-blue-900 mb-2">Molecular Weight Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate molar mass for density conversions</p>
               </a>
-              <a href="/gas-calculators/gas-density-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <a href="/" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Gas Density Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate gas density at STP</p>
               </a>

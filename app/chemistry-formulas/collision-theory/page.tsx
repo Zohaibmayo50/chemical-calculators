@@ -84,11 +84,11 @@ export default function CollisionTheoryPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/kinetics-calculators/collision-theory-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Collision Theory Calculator</h3>
               <p className="text-sm text-gray-600">Calculate collision rates and energy</p>
             </a>
-            <a href="/kinetics-calculators/arrhenius-equation-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Arrhenius Equation Calculator</h3>
               <p className="text-sm text-gray-600">Temperature-rate relationships</p>
             </a>

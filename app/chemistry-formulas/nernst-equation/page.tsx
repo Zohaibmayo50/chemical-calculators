@@ -266,12 +266,12 @@ export default function NernstEquationPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/redox-calculators/nernst-equation-calculator" className="block p-6 bg-gradient-to-r from-yellow-500 to-amber-500 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/electrochemistry-calculators/nernst-equation-calculator" className="block p-6 bg-gradient-to-r from-yellow-500 to-amber-500 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Nernst Equation Calculator</h3>
                 <p>Calculate cell potential instantly</p>
               </Link>
 
-              <Link href="/redox-calculators/cell-potential-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/electrochemistry-calculators/cell-potential-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Cell Potential Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Calculate E° for cells</p>
               </Link>
@@ -281,7 +281,7 @@ export default function NernstEquationPage() {
                 <p className="text-white/90">Explore all electrochemistry tools</p>
               </Link>
 
-              <Link href="/redox-calculators/redox-balancing-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/electrochemistry-calculators/redox-balancing-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Redox Balancing</h3>
                 <p className="text-gray-600 dark:text-gray-400">Balance redox equations</p>
               </Link>

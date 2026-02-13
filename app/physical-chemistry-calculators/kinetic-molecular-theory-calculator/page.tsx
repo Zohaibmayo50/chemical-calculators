@@ -222,7 +222,7 @@ export default function KineticMolecularTheoryCalculatorPage() {  return (
                 </li>
                 <li>
                   <a
-                    href="/kinetics-calculators/collision-theory-calculator"
+                    href="/"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>
@@ -231,7 +231,7 @@ export default function KineticMolecularTheoryCalculatorPage() {  return (
                 </li>
                 <li>
                   <a
-                    href="/gas-calculators/gas-density-calculator"
+                    href="/"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>

@@ -97,11 +97,11 @@ export default function WavelengthEnergyPage() {
           <div className="bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-cyan-900/20 dark:to-blue-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/quantum-and-atomic-structure-calculators/wavelength-energy-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/atomic-structure-calculators/wavelength-energy-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Wavelength-Energy Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate photon properties</p>
               </Link>
-              <Link href="/quantum-and-atomic-structure-calculators/bohr-model-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/atomic-structure-calculators/bohr-model-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Bohr Model Calculator</h3>
                 <p className="text-sm text-gray-600">Atomic transitions</p>
               </Link>
@@ -113,7 +113,7 @@ export default function WavelengthEnergyPage() {
                 <h3 className="font-semibold text-green-900 mb-2">Rydberg Equation</h3>
                 <p className="text-sm text-gray-600">Hydrogen spectral lines</p>
               </Link>
-              <Link href="/quantum-and-atomic-structure-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <Link href="/atomic-structure-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
                 <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
               </Link>

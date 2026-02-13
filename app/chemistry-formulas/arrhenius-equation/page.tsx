@@ -250,17 +250,17 @@ export default function ArrheniusEquationPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/kinetics-calculators/arrhenius-equation-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Arrhenius Equation Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate k, Ea, or T instantly</p>
               </Link>
 
-              <Link href="/kinetics-calculators/rate-constant-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Rate Constant Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate k at different T</p>
               </Link>
 
-              <Link href="/kinetics-calculators/reaction-rate-calculator" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/" className="block p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Reaction Rate Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate reaction rates</p>
               </Link>
@@ -275,7 +275,7 @@ export default function ArrheniusEquationPage() {
                 <p className="text-sm text-gray-600">Rate expressions and orders</p>
               </Link>
 
-              <Link href="/chemical-kinetics-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <Link href="/" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
                 <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
               </Link>

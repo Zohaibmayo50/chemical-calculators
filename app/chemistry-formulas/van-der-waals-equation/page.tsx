@@ -220,8 +220,8 @@ export default function VanDerWaalsEquation() {
               <h3 className="font-semibold text-blue-600 mb-2">Combined Gas Law</h3>
               <p className="text-sm text-gray-600">P₁V₁/T₁ = P₂V₂/T₂ calculations</p>
             </a>
-            <a href="/gas-laws-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
-              <h3 className="font-semibold mb-2">All Gas Laws Calculators</h3>
+            <a href="/physical-chemistry-calculators" className="block p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold mb-2">All Physical Chemistry Calculators</h3>
               <p className="text-sm opacity-90">Explore all gas law tools</p>
             </a>
           </div>

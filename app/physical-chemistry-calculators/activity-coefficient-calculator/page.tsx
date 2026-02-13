@@ -681,7 +681,7 @@ export default function ActivityCoefficientCalculatorPage() {  return (
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="/solution-calculators/osmotic-pressure-calculator"
+                      href="/physical-chemistry-calculators/osmotic-pressure-calculator"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>
@@ -699,7 +699,7 @@ export default function ActivityCoefficientCalculatorPage() {  return (
                   </li>
                   <li>
                     <a
-                      href="/solution-calculators/colligative-properties-calculator"
+                      href="/"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
                       <span>→</span>

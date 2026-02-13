@@ -459,7 +459,7 @@ export default function ClausiusClapeyronCalculatorPage() {  return (
                     </li>
                     <li>
                       <a
-                        href="/quantum-calculators/quantum-numbers-calculator"
+                        href="/"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
                         <span>→</span>

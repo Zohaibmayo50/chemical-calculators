@@ -307,22 +307,22 @@ export default function BeersLawPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/analytical-calculators/beers-law-calculator" className="block p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/physical-chemistry-calculators/beers-law-calculator" className="block p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Beer's Law Calculator</h3>
                 <p>Find c from A, ε, b instantly</p>
               </Link>
 
-              <Link href="/analytical-calculators/spectrophotometry-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Spectrophotometry Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Absorbance and transmittance</p>
               </Link>
 
-              <Link href="/solution-calculators/dilution-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/concentration-and-solution-calculators/dilution-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Dilution Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Prepare solutions for Beer's Law</p>
               </Link>
 
-              <Link href="/analytical-calculators/standard-curve-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Standard Curve</h3>
                 <p className="text-gray-600 dark:text-gray-400">Calibration curves from Beer's Law</p>
               </Link>

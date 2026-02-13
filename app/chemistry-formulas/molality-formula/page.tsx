@@ -280,17 +280,17 @@ export default function MolalityFormulaPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/solution-calculators/molality-calculator" className="block p-6 bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/concentration-and-solution-calculators/molality-calculator" className="block p-6 bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Molality Calculator</h3>
                 <p>Calculate molality instantly</p>
               </Link>
 
-              <Link href="/solution-calculators/molarity-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/concentration-and-solution-calculators/molarity-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Molarity Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Calculate M = n/V</p>
               </Link>
 
-              <Link href="/solution-calculators/concentration-converter" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/concentration-and-solution-calculators/concentration-converter" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Concentration Converter</h3>
                 <p className="text-gray-600 dark:text-gray-400">Convert between units</p>
               </Link>

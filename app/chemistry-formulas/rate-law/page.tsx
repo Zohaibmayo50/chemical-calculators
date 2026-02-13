@@ -255,11 +255,11 @@ export default function RateLaw() {
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/kinetics-calculators/rate-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Rate Law Calculator</h3>
               <p className="text-sm text-gray-600">Calculate reaction rates and orders</p>
             </a>
-            <a href="/kinetics-calculators/reaction-rate-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Reaction Rate Calculator</h3>
               <p className="text-sm text-gray-600">Calculate reaction rates</p>
             </a>
@@ -275,7 +275,7 @@ export default function RateLaw() {
               <h3 className="font-semibold text-green-900 mb-2">Reaction Order Formula</h3>
               <p className="text-sm text-gray-600">Determine reaction orders</p>
             </a>
-            <a href="/chemical-kinetics-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
               <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
             </a>

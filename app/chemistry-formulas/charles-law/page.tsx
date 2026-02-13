@@ -313,17 +313,17 @@ export default function CharlesLawPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/gas-laws-calculators/charles-law-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/" className="block p-6 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Charles's Law Calculator</h3>
                 <p>Calculate V₁, T₁, V₂, or T₂</p>
               </Link>
 
-              <Link href="/gas-laws-calculators/combined-gas-law-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/physical-chemistry-calculators/combined-gas-law-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Combined Gas Law</h3>
                 <p className="text-gray-600 dark:text-gray-400">When P also changes</p>
               </Link>
 
-              <Link href="/gas-laws-calculators/ideal-gas-law-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/physical-chemistry-calculators/ideal-gas-law-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Ideal Gas Law</h3>
                 <p className="text-gray-600 dark:text-gray-400">PV = nRT calculations</p>
               </Link>

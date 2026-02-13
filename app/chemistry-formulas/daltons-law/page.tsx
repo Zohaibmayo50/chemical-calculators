@@ -273,22 +273,22 @@ export default function DaltonsLawPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/gas-laws-calculators/daltons-law-calculator" className="block p-6 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/physical-chemistry-calculators/daltons-law-calculator" className="block p-6 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Dalton's Law Calculator</h3>
                 <p>Calculate partial pressures instantly</p>
               </Link>
 
-              <Link href="/gas-laws-calculators/partial-pressure-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Partial Pressure Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Find individual gas pressures</p>
               </Link>
 
-              <Link href="/gas-laws-calculators/ideal-gas-law-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/physical-chemistry-calculators/ideal-gas-law-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Ideal Gas Law</h3>
                 <p className="text-gray-600 dark:text-gray-400">PV = nRT calculations</p>
               </Link>
 
-              <Link href="/solution-calculators/mole-fraction-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Mole Fraction</h3>
                 <p className="text-gray-600 dark:text-gray-400">Calculate χ for mixtures</p>
               </Link>

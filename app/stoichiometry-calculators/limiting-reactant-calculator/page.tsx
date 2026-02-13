@@ -194,7 +194,7 @@ export default function LimitingReactantCalculatorPage() {  return (
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="/gas-calculators/gas-stoichiometry-calculator"
+                    href="/"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>

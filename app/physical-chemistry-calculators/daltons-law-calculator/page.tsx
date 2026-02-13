@@ -385,7 +385,7 @@ export default function DaltonsLawCalculatorPage() {  return (
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="/gas-calculators/ideal-gas-law-calculator"
+                    href="/physical-chemistry-calculators/ideal-gas-law-calculator"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>
@@ -394,7 +394,7 @@ export default function DaltonsLawCalculatorPage() {  return (
                 </li>
                 <li>
                   <a
-                    href="/physical-chemistry-calculators/grahams-law-calculator"
+                    href="/"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>
@@ -403,7 +403,7 @@ export default function DaltonsLawCalculatorPage() {  return (
                 </li>
                 <li>
                   <a
-                    href="/gas-calculators/gas-density-calculator"
+                    href="/"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
                     <span>→</span>
