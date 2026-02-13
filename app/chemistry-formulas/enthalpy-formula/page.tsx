@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Enthalpy Formula',
+  title: 'Enthalpy Formula: Reaction Heat Calculation Guide',
   description: 'Calculate reaction enthalpy using heats of formation with step-by-step guidance and examples.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/enthalpy-formula',

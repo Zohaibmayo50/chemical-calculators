@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'PPM Formula',
+  title: 'PPM Formula: Parts Per Million Concentration Calculator',
   description: 'Parts per million: ppm = (mass of solute / mass of solution) × 10^6.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/ppm-formula',

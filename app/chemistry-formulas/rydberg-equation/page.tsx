@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Rydberg Equation',
+  title: 'Rydberg Equation: Atomic Spectral Lines Calculator',
   description: 'Calculate wavelength of atomic spectral lines using 1/λ = R(1/n₁² - 1/n₂²).',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/rydberg-equation',

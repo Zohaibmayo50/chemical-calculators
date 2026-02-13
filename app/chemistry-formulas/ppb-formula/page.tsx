@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'PPB Formula',
+  title: 'PPB Formula: Parts Per Billion Concentration Calc',
   description: 'Parts per billion: ppb = (mass of solute / mass of solution) × 10^9.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/ppb-formula',

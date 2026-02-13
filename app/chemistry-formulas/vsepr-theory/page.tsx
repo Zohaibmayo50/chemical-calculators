@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'VSEPR Theory',
+  title: 'VSEPR Theory: Molecular Geometry Prediction Guide',
   description: 'Predict molecular geometry using Valence Shell Electron Pair Repulsion theory.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/vsepr-theory',

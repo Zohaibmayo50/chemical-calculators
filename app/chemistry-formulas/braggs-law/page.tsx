@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: "Bragg's Law",
+  title: "Bragg's Law: X-ray Diffraction & Crystal Structure",
   description: 'X-ray diffraction: nλ = 2d sinθ for crystal structure determination.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/braggs-law',

@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Planck Equation',
+  title: 'Planck Equation: Photon Energy & Frequency Formula',
   description: 'Relate photon energy and frequency using E = hν.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/planck-equation',
