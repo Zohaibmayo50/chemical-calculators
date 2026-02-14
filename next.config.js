@@ -23,6 +23,20 @@ const nextConfig = {
   
   // Turbopack config for Next.js 16+
   turbopack: {},
+
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+        ],
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig
