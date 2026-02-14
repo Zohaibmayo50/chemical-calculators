@@ -30,7 +30,7 @@ export default function ConcentrationConverterFormulaPage() {
 
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 rounded-3xl p-12 text-white shadow-2xl">
-            <h1 className="text-5xl font-bold mb-4 text-center">Concentration Converter</h1>
+            <h1 className="text-5xl font-bold mb-4 text-center">Concentration Converter Formula</h1>
             <p className="text-xl text-center text-green-100">
               Convert between molarity, molality, ppm, ppb, mass percent, and more
             </p>

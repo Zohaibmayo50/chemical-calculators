@@ -30,7 +30,7 @@ export default function VSEPRTheoryFormulaPage() {
 
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-600 rounded-3xl p-12 text-white shadow-2xl">
-            <h1 className="text-5xl font-bold mb-4 text-center">VSEPR Theory</h1>
+            <h1 className="text-5xl font-bold mb-4 text-center">VSEPR Theory Formula</h1>
             <p className="text-xl text-center text-violet-100">
               Valence Shell Electron Pair Repulsion Theory
             </p>

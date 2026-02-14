@@ -44,7 +44,7 @@ export default function ConcentrationConverterPage() {
             <div className="lg:col-span-2">
               {/* H1 Title */}
               <h1 className="font-display text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in-up">
-                Concentration Converter
+                Concentration Converter Calculator
               </h1>
 
               {/* Calculator Tool - FIRST ELEMENT */}
