@@ -36,7 +36,7 @@ export default function MolarVolumeFormulaPage() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-sky-50 border-l-4 border-sky-500 p-4 mb-4">
             <p className="text-2xl font-bold text-sky-700 text-center">V<sub>m</sub> = 22.4 L/mol (at STP)</p>
-            <p className="text-gray-700 mt-3 text-center">V = n × V<sub>m</sub></p>
+            <p className="text-gray-700 mt-3 text-center">V = n Ã— V<sub>m</sub></p>
           </div>
           <ul className="grid md:grid-cols-2 gap-4 text-gray-700 mt-4">
             <li><strong>V<sub>m</sub></strong> = molar volume</li>
@@ -50,16 +50,16 @@ export default function MolarVolumeFormulaPage() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Derivation from Ideal Gas Law</h2>
           <div className="space-y-2 text-gray-700">
             <p>PV = nRT</p>
-            <p>At STP: P = 1 atm, T = 273.15 K, R = 0.08206 L·atm/(mol·K)</p>
-            <p>V/n = RT/P = (0.08206 × 273.15) / 1 = 22.4 L/mol</p>
+            <p>At STP: P = 1 atm, T = 273.15 K, R = 0.08206 LÂ·atm/(molÂ·K)</p>
+            <p>V/n = RT/P = (0.08206 Ã— 273.15) / 1 = 22.4 L/mol</p>
           </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example</h2>
-          <p className="text-gray-700 mb-3"><strong>Problem:</strong> What volume does 3.5 moles of N₂ occupy at STP?</p>
+          <p className="text-gray-700 mb-3"><strong>Problem:</strong> What volume does 3.5 moles of Nâ‚‚ occupy at STP?</p>
           <div className="space-y-2 text-gray-700">
-            <p>V = n × V<sub>m</sub> = 3.5 mol × 22.4 L/mol = 78.4 L</p>
+            <p>V = n Ã— V<sub>m</sub> = 3.5 mol Ã— 22.4 L/mol = 78.4 L</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
             <p className="font-semibold">Answer: 78.4 L</p>
@@ -72,22 +72,22 @@ export default function MolarVolumeFormulaPage() {
             <li>Valid for ideal gases only; real gases deviate at high P or low T</li>
             <li>At non-STP conditions, use full ideal gas law PV = nRT</li>
             <li>All ideal gases have same molar volume at same T and P (Avogadro's hypothesis)</li>
-            <li>Modern STP sometimes uses 273.15 K and 1 bar (100 kPa) → V<sub>m</sub> ≈ 22.7 L/mol</li>
+            <li>Modern STP sometimes uses 273.15 K and 1 bar (100 kPa) â†’ V<sub>m</sub> â‰ˆ 22.7 L/mol</li>
           </ul>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/gas-laws-calculators/ideal-gas-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/physical-chemistry-calculators/ideal-gas-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Ideal Gas Law Calculator</h3>
               <p className="text-sm text-gray-600">Calculate PV = nRT</p>
             </a>
-            <a href="/gas-laws-calculators/gas-stoichiometry-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/chemistry-formulas/gas-stoichiometry-formula" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Gas Stoichiometry Calculator</h3>
               <p className="text-sm text-gray-600">Calculate gas volumes in reactions</p>
             </a>
-            <a href="/gas-laws-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/physical-chemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Gas Laws Calculators</h3>
               <p className="text-sm opacity-90">Explore all gas law tools</p>
             </a>

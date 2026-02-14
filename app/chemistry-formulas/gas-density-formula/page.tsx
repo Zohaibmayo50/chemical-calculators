@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Gas Density Formula',
-  description: 'Calculate gas density using ρ = PM/RT from ideal gas law. Relate pressure, temperature, molar mass, and density for gases under various conditions.',
+  description: 'Calculate gas density using Ï = PM/RT from ideal gas law. Relate pressure, temperature, molar mass, and density for gases under various conditions.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/gas-density-formula',
   },
@@ -34,10 +34,10 @@ export default function GasDensityFormulaPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Gas Density</h2>
           <p className="text-gray-700 mb-4">
-            The gas density formula ρ = (PM)/(RT) is a powerful rearrangement of the ideal gas law that directly relates a gas's density to its pressure, temperature, and molar mass. Unlike solids and liquids whose densities are relatively constant, gas density varies dramatically with temperature and pressure—doubling the pressure doubles the density, while doubling the absolute temperature halves the density. This relationship is fundamental to meteorology (air density affects weather patterns), aerospace engineering (lift calculations), industrial gas separation, and scuba diving (compressed air cylinders).
+            The gas density formula Ï = (PM)/(RT) is a powerful rearrangement of the ideal gas law that directly relates a gas's density to its pressure, temperature, and molar mass. Unlike solids and liquids whose densities are relatively constant, gas density varies dramatically with temperature and pressureâ€”doubling the pressure doubles the density, while doubling the absolute temperature halves the density. This relationship is fundamental to meteorology (air density affects weather patterns), aerospace engineering (lift calculations), industrial gas separation, and scuba diving (compressed air cylinders).
           </p>
           <p className="text-gray-700 mb-4">
-            Deriving the formula from PV = nRT is straightforward: express n (moles) as m/M (mass over molar mass), substitute into the ideal gas law to get PV = (m/M)RT, then rearrange to P = (m/V)(RT/M). Since density ρ = m/V, we get ρ = PM/(RT). This elegant result shows that gas density is directly proportional to pressure and molar mass but inversely proportional to temperature. Heavier gases like CO₂ (M = 44 g/mol) are denser than lighter gases like He (M = 4 g/mol) at the same temperature and pressure, explaining why helium balloons rise while CO₂ "sinks."
+            Deriving the formula from PV = nRT is straightforward: express n (moles) as m/M (mass over molar mass), substitute into the ideal gas law to get PV = (m/M)RT, then rearrange to P = (m/V)(RT/M). Since density Ï = m/V, we get Ï = PM/(RT). This elegant result shows that gas density is directly proportional to pressure and molar mass but inversely proportional to temperature. Heavier gases like COâ‚‚ (M = 44 g/mol) are denser than lighter gases like He (M = 4 g/mol) at the same temperature and pressure, explaining why helium balloons rise while COâ‚‚ "sinks."
           </p>
           <p className="text-gray-700">
             Practical applications abound: calculating mass flow rates in pipelines, designing ventilation systems for safety (heavier-than-air gases like propane settle in low areas), understanding atmospheric buoyancy, optimizing gas storage and transport, and analyzing gas mixtures. The formula also helps identify unknown gases by measuring density under known conditions and calculating molar mass. Real gases deviate from ideal behavior at high pressures or low temperatures, requiring corrections like the van der Waals equation, but the ideal gas density formula provides excellent approximations under typical laboratory and industrial conditions.
@@ -47,20 +47,20 @@ export default function GasDensityFormulaPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-orange-50 border-l-4 border-orange-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-bold text-orange-700">ρ = (P × M) / (R × T)</p>
+            <p className="text-2xl font-bold text-orange-700">Ï = (P Ã— M) / (R Ã— T)</p>
           </div>
-          <p className="text-gray-700">ρ: density, P: pressure, M: molar mass, R: gas constant, T: absolute temperature.</p>
+          <p className="text-gray-700">Ï: density, P: pressure, M: molar mass, R: gas constant, T: absolute temperature.</p>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example</h2>
-          <p className="text-gray-700 mb-3"><strong>Given:</strong> CO₂, M = 44.01 g/mol, P = 1.00 atm, T = 298 K, R = 0.082057 L·atm·mol⁻¹·K⁻¹.</p>
+          <p className="text-gray-700 mb-3"><strong>Given:</strong> COâ‚‚, M = 44.01 g/mol, P = 1.00 atm, T = 298 K, R = 0.082057 LÂ·atmÂ·molâ»Â¹Â·Kâ»Â¹.</p>
           <div className="space-y-2 text-gray-700">
-            <p>ρ = (1.00 × 44.01) / (0.082057 × 298) g/L</p>
-            <p>ρ ≈ 44.01 / 24.45 ≈ 1.80 g/L</p>
+            <p>Ï = (1.00 Ã— 44.01) / (0.082057 Ã— 298) g/L</p>
+            <p>Ï â‰ˆ 44.01 / 24.45 â‰ˆ 1.80 g/L</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Answer: ≈ 1.80 g/L</p>
+            <p className="font-semibold">Answer: â‰ˆ 1.80 g/L</p>
           </div>
         </section>
 
@@ -69,7 +69,7 @@ export default function GasDensityFormulaPage() {
           <div className="space-y-4">
             <div className="bg-orange-50 p-4 rounded">
               <h3 className="font-semibold text-orange-900 mb-2">Relative Gas Density</h3>
-              <p className="text-gray-700">Compare gas density to air (M<sub>air</sub> ≈ 29 g/mol). Gases with M &gt; 29 sink, gases with M &lt; 29 rise. Important for safety and ventilation design.</p>
+              <p className="text-gray-700">Compare gas density to air (M<sub>air</sub> â‰ˆ 29 g/mol). Gases with M &gt; 29 sink, gases with M &lt; 29 rise. Important for safety and ventilation design.</p>
             </div>
 
             <div className="bg-orange-50 p-4 rounded">
@@ -79,7 +79,7 @@ export default function GasDensityFormulaPage() {
 
             <div className="bg-orange-50 p-4 rounded">
               <h3 className="font-semibold text-orange-900 mb-2">Identifying Unknown Gases</h3>
-              <p className="text-gray-700">Measure ρ, P, and T experimentally, then calculate M = ρRT/P. Compare to known molar masses to identify the gas.</p>
+              <p className="text-gray-700">Measure Ï, P, and T experimentally, then calculate M = ÏRT/P. Compare to known molar masses to identify the gas.</p>
             </div>
 
             <div className="bg-orange-50 p-4 rounded">
@@ -94,11 +94,11 @@ export default function GasDensityFormulaPage() {
           <div className="space-y-3">
             <div className="border-l-4 border-red-500 pl-4">
               <h3 className="font-semibold text-red-700">Using Celsius instead of Kelvin</h3>
-              <p className="text-gray-700">ALWAYS use absolute temperature (Kelvin) in gas law calculations. Convert: K = °C + 273.15</p>
+              <p className="text-gray-700">ALWAYS use absolute temperature (Kelvin) in gas law calculations. Convert: K = Â°C + 273.15</p>
             </div>
             <div className="border-l-4 border-red-500 pl-4">
               <h3 className="font-semibold text-red-700">Inconsistent units</h3>
-              <p className="text-gray-700">Ensure pressure units match R. Use R = 0.08206 L·atm·mol⁻¹·K⁻¹ with P in atm, or R = 8.314 J·mol⁻¹·K⁻¹ with P in Pa.</p>
+              <p className="text-gray-700">Ensure pressure units match R. Use R = 0.08206 LÂ·atmÂ·molâ»Â¹Â·Kâ»Â¹ with P in atm, or R = 8.314 JÂ·molâ»Â¹Â·Kâ»Â¹ with P in Pa.</p>
             </div>
             <div className="border-l-4 border-red-500 pl-4">
               <h3 className="font-semibold text-red-700">Applying to liquids or solids</h3>
@@ -111,22 +111,22 @@ export default function GasDensityFormulaPage() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Notes</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Works best for ideal gases; real gases may deviate at high P/low T.</li>
-            <li>Use consistent units; convert M to kg/mol if you want SI density in kg/m³.</li>
+            <li>Use consistent units; convert M to kg/mol if you want SI density in kg/mÂ³.</li>
           </ul>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/gas-laws-calculators/gas-density-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/chemistry-formulas/gas-density-formula" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Gas Density Calculator</h3>
               <p className="text-sm text-gray-600">Calculate gas density</p>
             </a>
-            <a href="/gas-laws-calculators/ideal-gas-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/physical-chemistry-calculators/ideal-gas-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Ideal Gas Law Calculator</h3>
               <p className="text-sm text-gray-600">Calculate PV = nRT</p>
             </a>
-            <a href="/gas-laws-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/physical-chemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Gas Laws Calculators</h3>
               <p className="text-sm opacity-90">Explore all gas law tools</p>
             </a>

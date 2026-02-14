@@ -63,7 +63,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                 <span className="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center text-primary-600 dark:text-primary-400">
-                  ℹ️
+                  â„¹ï¸
                 </span>
                 What It Does
               </h2>
@@ -76,7 +76,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-accent-100 dark:bg-accent-900 rounded-lg flex items-center justify-center text-accent-600 dark:text-accent-400">
-                  📐
+                  ðŸ“
                 </span>
                 Formula
               </h2>
@@ -85,7 +85,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
               <div className="bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl p-6 mb-4 border-2 border-primary-200 dark:border-primary-700">
                 <p className="text-center text-sm font-semibold text-gray-600 dark:text-gray-400 mb-2">Moles of Product</p>
                 <p className="text-center text-2xl font-mono font-bold text-gray-900 dark:text-white">
-                  n<sub>product</sub> = (n<sub>limiting</sub> / a) × b
+                  n<sub>product</sub> = (n<sub>limiting</sub> / a) Ã— b
                 </p>
               </div>
 
@@ -93,7 +93,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
               <div className="bg-gradient-to-br from-accent-50 to-primary-50 dark:from-accent-900/30 dark:to-primary-900/30 rounded-xl p-6 mb-6 border-2 border-accent-200 dark:border-accent-700">
                 <p className="text-center text-sm font-semibold text-gray-600 dark:text-gray-400 mb-2">Mass of Product</p>
                 <p className="text-center text-2xl font-mono font-bold text-gray-900 dark:text-white">
-                  mass = n<sub>product</sub> × M<sub>product</sub>
+                  mass = n<sub>product</sub> Ã— M<sub>product</sub>
                 </p>
               </div>
 
@@ -129,7 +129,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center text-green-600 dark:text-green-400">
-                  📝
+                  ðŸ“
                 </span>
                 Step-by-Step Example
               </h2>
@@ -138,30 +138,30 @@ export default function TheoreticalYieldCalculatorPage() {  return (
                   <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">1</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Given Reaction</p>
-                    <p className="text-gray-700 dark:text-gray-300">2H₂ + O₂ → 2H₂O</p>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">Limiting reagent: 3.0 mol H₂</p>
+                    <p className="text-gray-700 dark:text-gray-300">2Hâ‚‚ + Oâ‚‚ â†’ 2Hâ‚‚O</p>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">Limiting reagent: 3.0 mol Hâ‚‚</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">2</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Identify Coefficients</p>
-                    <p className="text-gray-700 dark:text-gray-300">H₂ coefficient (a) = 2</p>
-                    <p className="text-gray-700 dark:text-gray-300">H₂O coefficient (b) = 2</p>
+                    <p className="text-gray-700 dark:text-gray-300">Hâ‚‚ coefficient (a) = 2</p>
+                    <p className="text-gray-700 dark:text-gray-300">Hâ‚‚O coefficient (b) = 2</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">3</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Calculate Moles of Product</p>
-                    <p className="text-gray-700 dark:text-gray-300">n<sub>H₂O</sub> = (3.0 mol / 2) × 2 = 3.0 mol</p>
+                    <p className="text-gray-700 dark:text-gray-300">n<sub>Hâ‚‚O</sub> = (3.0 mol / 2) Ã— 2 = 3.0 mol</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">4</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Convert to Mass</p>
-                    <p className="text-gray-700 dark:text-gray-300">mass = 3.0 mol × 18.015 g/mol = 54.045 g H₂O</p>
+                    <p className="text-gray-700 dark:text-gray-300">mass = 3.0 mol Ã— 18.015 g/mol = 54.045 g Hâ‚‚O</p>
                     <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">Theoretical yield: 54.045 grams</p>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-red-100 dark:bg-red-900 rounded-lg flex items-center justify-center text-red-600 dark:text-red-400">
-                  ⚠️
+                  âš ï¸
                 </span>
                 Common Mistakes
               </h2>
@@ -208,7 +208,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">Percent Yield Calculator</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Calculate reaction efficiency</p>
                 </Link>
-                <Link href="/stoichiometry-calculators/molar-mass-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
+                <Link href="/stoichiometry-calculators/molecular-weight-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">Molar Mass Calculator</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Calculate molecular weight from formula</p>
                 </Link>
@@ -226,13 +226,13 @@ export default function TheoreticalYieldCalculatorPage() {  return (
               </div>
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <Link href="/theoretical-yield-vs-percent-yield" className="block p-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl hover:shadow-xl transition-all">
-                  <h3 className="font-bold mb-1">📊 Theoretical Yield vs Percent Yield</h3>
+                  <h3 className="font-bold mb-1">ðŸ“Š Theoretical Yield vs Percent Yield</h3>
                   <p className="text-sm text-purple-100">Compare theoretical and percent yield concepts</p>
                 </Link>
               </div>
               <div className="grid sm:grid-cols-2 gap-4 mt-4">
                 <Link href="/stoichiometry-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
-                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Stoichiometry Calculators →</h3>
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Stoichiometry Calculators â†’</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">View complete collection</p>
                 </Link>
               </div>
@@ -271,7 +271,7 @@ export default function TheoreticalYieldCalculatorPage() {  return (
                     How do I find the molar mass of the product?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    Sum the atomic masses of all atoms in the molecular formula using the periodic table. For example, H₂O = 2(1.008) + 15.999 = 18.015 g/mol. Use atomic masses to at least 3 decimal places for accuracy.
+                    Sum the atomic masses of all atoms in the molecular formula using the periodic table. For example, Hâ‚‚O = 2(1.008) + 15.999 = 18.015 g/mol. Use atomic masses to at least 3 decimal places for accuracy.
                   </p>
                 </details>
                 <details className="group">
@@ -317,28 +317,28 @@ export default function TheoreticalYieldCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Where It&apos;s Used</h3>
               <div className="space-y-4">
                 <div className="flex gap-3">
-                  <span className="text-2xl">🎓</span>
+                  <span className="text-2xl">ðŸŽ“</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Education</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Stoichiometry problems and lab reports</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">🧪</span>
+                  <span className="text-2xl">ðŸ§ª</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Laboratory</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Experiment planning and yield assessment</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">🏭</span>
+                  <span className="text-2xl">ðŸ­</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Industry</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Production forecasting and process optimization</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">🔬</span>
+                  <span className="text-2xl">ðŸ”¬</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Research</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Synthetic method development and comparison</p>

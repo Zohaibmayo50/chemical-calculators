@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'De Broglie Wavelength Formula',
-  description: 'Calculate de Broglie wavelength (λ = h/p) for matter waves. Understand wave-particle duality, momentum relationships, and quantum mechanical wavelengths of particles.',
+  description: 'Calculate de Broglie wavelength (Î» = h/p) for matter waves. Understand wave-particle duality, momentum relationships, and quantum mechanical wavelengths of particles.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/de-broglie-wavelength',
   },
@@ -35,13 +35,13 @@ export default function DeBroglieWavelengthPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-violet-50 border-l-4 border-violet-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-bold text-violet-700">λ = h / p</p>
+            <p className="text-2xl font-bold text-violet-700">Î» = h / p</p>
             <p className="text-lg text-violet-700 mt-2">p = m v</p>
           </div>
           <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
-            <li><strong>λ</strong> = wavelength (m)</li>
-            <li><strong>h</strong> = Planck constant (6.626 × 10⁻³⁴ J·s)</li>
-            <li><strong>p</strong> = momentum (kg·m/s)</li>
+            <li><strong>Î»</strong> = wavelength (m)</li>
+            <li><strong>h</strong> = Planck constant (6.626 Ã— 10â»Â³â´ JÂ·s)</li>
+            <li><strong>p</strong> = momentum (kgÂ·m/s)</li>
             <li><strong>m</strong> = mass (kg)</li>
             <li><strong>v</strong> = velocity (m/s)</li>
           </ul>
@@ -49,13 +49,13 @@ export default function DeBroglieWavelengthPage() {
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example</h2>
-          <p className="text-gray-700 mb-3"><strong>Given:</strong> electron, m = 9.109 × 10⁻³¹ kg, v = 1.0 × 10⁶ m/s.</p>
+          <p className="text-gray-700 mb-3"><strong>Given:</strong> electron, m = 9.109 Ã— 10â»Â³Â¹ kg, v = 1.0 Ã— 10â¶ m/s.</p>
           <div className="space-y-2 text-gray-700">
-            <p>p = (9.109 × 10⁻³¹) × (1.0 × 10⁶) = 9.109 × 10⁻²⁵ kg·m/s</p>
-            <p>λ = (6.626 × 10⁻³⁴) / (9.109 × 10⁻²⁵) ≈ 7.27 × 10⁻¹⁰ m = 0.727 nm</p>
+            <p>p = (9.109 Ã— 10â»Â³Â¹) Ã— (1.0 Ã— 10â¶) = 9.109 Ã— 10â»Â²âµ kgÂ·m/s</p>
+            <p>Î» = (6.626 Ã— 10â»Â³â´) / (9.109 Ã— 10â»Â²âµ) â‰ˆ 7.27 Ã— 10â»Â¹â° m = 0.727 nm</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Answer: λ ≈ 0.727 nm</p>
+            <p className="font-semibold">Answer: Î» â‰ˆ 0.727 nm</p>
           </div>
         </section>
 
@@ -82,7 +82,7 @@ export default function DeBroglieWavelengthPage() {
             </div>
             <div>
               <h3 className="font-semibold">What if relativistic speeds?</h3>
-              <p>Use relativistic momentum p = γ m v where γ = 1/√(1 - v²/c²).</p>
+              <p>Use relativistic momentum p = Î³ m v where Î³ = 1/âˆš(1 - vÂ²/cÂ²).</p>
             </div>
           </div>
         </section>
@@ -90,11 +90,11 @@ export default function DeBroglieWavelengthPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/quantum-and-atomic-structure-calculators/de-broglie-wavelength-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/chemistry-formulas/de-broglie-wavelength" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">De Broglie Wavelength Calculator</h3>
               <p className="text-sm text-gray-600">Calculate matter wave properties</p>
             </a>
-            <a href="/quantum-and-atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Wavelength-Energy Calculator</h3>
               <p className="text-sm text-gray-600">Photon energy calculations</p>
             </a>
@@ -104,9 +104,9 @@ export default function DeBroglieWavelengthPage() {
             </a>
             <a href="/chemistry-formulas/planck-equation" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-green-900 mb-2">Planck Equation</h3>
-              <p className="text-sm text-gray-600">E = hν formula</p>
+              <p className="text-sm text-gray-600">E = hÎ½ formula</p>
             </a>
-            <a href="/quantum-and-atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
               <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
             </a>

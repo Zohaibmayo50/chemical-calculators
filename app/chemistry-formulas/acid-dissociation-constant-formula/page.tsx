@@ -21,9 +21,9 @@ export default function AcidDissociationConstantFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Acid Dissociation Constant</span>
           </nav>
         </div>
@@ -48,14 +48,14 @@ export default function AcidDissociationConstantFormulaPage() {
               </p>
               
               <div className="bg-white dark:bg-gray-700 rounded p-6 my-4">
-                <p className="text-center mb-4 font-mono">HA + H₂O ⇌ H₃O⁺ + A⁻</p>
-                <p className="text-3xl font-bold text-center mt-6">K<sub>a</sub> = [H₃O⁺][A⁻] / [HA]</p>
+                <p className="text-center mb-4 font-mono">HA + Hâ‚‚O â‡Œ Hâ‚ƒOâº + Aâ»</p>
+                <p className="text-3xl font-bold text-center mt-6">K<sub>a</sub> = [Hâ‚ƒOâº][Aâ»] / [HA]</p>
               </div>
               
               <div className="mt-4 space-y-2 text-gray-700 dark:text-gray-300">
                 <p><strong>HA</strong> = weak acid</p>
-                <p><strong>A⁻</strong> = conjugate base</p>
-                <p><strong>H₃O⁺</strong> = hydronium ion (or H⁺)</p>
+                <p><strong>Aâ»</strong> = conjugate base</p>
+                <p><strong>Hâ‚ƒOâº</strong> = hydronium ion (or Hâº)</p>
               </div>
             </div>
 
@@ -83,16 +83,16 @@ export default function AcidDissociationConstantFormulaPage() {
               <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Weak Base Equilibrium</h3>
               
               <div className="bg-white dark:bg-gray-700 rounded p-6 my-4">
-                <p className="text-center mb-4 font-mono">B + H₂O ⇌ BH⁺ + OH⁻</p>
-                <p className="text-3xl font-bold text-center mt-6">K<sub>b</sub> = [BH⁺][OH⁻] / [B]</p>
+                <p className="text-center mb-4 font-mono">B + Hâ‚‚O â‡Œ BHâº + OHâ»</p>
+                <p className="text-3xl font-bold text-center mt-6">K<sub>b</sub> = [BHâº][OHâ»] / [B]</p>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-xl p-6">
               <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-4">Relationship: K<sub>a</sub> and K<sub>b</sub></h3>
               <div className="bg-white dark:bg-gray-700 rounded p-6 my-4">
-                <p className="text-3xl font-bold text-center">K<sub>a</sub> × K<sub>b</sub> = K<sub>w</sub></p>
-                <p className="text-xl text-center mt-4">K<sub>a</sub> × K<sub>b</sub> = 1.0 × 10<sup>-14</sup> (at 25°C)</p>
+                <p className="text-3xl font-bold text-center">K<sub>a</sub> Ã— K<sub>b</sub> = K<sub>w</sub></p>
+                <p className="text-xl text-center mt-4">K<sub>a</sub> Ã— K<sub>b</sub> = 1.0 Ã— 10<sup>-14</sup> (at 25Â°C)</p>
               </div>
               <div className="mt-4 text-gray-700 dark:text-gray-300">
                 <p className="text-center">Also:</p>
@@ -110,7 +110,7 @@ export default function AcidDissociationConstantFormulaPage() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">ICE Table Method</h3>
                 
-                <p className="text-gray-700 dark:text-gray-300 mb-4">For HA ⇌ H⁺ + A⁻:</p>
+                <p className="text-gray-700 dark:text-gray-300 mb-4">For HA â‡Œ Hâº + Aâ»:</p>
                 
                 <div className="overflow-x-auto mb-4">
                   <table className="w-full text-sm border-collapse">
@@ -118,8 +118,8 @@ export default function AcidDissociationConstantFormulaPage() {
                       <tr className="bg-gray-100 dark:bg-gray-700">
                         <th className="border border-gray-300 dark:border-gray-600 p-2"></th>
                         <th className="border border-gray-300 dark:border-gray-600 p-2">[HA]</th>
-                        <th className="border border-gray-300 dark:border-gray-600 p-2">[H⁺]</th>
-                        <th className="border border-gray-300 dark:border-gray-600 p-2">[A⁻]</th>
+                        <th className="border border-gray-300 dark:border-gray-600 p-2">[Hâº]</th>
+                        <th className="border border-gray-300 dark:border-gray-600 p-2">[Aâ»]</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -146,19 +146,19 @@ export default function AcidDissociationConstantFormulaPage() {
                 </div>
                 
                 <div className="bg-white dark:bg-gray-700 rounded p-4 my-4">
-                  <p className="text-xl font-bold text-center">K<sub>a</sub> = x² / (C - x)</p>
+                  <p className="text-xl font-bold text-center">K<sub>a</sub> = xÂ² / (C - x)</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Simplification (5% Rule)</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  If C/K<sub>a</sub> &gt; 100, then x &lt;&lt; C, so (C - x) ≈ C
+                  If C/K<sub>a</sub> &gt; 100, then x &lt;&lt; C, so (C - x) â‰ˆ C
                 </p>
                 
                 <div className="bg-white dark:bg-gray-700 rounded p-4 my-4">
-                  <p className="text-2xl font-bold text-center mb-4">K<sub>a</sub> ≈ x² / C</p>
-                  <p className="text-2xl font-bold text-center mt-4">x = √(K<sub>a</sub> × C)</p>
+                  <p className="text-2xl font-bold text-center mb-4">K<sub>a</sub> â‰ˆ xÂ² / C</p>
+                  <p className="text-2xl font-bold text-center mt-4">x = âˆš(K<sub>a</sub> Ã— C)</p>
                 </div>
                 
                 <p className="text-gray-700 dark:text-gray-300 mt-4">
@@ -169,7 +169,7 @@ export default function AcidDissociationConstantFormulaPage() {
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Percent Dissociation</h3>
                 <div className="bg-white dark:bg-gray-700 rounded p-4 my-4">
-                  <p className="text-2xl font-bold text-center">% dissociation = (x / C) × 100%</p>
+                  <p className="text-2xl font-bold text-center">% dissociation = (x / C) Ã— 100%</p>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-3">
                   Typical weak acids: 1-10% dissociation
@@ -198,49 +198,49 @@ export default function AcidDissociationConstantFormulaPage() {
                     <td className="p-3">Hydrochloric acid</td>
                     <td className="p-3 font-mono">HCl</td>
                     <td className="p-3">-7</td>
-                    <td className="p-3">~10⁷ (strong)</td>
+                    <td className="p-3">~10â· (strong)</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-800/50">
                     <td className="p-3">Sulfuric acid (1st)</td>
-                    <td className="p-3 font-mono">H₂SO₄</td>
+                    <td className="p-3 font-mono">Hâ‚‚SOâ‚„</td>
                     <td className="p-3">-3</td>
-                    <td className="p-3">~10³ (strong)</td>
+                    <td className="p-3">~10Â³ (strong)</td>
                   </tr>
                   <tr>
                     <td className="p-3">Phosphoric acid (1st)</td>
-                    <td className="p-3 font-mono">H₃PO₄</td>
+                    <td className="p-3 font-mono">Hâ‚ƒPOâ‚„</td>
                     <td className="p-3">2.15</td>
-                    <td className="p-3">7.1 × 10⁻³</td>
+                    <td className="p-3">7.1 Ã— 10â»Â³</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-800/50">
                     <td className="p-3">Acetic acid</td>
-                    <td className="p-3 font-mono">CH₃COOH</td>
+                    <td className="p-3 font-mono">CHâ‚ƒCOOH</td>
                     <td className="p-3">4.75</td>
-                    <td className="p-3">1.8 × 10⁻⁵</td>
+                    <td className="p-3">1.8 Ã— 10â»âµ</td>
                   </tr>
                   <tr>
                     <td className="p-3">Carbonic acid (1st)</td>
-                    <td className="p-3 font-mono">H₂CO₃</td>
+                    <td className="p-3 font-mono">Hâ‚‚COâ‚ƒ</td>
                     <td className="p-3">6.35</td>
-                    <td className="p-3">4.5 × 10⁻⁷</td>
+                    <td className="p-3">4.5 Ã— 10â»â·</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-800/50">
                     <td className="p-3">Hydrocyanic acid</td>
                     <td className="p-3 font-mono">HCN</td>
                     <td className="p-3">9.21</td>
-                    <td className="p-3">6.2 × 10⁻¹⁰</td>
+                    <td className="p-3">6.2 Ã— 10â»Â¹â°</td>
                   </tr>
                   <tr>
                     <td className="p-3">Ammonium ion</td>
-                    <td className="p-3 font-mono">NH₄⁺</td>
+                    <td className="p-3 font-mono">NHâ‚„âº</td>
                     <td className="p-3">9.25</td>
-                    <td className="p-3">5.6 × 10⁻¹⁰</td>
+                    <td className="p-3">5.6 Ã— 10â»Â¹â°</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-800/50">
                     <td className="p-3">Water</td>
-                    <td className="p-3 font-mono">H₂O</td>
+                    <td className="p-3 font-mono">Hâ‚‚O</td>
                     <td className="p-3">15.7</td>
-                    <td className="p-3">2.0 × 10⁻¹⁶</td>
+                    <td className="p-3">2.0 Ã— 10â»Â¹â¶</td>
                   </tr>
                 </tbody>
               </table>
@@ -256,19 +256,19 @@ export default function AcidDissociationConstantFormulaPage() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: Calculate pH of Weak Acid</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> Calculate pH of 0.10 M acetic acid (K<sub>a</sub> = 1.8 × 10⁻⁵).</p>
+                  <p><strong>Problem:</strong> Calculate pH of 0.10 M acetic acid (K<sub>a</sub> = 1.8 Ã— 10â»âµ).</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">Check: C/K<sub>a</sub> = 0.10/(1.8×10⁻⁵) = 5,556 &gt; 100 ✓ (can use simplification)</p>
-                  <p className="ml-6 mt-2">x = √(K<sub>a</sub> × C)</p>
-                  <p className="ml-6">x = √(1.8×10⁻⁵ × 0.10)</p>
-                  <p className="ml-6">x = √(1.8×10⁻⁶)</p>
-                  <p className="ml-6">x = 1.34×10⁻³ M = [H⁺]</p>
-                  <p className="ml-6 mt-2">pH = -log(1.34×10⁻³)</p>
+                  <p className="ml-6">Check: C/K<sub>a</sub> = 0.10/(1.8Ã—10â»âµ) = 5,556 &gt; 100 âœ“ (can use simplification)</p>
+                  <p className="ml-6 mt-2">x = âˆš(K<sub>a</sub> Ã— C)</p>
+                  <p className="ml-6">x = âˆš(1.8Ã—10â»âµ Ã— 0.10)</p>
+                  <p className="ml-6">x = âˆš(1.8Ã—10â»â¶)</p>
+                  <p className="ml-6">x = 1.34Ã—10â»Â³ M = [Hâº]</p>
+                  <p className="ml-6 mt-2">pH = -log(1.34Ã—10â»Â³)</p>
                   
                   <p className="ml-6 font-bold text-green-600 text-xl mt-4">pH = 2.87</p>
                   
-                  <p className="mt-4 text-sm">Check: % dissociation = (1.34×10⁻³/0.10) × 100% = 1.34% &lt; 5% ✓</p>
+                  <p className="mt-4 text-sm">Check: % dissociation = (1.34Ã—10â»Â³/0.10) Ã— 100% = 1.34% &lt; 5% âœ“</p>
                 </div>
               </div>
 
@@ -278,30 +278,30 @@ export default function AcidDissociationConstantFormulaPage() {
                   <p><strong>Problem:</strong> A 0.50 M weak acid has pH = 2.70. Calculate K<sub>a</sub>.</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">pH = 2.70 → [H⁺] = 10⁻²·⁷⁰ = 2.0 × 10⁻³ M</p>
-                  <p className="ml-6">From ICE table: [H⁺] = [A⁻] = x = 2.0 × 10⁻³</p>
-                  <p className="ml-6">[HA] = 0.50 - 0.002 ≈ 0.50 M</p>
-                  <p className="ml-6 mt-2">K<sub>a</sub> = [H⁺][A⁻] / [HA]</p>
-                  <p className="ml-6">K<sub>a</sub> = (2.0×10⁻³)² / 0.50</p>
-                  <p className="ml-6">K<sub>a</sub> = (4.0×10⁻⁶) / 0.50</p>
+                  <p className="ml-6">pH = 2.70 â†’ [Hâº] = 10â»Â²Â·â·â° = 2.0 Ã— 10â»Â³ M</p>
+                  <p className="ml-6">From ICE table: [Hâº] = [Aâ»] = x = 2.0 Ã— 10â»Â³</p>
+                  <p className="ml-6">[HA] = 0.50 - 0.002 â‰ˆ 0.50 M</p>
+                  <p className="ml-6 mt-2">K<sub>a</sub> = [Hâº][Aâ»] / [HA]</p>
+                  <p className="ml-6">K<sub>a</sub> = (2.0Ã—10â»Â³)Â² / 0.50</p>
+                  <p className="ml-6">K<sub>a</sub> = (4.0Ã—10â»â¶) / 0.50</p>
                   
-                  <p className="ml-6 font-bold text-green-600 text-xl mt-4">K<sub>a</sub> = 8.0 × 10⁻⁶</p>
-                  <p className="ml-6 mt-2">pK<sub>a</sub> = -log(8.0×10⁻⁶) = 5.10</p>
+                  <p className="ml-6 font-bold text-green-600 text-xl mt-4">K<sub>a</sub> = 8.0 Ã— 10â»â¶</p>
+                  <p className="ml-6 mt-2">pK<sub>a</sub> = -log(8.0Ã—10â»â¶) = 5.10</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Example 3: K<sub>a</sub> and K<sub>b</sub> Relationship</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> NH₃ has K<sub>b</sub> = 1.8 × 10⁻⁵. What is K<sub>a</sub> for NH₄⁺?</p>
+                  <p><strong>Problem:</strong> NHâ‚ƒ has K<sub>b</sub> = 1.8 Ã— 10â»âµ. What is K<sub>a</sub> for NHâ‚„âº?</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">K<sub>a</sub> × K<sub>b</sub> = K<sub>w</sub></p>
+                  <p className="ml-6">K<sub>a</sub> Ã— K<sub>b</sub> = K<sub>w</sub></p>
                   <p className="ml-6">K<sub>a</sub> = K<sub>w</sub> / K<sub>b</sub></p>
-                  <p className="ml-6">K<sub>a</sub> = (1.0×10⁻¹⁴) / (1.8×10⁻⁵)</p>
+                  <p className="ml-6">K<sub>a</sub> = (1.0Ã—10â»Â¹â´) / (1.8Ã—10â»âµ)</p>
                   
-                  <p className="ml-6 font-bold text-green-600 text-xl mt-4">K<sub>a</sub>(NH₄⁺) = 5.6 × 10⁻¹⁰</p>
-                  <p className="ml-6 mt-2">pK<sub>a</sub> + pK<sub>b</sub> = 9.25 + 4.75 = 14.00 ✓</p>
+                  <p className="ml-6 font-bold text-green-600 text-xl mt-4">K<sub>a</sub>(NHâ‚„âº) = 5.6 Ã— 10â»Â¹â°</p>
+                  <p className="ml-6 mt-2">pK<sub>a</sub> + pK<sub>b</sub> = 9.25 + 4.75 = 14.00 âœ“</p>
                 </div>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function AcidDissociationConstantFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Using Simplification When Invalid</h3>
                   <p className="text-gray-700 dark:text-gray-300">Always check C/K<sub>a</sub> &gt; 100 before simplifying!</p>
@@ -322,7 +322,7 @@ export default function AcidDissociationConstantFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Confusing K<sub>a</sub> and pK<sub>a</sub></h3>
                   <p className="text-gray-700 dark:text-gray-300">Lower pK<sub>a</sub> = stronger acid (higher K<sub>a</sub>)!</p>
@@ -330,10 +330,10 @@ export default function AcidDissociationConstantFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting Equilibrium</h3>
-                  <p className="text-gray-700 dark:text-gray-300">For weak acids, [H⁺] ≠ initial concentration!</p>
+                  <p className="text-gray-700 dark:text-gray-300">For weak acids, [Hâº] â‰  initial concentration!</p>
                 </div>
               </div>
             </div>
@@ -356,7 +356,7 @@ export default function AcidDissociationConstantFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">All Acid-Base Calculators</h3>
                 <p className="text-white/90">Explore all acid-base tools</p>
               </Link>
-              <Link href="/chemistry-formulas/equilibrium-constant-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/chemistry-formulas/equilibrium-constant" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Equilibrium Constant</h3>
                 <p className="text-gray-600 dark:text-gray-400">General K calculations</p>
               </Link>

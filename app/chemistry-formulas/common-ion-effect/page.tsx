@@ -43,19 +43,19 @@ export default function CommonIonEffectPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example: AgCl Solubility</h2>
           <div className="bg-gray-50 p-4 rounded mb-3">
-            <p className="font-semibold text-gray-800">AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq)</p>
-            <p className="text-gray-700">K<sub>sp</sub> = [Ag⁺][Cl⁻] = 1.8 × 10⁻¹⁰</p>
+            <p className="font-semibold text-gray-800">AgCl(s) â‡Œ Agâº(aq) + Clâ»(aq)</p>
+            <p className="text-gray-700">K<sub>sp</sub> = [Agâº][Clâ»] = 1.8 Ã— 10â»Â¹â°</p>
           </div>
           <div className="space-y-2 text-gray-700">
             <p><strong>Scenario 1:</strong> AgCl in pure water</p>
-            <p>Let s = solubility → [Ag⁺] = [Cl⁻] = s</p>
-            <p>s² = 1.8 × 10⁻¹⁰ → s = 1.3 × 10⁻⁵ M</p>
+            <p>Let s = solubility â†’ [Agâº] = [Clâ»] = s</p>
+            <p>sÂ² = 1.8 Ã— 10â»Â¹â° â†’ s = 1.3 Ã— 10â»âµ M</p>
             <p className="mt-4"><strong>Scenario 2:</strong> AgCl in 0.1 M NaCl solution</p>
-            <p>[Cl⁻] ≈ 0.1 M (common ion from NaCl)</p>
-            <p>[Ag⁺] × 0.1 = 1.8 × 10⁻¹⁰ → [Ag⁺] = 1.8 × 10⁻⁹ M</p>
+            <p>[Clâ»] â‰ˆ 0.1 M (common ion from NaCl)</p>
+            <p>[Agâº] Ã— 0.1 = 1.8 Ã— 10â»Â¹â° â†’ [Agâº] = 1.8 Ã— 10â»â¹ M</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Result: Solubility decreases from 1.3 × 10⁻⁵ M to 1.8 × 10⁻⁹ M</p>
+            <p className="font-semibold">Result: Solubility decreases from 1.3 Ã— 10â»âµ M to 1.8 Ã— 10â»â¹ M</p>
             <p className="text-gray-700">~10,000 times less soluble!</p>
           </div>
         </section>
@@ -82,11 +82,11 @@ export default function CommonIonEffectPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/chemical-equilibrium-calculators/solubility-product-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/equilibrium-calculators/solubility-product-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Solubility Product Calculator</h3>
               <p className="text-sm text-gray-600">Calculate Ksp and solubility</p>
             </a>
-            <a href="/chemical-equilibrium-calculators/equilibrium-constant-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/chemical-reaction-calculators/equilibrium-constant-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Equilibrium Constant Calculator</h3>
               <p className="text-sm text-gray-600">Calculate K from concentrations</p>
             </a>
@@ -98,7 +98,7 @@ export default function CommonIonEffectPage() {
               <h3 className="font-semibold text-green-900 mb-2">Le Chatelier's Principle</h3>
               <p className="text-sm text-gray-600">Equilibrium shifts and stress</p>
             </a>
-            <a href="/chemical-equilibrium-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/chemical-reaction-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Chemical Equilibrium Calculators</h3>
               <p className="text-sm opacity-90">Explore all equilibrium tools and calculators</p>
             </a>

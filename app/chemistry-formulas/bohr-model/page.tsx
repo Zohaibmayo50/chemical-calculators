@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Bohr Model Formula',
-  description: 'Calculate energy levels (E = -13.6Z²/n²) and orbital radius for hydrogen-like atoms. Master Bohr model, quantum numbers, and atomic spectral line predictions.',
+  description: 'Calculate energy levels (E = -13.6ZÂ²/nÂ²) and orbital radius for hydrogen-like atoms. Master Bohr model, quantum numbers, and atomic spectral line predictions.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/bohr-model',
   },
@@ -38,17 +38,17 @@ export default function BohrModelPage() {
             In 1913, Danish physicist Niels Bohr revolutionized atomic theory by proposing a quantized model of the hydrogen atom that successfully explained the discrete emission spectra observed in laboratory experiments. Bohr's model introduced the radical concept that electrons orbit the nucleus only at specific allowed energy levels, rather than at any arbitrary distance. This groundbreaking work earned him the Nobel Prize in Physics in 1922 and laid the foundation for modern quantum mechanics.
           </p>
           <p className="text-gray-700 mb-4">
-            The Bohr model elegantly combines classical mechanics with quantum postulates to predict electron energies and orbital radii in hydrogen-like atoms (atoms with a single electron, such as H, He⁺, Li²⁺). The model's greatest success was explaining the Rydberg formula for hydrogen spectral lines and calculating the Rydberg constant from first principles. While later replaced by the more complete quantum mechanical model using wave functions, the Bohr model remains invaluable for understanding atomic structure and electronic transitions, particularly in introductory chemistry and physics courses.
+            The Bohr model elegantly combines classical mechanics with quantum postulates to predict electron energies and orbital radii in hydrogen-like atoms (atoms with a single electron, such as H, Heâº, LiÂ²âº). The model's greatest success was explaining the Rydberg formula for hydrogen spectral lines and calculating the Rydberg constant from first principles. While later replaced by the more complete quantum mechanical model using wave functions, the Bohr model remains invaluable for understanding atomic structure and electronic transitions, particularly in introductory chemistry and physics courses.
           </p>
           <p className="text-gray-700">
-            The model's key insight—that angular momentum is quantized as L = nℏ where ℏ is the reduced Planck constant—leads directly to discrete energy levels and orbital radii. Although the Bohr model fails for multi-electron atoms and doesn't account for electron spin or wave properties, it provides accurate predictions for hydrogen-like systems and offers an intuitive framework for visualizing atomic transitions, photon emission, and absorption processes.
+            The model's key insightâ€”that angular momentum is quantized as L = nâ„ where â„ is the reduced Planck constantâ€”leads directly to discrete energy levels and orbital radii. Although the Bohr model fails for multi-electron atoms and doesn't account for electron spin or wave properties, it provides accurate predictions for hydrogen-like systems and offers an intuitive framework for visualizing atomic transitions, photon emission, and absorption processes.
           </p>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Energy Levels Formula</h2>
           <div className="bg-teal-50 border-l-4 border-teal-500 p-4 mb-4 text-center">
-            <p className="text-3xl font-bold text-teal-700 mb-2">E<sub>n</sub> = -13.6 eV × Z² / n²</p>
+            <p className="text-3xl font-bold text-teal-700 mb-2">E<sub>n</sub> = -13.6 eV Ã— ZÂ² / nÂ²</p>
             <p className="text-sm text-gray-600">Energy of electron in level n (hydrogen-like atoms)</p>
           </div>
           <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
@@ -56,7 +56,7 @@ export default function BohrModelPage() {
               <p><strong>E<sub>n</sub></strong> = energy of level n (eV or J)</p>
             </div>
             <div className="bg-teal-50 p-3 rounded">
-              <p><strong>Z</strong> = atomic number (1 for H, 2 for He⁺)</p>
+              <p><strong>Z</strong> = atomic number (1 for H, 2 for Heâº)</p>
             </div>
             <div className="bg-teal-50 p-3 rounded">
               <p><strong>n</strong> = principal quantum number (1, 2, 3...)</p>
@@ -70,9 +70,9 @@ export default function BohrModelPage() {
             <ul className="list-disc pl-5 text-gray-700 space-y-1">
               <li>Negative sign indicates electron is bound to nucleus (energy required to remove)</li>
               <li>Energy increases (becomes less negative) as n increases</li>
-              <li>Ground state (n = 1) has lowest energy: E₁ = -13.6 Z² eV</li>
-              <li>As n → ∞, E → 0 (electron escapes, ionization)</li>
-              <li>Higher Z (more protons) increases binding energy proportionally to Z²</li>
+              <li>Ground state (n = 1) has lowest energy: Eâ‚ = -13.6 ZÂ² eV</li>
+              <li>As n â†’ âˆž, E â†’ 0 (electron escapes, ionization)</li>
+              <li>Higher Z (more protons) increases binding energy proportionally to ZÂ²</li>
             </ul>
           </div>
         </section>
@@ -80,10 +80,10 @@ export default function BohrModelPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Orbital Radius Formula</h2>
           <div className="bg-teal-50 border-l-4 border-teal-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-semibold text-teal-700 mb-2">r<sub>n</sub> = a₀ n² / Z</p>
-            <p className="text-gray-700">where a₀ = 0.529 Å = 5.29 × 10⁻¹¹ m (Bohr radius)</p>
+            <p className="text-2xl font-semibold text-teal-700 mb-2">r<sub>n</sub> = aâ‚€ nÂ² / Z</p>
+            <p className="text-gray-700">where aâ‚€ = 0.529 Ã… = 5.29 Ã— 10â»Â¹Â¹ m (Bohr radius)</p>
           </div>
-          <p className="text-gray-700 mb-3">The orbital radius increases with the square of the principal quantum number (n²), meaning higher energy levels are exponentially farther from the nucleus. For hydrogen (Z = 1), the electron in n = 2 orbits at 4 times the Bohr radius, while n = 3 orbits at 9 times the Bohr radius. This quantization explains why electrons don't spiral into the nucleus—they can only exist at specific discrete distances.</p>
+          <p className="text-gray-700 mb-3">The orbital radius increases with the square of the principal quantum number (nÂ²), meaning higher energy levels are exponentially farther from the nucleus. For hydrogen (Z = 1), the electron in n = 2 orbits at 4 times the Bohr radius, while n = 3 orbits at 9 times the Bohr radius. This quantization explains why electrons don't spiral into the nucleusâ€”they can only exist at specific discrete distances.</p>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
@@ -93,66 +93,66 @@ export default function BohrModelPage() {
             <p className="font-semibold text-gray-800 mb-2">Step 1: Calculate Energy</p>
             <div className="space-y-2 text-gray-700 ml-4">
               <p>Given: Z = 1 (hydrogen), n = 2</p>
-              <p>E₂ = -13.6 eV × (1)² / (2)²</p>
-              <p>E₂ = -13.6 eV / 4</p>
-              <p>E₂ = <strong>-3.4 eV</strong></p>
+              <p>Eâ‚‚ = -13.6 eV Ã— (1)Â² / (2)Â²</p>
+              <p>Eâ‚‚ = -13.6 eV / 4</p>
+              <p>Eâ‚‚ = <strong>-3.4 eV</strong></p>
             </div>
           </div>
           <div className="bg-gray-50 p-4 rounded mb-3">
             <p className="font-semibold text-gray-800 mb-2">Step 2: Calculate Orbital Radius</p>
             <div className="space-y-2 text-gray-700 ml-4">
-              <p>r₂ = 0.529 Å × (2)² / (1)</p>
-              <p>r₂ = 0.529 Å × 4</p>
-              <p>r₂ = <strong>2.116 Å</strong></p>
+              <p>râ‚‚ = 0.529 Ã… Ã— (2)Â² / (1)</p>
+              <p>râ‚‚ = 0.529 Ã… Ã— 4</p>
+              <p>râ‚‚ = <strong>2.116 Ã…</strong></p>
             </div>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4">
-            <p className="font-semibold text-green-800">Answer: E₂ = -3.4 eV, r₂ = 2.12 Å</p>
+            <p className="font-semibold text-green-800">Answer: Eâ‚‚ = -3.4 eV, râ‚‚ = 2.12 Ã…</p>
             <p className="text-gray-700 mt-2">The n = 2 level has 1/4 the binding energy and 4 times the radius of the ground state.</p>
           </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Detailed Example 2: He⁺ Ion Ground State</h2>
-          <p className="text-gray-700 mb-3"><strong>Problem:</strong> Calculate the ground state energy and radius for a He⁺ ion (one electron, Z = 2).</p>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Detailed Example 2: Heâº Ion Ground State</h2>
+          <p className="text-gray-700 mb-3"><strong>Problem:</strong> Calculate the ground state energy and radius for a Heâº ion (one electron, Z = 2).</p>
           <div className="bg-gray-50 p-4 rounded mb-3">
             <div className="space-y-2 text-gray-700">
-              <p><strong>Energy:</strong> E₁ = -13.6 eV × (2)² / (1)² = -13.6 × 4 = <strong>-54.4 eV</strong></p>
-              <p><strong>Radius:</strong> r₁ = 0.529 Å × (1)² / (2) = <strong>0.265 Å</strong></p>
+              <p><strong>Energy:</strong> Eâ‚ = -13.6 eV Ã— (2)Â² / (1)Â² = -13.6 Ã— 4 = <strong>-54.4 eV</strong></p>
+              <p><strong>Radius:</strong> râ‚ = 0.529 Ã… Ã— (1)Â² / (2) = <strong>0.265 Ã…</strong></p>
             </div>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4">
             <p className="font-semibold text-green-800">Interpretation:</p>
-            <p className="text-gray-700">He⁺ has 4 times stronger binding energy than H due to doubled nuclear charge (Z² effect). The orbital is half the size, pulling the electron closer to the nucleus.</p>
+            <p className="text-gray-700">Heâº has 4 times stronger binding energy than H due to doubled nuclear charge (ZÂ² effect). The orbital is half the size, pulling the electron closer to the nucleus.</p>
           </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Electronic Transitions &amp; Photon Energy</h2>
           <div className="bg-purple-50 border-l-4 border-purple-500 p-4 mb-4">
-            <p className="text-2xl font-semibold text-purple-700 mb-2">ΔE = E<sub>final</sub> - E<sub>initial</sub></p>
-            <p className="text-xl text-purple-700">ΔE = -13.6 Z² eV × (1/n<sub>f</sub>² - 1/n<sub>i</sub>²)</p>
+            <p className="text-2xl font-semibold text-purple-700 mb-2">Î”E = E<sub>final</sub> - E<sub>initial</sub></p>
+            <p className="text-xl text-purple-700">Î”E = -13.6 ZÂ² eV Ã— (1/n<sub>f</sub>Â² - 1/n<sub>i</sub>Â²)</p>
           </div>
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <div className="bg-red-50 p-4 rounded border-l-4 border-red-500">
               <p className="font-semibold text-red-700 mb-2">Emission (n<sub>f</sub> &lt; n<sub>i</sub>)</p>
-              <p className="text-gray-700">Electron drops to lower level, photon emitted. ΔE is negative (energy released), photon energy E<sub>photon</sub> = |ΔE| = hν = hc/λ.</p>
+              <p className="text-gray-700">Electron drops to lower level, photon emitted. Î”E is negative (energy released), photon energy E<sub>photon</sub> = |Î”E| = hÎ½ = hc/Î».</p>
             </div>
             <div className="bg-blue-50 p-4 rounded border-l-4 border-blue-500">
               <p className="font-semibold text-blue-700 mb-2">Absorption (n<sub>f</sub> &gt; n<sub>i</sub>)</p>
-              <p className="text-gray-700">Electron jumps to higher level, photon absorbed. ΔE is positive, matching the energy of the absorbed photon.</p>
+              <p className="text-gray-700">Electron jumps to higher level, photon absorbed. Î”E is positive, matching the energy of the absorbed photon.</p>
             </div>
           </div>
           
           <div className="bg-gray-50 p-4 rounded mb-3">
-            <p className="font-semibold text-gray-800 mb-3">Example: Balmer Series Transition (n = 3 → n = 2) in Hydrogen</p>
+            <p className="font-semibold text-gray-800 mb-3">Example: Balmer Series Transition (n = 3 â†’ n = 2) in Hydrogen</p>
             <div className="space-y-2 text-gray-700 ml-4">
-              <p>ΔE = -13.6 eV × [(1/2²) - (1/3²)]</p>
-              <p>ΔE = -13.6 eV × [(1/4) - (1/9)]</p>
-              <p>ΔE = -13.6 eV × [(9 - 4)/36] = -13.6 × (5/36)</p>
-              <p>ΔE = <strong>-1.89 eV</strong> (negative = emission)</p>
+              <p>Î”E = -13.6 eV Ã— [(1/2Â²) - (1/3Â²)]</p>
+              <p>Î”E = -13.6 eV Ã— [(1/4) - (1/9)]</p>
+              <p>Î”E = -13.6 eV Ã— [(9 - 4)/36] = -13.6 Ã— (5/36)</p>
+              <p>Î”E = <strong>-1.89 eV</strong> (negative = emission)</p>
               <p>Photon energy: E<sub>photon</sub> = 1.89 eV</p>
-              <p>Wavelength: λ = hc/E = (1240 eV·nm) / 1.89 eV = <strong>656 nm (red light)</strong></p>
+              <p>Wavelength: Î» = hc/E = (1240 eVÂ·nm) / 1.89 eV = <strong>656 nm (red light)</strong></p>
             </div>
           </div>
         </section>
@@ -162,11 +162,11 @@ export default function BohrModelPage() {
           <div className="grid md:grid-cols-2 gap-6">
             <div>
               <h3 className="text-lg font-semibold text-teal-700 mb-2">1. Spectroscopy &amp; Emission Lines</h3>
-              <p className="text-gray-700">The Bohr model explains hydrogen's discrete spectral lines (Lyman, Balmer, Paschen series). Each series corresponds to transitions ending at a specific n level: Lyman (n → 1, UV), Balmer (n → 2, visible), Paschen (n → 3, IR).</p>
+              <p className="text-gray-700">The Bohr model explains hydrogen's discrete spectral lines (Lyman, Balmer, Paschen series). Each series corresponds to transitions ending at a specific n level: Lyman (n â†’ 1, UV), Balmer (n â†’ 2, visible), Paschen (n â†’ 3, IR).</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-teal-700 mb-2">2. Ionization Energy</h3>
-              <p className="text-gray-700">The energy required to remove an electron (ionization) equals |E<sub>n</sub>|. For hydrogen ground state: 13.6 eV. For He⁺: 54.4 eV. This Z² dependence explains periodic trends in ionization energy.</p>
+              <p className="text-gray-700">The energy required to remove an electron (ionization) equals |E<sub>n</sub>|. For hydrogen ground state: 13.6 eV. For Heâº: 54.4 eV. This ZÂ² dependence explains periodic trends in ionization energy.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-teal-700 mb-2">3. Astrophysics &amp; Stellar Spectra</h3>
@@ -192,11 +192,11 @@ export default function BohrModelPage() {
             </div>
             <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
               <h3 className="font-semibold text-red-700 mb-1">Confusing Emission vs Absorption</h3>
-              <p className="text-gray-700">Emission: electron drops (n<sub>i</sub> &gt; n<sub>f</sub>), ΔE negative, photon emitted. Absorption: electron rises (n<sub>i</sub> &lt; n<sub>f</sub>), ΔE positive, photon absorbed.</p>
+              <p className="text-gray-700">Emission: electron drops (n<sub>i</sub> &gt; n<sub>f</sub>), Î”E negative, photon emitted. Absorption: electron rises (n<sub>i</sub> &lt; n<sub>f</sub>), Î”E positive, photon absorbed.</p>
             </div>
             <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded">
               <h3 className="font-semibold text-yellow-700 mb-1">Pro Tip: Energy Conversion</h3>
-              <p className="text-gray-700">Remember: 1 eV = 1.602 × 10⁻¹⁹ J. For photon wavelength: λ (nm) = 1240 eV·nm / E (eV). This shortcut saves time in spectroscopy problems.</p>
+              <p className="text-gray-700">Remember: 1 eV = 1.602 Ã— 10â»Â¹â¹ J. For photon wavelength: Î» (nm) = 1240 eVÂ·nm / E (eV). This shortcut saves time in spectroscopy problems.</p>
             </div>
           </div>
         </section>
@@ -204,11 +204,11 @@ export default function BohrModelPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/quantum-and-atomic-structure-calculators/bohr-model-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/atomic-structure-calculators/bohr-model-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Bohr Model Calculator</h3>
               <p className="text-sm text-gray-600">Calculate energy levels and transitions</p>
             </a>
-            <a href="/quantum-and-atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Wavelength-Energy Calculator</h3>
               <p className="text-sm text-gray-600">Convert between wavelength and energy</p>
             </a>
@@ -218,9 +218,9 @@ export default function BohrModelPage() {
             </a>
             <a href="/chemistry-formulas/planck-equation" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-green-900 mb-2">Planck Equation</h3>
-              <p className="text-sm text-gray-600">E = hν photon energy</p>
+              <p className="text-sm text-gray-600">E = hÎ½ photon energy</p>
             </a>
-            <a href="/quantum-and-atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
               <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
             </a>

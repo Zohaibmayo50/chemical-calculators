@@ -21,9 +21,9 @@ export default function ReactionRateFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Reaction Rate</span>
           </nav>
         </div>
@@ -46,7 +46,7 @@ export default function ReactionRateFormulaPage() {
                 <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Average Rate</h3>
                 <div className="bg-white dark:bg-gray-700 rounded-lg p-6">
                   <p className="text-3xl font-mono font-bold text-green-900 dark:text-green-300 text-center mb-4">
-                    Rate = -Δ[A] / Δt
+                    Rate = -Î”[A] / Î”t
                   </p>
                   <p className="text-sm text-center text-gray-600 dark:text-gray-400">Change in concentration over time interval</p>
                 </div>
@@ -63,7 +63,7 @@ export default function ReactionRateFormulaPage() {
               </div>
 
               <div className="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-teal-900/30 dark:to-cyan-900/30 rounded-xl p-8">
-                <h3 className="text-xl font-bold text-teal-900 dark:text-teal-300 mb-4">For Reaction: aA + bB → cC + dD</h3>
+                <h3 className="text-xl font-bold text-teal-900 dark:text-teal-300 mb-4">For Reaction: aA + bB â†’ cC + dD</h3>
                 <div className="bg-white dark:bg-gray-700 rounded-lg p-6 text-center">
                   <p className="text-xl font-mono font-bold text-teal-900 dark:text-teal-300">
                     Rate = -(1/a)d[A]/dt = -(1/b)d[B]/dt = (1/c)d[C]/dt = (1/d)d[D]/dt
@@ -82,7 +82,7 @@ export default function ReactionRateFormulaPage() {
               <div className="text-center mb-6">
                 <div className="inline-block bg-white dark:bg-gray-700 rounded-lg p-6">
                   <p className="text-4xl font-mono font-bold text-green-900 dark:text-green-300 mb-4">
-                    Rate = k[A]ᵐ[B]ⁿ
+                    Rate = k[A]áµ[B]â¿
                   </p>
                 </div>
               </div>
@@ -109,10 +109,10 @@ export default function ReactionRateFormulaPage() {
             <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
               <h3 className="text-lg font-bold text-blue-900 dark:text-blue-300 mb-4">Rate Constant Units by Order</h3>
               <div className="space-y-2 text-gray-700 dark:text-gray-300">
-                <p><strong>Zero order (0):</strong> M/s or mol/(L·s)</p>
-                <p><strong>First order (1):</strong> s⁻¹ or 1/s</p>
-                <p><strong>Second order (2):</strong> M⁻¹s⁻¹ or L/(mol·s)</p>
-                <p><strong>Third order (3):</strong> M⁻²s⁻¹ or L²/(mol²·s)</p>
+                <p><strong>Zero order (0):</strong> M/s or mol/(LÂ·s)</p>
+                <p><strong>First order (1):</strong> sâ»Â¹ or 1/s</p>
+                <p><strong>Second order (2):</strong> Mâ»Â¹sâ»Â¹ or L/(molÂ·s)</p>
+                <p><strong>Third order (3):</strong> Mâ»Â²sâ»Â¹ or LÂ²/(molÂ²Â·s)</p>
               </div>
             </div>
           </div>
@@ -137,8 +137,8 @@ export default function ReactionRateFormulaPage() {
 
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-blue-900 dark:text-blue-300 mb-3">Second Order (m = 2)</h3>
-                <p className="text-gray-700 dark:text-gray-300 mb-2">Rate = k[A]²</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Doubling [A] quadruples the rate (2² = 4×)</p>
+                <p className="text-gray-700 dark:text-gray-300 mb-2">Rate = k[A]Â²</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Doubling [A] quadruples the rate (2Â² = 4Ã—)</p>
               </div>
             </div>
           </div>
@@ -154,32 +154,32 @@ export default function ReactionRateFormulaPage() {
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Problem:</strong> [A] changes from 0.100 M to 0.085 M in 30 seconds. Find average rate.</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">Δ[A] = 0.085 - 0.100 = -0.015 M</p>
-                  <p className="ml-6">Δt = 30 s</p>
-                  <p className="ml-6">Rate = -Δ[A]/Δt = -(-0.015)/30</p>
-                  <p className="ml-6 font-bold text-green-600">Rate = 5.0 × 10⁻⁴ M/s</p>
+                  <p className="ml-6">Î”[A] = 0.085 - 0.100 = -0.015 M</p>
+                  <p className="ml-6">Î”t = 30 s</p>
+                  <p className="ml-6">Rate = -Î”[A]/Î”t = -(-0.015)/30</p>
+                  <p className="ml-6 font-bold text-green-600">Rate = 5.0 Ã— 10â»â´ M/s</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 2: Using Rate Law</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> Rate = k[A]²[B], k = 0.50 M⁻²s⁻¹. Find rate when [A] = 0.20 M, [B] = 0.30 M.</p>
+                  <p><strong>Problem:</strong> Rate = k[A]Â²[B], k = 0.50 Mâ»Â²sâ»Â¹. Find rate when [A] = 0.20 M, [B] = 0.30 M.</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">Rate = 0.50 × (0.20)² × (0.30)</p>
-                  <p className="ml-6">Rate = 0.50 × 0.04 × 0.30</p>
-                  <p className="ml-6 font-bold text-green-600">Rate = 6.0 × 10⁻³ M/s</p>
+                  <p className="ml-6">Rate = 0.50 Ã— (0.20)Â² Ã— (0.30)</p>
+                  <p className="ml-6">Rate = 0.50 Ã— 0.04 Ã— 0.30</p>
+                  <p className="ml-6 font-bold text-green-600">Rate = 6.0 Ã— 10â»Â³ M/s</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 3: Effect of Concentration Change</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> Rate = k[A]²[B]. How does rate change if [A] triples and [B] doubles?</p>
+                  <p><strong>Problem:</strong> Rate = k[A]Â²[B]. How does rate change if [A] triples and [B] doubles?</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">Original: Rate₁ = k[A]²[B]</p>
-                  <p className="ml-6">New: Rate₂ = k(3[A])²(2[B]) = k × 9[A]² × 2[B] = 18k[A]²[B]</p>
-                  <p className="ml-6">Rate₂/Rate₁ = 18</p>
+                  <p className="ml-6">Original: Rateâ‚ = k[A]Â²[B]</p>
+                  <p className="ml-6">New: Rateâ‚‚ = k(3[A])Â²(2[B]) = k Ã— 9[A]Â² Ã— 2[B] = 18k[A]Â²[B]</p>
+                  <p className="ml-6">Rateâ‚‚/Rateâ‚ = 18</p>
                   <p className="ml-6 font-bold text-green-600">Rate increases by factor of 18</p>
                 </div>
               </div>
@@ -193,23 +193,23 @@ export default function ReactionRateFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Confusing Order with Stoichiometry</h3>
-                  <p className="text-gray-700 dark:text-gray-300">For 2A → B, rate law is NOT necessarily Rate = k[A]². Orders are determined experimentally!</p>
+                  <p className="text-gray-700 dark:text-gray-300">For 2A â†’ B, rate law is NOT necessarily Rate = k[A]Â². Orders are determined experimentally!</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong Sign for Reactants</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Rate = -Δ[A]/Δt (negative because [A] decreases). Make rate positive!</p>
+                  <p className="text-gray-700 dark:text-gray-300">Rate = -Î”[A]/Î”t (negative because [A] decreases). Make rate positive!</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Initial Rate Method</h3>
                   <p className="text-gray-700 dark:text-gray-300">Compare experiments where only one concentration changes to find orders</p>
@@ -217,7 +217,7 @@ export default function ReactionRateFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Rate vs Rate Constant</h3>
                   <p className="text-gray-700 dark:text-gray-300">Rate changes with concentration. k only changes with temperature.</p>
@@ -231,11 +231,11 @@ export default function ReactionRateFormulaPage() {
           <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/kinetics-calculators/reaction-rate-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/chemical-reaction-calculators" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Reaction Rate Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate rates from data</p>
               </Link>
-              <Link href="/kinetics-calculators/rate-law-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/chemical-reaction-calculators/rate-law-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Rate Law Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate rate constants</p>
               </Link>
@@ -251,7 +251,7 @@ export default function ReactionRateFormulaPage() {
                 <h3 className="font-semibold text-green-900 mb-2">Reaction Order Formula</h3>
                 <p className="text-sm text-gray-600">Determine order from data</p>
               </Link>
-              <Link href="/chemical-kinetics-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <Link href="/chemical-reaction-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
                 <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
               </Link>

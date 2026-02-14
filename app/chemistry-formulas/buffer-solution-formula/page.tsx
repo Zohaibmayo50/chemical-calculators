@@ -21,9 +21,9 @@ export default function BufferSolutionFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Buffer Solution</span>
           </nav>
         </div>
@@ -44,7 +44,7 @@ export default function BufferSolutionFormulaPage() {
             <div className="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-teal-900/30 dark:to-cyan-900/30 rounded-xl p-8 mb-6">
               <div className="text-center">
                 <div className="inline-block bg-white dark:bg-gray-700 rounded-lg p-6">
-                  <p className="text-4xl font-mono font-bold text-teal-900 dark:text-teal-300 mb-4">pH = pKₐ + log([A⁻]/[HA])</p>
+                  <p className="text-4xl font-mono font-bold text-teal-900 dark:text-teal-300 mb-4">pH = pKâ‚ + log([Aâ»]/[HA])</p>
                   <p className="text-xl text-gray-600 dark:text-gray-400">For acidic buffers</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function BufferSolutionFormulaPage() {
             <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-cyan-900/30 dark:to-blue-900/30 rounded-xl p-8">
               <div className="text-center">
                 <div className="inline-block bg-white dark:bg-gray-700 rounded-lg p-6">
-                  <p className="text-4xl font-mono font-bold text-cyan-900 dark:text-cyan-300 mb-4">pOH = pKբ + log([BH⁺]/[B])</p>
+                  <p className="text-4xl font-mono font-bold text-cyan-900 dark:text-cyan-300 mb-4">pOH = pKÕ¢ + log([BHâº]/[B])</p>
                   <p className="text-xl text-gray-600 dark:text-gray-400">For basic buffers</p>
                 </div>
               </div>
@@ -69,19 +69,19 @@ export default function BufferSolutionFormulaPage() {
               <div className="bg-teal-50 dark:bg-teal-900/20 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-teal-900 dark:text-teal-300 mb-2">Acidic Buffer</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">Weak acid + conjugate base (salt)</p>
-                <p className="text-sm font-mono">Example: CH₃COOH + CH₃COONa</p>
+                <p className="text-sm font-mono">Example: CHâ‚ƒCOOH + CHâ‚ƒCOONa</p>
               </div>
               <div className="bg-cyan-50 dark:bg-cyan-900/20 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-cyan-900 dark:text-cyan-300 mb-2">Basic Buffer</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">Weak base + conjugate acid (salt)</p>
-                <p className="text-sm font-mono">Example: NH₃ + NH₄Cl</p>
+                <p className="text-sm font-mono">Example: NHâ‚ƒ + NHâ‚„Cl</p>
               </div>
             </div>
 
             <div className="mt-8 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
               <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Buffer Capacity Formula</h3>
               <div className="bg-white dark:bg-gray-700 rounded-lg p-4 font-mono text-center mb-4">
-                β = Δn(acid or base) / ΔpH
+                Î² = Î”n(acid or base) / Î”pH
               </div>
               <p className="text-gray-700 dark:text-gray-300">Higher capacity = better resistance to pH change</p>
             </div>
@@ -96,9 +96,9 @@ export default function BufferSolutionFormulaPage() {
               <div className="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-teal-900/20 dark:to-cyan-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-teal-900 dark:text-teal-300 mb-4">Example 1: Acetate Buffer pH</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Given:</strong> 0.10 M CH₃COOH and 0.15 M CH₃COONa (pKₐ = 4.76)</p>
+                  <p><strong>Given:</strong> 0.10 M CHâ‚ƒCOOH and 0.15 M CHâ‚ƒCOONa (pKâ‚ = 4.76)</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">pH = pKₐ + log([A⁻]/[HA])</p>
+                  <p className="ml-6">pH = pKâ‚ + log([Aâ»]/[HA])</p>
                   <p className="ml-6">pH = 4.76 + log(0.15/0.10)</p>
                   <p className="ml-6">pH = 4.76 + log(1.5)</p>
                   <p className="ml-6">pH = 4.76 + 0.18</p>
@@ -109,9 +109,9 @@ export default function BufferSolutionFormulaPage() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 2: Ammonia Buffer</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Given:</strong> 0.20 M NH₃ and 0.20 M NH₄Cl (pKբ = 4.75)</p>
+                  <p><strong>Given:</strong> 0.20 M NHâ‚ƒ and 0.20 M NHâ‚„Cl (pKÕ¢ = 4.75)</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">pOH = pKբ + log([BH⁺]/[B])</p>
+                  <p className="ml-6">pOH = pKÕ¢ + log([BHâº]/[B])</p>
                   <p className="ml-6">pOH = 4.75 + log(0.20/0.20)</p>
                   <p className="ml-6">pOH = 4.75 + 0 = 4.75</p>
                   <p className="ml-6">pH = 14 - 4.75</p>
@@ -128,17 +128,17 @@ export default function BufferSolutionFormulaPage() {
             
             <div className="space-y-4">
               <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-4">
-                <h3 className="font-bold text-green-900 dark:text-green-300 mb-2">✓ Best When [A⁻]/[HA] = 1</h3>
-                <p className="text-gray-700 dark:text-gray-300">pH = pKₐ (maximum buffer capacity)</p>
+                <h3 className="font-bold text-green-900 dark:text-green-300 mb-2">âœ“ Best When [Aâ»]/[HA] = 1</h3>
+                <p className="text-gray-700 dark:text-gray-300">pH = pKâ‚ (maximum buffer capacity)</p>
               </div>
 
               <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-4">
-                <h3 className="font-bold text-green-900 dark:text-green-300 mb-2">✓ Effective Range: pH = pKₐ ± 1</h3>
-                <p className="text-gray-700 dark:text-gray-300">Ratio of [A⁻]/[HA] between 10:1 and 1:10</p>
+                <h3 className="font-bold text-green-900 dark:text-green-300 mb-2">âœ“ Effective Range: pH = pKâ‚ Â± 1</h3>
+                <p className="text-gray-700 dark:text-gray-300">Ratio of [Aâ»]/[HA] between 10:1 and 1:10</p>
               </div>
 
               <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">⚠️ Higher Concentrations = Higher Capacity</h3>
+                <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">âš ï¸ Higher Concentrations = Higher Capacity</h3>
                 <p className="text-gray-700 dark:text-gray-300">More concentrated buffers resist pH change better</p>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function BufferSolutionFormulaPage() {
           <div className="bg-gradient-to-br from-teal-50 to-cyan-50 dark:from-teal-900/20 dark:to-cyan-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/acid-base-calculators/buffer-solution-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/acid-base-calculators/pka-calculator" className="block p-6 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Buffer Calculator</h3>
                 <p className="text-teal-100">Calculate buffer pH</p>
               </Link>
@@ -157,7 +157,7 @@ export default function BufferSolutionFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Henderson-Hasselbalch</h3>
                 <p className="text-gray-600 dark:text-gray-400">Detailed equation explanation</p>
               </Link>
-              <Link href="/acid-base-calculators/buffer-capacity-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/acid-base-calculators/pka-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Buffer Capacity</h3>
                 <p className="text-gray-600 dark:text-gray-400">Calculate resistance to pH change</p>
               </Link>

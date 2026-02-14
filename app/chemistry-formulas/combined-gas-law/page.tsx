@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Combined Gas Law | P₁V₁/T₁ = P₂V₂/T₂ | Gas Calculations',
+  title: 'Combined Gas Law | Pâ‚Vâ‚/Tâ‚ = Pâ‚‚Vâ‚‚/Tâ‚‚ | Gas Calculations',
   description: 'Master the combined gas law relating pressure, volume, and temperature. Includes examples and gas law calculator links.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/combined-gas-law',
@@ -40,7 +40,7 @@ export default function CombinedGasLawPage() {
             <h2 className="text-3xl font-bold text-white mb-4 text-center">The Combined Gas Law</h2>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <p className="text-6xl font-bold text-gray-900 dark:text-white mb-2">
-                P₁V₁/T₁ = P₂V₂/T₂
+                Pâ‚Vâ‚/Tâ‚ = Pâ‚‚Vâ‚‚/Tâ‚‚
               </p>
               <p className="text-gray-600 dark:text-gray-400 text-lg">
                 For a fixed amount of gas
@@ -53,50 +53,50 @@ export default function CombinedGasLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Variable Definitions</h2>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">P₁ = Initial Pressure</h3>
+                <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">Pâ‚ = Initial Pressure</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   <strong>Units:</strong> atm, mmHg, Pa, kPa, torr
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">P₂ = Final Pressure</h3>
+                <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-2">Pâ‚‚ = Final Pressure</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> Same as P₁
+                  <strong>Units:</strong> Same as Pâ‚
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-2">V₁ = Initial Volume</h3>
+                <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-2">Vâ‚ = Initial Volume</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> L, mL, m³, cm³
+                  <strong>Units:</strong> L, mL, mÂ³, cmÂ³
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-2">V₂ = Final Volume</h3>
+                <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-2">Vâ‚‚ = Final Volume</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> Same as V₁
+                  <strong>Units:</strong> Same as Vâ‚
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">T₁ = Initial Temperature</h3>
+                <h3 className="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">Tâ‚ = Initial Temperature</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> Kelvin (K) — MUST use Kelvin!
+                  <strong>Units:</strong> Kelvin (K) â€” MUST use Kelvin!
                 </p>
                 <p className="text-red-600 dark:text-red-400 text-sm mt-2">
-                  ⚠️ Never use °C or °F
+                  âš ï¸ Never use Â°C or Â°F
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">T₂ = Final Temperature</h3>
+                <h3 className="text-xl font-bold text-indigo-600 dark:text-indigo-400 mb-2">Tâ‚‚ = Final Temperature</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   <strong>Units:</strong> Kelvin (K)
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
-                  K = °C + 273.15
+                  K = Â°C + 273.15
                 </p>
               </div>
             </div>
@@ -107,29 +107,29 @@ export default function CombinedGasLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">When to Use Combined Gas Law</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-green-50 dark:bg-green-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">✅ Use When:</h3>
+                <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">âœ… Use When:</h3>
                 <ul className="space-y-2 text-green-800 dark:text-green-200 text-sm">
-                  <li>• Amount of gas is constant (n fixed)</li>
-                  <li>• Both P, V, and T change</li>
-                  <li>• Comparing two states</li>
+                  <li>â€¢ Amount of gas is constant (n fixed)</li>
+                  <li>â€¢ Both P, V, and T change</li>
+                  <li>â€¢ Comparing two states</li>
                 </ul>
               </div>
 
               <div className="bg-yellow-50 dark:bg-yellow-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-yellow-900 dark:text-yellow-100 mb-3">⚡ Reduces To:</h3>
+                <h3 className="font-bold text-yellow-900 dark:text-yellow-100 mb-3">âš¡ Reduces To:</h3>
                 <ul className="space-y-2 text-yellow-800 dark:text-yellow-200 text-sm">
-                  <li>• <strong>Boyle's:</strong> T constant → P₁V₁ = P₂V₂</li>
-                  <li>• <strong>Charles's:</strong> P constant → V₁/T₁ = V₂/T₂</li>
-                  <li>• <strong>Gay-Lussac's:</strong> V constant → P₁/T₁ = P₂/T₂</li>
+                  <li>â€¢ <strong>Boyle's:</strong> T constant â†’ Pâ‚Vâ‚ = Pâ‚‚Vâ‚‚</li>
+                  <li>â€¢ <strong>Charles's:</strong> P constant â†’ Vâ‚/Tâ‚ = Vâ‚‚/Tâ‚‚</li>
+                  <li>â€¢ <strong>Gay-Lussac's:</strong> V constant â†’ Pâ‚/Tâ‚ = Pâ‚‚/Tâ‚‚</li>
                 </ul>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-3">❌ Don't Use If:</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-3">âŒ Don't Use If:</h3>
                 <ul className="space-y-2 text-red-800 dark:text-red-200 text-sm">
-                  <li>• Amount of gas changes</li>
-                  <li>• Need to find moles (n)</li>
-                  <li>• Use Ideal Gas Law instead</li>
+                  <li>â€¢ Amount of gas changes</li>
+                  <li>â€¢ Need to find moles (n)</li>
+                  <li>â€¢ Use Ideal Gas Law instead</li>
                 </ul>
               </div>
             </div>
@@ -140,23 +140,23 @@ export default function CombinedGasLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Rearranged Forms</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-blue-100 dark:bg-blue-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">Solve for P₂:</h3>
+                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">Solve for Pâ‚‚:</h3>
                 <p className="text-2xl font-bold text-blue-800 dark:text-blue-200">
-                  P₂ = P₁V₁T₂ / (V₂T₁)
+                  Pâ‚‚ = Pâ‚Vâ‚Tâ‚‚ / (Vâ‚‚Tâ‚)
                 </p>
               </div>
 
               <div className="bg-purple-100 dark:bg-purple-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-purple-900 dark:text-purple-100 mb-3">Solve for V₂:</h3>
+                <h3 className="font-bold text-purple-900 dark:text-purple-100 mb-3">Solve for Vâ‚‚:</h3>
                 <p className="text-2xl font-bold text-purple-800 dark:text-purple-200">
-                  V₂ = P₁V₁T₂ / (P₂T₁)
+                  Vâ‚‚ = Pâ‚Vâ‚Tâ‚‚ / (Pâ‚‚Tâ‚)
                 </p>
               </div>
 
               <div className="bg-indigo-100 dark:bg-indigo-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-indigo-900 dark:text-indigo-100 mb-3">Solve for T₂:</h3>
+                <h3 className="font-bold text-indigo-900 dark:text-indigo-100 mb-3">Solve for Tâ‚‚:</h3>
                 <p className="text-2xl font-bold text-indigo-800 dark:text-indigo-200">
-                  T₂ = P₂V₂T₁ / (P₁V₁)
+                  Tâ‚‚ = Pâ‚‚Vâ‚‚Tâ‚ / (Pâ‚Vâ‚)
                 </p>
               </div>
 
@@ -174,54 +174,54 @@ export default function CombinedGasLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Step-by-Step Example</h2>
             <div className="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-xl p-8">
               <h3 className="text-2xl font-bold mb-4">
-                Problem: A gas at 2.0 atm, 5.0 L, and 25°C is heated to 100°C and compressed to 3.0 L. Find the final pressure.
+                Problem: A gas at 2.0 atm, 5.0 L, and 25Â°C is heated to 100Â°C and compressed to 3.0 L. Find the final pressure.
               </h3>
               
               <div className="space-y-6">
                 <div>
                   <h4 className="font-bold text-lg mb-2">Given:</h4>
                   <ul className="list-disc list-inside space-y-1">
-                    <li>P₁ = 2.0 atm</li>
-                    <li>V₁ = 5.0 L</li>
-                    <li>T₁ = 25°C</li>
-                    <li>V₂ = 3.0 L</li>
-                    <li>T₂ = 100°C</li>
-                    <li>Find: P₂</li>
+                    <li>Pâ‚ = 2.0 atm</li>
+                    <li>Vâ‚ = 5.0 L</li>
+                    <li>Tâ‚ = 25Â°C</li>
+                    <li>Vâ‚‚ = 3.0 L</li>
+                    <li>Tâ‚‚ = 100Â°C</li>
+                    <li>Find: Pâ‚‚</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 1: Convert temperatures to Kelvin</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    T₁ = 25 + 273.15 = 298 K<br />
-                    T₂ = 100 + 273.15 = 373 K
+                    Tâ‚ = 25 + 273.15 = 298 K<br />
+                    Tâ‚‚ = 100 + 273.15 = 373 K
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">Step 2: Rearrange for P₂</h4>
+                  <h4 className="font-bold text-lg mb-2">Step 2: Rearrange for Pâ‚‚</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    P₂ = P₁V₁T₂ / (V₂T₁)
+                    Pâ‚‚ = Pâ‚Vâ‚Tâ‚‚ / (Vâ‚‚Tâ‚)
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 3: Substitute values</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    P₂ = (2.0 atm)(5.0 L)(373 K) / [(3.0 L)(298 K)]
+                    Pâ‚‚ = (2.0 atm)(5.0 L)(373 K) / [(3.0 L)(298 K)]
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 4: Calculate</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    P₂ = 3730 / 894 = 4.17 atm
+                    Pâ‚‚ = 3730 / 894 = 4.17 atm
                   </p>
                 </div>
 
                 <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg">
                   <p className="font-bold text-green-900 dark:text-green-100">
-                    Answer: P₂ = 4.2 atm
+                    Answer: Pâ‚‚ = 4.2 atm
                   </p>
                   <p className="text-sm mt-2">Pressure increased because: volume decreased (compression) AND temperature increased (heating).</p>
                 </div>
@@ -234,28 +234,28 @@ export default function CombinedGasLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using Celsius instead of Kelvin</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using Celsius instead of Kelvin</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  Temperature MUST be in Kelvin! Using °C gives completely wrong answers. Always convert: K = °C + 273.15
+                  Temperature MUST be in Kelvin! Using Â°C gives completely wrong answers. Always convert: K = Â°C + 273.15
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Mismatched pressure units</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Mismatched pressure units</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  P₁ and P₂ must have the same units. Convert before calculating (e.g., all atm or all kPa).
+                  Pâ‚ and Pâ‚‚ must have the same units. Convert before calculating (e.g., all atm or all kPa).
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Mismatched volume units</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Mismatched volume units</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  V₁ and V₂ must have the same units. If one is mL and other is L, convert first!
+                  Vâ‚ and Vâ‚‚ must have the same units. If one is mL and other is L, convert first!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Assuming moles are constant when they're not</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Assuming moles are constant when they're not</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Combined gas law only works when amount of gas is FIXED. If gas leaks or is added, use ideal gas law instead.
                 </p>
@@ -296,7 +296,7 @@ export default function CombinedGasLawPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What is the combined gas law?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  P₁V₁/T₁ = P₂V₂/T₂. It relates pressure, volume, and temperature for a fixed amount of gas, combining three simpler gas laws.
+                  Pâ‚Vâ‚/Tâ‚ = Pâ‚‚Vâ‚‚/Tâ‚‚. It relates pressure, volume, and temperature for a fixed amount of gas, combining three simpler gas laws.
                 </p>
               </div>
 
@@ -317,14 +317,14 @@ export default function CombinedGasLawPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What happens if one variable stays constant?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  The equation simplifies: constant T → Boyle's Law, constant P → Charles's Law, constant V → Gay-Lussac's Law.
+                  The equation simplifies: constant T â†’ Boyle's Law, constant P â†’ Charles's Law, constant V â†’ Gay-Lussac's Law.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Do pressure and volume units matter?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Units must be consistent (P₁ and P₂ same units, V₁ and V₂ same units), but they cancel out, so any units work if matched.
+                  Units must be consistent (Pâ‚ and Pâ‚‚ same units, Vâ‚ and Vâ‚‚ same units), but they cancel out, so any units work if matched.
                 </p>
               </div>
             </div>
@@ -333,10 +333,10 @@ export default function CombinedGasLawPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                ← Back to All Formulas
+                â† Back to All Formulas
               </Link>
-              <Link href="/chemistry-formulas/daltons-law-formula" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Dalton's Law →
+              <Link href="/chemistry-formulas/daltons-law" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
+                Next: Dalton's Law â†’
               </Link>
             </div>
           </div>

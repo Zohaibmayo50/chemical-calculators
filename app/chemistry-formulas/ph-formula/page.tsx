@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'pH Formula | pH = -log[H⁺] | Calculate Solution Acidity',
-  description: 'Learn the pH formula (pH = -log[H⁺]) with clear explanations, examples, and pOH calculations. Master acid-base chemistry.',
+  title: 'pH Formula | pH = -log[Hâº] | Calculate Solution Acidity',
+  description: 'Learn the pH formula (pH = -log[Hâº]) with clear explanations, examples, and pOH calculations. Master acid-base chemistry.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/ph-formula',
   },
@@ -40,7 +40,7 @@ export default function PHFormulaPage() {
             <h2 className="text-3xl font-bold text-white mb-4 text-center">The pH Formula</h2>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <p className="text-5xl font-bold text-gray-900 dark:text-white mb-2">
-                pH = -log[H⁺]
+                pH = -log[Hâº]
               </p>
               <p className="text-gray-600 dark:text-gray-400 text-lg">
                 Negative logarithm of hydrogen ion concentration
@@ -61,20 +61,20 @@ export default function PHFormulaPage() {
                   <strong>Range:</strong> 0 (most acidic) to 14 (most basic)
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Neutral:</strong> pH = 7 at 25°C
+                  <strong>Neutral:</strong> pH = 7 at 25Â°C
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-green-600 dark:text-green-400 mb-2">[H⁺] = Hydrogen Ion Concentration</h3>
+                <h3 className="text-xl font-bold text-green-600 dark:text-green-400 mb-2">[Hâº] = Hydrogen Ion Concentration</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   <strong>Units:</strong> M (mol/L or molar)
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Meaning:</strong> Concentration of H⁺ ions in solution
+                  <strong>Meaning:</strong> Concentration of Hâº ions in solution
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
-                  💡 Also written as [H₃O⁺] (hydronium ion)
+                  ðŸ’¡ Also written as [Hâ‚ƒOâº] (hydronium ion)
                 </p>
               </div>
 
@@ -95,17 +95,17 @@ export default function PHFormulaPage() {
                 <div className="bg-red-600/80 rounded-lg p-4">
                   <p className="text-2xl mb-2">pH 0-6</p>
                   <p className="text-sm">ACIDIC</p>
-                  <p className="text-xs mt-2">More H⁺ ions</p>
+                  <p className="text-xs mt-2">More Hâº ions</p>
                 </div>
                 <div className="bg-green-600/80 rounded-lg p-4">
                   <p className="text-2xl mb-2">pH 7</p>
                   <p className="text-sm">NEUTRAL</p>
-                  <p className="text-xs mt-2">Equal H⁺ and OH⁻</p>
+                  <p className="text-xs mt-2">Equal Hâº and OHâ»</p>
                 </div>
                 <div className="bg-blue-600/80 rounded-lg p-4">
                   <p className="text-2xl mb-2">pH 8-14</p>
                   <p className="text-sm">BASIC</p>
-                  <p className="text-xs mt-2">More OH⁻ ions</p>
+                  <p className="text-xs mt-2">More OHâ» ions</p>
                 </div>
               </div>
             </div>
@@ -116,21 +116,21 @@ export default function PHFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Formulas</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-blue-50 dark:bg-blue-900/30 rounded-lg p-6 border-2 border-blue-500">
-                <h3 className="text-lg font-bold text-blue-900 dark:text-blue-100 mb-3">Find [H⁺] from pH</h3>
-                <p className="text-2xl font-bold text-blue-800 dark:text-blue-200 mb-2">[H⁺] = 10<sup>-pH</sup></p>
+                <h3 className="text-lg font-bold text-blue-900 dark:text-blue-100 mb-3">Find [Hâº] from pH</h3>
+                <p className="text-2xl font-bold text-blue-800 dark:text-blue-200 mb-2">[Hâº] = 10<sup>-pH</sup></p>
                 <p className="text-sm text-blue-700 dark:text-blue-300">Reverse calculation</p>
               </div>
 
               <div className="bg-purple-50 dark:bg-purple-900/30 rounded-lg p-6 border-2 border-purple-500">
                 <h3 className="text-lg font-bold text-purple-900 dark:text-purple-100 mb-3">pOH Formula</h3>
-                <p className="text-2xl font-bold text-purple-800 dark:text-purple-200 mb-2">pOH = -log[OH⁻]</p>
+                <p className="text-2xl font-bold text-purple-800 dark:text-purple-200 mb-2">pOH = -log[OHâ»]</p>
                 <p className="text-sm text-purple-700 dark:text-purple-300">For bases</p>
               </div>
 
               <div className="bg-green-50 dark:bg-green-900/30 rounded-lg p-6 border-2 border-green-500">
                 <h3 className="text-lg font-bold text-green-900 dark:text-green-100 mb-3">pH + pOH Relationship</h3>
                 <p className="text-2xl font-bold text-green-800 dark:text-green-200 mb-2">pH + pOH = 14</p>
-                <p className="text-sm text-green-700 dark:text-green-300">At 25°C</p>
+                <p className="text-sm text-green-700 dark:text-green-300">At 25Â°C</p>
               </div>
 
               <div className="bg-orange-50 dark:bg-orange-900/30 rounded-lg p-6 border-2 border-orange-500">
@@ -146,21 +146,21 @@ export default function PHFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Step-by-Step Example</h2>
             <div className="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-xl p-8">
               <h3 className="text-2xl font-bold mb-4">
-                Problem: What is the pH of a solution with [H⁺] = 1.0 × 10⁻³ M?
+                Problem: What is the pH of a solution with [Hâº] = 1.0 Ã— 10â»Â³ M?
               </h3>
               
               <div className="space-y-6">
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 1: Write the formula</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    pH = -log[H⁺]
+                    pH = -log[Hâº]
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 2: Substitute the value</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    pH = -log(1.0 × 10⁻³)
+                    pH = -log(1.0 Ã— 10â»Â³)
                   </p>
                 </div>
 
@@ -185,21 +185,21 @@ export default function PHFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Forgetting the negative sign</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Forgetting the negative sign</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  It's -log[H⁺], not just log[H⁺]. The negative makes pH values positive.
+                  It's -log[Hâº], not just log[Hâº]. The negative makes pH values positive.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using natural log (ln) instead of log</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using natural log (ln) instead of log</h3>
                 <p className="text-red-800 dark:text-red-200">
                   pH uses log base 10, not ln (natural log). Make sure your calculator is in log mode.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Confusing acidic and basic</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Confusing acidic and basic</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Lower pH = more acidic. Higher pH = more basic. pH 7 is neutral.
                 </p>
@@ -213,7 +213,7 @@ export default function PHFormulaPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/atomic-structure-calculators/ph-calculator" className="block p-6 bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">pH Calculator</h3>
-                <p>Calculate pH from [H⁺] or vice versa</p>
+                <p>Calculate pH from [Hâº] or vice versa</p>
               </Link>
 
               <Link href="/atomic-structure-calculators/henderson-hasselbalch-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
@@ -226,7 +226,7 @@ export default function PHFormulaPage() {
                 <p className="text-gray-600 dark:text-gray-400">pH changes during titration</p>
               </Link>
 
-              <Link href="/acid-base-calculators/buffer-capacity-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/acid-base-calculators/pka-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Buffer Capacity</h3>
                 <p className="text-gray-600 dark:text-gray-400">Measure pH resistance</p>
               </Link>
@@ -240,35 +240,35 @@ export default function PHFormulaPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What is the pH formula?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  pH = -log[H⁺], where [H⁺] is the hydrogen ion concentration in mol/L. It measures acidity on a 0-14 scale.
+                  pH = -log[Hâº], where [Hâº] is the hydrogen ion concentration in mol/L. It measures acidity on a 0-14 scale.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Why is the pH scale 0 to 14?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  At 25°C, water's ion product is 10⁻¹⁴. Since pH + pOH = 14, the practical range is 0-14, though values outside this range exist for very strong acids/bases.
+                  At 25Â°C, water's ion product is 10â»Â¹â´. Since pH + pOH = 14, the practical range is 0-14, though values outside this range exist for very strong acids/bases.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">How do I calculate pH without a calculator?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  For powers of 10: If [H⁺] = 10⁻ⁿ, then pH = n. Example: [H⁺] = 10⁻⁵ → pH = 5.
+                  For powers of 10: If [Hâº] = 10â»â¿, then pH = n. Example: [Hâº] = 10â»âµ â†’ pH = 5.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What is the difference between pH and pOH?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  pH measures [H⁺] while pOH measures [OH⁻]. They're related: pH + pOH = 14 at 25°C.
+                  pH measures [Hâº] while pOH measures [OHâ»]. They're related: pH + pOH = 14 at 25Â°C.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Why is pH 7 neutral?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Pure water has [H⁺] = [OH⁻] = 10⁻⁷ M at 25°C, giving pH = -log(10⁻⁷) = 7.
+                  Pure water has [Hâº] = [OHâ»] = 10â»â· M at 25Â°C, giving pH = -log(10â»â·) = 7.
                 </p>
               </div>
             </div>
@@ -277,10 +277,10 @@ export default function PHFormulaPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                ← Back to All Formulas
+                â† Back to All Formulas
               </Link>
               <Link href="/chemistry-formulas/henderson-hasselbalch-equation" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Henderson-Hasselbalch →
+                Next: Henderson-Hasselbalch â†’
               </Link>
             </div>
           </div>

@@ -61,7 +61,7 @@ export default function MolalityFormulaPage() {
                   Concentration of solute
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
-                  ⚠️ Don't confuse lowercase m (molality) with uppercase M (molarity)
+                  âš ï¸ Don't confuse lowercase m (molality) with uppercase M (molarity)
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export default function MolalityFormulaPage() {
                   Mass of SOLVENT only, NOT solution
                 </p>
                 <p className="text-red-600 dark:text-red-400 text-sm mt-2">
-                  ⚠️ Must be in kg! Convert grams to kg by dividing by 1000
+                  âš ï¸ Must be in kg! Convert grams to kg by dividing by 1000
                 </p>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function MolalityFormulaPage() {
               <div className="bg-blue-100 dark:bg-blue-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">Solve for moles:</h3>
                 <p className="text-2xl font-bold text-blue-800 dark:text-blue-200">
-                  n = m × kg<sub>solvent</sub>
+                  n = m Ã— kg<sub>solvent</sub>
                 </p>
               </div>
 
@@ -187,14 +187,14 @@ export default function MolalityFormulaPage() {
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 1: Convert solvent mass to kg</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    kg<sub>solvent</sub> = 500 g ÷ 1000 = 0.500 kg
+                    kg<sub>solvent</sub> = 500 g Ã· 1000 = 0.500 kg
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 2: Calculate moles of solute</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    n = 23.0 g ÷ 58.44 g/mol = 0.394 mol
+                    n = 23.0 g Ã· 58.44 g/mol = 0.394 mol
                   </p>
                 </div>
 
@@ -220,28 +220,28 @@ export default function MolalityFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using solution mass instead of solvent mass</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using solution mass instead of solvent mass</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Denominator is SOLVENT mass only, NOT total solution. Don't include the solute in the denominator!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Forgetting to convert grams to kilograms</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Forgetting to convert grams to kilograms</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  Solvent mass MUST be in kg. If given in g, divide by 1000. Missing this makes your answer 1000× too small!
+                  Solvent mass MUST be in kg. If given in g, divide by 1000. Missing this makes your answer 1000Ã— too small!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Confusing m (molality) with M (molarity)</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Confusing m (molality) with M (molarity)</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Molality (m) = mol/kg solvent. Molarity (M) = mol/L solution. They're different units!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using grams instead of moles for solute</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using grams instead of moles for solute</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Must convert solute mass to moles using molar mass before calculating molality.
                 </p>
@@ -254,23 +254,23 @@ export default function MolalityFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">When to Use Molality</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-green-50 dark:bg-green-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">✅ Use Molality For:</h3>
+                <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">âœ… Use Molality For:</h3>
                 <ul className="space-y-2 text-green-800 dark:text-green-200">
-                  <li>• Boiling point elevation (ΔTb = Kb·m)</li>
-                  <li>• Freezing point depression (ΔTf = Kf·m)</li>
-                  <li>• Osmotic pressure calculations</li>
-                  <li>• Any temperature-varying conditions</li>
-                  <li>• Colligative properties</li>
+                  <li>â€¢ Boiling point elevation (Î”Tb = KbÂ·m)</li>
+                  <li>â€¢ Freezing point depression (Î”Tf = KfÂ·m)</li>
+                  <li>â€¢ Osmotic pressure calculations</li>
+                  <li>â€¢ Any temperature-varying conditions</li>
+                  <li>â€¢ Colligative properties</li>
                 </ul>
               </div>
 
               <div className="bg-blue-50 dark:bg-blue-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">✓ Advantages:</h3>
+                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">âœ“ Advantages:</h3>
                 <ul className="space-y-2 text-blue-800 dark:text-blue-200">
-                  <li>• Temperature-independent</li>
-                  <li>• Doesn't change with heating/cooling</li>
-                  <li>• More accurate for non-aqueous solvents</li>
-                  <li>• Easy to prepare without volumetric glassware</li>
+                  <li>â€¢ Temperature-independent</li>
+                  <li>â€¢ Doesn't change with heating/cooling</li>
+                  <li>â€¢ More accurate for non-aqueous solvents</li>
+                  <li>â€¢ Easy to prepare without volumetric glassware</li>
                 </ul>
               </div>
             </div>
@@ -295,9 +295,9 @@ export default function MolalityFormulaPage() {
                 <p className="text-gray-600 dark:text-gray-400">Convert between units</p>
               </Link>
 
-              <Link href="/thermodynamics-calculators/freezing-point-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/thermodynamics-calculators/freezing-point-depression-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Freezing Point Depression</h3>
-                <p className="text-gray-600 dark:text-gray-400">Use molality for ΔTf</p>
+                <p className="text-gray-600 dark:text-gray-400">Use molality for Î”Tf</p>
               </Link>
             </div>
           </section>
@@ -369,10 +369,10 @@ export default function MolalityFormulaPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                ← Back to All Formulas
+                â† Back to All Formulas
               </Link>
               <Link href="/chemistry-formulas/mass-percent-formula" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Mass Percent →
+                Next: Mass Percent â†’
               </Link>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Ionic Strength Formula',
-  description: 'Calculate ionic strength: I = 1/2 Σ(ci zi²) for electrolyte solutions.',
+  description: 'Calculate ionic strength: I = 1/2 Î£(ci ziÂ²) for electrolyte solutions.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/ionic-strength-formula',
   },
@@ -35,22 +35,22 @@ export default function IonicStrengthFormulaPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-violet-50 border-l-4 border-violet-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-bold text-violet-700">I = 1/2 Σ c<sub>i</sub> z<sub>i</sub>²</p>
+            <p className="text-2xl font-bold text-violet-700">I = 1/2 Î£ c<sub>i</sub> z<sub>i</sub>Â²</p>
           </div>
           <ul className="grid md:grid-cols-2 gap-4 text-gray-700 mt-4">
             <li><strong>I</strong> = ionic strength (mol/L)</li>
             <li><strong>c<sub>i</sub></strong> = molar concentration of ion i</li>
             <li><strong>z<sub>i</sub></strong> = charge of ion i</li>
-            <li><strong>Σ</strong> = sum over all ions</li>
+            <li><strong>Î£</strong> = sum over all ions</li>
           </ul>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example: 0.1 M NaCl</h2>
           <div className="space-y-2 text-gray-700">
-            <p>Na⁺: c = 0.1 M, z = +1</p>
-            <p>Cl⁻: c = 0.1 M, z = -1</p>
-            <p>I = 1/2 [0.1(1)² + 0.1(-1)²]</p>
+            <p>Naâº: c = 0.1 M, z = +1</p>
+            <p>Clâ»: c = 0.1 M, z = -1</p>
+            <p>I = 1/2 [0.1(1)Â² + 0.1(-1)Â²]</p>
             <p>= 1/2 [0.1 + 0.1] = 0.1 M</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
@@ -59,11 +59,11 @@ export default function IonicStrengthFormulaPage() {
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example: 0.1 M CaCl₂</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example: 0.1 M CaClâ‚‚</h2>
           <div className="space-y-2 text-gray-700">
-            <p>Ca²⁺: c = 0.1 M, z = +2</p>
-            <p>Cl⁻: c = 0.2 M (two per formula unit), z = -1</p>
-            <p>I = 1/2 [0.1(2)² + 0.2(-1)²]</p>
+            <p>CaÂ²âº: c = 0.1 M, z = +2</p>
+            <p>Clâ»: c = 0.2 M (two per formula unit), z = -1</p>
+            <p>I = 1/2 [0.1(2)Â² + 0.2(-1)Â²]</p>
             <p>= 1/2 [0.4 + 0.2] = 0.3 M</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
@@ -74,9 +74,9 @@ export default function IonicStrengthFormulaPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Importance</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
-            <li>Used to calculate activity coefficients via Debye-Hückel equation</li>
+            <li>Used to calculate activity coefficients via Debye-HÃ¼ckel equation</li>
             <li>Affects solubility, reaction rates, and equilibria</li>
-            <li>Higher charge ions contribute more to ionic strength (z² factor)</li>
+            <li>Higher charge ions contribute more to ionic strength (zÂ² factor)</li>
             <li>For 1:1 electrolyte, I = molarity; for others, I &gt; molarity</li>
           </ul>
         </section>
@@ -84,13 +84,13 @@ export default function IonicStrengthFormulaPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/physical-chemistry-calculators/ionic-strength-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/physical-chemistry-calculators" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Ionic Strength Calculator</h3>
-              <p className="text-sm text-gray-600">I = ½Σ(c<sub>i</sub>z<sub>i</sub>²) calculator</p>
+              <p className="text-sm text-gray-600">I = Â½Î£(c<sub>i</sub>z<sub>i</sub>Â²) calculator</p>
             </a>
             <a href="/chemistry-formulas/activity-coefficient" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-green-900 mb-2">Activity Coefficient</h3>
-              <p className="text-sm text-gray-600">a = γ × [C] using ionic strength</p>
+              <p className="text-sm text-gray-600">a = Î³ Ã— [C] using ionic strength</p>
             </a>
             <a href="/chemistry-formulas/molarity-formula" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-green-900 mb-2">Molarity Formula</h3>

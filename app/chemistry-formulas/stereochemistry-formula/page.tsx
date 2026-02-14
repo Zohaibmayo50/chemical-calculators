@@ -21,9 +21,9 @@ export default function StereochemistryFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Stereochemistry</span>
           </nav>
         </div>
@@ -62,7 +62,7 @@ export default function StereochemistryFormulaPage() {
                     <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-2">If Tied, Go to Next Atom</h3>
                     <p className="text-gray-700 dark:text-gray-300">Move outward from chiral center atom by atom</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                      Example: -CH₂CH₃ vs -CH₃ → Both start with C, but ethyl has another C while methyl has H
+                      Example: -CHâ‚‚CHâ‚ƒ vs -CHâ‚ƒ â†’ Both start with C, but ethyl has another C while methyl has H
                     </p>
                   </div>
                 </div>
@@ -75,9 +75,9 @@ export default function StereochemistryFormulaPage() {
                     <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-2">Multiple Bonds Count as Multiple Atoms</h3>
                     <p className="text-gray-700 dark:text-gray-300">C=O treated as C bonded to two O's</p>
                     <div className="text-sm text-gray-600 dark:text-gray-400 mt-2 space-y-1">
-                      <p>• C=O → C bonded to (O, O, _)</p>
-                      <p>• C≡N → C bonded to (N, N, N)</p>
-                      <p>• C=C → each C bonded to (C, C, _)</p>
+                      <p>â€¢ C=O â†’ C bonded to (O, O, _)</p>
+                      <p>â€¢ Câ‰¡N â†’ C bonded to (N, N, N)</p>
+                      <p>â€¢ C=C â†’ each C bonded to (C, C, _)</p>
                     </div>
                   </div>
                 </div>
@@ -88,9 +88,9 @@ export default function StereochemistryFormulaPage() {
                   <span className="text-3xl font-bold text-amber-600">4</span>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-2">Isotopes: Higher Mass Number = Higher Priority</h3>
-                    <p className="text-gray-700 dark:text-gray-300">Deuterium (²H) &gt; Hydrogen (¹H)</p>
+                    <p className="text-gray-700 dark:text-gray-300">Deuterium (Â²H) &gt; Hydrogen (Â¹H)</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                      Tritium (³H) &gt; Deuterium (²H) &gt; Hydrogen (¹H)
+                      Tritium (Â³H) &gt; Deuterium (Â²H) &gt; Hydrogen (Â¹H)
 
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
@@ -159,7 +159,7 @@ export default function StereochemistryFormulaPage() {
                   <div className="flex gap-3">
                     <span className="text-blue-600 font-bold">4.</span>
                     <div>
-                      <p className="font-bold text-gray-900 dark:text-gray-100">Trace 1 → 2 → 3</p>
+                      <p className="font-bold text-gray-900 dark:text-gray-100">Trace 1 â†’ 2 â†’ 3</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         If <strong className="text-green-600">clockwise</strong> = <strong>R</strong> (Rectus, right)<br/>
                         If <strong className="text-purple-600">counterclockwise</strong> = <strong>S</strong> (Sinister, left)
@@ -172,8 +172,8 @@ export default function StereochemistryFormulaPage() {
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-3">Memory Aid</h3>
                 <div className="space-y-2 text-gray-700 dark:text-gray-300">
-                  <p><strong className="text-green-600">R</strong> = <strong>Right</strong> turn (clockwise) 🔄</p>
-                  <p><strong className="text-purple-600">S</strong> = <strong>Sinister</strong> (left/counterclockwise) 🔃</p>
+                  <p><strong className="text-green-600">R</strong> = <strong>Right</strong> turn (clockwise) ðŸ”„</p>
+                  <p><strong className="text-purple-600">S</strong> = <strong>Sinister</strong> (left/counterclockwise) ðŸ”ƒ</p>
                 </div>
               </div>
             </div>
@@ -191,7 +191,7 @@ export default function StereochemistryFormulaPage() {
                 <div>
                   <p className="font-bold mb-2">Structure:</p>
                   <p className="font-mono bg-white dark:bg-gray-700 p-3 rounded text-center">
-                    CH₃-CHBr-CH₂-CH₃
+                    CHâ‚ƒ-CHBr-CHâ‚‚-CHâ‚ƒ
                   </p>
                 </div>
 
@@ -199,10 +199,10 @@ export default function StereochemistryFormulaPage() {
                   <p className="font-bold mb-2">Step 1: Identify chiral center</p>
                   <p className="ml-6">C2 (the carbon with Br attached) has 4 different groups:</p>
                   <ul className="ml-12 space-y-1 text-sm">
-                    <li>• Br</li>
-                    <li>• H</li>
-                    <li>• CH₃ (to the left)</li>
-                    <li>• CH₂CH₃ (to the right)</li>
+                    <li>â€¢ Br</li>
+                    <li>â€¢ H</li>
+                    <li>â€¢ CHâ‚ƒ (to the left)</li>
+                    <li>â€¢ CHâ‚‚CHâ‚ƒ (to the right)</li>
                   </ul>
                 </div>
 
@@ -217,12 +217,12 @@ export default function StereochemistryFormulaPage() {
                       </tr>
                       <tr className="border-b border-gray-200 dark:border-gray-700">
                         <td className="p-2 font-bold text-purple-600">2</td>
-                        <td className="p-2">-CH₂CH₃</td>
+                        <td className="p-2">-CHâ‚‚CHâ‚ƒ</td>
                         <td className="p-2 text-xs">C attached to (C, H, H) vs methyl's (H, H, H)</td>
                       </tr>
                       <tr className="border-b border-gray-200 dark:border-gray-700">
                         <td className="p-2 font-bold text-green-600">3</td>
-                        <td className="p-2">-CH₃</td>
+                        <td className="p-2">-CHâ‚ƒ</td>
                         <td className="p-2 text-xs">C attached to (H, H, H)</td>
                       </tr>
                       <tr>
@@ -240,8 +240,8 @@ export default function StereochemistryFormulaPage() {
                 </div>
 
                 <div>
-                  <p className="font-bold mb-2">Step 4: Trace 1 → 2 → 3</p>
-                  <p className="ml-6">Br (1) → CH₂CH₃ (2) → CH₃ (3)</p>
+                  <p className="font-bold mb-2">Step 4: Trace 1 â†’ 2 â†’ 3</p>
+                  <p className="ml-6">Br (1) â†’ CHâ‚‚CHâ‚ƒ (2) â†’ CHâ‚ƒ (3)</p>
                   <p className="ml-6 mt-2">
                     If clockwise: <span className="font-bold text-green-600 text-xl">(R)-2-bromobutane</span>
                   </p>
@@ -268,10 +268,10 @@ export default function StereochemistryFormulaPage() {
                   <p><strong>Definition:</strong> Non-superimposable mirror images</p>
                   <p><strong>Properties:</strong></p>
                   <ul className="ml-6 space-y-1 text-sm">
-                    <li>• Opposite R/S configurations at all chiral centers</li>
-                    <li>• Identical physical properties (mp, bp, density)</li>
-                    <li>• Rotate plane-polarized light in opposite directions</li>
-                    <li>• Different biological activity (one may be drug, other inactive/toxic)</li>
+                    <li>â€¢ Opposite R/S configurations at all chiral centers</li>
+                    <li>â€¢ Identical physical properties (mp, bp, density)</li>
+                    <li>â€¢ Rotate plane-polarized light in opposite directions</li>
+                    <li>â€¢ Different biological activity (one may be drug, other inactive/toxic)</li>
                   </ul>
                   <p className="text-sm text-blue-600 mt-2">
                     Example: (R)-ibuprofen vs (S)-ibuprofen
@@ -285,10 +285,10 @@ export default function StereochemistryFormulaPage() {
                   <p><strong>Definition:</strong> Stereoisomers that are NOT mirror images</p>
                   <p><strong>Properties:</strong></p>
                   <ul className="ml-6 space-y-1 text-sm">
-                    <li>• At least one (but not all) chiral center has opposite configuration</li>
-                    <li>• Different physical properties (mp, bp, solubility)</li>
-                    <li>• Different chemical reactivity</li>
-                    <li>• Can be separated by standard techniques (crystallization, chromatography)</li>
+                    <li>â€¢ At least one (but not all) chiral center has opposite configuration</li>
+                    <li>â€¢ Different physical properties (mp, bp, solubility)</li>
+                    <li>â€¢ Different chemical reactivity</li>
+                    <li>â€¢ Can be separated by standard techniques (crystallization, chromatography)</li>
                   </ul>
                   <p className="text-sm text-blue-600 mt-2">
                     Example: (2R,3R)-tartaric acid vs (2R,3S)-tartaric acid
@@ -302,9 +302,9 @@ export default function StereochemistryFormulaPage() {
                   <p><strong>Definition:</strong> Achiral molecule with chiral centers (internal plane of symmetry)</p>
                   <p><strong>Properties:</strong></p>
                   <ul className="ml-6 space-y-1 text-sm">
-                    <li>• Contains 2+ chiral centers but overall achiral</li>
-                    <li>• Internal mirror plane cancels optical activity</li>
-                    <li>• Does NOT rotate plane-polarized light</li>
+                    <li>â€¢ Contains 2+ chiral centers but overall achiral</li>
+                    <li>â€¢ Internal mirror plane cancels optical activity</li>
+                    <li>â€¢ Does NOT rotate plane-polarized light</li>
                   </ul>
                   <p className="text-sm text-blue-600 mt-2">
                     Example: (2R,3S)-tartaric acid = meso-tartaric acid
@@ -322,7 +322,7 @@ export default function StereochemistryFormulaPage() {
             <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-cyan-900/30 dark:to-blue-900/30 rounded-xl p-6">
               <div className="text-center mb-6">
                 <p className="text-4xl font-bold text-cyan-900 dark:text-cyan-300 mb-4">
-                  Maximum stereoisomers = 2ⁿ
+                  Maximum stereoisomers = 2â¿
                 </p>
                 <p className="text-gray-600 dark:text-gray-400">where n = number of chiral centers</p>
               </div>
@@ -330,15 +330,15 @@ export default function StereochemistryFormulaPage() {
               <div className="space-y-3 text-gray-700 dark:text-gray-300">
                 <p><strong>Examples:</strong></p>
                 <ul className="ml-6 space-y-2">
-                  <li>• 1 chiral center → 2¹ = <strong>2 stereoisomers</strong> (1 pair of enantiomers)</li>
-                  <li>• 2 chiral centers → 2² = <strong>4 stereoisomers</strong> (2 pairs of enantiomers, unless meso)</li>
-                  <li>• 3 chiral centers → 2³ = <strong>8 stereoisomers</strong></li>
+                  <li>â€¢ 1 chiral center â†’ 2Â¹ = <strong>2 stereoisomers</strong> (1 pair of enantiomers)</li>
+                  <li>â€¢ 2 chiral centers â†’ 2Â² = <strong>4 stereoisomers</strong> (2 pairs of enantiomers, unless meso)</li>
+                  <li>â€¢ 3 chiral centers â†’ 2Â³ = <strong>8 stereoisomers</strong></li>
                 </ul>
 
                 <div className="mt-4 pt-4 border-t border-cyan-200 dark:border-cyan-800">
                   <p className="font-bold text-red-600">Exception: Meso compounds reduce the count!</p>
                   <p className="text-sm mt-2">
-                    If molecule has internal symmetry, actual # &lt; 2ⁿ
+                    If molecule has internal symmetry, actual # &lt; 2â¿
                   </p>
                 </div>
               </div>
@@ -352,12 +352,12 @@ export default function StereochemistryFormulaPage() {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-3">Specific Rotation [α]</h3>
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-3">Specific Rotation [Î±]</h3>
                 <div className="bg-white dark:bg-gray-700 rounded p-4 my-3">
-                  <p className="text-center font-mono text-lg">[α] = α / (l × c)</p>
+                  <p className="text-center font-mono text-lg">[Î±] = Î± / (l Ã— c)</p>
                 </div>
                 <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                  <p><strong>α</strong> = observed rotation (degrees)</p>
+                  <p><strong>Î±</strong> = observed rotation (degrees)</p>
                   <p><strong>l</strong> = path length (dm)</p>
                   <p><strong>c</strong> = concentration (g/mL)</p>
                 </div>
@@ -369,7 +369,7 @@ export default function StereochemistryFormulaPage() {
                   <p><strong>(+)</strong> or <strong>d</strong> = dextrorotatory (rotates right)</p>
                   <p><strong>(-)</strong> or <strong>l</strong> = levorotatory (rotates left)</p>
                   <p className="mt-3 pt-3 border-t border-purple-200 dark:border-purple-800">
-                    <strong>Important:</strong> (+)/(-) ≠ R/S!<br/>
+                    <strong>Important:</strong> (+)/(-) â‰  R/S!<br/>
                     <span className="text-xs">R can be (+) or (-), determined experimentally</span>
                   </p>
                 </div>
@@ -384,7 +384,7 @@ export default function StereochemistryFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting to Put #4 in Back</h3>
                   <p className="text-gray-700 dark:text-gray-300">If #4 is in front, your R/S assignment will be backwards!</p>
@@ -392,7 +392,7 @@ export default function StereochemistryFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Confusing R/S with (+)/(-)</h3>
                   <p className="text-gray-700 dark:text-gray-300">R/S is configuration (structure). (+)/(-) is optical rotation (experimental).</p>
@@ -400,7 +400,7 @@ export default function StereochemistryFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Missing Chiral Centers</h3>
                   <p className="text-gray-700 dark:text-gray-300">A carbon with 2 identical groups is NOT chiral!</p>
@@ -408,7 +408,7 @@ export default function StereochemistryFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Pro Tip: Fischer Projections</h3>
                   <p className="text-gray-700 dark:text-gray-300">Vertical lines go back, horizontal lines come forward. Makes R/S easier!</p>
@@ -422,7 +422,7 @@ export default function StereochemistryFormulaPage() {
           <div className="bg-gradient-to-br from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/organic-calculators/stereochemistry-calculator" className="block p-6 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/organic-chemistry-calculators/stereochemistry-calculator" className="block p-6 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">R/S Configuration Tool</h3>
                 <p className="text-pink-100">Assign configurations</p>
               </Link>

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Rydberg Equation: Atomic Spectral Lines Calculator',
-  description: 'Calculate wavelength of atomic spectral lines using 1/λ = R(1/n₁² - 1/n₂²).',
+  description: 'Calculate wavelength of atomic spectral lines using 1/Î» = R(1/nâ‚Â² - 1/nâ‚‚Â²).',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/rydberg-equation',
   },
@@ -35,27 +35,27 @@ export default function RydbergEquationPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-bold text-blue-700">1/λ = R<sub>H</sub> (1/n₁² - 1/n₂²)</p>
+            <p className="text-2xl font-bold text-blue-700">1/Î» = R<sub>H</sub> (1/nâ‚Â² - 1/nâ‚‚Â²)</p>
           </div>
           <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
-            <li><strong>λ</strong> = wavelength (m)</li>
-            <li><strong>R<sub>H</sub></strong> = Rydberg constant (1.097 × 10⁷ m⁻¹)</li>
-            <li><strong>n₁</strong> = lower energy level</li>
-            <li><strong>n₂</strong> = higher energy level (n₂ &gt; n₁)</li>
+            <li><strong>Î»</strong> = wavelength (m)</li>
+            <li><strong>R<sub>H</sub></strong> = Rydberg constant (1.097 Ã— 10â· mâ»Â¹)</li>
+            <li><strong>nâ‚</strong> = lower energy level</li>
+            <li><strong>nâ‚‚</strong> = higher energy level (nâ‚‚ &gt; nâ‚)</li>
           </ul>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example: Balmer Series (n₁ = 2)</h2>
-          <p className="text-gray-700 mb-3"><strong>Find λ for transition n₂ = 3 → n₁ = 2.</strong></p>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example: Balmer Series (nâ‚ = 2)</h2>
+          <p className="text-gray-700 mb-3"><strong>Find Î» for transition nâ‚‚ = 3 â†’ nâ‚ = 2.</strong></p>
           <div className="space-y-2 text-gray-700">
-            <p>1/λ = (1.097 × 10⁷) × (1/2² - 1/3²)</p>
-            <p>1/λ = (1.097 × 10⁷) × (1/4 - 1/9) = (1.097 × 10⁷) × (5/36)</p>
-            <p>1/λ ≈ 1.524 × 10⁶ m⁻¹</p>
-            <p>λ ≈ 6.56 × 10⁻⁷ m = 656 nm (red line, Hα)</p>
+            <p>1/Î» = (1.097 Ã— 10â·) Ã— (1/2Â² - 1/3Â²)</p>
+            <p>1/Î» = (1.097 Ã— 10â·) Ã— (1/4 - 1/9) = (1.097 Ã— 10â·) Ã— (5/36)</p>
+            <p>1/Î» â‰ˆ 1.524 Ã— 10â¶ mâ»Â¹</p>
+            <p>Î» â‰ˆ 6.56 Ã— 10â»â· m = 656 nm (red line, HÎ±)</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Answer: λ ≈ 656 nm (visible red)</p>
+            <p className="font-semibold">Answer: Î» â‰ˆ 656 nm (visible red)</p>
           </div>
         </section>
 
@@ -63,12 +63,12 @@ export default function RydbergEquationPage() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Spectral Series</h2>
           <div className="grid md:grid-cols-2 gap-4 text-gray-700">
             <div className="bg-gray-50 p-3 rounded">
-              <p className="font-semibold">Lyman (n₁ = 1): UV</p>
-              <p className="font-semibold">Balmer (n₁ = 2): Visible</p>
+              <p className="font-semibold">Lyman (nâ‚ = 1): UV</p>
+              <p className="font-semibold">Balmer (nâ‚ = 2): Visible</p>
             </div>
             <div className="bg-gray-50 p-3 rounded">
-              <p className="font-semibold">Paschen (n₁ = 3): IR</p>
-              <p className="font-semibold">Brackett (n₁ = 4): IR</p>
+              <p className="font-semibold">Paschen (nâ‚ = 3): IR</p>
+              <p className="font-semibold">Brackett (nâ‚ = 4): IR</p>
             </div>
           </div>
         </section>
@@ -76,32 +76,32 @@ export default function RydbergEquationPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Notes</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
-            <li>Strictly valid for hydrogen; modified for other atoms using Z².</li>
-            <li>Energy: ΔE = hc/λ relates wavelength to photon energy.</li>
-            <li>n₂ → n₁ transition emits photon; reverse absorbs.</li>
+            <li>Strictly valid for hydrogen; modified for other atoms using ZÂ².</li>
+            <li>Energy: Î”E = hc/Î» relates wavelength to photon energy.</li>
+            <li>nâ‚‚ â†’ nâ‚ transition emits photon; reverse absorbs.</li>
           </ul>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/quantum-and-atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/atomic-structure-calculators/wavelength-energy-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Wavelength-Energy Calculator</h3>
               <p className="text-sm text-gray-600">Calculate spectral line properties</p>
             </a>
-            <a href="/quantum-and-atomic-structure-calculators/bohr-model-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/atomic-structure-calculators/bohr-model-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Bohr Model Calculator</h3>
               <p className="text-sm text-gray-600">Energy levels and transitions</p>
             </a>
             <a href="/chemistry-formulas/bohr-model" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-green-900 mb-2">Bohr Model Formula</h3>
-              <p className="text-sm text-gray-600">E<sub>n</sub> = -13.6 Z²/n²</p>
+              <p className="text-sm text-gray-600">E<sub>n</sub> = -13.6 ZÂ²/nÂ²</p>
             </a>
             <a href="/chemistry-formulas/planck-equation" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-green-900 mb-2">Planck Equation</h3>
-              <p className="text-sm text-gray-600">E = hν photon energy</p>
+              <p className="text-sm text-gray-600">E = hÎ½ photon energy</p>
             </a>
-            <a href="/quantum-and-atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/atomic-structure-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
               <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
             </a>

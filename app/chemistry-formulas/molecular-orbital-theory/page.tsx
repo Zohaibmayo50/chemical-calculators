@@ -24,11 +24,11 @@ export default function MolecularOrbitalTheoryPage() {
             <Link href="/" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               Home
             </Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               Chemistry Formulas
             </Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Molecular Orbital Theory</span>
           </nav>
         </div>
@@ -86,14 +86,14 @@ export default function MolecularOrbitalTheoryPage() {
               </div>
 
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-3">2. Bonding Orbitals (σ, π)</h3>
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-3">2. Bonding Orbitals (Ïƒ, Ï€)</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   Lower energy than atomic orbitals; constructive interference; electron density between nuclei
                 </p>
               </div>
 
               <div className="bg-gradient-to-r from-pink-50 to-red-50 dark:from-pink-900/20 dark:to-red-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-pink-900 dark:text-pink-300 mb-3">3. Antibonding Orbitals (σ*, π*)</h3>
+                <h3 className="text-xl font-bold text-pink-900 dark:text-pink-300 mb-3">3. Antibonding Orbitals (Ïƒ*, Ï€*)</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   Higher energy; destructive interference; node between nuclei; destabilizes molecule
                 </p>
@@ -116,22 +116,22 @@ export default function MolecularOrbitalTheoryPage() {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">For O₂, F₂, Ne₂</h3>
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">For Oâ‚‚, Fâ‚‚, Neâ‚‚</h3>
                 <div className="space-y-2 font-mono text-sm">
-                  <p>σ(2s) &lt; σ*(2s) &lt;</p>
-                  <p>σ(2p) &lt; π(2p) &lt;</p>
-                  <p>π*(2p) &lt; σ*(2p)</p>
+                  <p>Ïƒ(2s) &lt; Ïƒ*(2s) &lt;</p>
+                  <p>Ïƒ(2p) &lt; Ï€(2p) &lt;</p>
+                  <p>Ï€*(2p) &lt; Ïƒ*(2p)</p>
                 </div>
               </div>
 
               <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">For B₂, C₂, N₂</h3>
+                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">For Bâ‚‚, Câ‚‚, Nâ‚‚</h3>
                 <div className="space-y-2 font-mono text-sm">
-                  <p>σ(2s) &lt; σ*(2s) &lt;</p>
-                  <p>π(2p) &lt; σ(2p) &lt;</p>
-                  <p>π*(2p) &lt; σ*(2p)</p>
+                  <p>Ïƒ(2s) &lt; Ïƒ*(2s) &lt;</p>
+                  <p>Ï€(2p) &lt; Ïƒ(2p) &lt;</p>
+                  <p>Ï€*(2p) &lt; Ïƒ*(2p)</p>
                 </div>
-                <p className="text-xs text-gray-600 dark:text-gray-400 mt-3">Note: π and σ(2p) order switches</p>
+                <p className="text-xs text-gray-600 dark:text-gray-400 mt-3">Note: Ï€ and Ïƒ(2p) order switches</p>
               </div>
             </div>
           </div>
@@ -144,27 +144,27 @@ export default function MolecularOrbitalTheoryPage() {
             
             <div className="space-y-8">
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: O₂ Molecule</h3>
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: Oâ‚‚ Molecule</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Total electrons:</strong> 8 + 8 = 16</p>
                   <p><strong>Configuration:</strong></p>
-                  <p className="ml-6 font-mono text-sm">σ(2s)² σ*(2s)² σ(2p)² π(2p)⁴ π*(2p)²</p>
+                  <p className="ml-6 font-mono text-sm">Ïƒ(2s)Â² Ïƒ*(2s)Â² Ïƒ(2p)Â² Ï€(2p)â´ Ï€*(2p)Â²</p>
                   
                   <p className="mt-4"><strong>Bond Order Calculation:</strong></p>
                   <p className="ml-6">Bonding electrons (n<sub>b</sub>) = 2+2+4 = 8</p>
                   <p className="ml-6">Antibonding electrons (n<sub>a</sub>) = 2+2 = 4</p>
                   <p className="ml-6">Bond Order = (8-4)/2 = 2</p>
                   
-                  <p className="mt-4 font-bold text-green-600">Result: Double bond, paramagnetic (2 unpaired e⁻)</p>
+                  <p className="mt-4 font-bold text-green-600">Result: Double bond, paramagnetic (2 unpaired eâ»)</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: N₂ Molecule</h3>
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: Nâ‚‚ Molecule</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Total electrons:</strong> 7 + 7 = 14</p>
                   <p><strong>Configuration:</strong></p>
-                  <p className="ml-6 font-mono text-sm">σ(2s)² σ*(2s)² π(2p)⁴ σ(2p)²</p>
+                  <p className="ml-6 font-mono text-sm">Ïƒ(2s)Â² Ïƒ*(2s)Â² Ï€(2p)â´ Ïƒ(2p)Â²</p>
                   
                   <p className="mt-4"><strong>Bond Order:</strong></p>
                   <p className="ml-6">n<sub>b</sub> = 2+4+2 = 8</p>
@@ -176,15 +176,15 @@ export default function MolecularOrbitalTheoryPage() {
               </div>
 
               <div className="bg-gradient-to-r from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-orange-900 dark:text-orange-300 mb-4">Example 3: He₂ (Does not exist)</h3>
+                <h3 className="text-xl font-bold text-orange-900 dark:text-orange-300 mb-4">Example 3: Heâ‚‚ (Does not exist)</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Total electrons:</strong> 2 + 2 = 4</p>
-                  <p><strong>Configuration:</strong> σ(1s)² σ*(1s)²</p>
+                  <p><strong>Configuration:</strong> Ïƒ(1s)Â² Ïƒ*(1s)Â²</p>
                   
                   <p className="mt-4"><strong>Bond Order:</strong></p>
                   <p className="ml-6">Bond Order = (2-2)/2 = 0</p>
                   
-                  <p className="mt-4 font-bold text-red-600">Result: No bond formation; He₂ does not exist</p>
+                  <p className="mt-4 font-bold text-red-600">Result: No bond formation; Heâ‚‚ does not exist</p>
                 </div>
               </div>
             </div>
@@ -211,31 +211,31 @@ export default function MolecularOrbitalTheoryPage() {
                     <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">0</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">No bond</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Unstable</td>
-                    <td className="border border-gray-300 dark:border-gray-600 p-3">He₂</td>
+                    <td className="border border-gray-300 dark:border-gray-600 p-3">Heâ‚‚</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-700/50">
                     <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">0.5</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Weak bond</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Marginally stable</td>
-                    <td className="border border-gray-300 dark:border-gray-600 p-3">He₂⁺</td>
+                    <td className="border border-gray-300 dark:border-gray-600 p-3">Heâ‚‚âº</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">1</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Single bond</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Moderate</td>
-                    <td className="border border-gray-300 dark:border-gray-600 p-3">H₂, F₂</td>
+                    <td className="border border-gray-300 dark:border-gray-600 p-3">Hâ‚‚, Fâ‚‚</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-700/50">
                     <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">2</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Double bond</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Strong</td>
-                    <td className="border border-gray-300 dark:border-gray-600 p-3">O₂</td>
+                    <td className="border border-gray-300 dark:border-gray-600 p-3">Oâ‚‚</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">3</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Triple bond</td>
                     <td className="border border-gray-300 dark:border-gray-600 p-3">Very strong</td>
-                    <td className="border border-gray-300 dark:border-gray-600 p-3">N₂</td>
+                    <td className="border border-gray-300 dark:border-gray-600 p-3">Nâ‚‚</td>
                   </tr>
                 </tbody>
               </table>
@@ -243,7 +243,7 @@ export default function MolecularOrbitalTheoryPage() {
             
             <div className="mt-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4">
               <p className="text-gray-700 dark:text-gray-300">
-                <strong>Note:</strong> Higher bond order → shorter bond length and higher bond energy
+                <strong>Note:</strong> Higher bond order â†’ shorter bond length and higher bond energy
               </p>
             </div>
           </div>
@@ -256,15 +256,15 @@ export default function MolecularOrbitalTheoryPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong MO Energy Order</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Remember π(2p) and σ(2p) switch order for B₂, C₂, N₂</p>
+                  <p className="text-gray-700 dark:text-gray-300">Remember Ï€(2p) and Ïƒ(2p) switch order for Bâ‚‚, Câ‚‚, Nâ‚‚</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting Antibonding Electrons</h3>
                   <p className="text-gray-700 dark:text-gray-300">Must subtract antibonding electrons when calculating bond order</p>
@@ -272,18 +272,18 @@ export default function MolecularOrbitalTheoryPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Ignoring Hund's Rule</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Fill degenerate π orbitals singly before pairing (affects paramagnetism)</p>
+                  <p className="text-gray-700 dark:text-gray-300">Fill degenerate Ï€ orbitals singly before pairing (affects paramagnetism)</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Paramagnetic vs Diamagnetic</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Unpaired electrons → paramagnetic; all paired → diamagnetic</p>
+                  <p className="text-gray-700 dark:text-gray-300">Unpaired electrons â†’ paramagnetic; all paired â†’ diamagnetic</p>
                 </div>
               </div>
             </div>
@@ -296,12 +296,12 @@ export default function MolecularOrbitalTheoryPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Related Tools</h2>
             
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/quantum-and-atomic-structure-calculators/molecular-orbital-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/chemistry-formulas/molecular-orbital-theory" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">MO Calculator</h3>
                 <p className="text-sm text-gray-600">Generate MO diagrams and bond orders</p>
               </Link>
 
-              <Link href="/quantum-and-atomic-structure-calculators/electron-configuration-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/atomic-structure-calculators/electron-configuration-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Electron Configuration Calculator</h3>
                 <p className="text-sm text-gray-600">Atomic electron arrangements</p>
               </Link>
@@ -321,7 +321,7 @@ export default function MolecularOrbitalTheoryPage() {
                 <p className="text-sm text-gray-600">Aufbau and orbital filling</p>
               </Link>
 
-              <Link href="/quantum-and-atomic-structure-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <Link href="/atomic-structure-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold mb-2">All Quantum & Atomic Structure Calculators</h3>
                 <p className="text-sm opacity-90">Explore all quantum and atomic tools</p>
               </Link>

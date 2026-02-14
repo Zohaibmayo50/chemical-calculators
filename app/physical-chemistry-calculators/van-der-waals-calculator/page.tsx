@@ -43,9 +43,9 @@ export default function VanDerWaalsCalculatorPage() {  return (
                   for molecular volume and intermolecular attractions.
                 </p>
                 <div className="my-4 p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
-                  <p className="font-semibold text-blue-900 dark:text-blue-100">[P + a(n/V)²](V - nb) = nRT</p>
+                  <p className="font-semibold text-blue-900 dark:text-blue-100">[P + a(n/V)Â²](V - nb) = nRT</p>
                   <ul className="text-sm mt-2 space-y-1 text-blue-800 dark:text-blue-200">
-                    <li>a = attraction parameter (L²·atm/mol²)</li>
+                    <li>a = attraction parameter (LÂ²Â·atm/molÂ²)</li>
                     <li>b = volume parameter (L/mol)</li>
                     <li>Reduces to PV = nRT when a,b = 0</li>
                   </ul>
@@ -62,7 +62,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
                   <div className="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
                     <p className="font-semibold text-green-900 dark:text-green-100 text-sm">Pressure Correction (a)</p>
                     <p className="text-xs text-green-800 dark:text-green-200 mt-1">
-                      P<sub>real</sub> = P<sub>ideal</sub> - a(n/V)²<br/>
+                      P<sub>real</sub> = P<sub>ideal</sub> - a(n/V)Â²<br/>
                       Attractions reduce pressure below ideal
                     </p>
                   </div>
@@ -83,20 +83,20 @@ export default function VanDerWaalsCalculatorPage() {  return (
               </h3>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">•</span>
+                  <span className="text-tertiary-500 mr-2">â€¢</span>
                   <span className="text-sm"><strong>High Pressure:</strong> Industrial gas storage and processing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">•</span>
+                  <span className="text-tertiary-500 mr-2">â€¢</span>
                   <span className="text-sm"><strong>Low Temperature:</strong> Liquefaction and cryogenics</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">•</span>
-                  <span className="text-sm"><strong>Polar Gases:</strong> H₂O, NH₃ with strong IMFs</span>
+                  <span className="text-tertiary-500 mr-2">â€¢</span>
+                  <span className="text-sm"><strong>Polar Gases:</strong> Hâ‚‚O, NHâ‚ƒ with strong IMFs</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">•</span>
-                  <span className="text-sm"><strong>Large Molecules:</strong> CO₂, hydrocarbons</span>
+                  <span className="text-tertiary-500 mr-2">â€¢</span>
+                  <span className="text-sm"><strong>Large Molecules:</strong> COâ‚‚, hydrocarbons</span>
                 </li>
               </ul>
             </div>
@@ -112,8 +112,8 @@ export default function VanDerWaalsCalculatorPage() {  return (
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg mb-4">
                 <p className="font-semibold text-gray-900 dark:text-white mb-2">Problem:</p>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
-                  Calculate the pressure of 1.00 mol CO₂ in a 1.00 L container at 300 K using both ideal and Van der Waals equations.
-                  For CO₂: a = 3.658 L²·atm/mol², b = 0.0429 L/mol
+                  Calculate the pressure of 1.00 mol COâ‚‚ in a 1.00 L container at 300 K using both ideal and Van der Waals equations.
+                  For COâ‚‚: a = 3.658 LÂ²Â·atm/molÂ², b = 0.0429 L/mol
                 </p>
               </div>
 
@@ -130,8 +130,8 @@ export default function VanDerWaalsCalculatorPage() {  return (
                 <div>
                   <p className="font-semibold mb-1">Van der Waals Equation:</p>
                   <p className="font-mono bg-gray-50 dark:bg-gray-700 p-2 rounded">
-                    P = [nRT/(V-nb)] - a(n/V)²<br />
-                    P = [(1.00)(0.08206)(300)/(1.00-0.0429)] - 3.658(1.00)²<br />
+                    P = [nRT/(V-nb)] - a(n/V)Â²<br />
+                    P = [(1.00)(0.08206)(300)/(1.00-0.0429)] - 3.658(1.00)Â²<br />
                     P = 24.62/0.9571 - 3.658<br />
                     P = 25.72 - 3.66 = 22.06 atm
                   </p>
@@ -167,44 +167,44 @@ export default function VanDerWaalsCalculatorPage() {  return (
                     <td className="text-center py-2">0.0238</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <td className="py-2 font-semibold">H₂</td>
+                    <td className="py-2 font-semibold">Hâ‚‚</td>
                     <td className="text-center py-2">0.2452</td>
                     <td className="text-center py-2">0.0265</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <td className="py-2 font-semibold">N₂</td>
+                    <td className="py-2 font-semibold">Nâ‚‚</td>
                     <td className="text-center py-2">1.370</td>
                     <td className="text-center py-2">0.0387</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <td className="py-2 font-semibold">O₂</td>
+                    <td className="py-2 font-semibold">Oâ‚‚</td>
                     <td className="text-center py-2">1.382</td>
                     <td className="text-center py-2">0.0319</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <td className="py-2 font-semibold">CO₂</td>
+                    <td className="py-2 font-semibold">COâ‚‚</td>
                     <td className="text-center py-2">3.658</td>
                     <td className="text-center py-2">0.0429</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <td className="py-2 font-semibold">H₂O</td>
+                    <td className="py-2 font-semibold">Hâ‚‚O</td>
                     <td className="text-center py-2">5.537</td>
                     <td className="text-center py-2">0.0305</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <td className="py-2 font-semibold">NH₃</td>
+                    <td className="py-2 font-semibold">NHâ‚ƒ</td>
                     <td className="text-center py-2">4.225</td>
                     <td className="text-center py-2">0.0371</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <td className="py-2 font-semibold">CH₄</td>
+                    <td className="py-2 font-semibold">CHâ‚„</td>
                     <td className="text-center py-2">2.303</td>
                     <td className="text-center py-2">0.0431</td>
                   </tr>
                 </tbody>
               </table>
               <p className="text-xs text-gray-600 dark:text-gray-400 mt-2">
-                Units: a in L²·atm/mol², b in L/mol
+                Units: a in LÂ²Â·atm/molÂ², b in L/mol
               </p>
             </div>
           </div>
@@ -219,19 +219,19 @@ export default function VanDerWaalsCalculatorPage() {  return (
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Constant &apos;a&apos; (Attraction):</h3>
               <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">→</span>
+                  <span className="text-blue-500 mr-2">â†’</span>
                   <span>Measures strength of intermolecular forces</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">→</span>
+                  <span className="text-blue-500 mr-2">â†’</span>
                   <span>Larger a = stronger attractions (polar molecules, H-bonding)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">→</span>
-                  <span>H₂O (5.537) &gt; CO₂ (3.658) &gt; He (0.0346)</span>
+                  <span className="text-blue-500 mr-2">â†’</span>
+                  <span>Hâ‚‚O (5.537) &gt; COâ‚‚ (3.658) &gt; He (0.0346)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">→</span>
+                  <span className="text-blue-500 mr-2">â†’</span>
                   <span>Reduces pressure below ideal value</span>
                 </li>
               </ul>
@@ -247,26 +247,26 @@ export default function VanDerWaalsCalculatorPage() {  return (
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Constant &apos;b&apos; (Volume):</h3>
               <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">→</span>
+                  <span className="text-green-500 mr-2">â†’</span>
                   <span>Represents volume excluded by molecules</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">→</span>
+                  <span className="text-green-500 mr-2">â†’</span>
                   <span>Larger b = larger molecular size</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">→</span>
-                  <span>CH₄ (0.0431) &gt; N₂ (0.0387) &gt; He (0.0238)</span>
+                  <span className="text-green-500 mr-2">â†’</span>
+                  <span>CHâ‚„ (0.0431) &gt; Nâ‚‚ (0.0387) &gt; He (0.0238)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">→</span>
+                  <span className="text-green-500 mr-2">â†’</span>
                   <span>Increases pressure above ideal value</span>
                 </li>
               </ul>
 
               <div className="mt-3 p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
                 <p className="text-xs text-green-800 dark:text-green-200">
-                  &apos;b&apos; is approximately 4× the actual molecular volume (accounts for excluded volume in collisions).
+                  &apos;b&apos; is approximately 4Ã— the actual molecular volume (accounts for excluded volume in collisions).
                 </p>
               </div>
             </div>
@@ -282,23 +282,23 @@ export default function VanDerWaalsCalculatorPage() {  return (
               <h3 className="font-semibold text-green-900 dark:text-green-100 mb-3">Ideal Gas Law Works Well:</h3>
               <ul className="space-y-2 text-sm text-green-800 dark:text-green-200">
                 <li className="flex items-start">
-                  <span className="mr-2">✓</span>
+                  <span className="mr-2">âœ“</span>
                   <span>Low pressure (&lt; 10 atm)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">✓</span>
-                  <span>High temperature (&gt; 0°C)</span>
+                  <span className="mr-2">âœ“</span>
+                  <span>High temperature (&gt; 0Â°C)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">✓</span>
+                  <span className="mr-2">âœ“</span>
                   <span>Noble gases (He, Ne, Ar)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">✓</span>
+                  <span className="mr-2">âœ“</span>
                   <span>Small, nonpolar molecules</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">✓</span>
+                  <span className="mr-2">âœ“</span>
                   <span>Error &lt; 5% acceptable</span>
                 </li>
               </ul>
@@ -308,23 +308,23 @@ export default function VanDerWaalsCalculatorPage() {  return (
               <h3 className="font-semibold text-orange-900 dark:text-orange-100 mb-3">Use Van der Waals When:</h3>
               <ul className="space-y-2 text-sm text-orange-800 dark:text-orange-200">
                 <li className="flex items-start">
-                  <span className="mr-2">⚠</span>
+                  <span className="mr-2">âš </span>
                   <span>High pressure (&gt; 10 atm)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">⚠</span>
+                  <span className="mr-2">âš </span>
                   <span>Low temperature (near boiling point)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">⚠</span>
-                  <span>Polar gases (H₂O, NH₃, HCl)</span>
+                  <span className="mr-2">âš </span>
+                  <span>Polar gases (Hâ‚‚O, NHâ‚ƒ, HCl)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">⚠</span>
-                  <span>Large molecules (CO₂, hydrocarbons)</span>
+                  <span className="mr-2">âš </span>
+                  <span>Large molecules (COâ‚‚, hydrocarbons)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2">⚠</span>
+                  <span className="mr-2">âš </span>
                   <span>Precision required</span>
                 </li>
               </ul>
@@ -346,10 +346,10 @@ export default function VanDerWaalsCalculatorPage() {  return (
                   </p>
                 </div>
                 <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                  <li>• Z = 1: Ideal gas behavior</li>
-                  <li>• Z &gt; 1: Repulsions dominate (high P)</li>
-                  <li>• Z &lt; 1: Attractions dominate (low T)</li>
-                  <li>• Van der Waals helps predict Z</li>
+                  <li>â€¢ Z = 1: Ideal gas behavior</li>
+                  <li>â€¢ Z &gt; 1: Repulsions dominate (high P)</li>
+                  <li>â€¢ Z &lt; 1: Attractions dominate (low T)</li>
+                  <li>â€¢ Van der Waals helps predict Z</li>
                 </ul>
               </div>
 
@@ -368,15 +368,15 @@ export default function VanDerWaalsCalculatorPage() {  return (
                       <td className="text-center py-2">1.00</td>
                     </tr>
                     <tr className="border-b border-gray-200 dark:border-gray-700">
-                      <td className="py-2">H₂ at 200 atm</td>
+                      <td className="py-2">Hâ‚‚ at 200 atm</td>
                       <td className="text-center py-2">1.07</td>
                     </tr>
                     <tr className="border-b border-gray-200 dark:border-gray-700">
-                      <td className="py-2">N₂ at 50 atm</td>
+                      <td className="py-2">Nâ‚‚ at 50 atm</td>
                       <td className="text-center py-2">0.98</td>
                     </tr>
                     <tr className="border-b border-gray-200 dark:border-gray-700">
-                      <td className="py-2">CO₂ at 200 atm</td>
+                      <td className="py-2">COâ‚‚ at 200 atm</td>
                       <td className="text-center py-2">0.75</td>
                     </tr>
                   </tbody>
@@ -387,15 +387,15 @@ export default function VanDerWaalsCalculatorPage() {  return (
             {/* Related Calculators */}
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mt-6">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                🔗 Related Calculators
+                ðŸ”— Related Calculators
               </h3>
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="/gas-calculators/ideal-gas-law-calculator"
+                    href="/physical-chemistry-calculators/ideal-gas-law-calculator"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
-                    <span>→</span>
+                    <span>â†’</span>
                     <span>Ideal Gas Law Calculator</span>
                   </a>
                 </li>
@@ -404,23 +404,23 @@ export default function VanDerWaalsCalculatorPage() {  return (
                     href="/physical-chemistry-calculators/daltons-law-calculator"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
-                    <span>→</span>
+                    <span>â†’</span>
                     <span>Dalton's Law Calculator</span>
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/gas-calculators/gas-density-calculator"
+                    href="/chemistry-formulas/gas-density-formula"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
-                    <span>→</span>
+                    <span>â†’</span>
                     <span>Gas Density Calculator</span>
                   </a>
                 </li>
               </ul>
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  📐 Related Formulas
+                  ðŸ“ Related Formulas
                 </h3>
                 <ul className="space-y-3">
                   <li>
@@ -428,7 +428,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
                       href="/chemistry-formulas/van-der-waals-equation"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
-                      <span>→</span>
+                      <span>â†’</span>
                       <span>Van der Waals Equation</span>
                     </a>
                   </li>
@@ -437,7 +437,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
                       href="/chemistry-formulas/ideal-gas-law"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
-                      <span>→</span>
+                      <span>â†’</span>
                       <span>Ideal Gas Law Formula</span>
                     </a>
                   </li>
@@ -448,7 +448,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
                   href="/physical-chemistry-calculators"
                   className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                 >
-                  All Physical Chemistry Calculators →
+                  All Physical Chemistry Calculators â†’
                 </a>
               </div>
             </div>

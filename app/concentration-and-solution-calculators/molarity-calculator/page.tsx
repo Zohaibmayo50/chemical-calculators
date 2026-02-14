@@ -95,7 +95,7 @@ export default function MolarityCalculatorPage() {
                   <div className="space-y-3">
                     <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-600">
                       <p className="font-mono text-lg font-semibold text-gray-800 dark:text-gray-200">
-                        n = M × V
+                        n = M Ã— V
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Calculate moles from molarity</p>
                     </div>
@@ -272,9 +272,9 @@ export default function MolarityCalculatorPage() {
                     <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                       Dilution Calculator
                     </p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Calculate dilution using M₁V₁ = M₂V₂</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Calculate dilution using Mâ‚Vâ‚ = Mâ‚‚Vâ‚‚</p>
                   </Link>
-                  <Link href="/stoichiometry-calculators/molar-mass-calculator" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
+                  <Link href="/stoichiometry-calculators/molecular-weight-calculator" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
                     <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                       Molar Mass Calculator
                     </p>
@@ -299,7 +299,7 @@ export default function MolarityCalculatorPage() {
                 <div className="mt-4">
                   <Link href="/concentration-and-solution-calculators" className="block p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg border-2 border-primary-300 dark:border-primary-600 hover:border-primary-500 dark:hover:border-primary-400 hover:shadow-md transition-all group">
                     <p className="font-semibold text-primary-700 dark:text-primary-400 group-hover:text-primary-800 dark:group-hover:text-primary-300 transition-colors">
-                      All Concentration Calculators →
+                      All Concentration Calculators â†’
                     </p>
                   </Link>
                 </div>
@@ -374,7 +374,7 @@ export default function MolarityCalculatorPage() {
                   How do you prepare a solution of specific molarity?
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-                  Calculate required moles (n = M × V), convert to grams using molar mass, weigh the solute, then add solvent to reach the desired final volume in a volumetric flask.
+                  Calculate required moles (n = M Ã— V), convert to grams using molar mass, weigh the solute, then add solvent to reach the desired final volume in a volumetric flask.
                 </p>
               </div>
             </div>

@@ -6,12 +6,12 @@ import Footer from '@/components/Footer';
 
 
 export const metadata: Metadata = {
-  title: 'pH Calculator | Calculate pH from H⁺ Concentration',
+  title: 'pH Calculator | Calculate pH from Hâº Concentration',
   description: 'Free pH calculator to determine acidity or basicity from hydrogen ion concentration. Instantly calculate pH, pOH, and visualize on pH scale for chemistry calculations.',
   keywords: 'pH calculator, pOH calculator, hydrogen ion concentration, acidity calculator, basicity calculator, pH scale',
   openGraph: {
     title: 'pH Calculator - Free Online Chemistry Tool',
-    description: 'Calculate pH from H⁺ concentration instantly. Determine acidity or basicity with our free pH calculator.',
+    description: 'Calculate pH from Hâº concentration instantly. Determine acidity or basicity with our free pH calculator.',
     type: 'website',
   },
   alternates: {
@@ -63,7 +63,7 @@ export default function PhCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                 <span className="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center text-primary-600 dark:text-primary-400">
-                  ℹ️
+                  â„¹ï¸
                 </span>
                 What It Does
               </h2>
@@ -76,7 +76,7 @@ export default function PhCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-accent-100 dark:bg-accent-900 rounded-lg flex items-center justify-center text-accent-600 dark:text-accent-400">
-                  📐
+                  ðŸ“
                 </span>
                 Formula
               </h2>
@@ -84,15 +84,15 @@ export default function PhCalculatorPage() {  return (
               {/* Main Formula */}
               <div className="bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl p-6 mb-6 border-2 border-primary-200 dark:border-primary-700">
                 <p className="text-center text-2xl font-mono font-bold text-gray-900 dark:text-white">
-                  pH = -log₁₀[H⁺]
+                  pH = -logâ‚â‚€[Hâº]
                 </p>
               </div>
 
               {/* Formula Rearrangements */}
               <div className="grid sm:grid-cols-2 gap-4 mb-6">
                 <div className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 border border-gray-200 dark:border-gray-600">
-                  <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-2">Find H⁺ from pH</p>
-                  <p className="text-lg font-mono font-bold text-gray-900 dark:text-white">[H⁺] = 10⁻ᵖᴴ</p>
+                  <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-2">Find Hâº from pH</p>
+                  <p className="text-lg font-mono font-bold text-gray-900 dark:text-white">[Hâº] = 10â»áµ–á´´</p>
                 </div>
                 <div className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 border border-gray-200 dark:border-gray-600">
                   <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-2">Relationship with pOH</p>
@@ -109,7 +109,7 @@ export default function PhCalculatorPage() {  return (
                     <span className="text-gray-700 dark:text-gray-300">= Measure of acidity/basicity (unitless)</span>
                   </div>
                   <div className="flex items-start gap-3 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg">
-                    <span className="font-mono font-bold text-primary-600 dark:text-primary-400 min-w-[60px]">[H⁺]</span>
+                    <span className="font-mono font-bold text-primary-600 dark:text-primary-400 min-w-[60px]">[Hâº]</span>
                     <span className="text-gray-700 dark:text-gray-300">= Hydrogen ion concentration (mol/L or M)</span>
                   </div>
                   <div className="flex items-start gap-3 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg">
@@ -124,7 +124,7 @@ export default function PhCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center text-green-600 dark:text-green-400">
-                  📝
+                  ðŸ“
                 </span>
                 Step-by-Step Example
               </h2>
@@ -133,14 +133,14 @@ export default function PhCalculatorPage() {  return (
                   <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">1</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Given Information</p>
-                    <p className="text-gray-700 dark:text-gray-300">[H⁺] = 1.0 × 10⁻⁵ M</p>
+                    <p className="text-gray-700 dark:text-gray-300">[Hâº] = 1.0 Ã— 10â»âµ M</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">2</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Apply Formula</p>
-                    <p className="text-gray-700 dark:text-gray-300">pH = -log₁₀(1.0 × 10⁻⁵)</p>
+                    <p className="text-gray-700 dark:text-gray-300">pH = -logâ‚â‚€(1.0 Ã— 10â»âµ)</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -165,22 +165,22 @@ export default function PhCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-red-100 dark:bg-red-900 rounded-lg flex items-center justify-center text-red-600 dark:text-red-400">
-                  ⚠️
+                  âš ï¸
                 </span>
                 Common Mistakes
               </h2>
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                   <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Forgetting the negative sign</p>
-                  <p className="text-sm text-red-800 dark:text-red-400">pH = -log[H⁺], not log[H⁺]</p>
+                  <p className="text-sm text-red-800 dark:text-red-400">pH = -log[Hâº], not log[Hâº]</p>
                 </div>
                 <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                   <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Using natural logarithm</p>
-                  <p className="text-sm text-red-800 dark:text-red-400">Use log₁₀ (base 10), not ln (natural log)</p>
+                  <p className="text-sm text-red-800 dark:text-red-400">Use logâ‚â‚€ (base 10), not ln (natural log)</p>
                 </div>
                 <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
-                  <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Confusing [H⁺] with pH</p>
-                  <p className="text-sm text-red-800 dark:text-red-400">Higher pH = lower [H⁺] (inverse relationship)</p>
+                  <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Confusing [Hâº] with pH</p>
+                  <p className="text-sm text-red-800 dark:text-red-400">Higher pH = lower [Hâº] (inverse relationship)</p>
                 </div>
                 <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                   <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Wrong concentration units</p>
@@ -193,17 +193,17 @@ export default function PhCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
               <div className="grid sm:grid-cols-2 gap-4">
-                <Link href="/chemical-reaction-calculators/buffer-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
+                <Link href="/acid-base-calculators/pka-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">Buffer Calculator</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Calculate buffer solution pH and capacity</p>
                 </Link>
-                <Link href="/chemical-reaction-calculators/pka-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
+                <Link href="/acid-base-calculators/pka-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">pKa Calculator</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Calculate acid dissociation constant</p>
                 </Link>
                 <Link href="/concentration-and-solution-calculators/dilution-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">Dilution Calculator</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Calculate solution dilution (M₁V₁ = M₂V₂)</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Calculate solution dilution (Mâ‚Vâ‚ = Mâ‚‚Vâ‚‚)</p>
                 </Link>
               </div>
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
@@ -219,7 +219,7 @@ export default function PhCalculatorPage() {  return (
               </div>
               <div className="grid sm:grid-cols-2 gap-4 mt-4">
                 <Link href="/atomic-structure-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
-                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Atomic Structure Calculators →</h3>
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Atomic Structure Calculators â†’</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">View complete collection</p>
                 </Link>
               </div>
@@ -242,7 +242,7 @@ export default function PhCalculatorPage() {  return (
                     What does pH 7 mean?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    pH 7 is neutral, meaning equal concentrations of H⁺ and OH⁻ ions ([H⁺] = 1.0 × 10⁻⁷ M). Pure water at 25°C has pH 7. pH &lt; 7 is acidic, pH &gt; 7 is basic.
+                    pH 7 is neutral, meaning equal concentrations of Hâº and OHâ» ions ([Hâº] = 1.0 Ã— 10â»â· M). Pure water at 25Â°C has pH 7. pH &lt; 7 is acidic, pH &gt; 7 is basic.
                   </p>
                 </details>
                 <details className="group">
@@ -258,7 +258,7 @@ export default function PhCalculatorPage() {  return (
                     Can pH be negative or above 14?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    Yes, for extremely concentrated acids or bases. For example, 10 M HCl has pH ≈ -1. However, the 0-14 scale covers most common aqueous solutions.
+                    Yes, for extremely concentrated acids or bases. For example, 10 M HCl has pH â‰ˆ -1. However, the 0-14 scale covers most common aqueous solutions.
                   </p>
                 </details>
                 <details className="group">
@@ -266,7 +266,7 @@ export default function PhCalculatorPage() {  return (
                     What is the relationship between pH and pOH?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    pH + pOH = 14 at 25°C. pOH measures hydroxide ion concentration (pOH = -log[OH⁻]). Knowing one allows you to calculate the other.
+                    pH + pOH = 14 at 25Â°C. pOH measures hydroxide ion concentration (pOH = -log[OHâ»]). Knowing one allows you to calculate the other.
                   </p>
                 </details>
                 <details className="group">
@@ -274,7 +274,7 @@ export default function PhCalculatorPage() {  return (
                     Why is the pH scale logarithmic?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    The logarithmic scale compresses the wide range of H⁺ concentrations (10⁰ to 10⁻¹⁴ M) into a manageable 0-14 scale. Each pH unit represents a 10-fold difference in acidity.
+                    The logarithmic scale compresses the wide range of Hâº concentrations (10â° to 10â»Â¹â´ M) into a manageable 0-14 scale. Each pH unit represents a 10-fold difference in acidity.
                   </p>
                 </details>
                 <details className="group">
@@ -304,28 +304,28 @@ export default function PhCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Where It&apos;s Used</h3>
               <div className="space-y-4">
                 <div className="flex gap-3">
-                  <span className="text-2xl">🎓</span>
+                  <span className="text-2xl">ðŸŽ“</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Education</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Acid-base chemistry courses and lab experiments</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">🧪</span>
+                  <span className="text-2xl">ðŸ§ª</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Laboratory</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Quality control and solution preparation</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">🏭</span>
+                  <span className="text-2xl">ðŸ­</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Industry</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Water treatment, food processing, pharmaceuticals</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">🌍</span>
+                  <span className="text-2xl">ðŸŒ</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Environmental</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Monitoring soil, water bodies, and ecosystems</p>

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Root Mean Square Speed',
-  description: 'Calculate root mean square speed (v_rms = √(3RT/M)) of gas molecules. Apply kinetic molecular theory and Maxwell-Boltzmann distribution to determine gas velocities.',
+  description: 'Calculate root mean square speed (v_rms = âˆš(3RT/M)) of gas molecules. Apply kinetic molecular theory and Maxwell-Boltzmann distribution to determine gas velocities.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/rms-speed',
   },
@@ -41,39 +41,39 @@ export default function RmsSpeedPage() {
             According to kinetic molecular theory, gas molecules are in constant random motion, colliding with container walls and each other. These collisions create pressure, and the average kinetic energy of molecules is directly proportional to absolute temperature. The RMS speed quantifies this molecular motion and varies with both temperature and molecular mass.
           </p>
           <p className="text-gray-700">
-            The relationship v<sub>rms</sub> = √(3RT/M) shows that lighter molecules move faster than heavier ones at the same temperature, explaining phenomena like gas effusion rates and why helium balloons deflate faster than air-filled ones.
+            The relationship v<sub>rms</sub> = âˆš(3RT/M) shows that lighter molecules move faster than heavier ones at the same temperature, explaining phenomena like gas effusion rates and why helium balloons deflate faster than air-filled ones.
           </p>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-sky-50 border-l-4 border-sky-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-bold text-sky-700">v<sub>rms</sub> = √(3RT / M)</p>
+            <p className="text-2xl font-bold text-sky-700">v<sub>rms</sub> = âˆš(3RT / M)</p>
           </div>
           <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
             <li><strong>v<sub>rms</sub></strong> = root mean square speed (m/s)</li>
-            <li><strong>R</strong> = gas constant (8.314 J·mol⁻¹·K⁻¹)</li>
+            <li><strong>R</strong> = gas constant (8.314 JÂ·molâ»Â¹Â·Kâ»Â¹)</li>
             <li><strong>T</strong> = absolute temperature (K)</li>
             <li><strong>M</strong> = molar mass (kg/mol)</li>
           </ul>
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mt-4">
             <p className="font-semibold text-yellow-800 mb-2">Unit Consistency:</p>
-            <p className="text-gray-700">Ensure M is in kg/mol, not g/mol. Convert by dividing grams by 1000. Temperature must be in Kelvin (K = °C + 273.15).</p>
+            <p className="text-gray-700">Ensure M is in kg/mol, not g/mol. Convert by dividing grams by 1000. Temperature must be in Kelvin (K = Â°C + 273.15).</p>
           </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Detailed Example: O₂ at 25°C</h2>
-          <p className="text-gray-700 mb-3"><strong>Given:</strong> M(O₂) = 32 g/mol = 0.032 kg/mol, T = 298 K.</p>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Detailed Example: Oâ‚‚ at 25Â°C</h2>
+          <p className="text-gray-700 mb-3"><strong>Given:</strong> M(Oâ‚‚) = 32 g/mol = 0.032 kg/mol, T = 298 K.</p>
           <div className="space-y-2 text-gray-700 bg-gray-50 p-4 rounded">
-            <p><strong>Step 1:</strong> Convert units: 32 g/mol ÷ 1000 = 0.032 kg/mol</p>
-            <p><strong>Step 2:</strong> Apply formula: v<sub>rms</sub> = √[(3 × 8.314 × 298) / 0.032]</p>
-            <p><strong>Step 3:</strong> Calculate numerator: 3 × 8.314 × 298 = 7,434 J/mol</p>
-            <p><strong>Step 4:</strong> Divide: 7,434 / 0.032 = 232,312 m²/s²</p>
-            <p><strong>Step 5:</strong> Take square root: √232,312 ≈ 482 m/s</p>
+            <p><strong>Step 1:</strong> Convert units: 32 g/mol Ã· 1000 = 0.032 kg/mol</p>
+            <p><strong>Step 2:</strong> Apply formula: v<sub>rms</sub> = âˆš[(3 Ã— 8.314 Ã— 298) / 0.032]</p>
+            <p><strong>Step 3:</strong> Calculate numerator: 3 Ã— 8.314 Ã— 298 = 7,434 J/mol</p>
+            <p><strong>Step 4:</strong> Divide: 7,434 / 0.032 = 232,312 mÂ²/sÂ²</p>
+            <p><strong>Step 5:</strong> Take square root: âˆš232,312 â‰ˆ 482 m/s</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Answer: v<sub>rms</sub> ≈ 482 m/s (about 1,730 km/h)</p>
+            <p className="font-semibold">Answer: v<sub>rms</sub> â‰ˆ 482 m/s (about 1,730 km/h)</p>
             <p className="text-sm text-gray-600 mt-2">This is roughly the speed of sound in air!</p>
           </div>
         </section>
@@ -83,17 +83,17 @@ export default function RmsSpeedPage() {
           <div className="space-y-3">
             <div className="bg-blue-50 p-4 rounded">
               <h3 className="font-semibold text-blue-900 mb-2">Most Probable Speed (v<sub>mp</sub>)</h3>
-              <p className="text-gray-700">v<sub>mp</sub> = √(2RT/M) — The peak of Maxwell-Boltzmann distribution; most molecules have this speed.</p>
+              <p className="text-gray-700">v<sub>mp</sub> = âˆš(2RT/M) â€” The peak of Maxwell-Boltzmann distribution; most molecules have this speed.</p>
             </div>
             <div className="bg-green-50 p-4 rounded">
               <h3 className="font-semibold text-green-900 mb-2">Average Speed (v<sub>avg</sub>)</h3>
-              <p className="text-gray-700">v<sub>avg</sub> = √(8RT/πM) — Arithmetic mean of all molecular speeds.</p>
+              <p className="text-gray-700">v<sub>avg</sub> = âˆš(8RT/Ï€M) â€” Arithmetic mean of all molecular speeds.</p>
             </div>
             <div className="bg-purple-50 p-4 rounded">
               <h3 className="font-semibold text-purple-900 mb-2">Root Mean Square Speed (v<sub>rms</sub>)</h3>
-              <p className="text-gray-700">v<sub>rms</sub> = √(3RT/M) — Highest of the three; directly related to average kinetic energy.</p>
+              <p className="text-gray-700">v<sub>rms</sub> = âˆš(3RT/M) â€” Highest of the three; directly related to average kinetic energy.</p>
             </div>
-            <p className="text-gray-700 text-sm mt-3">Relationship: v<sub>mp</sub> &lt; v<sub>avg</sub> &lt; v<sub>rms</sub> (ratio ≈ 1 : 1.13 : 1.22)</p>
+            <p className="text-gray-700 text-sm mt-3">Relationship: v<sub>mp</sub> &lt; v<sub>avg</sub> &lt; v<sub>rms</sub> (ratio â‰ˆ 1 : 1.13 : 1.22)</p>
           </div>
         </section>
 
@@ -102,11 +102,11 @@ export default function RmsSpeedPage() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="border-l-4 border-red-500 pl-4">
               <h3 className="font-semibold text-red-700 mb-2">Effect of Temperature</h3>
-              <p className="text-gray-700">v<sub>rms</sub> ∝ √T — Doubling absolute temperature increases speed by factor of √2 (≈1.41). Higher T = faster molecular motion.</p>
+              <p className="text-gray-700">v<sub>rms</sub> âˆ âˆšT â€” Doubling absolute temperature increases speed by factor of âˆš2 (â‰ˆ1.41). Higher T = faster molecular motion.</p>
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-blue-700 mb-2">Effect of Molar Mass</h3>
-              <p className="text-gray-700">v<sub>rms</sub> ∝ 1/√M — Lighter molecules move faster. H₂ molecules move 4× faster than O₂ at same temperature.</p>
+              <p className="text-gray-700">v<sub>rms</sub> âˆ 1/âˆšM â€” Lighter molecules move faster. Hâ‚‚ molecules move 4Ã— faster than Oâ‚‚ at same temperature.</p>
             </div>
           </div>
         </section>
@@ -120,7 +120,7 @@ export default function RmsSpeedPage() {
             </div>
             <div className="bg-gray-50 p-4 rounded">
               <h3 className="font-semibold text-gray-800 mb-2">Atmospheric Science</h3>
-              <p>Explains why hydrogen and helium escape Earth's atmosphere while heavier gases like N₂ and O₂ remain gravitationally bound.</p>
+              <p>Explains why hydrogen and helium escape Earth's atmosphere while heavier gases like Nâ‚‚ and Oâ‚‚ remain gravitationally bound.</p>
             </div>
             <div className="bg-gray-50 p-4 rounded">
               <h3 className="font-semibold text-gray-800 mb-2">Vacuum Technology</h3>
@@ -134,7 +134,7 @@ export default function RmsSpeedPage() {
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Comparative Speeds at 25°C</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Comparative Speeds at 25Â°C</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-gray-700">
               <thead className="bg-gray-100">
@@ -147,34 +147,34 @@ export default function RmsSpeedPage() {
               </thead>
               <tbody className="divide-y">
                 <tr>
-                  <td className="px-4 py-2">H₂</td>
+                  <td className="px-4 py-2">Hâ‚‚</td>
                   <td className="px-4 py-2">2</td>
                   <td className="px-4 py-2">1,920</td>
-                  <td className="px-4 py-2">4.0×</td>
+                  <td className="px-4 py-2">4.0Ã—</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2">He</td>
                   <td className="px-4 py-2">4</td>
                   <td className="px-4 py-2">1,360</td>
-                  <td className="px-4 py-2">2.8×</td>
+                  <td className="px-4 py-2">2.8Ã—</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">N₂</td>
+                  <td className="px-4 py-2">Nâ‚‚</td>
                   <td className="px-4 py-2">28</td>
                   <td className="px-4 py-2">515</td>
-                  <td className="px-4 py-2">1.1×</td>
+                  <td className="px-4 py-2">1.1Ã—</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">O₂</td>
+                  <td className="px-4 py-2">Oâ‚‚</td>
                   <td className="px-4 py-2">32</td>
                   <td className="px-4 py-2">482</td>
-                  <td className="px-4 py-2">1.0× (reference)</td>
+                  <td className="px-4 py-2">1.0Ã— (reference)</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">CO₂</td>
+                  <td className="px-4 py-2">COâ‚‚</td>
                   <td className="px-4 py-2">44</td>
                   <td className="px-4 py-2">410</td>
-                  <td className="px-4 py-2">0.85×</td>
+                  <td className="px-4 py-2">0.85Ã—</td>
                 </tr>
               </tbody>
             </table>
@@ -185,8 +185,8 @@ export default function RmsSpeedPage() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Key Takeaways</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>Lighter molecules move faster at same temperature.</li>
-            <li>Higher temperature = higher v<sub>rms</sub> (proportional to √T).</li>
-            <li>Related to kinetic energy: KE<sub>avg</sub> = ½ m v<sub>rms</sub>² = (3/2) k<sub>B</sub>T.</li>
+            <li>Higher temperature = higher v<sub>rms</sub> (proportional to âˆšT).</li>
+            <li>Related to kinetic energy: KE<sub>avg</sub> = Â½ m v<sub>rms</sub>Â² = (3/2) k<sub>B</sub>T.</li>
             <li>RMS speed is always greater than average speed and most probable speed.</li>
             <li>Kinetic molecular theory assumptions (ideal gas) work best at low pressure and high temperature.</li>
             <li>At same temperature, all gases have same average kinetic energy but different speeds.</li>
@@ -196,15 +196,15 @@ export default function RmsSpeedPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/gas-laws-calculators/kinetic-molecular-theory-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/physical-chemistry-calculators/kinetic-molecular-theory-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Kinetic Molecular Theory Calculator</h3>
               <p className="text-sm text-gray-600">Calculate molecular speeds</p>
             </a>
-            <a href="/gas-laws-calculators/grahams-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/physical-chemistry-calculators/grahams-law-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Graham's Law Calculator</h3>
               <p className="text-sm text-gray-600">Calculate diffusion rates</p>
             </a>
-            <a href="/gas-laws-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/physical-chemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Gas Laws Calculators</h3>
               <p className="text-sm opacity-90">Explore all gas law tools</p>
             </a>

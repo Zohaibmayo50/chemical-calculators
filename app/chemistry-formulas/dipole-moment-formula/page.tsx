@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Dipole Moment Formula',
-  description: 'Calculate dipole moment (μ = q×d) to measure molecular polarity. Determine charge separation distance, predict intermolecular forces, and understand bond polarity.',
+  description: 'Calculate dipole moment (Î¼ = qÃ—d) to measure molecular polarity. Determine charge separation distance, predict intermolecular forces, and understand bond polarity.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/dipole-moment-formula',
   },
@@ -35,25 +35,25 @@ export default function DipoleMomentFormulaPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Understanding Dipole Moment</h2>
           <p className="text-gray-700 mb-4">
-            The dipole moment (μ) is a fundamental molecular property that quantifies the separation of positive and negative electrical charges within a molecule. First introduced by physicist Peter Debye in 1912, the dipole moment concept revolutionized our understanding of molecular polarity, intermolecular forces, and chemical reactivity. Molecules with high dipole moments exhibit strong polarity, leading to elevated boiling points, increased solubility in polar solvents like water, and enhanced chemical reactivity in polar environments.
+            The dipole moment (Î¼) is a fundamental molecular property that quantifies the separation of positive and negative electrical charges within a molecule. First introduced by physicist Peter Debye in 1912, the dipole moment concept revolutionized our understanding of molecular polarity, intermolecular forces, and chemical reactivity. Molecules with high dipole moments exhibit strong polarity, leading to elevated boiling points, increased solubility in polar solvents like water, and enhanced chemical reactivity in polar environments.
           </p>
           <p className="text-gray-700 mb-4">
-            Dipole moments arise when atoms with different electronegativities form covalent bonds, creating partial positive (δ⁺) and partial negative (δ⁻) charges. For instance, in HCl, chlorine's higher electronegativity pulls electron density away from hydrogen, creating a dipole pointing from H⁺ᵟ to Cl⁻ᵟ. The magnitude and direction of this dipole determine many physical and chemical properties, from microwave absorption in rotational spectroscopy to drug-receptor interactions in pharmaceutical design.
+            Dipole moments arise when atoms with different electronegativities form covalent bonds, creating partial positive (Î´âº) and partial negative (Î´â») charges. For instance, in HCl, chlorine's higher electronegativity pulls electron density away from hydrogen, creating a dipole pointing from HâºáµŸ to Clâ»áµŸ. The magnitude and direction of this dipole determine many physical and chemical properties, from microwave absorption in rotational spectroscopy to drug-receptor interactions in pharmaceutical design.
           </p>
           <p className="text-gray-700">
-            For polyatomic molecules, the overall dipole moment is the vector sum of individual bond dipoles. Molecular geometry plays a critical role: linear CO₂ has zero dipole moment despite polar C=O bonds because the two bond dipoles cancel due to symmetry. In contrast, bent H₂O has a large dipole moment (1.85 D) because the two O-H bond dipoles add constructively. This vector nature makes dipole moment predictions more complex but also more informative about three-dimensional molecular structure.
+            For polyatomic molecules, the overall dipole moment is the vector sum of individual bond dipoles. Molecular geometry plays a critical role: linear COâ‚‚ has zero dipole moment despite polar C=O bonds because the two bond dipoles cancel due to symmetry. In contrast, bent Hâ‚‚O has a large dipole moment (1.85 D) because the two O-H bond dipoles add constructively. This vector nature makes dipole moment predictions more complex but also more informative about three-dimensional molecular structure.
           </p>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula &amp; Units</h2>
           <div className="bg-cyan-50 border-l-4 border-cyan-500 p-4 mb-4 text-center">
-            <p className="text-3xl font-bold text-cyan-700 mb-3">μ = q × d</p>
+            <p className="text-3xl font-bold text-cyan-700 mb-3">Î¼ = q Ã— d</p>
             <p className="text-sm text-gray-600">Vector quantity pointing from positive to negative charge</p>
           </div>
           <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-4">
             <div className="bg-cyan-50 p-3 rounded">
-              <p><strong>μ</strong> = dipole moment (C·m or Debye)</p>
+              <p><strong>Î¼</strong> = dipole moment (CÂ·m or Debye)</p>
             </div>
             <div className="bg-cyan-50 p-3 rounded">
               <p><strong>q</strong> = magnitude of charge (Coulombs)</p>
@@ -62,7 +62,7 @@ export default function DipoleMomentFormulaPage() {
               <p><strong>d</strong> = distance between charges (meters)</p>
             </div>
             <div className="bg-cyan-50 p-3 rounded">
-              <p><strong>1 Debye (D)</strong> = 3.336 × 10⁻³⁰ C·m</p>
+              <p><strong>1 Debye (D)</strong> = 3.336 Ã— 10â»Â³â° CÂ·m</p>
             </div>
           </div>
           <div className="bg-blue-50 border border-blue-200 rounded p-4">
@@ -72,20 +72,20 @@ export default function DipoleMomentFormulaPage() {
               <li>Direction: from positive charge to negative charge (convention)</li>
               <li>For bond dipoles: arrow points toward more electronegative atom</li>
               <li>Typical molecular dipoles: 0-11 D (water = 1.85 D, HCl = 1.08 D)</li>
-              <li>μ = 0 for homonuclear diatomics (H₂, N₂, O₂) and symmetric molecules (CH₄, CO₂)</li>
+              <li>Î¼ = 0 for homonuclear diatomics (Hâ‚‚, Nâ‚‚, Oâ‚‚) and symmetric molecules (CHâ‚„, COâ‚‚)</li>
             </ul>
           </div>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Example</h2>
-          <p className="text-gray-700 mb-3"><strong>Given:</strong> q = 1.6 × 10⁻¹⁹ C (electron charge), d = 1.0 × 10⁻¹⁰ m.</p>
+          <p className="text-gray-700 mb-3"><strong>Given:</strong> q = 1.6 Ã— 10â»Â¹â¹ C (electron charge), d = 1.0 Ã— 10â»Â¹â° m.</p>
           <div className="space-y-2 text-gray-700">
-            <p>μ = (1.6 × 10⁻¹⁹) × (1.0 × 10⁻¹⁰) = 1.6 × 10⁻²⁹ C·m</p>
-            <p>μ = (1.6 × 10⁻²⁹) / (3.336 × 10⁻³⁰) ≈ 4.8 D</p>
+            <p>Î¼ = (1.6 Ã— 10â»Â¹â¹) Ã— (1.0 Ã— 10â»Â¹â°) = 1.6 Ã— 10â»Â²â¹ CÂ·m</p>
+            <p>Î¼ = (1.6 Ã— 10â»Â²â¹) / (3.336 Ã— 10â»Â³â°) â‰ˆ 4.8 D</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Answer: μ ≈ 4.8 D</p>
+            <p className="font-semibold">Answer: Î¼ â‰ˆ 4.8 D</p>
           </div>
         </section>
 
@@ -98,7 +98,7 @@ export default function DipoleMomentFormulaPage() {
             </div>
             <div className="border-l-4 border-red-500 pl-4">
               <h3 className="font-semibold text-red-700">Symmetry cancellation</h3>
-              <p>Symmetric molecules like CO₂ have μ = 0 despite polar bonds.</p>
+              <p>Symmetric molecules like COâ‚‚ have Î¼ = 0 despite polar bonds.</p>
             </div>
           </div>
         </section>
@@ -108,11 +108,11 @@ export default function DipoleMomentFormulaPage() {
           <div className="space-y-4 text-gray-700">
             <div>
               <h3 className="font-semibold">What molecules have zero dipole moment?</h3>
-              <p>Homonuclear diatomics (H₂, O₂) and symmetric structures (CH₄, CO₂, BF₃).</p>
+              <p>Homonuclear diatomics (Hâ‚‚, Oâ‚‚) and symmetric structures (CHâ‚„, COâ‚‚, BFâ‚ƒ).</p>
             </div>
             <div>
               <h3 className="font-semibold">How does polarity affect solubility?</h3>
-              <p>Higher μ generally means better solubility in polar solvents like water.</p>
+              <p>Higher Î¼ generally means better solubility in polar solvents like water.</p>
             </div>
           </div>
         </section>
@@ -123,9 +123,9 @@ export default function DipoleMomentFormulaPage() {
           <div className="grid md:grid-cols-2 gap-4">
             <a href="/physical-chemistry-calculators/dipole-moment-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Dipole Moment Calculator</h3>
-              <p className="text-sm text-gray-600">Calculate μ = q × d instantly</p>
+              <p className="text-sm text-gray-600">Calculate Î¼ = q Ã— d instantly</p>
             </a>
-            <a href="/molecular-structure-calculators/molecular-geometry-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/chemistry-formulas/vsepr-theory" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Molecular Geometry Calculator</h3>
               <p className="text-sm text-gray-600">Predict molecular shapes and polarity</p>
             </a>

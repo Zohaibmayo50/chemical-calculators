@@ -58,7 +58,7 @@ export default function ArrheniusEquationPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-2">k = Rate Constant</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> Vary by reaction order (e.g., s⁻¹, M⁻¹s⁻¹)
+                  <strong>Units:</strong> Vary by reaction order (e.g., sâ»Â¹, Mâ»Â¹sâ»Â¹)
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
                   Reaction rate constant at temperature T
@@ -74,7 +74,7 @@ export default function ArrheniusEquationPage() {
                   <strong>Meaning:</strong> Collision frequency and orientation factor
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
-                  💡 Represents maximum possible rate constant (if Ea = 0)
+                  ðŸ’¡ Represents maximum possible rate constant (if Ea = 0)
                 </p>
               </div>
 
@@ -94,17 +94,17 @@ export default function ArrheniusEquationPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-2">R = Gas Constant</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Value:</strong> 8.314 J/(mol·K)
+                  <strong>Value:</strong> 8.314 J/(molÂ·K)
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-2">T = Temperature</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> Kelvin (K) — MUST use Kelvin!
+                  <strong>Units:</strong> Kelvin (K) â€” MUST use Kelvin!
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Conversion:</strong> K = °C + 273.15
+                  <strong>Conversion:</strong> K = Â°C + 273.15
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ export default function ArrheniusEquationPage() {
               </p>
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 text-center">
                 <p className="text-3xl font-bold text-gray-900 dark:text-white">
-                  ln(k₂/k₁) = (Ea/R) × (1/T₁ - 1/T₂)
+                  ln(kâ‚‚/kâ‚) = (Ea/R) Ã— (1/Tâ‚ - 1/Tâ‚‚)
                 </p>
               </div>
               <p className="text-sm text-gray-600 dark:text-gray-400 mt-4">
@@ -133,45 +133,45 @@ export default function ArrheniusEquationPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Step-by-Step Example</h2>
             <div className="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-xl p-8">
               <h3 className="text-2xl font-bold mb-4">
-                Problem: A reaction has k = 0.025 s⁻¹ at 300 K and k = 0.100 s⁻¹ at 350 K. Calculate Ea.
+                Problem: A reaction has k = 0.025 sâ»Â¹ at 300 K and k = 0.100 sâ»Â¹ at 350 K. Calculate Ea.
               </h3>
               
               <div className="space-y-6">
                 <div>
                   <h4 className="font-bold text-lg mb-2">Given:</h4>
                   <ul className="list-disc list-inside space-y-1">
-                    <li>k₁ = 0.025 s⁻¹ at T₁ = 300 K</li>
-                    <li>k₂ = 0.100 s⁻¹ at T₂ = 350 K</li>
-                    <li>R = 8.314 J/(mol·K)</li>
+                    <li>kâ‚ = 0.025 sâ»Â¹ at Tâ‚ = 300 K</li>
+                    <li>kâ‚‚ = 0.100 sâ»Â¹ at Tâ‚‚ = 350 K</li>
+                    <li>R = 8.314 J/(molÂ·K)</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 1: Use two-point form</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    ln(k₂/k₁) = (Ea/R) × (1/T₁ - 1/T₂)
+                    ln(kâ‚‚/kâ‚) = (Ea/R) Ã— (1/Tâ‚ - 1/Tâ‚‚)
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">Step 2: Calculate ln(k₂/k₁)</h4>
+                  <h4 className="font-bold text-lg mb-2">Step 2: Calculate ln(kâ‚‚/kâ‚)</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
                     ln(0.100/0.025) = ln(4) = 1.386
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">Step 3: Calculate (1/T₁ - 1/T₂)</h4>
+                  <h4 className="font-bold text-lg mb-2">Step 3: Calculate (1/Tâ‚ - 1/Tâ‚‚)</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    1/300 - 1/350 = 0.003333 - 0.002857 = 0.000476 K⁻¹
+                    1/300 - 1/350 = 0.003333 - 0.002857 = 0.000476 Kâ»Â¹
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 4: Solve for Ea</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded text-sm">
-                    1.386 = (Ea / 8.314) × 0.000476<br />
-                    Ea = 1.386 / 0.000476 × 8.314<br />
+                    1.386 = (Ea / 8.314) Ã— 0.000476<br />
+                    Ea = 1.386 / 0.000476 Ã— 8.314<br />
                     Ea = 24,200 J/mol = 24.2 kJ/mol
                   </p>
                 </div>
@@ -191,22 +191,22 @@ export default function ArrheniusEquationPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">How Temperature Affects Rate</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-blue-50 dark:bg-blue-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">🔥 Higher Temperature</h3>
+                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">ðŸ”¥ Higher Temperature</h3>
                 <ul className="space-y-2 text-blue-800 dark:text-blue-200">
-                  <li>• Larger k (faster reaction)</li>
-                  <li>• More molecules exceed Ea</li>
-                  <li>• e^(-Ea/RT) closer to 1</li>
-                  <li>• Rule of thumb: k doubles every 10°C</li>
+                  <li>â€¢ Larger k (faster reaction)</li>
+                  <li>â€¢ More molecules exceed Ea</li>
+                  <li>â€¢ e^(-Ea/RT) closer to 1</li>
+                  <li>â€¢ Rule of thumb: k doubles every 10Â°C</li>
                 </ul>
               </div>
 
               <div className="bg-cyan-50 dark:bg-cyan-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-cyan-900 dark:text-cyan-100 mb-3">❄️ Lower Temperature</h3>
+                <h3 className="font-bold text-cyan-900 dark:text-cyan-100 mb-3">â„ï¸ Lower Temperature</h3>
                 <ul className="space-y-2 text-cyan-800 dark:text-cyan-200">
-                  <li>• Smaller k (slower reaction)</li>
-                  <li>• Fewer molecules exceed Ea</li>
-                  <li>• e^(-Ea/RT) closer to 0</li>
-                  <li>• Reactions "freeze" at low T</li>
+                  <li>â€¢ Smaller k (slower reaction)</li>
+                  <li>â€¢ Fewer molecules exceed Ea</li>
+                  <li>â€¢ e^(-Ea/RT) closer to 0</li>
+                  <li>â€¢ Reactions "freeze" at low T</li>
                 </ul>
               </div>
             </div>
@@ -217,30 +217,30 @@ export default function ArrheniusEquationPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using Celsius instead of Kelvin</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using Celsius instead of Kelvin</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  Temperature MUST be in Kelvin. Using °C gives completely wrong results. Always add 273.15.
+                  Temperature MUST be in Kelvin. Using Â°C gives completely wrong results. Always add 273.15.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Unit mismatch for Ea and R</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Unit mismatch for Ea and R</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  If Ea is in kJ/mol, convert to J/mol OR use R = 0.008314 kJ/(mol·K). Units must match!
+                  If Ea is in kJ/mol, convert to J/mol OR use R = 0.008314 kJ/(molÂ·K). Units must match!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Wrong sign in two-point form</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Wrong sign in two-point form</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  It's (1/T₁ - 1/T₂), NOT (1/T₂ - 1/T₁). Order matters! Choose T₁ as lower temperature.
+                  It's (1/Tâ‚ - 1/Tâ‚‚), NOT (1/Tâ‚‚ - 1/Tâ‚). Order matters! Choose Tâ‚ as lower temperature.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using log instead of ln</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using log instead of ln</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  Arrhenius equation uses natural log (ln), NOT log₁₀. Check your calculator mode!
+                  Arrhenius equation uses natural log (ln), NOT logâ‚â‚€. Check your calculator mode!
                 </p>
               </div>
             </div>
@@ -326,10 +326,10 @@ export default function ArrheniusEquationPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                ← Back to All Formulas
+                â† Back to All Formulas
               </Link>
-              <Link href="/chemistry-formulas/rate-law-formula" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Rate Law →
+              <Link href="/chemistry-formulas/rate-law" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
+                Next: Rate Law â†’
               </Link>
             </div>
           </div>

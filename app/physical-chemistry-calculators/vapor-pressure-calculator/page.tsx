@@ -64,13 +64,13 @@ export default function VaporPressureCalculatorPage() {
 
                   <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg mb-6">
                     <div className="font-mono text-lg bg-white dark:bg-gray-600 p-4 rounded mb-3 text-center">
-                      ln(P₂/P₁) = -(ΔHvap/R)(1/T₂ - 1/T₁)
+                      ln(Pâ‚‚/Pâ‚) = -(Î”Hvap/R)(1/Tâ‚‚ - 1/Tâ‚)
                     </div>
                     <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                      <p><strong>P₁, P₂</strong> = vapor pressures at temperatures T₁ and T₂</p>
-                      <p><strong>ΔHvap</strong> = enthalpy (heat) of vaporization (J/mol or kJ/mol)</p>
-                      <p><strong>R</strong> = universal gas constant (8.314 J/(mol·K))</p>
-                      <p><strong>T₁, T₂</strong> = absolute temperatures (K)</p>
+                      <p><strong>Pâ‚, Pâ‚‚</strong> = vapor pressures at temperatures Tâ‚ and Tâ‚‚</p>
+                      <p><strong>Î”Hvap</strong> = enthalpy (heat) of vaporization (J/mol or kJ/mol)</p>
+                      <p><strong>R</strong> = universal gas constant (8.314 J/(molÂ·K))</p>
+                      <p><strong>Tâ‚, Tâ‚‚</strong> = absolute temperatures (K)</p>
                     </div>
                   </div>
 
@@ -80,22 +80,22 @@ export default function VaporPressureCalculatorPage() {
 
                   <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg mb-6">
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
-                      <strong>Problem:</strong> Calculate the vapor pressure of water at 90°C, given:
+                      <strong>Problem:</strong> Calculate the vapor pressure of water at 90Â°C, given:
                     </p>
                     <ul className="list-disc list-inside ml-4 space-y-1 text-gray-700 dark:text-gray-300 mb-4">
-                      <li>P₁ = 1.00 atm at T₁ = 373 K (100°C)</li>
-                      <li>ΔHvap = 40.7 kJ/mol</li>
-                      <li>T₂ = 363 K (90°C)</li>
+                      <li>Pâ‚ = 1.00 atm at Tâ‚ = 373 K (100Â°C)</li>
+                      <li>Î”Hvap = 40.7 kJ/mol</li>
+                      <li>Tâ‚‚ = 363 K (90Â°C)</li>
                     </ul>
 
                     <p className="text-gray-700 dark:text-gray-300 mb-3"><strong>Solution:</strong></p>
                     <div className="font-mono bg-white dark:bg-gray-600 p-3 rounded space-y-1 text-sm">
-                      <p>ln(P₂/1.00) = -(40,700/8.314)(1/363 - 1/373)</p>
-                      <p>ln(P₂) = -(4,895)(0.002755 - 0.002681)</p>
-                      <p>ln(P₂) = -(4,895)(0.000074)</p>
-                      <p>ln(P₂) = -0.362</p>
-                      <p>P₂ = e^(-0.362)</p>
-                      <p className="text-tertiary-600 dark:text-tertiary-400 font-bold">P₂ = 0.696 atm</p>
+                      <p>ln(Pâ‚‚/1.00) = -(40,700/8.314)(1/363 - 1/373)</p>
+                      <p>ln(Pâ‚‚) = -(4,895)(0.002755 - 0.002681)</p>
+                      <p>ln(Pâ‚‚) = -(4,895)(0.000074)</p>
+                      <p>ln(Pâ‚‚) = -0.362</p>
+                      <p>Pâ‚‚ = e^(-0.362)</p>
+                      <p className="text-tertiary-600 dark:text-tertiary-400 font-bold">Pâ‚‚ = 0.696 atm</p>
                     </div>
                   </div>
 
@@ -108,17 +108,17 @@ export default function VaporPressureCalculatorPage() {
                       <thead className="bg-gray-100 dark:bg-gray-700">
                         <tr>
                           <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left">Substance</th>
-                          <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left">ΔHvap (kJ/mol)</th>
+                          <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left">Î”Hvap (kJ/mol)</th>
                           <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left">Boiling Point</th>
                         </tr>
                       </thead>
                       <tbody className="text-sm">
-                        <tr><td className="border px-4 py-2">Water</td><td className="border px-4 py-2">40.7</td><td className="border px-4 py-2">100°C</td></tr>
-                        <tr className="bg-gray-50 dark:bg-gray-700/50"><td className="border px-4 py-2">Ethanol</td><td className="border px-4 py-2">38.6</td><td className="border px-4 py-2">78°C</td></tr>
-                        <tr><td className="border px-4 py-2">Methanol</td><td className="border px-4 py-2">35.2</td><td className="border px-4 py-2">65°C</td></tr>
-                        <tr className="bg-gray-50 dark:bg-gray-700/50"><td className="border px-4 py-2">Benzene</td><td className="border px-4 py-2">30.7</td><td className="border px-4 py-2">80°C</td></tr>
-                        <tr><td className="border px-4 py-2">Acetone</td><td className="border px-4 py-2">29.1</td><td className="border px-4 py-2">56°C</td></tr>
-                        <tr className="bg-gray-50 dark:bg-gray-700/50"><td className="border px-4 py-2">Diethyl Ether</td><td className="border px-4 py-2">26.5</td><td className="border px-4 py-2">35°C</td></tr>
+                        <tr><td className="border px-4 py-2">Water</td><td className="border px-4 py-2">40.7</td><td className="border px-4 py-2">100Â°C</td></tr>
+                        <tr className="bg-gray-50 dark:bg-gray-700/50"><td className="border px-4 py-2">Ethanol</td><td className="border px-4 py-2">38.6</td><td className="border px-4 py-2">78Â°C</td></tr>
+                        <tr><td className="border px-4 py-2">Methanol</td><td className="border px-4 py-2">35.2</td><td className="border px-4 py-2">65Â°C</td></tr>
+                        <tr className="bg-gray-50 dark:bg-gray-700/50"><td className="border px-4 py-2">Benzene</td><td className="border px-4 py-2">30.7</td><td className="border px-4 py-2">80Â°C</td></tr>
+                        <tr><td className="border px-4 py-2">Acetone</td><td className="border px-4 py-2">29.1</td><td className="border px-4 py-2">56Â°C</td></tr>
+                        <tr className="bg-gray-50 dark:bg-gray-700/50"><td className="border px-4 py-2">Diethyl Ether</td><td className="border px-4 py-2">26.5</td><td className="border px-4 py-2">35Â°C</td></tr>
                       </tbody>
                     </table>
                   </div>
@@ -137,9 +137,9 @@ export default function VaporPressureCalculatorPage() {
                     </div>
 
                     <div className="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg border-l-4 border-green-500">
-                      <h4 className="font-semibold text-gray-900 dark:text-white mb-2">ΔHvap Significance</h4>
+                      <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Î”Hvap Significance</h4>
                       <p className="text-sm text-gray-700 dark:text-gray-300">
-                        Higher ΔHvap indicates stronger intermolecular forces. Water has high ΔHvap due 
+                        Higher Î”Hvap indicates stronger intermolecular forces. Water has high Î”Hvap due 
                         to extensive hydrogen bonding.
                       </p>
                     </div>
@@ -151,25 +151,25 @@ export default function VaporPressureCalculatorPage() {
                   
                   <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🌡️</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸŒ¡ï¸</span>
                       <div>
                         <strong>Boiling Point Prediction:</strong> Determine boiling point at different pressures (e.g., high altitude cooking)
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🏭</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ­</span>
                       <div>
                         <strong>Distillation:</strong> Design and optimize separation processes based on vapor pressure differences
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💧</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’§</span>
                       <div>
                         <strong>Evaporation Rates:</strong> Predict how quickly liquids will evaporate at various temperatures
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">☁️</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">â˜ï¸</span>
                       <div>
                         <strong>Weather Prediction:</strong> Understanding humidity and cloud formation
                       </div>
@@ -183,20 +183,20 @@ export default function VaporPressureCalculatorPage() {
               <div className="sticky top-8 space-y-6">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-300">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">💨</span>
+                    <span className="text-2xl">ðŸ’¨</span>
                     Quick Reference
                   </h3>
                   <div className="space-y-3 text-sm">
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">R constant:</p>
-                      <p className="text-gray-600 dark:text-gray-400">8.314 J/(mol·K)</p>
+                      <p className="text-gray-600 dark:text-gray-400">8.314 J/(molÂ·K)</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Boiling occurs:</p>
                       <p className="text-gray-600 dark:text-gray-400">When P = atmospheric pressure</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900 dark:text-white">Higher ΔHvap:</p>
+                      <p className="font-semibold text-gray-900 dark:text-white">Higher Î”Hvap:</p>
                       <p className="text-gray-600 dark:text-gray-400">Stronger intermolecular forces</p>
                     </div>
                   </div>
@@ -204,12 +204,12 @@ export default function VaporPressureCalculatorPage() {
 
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-400">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">🔗</span>
+                    <span className="text-2xl">ðŸ”—</span>
                     Related Calculators
                   </h3>
                   <ul className="space-y-3">
                     <li>
-                      <Link href="/physical-chemistry-calculators/boiling-point-elevation-calculator" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
+                      <Link href="/thermodynamics-calculators/boiling-point-elevation-calculator" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors">
                         Boiling Point Elevation
                       </Link>
                     </li>
@@ -226,7 +226,7 @@ export default function VaporPressureCalculatorPage() {
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      <span className="text-2xl">📐</span>
+                      <span className="text-2xl">ðŸ“</span>
                       Related Formulas
                     </h3>
                     <ul className="space-y-3">
@@ -245,7 +245,7 @@ export default function VaporPressureCalculatorPage() {
                   <ul className="space-y-3 mt-6">
                     <li>
                       <Link href="/physical-chemistry-calculators" className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold">
-                        All Physical Chemistry Calculators →
+                        All Physical Chemistry Calculators â†’
                       </Link>
                     </li>
                   </ul>
@@ -253,19 +253,19 @@ export default function VaporPressureCalculatorPage() {
 
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-500">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">🎯</span>
+                    <span className="text-2xl">ðŸŽ¯</span>
                     Where It&apos;s Used
                   </h3>
                   <ul className="space-y-4 text-sm">
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">🏭</span>
+                      <span className="text-xl">ðŸ­</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Distillation</p>
                         <p className="text-gray-600 dark:text-gray-400">Separation processes</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">🌡️</span>
+                      <span className="text-xl">ðŸŒ¡ï¸</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Climate</p>
                         <p className="text-gray-600 dark:text-gray-400">Weather prediction</p>

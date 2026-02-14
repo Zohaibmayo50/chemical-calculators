@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: "Bragg's Law: X-ray Diffraction & Crystal Structure",
-  description: 'Master X-ray diffraction using Bragg\'s Law (nλ = 2d sinθ). Calculate lattice spacing, determine crystal structures, and understand constructive interference in crystallography.',
+  description: 'Master X-ray diffraction using Bragg\'s Law (nÎ» = 2d sinÎ¸). Calculate lattice spacing, determine crystal structures, and understand constructive interference in crystallography.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/braggs-law',
   },
@@ -35,13 +35,13 @@ export default function BraggsLawPage() {
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Formula</h2>
           <div className="bg-teal-50 border-l-4 border-teal-500 p-4 mb-4 text-center">
-            <p className="text-2xl font-bold text-teal-700">n λ = 2 d sin θ</p>
+            <p className="text-2xl font-bold text-teal-700">n Î» = 2 d sin Î¸</p>
           </div>
           <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
             <li><strong>n</strong> = order of diffraction (1, 2, 3...)</li>
-            <li><strong>λ</strong> = X-ray wavelength (m)</li>
+            <li><strong>Î»</strong> = X-ray wavelength (m)</li>
             <li><strong>d</strong> = spacing between crystal planes (m)</li>
-            <li><strong>θ</strong> = angle of incidence</li>
+            <li><strong>Î¸</strong> = angle of incidence</li>
           </ul>
         </section>
 
@@ -63,10 +63,10 @@ export default function BraggsLawPage() {
           <div className="space-y-4 text-gray-700">
             <div className="border-l-4 border-teal-500 pl-4">
               <h3 className="font-semibold text-gray-800 mb-2">Constructive Interference</h3>
-              <p>When X-rays from adjacent crystal planes arrive in phase (path difference = nλ), their amplitudes add to create strong reflection peaks.</p>
+              <p>When X-rays from adjacent crystal planes arrive in phase (path difference = nÎ»), their amplitudes add to create strong reflection peaks.</p>
             </div>
             <div className="border-l-4 border-teal-500 pl-4">
-              <h3 className="font-semibold text-gray-800 mb-2">Bragg Angle (θ)</h3>
+              <h3 className="font-semibold text-gray-800 mb-2">Bragg Angle (Î¸)</h3>
               <p>The angle between incident X-ray beam and crystal planes, not the incident surface. Measured from the plane itself rather than the surface normal.</p>
             </div>
             <div className="border-l-4 border-teal-500 pl-4">
@@ -78,14 +78,14 @@ export default function BraggsLawPage() {
 
         <section className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Worked Example</h2>
-          <p className="text-gray-700 mb-3"><strong>Given:</strong> λ = 1.54 Å (Cu Kα), θ = 15°, n = 1.</p>
+          <p className="text-gray-700 mb-3"><strong>Given:</strong> Î» = 1.54 Ã… (Cu KÎ±), Î¸ = 15Â°, n = 1.</p>
           <div className="space-y-2 text-gray-700">
-            <p>d = n λ / (2 sin θ)</p>
-            <p>d = (1 × 1.54 Å) / (2 × sin 15°)</p>
-            <p>d ≈ 1.54 / (2 × 0.2588) ≈ 2.98 Å</p>
+            <p>d = n Î» / (2 sin Î¸)</p>
+            <p>d = (1 Ã— 1.54 Ã…) / (2 Ã— sin 15Â°)</p>
+            <p>d â‰ˆ 1.54 / (2 Ã— 0.2588) â‰ˆ 2.98 Ã…</p>
           </div>
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold">Answer: d ≈ 2.98 Å</p>
+            <p className="font-semibold">Answer: d â‰ˆ 2.98 Ã…</p>
             <p className="text-sm text-gray-600 mt-2">This spacing is typical for metal crystalline structures and ceramics.</p>
           </div>
         </section>
@@ -119,23 +119,23 @@ export default function BraggsLawPage() {
               <thead className="bg-gray-100">
                 <tr>
                   <th className="px-4 py-2 text-left">Source</th>
-                  <th className="px-4 py-2 text-left">Wavelength (Å)</th>
+                  <th className="px-4 py-2 text-left">Wavelength (Ã…)</th>
                   <th className="px-4 py-2 text-left">Application</th>
                 </tr>
               </thead>
               <tbody className="divide-y">
                 <tr>
-                  <td className="px-4 py-2">Cu Kα</td>
+                  <td className="px-4 py-2">Cu KÎ±</td>
                   <td className="px-4 py-2">1.5418</td>
                   <td className="px-4 py-2">Most common for routine analysis</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">Mo Kα</td>
+                  <td className="px-4 py-2">Mo KÎ±</td>
                   <td className="px-4 py-2">0.7107</td>
                   <td className="px-4 py-2">Protein crystallography</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-2">Co Kα</td>
+                  <td className="px-4 py-2">Co KÎ±</td>
                   <td className="px-4 py-2">1.7902</td>
                   <td className="px-4 py-2">Iron-containing samples</td>
                 </tr>
@@ -155,19 +155,19 @@ export default function BraggsLawPage() {
             <li>Always convert angles to radians when using calculators without degree mode.</li>
             <li>For powder diffraction, multiple grain orientations produce cone-shaped diffraction patterns captured as rings on detectors.</li>
             <li>Single crystals require careful alignment to obtain diffraction from specific planes.</li>
-            <li>Sample preparation is critical—powder samples should be finely ground for accurate d-spacing measurements.</li>
-            <li>Temperature affects lattice spacing; most standard measurements are at room temperature (25°C).</li>
+            <li>Sample preparation is criticalâ€”powder samples should be finely ground for accurate d-spacing measurements.</li>
+            <li>Temperature affects lattice spacing; most standard measurements are at room temperature (25Â°C).</li>
           </ul>
         </section>
 
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/coordination-chemistry-calculators/crystal-field-splitting-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/chemistry-formulas/crystal-field-theory" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Crystal Field Splitting Calculator</h3>
               <p className="text-sm text-gray-600">Calculate d-orbital energy splitting</p>
             </a>
-            <a href="/coordination-chemistry-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/chemistry-formulas/coordination-chemistry-formula" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Coordination Chemistry Calculators</h3>
               <p className="text-sm opacity-90">Explore all coordination chemistry tools</p>
             </a>

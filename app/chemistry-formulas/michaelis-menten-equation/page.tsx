@@ -40,7 +40,7 @@ export default function MichaelisMentenEquationPage() {
             At the heart of the Michaelis-Menten model is the recognition that enzymes bind substrates reversibly before catalyzing chemical transformations. When substrate concentration is low, reaction velocity increases linearly with [S], exhibiting first-order kinetics. As [S] increases, the enzyme active sites become increasingly saturated, causing the reaction to approach zero-order kinetics where velocity plateaus at Vmax. This saturation behavior distinguishes enzyme-catalyzed reactions from simple chemical reactions and reflects the finite number of enzyme active sites available.
           </p>
           <p className="text-gray-700">
-            The Michaelis constant (Km) serves as a key parameter for enzyme characterization, representing the substrate concentration at which the reaction proceeds at half-maximal velocity. Km values typically range from 10⁻² to 10⁻⁶ M and provide information about enzyme-substrate affinity (though not a direct dissociation constant). Enzymes with low Km values bind substrates tightly and achieve half-saturation at low concentrations, making them highly efficient at capturing scarce substrates. Understanding Michaelis-Menten kinetics is essential for drug design, metabolic engineering, and clinical diagnostics.
+            The Michaelis constant (Km) serves as a key parameter for enzyme characterization, representing the substrate concentration at which the reaction proceeds at half-maximal velocity. Km values typically range from 10â»Â² to 10â»â¶ M and provide information about enzyme-substrate affinity (though not a direct dissociation constant). Enzymes with low Km values bind substrates tightly and achieve half-saturation at low concentrations, making them highly efficient at capturing scarce substrates. Understanding Michaelis-Menten kinetics is essential for drug design, metabolic engineering, and clinical diagnostics.
           </p>
         </section>
 
@@ -52,7 +52,7 @@ export default function MichaelisMentenEquationPage() {
           <div className="grid md:grid-cols-2 gap-6 text-gray-700 mt-4">
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-pink-700 mb-2">v (Initial Velocity)</p>
-              <p>The rate of product formation at time zero, measured in concentration per time (e.g., µM/min, mM/s). Initial velocity is used to avoid substrate depletion and product inhibition effects.</p>
+              <p>The rate of product formation at time zero, measured in concentration per time (e.g., ÂµM/min, mM/s). Initial velocity is used to avoid substrate depletion and product inhibition effects.</p>
             </div>
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-pink-700 mb-2">Vmax (Maximum Velocity)</p>
@@ -64,7 +64,7 @@ export default function MichaelisMentenEquationPage() {
             </div>
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-pink-700 mb-2">Km (Michaelis Constant)</p>
-              <p>The substrate concentration producing half-maximal velocity (v = Vmax/2). Lower Km indicates higher apparent affinity. Units match [S] (typically µM or mM). Km = (k-1 + kcat)/k1 from the reaction mechanism.</p>
+              <p>The substrate concentration producing half-maximal velocity (v = Vmax/2). Lower Km indicates higher apparent affinity. Units match [S] (typically ÂµM or mM). Km = (k-1 + kcat)/k1 from the reaction mechanism.</p>
             </div>
           </div>
         </section>
@@ -91,39 +91,39 @@ export default function MichaelisMentenEquationPage() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Detailed Step-by-Step Example</h2>
           <div className="bg-pink-50 border-l-4 border-pink-600 p-4 mb-4">
             <p className="font-semibold text-pink-800">Problem: Calculate reaction velocity for an enzyme with known kinetic parameters</p>
-            <p className="text-gray-700 mt-2"><strong>Given:</strong> Vmax = 120 µM/min, Km = 30 µM, [S] = 60 µM.</p>
+            <p className="text-gray-700 mt-2"><strong>Given:</strong> Vmax = 120 ÂµM/min, Km = 30 ÂµM, [S] = 60 ÂµM.</p>
           </div>
           
           <div className="space-y-3 text-gray-700">
             <div className="bg-white border-l-4 border-pink-500 pl-4 py-2">
               <p className="font-semibold text-pink-700">Step 1: Write the Michaelis-Menten equation</p>
-              <p>v = (Vmax × [S]) / (Km + [S])</p>
+              <p>v = (Vmax Ã— [S]) / (Km + [S])</p>
             </div>
             
             <div className="bg-white border-l-4 border-pink-500 pl-4 py-2">
               <p className="font-semibold text-pink-700">Step 2: Substitute given values</p>
-              <p>v = (120 µM/min × 60 µM) / (30 µM + 60 µM)</p>
+              <p>v = (120 ÂµM/min Ã— 60 ÂµM) / (30 ÂµM + 60 ÂµM)</p>
             </div>
             
             <div className="bg-white border-l-4 border-pink-500 pl-4 py-2">
               <p className="font-semibold text-pink-700">Step 3: Calculate numerator and denominator</p>
-              <p>Numerator: 120 × 60 = 7200 µM²/min</p>
-              <p>Denominator: 30 + 60 = 90 µM</p>
+              <p>Numerator: 120 Ã— 60 = 7200 ÂµMÂ²/min</p>
+              <p>Denominator: 30 + 60 = 90 ÂµM</p>
             </div>
             
             <div className="bg-white border-l-4 border-pink-500 pl-4 py-2">
               <p className="font-semibold text-pink-700">Step 4: Complete the division</p>
-              <p>v = 7200 µM²/min ÷ 90 µM = 80 µM/min</p>
+              <p>v = 7200 ÂµMÂ²/min Ã· 90 ÂµM = 80 ÂµM/min</p>
             </div>
             
             <div className="bg-white border-l-4 border-pink-500 pl-4 py-2">
               <p className="font-semibold text-pink-700">Step 5: Interpret the result</p>
-              <p>At [S] = 60 µM (which is 2× Km), the enzyme operates at 80 µM/min, which is 67% of Vmax (80/120 = 0.67). This demonstrates that when [S] = 2×Km, the enzyme reaches approximately 2/3 of its maximum velocity.</p>
+              <p>At [S] = 60 ÂµM (which is 2Ã— Km), the enzyme operates at 80 ÂµM/min, which is 67% of Vmax (80/120 = 0.67). This demonstrates that when [S] = 2Ã—Km, the enzyme reaches approximately 2/3 of its maximum velocity.</p>
             </div>
           </div>
           
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold text-green-800">Answer: v = 80 µM/min</p>
+            <p className="font-semibold text-green-800">Answer: v = 80 ÂµM/min</p>
             <p className="text-gray-700 mt-2">The enzyme is operating at 67% of maximum velocity since the substrate concentration is twice the Km value.</p>
           </div>
         </section>
@@ -134,17 +134,17 @@ export default function MichaelisMentenEquationPage() {
           <div className="space-y-6">
             <div>
               <h3 className="text-xl font-semibold text-pink-700 mb-2">1. Catalytic Efficiency (kcat/Km)</h3>
-              <p className="text-gray-700">The specificity constant kcat/Km measures enzyme efficiency by combining turnover rate and substrate affinity. It represents the rate constant for enzyme-substrate encounter and catalysis when [S] is much less than Km. Values approaching 10⁸ to 10⁹ M⁻¹s⁻¹ indicate diffusion-limited "perfect" enzymes like acetylcholinesterase and catalase.</p>
+              <p className="text-gray-700">The specificity constant kcat/Km measures enzyme efficiency by combining turnover rate and substrate affinity. It represents the rate constant for enzyme-substrate encounter and catalysis when [S] is much less than Km. Values approaching 10â¸ to 10â¹ Mâ»Â¹sâ»Â¹ indicate diffusion-limited "perfect" enzymes like acetylcholinesterase and catalase.</p>
             </div>
             
             <div>
               <h3 className="text-xl font-semibold text-pink-700 mb-2">2. Enzyme Saturation Behavior</h3>
-              <p className="text-gray-700">When [S] ≪ Km: v ≈ (Vmax/Km)[S] (first-order kinetics). When [S] = Km: v = 0.5 Vmax (half-saturation). When [S] ≫ Km: v ≈ Vmax (zero-order kinetics). At 10× Km, the enzyme reaches 91% saturation. Understanding saturation is crucial for metabolic control and drug dosing.</p>
+              <p className="text-gray-700">When [S] â‰ª Km: v â‰ˆ (Vmax/Km)[S] (first-order kinetics). When [S] = Km: v = 0.5 Vmax (half-saturation). When [S] â‰« Km: v â‰ˆ Vmax (zero-order kinetics). At 10Ã— Km, the enzyme reaches 91% saturation. Understanding saturation is crucial for metabolic control and drug dosing.</p>
             </div>
             
             <div>
               <h3 className="text-xl font-semibold text-pink-700 mb-2">3. Turnover Number (kcat)</h3>
-              <p className="text-gray-700">kcat represents the number of substrate molecules converted to product per enzyme molecule per unit time when the enzyme is fully saturated (kcat = Vmax/[Etotal]). Turnover numbers vary widely: lysozyme (0.5 s⁻¹), DNA polymerase (15 s⁻¹), carbonic anhydrase (600,000 s⁻¹). High kcat values indicate rapid catalysis.</p>
+              <p className="text-gray-700">kcat represents the number of substrate molecules converted to product per enzyme molecule per unit time when the enzyme is fully saturated (kcat = Vmax/[Etotal]). Turnover numbers vary widely: lysozyme (0.5 sâ»Â¹), DNA polymerase (15 sâ»Â¹), carbonic anhydrase (600,000 sâ»Â¹). High kcat values indicate rapid catalysis.</p>
             </div>
             
             <div>
@@ -184,12 +184,12 @@ export default function MichaelisMentenEquationPage() {
           <div className="space-y-4">
             <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
               <h3 className="font-semibold text-red-700 mb-1">Units Mismatch Between Parameters</h3>
-              <p className="text-gray-700">Ensure consistent units for Vmax, [S], Km, and v. If Vmax is in µM/min, then Km and [S] should be in µM, and v will be in µM/min. Mixing mM and µM leads to errors of 1000-fold. Always check dimensional analysis.</p>
+              <p className="text-gray-700">Ensure consistent units for Vmax, [S], Km, and v. If Vmax is in ÂµM/min, then Km and [S] should be in ÂµM, and v will be in ÂµM/min. Mixing mM and ÂµM leads to errors of 1000-fold. Always check dimensional analysis.</p>
             </div>
             
             <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
               <h3 className="font-semibold text-red-700 mb-1">Misinterpreting Km as a Dissociation Constant</h3>
-              <p className="text-gray-700">Km equals the dissociation constant (Kd) only when kcat ≪ k-1, which is not always true. Km = (k-1 + kcat)/k1, so it reflects both binding affinity and catalytic efficiency. Lower Km suggests higher apparent affinity but doesn't directly measure binding strength.</p>
+              <p className="text-gray-700">Km equals the dissociation constant (Kd) only when kcat â‰ª k-1, which is not always true. Km = (k-1 + kcat)/k1, so it reflects both binding affinity and catalytic efficiency. Lower Km suggests higher apparent affinity but doesn't directly measure binding strength.</p>
             </div>
             
             <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded">
@@ -204,7 +204,7 @@ export default function MichaelisMentenEquationPage() {
             
             <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded">
               <h3 className="font-semibold text-yellow-700 mb-1">Pro Tip: Substrate Range Selection</h3>
-              <p className="text-gray-700">For accurate Km and Vmax determination, measure velocities across a substrate range spanning 0.2×Km to 5×Km. Include at least one point below Km (50% saturation), one near Km, and several above Km to define the hyperbolic curve adequately.</p>
+              <p className="text-gray-700">For accurate Km and Vmax determination, measure velocities across a substrate range spanning 0.2Ã—Km to 5Ã—Km. Include at least one point below Km (50% saturation), one near Km, and several above Km to define the hyperbolic curve adequately.</p>
             </div>
           </div>
         </section>
@@ -214,26 +214,26 @@ export default function MichaelisMentenEquationPage() {
           <div className="space-y-4">
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-pink-700 mb-2">Example 2: Finding Km from Experimental Data</p>
-              <p className="text-gray-700">If v = 40 µM/min when [S] = ? and Vmax = 100 µM/min, and knowing that v = Vmax/2 at [S] = Km:</p>
-              <p className="text-gray-600 mt-2">Since v = 40 µM/min = 0.4 × Vmax, we can solve:</p>
+              <p className="text-gray-700">If v = 40 ÂµM/min when [S] = ? and Vmax = 100 ÂµM/min, and knowing that v = Vmax/2 at [S] = Km:</p>
+              <p className="text-gray-600 mt-2">Since v = 40 ÂµM/min = 0.4 Ã— Vmax, we can solve:</p>
               <p className="text-gray-600">v/Vmax = [S]/(Km + [S])</p>
               <p className="text-gray-600">0.4 = [S]/(Km + [S])</p>
               <p className="text-gray-600">0.4Km + 0.4[S] = [S]</p>
               <p className="text-gray-600">0.4Km = 0.6[S]</p>
-              <p className="text-gray-600">If [S] = 20 µM, then Km = 30 µM</p>
+              <p className="text-gray-600">If [S] = 20 ÂµM, then Km = 30 ÂµM</p>
             </div>
             
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-pink-700 mb-2">Example 3: Calculating Catalytic Efficiency</p>
-              <p className="text-gray-700">For an enzyme with kcat = 100 s⁻¹ and Km = 50 µM:</p>
-              <p className="text-gray-600 mt-2">kcat/Km = 100 s⁻¹ / (50 × 10⁻⁶ M) = 2 × 10⁶ M⁻¹s⁻¹</p>
-              <p className="text-gray-600">This indicates moderately efficient catalysis (far below diffusion limit of ~10⁹ M⁻¹s⁻¹)</p>
+              <p className="text-gray-700">For an enzyme with kcat = 100 sâ»Â¹ and Km = 50 ÂµM:</p>
+              <p className="text-gray-600 mt-2">kcat/Km = 100 sâ»Â¹ / (50 Ã— 10â»â¶ M) = 2 Ã— 10â¶ Mâ»Â¹sâ»Â¹</p>
+              <p className="text-gray-600">This indicates moderately efficient catalysis (far below diffusion limit of ~10â¹ Mâ»Â¹sâ»Â¹)</p>
             </div>
             
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-pink-700 mb-2">Example 4: Effect of Competitive Inhibition</p>
-              <p className="text-gray-700">In presence of competitive inhibitor with Ki = 10 µM at [I] = 20 µM:</p>
-              <p className="text-gray-600 mt-2">Apparent Km = Km(1 + [I]/Ki) = 30(1 + 20/10) = 30(3) = 90 µM</p>
+              <p className="text-gray-700">In presence of competitive inhibitor with Ki = 10 ÂµM at [I] = 20 ÂµM:</p>
+              <p className="text-gray-600 mt-2">Apparent Km = Km(1 + [I]/Ki) = 30(1 + 20/10) = 30(3) = 90 ÂµM</p>
               <p className="text-gray-600">Km increases 3-fold while Vmax remains unchanged</p>
             </div>
           </div>
@@ -256,7 +256,7 @@ export default function MichaelisMentenEquationPage() {
             </div>
             <div className="bg-gray-50 p-4 rounded">
               <h3 className="font-semibold text-pink-700">How do temperature and pH affect kinetic parameters?</h3>
-              <p>Km and Vmax are temperature-dependent. Higher temperatures generally increase kcat (and thus Vmax) but may also affect Km by altering binding affinity. pH affects ionization states of catalytic residues and substrates, creating pH-activity profiles. Always specify temperature and pH when reporting kinetic parameters, typically 25°C or 37°C and optimal pH.</p>
+              <p>Km and Vmax are temperature-dependent. Higher temperatures generally increase kcat (and thus Vmax) but may also affect Km by altering binding affinity. pH affects ionization states of catalytic residues and substrates, creating pH-activity profiles. Always specify temperature and pH when reporting kinetic parameters, typically 25Â°C or 37Â°C and optimal pH.</p>
             </div>
           </div>
         </section>
@@ -264,11 +264,11 @@ export default function MichaelisMentenEquationPage() {
         <section className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Related Calculators</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/chemical-equilibrium-calculators/michaelis-menten-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/biochemistry-calculators/michaelis-menten-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Michaelis-Menten Calculator</h3>
               <p className="text-sm text-gray-600">Calculate v, Vmax, or Km</p>
             </a>
-            <a href="/chemical-equilibrium-calculators/equilibrium-constant-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/chemical-reaction-calculators/equilibrium-constant-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Equilibrium Constant Calculator</h3>
               <p className="text-sm text-gray-600">Calculate K from concentrations</p>
             </a>
@@ -280,7 +280,7 @@ export default function MichaelisMentenEquationPage() {
               <h3 className="font-semibold text-green-900 mb-2">Integrated Rate Laws</h3>
               <p className="text-sm text-gray-600">Kinetics and concentration</p>
             </a>
-            <a href="/chemical-equilibrium-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+            <a href="/chemical-reaction-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
               <h3 className="font-semibold mb-2">All Chemical Equilibrium Calculators</h3>
               <p className="text-sm opacity-90">Explore all equilibrium tools and calculators</p>
             </a>

@@ -21,9 +21,9 @@ export default function CoordinationChemistryFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Coordination Chemistry</span>
           </nav>
         </div>
@@ -48,7 +48,7 @@ export default function CoordinationChemistryFormulaPage() {
                   A central metal atom/ion bonded to surrounding molecules or ions (ligands)
                 </p>
                 <div className="bg-white dark:bg-gray-700 rounded p-4 my-3 font-mono text-center">
-                  [Fe(CN)₆]³⁻
+                  [Fe(CN)â‚†]Â³â»
                 </div>
               </div>
 
@@ -68,9 +68,9 @@ export default function CoordinationChemistryFormulaPage() {
                   A molecule or ion that donates electron pair(s) to the central metal
                 </p>
                 <div className="bg-white dark:bg-gray-700 rounded p-4 my-3">
-                  <p className="text-sm"><strong>Monodentate:</strong> 1 donor atom (Cl⁻, NH₃, H₂O)</p>
-                  <p className="text-sm"><strong>Bidentate:</strong> 2 donor atoms (en, ox²⁻)</p>
-                  <p className="text-sm"><strong>Polydentate:</strong> 3+ donor atoms (EDTA⁴⁻)</p>
+                  <p className="text-sm"><strong>Monodentate:</strong> 1 donor atom (Clâ», NHâ‚ƒ, Hâ‚‚O)</p>
+                  <p className="text-sm"><strong>Bidentate:</strong> 2 donor atoms (en, oxÂ²â»)</p>
+                  <p className="text-sm"><strong>Polydentate:</strong> 3+ donor atoms (EDTAâ´â»)</p>
                 </div>
               </div>
 
@@ -80,7 +80,7 @@ export default function CoordinationChemistryFormulaPage() {
                   Charge on the central metal atom in the complex
                 </p>
                 <div className="bg-white dark:bg-gray-700 rounded p-4 my-3 text-center">
-                  [Cr(H₂O)₆]³⁺ → Cr is +3
+                  [Cr(Hâ‚‚O)â‚†]Â³âº â†’ Cr is +3
                 </div>
               </div>
             </div>
@@ -103,31 +103,31 @@ export default function CoordinationChemistryFormulaPage() {
                 </thead>
                 <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
                   <tr>
-                    <td className="p-3 font-mono">H₂O</td>
+                    <td className="p-3 font-mono">Hâ‚‚O</td>
                     <td className="p-3">Aqua</td>
                     <td className="p-3">Monodentate</td>
                     <td className="p-3">0</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-800/50">
-                    <td className="p-3 font-mono">NH₃</td>
+                    <td className="p-3 font-mono">NHâ‚ƒ</td>
                     <td className="p-3">Ammine</td>
                     <td className="p-3">Monodentate</td>
                     <td className="p-3">0</td>
                   </tr>
                   <tr>
-                    <td className="p-3 font-mono">Cl⁻</td>
+                    <td className="p-3 font-mono">Clâ»</td>
                     <td className="p-3">Chloro</td>
                     <td className="p-3">Monodentate</td>
                     <td className="p-3">-1</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-800/50">
-                    <td className="p-3 font-mono">CN⁻</td>
+                    <td className="p-3 font-mono">CNâ»</td>
                     <td className="p-3">Cyano</td>
                     <td className="p-3">Monodentate</td>
                     <td className="p-3">-1</td>
                   </tr>
                   <tr>
-                    <td className="p-3 font-mono">OH⁻</td>
+                    <td className="p-3 font-mono">OHâ»</td>
                     <td className="p-3">Hydroxo</td>
                     <td className="p-3">Monodentate</td>
                     <td className="p-3">-1</td>
@@ -145,13 +145,13 @@ export default function CoordinationChemistryFormulaPage() {
                     <td className="p-3">0</td>
                   </tr>
                   <tr className="bg-gray-50 dark:bg-gray-800/50">
-                    <td className="p-3 font-mono">ox²⁻</td>
+                    <td className="p-3 font-mono">oxÂ²â»</td>
                     <td className="p-3">Oxalato</td>
                     <td className="p-3">Bidentate</td>
                     <td className="p-3">-2</td>
                   </tr>
                   <tr>
-                    <td className="p-3 font-mono">EDTA⁴⁻</td>
+                    <td className="p-3 font-mono">EDTAâ´â»</td>
                     <td className="p-3">Ethylenediaminetetraacetate</td>
                     <td className="p-3">Hexadentate</td>
                     <td className="p-3">-4</td>
@@ -174,13 +174,13 @@ export default function CoordinationChemistryFormulaPage() {
                   <p><strong>2. Ligands in alphabetical order</strong> (ignore prefixes like di-, tri-)</p>
                   <p><strong>3. Use prefixes:</strong></p>
                   <div className="ml-6">
-                    <p>• di-, tri-, tetra-, penta-, hexa- for simple ligands</p>
-                    <p>• bis-, tris-, tetrakis- for complex ligands (e.g., bis(ethylenediamine))</p>
+                    <p>â€¢ di-, tri-, tetra-, penta-, hexa- for simple ligands</p>
+                    <p>â€¢ bis-, tris-, tetrakis- for complex ligands (e.g., bis(ethylenediamine))</p>
                   </div>
                   <p className="mt-3"><strong>4. Metal name:</strong></p>
                   <div className="ml-6">
-                    <p>• Cationic/neutral complex: use element name</p>
-                    <p>• Anionic complex: use -ate suffix (e.g., ferrate, cuprate)</p>
+                    <p>â€¢ Cationic/neutral complex: use element name</p>
+                    <p>â€¢ Anionic complex: use -ate suffix (e.g., ferrate, cuprate)</p>
                   </div>
                   <p className="mt-3"><strong>5. Oxidation state in Roman numerals</strong></p>
                 </div>
@@ -190,15 +190,15 @@ export default function CoordinationChemistryFormulaPage() {
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Examples</h3>
                 <div className="space-y-3">
                   <div className="bg-white dark:bg-gray-700 rounded p-4">
-                    <p className="font-mono text-lg mb-2">[Co(NH₃)₆]Cl₃</p>
+                    <p className="font-mono text-lg mb-2">[Co(NHâ‚ƒ)â‚†]Clâ‚ƒ</p>
                     <p className="text-gray-700 dark:text-gray-300">Hexaamminecobalt(III) chloride</p>
                   </div>
                   <div className="bg-white dark:bg-gray-700 rounded p-4">
-                    <p className="font-mono text-lg mb-2">K₄[Fe(CN)₆]</p>
+                    <p className="font-mono text-lg mb-2">Kâ‚„[Fe(CN)â‚†]</p>
                     <p className="text-gray-700 dark:text-gray-300">Potassium hexacyanoferrate(II)</p>
                   </div>
                   <div className="bg-white dark:bg-gray-700 rounded p-4">
-                    <p className="font-mono text-lg mb-2">[Cr(H₂O)₄Cl₂]Cl</p>
+                    <p className="font-mono text-lg mb-2">[Cr(Hâ‚‚O)â‚„Clâ‚‚]Cl</p>
                     <p className="text-gray-700 dark:text-gray-300">Tetraaquadichlorochromium(III) chloride</p>
                   </div>
                 </div>
@@ -221,16 +221,16 @@ export default function CoordinationChemistryFormulaPage() {
                 <div className="bg-white dark:bg-gray-700 rounded p-6 my-4">
                   <h4 className="font-bold mb-3">Octahedral (most common)</h4>
                   <div className="space-y-2">
-                    <p><strong>Higher energy (e<sub>g</sub>):</strong> d<sub>x²-y²</sub>, d<sub>z²</sub></p>
+                    <p><strong>Higher energy (e<sub>g</sub>):</strong> d<sub>xÂ²-yÂ²</sub>, d<sub>zÂ²</sub></p>
                     <p><strong>Lower energy (t<sub>2g</sub>):</strong> d<sub>xy</sub>, d<sub>xz</sub>, d<sub>yz</sub></p>
-                    <p className="mt-3"><strong>Energy gap:</strong> Δ<sub>o</sub> (crystal field splitting energy)</p>
+                    <p className="mt-3"><strong>Energy gap:</strong> Î”<sub>o</sub> (crystal field splitting energy)</p>
                   </div>
                 </div>
 
                 <div className="bg-white dark:bg-gray-700 rounded p-6 my-4">
                   <h4 className="font-bold mb-3">Tetrahedral</h4>
                   <div className="space-y-2">
-                    <p>Splitting is inverted and smaller: Δ<sub>t</sub> ≈ (4/9)Δ<sub>o</sub></p>
+                    <p>Splitting is inverted and smaller: Î”<sub>t</sub> â‰ˆ (4/9)Î”<sub>o</sub></p>
                   </div>
                 </div>
               </div>
@@ -238,25 +238,25 @@ export default function CoordinationChemistryFormulaPage() {
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-3">Spectrochemical Series</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  Ligands ordered by increasing field strength (Δ):
+                  Ligands ordered by increasing field strength (Î”):
                 </p>
                 <div className="bg-white dark:bg-gray-700 rounded p-4 font-mono text-center">
-                  I⁻ &lt; Br⁻ &lt; Cl⁻ &lt; F⁻ &lt; OH⁻ &lt; H₂O &lt; NH₃ &lt; en &lt; CN⁻ &lt; CO
+                  Iâ» &lt; Brâ» &lt; Clâ» &lt; Fâ» &lt; OHâ» &lt; Hâ‚‚O &lt; NHâ‚ƒ &lt; en &lt; CNâ» &lt; CO
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-3">
-                  <strong>Weak field:</strong> Small Δ, high-spin<br />
-                  <strong>Strong field:</strong> Large Δ, low-spin
+                  <strong>Weak field:</strong> Small Î”, high-spin<br />
+                  <strong>Strong field:</strong> Large Î”, low-spin
                 </p>
               </div>
 
               <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-orange-900 dark:text-orange-300 mb-3">High-Spin vs Low-Spin</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  For d⁴, d⁵, d⁶, d⁷ octahedral complexes:
+                  For dâ´, dâµ, dâ¶, dâ· octahedral complexes:
                 </p>
                 <div className="space-y-3">
-                  <p><strong>High-Spin:</strong> Weak field ligands → electrons spread out (Hund's rule)</p>
-                  <p><strong>Low-Spin:</strong> Strong field ligands → electrons pair up in lower orbitals</p>
+                  <p><strong>High-Spin:</strong> Weak field ligands â†’ electrons spread out (Hund's rule)</p>
+                  <p><strong>Low-Spin:</strong> Strong field ligands â†’ electrons pair up in lower orbitals</p>
                 </div>
               </div>
             </div>
@@ -271,11 +271,11 @@ export default function CoordinationChemistryFormulaPage() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: Determine Oxidation State</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> What is the oxidation state of Fe in [Fe(CN)₆]³⁻?</p>
+                  <p><strong>Problem:</strong> What is the oxidation state of Fe in [Fe(CN)â‚†]Â³â»?</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
                   <p className="ml-6">Let x = oxidation state of Fe</p>
-                  <p className="ml-6">6 CN⁻ ligands each contribute -1 charge</p>
+                  <p className="ml-6">6 CNâ» ligands each contribute -1 charge</p>
                   <p className="ml-6">Overall complex charge = -3</p>
                   <p className="ml-6 mt-2">x + 6(-1) = -3</p>
                   <p className="ml-6">x - 6 = -3</p>
@@ -288,11 +288,11 @@ export default function CoordinationChemistryFormulaPage() {
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: Name the Complex</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> Name [Pt(NH₃)₂Cl₂]</p>
+                  <p><strong>Problem:</strong> Name [Pt(NHâ‚ƒ)â‚‚Clâ‚‚]</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
                   <p className="ml-6">1. Ligands alphabetically: ammine before chloro</p>
-                  <p className="ml-6">2. Count ligands: 2 NH₃ (diammine), 2 Cl⁻ (dichloro)</p>
+                  <p className="ml-6">2. Count ligands: 2 NHâ‚ƒ (diammine), 2 Clâ» (dichloro)</p>
                   <p className="ml-6">3. Metal: platinum (neutral complex)</p>
                   <p className="ml-6">4. Oxidation state: 0 + 2(0) + 2(-1) = -2, so Pt is +2</p>
                   
@@ -303,11 +303,11 @@ export default function CoordinationChemistryFormulaPage() {
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Example 3: Coordination Number</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> What is the CN of [Co(en)₃]³⁺?</p>
+                  <p><strong>Problem:</strong> What is the CN of [Co(en)â‚ƒ]Â³âº?</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
                   <p className="ml-6">en (ethylenediamine) is a bidentate ligand</p>
-                  <p className="ml-6">3 en ligands × 2 donor atoms each = 6 donor atoms</p>
+                  <p className="ml-6">3 en ligands Ã— 2 donor atoms each = 6 donor atoms</p>
                   
                   <p className="ml-6 font-bold text-green-600 text-xl mt-4">CN = 6</p>
                 </div>
@@ -322,7 +322,7 @@ export default function CoordinationChemistryFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Confusing Denticity with Coordination Number</h3>
                   <p className="text-gray-700 dark:text-gray-300">CN counts donor atoms, not ligand molecules!</p>
@@ -330,7 +330,7 @@ export default function CoordinationChemistryFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting Charge Balance</h3>
                   <p className="text-gray-700 dark:text-gray-300">Sum of oxidation state + ligand charges must equal overall charge!</p>
@@ -338,7 +338,7 @@ export default function CoordinationChemistryFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong -ate Suffix</h3>
                   <p className="text-gray-700 dark:text-gray-300">Only use -ate for anionic complexes (e.g., ferrate, not ferrium)!</p>
@@ -352,13 +352,13 @@ export default function CoordinationChemistryFormulaPage() {
           <div className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/coordination-chemistry-calculators/coordination-number-calculator" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/chemistry-formulas/coordination-chemistry-formula" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Coordination Number Calculator</h3>
                 <p className="text-amber-100">Automated calculations</p>
               </Link>
-              <Link href="/coordination-chemistry-calculators/crystal-field-splitting-calculator" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/chemistry-formulas/crystal-field-theory" className="block p-6 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Crystal Field Splitting Calculator</h3>
-                <p className="text-amber-100">Calculate Δo and electron configurations</p>
+                <p className="text-amber-100">Calculate Î”o and electron configurations</p>
               </Link>
               <Link href="/chemistry-formulas/oxidation-number-formula" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Oxidation Numbers</h3>
@@ -368,7 +368,7 @@ export default function CoordinationChemistryFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Crystal Field Theory</h3>
                 <p className="text-gray-600 dark:text-gray-400">d-orbital splitting</p>
               </Link>
-              <Link href="/coordination-chemistry-calculators" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/chemistry-formulas/coordination-chemistry-formula" className="block p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">All Coordination Chemistry Calculators</h3>
                 <p className="text-gray-100">Explore all coordination chemistry tools</p>
               </Link>

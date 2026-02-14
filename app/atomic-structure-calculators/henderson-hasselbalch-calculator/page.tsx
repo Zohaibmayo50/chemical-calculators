@@ -6,7 +6,7 @@ import HendersonHassalbalchCalculator from '@/components/calculators/HendersonHa
 
 export const metadata: Metadata = {
   title: 'Henderson-Hasselbalch Calculator | Buffer pH Calculator | pKa Calculator',
-  description: 'Calculate buffer solution pH using the Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). Essential for acid-base chemistry and biochemistry.',
+  description: 'Calculate buffer solution pH using the Henderson-Hasselbalch equation: pH = pKa + log([Aâ»]/[HA]). Essential for acid-base chemistry and biochemistry.',
   alternates: {
     canonical: 'https://chemsolved.com/atomic-structure-calculators/henderson-hasselbalch-calculator',
   },
@@ -75,7 +75,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                   
                   <div className="bg-gradient-to-r from-tertiary-50 to-secondary-50 dark:from-gray-700 dark:to-gray-600 p-6 rounded-lg mb-6">
                     <p className="text-center text-2xl font-mono text-gray-900 dark:text-white mb-2">
-                      pH = pKa + log([A⁻]/[HA])
+                      pH = pKa + log([Aâ»]/[HA])
                     </p>
                     <p className="text-center text-sm text-gray-600 dark:text-gray-400">
                       Buffer Solution pH Calculation
@@ -85,16 +85,16 @@ export default function HendersonHassalbalchCalculatorPage() {
                   <div className="space-y-4 mb-6">
                     <div className="border-l-4 border-tertiary-500 pl-4">
                       <p className="font-semibold text-gray-900 dark:text-white">pH</p>
-                      <p className="text-gray-600 dark:text-gray-400">Measure of acidity/basicity (−log[H⁺])</p>
+                      <p className="text-gray-600 dark:text-gray-400">Measure of acidity/basicity (âˆ’log[Hâº])</p>
                     </div>
                     
                     <div className="border-l-4 border-tertiary-500 pl-4">
                       <p className="font-semibold text-gray-900 dark:text-white">pKa</p>
-                      <p className="text-gray-600 dark:text-gray-400">Acid dissociation constant (−log Ka), characteristic of each weak acid</p>
+                      <p className="text-gray-600 dark:text-gray-400">Acid dissociation constant (âˆ’log Ka), characteristic of each weak acid</p>
                     </div>
 
                     <div className="border-l-4 border-tertiary-500 pl-4">
-                      <p className="font-semibold text-gray-900 dark:text-white">[A⁻]</p>
+                      <p className="font-semibold text-gray-900 dark:text-white">[Aâ»]</p>
                       <p className="text-gray-600 dark:text-gray-400">Concentration of conjugate base (deprotonated form)</p>
                     </div>
 
@@ -112,28 +112,28 @@ export default function HendersonHassalbalchCalculatorPage() {
                     <p className="text-gray-700 dark:text-gray-300 mb-3">
                       Starting with the acid dissociation equilibrium:
                     </p>
-                    <p className="font-mono text-center text-lg mb-3">HA ⇌ H⁺ + A⁻</p>
+                    <p className="font-mono text-center text-lg mb-3">HA â‡Œ Hâº + Aâ»</p>
                     
                     <p className="text-gray-700 dark:text-gray-300 mb-2">
                       The equilibrium constant Ka:
                     </p>
-                    <p className="font-mono text-center text-lg mb-3">Ka = [H⁺][A⁻] / [HA]</p>
+                    <p className="font-mono text-center text-lg mb-3">Ka = [Hâº][Aâ»] / [HA]</p>
 
                     <p className="text-gray-700 dark:text-gray-300 mb-2">
-                      Rearranging for [H⁺]:
+                      Rearranging for [Hâº]:
                     </p>
-                    <p className="font-mono text-center text-lg mb-3">[H⁺] = Ka × [HA] / [A⁻]</p>
+                    <p className="font-mono text-center text-lg mb-3">[Hâº] = Ka Ã— [HA] / [Aâ»]</p>
 
                     <p className="text-gray-700 dark:text-gray-300 mb-2">
-                      Taking −log of both sides:
+                      Taking âˆ’log of both sides:
                     </p>
-                    <p className="font-mono text-center text-lg mb-3">−log[H⁺] = −log(Ka) − log([HA]/[A⁻])</p>
+                    <p className="font-mono text-center text-lg mb-3">âˆ’log[Hâº] = âˆ’log(Ka) âˆ’ log([HA]/[Aâ»])</p>
 
                     <p className="text-gray-700 dark:text-gray-300 mb-2">
-                      Since pH = −log[H⁺] and pKa = −log(Ka):
+                      Since pH = âˆ’log[Hâº] and pKa = âˆ’log(Ka):
                     </p>
                     <p className="font-mono text-center text-lg text-tertiary-600 dark:text-tertiary-400 font-bold">
-                      pH = pKa + log([A⁻]/[HA]) ✓
+                      pH = pKa + log([Aâ»]/[HA]) âœ“
                     </p>
                   </div>
 
@@ -147,7 +147,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                         When pH = pKa
                       </h4>
                       <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                        [A⁻] = [HA]
+                        [Aâ»] = [HA]
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         Equal amounts of acid and conjugate base. Optimal buffer capacity.
@@ -159,7 +159,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                         When pH &gt; pKa
                       </h4>
                       <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                        [A⁻] &gt; [HA]
+                        [Aâ»] &gt; [HA]
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         More conjugate base present. Solution is more basic.
@@ -171,7 +171,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                         When pH &lt; pKa
                       </h4>
                       <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                        [HA] &gt; [A⁻]
+                        [HA] &gt; [Aâ»]
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         More weak acid present. Solution is more acidic.
@@ -183,7 +183,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                         Buffer Range
                       </h4>
                       <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                        pH = pKa ± 1
+                        pH = pKa Â± 1
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         Effective buffering region. Resists pH changes.
@@ -198,20 +198,20 @@ export default function HendersonHassalbalchCalculatorPage() {
                   <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg mb-6">
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
                       <strong>Problem:</strong> What is the pH of a buffer containing 0.10 M acetic acid 
-                      (CH₃COOH, pKa = 4.76) and 0.15 M sodium acetate (CH₃COO⁻Na⁺)?
+                      (CHâ‚ƒCOOH, pKa = 4.76) and 0.15 M sodium acetate (CHâ‚ƒCOOâ»Naâº)?
                     </p>
 
                     <div className="space-y-3 text-gray-700 dark:text-gray-300">
                       <p><strong>Given:</strong></p>
                       <ul className="list-disc list-inside ml-4 space-y-1">
                         <li>pKa = 4.76</li>
-                        <li>[HA] = [CH₃COOH] = 0.10 M</li>
-                        <li>[A⁻] = [CH₃COO⁻] = 0.15 M</li>
+                        <li>[HA] = [CHâ‚ƒCOOH] = 0.10 M</li>
+                        <li>[Aâ»] = [CHâ‚ƒCOOâ»] = 0.15 M</li>
                       </ul>
 
                       <p className="mt-4"><strong>Solution:</strong></p>
                       <div className="font-mono bg-white dark:bg-gray-600 p-3 rounded">
-                        pH = pKa + log([A⁻]/[HA])<br />
+                        pH = pKa + log([Aâ»]/[HA])<br />
                         pH = 4.76 + log(0.15/0.10)<br />
                         pH = 4.76 + log(1.5)<br />
                         pH = 4.76 + 0.18<br />
@@ -280,37 +280,37 @@ export default function HendersonHassalbalchCalculatorPage() {
                   
                   <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧬</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§¬</span>
                       <div>
                         <strong>Biochemistry:</strong> Maintain optimal pH for enzyme activity and protein stability
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🩺</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ©º</span>
                       <div>
                         <strong>Physiology:</strong> Blood pH regulation through bicarbonate-carbonic acid buffer system
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">⚗️</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">âš—ï¸</span>
                       <div>
                         <strong>Analytical Chemistry:</strong> pH control for titrations, extractions, and chromatography
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💊</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’Š</span>
                       <div>
                         <strong>Pharmaceuticals:</strong> Drug formulation and stability at specific pH values
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧪</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§ª</span>
                       <div>
                         <strong>Chemical Synthesis:</strong> Control reaction conditions and product selectivity
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🌊</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸŒŠ</span>
                       <div>
                         <strong>Environmental Science:</strong> Monitor and control water pH in ecosystems
                       </div>
@@ -326,21 +326,21 @@ export default function HendersonHassalbalchCalculatorPage() {
                 {/* Quick Reference */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-300">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">📊</span>
+                    <span className="text-2xl">ðŸ“Š</span>
                     Quick Reference
                   </h3>
                   <div className="space-y-3 text-sm">
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Equation:</p>
-                      <p className="text-gray-600 dark:text-gray-400">pH = pKa + log([A⁻]/[HA])</p>
+                      <p className="text-gray-600 dark:text-gray-400">pH = pKa + log([Aâ»]/[HA])</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Optimal Buffer:</p>
-                      <p className="text-gray-600 dark:text-gray-400">pH = pKa ± 1 unit</p>
+                      <p className="text-gray-600 dark:text-gray-400">pH = pKa Â± 1 unit</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Best Capacity:</p>
-                      <p className="text-gray-600 dark:text-gray-400">When [A⁻] = [HA]</p>
+                      <p className="text-gray-600 dark:text-gray-400">When [Aâ»] = [HA]</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Common pKa:</p>
@@ -356,13 +356,13 @@ export default function HendersonHassalbalchCalculatorPage() {
                 {/* Related Calculators */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-400">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">🔗</span>
+                    <span className="text-2xl">ðŸ”—</span>
                     Related Calculators
                   </h3>
                   <ul className="space-y-3">
                     <li>
                       <Link 
-                        href="/concentration-and-solution-calculators/ph-and-poh-calculator"
+                        href="/atomic-structure-calculators/ph-calculator"
                         className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors"
                       >
                         pH and pOH Calculator
@@ -387,7 +387,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      <span className="text-2xl">📐</span>
+                      <span className="text-2xl">ðŸ“</span>
                       Related Formulas
                     </h3>
                     <ul className="space-y-3">
@@ -415,7 +415,7 @@ export default function HendersonHassalbalchCalculatorPage() {
                         href="/atomic-structure-calculators"
                         className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold"
                       >
-                        All Atomic Structure Calculators →
+                        All Atomic Structure Calculators â†’
                       </Link>
                     </li>
                   </ul>
@@ -424,33 +424,33 @@ export default function HendersonHassalbalchCalculatorPage() {
                 {/* Where It's Used */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-500">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">🎯</span>
+                    <span className="text-2xl">ðŸŽ¯</span>
                     Where It&apos;s Used
                   </h3>
                   <ul className="space-y-4 text-sm">
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">🧬</span>
+                      <span className="text-xl">ðŸ§¬</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Biochemistry</p>
                         <p className="text-gray-600 dark:text-gray-400">Enzyme activity optimization</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">🩺</span>
+                      <span className="text-xl">ðŸ©º</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Medicine</p>
                         <p className="text-gray-600 dark:text-gray-400">Blood pH regulation</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">💊</span>
+                      <span className="text-xl">ðŸ’Š</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Pharmacology</p>
                         <p className="text-gray-600 dark:text-gray-400">Drug formulation</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">⚗️</span>
+                      <span className="text-xl">âš—ï¸</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Analytical Chem</p>
                         <p className="text-gray-600 dark:text-gray-400">pH-controlled reactions</p>

@@ -21,9 +21,9 @@ export default function BalancingEquationsFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Balancing Equations</span>
           </nav>
         </div>
@@ -54,7 +54,7 @@ export default function BalancingEquationsFormulaPage() {
               </div>
 
               <div className="bg-white dark:bg-gray-700 rounded-lg p-6 font-mono text-center">
-                <p className="text-xl text-gray-800 dark:text-gray-200">aA + bB → cC + dD</p>
+                <p className="text-xl text-gray-800 dark:text-gray-200">aA + bB â†’ cC + dD</p>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">a, b, c, d are stoichiometric coefficients</p>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function BalancingEquationsFormulaPage() {
                 <div className="space-y-2 text-gray-700 dark:text-gray-300">
                   <p>1. Separate into oxidation and reduction half-reactions</p>
                   <p>2. Balance atoms except O and H</p>
-                  <p>3. Balance O with H₂O, then H with H⁺</p>
+                  <p>3. Balance O with Hâ‚‚O, then H with Hâº</p>
                   <p>4. Balance charge with electrons</p>
                   <p>5. Multiply to equalize electrons, then combine</p>
                 </div>
@@ -110,32 +110,32 @@ export default function BalancingEquationsFormulaPage() {
               <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-orange-900 dark:text-orange-300 mb-4">Example 1: Combustion (Inspection)</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Unbalanced:</strong> <span className="font-mono">C₃H₈ + O₂ → CO₂ + H₂O</span></p>
+                  <p><strong>Unbalanced:</strong> <span className="font-mono">Câ‚ƒHâ‚ˆ + Oâ‚‚ â†’ COâ‚‚ + Hâ‚‚O</span></p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6"><strong>Step 1:</strong> Balance C: 3 C on left → 3 CO₂ on right</p>
-                  <p className="ml-12 font-mono">C₃H₈ + O₂ → 3CO₂ + H₂O</p>
-                  <p className="ml-6"><strong>Step 2:</strong> Balance H: 8 H on left → 4 H₂O on right</p>
-                  <p className="ml-12 font-mono">C₃H₈ + O₂ → 3CO₂ + 4H₂O</p>
-                  <p className="ml-6"><strong>Step 3:</strong> Balance O: 10 O on right → 5 O₂ on left</p>
+                  <p className="ml-6"><strong>Step 1:</strong> Balance C: 3 C on left â†’ 3 COâ‚‚ on right</p>
+                  <p className="ml-12 font-mono">Câ‚ƒHâ‚ˆ + Oâ‚‚ â†’ 3COâ‚‚ + Hâ‚‚O</p>
+                  <p className="ml-6"><strong>Step 2:</strong> Balance H: 8 H on left â†’ 4 Hâ‚‚O on right</p>
+                  <p className="ml-12 font-mono">Câ‚ƒHâ‚ˆ + Oâ‚‚ â†’ 3COâ‚‚ + 4Hâ‚‚O</p>
+                  <p className="ml-6"><strong>Step 3:</strong> Balance O: 10 O on right â†’ 5 Oâ‚‚ on left</p>
                   <p className="ml-12 font-mono bg-green-50 dark:bg-green-900/20 p-3 rounded font-bold text-green-700 dark:text-green-400">
-                    C₃H₈ + 5O₂ → 3CO₂ + 4H₂O ✓
+                    Câ‚ƒHâ‚ˆ + 5Oâ‚‚ â†’ 3COâ‚‚ + 4Hâ‚‚O âœ“
                   </p>
-                  <p className="ml-6 mt-2"><strong>Check:</strong> C: 3=3, H: 8=8, O: 10=10 ✓</p>
+                  <p className="ml-6 mt-2"><strong>Check:</strong> C: 3=3, H: 8=8, O: 10=10 âœ“</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 2: Double Replacement</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Unbalanced:</strong> <span className="font-mono">Al(OH)₃ + H₂SO₄ → Al₂(SO₄)₃ + H₂O</span></p>
+                  <p><strong>Unbalanced:</strong> <span className="font-mono">Al(OH)â‚ƒ + Hâ‚‚SOâ‚„ â†’ Alâ‚‚(SOâ‚„)â‚ƒ + Hâ‚‚O</span></p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6"><strong>Step 1:</strong> Balance Al: 2 Al on right → 2 Al(OH)₃</p>
-                  <p className="ml-12 font-mono">2Al(OH)₃ + H₂SO₄ → Al₂(SO₄)₃ + H₂O</p>
-                  <p className="ml-6"><strong>Step 2:</strong> Balance SO₄: 3 SO₄ on right → 3 H₂SO₄</p>
-                  <p className="ml-12 font-mono">2Al(OH)₃ + 3H₂SO₄ → Al₂(SO₄)₃ + H₂O</p>
-                  <p className="ml-6"><strong>Step 3:</strong> Balance H₂O: 12 H on left → 6 H₂O</p>
+                  <p className="ml-6"><strong>Step 1:</strong> Balance Al: 2 Al on right â†’ 2 Al(OH)â‚ƒ</p>
+                  <p className="ml-12 font-mono">2Al(OH)â‚ƒ + Hâ‚‚SOâ‚„ â†’ Alâ‚‚(SOâ‚„)â‚ƒ + Hâ‚‚O</p>
+                  <p className="ml-6"><strong>Step 2:</strong> Balance SOâ‚„: 3 SOâ‚„ on right â†’ 3 Hâ‚‚SOâ‚„</p>
+                  <p className="ml-12 font-mono">2Al(OH)â‚ƒ + 3Hâ‚‚SOâ‚„ â†’ Alâ‚‚(SOâ‚„)â‚ƒ + Hâ‚‚O</p>
+                  <p className="ml-6"><strong>Step 3:</strong> Balance Hâ‚‚O: 12 H on left â†’ 6 Hâ‚‚O</p>
                   <p className="ml-12 font-mono bg-green-50 dark:bg-green-900/20 p-3 rounded font-bold text-green-700 dark:text-green-400">
-                    2Al(OH)₃ + 3H₂SO₄ → Al₂(SO₄)₃ + 6H₂O ✓
+                    2Al(OH)â‚ƒ + 3Hâ‚‚SOâ‚„ â†’ Alâ‚‚(SOâ‚„)â‚ƒ + 6Hâ‚‚O âœ“
                   </p>
                 </div>
               </div>
@@ -143,12 +143,12 @@ export default function BalancingEquationsFormulaPage() {
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 3: Synthesis with Fractions</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Unbalanced:</strong> <span className="font-mono">N₂ + H₂ → NH₃</span></p>
+                  <p><strong>Unbalanced:</strong> <span className="font-mono">Nâ‚‚ + Hâ‚‚ â†’ NHâ‚ƒ</span></p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">N₂ + H₂ → 2NH₃ (balance N)</p>
-                  <p className="ml-6">N₂ + 3H₂ → 2NH₃ (balance H: 6 H needed)</p>
+                  <p className="ml-6">Nâ‚‚ + Hâ‚‚ â†’ 2NHâ‚ƒ (balance N)</p>
+                  <p className="ml-6">Nâ‚‚ + 3Hâ‚‚ â†’ 2NHâ‚ƒ (balance H: 6 H needed)</p>
                   <p className="ml-12 font-mono bg-green-50 dark:bg-green-900/20 p-3 rounded font-bold text-green-700 dark:text-green-400">
-                    N₂ + 3H₂ → 2NH₃ ✓
+                    Nâ‚‚ + 3Hâ‚‚ â†’ 2NHâ‚ƒ âœ“
                   </p>
                 </div>
               </div>
@@ -162,31 +162,31 @@ export default function BalancingEquationsFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Changing Subscripts Instead of Coefficients</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Never change H₂O to H₃O - this changes the compound! Only add coefficients: 2H₂O</p>
+                  <p className="text-gray-700 dark:text-gray-300">Never change Hâ‚‚O to Hâ‚ƒO - this changes the compound! Only add coefficients: 2Hâ‚‚O</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting to Multiply Subscripts</h3>
-                  <p className="text-gray-700 dark:text-gray-300">In 2Al₂(SO₄)₃: Al=4, S=6, O=24 (multiply inside and outside parentheses)</p>
+                  <p className="text-gray-700 dark:text-gray-300">In 2Alâ‚‚(SOâ‚„)â‚ƒ: Al=4, S=6, O=24 (multiply inside and outside parentheses)</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Not Simplifying to Lowest Terms</h3>
-                  <p className="text-gray-700 dark:text-gray-300">2H₂ + 2Cl₂ → 4HCl should be simplified to H₂ + Cl₂ → 2HCl</p>
+                  <p className="text-gray-700 dark:text-gray-300">2Hâ‚‚ + 2Clâ‚‚ â†’ 4HCl should be simplified to Hâ‚‚ + Clâ‚‚ â†’ 2HCl</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Balance Most Complex Molecule First</h3>
                   <p className="text-gray-700 dark:text-gray-300">Start with the molecule containing the most elements</p>
@@ -194,9 +194,9 @@ export default function BalancingEquationsFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
-                  <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Leave Diatomic Elements (O₂, H₂) for Last</h3>
+                  <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Leave Diatomic Elements (Oâ‚‚, Hâ‚‚) for Last</h3>
                   <p className="text-gray-700 dark:text-gray-300">These are easier to balance after other atoms are set</p>
                 </div>
               </div>
@@ -220,7 +220,7 @@ export default function BalancingEquationsFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">All Stoichiometry Calculators</h3>
                 <p className="text-white/90">Explore all stoichiometry tools</p>
               </Link>
-              <Link href="/redox-calculators/redox-balancing-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/electrochemistry-calculators/redox-balancing-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Redox Balancing</h3>
                 <p className="text-gray-600 dark:text-gray-400">Half-reaction method</p>
               </Link>

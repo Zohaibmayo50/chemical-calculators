@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Graham\'s Law of Effusion | Rate₁/Rate₂ = √(M₂/M₁)',
+  title: 'Graham\'s Law of Effusion | Rateâ‚/Rateâ‚‚ = âˆš(Mâ‚‚/Mâ‚)',
   description: 'Master Graham\'s Law relating gas effusion rates to molar mass. Includes examples and gas calculator links.',
   keywords: 'Grahams law, effusion, diffusion, molar mass, gas velocity, kinetic molecular theory',
   alternates: {
@@ -40,13 +40,13 @@ export default function GrahamsLawPage() {
             <h2 className="text-3xl font-bold text-white mb-4 text-center">Graham's Law</h2>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <p className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
-                Rate₁ / Rate₂ = √(M₂/M₁)
+                Rateâ‚ / Rateâ‚‚ = âˆš(Mâ‚‚/Mâ‚)
               </p>
               <p className="text-gray-600 dark:text-gray-400 text-lg mb-4">
                 Or equivalently:
               </p>
               <p className="text-3xl font-bold text-gray-900 dark:text-white">
-                Rate₁ / Rate₂ = √(MM₂/MM₁)
+                Rateâ‚ / Rateâ‚‚ = âˆš(MMâ‚‚/MMâ‚)
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function GrahamsLawPage() {
                   How fast gas passes through opening or spreads
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  💡 Can also be velocity (m/s) or average speed
+                  ðŸ’¡ Can also be velocity (m/s) or average speed
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export default function GrahamsLawPage() {
                   Molecular weight of the gas
                 </p>
                 <p className="text-red-600 dark:text-red-400 text-sm mt-2">
-                  ⚠️ Notice: heavier gas (M₂) goes in numerator, making ratio less than 1
+                  âš ï¸ Notice: heavier gas (Mâ‚‚) goes in numerator, making ratio less than 1
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function GrahamsLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Key Concepts</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-lg p-6">
-                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">🎈 Effusion</h3>
+                <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">ðŸŽˆ Effusion</h3>
                 <p className="text-blue-800 dark:text-blue-200 text-sm mb-2">
                   Gas escaping through a tiny hole into vacuum
                 </p>
@@ -98,7 +98,7 @@ export default function GrahamsLawPage() {
               </div>
 
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-lg p-6">
-                <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">🌫️ Diffusion</h3>
+                <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">ðŸŒ«ï¸ Diffusion</h3>
                 <p className="text-green-800 dark:text-green-200 text-sm mb-2">
                   Gas spreading through space or another gas
                 </p>
@@ -109,12 +109,12 @@ export default function GrahamsLawPage() {
             </div>
 
             <div className="mt-6 bg-purple-50 dark:bg-purple-900/30 rounded-lg p-6">
-              <h3 className="font-bold text-purple-900 dark:text-purple-100 mb-3">⚡ The Inverse Relationship</h3>
+              <h3 className="font-bold text-purple-900 dark:text-purple-100 mb-3">âš¡ The Inverse Relationship</h3>
               <ul className="space-y-2 text-purple-800 dark:text-purple-200">
-                <li>• <strong>Lighter gas (lower M)</strong> → faster rate</li>
-                <li>• <strong>Heavier gas (higher M)</strong> → slower rate</li>
-                <li>• Rate ∝ 1/√M (inverse square root relationship)</li>
-                <li>• If M increases 4×, rate decreases 2× (√4 = 2)</li>
+                <li>â€¢ <strong>Lighter gas (lower M)</strong> â†’ faster rate</li>
+                <li>â€¢ <strong>Heavier gas (higher M)</strong> â†’ slower rate</li>
+                <li>â€¢ Rate âˆ 1/âˆšM (inverse square root relationship)</li>
+                <li>â€¢ If M increases 4Ã—, rate decreases 2Ã— (âˆš4 = 2)</li>
               </ul>
             </div>
           </section>
@@ -124,7 +124,7 @@ export default function GrahamsLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Step-by-Step Example</h2>
             <div className="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-xl p-8">
               <h3 className="text-2xl font-bold mb-4">
-                Problem: Compare effusion rates of He (4 g/mol) and O₂ (32 g/mol). How many times faster does He effuse?
+                Problem: Compare effusion rates of He (4 g/mol) and Oâ‚‚ (32 g/mol). How many times faster does He effuse?
               </h3>
               
               <div className="space-y-6">
@@ -132,41 +132,41 @@ export default function GrahamsLawPage() {
                   <h4 className="font-bold text-lg mb-2">Given:</h4>
                   <ul className="list-disc list-inside space-y-1">
                     <li>M(He) = 4 g/mol</li>
-                    <li>M(O₂) = 32 g/mol</li>
-                    <li>Find: Rate(He) / Rate(O₂)</li>
+                    <li>M(Oâ‚‚) = 32 g/mol</li>
+                    <li>Find: Rate(He) / Rate(Oâ‚‚)</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 1: Write Graham's Law</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    Rate(He) / Rate(O₂) = √[M(O₂) / M(He)]
+                    Rate(He) / Rate(Oâ‚‚) = âˆš[M(Oâ‚‚) / M(He)]
                   </p>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                    Note: Heavier gas (O₂) goes in numerator
+                    Note: Heavier gas (Oâ‚‚) goes in numerator
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 2: Substitute values</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    Rate(He) / Rate(O₂) = √(32/4) = √8
+                    Rate(He) / Rate(Oâ‚‚) = âˆš(32/4) = âˆš8
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 3: Calculate</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    √8 = 2.83
+                    âˆš8 = 2.83
                   </p>
                 </div>
 
                 <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg">
                   <p className="font-bold text-green-900 dark:text-green-100">
-                    Answer: He effuses 2.83 times faster than O₂
+                    Answer: He effuses 2.83 times faster than Oâ‚‚
                   </p>
                   <p className="text-sm mt-2">
-                    Makes sense! He is 8× lighter, so it moves √8 ≈ 2.83× faster.
+                    Makes sense! He is 8Ã— lighter, so it moves âˆš8 â‰ˆ 2.83Ã— faster.
                   </p>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function GrahamsLawPage() {
               <div className="bg-blue-100 dark:bg-blue-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">Find unknown molar mass:</h3>
                 <p className="text-xl font-bold text-blue-800 dark:text-blue-200 mb-2">
-                  M₂ = M₁ × (Rate₁/Rate₂)²
+                  Mâ‚‚ = Mâ‚ Ã— (Rateâ‚/Rateâ‚‚)Â²
                 </p>
                 <p className="text-sm text-blue-700 dark:text-blue-300">
                   Square both sides and solve
@@ -190,7 +190,7 @@ export default function GrahamsLawPage() {
               <div className="bg-purple-100 dark:bg-purple-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-purple-900 dark:text-purple-100 mb-3">Find rate ratio:</h3>
                 <p className="text-xl font-bold text-purple-800 dark:text-purple-200 mb-2">
-                  Rate₁/Rate₂ = √(M₂/M₁)
+                  Rateâ‚/Rateâ‚‚ = âˆš(Mâ‚‚/Mâ‚)
                 </p>
                 <p className="text-sm text-purple-700 dark:text-purple-300">
                   Standard form
@@ -200,7 +200,7 @@ export default function GrahamsLawPage() {
               <div className="bg-green-100 dark:bg-green-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">Using time instead:</h3>
                 <p className="text-xl font-bold text-green-800 dark:text-green-200 mb-2">
-                  t₁/t₂ = √(M₁/M₂)
+                  tâ‚/tâ‚‚ = âˆš(Mâ‚/Mâ‚‚)
                 </p>
                 <p className="text-sm text-green-700 dark:text-green-300">
                   Time ratio is inverted (slower = more time)
@@ -210,7 +210,7 @@ export default function GrahamsLawPage() {
               <div className="bg-orange-100 dark:bg-orange-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-orange-900 dark:text-orange-100 mb-3">For velocities:</h3>
                 <p className="text-xl font-bold text-orange-800 dark:text-orange-200 mb-2">
-                  v₁/v₂ = √(M₂/M₁)
+                  vâ‚/vâ‚‚ = âˆš(Mâ‚‚/Mâ‚)
                 </p>
                 <p className="text-sm text-orange-700 dark:text-orange-300">
                   Same relationship as rates
@@ -224,28 +224,28 @@ export default function GrahamsLawPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Putting lighter gas in numerator</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Putting lighter gas in numerator</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  It's √(M₂/M₁) with HEAVIER molar mass in numerator. Getting this backwards gives upside-down answer!
+                  It's âˆš(Mâ‚‚/Mâ‚) with HEAVIER molar mass in numerator. Getting this backwards gives upside-down answer!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Forgetting the square root</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Forgetting the square root</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  It's √(M₂/M₁), NOT just M₂/M₁. The square root is critical!
+                  It's âˆš(Mâ‚‚/Mâ‚), NOT just Mâ‚‚/Mâ‚. The square root is critical!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using atomic mass for molecules</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using atomic mass for molecules</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  For O₂, use 32 g/mol (molecular), not 16 g/mol (atomic). For H₂, use 2 g/mol, not 1 g/mol.
+                  For Oâ‚‚, use 32 g/mol (molecular), not 16 g/mol (atomic). For Hâ‚‚, use 2 g/mol, not 1 g/mol.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Confusing with Dalton's Law</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Confusing with Dalton's Law</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Graham's Law is about SPEED (how fast), Dalton's is about PRESSURE (how much). Different concepts!
                 </p>
@@ -267,7 +267,7 @@ export default function GrahamsLawPage() {
                 <p className="text-gray-600 dark:text-gray-400">Calculate diffusion rates</p>
               </Link>
 
-              <Link href="/general-chemistry-calculators/molar-mass-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/stoichiometry-calculators/molecular-weight-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Molar Mass Calculator</h3>
                 <p className="text-gray-600 dark:text-gray-400">Find MM from formula</p>
               </Link>
@@ -286,7 +286,7 @@ export default function GrahamsLawPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What is Graham's Law?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Rate₁/Rate₂ = √(M₂/M₁). The rate of gas effusion or diffusion is inversely proportional to the square root of molar mass. Lighter gases move faster.
+                  Rateâ‚/Rateâ‚‚ = âˆš(Mâ‚‚/Mâ‚). The rate of gas effusion or diffusion is inversely proportional to the square root of molar mass. Lighter gases move faster.
                 </p>
               </div>
 
@@ -300,14 +300,14 @@ export default function GrahamsLawPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Why does molar mass affect rate?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  From kinetic molecular theory: lighter molecules move faster at the same temperature because KE = ½mv². Same energy with less mass means higher velocity.
+                  From kinetic molecular theory: lighter molecules move faster at the same temperature because KE = Â½mvÂ². Same energy with less mass means higher velocity.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Why is there a square root?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Comes from kinetic energy equation: v ∝ √(T/M). Velocity is proportional to square root of temperature divided by mass.
+                  Comes from kinetic energy equation: v âˆ âˆš(T/M). Velocity is proportional to square root of temperature divided by mass.
                 </p>
               </div>
 
@@ -323,10 +323,10 @@ export default function GrahamsLawPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                ← Back to All Formulas
+                â† Back to All Formulas
               </Link>
               <Link href="/chemistry-formulas/half-life-formula" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Half-Life Formula →
+                Next: Half-Life Formula â†’
               </Link>
             </div>
           </div>

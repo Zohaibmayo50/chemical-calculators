@@ -46,10 +46,10 @@ export default function OxidationNumberCalculatorPage() {  return (
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
               <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">Key Concepts:</h3>
               <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                <li>• <strong>Positive oxidation number:</strong> Element has lost electrons (oxidized)</li>
-                <li>• <strong>Negative oxidation number:</strong> Element has gained electrons (reduced)</li>
-                <li>• <strong>Zero oxidation number:</strong> Free element or no net electron change</li>
-                <li>• <strong>Sum rule:</strong> Sum of oxidation numbers = overall charge of molecule/ion</li>
+                <li>â€¢ <strong>Positive oxidation number:</strong> Element has lost electrons (oxidized)</li>
+                <li>â€¢ <strong>Negative oxidation number:</strong> Element has gained electrons (reduced)</li>
+                <li>â€¢ <strong>Zero oxidation number:</strong> Free element or no net electron change</li>
+                <li>â€¢ <strong>Sum rule:</strong> Sum of oxidation numbers = overall charge of molecule/ion</li>
               </ul>
             </div>
           </section>
@@ -70,7 +70,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Examples: O₂, H₂, N₂, Fe, Cu, S₈ → all have oxidation number 0
+                    Examples: Oâ‚‚, Hâ‚‚, Nâ‚‚, Fe, Cu, Sâ‚ˆ â†’ all have oxidation number 0
                   </p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    Examples: Na⁺ = +1, Cl⁻ = -1, Ca²⁺ = +2, O²⁻ = -2, Al³⁺ = +3
+                    Examples: Naâº = +1, Clâ» = -1, CaÂ²âº = +2, OÂ²â» = -2, AlÂ³âº = +3
                   </p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    H₂O: H = +1 | HCl: H = +1 | NaH: H = -1 | LiH: H = -1
+                    Hâ‚‚O: H = +1 | HCl: H = +1 | NaH: H = -1 | LiH: H = -1
                   </p>
                 </div>
               </div>
@@ -112,7 +112,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    H₂O: O = -2 | CO₂: O = -2 | H₂O₂: O = -1 | OF₂: O = +2
+                    Hâ‚‚O: O = -2 | COâ‚‚: O = -2 | Hâ‚‚Oâ‚‚: O = -1 | OFâ‚‚: O = +2
                   </p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    NaCl: Na = +1 | KBr: K = +1 | Li₂O: Li = +1
+                    NaCl: Na = +1 | KBr: K = +1 | Liâ‚‚O: Li = +1
                   </p>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    MgCl₂: Mg = +2 | CaO: Ca = +2 | BaSO₄: Ba = +2
+                    MgClâ‚‚: Mg = +2 | CaO: Ca = +2 | BaSOâ‚„: Ba = +2
                   </p>
                 </div>
               </div>
@@ -154,7 +154,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    HCl: Cl = -1 | NaBr: Br = -1 | But in ClO₃⁻: Cl = +5 (not binary)
+                    HCl: Cl = -1 | NaBr: Br = -1 | But in ClOâ‚ƒâ»: Cl = +5 (not binary)
                   </p>
                 </div>
               </div>
@@ -172,9 +172,9 @@ export default function OxidationNumberCalculatorPage() {  return (
                 </ul>
                 <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded mt-2">
                   <p className="text-sm text-gray-700 dark:text-gray-300">
-                    H₂SO₄: (+1)×2 + S + (-2)×4 = 0 → S = +6
+                    Hâ‚‚SOâ‚„: (+1)Ã—2 + S + (-2)Ã—4 = 0 â†’ S = +6
                     <br />
-                    SO₄²⁻: S + (-2)×4 = -2 → S = +6
+                    SOâ‚„Â²â»: S + (-2)Ã—4 = -2 â†’ S = +6
                   </p>
                 </div>
               </div>
@@ -190,11 +190,11 @@ export default function OxidationNumberCalculatorPage() {  return (
             <div className="space-y-6">
               <div className="border-l-4 border-tertiary-500 pl-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white mb-2">
-                  Example 1: Sulfuric Acid (H₂SO₄)
+                  Example 1: Sulfuric Acid (Hâ‚‚SOâ‚„)
                 </h3>
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg space-y-2">
                   <p className="text-gray-700 dark:text-gray-300 text-sm">
-                    <strong>Given:</strong> H₂SO₄ is a neutral molecule (charge = 0)
+                    <strong>Given:</strong> Hâ‚‚SOâ‚„ is a neutral molecule (charge = 0)
                   </p>
                   <p className="text-gray-700 dark:text-gray-300 text-sm">
                     <strong>Known:</strong> H = +1, O = -2
@@ -214,11 +214,11 @@ export default function OxidationNumberCalculatorPage() {  return (
 
               <div className="border-l-4 border-secondary-500 pl-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white mb-2">
-                  Example 2: Dichromate Ion (Cr₂O₇²⁻)
+                  Example 2: Dichromate Ion (Crâ‚‚Oâ‚‡Â²â»)
                 </h3>
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg space-y-2">
                   <p className="text-gray-700 dark:text-gray-300 text-sm">
-                    <strong>Given:</strong> Cr₂O₇²⁻ has charge = -2
+                    <strong>Given:</strong> Crâ‚‚Oâ‚‡Â²â» has charge = -2
                   </p>
                   <p className="text-gray-700 dark:text-gray-300 text-sm">
                     <strong>Known:</strong> O = -2
@@ -240,11 +240,11 @@ export default function OxidationNumberCalculatorPage() {  return (
 
               <div className="border-l-4 border-primary-500 pl-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white mb-2">
-                  Example 3: Ammonia (NH₃)
+                  Example 3: Ammonia (NHâ‚ƒ)
                 </h3>
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg space-y-2">
                   <p className="text-gray-700 dark:text-gray-300 text-sm">
-                    <strong>Given:</strong> NH₃ is neutral (charge = 0)
+                    <strong>Given:</strong> NHâ‚ƒ is neutral (charge = 0)
                   </p>
                   <p className="text-gray-700 dark:text-gray-300 text-sm">
                     <strong>Known:</strong> H = +1
@@ -277,25 +277,25 @@ export default function OxidationNumberCalculatorPage() {  return (
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-red-50 dark:bg-red-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-red-900 dark:text-red-100 mb-2">
-                  🔺 Oxidation
+                  ðŸ”º Oxidation
                 </h3>
                 <ul className="text-sm text-red-800 dark:text-red-200 space-y-1">
-                  <li>• <strong>Increase</strong> in oxidation number</li>
-                  <li>• <strong>Loss</strong> of electrons</li>
-                  <li>• Element becomes more <strong>positive</strong></li>
-                  <li>• Example: Fe²⁺ → Fe³⁺ (+2 to +3)</li>
+                  <li>â€¢ <strong>Increase</strong> in oxidation number</li>
+                  <li>â€¢ <strong>Loss</strong> of electrons</li>
+                  <li>â€¢ Element becomes more <strong>positive</strong></li>
+                  <li>â€¢ Example: FeÂ²âº â†’ FeÂ³âº (+2 to +3)</li>
                 </ul>
               </div>
 
               <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">
-                  🔻 Reduction
+                  ðŸ”» Reduction
                 </h3>
                 <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                  <li>• <strong>Decrease</strong> in oxidation number</li>
-                  <li>• <strong>Gain</strong> of electrons</li>
-                  <li>• Element becomes more <strong>negative</strong></li>
-                  <li>• Example: Cu²⁺ → Cu (+ 2 to 0)</li>
+                  <li>â€¢ <strong>Decrease</strong> in oxidation number</li>
+                  <li>â€¢ <strong>Gain</strong> of electrons</li>
+                  <li>â€¢ Element becomes more <strong>negative</strong></li>
+                  <li>â€¢ Example: CuÂ²âº â†’ Cu (+ 2 to 0)</li>
                 </ul>
               </div>
             </div>
@@ -305,11 +305,11 @@ export default function OxidationNumberCalculatorPage() {  return (
                 Complete Redox Reaction Example:
               </h3>
               <p className="font-mono text-sm text-purple-800 dark:text-purple-200 mb-2">
-                Zn + Cu²⁺ → Zn²⁺ + Cu
+                Zn + CuÂ²âº â†’ ZnÂ²âº + Cu
               </p>
               <div className="text-sm text-purple-700 dark:text-purple-300 space-y-1">
-                <p>• <strong>Oxidation:</strong> Zn (0) → Zn²⁺ (+2) — loses 2e⁻</p>
-                <p>• <strong>Reduction:</strong> Cu²⁺ (+2) → Cu (0) — gains 2e⁻</p>
+                <p>â€¢ <strong>Oxidation:</strong> Zn (0) â†’ ZnÂ²âº (+2) â€” loses 2eâ»</p>
+                <p>â€¢ <strong>Reduction:</strong> CuÂ²âº (+2) â†’ Cu (0) â€” gains 2eâ»</p>
                 <p className="mt-2">Zinc is <strong>oxidized</strong> (reducing agent)</p>
                 <p>Copper is <strong>reduced</strong> (oxidizing agent)</p>
               </div>
@@ -323,42 +323,42 @@ export default function OxidationNumberCalculatorPage() {  return (
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2">⚡ Electrochemistry</h3>
+                <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2">âš¡ Electrochemistry</h3>
                 <ul className="text-sm text-green-800 dark:text-green-200 space-y-1">
-                  <li>• Battery reactions (Zn/Cu cells)</li>
-                  <li>• Electrolysis processes</li>
-                  <li>• Corrosion mechanisms</li>
-                  <li>• Fuel cells</li>
+                  <li>â€¢ Battery reactions (Zn/Cu cells)</li>
+                  <li>â€¢ Electrolysis processes</li>
+                  <li>â€¢ Corrosion mechanisms</li>
+                  <li>â€¢ Fuel cells</li>
                 </ul>
               </div>
 
               <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">🔬 Analytical Chemistry</h3>
+                <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">ðŸ”¬ Analytical Chemistry</h3>
                 <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                  <li>• Redox titrations</li>
-                  <li>• Identifying oxidizing/reducing agents</li>
-                  <li>• Balancing complex equations</li>
-                  <li>• Chemical analysis</li>
+                  <li>â€¢ Redox titrations</li>
+                  <li>â€¢ Identifying oxidizing/reducing agents</li>
+                  <li>â€¢ Balancing complex equations</li>
+                  <li>â€¢ Chemical analysis</li>
                 </ul>
               </div>
 
               <div className="bg-yellow-50 dark:bg-yellow-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">🏭 Industrial Chemistry</h3>
+                <h3 className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">ðŸ­ Industrial Chemistry</h3>
                 <ul className="text-sm text-yellow-800 dark:text-yellow-200 space-y-1">
-                  <li>• Metal extraction and refining</li>
-                  <li>• Bleaching processes</li>
-                  <li>• Water treatment</li>
-                  <li>• Manufacturing chemicals</li>
+                  <li>â€¢ Metal extraction and refining</li>
+                  <li>â€¢ Bleaching processes</li>
+                  <li>â€¢ Water treatment</li>
+                  <li>â€¢ Manufacturing chemicals</li>
                 </ul>
               </div>
 
               <div className="bg-purple-50 dark:bg-purple-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">🌱 Biological Systems</h3>
+                <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">ðŸŒ± Biological Systems</h3>
                 <ul className="text-sm text-purple-800 dark:text-purple-200 space-y-1">
-                  <li>• Cellular respiration</li>
-                  <li>• Photosynthesis</li>
-                  <li>• Enzyme reactions</li>
-                  <li>• Metabolic pathways</li>
+                  <li>â€¢ Cellular respiration</li>
+                  <li>â€¢ Photosynthesis</li>
+                  <li>â€¢ Enzyme reactions</li>
+                  <li>â€¢ Metabolic pathways</li>
                 </ul>
               </div>
             </div>
@@ -382,32 +382,32 @@ export default function OxidationNumberCalculatorPage() {  return (
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Nitrogen (N)</td>
                     <td className="px-4 py-2">-3, +3, +5</td>
-                    <td className="px-4 py-2">NH₃ (-3), HNO₂ (+3), HNO₃ (+5)</td>
+                    <td className="px-4 py-2">NHâ‚ƒ (-3), HNOâ‚‚ (+3), HNOâ‚ƒ (+5)</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Sulfur (S)</td>
                     <td className="px-4 py-2">-2, +4, +6</td>
-                    <td className="px-4 py-2">H₂S (-2), SO₂ (+4), H₂SO₄ (+6)</td>
+                    <td className="px-4 py-2">Hâ‚‚S (-2), SOâ‚‚ (+4), Hâ‚‚SOâ‚„ (+6)</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Chlorine (Cl)</td>
                     <td className="px-4 py-2">-1, +1, +3, +5, +7</td>
-                    <td className="px-4 py-2">HCl (-1), ClO₃⁻ (+5), ClO₄⁻ (+7)</td>
+                    <td className="px-4 py-2">HCl (-1), ClOâ‚ƒâ» (+5), ClOâ‚„â» (+7)</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Iron (Fe)</td>
                     <td className="px-4 py-2">+2, +3</td>
-                    <td className="px-4 py-2">FeCl₂ (+2), Fe₂O₃ (+3)</td>
+                    <td className="px-4 py-2">FeClâ‚‚ (+2), Feâ‚‚Oâ‚ƒ (+3)</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Manganese (Mn)</td>
                     <td className="px-4 py-2">+2, +4, +7</td>
-                    <td className="px-4 py-2">MnCl₂ (+2), MnO₂ (+4), KMnO₄ (+7)</td>
+                    <td className="px-4 py-2">MnClâ‚‚ (+2), MnOâ‚‚ (+4), KMnOâ‚„ (+7)</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Chromium (Cr)</td>
                     <td className="px-4 py-2">+3, +6</td>
-                    <td className="px-4 py-2">Cr₂O₃ (+3), K₂Cr₂O₇ (+6)</td>
+                    <td className="px-4 py-2">Crâ‚‚Oâ‚ƒ (+3), Kâ‚‚Crâ‚‚Oâ‚‡ (+6)</td>
                   </tr>
                 </tbody>
               </table>
@@ -421,15 +421,15 @@ export default function OxidationNumberCalculatorPage() {  return (
               <div className="sticky top-24">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    🔗 Related Calculators
+                    ðŸ”— Related Calculators
                   </h3>
                   <ul className="space-y-3">
                     <li>
                       <a
-                        href="/redox-calculators/redox-balancing-calculator"
+                        href="/electrochemistry-calculators/redox-balancing-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>→</span>
+                        <span>â†’</span>
                         <span>Redox Balancing Calculator</span>
                       </a>
                     </li>
@@ -438,7 +438,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                         href="/electrochemistry-calculators/cell-potential-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>→</span>
+                        <span>â†’</span>
                         <span>Cell Potential Calculator</span>
                       </a>
                     </li>
@@ -447,7 +447,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                         href="/electrochemistry-calculators/electrolysis-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>→</span>
+                        <span>â†’</span>
                         <span>Electrolysis Calculator</span>
                       </a>
                     </li>
@@ -455,7 +455,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                   
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      📐 Related Formulas
+                      ðŸ“ Related Formulas
                     </h3>
                     <ul className="space-y-3">
                       <li>
@@ -463,7 +463,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                           href="/chemistry-formulas/oxidation-number-formula"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>→</span>
+                          <span>â†’</span>
                           <span>Oxidation Number Formula</span>
                         </a>
                       </li>
@@ -472,7 +472,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                           href="/chemistry-formulas/oxidation-number-rules"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>→</span>
+                          <span>â†’</span>
                           <span>Oxidation Number Rules</span>
                         </a>
                       </li>
@@ -481,10 +481,10 @@ export default function OxidationNumberCalculatorPage() {  return (
                   
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <a
-                      href="/redox-calculators"
+                      href="/electrochemistry-calculators"
                       className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      All Redox Calculators →
+                      All Electrochemistry Calculators â†’
                     </a>
                   </div>
                 </div>
@@ -502,7 +502,7 @@ export default function OxidationNumberCalculatorPage() {  return (
             "@type": "SoftwareApplication",
             "name": "Oxidation Number Calculator",
             "description": "Oxidation Number Calculator on ChemSolved",
-            "url": "https://chemsolved.com/redox-calculators/oxidation-number-calculator",
+            "url": "https://chemsolved.com/electrochemistry-calculators/oxidation-number-calculator",
             "applicationCategory": "EducationalApplication",
             "operatingSystem": "Web",
             "offers": {
@@ -536,7 +536,7 @@ export default function OxidationNumberCalculatorPage() {  return (
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Oxidation Number Calculator",
-                "item": "https://chemsolved.com/redox-calculators/oxidation-number-calculator"
+                "item": "https://chemsolved.com/electrochemistry-calculators/oxidation-number-calculator"
               }
             ]
           })

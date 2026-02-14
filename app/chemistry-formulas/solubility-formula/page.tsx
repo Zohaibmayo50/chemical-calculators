@@ -21,9 +21,9 @@ export default function SolubilityFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Solubility</span>
           </nav>
         </div>
@@ -46,10 +46,10 @@ export default function SolubilityFormulaPage() {
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">General Equilibrium</h3>
                 <div className="bg-white dark:bg-gray-700 rounded-lg p-6">
                   <p className="text-2xl font-mono font-bold text-blue-900 dark:text-blue-300 text-center mb-4">
-                    AₓBᵧ(s) ⇌ xA⁺(aq) + yB⁻(aq)
+                    Aâ‚“Báµ§(s) â‡Œ xAâº(aq) + yBâ»(aq)
                   </p>
                   <p className="text-xl font-mono text-center text-gray-700 dark:text-gray-300">
-                    Ksp = [A⁺]ˣ[B⁻]ʸ
+                    Ksp = [Aâº]Ë£[Bâ»]Ê¸
                   </p>
                 </div>
               </div>
@@ -72,30 +72,30 @@ export default function SolubilityFormulaPage() {
             <div className="space-y-4">
               <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-blue-900 dark:text-blue-300 mb-3">AB Type (1:1)</h3>
-                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">AgCl ⇌ Ag⁺ + Cl⁻</p>
-                <p className="font-mono text-blue-900 dark:text-blue-300">Ksp = [Ag⁺][Cl⁻] = s²</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = √Ksp</p>
+                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">AgCl â‡Œ Agâº + Clâ»</p>
+                <p className="font-mono text-blue-900 dark:text-blue-300">Ksp = [Agâº][Clâ»] = sÂ²</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = âˆšKsp</p>
               </div>
 
               <div className="bg-indigo-50 dark:bg-indigo-900/20 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-indigo-900 dark:text-indigo-300 mb-3">AB₂ Type (1:2)</h3>
-                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">CaF₂ ⇌ Ca²⁺ + 2F⁻</p>
-                <p className="font-mono text-indigo-900 dark:text-indigo-300">Ksp = [Ca²⁺][F⁻]² = s(2s)² = 4s³</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = ∛(Ksp/4)</p>
+                <h3 className="text-lg font-bold text-indigo-900 dark:text-indigo-300 mb-3">ABâ‚‚ Type (1:2)</h3>
+                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">CaFâ‚‚ â‡Œ CaÂ²âº + 2Fâ»</p>
+                <p className="font-mono text-indigo-900 dark:text-indigo-300">Ksp = [CaÂ²âº][Fâ»]Â² = s(2s)Â² = 4sÂ³</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = âˆ›(Ksp/4)</p>
               </div>
 
               <div className="bg-purple-50 dark:bg-purple-900/20 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-purple-900 dark:text-purple-300 mb-3">A₂B Type (2:1)</h3>
-                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">Ag₂CrO₄ ⇌ 2Ag⁺ + CrO₄²⁻</p>
-                <p className="font-mono text-purple-900 dark:text-purple-300">Ksp = [Ag⁺]²[CrO₄²⁻] = (2s)²s = 4s³</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = ∛(Ksp/4)</p>
+                <h3 className="text-lg font-bold text-purple-900 dark:text-purple-300 mb-3">Aâ‚‚B Type (2:1)</h3>
+                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">Agâ‚‚CrOâ‚„ â‡Œ 2Agâº + CrOâ‚„Â²â»</p>
+                <p className="font-mono text-purple-900 dark:text-purple-300">Ksp = [Agâº]Â²[CrOâ‚„Â²â»] = (2s)Â²s = 4sÂ³</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = âˆ›(Ksp/4)</p>
               </div>
 
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
             <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Related Calculators</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <a href="/solution-calculators/solubility-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <a href="/chemistry-formulas/solubility-formula" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Solubility Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate Ksp and molar solubility</p>
               </a>
@@ -105,9 +105,9 @@ export default function SolubilityFormulaPage() {
               </a>
               <a href="/chemistry-formulas/solubility-product-constant-ksp" className="p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-green-900 mb-2">Solubility Product Constant</h3>
-                <p className="text-sm text-gray-600">K<sub>sp</sub> = [A⁺]^x[B⁻]^y</p>
+                <p className="text-sm text-gray-600">K<sub>sp</sub> = [Aâº]^x[Bâ»]^y</p>
               </a>
-              <a href="/solution-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <a href="/concentration-and-solution-calculators" className="p-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold mb-2">All Solution Calculators</h3>
                 <p className="text-sm opacity-90">Explore all solution tools</p>
               </a>
@@ -116,10 +116,10 @@ export default function SolubilityFormulaPage() {
         </section>
 
               <div className="bg-violet-50 dark:bg-violet-900/20 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-violet-900 dark:text-violet-300 mb-3">A₃B Type (3:1)</h3>
-                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">Ca₃(PO₄)₂ ⇌ 3Ca²⁺ + 2PO₄³⁻</p>
-                <p className="font-mono text-violet-900 dark:text-violet-300">Ksp = [Ca²⁺]³[PO₄³⁻]² = (3s)³(2s)² = 108s⁵</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = ⁵√(Ksp/108)</p>
+                <h3 className="text-lg font-bold text-violet-900 dark:text-violet-300 mb-3">Aâ‚ƒB Type (3:1)</h3>
+                <p className="font-mono text-gray-700 dark:text-gray-300 mb-2">Caâ‚ƒ(POâ‚„)â‚‚ â‡Œ 3CaÂ²âº + 2POâ‚„Â³â»</p>
+                <p className="font-mono text-violet-900 dark:text-violet-300">Ksp = [CaÂ²âº]Â³[POâ‚„Â³â»]Â² = (3s)Â³(2s)Â² = 108sâµ</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">s = âµâˆš(Ksp/108)</p>
               </div>
             </div>
           </div>
@@ -133,44 +133,44 @@ export default function SolubilityFormulaPage() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: Simple 1:1 Solubility</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> AgCl has Ksp = 1.8 × 10⁻¹⁰. Find molar solubility.</p>
+                  <p><strong>Problem:</strong> AgCl has Ksp = 1.8 Ã— 10â»Â¹â°. Find molar solubility.</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">AgCl ⇌ Ag⁺ + Cl⁻</p>
-                  <p className="ml-6">Ksp = [Ag⁺][Cl⁻] = s × s = s²</p>
-                  <p className="ml-6">1.8 × 10⁻¹⁰ = s²</p>
-                  <p className="ml-6">s = √(1.8 × 10⁻¹⁰)</p>
-                  <p className="ml-6 font-bold text-green-600">s = 1.3 × 10⁻⁵ M</p>
+                  <p className="ml-6">AgCl â‡Œ Agâº + Clâ»</p>
+                  <p className="ml-6">Ksp = [Agâº][Clâ»] = s Ã— s = sÂ²</p>
+                  <p className="ml-6">1.8 Ã— 10â»Â¹â° = sÂ²</p>
+                  <p className="ml-6">s = âˆš(1.8 Ã— 10â»Â¹â°)</p>
+                  <p className="ml-6 font-bold text-green-600">s = 1.3 Ã— 10â»âµ M</p>
                   <p className="ml-6 text-sm text-blue-600 mt-2">(Very low solubility - AgCl is "insoluble")</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: 1:2 Solubility (CaF₂)</h3>
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: 1:2 Solubility (CaFâ‚‚)</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> CaF₂ has Ksp = 3.9 × 10⁻¹¹. Find molar solubility.</p>
+                  <p><strong>Problem:</strong> CaFâ‚‚ has Ksp = 3.9 Ã— 10â»Â¹Â¹. Find molar solubility.</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">CaF₂ ⇌ Ca²⁺ + 2F⁻</p>
+                  <p className="ml-6">CaFâ‚‚ â‡Œ CaÂ²âº + 2Fâ»</p>
                   <p className="ml-6">If s mol/L dissolves:</p>
-                  <p className="ml-12">[Ca²⁺] = s, [F⁻] = 2s</p>
-                  <p className="ml-6">Ksp = [Ca²⁺][F⁻]² = s(2s)² = 4s³</p>
-                  <p className="ml-6">3.9 × 10⁻¹¹ = 4s³</p>
-                  <p className="ml-6">s³ = 9.75 × 10⁻¹²</p>
-                  <p className="ml-6 font-bold text-green-600">s = 2.1 × 10⁻⁴ M</p>
+                  <p className="ml-12">[CaÂ²âº] = s, [Fâ»] = 2s</p>
+                  <p className="ml-6">Ksp = [CaÂ²âº][Fâ»]Â² = s(2s)Â² = 4sÂ³</p>
+                  <p className="ml-6">3.9 Ã— 10â»Â¹Â¹ = 4sÂ³</p>
+                  <p className="ml-6">sÂ³ = 9.75 Ã— 10â»Â¹Â²</p>
+                  <p className="ml-6 font-bold text-green-600">s = 2.1 Ã— 10â»â´ M</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-cyan-900/20 dark:to-blue-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-cyan-900 dark:text-cyan-300 mb-4">Example 3: Common Ion Effect</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> Find solubility of AgCl in 0.10 M NaCl. Ksp(AgCl) = 1.8 × 10⁻¹⁰</p>
+                  <p><strong>Problem:</strong> Find solubility of AgCl in 0.10 M NaCl. Ksp(AgCl) = 1.8 Ã— 10â»Â¹â°</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">Initial [Cl⁻] = 0.10 M from NaCl</p>
-                  <p className="ml-6">AgCl ⇌ Ag⁺ + Cl⁻</p>
-                  <p className="ml-6">[Ag⁺] = s, [Cl⁻] = 0.10 + s ≈ 0.10 M (s very small)</p>
+                  <p className="ml-6">Initial [Clâ»] = 0.10 M from NaCl</p>
+                  <p className="ml-6">AgCl â‡Œ Agâº + Clâ»</p>
+                  <p className="ml-6">[Agâº] = s, [Clâ»] = 0.10 + s â‰ˆ 0.10 M (s very small)</p>
                   <p className="ml-6">Ksp = s(0.10)</p>
-                  <p className="ml-6">1.8 × 10⁻¹⁰ = 0.10s</p>
-                  <p className="ml-6 font-bold text-green-600">s = 1.8 × 10⁻⁹ M</p>
-                  <p className="ml-6 text-sm text-red-600 mt-2">140× less soluble than in pure water!</p>
+                  <p className="ml-6">1.8 Ã— 10â»Â¹â° = 0.10s</p>
+                  <p className="ml-6 font-bold text-green-600">s = 1.8 Ã— 10â»â¹ M</p>
+                  <p className="ml-6 text-sm text-red-600 mt-2">140Ã— less soluble than in pure water!</p>
                 </div>
               </div>
             </div>
@@ -185,19 +185,19 @@ export default function SolubilityFormulaPage() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Reaction Quotient (Q)</h3>
                 <div className="bg-white dark:bg-gray-700 rounded-lg p-4 font-mono text-center mb-4">
-                  Q = [A⁺]ˣ[B⁻]ʸ
+                  Q = [Aâº]Ë£[Bâ»]Ê¸
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
-                    <span className="text-green-600 font-bold">✓</span>
+                    <span className="text-green-600 font-bold">âœ“</span>
                     <p className="text-gray-700 dark:text-gray-300"><strong>Q &lt; Ksp:</strong> Unsaturated - no precipitation</p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-blue-600 font-bold">⚡</span>
+                    <span className="text-blue-600 font-bold">âš¡</span>
                     <p className="text-gray-700 dark:text-gray-300"><strong>Q = Ksp:</strong> Saturated equilibrium</p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-red-600 font-bold">⚠</span>
+                    <span className="text-red-600 font-bold">âš </span>
                     <p className="text-gray-700 dark:text-gray-300"><strong>Q &gt; Ksp:</strong> Supersaturated - precipitation occurs</p>
                   </div>
                 </div>
@@ -212,15 +212,15 @@ export default function SolubilityFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong Ksp Expression</h3>
-                  <p className="text-gray-700 dark:text-gray-300">For CaF₂: Ksp = s(2s)², NOT s³. Must account for stoichiometric coefficients!</p>
+                  <p className="text-gray-700 dark:text-gray-300">For CaFâ‚‚: Ksp = s(2s)Â², NOT sÂ³. Must account for stoichiometric coefficients!</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Ignoring Common Ion</h3>
                   <p className="text-gray-700 dark:text-gray-300">Solubility decreases in presence of common ion - use initial concentration</p>
@@ -228,18 +228,18 @@ export default function SolubilityFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
-                  <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Ksp ≠ Solubility</h3>
+                  <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Ksp â‰  Solubility</h3>
                   <p className="text-gray-700 dark:text-gray-300">Ksp is equilibrium constant. Solubility (s) is calculated FROM Ksp.</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Temperature Dependence</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Ksp varies with temperature - values given are typically at 25°C</p>
+                  <p className="text-gray-700 dark:text-gray-300">Ksp varies with temperature - values given are typically at 25Â°C</p>
                 </div>
               </div>
             </div>

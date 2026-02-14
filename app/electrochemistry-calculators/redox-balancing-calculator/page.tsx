@@ -499,10 +499,10 @@ export default function RedoxBalancingPage() {  return (
                   
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <a
-                      href="/redox-calculators"
+                      href="/electrochemistry-calculators"
                       className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      All Redox Calculators →
+                      All Electrochemistry Calculators →
                     </a>
                   </div>
                 </div>
@@ -520,7 +520,7 @@ export default function RedoxBalancingPage() {  return (
             "@type": "SoftwareApplication",
             "name": "Redox Balancing Calculator",
             "description": "Redox Balancing Calculator on ChemSolved",
-            "url": "https://chemsolved.com/redox-calculators/redox-balancing-calculator",
+            "url": "https://chemsolved.com/electrochemistry-calculators/redox-balancing-calculator",
             "applicationCategory": "EducationalApplication",
             "operatingSystem": "Web",
             "offers": {
@@ -554,7 +554,7 @@ export default function RedoxBalancingPage() {  return (
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Redox Balancing Calculator",
-                "item": "https://chemsolved.com/redox-calculators/redox-balancing-calculator"
+                "item": "https://chemsolved.com/electrochemistry-calculators/redox-balancing-calculator"
               }
             ]
           })

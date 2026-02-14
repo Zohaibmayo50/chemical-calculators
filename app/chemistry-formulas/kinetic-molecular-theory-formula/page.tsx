@@ -21,9 +21,9 @@ export default function KineticMolecularTheoryFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>→</span>
+            <span>â†’</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>→</span>
+            <span>â†’</span>
             <span className="text-gray-900 dark:text-white font-medium">Kinetic Molecular Theory</span>
           </nav>
         </div>
@@ -114,10 +114,10 @@ export default function KineticMolecularTheoryFormulaPage() {
                 <div className="space-y-2 text-gray-700 dark:text-gray-300">
                   <p><strong>Where:</strong></p>
                   <ul className="ml-6 space-y-1">
-                    <li>• KE<sub>avg</sub> = average kinetic energy per mole (J/mol) or per particle (J)</li>
-                    <li>• R = 8.314 J/(mol·K) (per mole)</li>
-                    <li>• k<sub>B</sub> = 1.381 × 10⁻²³ J/K (Boltzmann constant, per particle)</li>
-                    <li>• T = temperature (K)</li>
+                    <li>â€¢ KE<sub>avg</sub> = average kinetic energy per mole (J/mol) or per particle (J)</li>
+                    <li>â€¢ R = 8.314 J/(molÂ·K) (per mole)</li>
+                    <li>â€¢ k<sub>B</sub> = 1.381 Ã— 10â»Â²Â³ J/K (Boltzmann constant, per particle)</li>
+                    <li>â€¢ T = temperature (K)</li>
                   </ul>
                 </div>
               </div>
@@ -126,21 +126,21 @@ export default function KineticMolecularTheoryFormulaPage() {
                 <h3 className="text-2xl font-bold text-purple-900 dark:text-purple-300 mb-4">Root Mean Square (RMS) Speed</h3>
                 <div className="bg-white dark:bg-gray-700 rounded-xl p-6 text-center mb-4">
                   <p className="text-4xl font-bold text-purple-700 dark:text-purple-300 mb-3">
-                    u<sub>rms</sub> = √(3RT/M)
+                    u<sub>rms</sub> = âˆš(3RT/M)
                   </p>
                   <p className="text-xl text-gray-600 dark:text-gray-400 mt-3">or</p>
                   <p className="text-3xl font-bold text-purple-700 dark:text-purple-300 mt-3">
-                    u<sub>rms</sub> = √(3k<sub>B</sub>T/m)
+                    u<sub>rms</sub> = âˆš(3k<sub>B</sub>T/m)
                   </p>
                 </div>
                 <div className="space-y-2 text-gray-700 dark:text-gray-300">
                   <p><strong>Where:</strong></p>
                   <ul className="ml-6 space-y-1">
-                    <li>• u<sub>rms</sub> = root mean square speed (m/s)</li>
-                    <li>• R = 8.314 J/(mol·K)</li>
-                    <li>• T = temperature (K)</li>
-                    <li>• M = molar mass (kg/mol) - MUST be in kg!</li>
-                    <li>• m = mass of one molecule (kg)</li>
+                    <li>â€¢ u<sub>rms</sub> = root mean square speed (m/s)</li>
+                    <li>â€¢ R = 8.314 J/(molÂ·K)</li>
+                    <li>â€¢ T = temperature (K)</li>
+                    <li>â€¢ M = molar mass (kg/mol) - MUST be in kg!</li>
+                    <li>â€¢ m = mass of one molecule (kg)</li>
                   </ul>
                 </div>
               </div>
@@ -149,14 +149,14 @@ export default function KineticMolecularTheoryFormulaPage() {
                 <h3 className="text-2xl font-bold text-green-900 dark:text-green-300 mb-4">Relationship Between KE and Speed</h3>
                 <div className="bg-white dark:bg-gray-700 rounded-xl p-6 text-center mb-4">
                   <p className="text-4xl font-bold text-green-700 dark:text-green-300">
-                    KE = (1/2)mu²
+                    KE = (1/2)muÂ²
                   </p>
                 </div>
                 <div className="space-y-2 text-gray-700 dark:text-gray-300">
                   <p><strong>Where:</strong></p>
                   <ul className="ml-6 space-y-1">
-                    <li>• m = mass of particle (kg)</li>
-                    <li>• u = speed of particle (m/s)</li>
+                    <li>â€¢ m = mass of particle (kg)</li>
+                    <li>â€¢ u = speed of particle (m/s)</li>
                   </ul>
                 </div>
               </div>
@@ -170,21 +170,21 @@ export default function KineticMolecularTheoryFormulaPage() {
             
             <div className="space-y-8">
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: RMS Speed of O₂</h3>
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: RMS Speed of Oâ‚‚</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> Calculate the RMS speed of O₂ molecules at 25°C.</p>
+                  <p><strong>Problem:</strong> Calculate the RMS speed of Oâ‚‚ molecules at 25Â°C.</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
                   <p className="ml-6">Step 1: Convert temperature to Kelvin</p>
                   <p className="ml-12">T = 25 + 273.15 = 298.15 K</p>
                   
                   <p className="ml-6 mt-3">Step 2: Get molar mass in kg/mol</p>
-                  <p className="ml-12">M(O₂) = 32.00 g/mol = 0.03200 kg/mol</p>
+                  <p className="ml-12">M(Oâ‚‚) = 32.00 g/mol = 0.03200 kg/mol</p>
                   
                   <p className="ml-6 mt-3">Step 3: Apply formula</p>
-                  <p className="ml-12">u<sub>rms</sub> = √(3RT/M)</p>
-                  <p className="ml-12">u<sub>rms</sub> = √[(3)(8.314)(298.15) / 0.03200]</p>
-                  <p className="ml-12">u<sub>rms</sub> = √(232,214)</p>
+                  <p className="ml-12">u<sub>rms</sub> = âˆš(3RT/M)</p>
+                  <p className="ml-12">u<sub>rms</sub> = âˆš[(3)(8.314)(298.15) / 0.03200]</p>
+                  <p className="ml-12">u<sub>rms</sub> = âˆš(232,214)</p>
                   
                   <p className="ml-6 font-bold text-green-600 text-xl mt-4">u<sub>rms</sub> = 482 m/s</p>
                 </div>
@@ -193,21 +193,21 @@ export default function KineticMolecularTheoryFormulaPage() {
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: Comparing Speeds</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Problem:</strong> Which moves faster at the same temperature: H₂ or N₂?</p>
+                  <p><strong>Problem:</strong> Which moves faster at the same temperature: Hâ‚‚ or Nâ‚‚?</p>
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">Since u<sub>rms</sub> = √(3RT/M), and T is constant:</p>
-                  <p className="ml-12">u<sub>rms</sub> ∝ 1/√M</p>
+                  <p className="ml-6">Since u<sub>rms</sub> = âˆš(3RT/M), and T is constant:</p>
+                  <p className="ml-12">u<sub>rms</sub> âˆ 1/âˆšM</p>
                   
                   <p className="ml-6 mt-3">Lighter gas moves faster!</p>
-                  <p className="ml-12">M(H₂) = 2.02 g/mol</p>
-                  <p className="ml-12">M(N₂) = 28.02 g/mol</p>
+                  <p className="ml-12">M(Hâ‚‚) = 2.02 g/mol</p>
+                  <p className="ml-12">M(Nâ‚‚) = 28.02 g/mol</p>
                   
                   <p className="ml-6 mt-3">Speed ratio:</p>
-                  <p className="ml-12">u(H₂)/u(N₂) = √[M(N₂)/M(H₂)]</p>
-                  <p className="ml-12">u(H₂)/u(N₂) = √(28.02/2.02) = √13.87 = 3.72</p>
+                  <p className="ml-12">u(Hâ‚‚)/u(Nâ‚‚) = âˆš[M(Nâ‚‚)/M(Hâ‚‚)]</p>
+                  <p className="ml-12">u(Hâ‚‚)/u(Nâ‚‚) = âˆš(28.02/2.02) = âˆš13.87 = 3.72</p>
                   
-                  <p className="ml-6 font-bold text-green-600 text-xl mt-4">H₂ moves 3.72× faster than N₂</p>
+                  <p className="ml-6 font-bold text-green-600 text-xl mt-4">Hâ‚‚ moves 3.72Ã— faster than Nâ‚‚</p>
                 </div>
               </div>
 
@@ -218,7 +218,7 @@ export default function KineticMolecularTheoryFormulaPage() {
                   
                   <p className="mt-4"><strong>Solution:</strong></p>
                   <p className="ml-6">KE<sub>avg</sub> = (3/2)RT</p>
-                  <p className="ml-6">KE<sub>avg</sub> = (3/2)(8.314 J/mol·K)(300 K)</p>
+                  <p className="ml-6">KE<sub>avg</sub> = (3/2)(8.314 J/molÂ·K)(300 K)</p>
                   <p className="ml-6">KE<sub>avg</sub> = 3741 J/mol</p>
                   
                   <p className="ml-6 font-bold text-green-600 text-xl mt-4">KE<sub>avg</sub> = 3.74 kJ/mol</p>
@@ -241,17 +241,17 @@ export default function KineticMolecularTheoryFormulaPage() {
               <div className="space-y-3 text-gray-700 dark:text-gray-300">
                 <p><strong>Key Observations:</strong></p>
                 <ul className="ml-6 space-y-2">
-                  <li>• <strong>Higher T → Higher average speed</strong></li>
-                  <li>• <strong>Higher T → Broader distribution</strong> (more variation in speeds)</li>
-                  <li>• <strong>Higher T → Lower peak</strong> (but wider curve)</li>
-                  <li>• At <strong>absolute zero (0 K)</strong>, all molecular motion stops</li>
+                  <li>â€¢ <strong>Higher T â†’ Higher average speed</strong></li>
+                  <li>â€¢ <strong>Higher T â†’ Broader distribution</strong> (more variation in speeds)</li>
+                  <li>â€¢ <strong>Higher T â†’ Lower peak</strong> (but wider curve)</li>
+                  <li>â€¢ At <strong>absolute zero (0 K)</strong>, all molecular motion stops</li>
                 </ul>
                 
                 <div className="mt-4 p-4 bg-white dark:bg-gray-700 rounded">
                   <p className="font-bold mb-2">Three Types of Molecular Speed:</p>
-                  <p className="ml-4">1. <strong>Most probable speed</strong> (u<sub>mp</sub>) = √(2RT/M)</p>
-                  <p className="ml-4">2. <strong>Average speed</strong> (u<sub>avg</sub>) = √(8RT/πM)</p>
-                  <p className="ml-4">3. <strong>RMS speed</strong> (u<sub>rms</sub>) = √(3RT/M)</p>
+                  <p className="ml-4">1. <strong>Most probable speed</strong> (u<sub>mp</sub>) = âˆš(2RT/M)</p>
+                  <p className="ml-4">2. <strong>Average speed</strong> (u<sub>avg</sub>) = âˆš(8RT/Ï€M)</p>
+                  <p className="ml-4">3. <strong>RMS speed</strong> (u<sub>rms</sub>) = âˆš(3RT/M)</p>
                   <p className="ml-4 mt-2 text-sm text-blue-600">u<sub>mp</sub> &lt; u<sub>avg</sub> &lt; u<sub>rms</sub></p>
                 </div>
               </div>
@@ -265,15 +265,15 @@ export default function KineticMolecularTheoryFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong Units for Molar Mass</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Must use kg/mol, not g/mol! M(O₂) = 0.032 kg/mol</p>
+                  <p className="text-gray-700 dark:text-gray-300">Must use kg/mol, not g/mol! M(Oâ‚‚) = 0.032 kg/mol</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Using Celsius Instead of Kelvin</h3>
                   <p className="text-gray-700 dark:text-gray-300">Always use absolute temperature (K)!</p>
@@ -281,7 +281,7 @@ export default function KineticMolecularTheoryFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">⚠️</span>
+                <span className="text-2xl">âš ï¸</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Confusing KE per Mole vs per Particle</h3>
                   <p className="text-gray-700 dark:text-gray-300">Use R for per mole, k<sub>B</sub> for per particle!</p>
@@ -289,10 +289,10 @@ export default function KineticMolecularTheoryFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">💡</span>
+                <span className="text-2xl">ðŸ’¡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Memory Aid</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Light gases (H₂, He) move FAST. Heavy gases (Xe, Rn) move SLOW.</p>
+                  <p className="text-gray-700 dark:text-gray-300">Light gases (Hâ‚‚, He) move FAST. Heavy gases (Xe, Rn) move SLOW.</p>
                 </div>
               </div>
             </div>
@@ -307,7 +307,7 @@ export default function KineticMolecularTheoryFormulaPage() {
                 <h3 className="font-semibold text-blue-900 mb-2">KMT Calculator</h3>
                 <p className="text-sm text-gray-600">Calculate RMS speed</p>
               </Link>
-              <Link href="/gas-laws-calculators/ideal-gas-law-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+              <Link href="/physical-chemistry-calculators/ideal-gas-law-calculator" className="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-blue-900 mb-2">Ideal Gas Law Calculator</h3>
                 <p className="text-sm text-gray-600">PV = nRT calculations</p>
               </Link>
@@ -323,7 +323,7 @@ export default function KineticMolecularTheoryFormulaPage() {
                 <h3 className="font-semibold text-green-900 mb-2">RMS Speed Formula</h3>
                 <p className="text-sm text-gray-600">Root mean square velocity</p>
               </Link>
-              <Link href="/chemical-kinetics-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
+              <Link href="/chemical-reaction-calculators" className="p-6 bg-gradient-to-r from-primary-600 to-secondary-600 text-white rounded-lg hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold mb-2">All Chemical Kinetics Calculators</h3>
                 <p className="text-sm opacity-90">Explore all kinetics tools and calculators</p>
               </Link>

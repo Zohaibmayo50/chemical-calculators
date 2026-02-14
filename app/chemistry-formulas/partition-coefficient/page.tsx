@@ -38,7 +38,7 @@ export default function PartitionCoefficientPage() {
             The partition coefficient (K<sub>p</sub> or K<sub>D</sub>) is a fundamental parameter in chemistry that quantifies how a solute distributes itself between two immiscible solvents at equilibrium. First systematically studied by Walther Nernst in 1891, this concept has become indispensable in pharmaceutical chemistry, environmental science, and analytical chemistry. The partition coefficient represents the ratio of concentrations of a compound in two immiscible phases, typically an organic solvent (like octanol or chloroform) and water. This dimensionless constant is temperature-dependent and specific to each solute-solvent system.
           </p>
           <p className="text-gray-700 mb-4">
-            In pharmaceutical applications, the octanol-water partition coefficient (log P) serves as a critical predictor of drug absorption, distribution, metabolism, and excretion (ADME properties). Lipophilic drugs with high log P values readily cross lipid membranes but may have poor water solubility, while hydrophilic drugs with low log P dissolve well in blood but struggle to penetrate cell membranes. The optimal log P for oral drugs typically ranges from 0 to 3, balancing membrane permeability with aqueous solubility. Medicinal chemists manipulate log P through structural modifications—adding polar groups decreases log P (more hydrophilic), while adding nonpolar groups increases log P (more lipophilic).
+            In pharmaceutical applications, the octanol-water partition coefficient (log P) serves as a critical predictor of drug absorption, distribution, metabolism, and excretion (ADME properties). Lipophilic drugs with high log P values readily cross lipid membranes but may have poor water solubility, while hydrophilic drugs with low log P dissolve well in blood but struggle to penetrate cell membranes. The optimal log P for oral drugs typically ranges from 0 to 3, balancing membrane permeability with aqueous solubility. Medicinal chemists manipulate log P through structural modificationsâ€”adding polar groups decreases log P (more hydrophilic), while adding nonpolar groups increases log P (more lipophilic).
           </p>
           <p className="text-gray-700">
             Environmental chemists use partition coefficients to predict pollutant behavior in ecosystems. The octanol-water partition coefficient (K<sub>ow</sub>) correlates with bioaccumulation in fatty tissues, soil adsorption, and atmospheric partitioning. Compounds with log K<sub>ow</sub> &gt; 4 tend to bioaccumulate in organisms, raising toxicity concerns. Understanding partition coefficients enables prediction of contaminant fate during remediation and assessment of chemical hazards in regulatory frameworks.
@@ -53,7 +53,7 @@ export default function PartitionCoefficientPage() {
           <div className="space-y-4 text-gray-700 mt-4">
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-teal-700 mb-2">Logarithmic Form (log P):</p>
-              <p>log P = log₁₀(K<sub>p</sub>)</p>
+              <p>log P = logâ‚â‚€(K<sub>p</sub>)</p>
               <p className="text-sm text-gray-600 mt-2">Commonly reported because K<sub>p</sub> values span many orders of magnitude. log P values typically range from -3 (very hydrophilic) to +10 (extremely lipophilic).</p>
             </div>
             <div className="bg-gray-50 p-4 rounded">
@@ -63,9 +63,9 @@ export default function PartitionCoefficientPage() {
             </div>
             <div className="bg-gray-50 p-4 rounded">
               <p className="font-semibold text-teal-700 mb-2">Key Relationship:</p>
-              <p>High K<sub>p</sub> (&gt;1) → solute prefers organic phase (lipophilic)</p>
-              <p>Low K<sub>p</sub> (&lt;1) → solute prefers aqueous phase (hydrophilic)</p>
-              <p>K<sub>p</sub> = 1 → equal distribution between phases</p>
+              <p>High K<sub>p</sub> (&gt;1) â†’ solute prefers organic phase (lipophilic)</p>
+              <p>Low K<sub>p</sub> (&lt;1) â†’ solute prefers aqueous phase (hydrophilic)</p>
+              <p>K<sub>p</sub> = 1 â†’ equal distribution between phases</p>
             </div>
           </div>
         </section>
@@ -74,7 +74,7 @@ export default function PartitionCoefficientPage() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Detailed Step-by-Step Example</h2>
           <div className="bg-teal-50 border-l-4 border-teal-600 p-4 mb-4">
             <p className="font-semibold text-teal-800">Problem: Calculate partition coefficient and extraction efficiency</p>
-            <p className="text-gray-700 mt-2"><strong>Given:</strong> After equilibration, [iodine]<sub>CHCl₃</sub> = 0.80 M and [iodine]<sub>H₂O</sub> = 0.20 M</p>
+            <p className="text-gray-700 mt-2"><strong>Given:</strong> After equilibration, [iodine]<sub>CHClâ‚ƒ</sub> = 0.80 M and [iodine]<sub>Hâ‚‚O</sub> = 0.20 M</p>
           </div>
           
           <div className="space-y-3 text-gray-700">
@@ -86,7 +86,7 @@ export default function PartitionCoefficientPage() {
             
             <div className="bg-white border-l-4 border-teal-500 pl-4 py-2">
               <p className="font-semibold text-teal-700">Step 2: Calculate log P</p>
-              <p>log P = log₁₀(4.0) ≈ 0.60</p>
+              <p>log P = logâ‚â‚€(4.0) â‰ˆ 0.60</p>
               <p className="text-sm text-gray-600">This positive log P indicates iodine prefers the organic chloroform phase</p>
             </div>
             
@@ -94,7 +94,7 @@ export default function PartitionCoefficientPage() {
               <p className="font-semibold text-teal-700">Step 3: Calculate percentage extracted</p>
               <p>Assume equal volumes (V<sub>org</sub> = V<sub>aq</sub> = V)</p>
               <p>Moles in organic = 0.80V; Moles in aqueous = 0.20V</p>
-              <p>% extraction = (0.80V)/(0.80V + 0.20V) × 100% = 80%</p>
+              <p>% extraction = (0.80V)/(0.80V + 0.20V) Ã— 100% = 80%</p>
             </div>
             
             <div className="bg-white border-l-4 border-teal-500 pl-4 py-2">
@@ -104,7 +104,7 @@ export default function PartitionCoefficientPage() {
           </div>
           
           <div className="bg-green-50 border border-green-200 rounded p-4 mt-4">
-            <p className="font-semibold text-green-800">Answer: K<sub>p</sub> = 4.0; log P ≈ 0.60; 80% extracted</p>
+            <p className="font-semibold text-green-800">Answer: K<sub>p</sub> = 4.0; log P â‰ˆ 0.60; 80% extracted</p>
           </div>
         </section>
 
@@ -123,7 +123,7 @@ export default function PartitionCoefficientPage() {
             
             <div>
               <h3 className="text-xl font-semibold text-teal-700 mb-2">2. pH Dependence for Ionizable Compounds</h3>
-              <p className="text-gray-700">For weak acids (HA ⇌ H⁺ + A⁻) and bases, distribution depends on pH because only the neutral form partitions into organic solvents:</p>
+              <p className="text-gray-700">For weak acids (HA â‡Œ Hâº + Aâ») and bases, distribution depends on pH because only the neutral form partitions into organic solvents:</p>
               <p className="font-mono text-sm bg-gray-50 p-3 rounded mt-2">D = K<sub>p</sub> / (1 + 10<sup>pH-pKa</sup>) for acids</p>
               <p className="font-mono text-sm bg-gray-50 p-3 rounded mt-2">D = K<sub>p</sub> / (1 + 10<sup>pKa-pH</sup>) for bases</p>
               <p className="text-gray-700 mt-2">Adjusting pH controls extraction selectivity for acidic and basic compounds.</p>
@@ -132,8 +132,8 @@ export default function PartitionCoefficientPage() {
             <div>
               <h3 className="text-xl font-semibold text-teal-700 mb-2">3. Temperature Effects</h3>
               <p className="text-gray-700">Partition coefficients are temperature-dependent, typically following van't Hoff relationship:</p>
-              <p className="font-mono text-sm bg-gray-50 p-3 rounded mt-2">ln K<sub>p</sub> = -ΔH°/RT + ΔS°/R</p>
-              <p className="text-gray-700 mt-2">Most extractions are conducted at controlled temperatures (often 25°C) for reproducibility. Higher temperatures generally increase distribution into less polar phases.</p>
+              <p className="font-mono text-sm bg-gray-50 p-3 rounded mt-2">ln K<sub>p</sub> = -Î”HÂ°/RT + Î”SÂ°/R</p>
+              <p className="text-gray-700 mt-2">Most extractions are conducted at controlled temperatures (often 25Â°C) for reproducibility. Higher temperatures generally increase distribution into less polar phases.</p>
             </div>
             
             <div>
@@ -154,7 +154,7 @@ export default function PartitionCoefficientPage() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-teal-50 p-4 rounded-lg border border-teal-200">
               <h3 className="font-semibold text-teal-800 mb-2">Drug Design and Development</h3>
-              <p className="text-gray-700">Pharmaceutical companies use log P to optimize drug candidates. Lipinski's Rule of Five states successful oral drugs typically have log P ≤ 5. Chemists modify molecular structures to achieve optimal log P: adding hydroxyl or amine groups decreases log P (better solubility), while adding alkyl chains or aromatic rings increases log P (better membrane penetration).</p>
+              <p className="text-gray-700">Pharmaceutical companies use log P to optimize drug candidates. Lipinski's Rule of Five states successful oral drugs typically have log P â‰¤ 5. Chemists modify molecular structures to achieve optimal log P: adding hydroxyl or amine groups decreases log P (better solubility), while adding alkyl chains or aromatic rings increases log P (better membrane penetration).</p>
             </div>
             
             <div className="bg-teal-50 p-4 rounded-lg border border-teal-200">
@@ -194,7 +194,7 @@ export default function PartitionCoefficientPage() {
             
             <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded">
               <h3 className="font-semibold text-yellow-700 mb-1">Pro Tip: Computational Prediction</h3>
-              <p className="text-gray-700">Software packages (AlogP, XlogP, ClogP) predict log P from molecular structure with reasonable accuracy (±0.5 log units). These tools accelerate drug design by screening virtual libraries before synthesis. However, always validate predictions experimentally for lead compounds, as subtle structural changes can significantly affect log P.</p>
+              <p className="text-gray-700">Software packages (AlogP, XlogP, ClogP) predict log P from molecular structure with reasonable accuracy (Â±0.5 log units). These tools accelerate drug design by screening virtual libraries before synthesis. However, always validate predictions experimentally for lead compounds, as subtle structural changes can significantly affect log P.</p>
             </div>
           </div>
         </section>
@@ -207,7 +207,7 @@ export default function PartitionCoefficientPage() {
               <h3 className="font-semibold text-blue-900 mb-2">Partition Coefficient Calculator</h3>
               <p className="text-sm text-gray-600">Calculate K<sub>p</sub> = [organic]/[aqueous]</p>
             </a>
-            <a href="/solution-calculators/dilution-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
+            <a href="/concentration-and-solution-calculators/dilution-calculator" className="p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-blue-900 mb-2">Dilution Calculator</h3>
               <p className="text-sm text-gray-600">Prepare solutions for extraction</p>
             </a>
