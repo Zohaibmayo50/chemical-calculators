@@ -30,6 +30,9 @@ export default function ChemicalOxygenDemandPage() {
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Calculator Section */}
           <div className="lg:col-span-2">
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
+              Chemical Oxygen Demand (COD) Calculator
+            </h1>
             <ChemicalOxygenDemandCalculator />
 
             {/* Educational Content */}
