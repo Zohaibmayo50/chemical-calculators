@@ -1,6 +1,8 @@
 import ChemicalOxygenDemandCalculator from '@/components/calculators/ChemicalOxygenDemandCalculator';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Chemical Oxygen Demand (COD) Calculator | Water Quality Analysis',
@@ -13,7 +15,9 @@ export const metadata: Metadata = {
 
 export default function ChemicalOxygenDemandPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <>
+      <Header />
+      <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
         <nav className="mb-6 text-sm">
@@ -400,6 +404,8 @@ export default function ChemicalOxygenDemandPage() {
           })
         }}
       />
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 }

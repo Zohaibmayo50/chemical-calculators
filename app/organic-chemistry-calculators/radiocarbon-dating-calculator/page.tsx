@@ -1,6 +1,8 @@
 import RadiocarbonDatingCalculator from '@/components/calculators/RadiocarbonDatingCalculator';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Radiocarbon Dating Calculator | Carbon-14 Age Determination',
@@ -13,7 +15,9 @@ export const metadata: Metadata = {
 
 export default function RadiocarbonDatingPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <>
+      <Header />
+      <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
         <nav className="mb-6 text-sm">
@@ -477,6 +481,8 @@ export default function RadiocarbonDatingPage() {
           })
         }}
       />
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 }
