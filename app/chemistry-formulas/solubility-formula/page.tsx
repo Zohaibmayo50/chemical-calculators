@@ -250,7 +250,7 @@ export default function SolubilityFormulaPage() {
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-2xl shadow-xl p-8">
             <h2 className="text-3xl font-bold mb-6">Related Tools</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link href="/physical-chemistry-calculators/solubility-calculator" className="block p-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/equilibrium-calculators/solubility-product-calculator" className="block p-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Solubility Calculator</h3>
                 <p className="text-blue-100">Calculate from Ksp</p>
               </Link>
@@ -258,7 +258,7 @@ export default function SolubilityFormulaPage() {
                 <h3 className="text-xl font-bold mb-2">Ksp Formula</h3>
                 <p className="text-gray-600 dark:text-gray-400">Detailed Ksp explanation</p>
               </Link>
-              <Link href="/electrochemistry-calculators/solubility-product-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Link href="/equilibrium-calculators/solubility-product-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Solubility Product</h3>
                 <p className="text-gray-600 dark:text-gray-400">Ksp calculations</p>
               </Link>

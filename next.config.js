@@ -105,6 +105,10 @@ const nextConfig = {
       { source: '/chemical-equilibrium-calculators/michaelis-menten-calculator', destination: '/biochemistry-calculators/michaelis-menten-calculator', permanent: true },
       { source: '/chemical-equilibrium-calculators/solubility-product-calculator', destination: '/equilibrium-calculators/solubility-product-calculator', permanent: true },
 
+      // === Misplaced solubility paths ===
+      { source: '/physical-chemistry-calculators/solubility-calculator', destination: '/chemistry-formulas/solubility-formula', permanent: true },
+      { source: '/electrochemistry-calculators/solubility-product-calculator', destination: '/equilibrium-calculators/solubility-product-calculator', permanent: true },
+
       // === Nuclear-calculators ===
       { source: '/nuclear-calculators/nuclear-binding-energy-calculator', destination: '/chemistry-formulas/nuclear-binding-energy', permanent: true },
 
