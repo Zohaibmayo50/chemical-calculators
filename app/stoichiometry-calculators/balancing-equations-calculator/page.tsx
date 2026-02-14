@@ -34,9 +34,9 @@ export default function ChemicalEquationBalancerPage() {
 
             <div className="space-y-6">
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                   Related Calculators
-                </h2>
+                </h3>
                 <div className="space-y-3">
                   <a href="/stoichiometry-calculators/stoichiometry-calculator" className="block p-3 bg-blue-50 dark:bg-blue-900/30 hover:bg-blue-100 dark:hover:bg-blue-900/50 rounded-lg transition-colors">
                     <h3 className="font-semibold text-blue-900 dark:text-blue-100">Stoichiometry</h3>
