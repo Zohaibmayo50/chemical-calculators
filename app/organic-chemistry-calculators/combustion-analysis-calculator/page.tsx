@@ -20,21 +20,33 @@ export default function CombustionAnalysisPage() {
       <main className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         {/* Breadcrumb */}
-        <nav className="mb-6 text-sm">
-          <ol className="flex flex-wrap items-center gap-2 text-gray-600 dark:text-gray-400">
-            <li><Link href="/" className="hover:text-orange-600 dark:hover:text-orange-400">Home</Link></li>
-            <li>/</li>
-            <li><Link href="/organic-chemistry-calculators" className="hover:text-orange-600 dark:hover:text-orange-400">Organic Chemistry Calculators</Link></li>
-            <li>/</li>
-            <li className="text-orange-600 dark:text-orange-400 font-semibold">Combustion Analysis</li>
-          </ol>
+        <nav className="flex items-center gap-2 text-sm animate-fade-in">
+          <Link 
+            href="/" 
+            className="text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
+          >
+            Home
+          </Link>
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+          <Link 
+            href="/organic-chemistry-calculators" 
+            className="text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
+          >
+            Organic Chemistry Calculators
+          </Link>
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+          <span className="text-gray-500 dark:text-gray-400">Combustion Analysis</span>
         </nav>
 
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-6 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-6 mb-4 animate-fade-in">
           Combustion Analysis Calculator
         </h1>
 
-        <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+        <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 animate-fade-in animation-delay-100">
           Determine elemental composition and empirical formula from combustion data
         </p>
 
