@@ -37,7 +37,7 @@ export default function LimitingReactantCalculatorPage() {  return (
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 What is a Limiting Reactant?
               </h2>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">
                   The limiting reactant is the substance that is completely consumed first 
                   in a chemical reaction, determining the maximum amount of product that can form.

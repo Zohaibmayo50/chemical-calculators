@@ -37,7 +37,7 @@ export default function CalorimetryCalculatorPage() {  return (
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Understanding Calorimetry
               </h2>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">
                   Calorimetry measures heat transfer during physical and chemical processes using the relationship
                   between heat energy, mass, specific heat, and temperature change.
@@ -58,7 +58,7 @@ export default function CalorimetryCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
                 Sign Conventions
               </h3>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <div className="space-y-3">
                   <div className="p-3 bg-red-50 dark:bg-red-900/30 rounded-lg">
                     <p className="font-semibold text-red-900 dark:text-red-100 text-sm">q &gt; 0 (Positive)</p>
@@ -109,7 +109,7 @@ export default function CalorimetryCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Example Calculation
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg mb-4">
                 <p className="font-semibold text-gray-900 dark:text-white mb-2">Problem:</p>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
@@ -157,7 +157,7 @@ export default function CalorimetryCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Specific Heat Capacities
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
                 Specific heat is the energy needed to raise 1 g by 1°C:
               </p>

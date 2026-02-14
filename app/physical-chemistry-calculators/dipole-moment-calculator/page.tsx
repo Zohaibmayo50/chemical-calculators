@@ -50,7 +50,7 @@ export default function DipoleMomentCalculatorPage() {  return (
           <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
             Dipole Moments and Molecular Polarity
           </h2>
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               Dipole moments quantify the separation of positive and negative charge in polar bonds and molecules.
               Understanding dipole moments is essential for predicting intermolecular forces, solubility, and spectroscopic properties.

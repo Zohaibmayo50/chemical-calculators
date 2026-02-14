@@ -32,7 +32,7 @@ export default function MolarityFormulaPage() {
             Molarity Formula
           </h1>
 
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
               <strong>Molarity</strong> is the most common unit of concentration in chemistry. It measures the number 
               of moles of solute dissolved per liter of solution. Molarity is essential for stoichiometric calculations, 

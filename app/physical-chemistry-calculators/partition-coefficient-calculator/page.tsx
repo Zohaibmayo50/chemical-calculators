@@ -48,7 +48,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
               Understanding Partition Coefficients
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
                 The partition coefficient (P) measures how a substance distributes between two immiscible solvents 
                 at equilibrium, typically octanol and water. Log P is the base-10 logarithm of this ratio and is a 

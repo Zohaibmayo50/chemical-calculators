@@ -51,7 +51,7 @@ export default function StereochemistryCalculatorPage() {  return (
           <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
             Stereochemistry Fundamentals
           </h2>
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               Stereochemistry studies the three-dimensional arrangement of atoms in molecules. Understanding stereoisomers,
               chiral centers, and absolute configuration is crucial in organic chemistry, biochemistry, and pharmaceutical sciences.

@@ -37,7 +37,7 @@ export default function RaoultsLawCalculatorPage() {  return (
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Understanding Raoult&apos;s Law
               </h2>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">
                   Raoult&apos;s Law states that the partial vapor pressure of a solvent in an ideal solution
                   is equal to the vapor pressure of the pure solvent multiplied by its mole fraction in the solution.
@@ -57,7 +57,7 @@ export default function RaoultsLawCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
                 Vapor Pressure Lowering
               </h3>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300 text-sm mb-3">
                   When a non-volatile solute is added to a solvent, the vapor pressure decreases:
                 </p>
@@ -102,7 +102,7 @@ export default function RaoultsLawCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Example Calculation
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg mb-4">
                 <p className="font-semibold text-gray-900 dark:text-white mb-2">Problem:</p>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
@@ -147,7 +147,7 @@ export default function RaoultsLawCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Ideal vs. Non-Ideal Solutions
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-gray-300 dark:border-gray-600">

@@ -49,7 +49,7 @@ export default function NMRChemicalShiftCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
               Understanding NMR Chemical Shifts
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
                 Nuclear Magnetic Resonance (NMR) chemical shift is the resonant frequency of a nucleus relative to a 
                 standard (usually tetramethylsilane, TMS). Chemical shifts provide crucial information about the electronic 

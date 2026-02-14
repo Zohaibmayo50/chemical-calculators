@@ -107,7 +107,7 @@ export default function PercentCompositionCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               What is Percent Composition?
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-lg leading-relaxed mb-4">
                 <strong>Percent composition</strong> (also called mass percent or percentage composition) tells you the 
                 percentage by mass of each element in a chemical compound. It answers the question: "What fraction of 
@@ -139,7 +139,7 @@ export default function PercentCompositionCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               The Formula
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="bg-gradient-to-r from-primary-100 to-secondary-100 dark:from-primary-900/30 dark:to-secondary-900/30 p-6 rounded-lg mb-6">
                 <p className="text-2xl text-center font-mono mb-2">
                   % composition = (mass of element / molar mass of compound) × 100%
@@ -188,7 +188,7 @@ export default function PercentCompositionCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               Worked Example: Water (H₂O)
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="bg-gray-50 dark:bg-gray-700/50 p-6 rounded-lg space-y-4">
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Step 1: Identify the formula</h4>
@@ -252,7 +252,7 @@ export default function PercentCompositionCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               Complex Example: Glucose (C₆H₁₂O₆)
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="bg-gray-50 dark:bg-gray-700/50 p-6 rounded-lg space-y-4">
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Given Information</h4>
@@ -378,7 +378,7 @@ export default function PercentCompositionCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               Problem-Solving Strategy
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="space-y-6">
                 <div className="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-lg border-l-4 border-blue-500">
                   <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-100 mb-3">

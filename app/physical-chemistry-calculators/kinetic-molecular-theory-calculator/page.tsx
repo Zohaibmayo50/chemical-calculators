@@ -37,7 +37,7 @@ export default function KineticMolecularTheoryCalculatorPage() {  return (
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Understanding KMT
               </h2>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">
                   Kinetic Molecular Theory explains gas behavior at the molecular level, relating
                   temperature to the average kinetic energy of gas molecules.

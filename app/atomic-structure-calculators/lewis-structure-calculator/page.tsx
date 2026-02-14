@@ -40,7 +40,7 @@ export default function LewisStructureCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               What are Lewis Structures?
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-lg leading-relaxed mb-4">
                 <strong>Lewis structures</strong> (also called Lewis dot structures or electron dot structures) are 
                 diagrams that show the bonding between atoms of a molecule and the lone pairs of electrons that may exist.
@@ -168,7 +168,7 @@ export default function LewisStructureCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               Worked Example: Lewis Structure of CO₂
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="bg-gray-50 dark:bg-gray-700/50 p-6 rounded-lg space-y-4">
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Problem:</h4>
@@ -235,7 +235,7 @@ export default function LewisStructureCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               Understanding Formal Charge
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="leading-relaxed mb-4">
                 <strong>Formal charge</strong> is a way to estimate the distribution of electrical charge within 
                 a molecule. It helps determine the most stable Lewis structure when multiple possibilities exist.

@@ -37,7 +37,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Understanding Van der Waals Equation
               </h2>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">
                   The Van der Waals equation corrects the ideal gas law for real gas behavior by accounting
                   for molecular volume and intermolecular attractions.
@@ -57,7 +57,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
                 The Corrections
               </h3>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <div className="space-y-3">
                   <div className="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
                     <p className="font-semibold text-green-900 dark:text-green-100 text-sm">Pressure Correction (a)</p>
@@ -108,7 +108,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Example Calculation
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg mb-4">
                 <p className="font-semibold text-gray-900 dark:text-white mb-2">Problem:</p>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
@@ -151,7 +151,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Van der Waals Constants
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-gray-300 dark:border-gray-600">
@@ -215,7 +215,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
             Interpreting Constants
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Constant &apos;a&apos; (Attraction):</h3>
               <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
                 <li className="flex items-start">
@@ -336,7 +336,7 @@ export default function VanDerWaalsCalculatorPage() {  return (
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
             Compressibility Factor
           </h2>
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <div className="p-4 bg-white dark:bg-gray-800 rounded-lg mb-3">

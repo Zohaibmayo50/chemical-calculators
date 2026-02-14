@@ -40,7 +40,7 @@ export default function HybridizationCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               What is Hybridization?
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-lg leading-relaxed mb-4">
                 <strong>Hybridization</strong> is the concept of mixing atomic orbitals into new hybrid orbitals 
                 suitable for the pairing of electrons in chemical bonding. This theory explains the bonding, 
@@ -249,7 +249,7 @@ export default function HybridizationCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               Worked Example: Determining Hybridization of NH₃
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="bg-gray-50 dark:bg-gray-700/50 p-6 rounded-lg space-y-4">
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Problem:</h4>
@@ -304,7 +304,7 @@ export default function HybridizationCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               VSEPR Theory & Hybridization
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="leading-relaxed mb-4">
                 <strong>VSEPR (Valence Shell Electron Pair Repulsion)</strong> theory states that electron 
                 pairs around a central atom arrange themselves to minimize repulsion. This arrangement determines 
@@ -441,7 +441,7 @@ export default function HybridizationCalculatorPage() {  return (
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
               Problem-Solving Strategy
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="space-y-6">
                 <div className="bg-blue-50 dark:bg-blue-900/30 p-6 rounded-lg border-l-4 border-blue-500">
                   <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-100 mb-3">

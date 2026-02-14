@@ -37,7 +37,7 @@ export default function DaltonsLawCalculatorPage() {  return (
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Understanding Dalton&apos;s Law
               </h2>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">
                   Dalton&apos;s Law states that the total pressure of a gas mixture is equal to the sum
                   of the partial pressures of each individual gas component.
@@ -57,7 +57,7 @@ export default function DaltonsLawCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
                 Partial Pressure
               </h3>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300 text-sm mb-3">
                   The partial pressure is the pressure a gas would exert if it occupied the entire volume alone:
                 </p>
@@ -102,7 +102,7 @@ export default function DaltonsLawCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Example Calculation
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg mb-4">
                 <p className="font-semibold text-gray-900 dark:text-white mb-2">Problem:</p>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
@@ -152,7 +152,7 @@ export default function DaltonsLawCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Atmospheric Air Composition
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
                 At sea level (1.00 atm), dry air consists of:
               </p>
@@ -203,7 +203,7 @@ export default function DaltonsLawCalculatorPage() {  return (
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
             Scuba Diving Application
           </h2>
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Depth and Pressure</h3>
@@ -277,7 +277,7 @@ export default function DaltonsLawCalculatorPage() {  return (
             Gas Collection Over Water
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
                 When a gas is collected over water, the total pressure includes the vapor pressure of water:
               </p>

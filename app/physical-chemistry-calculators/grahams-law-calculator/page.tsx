@@ -37,7 +37,7 @@ export default function GrahamsLawCalculatorPage() {  return (
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Understanding Graham&apos;s Law
               </h2>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">
                   Graham&apos;s Law states that the rate of diffusion or effusion of a gas is inversely
                   proportional to the square root of its molar mass.
@@ -57,7 +57,7 @@ export default function GrahamsLawCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
                 Diffusion vs Effusion
               </h3>
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose prose-lg dark:prose-invert max-w-none">
                 <div className="space-y-3">
                   <div className="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
                     <p className="font-semibold text-green-900 dark:text-green-100 text-sm">Diffusion</p>
@@ -106,7 +106,7 @@ export default function GrahamsLawCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Example Calculation
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg mb-4">
                 <p className="font-semibold text-gray-900 dark:text-white mb-2">Problem:</p>
                 <p className="text-sm text-gray-700 dark:text-gray-300">
@@ -154,7 +154,7 @@ export default function GrahamsLawCalculatorPage() {  return (
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Relative Rates of Common Gases
             </h2>
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
                 Relative to oxygen (O₂ = 1.00):
               </p>
@@ -213,7 +213,7 @@ export default function GrahamsLawCalculatorPage() {  return (
             Uranium Enrichment Application
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="prose dark:prose-invert max-w-none">
+            <div className="prose prose-lg dark:prose-invert max-w-none">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">The Process:</h3>
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-3">
                 Graham&apos;s Law is used to separate uranium-235 from uranium-238 for nuclear fuel:
@@ -271,7 +271,7 @@ export default function GrahamsLawCalculatorPage() {  return (
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
             Kinetic Molecular Theory Connection
           </h2>
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Root-Mean-Square Velocity:</h3>
