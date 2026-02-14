@@ -35,7 +35,7 @@ export default function BondEnergyPage() {  return (
           <div className="space-y-6">
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Understanding Entropy
+                Understanding Bond Energy
               </h2>
               <div className="prose dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300">

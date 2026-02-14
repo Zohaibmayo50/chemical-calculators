@@ -42,7 +42,7 @@ export default function RadioactiveDecayCalculatorPage() {  return (
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
               
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Understanding the Bohr Model of the Hydrogen Atom
+                Understanding Radioactive Decay
               </h2>
 
               <div className="space-y-6 text-gray-700 dark:text-gray-300">
