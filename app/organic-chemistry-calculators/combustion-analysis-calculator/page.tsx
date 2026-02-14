@@ -18,7 +18,7 @@ export default function CombustionAnalysisPage() {
     <>
       <Header />
       <main className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      <div className="container mx-auto px-4 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         {/* Breadcrumb */}
         <nav className="mb-6 text-sm">
           <ol className="flex flex-wrap items-center gap-2 text-gray-600 dark:text-gray-400">
@@ -30,17 +30,22 @@ export default function CombustionAnalysisPage() {
           </ol>
         </nav>
 
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-6 mb-4">
+          Combustion Analysis Calculator
+        </h1>
+
+        <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+          Determine elemental composition and empirical formula from combustion data
+        </p>
+
         {/* Main Content */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8 mb-12">
           {/* Calculator Section */}
-          <div className="lg:col-span-2">
-            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-              Combustion Analysis Calculator
-            </h1>
+          <div className="lg:col-span-2 space-y-8">
             <CombustionAnalysisCalculator />
 
             {/* Educational Content */}
-            <div className="mt-8 space-y-6">
+            <div className="space-y-6">
               {/* What is Combustion Analysis */}
               <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 border border-gray-200 dark:border-gray-700">
                 <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">
@@ -352,7 +357,7 @@ export default function CombustionAnalysisPage() {
             </div>
           </div>
         </div>
-      </div>
+        </div>
 
       {/* Structured Data */}
       <script
