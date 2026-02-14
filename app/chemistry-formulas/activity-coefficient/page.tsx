@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Activity Coefficient (γ)',
-  description: 'Understand activity a = γ × [C] for non-ideal solutions.',
+  description: 'Calculate activity coefficient (a = γ×[C]) for non-ideal solutions. Apply Debye-Hückel equation, understand ionic strength effects, and correct for solution behavior.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/activity-coefficient',
   },

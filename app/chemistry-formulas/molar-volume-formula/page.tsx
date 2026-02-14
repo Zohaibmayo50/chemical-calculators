@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Molar Volume Formula',
-  description: 'Calculate volume of one mole of gas at STP: 22.4 L/mol.',
+  description: 'Calculate molar volume at STP (22.4 L/mol). Apply ideal gas law, Avogadro\'s principle, and gas stoichiometry for standard temperature and pressure conditions.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/molar-volume-formula',
   },

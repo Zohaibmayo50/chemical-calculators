@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Degree of Unsaturation',
-  description: 'Calculate rings + double bonds using molecular formula.',
+  description: 'Calculate degree of unsaturation (DBE) to determine rings and double bonds in organic molecules. Use (2C+2+N-H-X)/2 formula for structural analysis.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/degree-of-unsaturation',
   },

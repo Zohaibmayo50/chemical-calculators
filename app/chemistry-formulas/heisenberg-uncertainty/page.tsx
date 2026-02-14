@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Heisenberg Uncertainty Principle',
-  description: 'Understand Δx Δp ≥ h/(4π) and the fundamental limit on precision.',
+  description: 'Master Heisenberg Uncertainty Principle (ΔxΔp ≥ h/4π). Understand fundamental limits on measuring position and momentum simultaneously in quantum mechanics.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/heisenberg-uncertainty',
   },

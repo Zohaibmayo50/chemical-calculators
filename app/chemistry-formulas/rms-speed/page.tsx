@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Root Mean Square Speed',
-  description: 'Calculate RMS speed of gas molecules: v_rms = √(3RT/M).',
+  description: 'Calculate root mean square speed (v_rms = √(3RT/M)) of gas molecules. Apply kinetic molecular theory and Maxwell-Boltzmann distribution to determine gas velocities.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/rms-speed',
   },

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Calorimetry Formula',
-  description: 'Calculate heat transfer: q = mcΔT for temperature changes.',
+  description: 'Calculate heat transfer using q = mcΔT. Master calorimetry, specific heat capacity, temperature changes, and thermal energy calculations for thermochemistry.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/calorimetry-formula',
   },

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Solubility Product Constant (Ksp)',
-  description: 'Ksp expresses the equilibrium solubility of sparingly soluble salts.',
+  description: 'Calculate solubility product constant (Ksp) for sparingly soluble salts. Predict precipitation, determine ion concentrations, and understand equilibrium solubility.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/solubility-product-constant-ksp',
   },
