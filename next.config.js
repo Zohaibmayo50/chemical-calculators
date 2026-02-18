@@ -26,6 +26,9 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // === Apple touch icon fallback ===
+      { source: '/apple-touch-icon.png', destination: '/apple-touch-icon.svg', permanent: true },
+
       // === Category index redirects ===
       { source: '/redox-calculators', destination: '/electrochemistry-calculators', permanent: true },
       { source: '/gas-calculators', destination: '/physical-chemistry-calculators', permanent: true },
