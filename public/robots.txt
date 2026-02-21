@@ -2,12 +2,5 @@
 User-agent: *
 Allow: /
 
-# Block Next.js build assets (JS chunks, webpack, etc.)
-Disallow: /_next/static/
-
-# Block other non-content paths
-Disallow: /api/
-Disallow: /_next/image
-
 # Sitemap location
 Sitemap: https://chemsolved.com/sitemap.xml
