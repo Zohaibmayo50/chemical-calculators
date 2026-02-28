@@ -60,38 +60,50 @@ export default function Header() {
               onMouseEnter={() => setShowCalculatorsDropdown(true)}
               onMouseLeave={() => setShowCalculatorsDropdown(false)}
             >
-              <button className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors flex items-center gap-1">
+              <button
+                aria-expanded={showCalculatorsDropdown}
+                aria-controls="calculators-dropdown"
+                className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors flex items-center gap-1">
                 Calculators
-                <svg className={`w-4 h-4 transition-transform ${showCalculatorsDropdown ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className={`w-4 h-4 transition-transform ${showCalculatorsDropdown ? 'rotate-180' : ''}`} aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               
-              {/* Dropdown Menu */}
-              {showCalculatorsDropdown && (
-                <div className="absolute top-full left-0 mt-2 w-80 bg-white dark:bg-gray-800 rounded-lg shadow-2xl border-2 border-primary-200 dark:border-primary-700 py-2 animate-fade-in z-50">
-                  <div className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">
-                    <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Calculator Topics</p>
-                  </div>
-                  <div className="max-h-96 overflow-y-auto">
-                    {clusterPages.map((cluster) => (
-                      <Link
-                        key={cluster.slug}
-                        href={`/${cluster.slug}`}
-                        className="block px-4 py-3 hover:bg-primary-50 dark:hover:bg-primary-900/30 transition-colors border-b border-gray-100 dark:border-gray-700 last:border-b-0"
-                      >
-                        <div className="font-semibold text-sm text-gray-900 dark:text-white">{cluster.h1}</div>
-                        <div className="text-xs text-gray-600 dark:text-gray-400 mt-1 line-clamp-2">{cluster.metaDescription.split('.')[0]}</div>
-                      </Link>
-                    ))}
-                  </div>
-                  <div className="px-4 py-2 border-t border-gray-200 dark:border-gray-700">
-                    <a href="#calculators" className="text-xs font-medium text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300">
-                      View All Calculators →
-                    </a>
-                  </div>
+              {/*
+                Dropdown is ALWAYS in the DOM so spiders discover all cluster
+                URLs without needing to hover/trigger JS. Visibility is CSS-only.
+              */}
+              <div
+                id="calculators-dropdown"
+                aria-label="Calculator Topics"
+                className={`absolute top-full left-0 mt-2 w-80 bg-white dark:bg-gray-800 rounded-lg shadow-2xl border-2 border-primary-200 dark:border-primary-700 py-2 z-50 transition-all duration-200 ${
+                  showCalculatorsDropdown
+                    ? 'opacity-100 pointer-events-auto translate-y-0'
+                    : 'opacity-0 pointer-events-none -translate-y-1'
+                }`}
+              >
+                <div className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">
+                  <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Calculator Topics</p>
                 </div>
-              )}
+                <nav className="max-h-96 overflow-y-auto">
+                  {clusterPages.map((cluster) => (
+                    <Link
+                      key={cluster.slug}
+                      href={`/${cluster.slug}`}
+                      className="block px-4 py-3 hover:bg-primary-50 dark:hover:bg-primary-900/30 transition-colors border-b border-gray-100 dark:border-gray-700 last:border-b-0"
+                    >
+                      <div className="font-semibold text-sm text-gray-900 dark:text-white">{cluster.h1}</div>
+                      <div className="text-xs text-gray-600 dark:text-gray-400 mt-1 line-clamp-2">{cluster.metaDescription.split('.')[0]}</div>
+                    </Link>
+                  ))}
+                </nav>
+                <div className="px-4 py-2 border-t border-gray-200 dark:border-gray-700">
+                  <a href="#calculators" className="text-xs font-medium text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300">
+                    View All Calculators →
+                  </a>
+                </div>
+              </div>
             </div>
             
             <Link href="/chemistry-formulas" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
@@ -148,6 +160,8 @@ export default function Header() {
             <ThemeToggle />
             <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-expanded={isMenuOpen}
+            aria-label="Toggle navigation menu"
             className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
           >
             <svg className="w-6 h-6 text-gray-700 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -161,9 +175,17 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700 animate-slide-in">
+        {/*
+          Mobile menu is ALWAYS in the DOM so Googlebot finds nav links.
+          Visibility is CSS-only via max-h transition.
+        */}
+        <div
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+            isMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
+          }`}
+          aria-hidden={!isMenuOpen}
+        >
+          <div className="py-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex flex-col gap-4">
               <a href="/" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
                 Home
@@ -173,6 +195,8 @@ export default function Header() {
               <div>
                 <button
                   onClick={() => setShowCalculatorsDropdown(!showCalculatorsDropdown)}
+                  aria-expanded={showCalculatorsDropdown}
+                  aria-controls="mobile-calculators-nav"
                   className="w-full text-left text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors flex items-center justify-between"
                 >
                   Calculators
@@ -181,22 +205,27 @@ export default function Header() {
                   </svg>
                 </button>
                 
-                {showCalculatorsDropdown && (
-                  <div className="mt-2 ml-4 flex flex-col gap-2 animate-fade-in">
-                    {clusterPages.map((cluster) => (
-                      <Link
-                        key={cluster.slug}
-                        href={`/${cluster.slug}`}
-                        className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors py-1"
-                      >
-                        {cluster.h1}
-                      </Link>
-                    ))}
-                    <a href="#calculators" className="text-sm text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium py-1">
-                      View All Calculators →
-                    </a>
-                  </div>
-                )}
+                {/* Mobile cluster links always in DOM for crawlability */}
+                <nav
+                  id="mobile-calculators-nav"
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                    showCalculatorsDropdown ? 'max-h-[500px] opacity-100 mt-2' : 'max-h-0 opacity-0'
+                  } ml-4 flex flex-col gap-2`}
+                  aria-hidden={!showCalculatorsDropdown}
+                >
+                  {clusterPages.map((cluster) => (
+                    <Link
+                      key={cluster.slug}
+                      href={`/${cluster.slug}`}
+                      className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors py-1"
+                    >
+                      {cluster.h1}
+                    </Link>
+                  ))}
+                  <a href="#calculators" className="text-sm text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium py-1">
+                    View All Calculators →
+                  </a>
+                </nav>
               </div>
               
               <Link href="/chemistry-formulas" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">
@@ -221,7 +250,7 @@ export default function Header() {
               </div>
             </div>
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );

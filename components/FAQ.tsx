@@ -62,40 +62,58 @@ export default function FAQ() {
         </div>
 
         <div className="space-y-4">
-          {faqData.map((faq, index) => (
-            <div 
-              key={index}
-              className="border-2 border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:border-primary-300 dark:hover:border-primary-600 transition-all duration-300 hover:shadow-lg animate-slide-in-right"
-              style={{ animationDelay: `${index * 80}ms` }}
-            >
-              <button
-                onClick={() => toggleFAQ(index)}
-                className="w-full flex items-center justify-between p-6 text-left bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+          {faqData.map((faq, index) => {
+            const isOpen = openIndex === index;
+            return (
+              <div
+                key={index}
+                className="border-2 border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:border-primary-300 dark:hover:border-primary-600 transition-all duration-300 hover:shadow-lg animate-slide-in-right"
+                style={{ animationDelay: `${index * 80}ms` }}
               >
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white pr-8 transition-colors">
-                  {faq.question}
-                </h3>
-                <svg
-                  className={`w-6 h-6 text-primary-600 dark:text-primary-400 flex-shrink-0 transition-transform duration-300 ${
-                    openIndex === index ? 'transform rotate-180' : ''
-                  }`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+                <button
+                  onClick={() => toggleFAQ(index)}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${index}`}
+                  className="w-full flex items-center justify-between p-6 text-left bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              
-              {openIndex === index && (
-                <div className="px-6 pb-6 bg-gray-50 dark:bg-gray-700/50 animate-fade-in">
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed transition-colors">
-                    {faq.answer}
-                  </p>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white pr-8 transition-colors">
+                    {faq.question}
+                  </h3>
+                  <svg
+                    className={`w-6 h-6 text-primary-600 dark:text-primary-400 flex-shrink-0 transition-transform duration-300 ${
+                      isOpen ? 'rotate-180' : ''
+                    }`}
+                    aria-hidden="true"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                {/*
+                  Answer is ALWAYS in the DOM so Googlebot's first-wave HTML
+                  fetch captures the full text for passage indexing.
+                  Visibility is controlled by CSS height/opacity transitions only.
+                */}
+                <div
+                  id={`faq-answer-${index}`}
+                  role="region"
+                  aria-labelledby={`faq-question-${index}`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                    isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                  }`}
+                >
+                  <div className="px-6 pb-6 bg-gray-50 dark:bg-gray-700/50">
+                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed transition-colors">
+                      {faq.answer}
+                    </p>
+                  </div>
                 </div>
-              )}
-            </div>
-          ))}
+              </div>
+            );
+          })}
         </div>
 
         <script 
