@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Molality Formula | m = n/kg_solvent | Concentration Calculation',
   description: 'Master the molality formula (m = n/kg_solvent) for concentration calculations. Includes examples and concentration calculator links.',
   alternates: {

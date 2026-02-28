@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Half-Life Formula | N(t) = Nâ‚€(Â½)^(t/tâ‚/â‚‚) | Radioactive Decay',
   description: 'Master the half-life formula for radioactive decay and first-order kinetics. Includes examples and decay calculator links.',
   alternates: {

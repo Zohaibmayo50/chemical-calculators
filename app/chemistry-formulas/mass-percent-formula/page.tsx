@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Mass Percent Formula | % = (mass part/mass total) Ã— 100',
   description: 'Master the mass percent formula for calculating composition percentages in chemistry. Includes examples and concentration calculator links.',
   alternates: {

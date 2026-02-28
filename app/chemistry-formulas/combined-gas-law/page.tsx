@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Combined Gas Law | Pâ‚Vâ‚/Tâ‚ = Pâ‚‚Vâ‚‚/Tâ‚‚ | Gas Calculations',
   description: 'Master the combined gas law relating pressure, volume, and temperature. Includes examples and gas law calculator links.',
   alternates: {

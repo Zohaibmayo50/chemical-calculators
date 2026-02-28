@@ -1,10 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import ClausiusClapeyronCalculator from '@/components/calculators/ClausiusClapeyronCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Clausius-Clapeyron Calculator',
   description: 'Calculate vapor pressure, boiling point, and enthalpy of vaporization using the Clausius-Clapeyron equation. Essential for phase transitions and thermodynamics.',
   keywords: 'Clausius-Clapeyron equation, vapor pressure, boiling point, enthalpy of vaporization, phase transition, thermodynamics, chemistry calculator',

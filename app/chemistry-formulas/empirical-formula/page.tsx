@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Empirical Formula | Find Simplest Ratio from Percent Composition',
   description: 'Master empirical formula calculations from percent composition. Step-by-step method to find the simplest whole number ratio of elements.',
   alternates: {

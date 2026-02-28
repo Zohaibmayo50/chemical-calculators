@@ -1,10 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import ElectronConfigurationCalculator from '@/components/calculators/ElectronConfigurationCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Electron Configuration Calculator',
   description: 'Determine electron configurations for any element using the Aufbau principle. Get full configurations, noble gas notation, and orbital diagrams.',
   keywords: 'electron configuration, Aufbau principle, orbital diagram, noble gas notation, atomic structure, quantum mechanics, chemistry calculator',

@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Molarity Formula | M = n/V | Chemistry Equation Explained',
   description: 'Learn the molarity formula (M = n/V) with clear variable definitions, step-by-step examples, and rearranged forms. Master molar concentration calculations.',
   alternates: {

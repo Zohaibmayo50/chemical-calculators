@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Beer\'s Law | A = εbc | Absorbance & Concentration Formula',
   description: 'Master Beer\'s Law (A = εbc) for spectroscopy and concentration analysis. Includes examples and spectrophotometry calculator links.',
   keywords: 'beers law, absorbance, spectrophotometry, concentration, molar absorptivity, lambert beer law',

@@ -1,10 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import HessLawCalculator from '@/components/calculators/HessLawCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Hess\'s Law Calculator',
   description: 'Calculate enthalpy changes using Hess\'s Law. Combine multiple reactions to find ΔH for complex processes in thermodynamics and thermochemistry.',
   keywords: 'Hess law, enthalpy, thermochemistry, heat of reaction, reaction enthalpy, thermodynamics, chemistry calculator',

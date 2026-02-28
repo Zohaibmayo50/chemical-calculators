@@ -1,10 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import RedoxBalancingCalculator from '@/components/calculators/RedoxBalancingCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Redox Balancing Calculator',
   description: 'Balance redox reactions using the half-reaction method in acidic, basic, or neutral solutions. Learn step-by-step how to balance oxidation-reduction equations.',
   keywords: 'redox balancing, half-reaction method, oxidation reduction, acidic basic solutions, electron transfer, redox equations, chemistry calculator',

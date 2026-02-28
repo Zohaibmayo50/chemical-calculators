@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Dilution Formula | M₁V₁ = M₂V₂ | Calculate Solution Dilutions',
   description: 'Learn the dilution formula (M₁V₁ = M₂V₂) for preparing dilute solutions. Includes step-by-step examples and calculator links.',
   alternates: {

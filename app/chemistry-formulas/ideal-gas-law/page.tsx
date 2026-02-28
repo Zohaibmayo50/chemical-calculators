@@ -1,10 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import ReviewedByNotice from '@/components/ReviewedByNotice';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Ideal Gas Law | PV = nRT | Gas Equation Explained',
   description: 'Master the ideal gas law (PV = nRT) with clear variable definitions, rearrangements, and examples. Essential for gas calculations.',
   alternates: {

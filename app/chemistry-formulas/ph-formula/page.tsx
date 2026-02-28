@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'pH Formula | pH = -log[Hâº] | Calculate Solution Acidity',
   description: 'Learn the pH formula (pH = -log[Hâº]) with clear explanations, examples, and pOH calculations. Master acid-base chemistry.',
   alternates: {

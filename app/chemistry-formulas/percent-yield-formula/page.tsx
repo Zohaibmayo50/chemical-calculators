@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Percent Yield Formula | % Yield = (Actual/Theoretical) × 100',
   description: 'Calculate reaction efficiency with the percent yield formula. Includes examples, definitions, and links to stoichiometry calculators.',
   alternates: {

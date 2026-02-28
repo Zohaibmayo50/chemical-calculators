@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Arrhenius Equation | k = Ae^(-Ea/RT) | Reaction Rate & Temperature',
   description: 'Master the Arrhenius equation relating reaction rate constant to temperature and activation energy. Includes examples and calculator links.',
   alternates: {

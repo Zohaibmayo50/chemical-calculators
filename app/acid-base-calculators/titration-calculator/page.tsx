@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import TitrationCalculator from '@/components/calculators/TitrationCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Titration Calculator | Chemistry Calculators',
   description: 'Calculate pH at various points during acid-base titrations. Determine equivalence points, initial pH, and select appropriate indicators.',
   keywords: 'titration calculator, acid-base titration, pH calculation, equivalence point, indicator selection, chemistry calculator',

@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Specific Heat Formula | q = mcÎ”T | Heat Capacity Calculations',
   description: 'Master the specific heat formula (q = mcÎ”T) for calculating heat transfer. Includes examples and calorimetry calculator links.',
   alternates: {

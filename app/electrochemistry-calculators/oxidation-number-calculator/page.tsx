@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import OxidationNumberCalculator from '@/components/calculators/OxidationNumberCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Oxidation Number Calculator | Chemistry Calculators',
   description: 'Calculate oxidation numbers (oxidation states) for elements in chemical compounds and ions. Understand redox chemistry and electron transfer.',
   keywords: 'oxidation number, oxidation state, redox calculator, electron transfer, chemistry calculator, valence state',

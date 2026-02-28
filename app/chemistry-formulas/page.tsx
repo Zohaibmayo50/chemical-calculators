@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Chemistry Formulas Library | Essential Equations & Definitions',
   description: 'Complete library of chemistry formulas with clear explanations, variable definitions, and step-by-step examples. From molarity to thermodynamics.',
   alternates: {

@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Limiting Reactant Formula | Find Which Reactant Runs Out First',
   description: 'Master limiting reactant calculations to determine which reagent limits product formation. Includes step-by-step examples and stoichiometry calculator links.',
   alternates: {

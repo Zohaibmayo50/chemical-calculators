@@ -1,10 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import SpecificHeatCalculator from '@/components/calculators/SpecificHeatCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Specific Heat Calculator',
   description: 'Calculate heat transfer using q = mcΔT. Find heat energy, mass, specific heat capacity, or temperature change for any substance.',
   keywords: 'specific heat, heat capacity, calorimetry, heat transfer, temperature change, q = mcΔT, thermodynamics, energy, chemistry calculator',

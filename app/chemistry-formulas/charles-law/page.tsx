@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Charles\'s Law | Vâ‚/Tâ‚ = Vâ‚‚/Tâ‚‚ | Volume-Temperature Relationship',
   description: 'Master Charles\'s Law (Vâ‚/Tâ‚ = Vâ‚‚/Tâ‚‚) for gas volume-temperature calculations at constant pressure. Includes examples and calculator links.',
   keywords: 'charles law, volume temperature, gas laws, direct relationship, V1/T1 V2/T2, kelvin temperature',

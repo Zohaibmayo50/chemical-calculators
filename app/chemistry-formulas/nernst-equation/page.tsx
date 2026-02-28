@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Nernst Equation | E = E° - (RT/nF)lnQ | Cell Potential',
   description: 'Master the Nernst equation for calculating electrochemical cell potentials under non-standard conditions. Includes examples and calculator links.',
   alternates: {

@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Mole Fraction Formula | χ = n / n_total | Dimensionless Concentration',
   description: 'Master the mole fraction formula (χ = n_i / n_total) for calculating dimensionless concentrations. Includes examples and Raoult\'s Law applications.',
   keywords: 'mole fraction, chi, dimensionless concentration, partial pressure, raoults law, vapor pressure',

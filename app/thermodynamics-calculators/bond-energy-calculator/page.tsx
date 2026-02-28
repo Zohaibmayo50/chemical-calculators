@@ -1,10 +1,11 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import BondEnergyCalculator from '@/components/calculators/BondEnergyCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Bond Energy Calculator',
   description: 'Calculate reaction enthalpy (ΔH) from bond energies. Use bond dissociation energies to determine whether reactions are exothermic or endothermic.',
   keywords: 'bond energy, bond dissociation energy, enthalpy, reaction energy, exothermic, endothermic, thermodynamics, chemistry calculator',

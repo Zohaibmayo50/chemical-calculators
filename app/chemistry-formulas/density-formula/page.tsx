@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Density Formula | d = m/V | Mass Volume Relationship',
   description: 'Master the density formula (d = m/V) for calculating mass, volume, and density. Includes examples and density calculator links.',
   alternates: {

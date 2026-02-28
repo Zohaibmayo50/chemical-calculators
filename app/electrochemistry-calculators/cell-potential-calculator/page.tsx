@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import CellPotentialCalculator from '@/components/calculators/CellPotentialCalculator';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Electrochemical Cell Potential Calculator | Chemistry Calculators',
   description: 'Calculate standard and non-standard cell potentials for galvanic and electrolytic cells. Apply the Nernst equation for concentration effects.',
   keywords: 'cell potential, galvanic cell, voltaic cell, Nernst equation, electrochemistry, reduction potential, oxidation',

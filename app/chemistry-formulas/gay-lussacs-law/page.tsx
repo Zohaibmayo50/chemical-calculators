@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Gay-Lussac\'s Law | Pâ‚/Tâ‚ = Pâ‚‚/Tâ‚‚ | Pressure-Temperature Relationship',
   description: 'Master Gay-Lussac\'s Law (Pâ‚/Tâ‚ = Pâ‚‚/Tâ‚‚) for gas pressure-temperature calculations at constant volume. Includes examples and calculator links.',
   keywords: 'gay lussacs law, pressure temperature, gas laws, direct relationship, P1/T1 P2/T2, kelvin temperature',

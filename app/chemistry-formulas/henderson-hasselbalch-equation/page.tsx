@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Henderson-Hasselbalch Equation | pH = pKa + log([Aâ»]/[HA])',
   description: 'Master the Henderson-Hasselbalch equation for buffer pH calculations. Includes derivation, examples, and calculator links.',
   alternates: {

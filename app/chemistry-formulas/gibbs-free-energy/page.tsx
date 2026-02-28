@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Gibbs Free Energy | ΔG = ΔH - TΔS | Reaction Spontaneity',
   description: 'Master Gibbs free energy (ΔG = ΔH - TΔS) to predict reaction spontaneity. Includes examples and thermodynamics calculator links.',
   alternates: {

@@ -1,9 +1,10 @@
+import type { Metadata } from 'next';
 import CombustionCalculator from '@/components/calculators/CombustionCalculator';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Combustion Calculator',
   description: 'Calculate complete and incomplete combustion reactions. Balance combustion equations, determine products, and calculate energy released.',
   keywords: 'combustion, burning, hydrocarbon, oxygen, CO2, energy, enthalpy, complete combustion, incomplete combustion',
