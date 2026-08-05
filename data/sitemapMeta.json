@@ -5,7 +5,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/acid-base-calculators": {
-    "lastmod": "2026-08-05",
+    "lastmod": "2026-08-06",
     "changefreq": "weekly",
     "priority": "0.8"
   },
@@ -15,7 +15,7 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/acid-base-calculators/titration-calculator": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -35,12 +35,12 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/atomic-structure-calculators/formal-charge-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/atomic-structure-calculators/henderson-hasselbalch-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -60,7 +60,7 @@
     "priority": "0.8"
   },
   "https://chemsolved.com/atomic-structure-calculators/ph-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -85,7 +85,7 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/biochemistry-calculators/isoelectric-point-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -100,12 +100,12 @@
     "priority": "0.8"
   },
   "https://chemsolved.com/biochemistry-calculators/protein-solubility-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/biochemistry-calculators/resuspension-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -130,7 +130,7 @@
     "priority": "0.8"
   },
   "https://chemsolved.com/chemical-reaction-calculators/radioactive-decay-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -145,7 +145,7 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/chemistry-formulas/acid-dissociation-constant-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -155,17 +155,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/arrhenius-equation": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/avogadros-law": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/balancing-equations-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -175,7 +175,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/bohr-model": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -200,17 +200,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/braggs-law": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/buffer-capacity-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/buffer-solution-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -225,7 +225,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/charles-law": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -235,17 +235,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/colligative-properties-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/collision-theory": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/combined-gas-law": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -255,7 +255,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/common-ion-effect": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -265,12 +265,12 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/coordination-chemistry-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/crystal-field-theory": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -280,7 +280,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/de-broglie-wavelength": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -300,17 +300,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/dipole-moment-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/electrolysis-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/electron-configuration": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -335,7 +335,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/equilibrium-constant": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -355,17 +355,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/gas-density-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/gas-stoichiometry-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/gay-lussacs-law": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -375,22 +375,22 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/grahams-law": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/half-life-formula": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/heisenberg-uncertainty": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/henderson-hasselbalch-equation": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -410,22 +410,22 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/integrated-rate-law-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/integrated-rate-laws": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/ionic-strength-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/kinetic-molecular-theory-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -435,7 +435,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/le-chateliers-principle": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -450,22 +450,22 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/mass-percent-formula": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/michaelis-menten-equation": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/molality-formula": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/molar-volume-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -485,7 +485,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/molecular-orbital-theory": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -500,7 +500,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/nmr-chemical-shift-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -510,12 +510,12 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/nuclear-binding-energy": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/nuclear-chemistry-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -525,7 +525,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/oxidation-number-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -540,7 +540,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/partition-coefficient": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -560,12 +560,12 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/ph-formula": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/planck-equation": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -575,17 +575,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/ppm-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/quantum-numbers": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/radioactive-decay-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -605,7 +605,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/reaction-order-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -615,27 +615,27 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/reaction-rate-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/redox-balancing-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/rms-speed": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/rydberg-equation": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/solubility-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -645,17 +645,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/solution-preparation-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/specific-heat-formula": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/stereochemistry-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -670,17 +670,17 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/titration-curve-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/titration-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/transition-state-theory-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -705,7 +705,7 @@
     "priority": "0.6"
   },
   "https://chemsolved.com/chemistry-formulas/vsepr-theory-formula": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.6"
   },
@@ -735,7 +735,7 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/concentration-and-solution-calculators/molarity-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -785,12 +785,12 @@
     "priority": "0.3"
   },
   "https://chemsolved.com/electrochemistry-calculators/cell-potential-calculator": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/electrochemistry-calculators/electrolysis-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -800,7 +800,7 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/electrochemistry-calculators/oxidation-number-calculator": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -815,17 +815,17 @@
     "priority": "0.8"
   },
   "https://chemsolved.com/electrochemistry-calculators/redox-balancing-calculator": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/equilibrium-calculators": {
-    "lastmod": "2026-08-05",
+    "lastmod": "2026-08-06",
     "changefreq": "weekly",
     "priority": "0.8"
   },
   "https://chemsolved.com/equilibrium-calculators/solubility-product-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -865,7 +865,7 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/organic-chemistry-calculators/liquid-ethylene-density-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -880,7 +880,7 @@
     "priority": "0.8"
   },
   "https://chemsolved.com/organic-chemistry-calculators/radiocarbon-dating-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -890,12 +890,12 @@
     "priority": "0.7"
   },
   "https://chemsolved.com": {
-    "lastmod": "2025-12-31",
+    "lastmod": "2026-08-06",
     "changefreq": "daily",
     "priority": "1.0"
   },
   "https://chemsolved.com/physical-chemistry-calculators/activity-coefficient-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -945,7 +945,7 @@
     "priority": "0.8"
   },
   "https://chemsolved.com/physical-chemistry-calculators/partition-coefficient-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -955,12 +955,12 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/physical-chemistry-calculators/van-der-waals-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/physical-chemistry-calculators/vapor-pressure-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -980,17 +980,17 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/stoichiometry-calculators/empirical-formula-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/stoichiometry-calculators/ionic-formula-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/stoichiometry-calculators/limiting-reactant-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -1015,17 +1015,17 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/stoichiometry-calculators/percent-yield-calculator": {
-    "lastmod": "2025-12-27",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/stoichiometry-calculators/stoichiometry-calculator": {
-    "lastmod": "2025-12-27",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
   "https://chemsolved.com/stoichiometry-calculators/theoretical-yield-calculator": {
-    "lastmod": "2026-02-14",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
@@ -1055,7 +1055,7 @@
     "priority": "0.7"
   },
   "https://chemsolved.com/thermodynamics-calculators/clausius-clapeyron-calculator": {
-    "lastmod": "2026-02-28",
+    "lastmod": "2026-08-06",
     "changefreq": "monthly",
     "priority": "0.7"
   },
