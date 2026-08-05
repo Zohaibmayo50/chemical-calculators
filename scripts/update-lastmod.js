@@ -6,7 +6,11 @@
 // changefreq are carried forward from the existing entry when a page is already
 // known, or assigned a sensible default (by URL depth) for newly discovered pages.
 //
-// Run before each deploy / sitemap resubmission: node scripts/update-lastmod.js
+// IMPORTANT: run this AFTER committing your changes, not before. It reads dates
+// from git history, so anything you haven't committed yet has no history to read -
+// this script will refuse to run rather than guess a date for it (see below).
+//
+// Usage: node scripts/update-lastmod.js
 
 const fs = require('fs');
 const path = require('path');
@@ -16,6 +20,15 @@ const ROOT = path.join(__dirname, '..');
 const APP_DIR = path.join(ROOT, 'app');
 const OUT_FILE = path.join(ROOT, 'data', 'sitemapMeta.json');
 const BASE_URL = 'https://chemsolved.com';
+
+// If one single date ends up covering more than this fraction of all pages,
+// something is more likely wrong (e.g. a shallow git clone, where `git log`
+// happily returns A date for every file - just the wrong one, the single
+// commit depth-1 gives you - silently reproducing the original uniform-lastmod
+// bug) than every one of those pages genuinely having been last touched on the
+// same day. The largest legitimate same-day cluster seen in this repo's real
+// history so far is ~52% (a mass structured-data commit touching 115 pages).
+const SUSPICIOUS_SAME_DATE_FRACTION = 0.85;
 
 const LEGAL_PATHS = new Set(['/privacy', '/terms', '/disclaimer', '/editorial-policy']);
 
@@ -46,15 +59,33 @@ function defaultMetaFor(urlPath) {
   return { changefreq: 'monthly', priority: '0.6' };
 }
 
+function isCommittedInHead(relPath) {
+  try {
+    execSync(`git cat-file -e HEAD:"${relPath}"`, { cwd: ROOT, stdio: 'ignore' });
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function fail(lines) {
+  console.error('update-lastmod.js: refusing to write data/sitemapMeta.json.\n');
+  for (const l of lines) console.error(l);
+  console.error('\nNo file was written - the previously committed data/sitemapMeta.json is untouched.');
+  process.exit(1);
+}
+
 const existing = fs.existsSync(OUT_FILE) ? JSON.parse(fs.readFileSync(OUT_FILE, 'utf8')) : {};
 
 const pageFiles = findPageFiles(APP_DIR, []);
 const result = {};
+const missingHistory = [];
 
 for (const file of pageFiles) {
   const urlPath = filePathToUrlPath(file);
   const loc = urlPath === '/' ? BASE_URL : `${BASE_URL}${urlPath}`;
   const relFromRoot = path.relative(ROOT, file).split(path.sep).join('/');
+
   let lastmod;
   try {
     lastmod = execSync(`git log -1 --format=%cd --date=short -- "${relFromRoot}"`, { cwd: ROOT })
@@ -63,10 +94,17 @@ for (const file of pageFiles) {
   } catch (e) {
     lastmod = null;
   }
+
   if (!lastmod) {
-    // untracked/new file with no git history yet - use today
-    lastmod = new Date().toISOString().slice(0, 10);
+    if (isCommittedInHead(relFromRoot)) {
+      missingHistory.push(`  - ${relFromRoot}: committed in HEAD, but "git log" returned no history for it. This ` +
+        `usually means a shallow clone (try "git fetch --unshallow") or a corrupted/incomplete repo copy.`);
+    } else {
+      missingHistory.push(`  - ${relFromRoot}: not committed yet. Commit it first, then re-run this script.`);
+    }
+    continue;
   }
+
   const prior = existing[loc];
   const fallback = defaultMetaFor(urlPath);
   result[loc] = {
@@ -74,6 +112,33 @@ for (const file of pageFiles) {
     changefreq: prior?.changefreq || fallback.changefreq,
     priority: prior?.priority || fallback.priority,
   };
+}
+
+if (missingHistory.length > 0) {
+  fail([
+    `${missingHistory.length} page(s) have no usable git history:`,
+    ...missingHistory,
+  ]);
+}
+
+// Guard: a shallow clone doesn't error - it just gives every file the same
+// (wrong) single commit date. Catch that shape even though no individual
+// lookup failed.
+const dateCounts = {};
+for (const entry of Object.values(result)) {
+  dateCounts[entry.lastmod] = (dateCounts[entry.lastmod] || 0) + 1;
+}
+const total = Object.keys(result).length;
+const [worstDate, worstCount] = Object.entries(dateCounts).sort((a, b) => b[1] - a[1])[0] || [null, 0];
+if (total > 0 && worstCount / total > SUSPICIOUS_SAME_DATE_FRACTION) {
+  fail([
+    `${worstCount} of ${total} pages (${Math.round((worstCount / total) * 100)}%) all resolved to the identical ` +
+      `lastmod date (${worstDate}). That's far above what this repo's real edit history has ever produced ` +
+      `(worst case so far: ~52%) and is the signature of a shallow git clone silently reproducing the original ` +
+      `uniform-lastmod bug: "git log" doesn't error in a shallow clone, it just returns the one commit it has for ` +
+      `every file.`,
+    `Run "git rev-parse --is-shallow-repository" to check, and "git fetch --unshallow" if it prints "true".`,
+  ]);
 }
 
 fs.writeFileSync(OUT_FILE, JSON.stringify(result, null, 2) + '\n', 'utf8');

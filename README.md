@@ -184,6 +184,11 @@ npm run start
 5. **Sitemap**: Generate XML sitemap
 6. **Schema Testing**: Validate with Google Rich Results Test
 
+## 🛠️ Maintenance Scripts
+
+- `node scripts/check-mojibake.js scan .` — scan for double-encoded UTF-8 mojibake (add `fix` instead of `scan` to repair).
+- `node scripts/update-lastmod.js` — regenerate `data/sitemapMeta.json`'s per-page `lastmod` dates from git history. **Run this after committing your changes, not before** — it reads dates from git history, so anything uncommitted has no history yet and the script will refuse to run rather than guess.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow semantic SEO principles and maintain code quality.
