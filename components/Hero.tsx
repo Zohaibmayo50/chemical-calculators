@@ -1,9 +1,11 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { getTotalCalculatorCount } from '@/data/calculators';
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const totalCalculators = getTotalCalculatorCount();
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -104,7 +106,7 @@ export default function Hero() {
               <div className="w-2 h-2 rounded-full bg-accent-400" />
               <div className="w-2 h-2 rounded-full bg-accent-300" />
             </div>
-            <span className="text-white font-medium text-sm">100+ Chemistry Tools</span>
+            <span className="text-white font-medium text-sm">{totalCalculators} Chemistry Tools</span>
           </div>
 
           {/* Main Heading */}
@@ -147,7 +149,7 @@ export default function Hero() {
           {/* Stats Grid */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <div className="group bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 hover:border-accent-400/50 transition-all">
-              <div className="text-4xl sm:text-5xl font-bold text-accent-400 mb-2">100+</div>
+              <div className="text-4xl sm:text-5xl font-bold text-accent-400 mb-2">{totalCalculators}</div>
               <div className="text-sm sm:text-base text-white/90 font-medium">Chemistry Tools</div>
             </div>
             <div className="group bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/15 hover:border-accent-400/50 transition-all">

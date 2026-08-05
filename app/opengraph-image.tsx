@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og'
- 
+import { getTotalCalculatorCount } from '@/data/calculators'
+
 export const runtime = 'edge'
  
 export const alt = 'ChemSolved - Chemistry Calculators'
@@ -51,7 +52,7 @@ export default async function Image() {
           </div>
         </div>
         <div style={{ fontSize: 32, opacity: 0.8 }}>
-          100+ Free, Accurate Chemistry Calculators
+          {getTotalCalculatorCount()} Free, Accurate Chemistry Calculators
         </div>
       </div>
     ),

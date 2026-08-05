@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { JetBrains_Mono, Inter } from 'next/font/google'
+import { getTotalCalculatorCount } from '@/data/calculators'
 import './globals.css'
+
+const totalCalculators = getTotalCalculatorCount();
 
 const jetbrainsMono = JetBrains_Mono({ 
   subsets: ['latin'],
@@ -28,7 +31,7 @@ export const metadata: Metadata = {
     default: 'Chemistry Calculators – Accurate & Free Tools | ChemSolved',
     template: '%s | ChemSolved'
   },
-  description: 'ChemSolved is an educational chemistry calculator platform offering 100+ accurate, free tools for students and professionals. Human-reviewed, accessible, and trusted.',
+  description: `ChemSolved is an educational chemistry calculator platform offering ${totalCalculators} accurate, free tools for students and professionals. Human-reviewed, accessible, and trusted.`,
   keywords: [
     'chemical calculators',
     'chemistry calculators',
@@ -69,13 +72,13 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://chemsolved.com',
     title: 'Chemistry Calculators – Accurate & Free Tools | ChemSolved',
-    description: 'ChemSolved offers 100+ free, accurate chemistry calculators for students and professionals. Human-reviewed and trusted.',
+    description: `ChemSolved offers ${totalCalculators} free, accurate chemistry calculators for students and professionals. Human-reviewed and trusted.`,
     siteName: 'ChemSolved',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Chemistry Calculators – Accurate & Free Tools | ChemSolved',
-    description: 'ChemSolved: 100+ free, accurate chemistry calculators. Human-reviewed, accessible, and trusted.',
+    description: `ChemSolved: ${totalCalculators} free, accurate chemistry calculators. Human-reviewed, accessible, and trusted.`,
   },
   robots: {
     index: true,
