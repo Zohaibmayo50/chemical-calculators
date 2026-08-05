@@ -50,7 +50,7 @@ export default function CellPotentialCalculatorPage() {  return (
                 </a>
               </div>
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">ðŸ“ Related Formulas</h3>
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4">📐 Related Formulas</h3>
                 <div className="space-y-3">
                   <a href="/chemistry-formulas/cell-potential-formula" className="block p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
                     <div className="font-semibold text-gray-900 dark:text-white">Cell Potential Formula</div>
@@ -61,7 +61,7 @@ export default function CellPotentialCalculatorPage() {  return (
                 </div>
               </div>
               <a href="/electrochemistry-calculators" className="block mt-4 text-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
-                All Electrochemistry Calculators â†’
+                All Electrochemistry Calculators →
               </a>
             </div>
           </div>
@@ -82,29 +82,29 @@ export default function CellPotentialCalculatorPage() {  return (
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg mb-4">
               <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">Standard Cell Potential Formula:</h3>
               <p className="text-blue-800 dark:text-blue-200 font-mono text-xl mb-3">
-                EÂ°_cell = EÂ°_cathode - EÂ°_anode
+                E°_cell = E°_cathode - E°_anode
               </p>
               <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                <li>â€¢ <strong>EÂ°_cell</strong> = standard cell potential (V, volts)</li>
-                <li>â€¢ <strong>EÂ°_cathode</strong> = standard reduction potential at cathode (V)</li>
-                <li>â€¢ <strong>EÂ°_anode</strong> = standard reduction potential at anode (V)</li>
-                <li>â€¢ Standard conditions: 25Â°C, 1 M concentrations, 1 atm pressure</li>
+                <li>• <strong>E°_cell</strong> = standard cell potential (V, volts)</li>
+                <li>• <strong>E°_cathode</strong> = standard reduction potential at cathode (V)</li>
+                <li>• <strong>E°_anode</strong> = standard reduction potential at anode (V)</li>
+                <li>• Standard conditions: 25°C, 1 M concentrations, 1 atm pressure</li>
               </ul>
             </div>
             <div className="bg-purple-50 dark:bg-purple-900/30 p-4 rounded-lg">
               <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">Nernst Equation (Non-Standard):</h3>
               <p className="text-purple-800 dark:text-purple-200 font-mono text-lg mb-2">
-                E_cell = EÂ°_cell - (RT/nF)ln(Q)
+                E_cell = E°_cell - (RT/nF)ln(Q)
               </p>
               <p className="text-purple-800 dark:text-purple-200 font-mono text-sm">
-                At 298 K: E = EÂ° - (0.0592/n)log(Q)
+                At 298 K: E = E° - (0.0592/n)log(Q)
               </p>
               <ul className="text-sm text-purple-800 dark:text-purple-200 mt-2 space-y-1">
-                <li>â€¢ <strong>R</strong> = 8.314 J/(molÂ·K) (gas constant)</li>
-                <li>â€¢ <strong>T</strong> = temperature (K)</li>
-                <li>â€¢ <strong>n</strong> = moles of electrons transferred</li>
-                <li>â€¢ <strong>F</strong> = 96,485 C/mol (Faraday constant)</li>
-                <li>â€¢ <strong>Q</strong> = reaction quotient = [products]/[reactants]</li>
+                <li>• <strong>R</strong> = 8.314 J/(mol·K) (gas constant)</li>
+                <li>• <strong>T</strong> = temperature (K)</li>
+                <li>• <strong>n</strong> = moles of electrons transferred</li>
+                <li>• <strong>F</strong> = 96,485 C/mol (Faraday constant)</li>
+                <li>• <strong>Q</strong> = reaction quotient = [products]/[reactants]</li>
               </ul>
             </div>
           </section>
@@ -118,29 +118,29 @@ export default function CellPotentialCalculatorPage() {  return (
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2 text-xl">
-                  âŠ• Cathode (Positive Electrode)
+                  ⊕ Cathode (Positive Electrode)
                 </h3>
                 <ul className="text-sm text-green-800 dark:text-green-200 space-y-2">
-                  <li>â€¢ <strong>Process:</strong> Reduction (gain of electrons)</li>
-                  <li>â€¢ <strong>Charge:</strong> Positive in galvanic cells</li>
-                  <li>â€¢ <strong>Electron flow:</strong> INTO the cathode</li>
-                  <li>â€¢ <strong>Half-reaction:</strong> Mâº + eâ» â†’ M</li>
-                  <li>â€¢ <strong>Potential:</strong> Higher EÂ° value</li>
-                  <li>â€¢ <strong>Example:</strong> CuÂ²âº + 2eâ» â†’ Cu (EÂ° = +0.34 V)</li>
+                  <li>• <strong>Process:</strong> Reduction (gain of electrons)</li>
+                  <li>• <strong>Charge:</strong> Positive in galvanic cells</li>
+                  <li>• <strong>Electron flow:</strong> INTO the cathode</li>
+                  <li>• <strong>Half-reaction:</strong> M⁺ + e⁻ → M</li>
+                  <li>• <strong>Potential:</strong> Higher E° value</li>
+                  <li>• <strong>Example:</strong> Cu²⁺ + 2e⁻ → Cu (E° = +0.34 V)</li>
                 </ul>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-red-900 dark:text-red-100 mb-2 text-xl">
-                  âŠ– Anode (Negative Electrode)
+                  ⊖ Anode (Negative Electrode)
                 </h3>
                 <ul className="text-sm text-red-800 dark:text-red-200 space-y-2">
-                  <li>â€¢ <strong>Process:</strong> Oxidation (loss of electrons)</li>
-                  <li>â€¢ <strong>Charge:</strong> Negative in galvanic cells</li>
-                  <li>â€¢ <strong>Electron flow:</strong> OUT OF the anode</li>
-                  <li>â€¢ <strong>Half-reaction:</strong> M â†’ Mâº + eâ»</li>
-                  <li>â€¢ <strong>Potential:</strong> Lower EÂ° value</li>
-                  <li>â€¢ <strong>Example:</strong> Zn â†’ ZnÂ²âº + 2eâ» (EÂ° = -0.76 V)</li>
+                  <li>• <strong>Process:</strong> Oxidation (loss of electrons)</li>
+                  <li>• <strong>Charge:</strong> Negative in galvanic cells</li>
+                  <li>• <strong>Electron flow:</strong> OUT OF the anode</li>
+                  <li>• <strong>Half-reaction:</strong> M → M⁺ + e⁻</li>
+                  <li>• <strong>Potential:</strong> Lower E° value</li>
+                  <li>• <strong>Example:</strong> Zn → Zn²⁺ + 2e⁻ (E° = -0.76 V)</li>
                 </ul>
               </div>
             </div>
@@ -168,78 +168,78 @@ export default function CellPotentialCalculatorPage() {  return (
                 <thead className="bg-gray-100 dark:bg-gray-700">
                   <tr>
                     <th className="p-2 text-left">Half-Reaction (Reduction)</th>
-                    <th className="p-2 text-right">EÂ° (V)</th>
+                    <th className="p-2 text-right">E° (V)</th>
                     <th className="p-2 text-left">Category</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200 dark:divide-gray-600">
                   <tr>
-                    <td className="p-2 font-mono text-xs">Fâ‚‚ + 2eâ» â†’ 2Fâ»</td>
+                    <td className="p-2 font-mono text-xs">F₂ + 2e⁻ → 2F⁻</td>
                     <td className="p-2 text-right font-bold text-green-600">+2.87</td>
                     <td className="p-2 text-xs">Strong oxidizer</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">AuÂ³âº + 3eâ» â†’ Au</td>
+                    <td className="p-2 font-mono text-xs">Au³⁺ + 3e⁻ → Au</td>
                     <td className="p-2 text-right font-bold text-green-600">+1.50</td>
                     <td className="p-2 text-xs">Noble metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">Clâ‚‚ + 2eâ» â†’ 2Clâ»</td>
+                    <td className="p-2 font-mono text-xs">Cl₂ + 2e⁻ → 2Cl⁻</td>
                     <td className="p-2 text-right font-bold text-green-600">+1.36</td>
                     <td className="p-2 text-xs">Halogen</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">Brâ‚‚ + 2eâ» â†’ 2Brâ»</td>
+                    <td className="p-2 font-mono text-xs">Br₂ + 2e⁻ → 2Br⁻</td>
                     <td className="p-2 text-right font-bold">+1.07</td>
                     <td className="p-2 text-xs">Halogen</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">Agâº + eâ» â†’ Ag</td>
+                    <td className="p-2 font-mono text-xs">Ag⁺ + e⁻ → Ag</td>
                     <td className="p-2 text-right font-bold">+0.80</td>
                     <td className="p-2 text-xs">Noble metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">CuÂ²âº + 2eâ» â†’ Cu</td>
+                    <td className="p-2 font-mono text-xs">Cu²⁺ + 2e⁻ → Cu</td>
                     <td className="p-2 text-right font-bold">+0.34</td>
                     <td className="p-2 text-xs">Transition metal</td>
                   </tr>
                   <tr className="bg-blue-50 dark:bg-blue-900/20">
-                    <td className="p-2 font-mono text-xs font-bold">2Hâº + 2eâ» â†’ Hâ‚‚</td>
+                    <td className="p-2 font-mono text-xs font-bold">2H⁺ + 2e⁻ → H₂</td>
                     <td className="p-2 text-right font-bold text-blue-600">0.00</td>
                     <td className="p-2 text-xs font-bold">Reference (SHE)</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">PbÂ²âº + 2eâ» â†’ Pb</td>
+                    <td className="p-2 font-mono text-xs">Pb²⁺ + 2e⁻ → Pb</td>
                     <td className="p-2 text-right font-bold">-0.13</td>
                     <td className="p-2 text-xs">Active metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">NiÂ²âº + 2eâ» â†’ Ni</td>
+                    <td className="p-2 font-mono text-xs">Ni²⁺ + 2e⁻ → Ni</td>
                     <td className="p-2 text-right font-bold">-0.26</td>
                     <td className="p-2 text-xs">Transition metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">FeÂ²âº + 2eâ» â†’ Fe</td>
+                    <td className="p-2 font-mono text-xs">Fe²⁺ + 2e⁻ → Fe</td>
                     <td className="p-2 text-right font-bold">-0.45</td>
                     <td className="p-2 text-xs">Transition metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">ZnÂ²âº + 2eâ» â†’ Zn</td>
+                    <td className="p-2 font-mono text-xs">Zn²⁺ + 2e⁻ → Zn</td>
                     <td className="p-2 text-right font-bold text-red-600">-0.76</td>
                     <td className="p-2 text-xs">Active metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">AlÂ³âº + 3eâ» â†’ Al</td>
+                    <td className="p-2 font-mono text-xs">Al³⁺ + 3e⁻ → Al</td>
                     <td className="p-2 text-right font-bold text-red-600">-1.66</td>
                     <td className="p-2 text-xs">Reactive metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">Naâº + eâ» â†’ Na</td>
+                    <td className="p-2 font-mono text-xs">Na⁺ + e⁻ → Na</td>
                     <td className="p-2 text-right font-bold text-red-600">-2.71</td>
                     <td className="p-2 text-xs">Alkali metal</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-mono text-xs">Liâº + eâ» â†’ Li</td>
+                    <td className="p-2 font-mono text-xs">Li⁺ + e⁻ → Li</td>
                     <td className="p-2 text-right font-bold text-red-600">-3.04</td>
                     <td className="p-2 text-xs">Strong reducer</td>
                   </tr>
@@ -250,13 +250,13 @@ export default function CellPotentialCalculatorPage() {  return (
             <div className="mt-4 grid md:grid-cols-2 gap-4">
               <div className="bg-green-50 dark:bg-green-900/30 p-3 rounded">
                 <p className="text-sm text-green-800 dark:text-green-200">
-                  <strong>Positive EÂ°:</strong> Strong oxidizing agents (good at gaining electrons). 
+                  <strong>Positive E°:</strong> Strong oxidizing agents (good at gaining electrons). 
                   Prefer to be reduced.
                 </p>
               </div>
               <div className="bg-red-50 dark:bg-red-900/30 p-3 rounded">
                 <p className="text-sm text-red-800 dark:text-red-200">
-                  <strong>Negative EÂ°:</strong> Strong reducing agents (good at losing electrons). 
+                  <strong>Negative E°:</strong> Strong reducing agents (good at losing electrons). 
                   Prefer to be oxidized.
                 </p>
               </div>
@@ -284,40 +284,40 @@ export default function CellPotentialCalculatorPage() {  return (
                 
                 <div>
                   <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                    <strong>Step 1:</strong> Identify the half-reactions and their EÂ° values
+                    <strong>Step 1:</strong> Identify the half-reactions and their E° values
                   </p>
                   <div className="text-sm text-gray-700 dark:text-gray-300 font-mono bg-white dark:bg-gray-800 p-3 rounded space-y-1">
-                    <p>CuÂ²âº + 2eâ» â†’ Cu, EÂ° = +0.34 V</p>
-                    <p>ZnÂ²âº + 2eâ» â†’ Zn, EÂ° = -0.76 V</p>
+                    <p>Cu²⁺ + 2e⁻ → Cu, E° = +0.34 V</p>
+                    <p>Zn²⁺ + 2e⁻ → Zn, E° = -0.76 V</p>
                   </div>
                 </div>
 
                 <div>
                   <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                    <strong>Step 2:</strong> Determine which is cathode (higher EÂ°) and anode (lower EÂ°)
+                    <strong>Step 2:</strong> Determine which is cathode (higher E°) and anode (lower E°)
                   </p>
                   <div className="text-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 p-3 rounded">
-                    <p>Cathode (reduction): CuÂ²âº + 2eâ» â†’ Cu (EÂ° = +0.34 V)</p>
-                    <p>Anode (oxidation): Zn â†’ ZnÂ²âº + 2eâ» (EÂ° = -0.76 V)</p>
+                    <p>Cathode (reduction): Cu²⁺ + 2e⁻ → Cu (E° = +0.34 V)</p>
+                    <p>Anode (oxidation): Zn → Zn²⁺ + 2e⁻ (E° = -0.76 V)</p>
                   </div>
                 </div>
 
                 <div>
                   <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                    <strong>Step 3:</strong> Calculate EÂ°_cell
+                    <strong>Step 3:</strong> Calculate E°_cell
                   </p>
                   <div className="text-sm text-gray-700 dark:text-gray-300 font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    <p>EÂ°_cell = EÂ°_cathode - EÂ°_anode</p>
-                    <p>EÂ°_cell = (+0.34 V) - (-0.76 V)</p>
+                    <p>E°_cell = E°_cathode - E°_anode</p>
+                    <p>E°_cell = (+0.34 V) - (-0.76 V)</p>
                     <p className="text-tertiary-600 dark:text-tertiary-400 font-bold">
-                      EÂ°_cell = +1.10 V
+                      E°_cell = +1.10 V
                     </p>
                   </div>
                 </div>
 
                 <div className="bg-green-100 dark:bg-green-900/30 p-3 rounded">
                   <p className="text-sm text-green-800 dark:text-green-200">
-                    <strong>Interpretation:</strong> Positive EÂ°_cell (+1.10 V) means the reaction is 
+                    <strong>Interpretation:</strong> Positive E°_cell (+1.10 V) means the reaction is 
                     spontaneous. This cell will produce electricity! The Daniell cell is one of the 
                     first practical batteries.
                   </p>
@@ -328,7 +328,7 @@ export default function CellPotentialCalculatorPage() {  return (
                     <strong>Overall Cell Reaction:</strong>
                   </p>
                   <p className="text-sm text-gray-700 dark:text-gray-300 font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    Zn(s) + CuÂ²âº(aq) â†’ ZnÂ²âº(aq) + Cu(s)
+                    Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)
                   </p>
                 </div>
               </div>
@@ -342,42 +342,42 @@ export default function CellPotentialCalculatorPage() {  return (
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">ðŸ”‹ Batteries</h3>
+                <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">🔋 Batteries</h3>
                 <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                  <li>â€¢ Alkaline batteries (Zn-MnOâ‚‚)</li>
-                  <li>â€¢ Lithium-ion batteries (Li-CoOâ‚‚)</li>
-                  <li>â€¢ Lead-acid car batteries (Pb-PbOâ‚‚)</li>
-                  <li>â€¢ Silver oxide watch batteries (Zn-Agâ‚‚O)</li>
+                  <li>• Alkaline batteries (Zn-MnO₂)</li>
+                  <li>• Lithium-ion batteries (Li-CoO₂)</li>
+                  <li>• Lead-acid car batteries (Pb-PbO₂)</li>
+                  <li>• Silver oxide watch batteries (Zn-Ag₂O)</li>
                 </ul>
               </div>
 
               <div className="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2">âš¡ Fuel Cells</h3>
+                <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2">⚡ Fuel Cells</h3>
                 <ul className="text-sm text-green-800 dark:text-green-200 space-y-1">
-                  <li>â€¢ Hydrogen fuel cells (Hâ‚‚-Oâ‚‚)</li>
-                  <li>â€¢ Electric vehicle power</li>
-                  <li>â€¢ Spacecraft energy systems</li>
-                  <li>â€¢ Backup power generation</li>
+                  <li>• Hydrogen fuel cells (H₂-O₂)</li>
+                  <li>• Electric vehicle power</li>
+                  <li>• Spacecraft energy systems</li>
+                  <li>• Backup power generation</li>
                 </ul>
               </div>
 
               <div className="bg-purple-50 dark:bg-purple-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">ðŸ­ Industrial</h3>
+                <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">🏭 Industrial</h3>
                 <ul className="text-sm text-purple-800 dark:text-purple-200 space-y-1">
-                  <li>â€¢ Electroplating (coating metals)</li>
-                  <li>â€¢ Corrosion protection (sacrificial anodes)</li>
-                  <li>â€¢ Chlorine production (chlor-alkali process)</li>
-                  <li>â€¢ Aluminum refining (Hall-HÃ©roult process)</li>
+                  <li>• Electroplating (coating metals)</li>
+                  <li>• Corrosion protection (sacrificial anodes)</li>
+                  <li>• Chlorine production (chlor-alkali process)</li>
+                  <li>• Aluminum refining (Hall-Héroult process)</li>
                 </ul>
               </div>
 
               <div className="bg-orange-50 dark:bg-orange-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-orange-900 dark:text-orange-100 mb-2">ðŸ§ª Analytical</h3>
+                <h3 className="font-semibold text-orange-900 dark:text-orange-100 mb-2">🧪 Analytical</h3>
                 <ul className="text-sm text-orange-800 dark:text-orange-200 space-y-1">
-                  <li>â€¢ pH meters (glass electrodes)</li>
-                  <li>â€¢ Ion-selective electrodes</li>
-                  <li>â€¢ Glucose sensors (diabetic monitoring)</li>
-                  <li>â€¢ Oxygen sensors (medical, automotive)</li>
+                  <li>• pH meters (glass electrodes)</li>
+                  <li>• Ion-selective electrodes</li>
+                  <li>• Glucose sensors (diabetic monitoring)</li>
+                  <li>• Oxygen sensors (medical, automotive)</li>
                 </ul>
               </div>
             </div>
@@ -398,50 +398,50 @@ export default function CellPotentialCalculatorPage() {  return (
                 Gibbs Free Energy Equation:
               </h3>
               <p className="text-indigo-800 dark:text-indigo-200 font-mono text-xl mb-3">
-                Î”GÂ° = -nFEÂ°_cell
+                ΔG° = -nFE°_cell
               </p>
               <ul className="text-sm text-indigo-800 dark:text-indigo-200 space-y-1">
-                <li>â€¢ <strong>Î”GÂ°</strong> = standard Gibbs free energy change (J or kJ)</li>
-                <li>â€¢ <strong>n</strong> = moles of electrons transferred</li>
-                <li>â€¢ <strong>F</strong> = 96,485 C/mol (Faraday constant)</li>
-                <li>â€¢ <strong>EÂ°_cell</strong> = standard cell potential (V)</li>
+                <li>• <strong>ΔG°</strong> = standard Gibbs free energy change (J or kJ)</li>
+                <li>• <strong>n</strong> = moles of electrons transferred</li>
+                <li>• <strong>F</strong> = 96,485 C/mol (Faraday constant)</li>
+                <li>• <strong>E°_cell</strong> = standard cell potential (V)</li>
               </ul>
             </div>
 
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-green-50 dark:bg-green-900/30 p-3 rounded">
                 <p className="font-semibold text-green-900 dark:text-green-100 mb-1">
-                  EÂ°_cell &gt; 0
+                  E°_cell &gt; 0
                 </p>
                 <p className="text-xs text-green-800 dark:text-green-200">
-                  Î”GÂ° &lt; 0: Spontaneous (galvanic cell produces voltage)
+                  ΔG° &lt; 0: Spontaneous (galvanic cell produces voltage)
                 </p>
               </div>
 
               <div className="bg-yellow-50 dark:bg-yellow-900/30 p-3 rounded">
                 <p className="font-semibold text-yellow-900 dark:text-yellow-100 mb-1">
-                  EÂ°_cell = 0
+                  E°_cell = 0
                 </p>
                 <p className="text-xs text-yellow-800 dark:text-yellow-200">
-                  Î”GÂ° = 0: At equilibrium (no net reaction)
+                  ΔG° = 0: At equilibrium (no net reaction)
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/30 p-3 rounded">
                 <p className="font-semibold text-red-900 dark:text-red-100 mb-1">
-                  EÂ°_cell &lt; 0
+                  E°_cell &lt; 0
                 </p>
                 <p className="text-xs text-red-800 dark:text-red-200">
-                  Î”GÂ° &gt; 0: Non-spontaneous (needs external voltage - electrolytic cell)
+                  ΔG° &gt; 0: Non-spontaneous (needs external voltage - electrolytic cell)
                 </p>
               </div>
             </div>
 
             <div className="mt-4 bg-teal-50 dark:bg-teal-900/30 p-4 rounded-lg">
               <p className="text-sm text-teal-800 dark:text-teal-200">
-                <strong>Example:</strong> For the Daniell cell (EÂ° = 1.10 V, n = 2):<br />
-                Î”GÂ° = -2 Ã— 96,485 Ã— 1.10 = -212,267 J = -212.3 kJ/mol<br />
-                Large negative Î”GÂ° confirms highly spontaneous reaction!
+                <strong>Example:</strong> For the Daniell cell (E° = 1.10 V, n = 2):<br />
+                ΔG° = -2 × 96,485 × 1.10 = -212,267 J = -212.3 kJ/mol<br />
+                Large negative ΔG° confirms highly spontaneous reaction!
               </p>
             </div>
           </section>
@@ -453,7 +453,7 @@ export default function CellPotentialCalculatorPage() {  return (
             </h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               The Nernst equation adjusts the cell potential for concentrations different from 1 M, 
-              temperatures other than 25Â°C, and pressures other than 1 atm.
+              temperatures other than 25°C, and pressures other than 1 atm.
             </p>
 
             <div className="space-y-4">
@@ -462,7 +462,7 @@ export default function CellPotentialCalculatorPage() {  return (
                   General Form:
                 </h3>
                 <p className="text-purple-800 dark:text-purple-200 font-mono text-lg mb-2">
-                  E_cell = EÂ°_cell - (RT/nF)ln(Q)
+                  E_cell = E°_cell - (RT/nF)ln(Q)
                 </p>
                 <p className="text-sm text-purple-800 dark:text-purple-200">
                   Where Q is the reaction quotient: Q = [products]^coeff / [reactants]^coeff
@@ -471,10 +471,10 @@ export default function CellPotentialCalculatorPage() {  return (
 
               <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">
-                  Simplified Form at 298 K (25Â°C):
+                  Simplified Form at 298 K (25°C):
                 </h3>
                 <p className="text-blue-800 dark:text-blue-200 font-mono text-lg mb-2">
-                  E = EÂ° - (0.0592/n)log(Q)
+                  E = E° - (0.0592/n)log(Q)
                 </p>
                 <p className="text-sm text-blue-800 dark:text-blue-200">
                   Most commonly used in chemistry courses. Uses log base 10.
@@ -486,10 +486,10 @@ export default function CellPotentialCalculatorPage() {  return (
                   Key Insights:
                 </h3>
                 <ul className="text-sm text-green-800 dark:text-green-200 space-y-1">
-                  <li>â€¢ As products accumulate (Q increases), cell potential decreases</li>
-                  <li>â€¢ When Q = 1 (standard conditions), E = EÂ°</li>
-                  <li>â€¢ At equilibrium, E = 0 and Q = K_eq</li>
-                  <li>â€¢ Can calculate equilibrium constant: EÂ° = (0.0592/n)log(K)</li>
+                  <li>• As products accumulate (Q increases), cell potential decreases</li>
+                  <li>• When Q = 1 (standard conditions), E = E°</li>
+                  <li>• At equilibrium, E = 0 and Q = K_eq</li>
+                  <li>• Can calculate equilibrium constant: E° = (0.0592/n)log(K)</li>
                 </ul>
               </div>
             </div>
@@ -504,41 +504,41 @@ export default function CellPotentialCalculatorPage() {  return (
             <div className="space-y-4">
               <div className="bg-yellow-50 dark:bg-yellow-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">
-                  âš ï¸ EÂ° Values are for Reduction
+                  ⚠️ E° Values are for Reduction
                 </h3>
                 <p className="text-sm text-yellow-800 dark:text-yellow-200">
                   All standard potentials in tables are reduction potentials. Even for the anode 
                   (where oxidation occurs), use the tabulated reduction potential in the formula 
-                  EÂ°_cell = EÂ°_cathode - EÂ°_anode. Don't flip the sign of the anode potential!
+                  E°_cell = E°_cathode - E°_anode. Don't flip the sign of the anode potential!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-red-900 dark:text-red-100 mb-2">
-                  ðŸ”„ Don't Multiply EÂ° by Coefficients
+                  🔄 Don't Multiply E° by Coefficients
                 </h3>
                 <p className="text-sm text-red-800 dark:text-red-200">
-                  Unlike Î”G or Î”H, cell potential is an intensive property. Even if you multiply 
-                  the half-reaction by 2, the EÂ° value stays the same. It's a potential difference, 
+                  Unlike ΔG or ΔH, cell potential is an intensive property. Even if you multiply 
+                  the half-reaction by 2, the E° value stays the same. It's a potential difference, 
                   not a total amount.
                 </p>
               </div>
 
               <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">
-                  ðŸ“Š Standard Conditions
+                  📊 Standard Conditions
                 </h3>
                 <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                  <li>â€¢ Temperature: 25Â°C (298 K)</li>
-                  <li>â€¢ Concentration: 1 M for all aqueous species</li>
-                  <li>â€¢ Pressure: 1 atm for gases</li>
-                  <li>â€¢ Activity: Pure solids and liquids have activity = 1</li>
+                  <li>• Temperature: 25°C (298 K)</li>
+                  <li>• Concentration: 1 M for all aqueous species</li>
+                  <li>• Pressure: 1 atm for gases</li>
+                  <li>• Activity: Pure solids and liquids have activity = 1</li>
                 </ul>
               </div>
 
               <div className="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg">
                 <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2">
-                  ðŸ”‹ Battery Lifetime
+                  🔋 Battery Lifetime
                 </h3>
                 <p className="text-sm text-green-800 dark:text-green-200">
                   As a battery discharges, reactant concentrations decrease and product concentrations 

@@ -63,7 +63,7 @@ export default function IonicFormulaCalculatorPage() {
               <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                   <span className="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center text-primary-600 dark:text-primary-400">
-                    â„¹ï¸
+                    ℹ️
                   </span>
                   What It Does
                 </h2>
@@ -76,7 +76,7 @@ export default function IonicFormulaCalculatorPage() {
               <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                   <span className="w-8 h-8 bg-accent-100 dark:bg-accent-900 rounded-lg flex items-center justify-center text-accent-600 dark:text-accent-400">
-                    ðŸ“
+                    📐
                   </span>
                   Method
                 </h2>
@@ -87,14 +87,14 @@ export default function IonicFormulaCalculatorPage() {
                     Total Positive Charge + Total Negative Charge = 0
                   </p>
                   <p className="text-center text-lg font-mono text-gray-700 dark:text-gray-300">
-                    (cation charge Ã— cation count) + (anion charge Ã— anion count) = 0
+                    (cation charge × cation count) + (anion charge × anion count) = 0
                   </p>
                 </div>
 
                 {/* Cross-Multiply Method */}
                 <div className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 mb-6 border border-gray-200 dark:border-gray-600">
                   <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-2">Cross-Multiply Method</p>
-                  <p className="text-lg font-mono font-bold text-gray-900 dark:text-white mb-2">M<sup>m+</sup> + X<sup>n-</sup> â†’ M<sub>n</sub>X<sub>m</sub></p>
+                  <p className="text-lg font-mono font-bold text-gray-900 dark:text-white mb-2">M<sup>m+</sup> + X<sup>n-</sup> → M<sub>n</sub>X<sub>m</sub></p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Then reduce to lowest terms by dividing by GCD</p>
                 </div>
 
@@ -108,7 +108,7 @@ export default function IonicFormulaCalculatorPage() {
                     </div>
                     <div className="flex items-start gap-3 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg">
                       <span className="font-mono font-bold text-primary-600 dark:text-primary-400 min-w-[30px]">2.</span>
-                      <span className="text-gray-700 dark:text-gray-300">Cross-multiply: cation charge â†’ anion subscript</span>
+                      <span className="text-gray-700 dark:text-gray-300">Cross-multiply: cation charge → anion subscript</span>
                     </div>
                     <div className="flex items-start gap-3 bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg">
                       <span className="font-mono font-bold text-primary-600 dark:text-primary-400 min-w-[30px]">3.</span>
@@ -126,7 +126,7 @@ export default function IonicFormulaCalculatorPage() {
               <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                   <span className="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center text-green-600 dark:text-green-400">
-                    ðŸ“
+                    📝
                   </span>
                   Step-by-Step Example: Calcium Chloride
                 </h2>
@@ -135,29 +135,29 @@ export default function IonicFormulaCalculatorPage() {
                     <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">1</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Identify Ions</p>
-                      <p className="text-gray-700 dark:text-gray-300">CaÂ²âº (cation) and Clâ» (anion)</p>
+                      <p className="text-gray-700 dark:text-gray-300">Ca²⁺ (cation) and Cl⁻ (anion)</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">2</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Cross-Multiply Charges</p>
-                      <p className="text-gray-700 dark:text-gray-300">Cation charge (2) â†’ anion subscript: Clâ‚‚</p>
-                      <p className="text-gray-700 dark:text-gray-300">Anion charge (1) â†’ cation subscript: Caâ‚</p>
+                      <p className="text-gray-700 dark:text-gray-300">Cation charge (2) → anion subscript: Cl₂</p>
+                      <p className="text-gray-700 dark:text-gray-300">Anion charge (1) → cation subscript: Ca₁</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">3</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Simplify (if needed)</p>
-                      <p className="text-gray-700 dark:text-gray-300">Caâ‚Clâ‚‚ â†’ CaClâ‚‚ (1 is omitted)</p>
+                      <p className="text-gray-700 dark:text-gray-300">Ca₁Cl₂ → CaCl₂ (1 is omitted)</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">4</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Verify Neutrality</p>
-                      <p className="text-gray-700 dark:text-gray-300">(1 Ã— +2) + (2 Ã— -1) = +2 - 2 = 0 âœ“</p>
+                      <p className="text-gray-700 dark:text-gray-300">(1 × +2) + (2 × -1) = +2 - 2 = 0 ✓</p>
                     </div>
                   </div>
                 </div>
@@ -167,18 +167,18 @@ export default function IonicFormulaCalculatorPage() {
               <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                   <span className="w-8 h-8 bg-red-100 dark:bg-red-900 rounded-lg flex items-center justify-center text-red-600 dark:text-red-400">
-                    âš ï¸
+                    ⚠️
                   </span>
                   Common Mistakes
                 </h2>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                     <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Not simplifying subscripts</p>
-                    <p className="text-sm text-red-800 dark:text-red-400">Caâ‚‚Oâ‚‚ should be simplified to CaO</p>
+                    <p className="text-sm text-red-800 dark:text-red-400">Ca₂O₂ should be simplified to CaO</p>
                   </div>
                   <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                     <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Wrong parentheses placement</p>
-                    <p className="text-sm text-red-800 dark:text-red-400">Ca(OH)â‚‚, not CaOHâ‚‚ or Ca(OHâ‚‚)</p>
+                    <p className="text-sm text-red-800 dark:text-red-400">Ca(OH)₂, not CaOH₂ or Ca(OH₂)</p>
                   </div>
                   <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                     <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Forgetting 1:1 ratios</p>
@@ -210,7 +210,7 @@ export default function IonicFormulaCalculatorPage() {
                 </div>
                 <div className="grid sm:grid-cols-2 gap-4 mt-4">
                   <Link href="/stoichiometry-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
-                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Stoichiometry Calculators â†’</h3>
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Stoichiometry Calculators →</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">View complete collection</p>
                   </Link>
                 </div>
@@ -225,7 +225,7 @@ export default function IonicFormulaCalculatorPage() {
                       What is an ionic compound?
                     </summary>
                     <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                      An ionic compound is formed when a metal transfers electrons to a nonmetal, creating cations (+) and anions (-) held together by electrostatic attraction. Examples: NaCl (table salt), CaO (lime), MgSOâ‚„ (Epsom salt).
+                      An ionic compound is formed when a metal transfers electrons to a nonmetal, creating cations (+) and anions (-) held together by electrostatic attraction. Examples: NaCl (table salt), CaO (lime), MgSO₄ (Epsom salt).
                     </p>
                   </details>
                   <details className="group">
@@ -233,7 +233,7 @@ export default function IonicFormulaCalculatorPage() {
                       How do I know the charges of ions?
                     </summary>
                     <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                      Main group elements: Group 1 = +1, Group 2 = +2, Group 13 = +3, Group 15 = -3, Group 16 = -2, Group 17 = -1. Transition metals have variable charges (shown in Roman numerals: FeÂ²âº = iron(II), FeÂ³âº = iron(III)). Learn common polyatomic ions.
+                      Main group elements: Group 1 = +1, Group 2 = +2, Group 13 = +3, Group 15 = -3, Group 16 = -2, Group 17 = -1. Transition metals have variable charges (shown in Roman numerals: Fe²⁺ = iron(II), Fe³⁺ = iron(III)). Learn common polyatomic ions.
                     </p>
                   </details>
                   <details className="group">
@@ -241,7 +241,7 @@ export default function IonicFormulaCalculatorPage() {
                       Why do we use the cross-multiply method?
                     </summary>
                     <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                      The cross-multiply method ensures the compound is electrically neutral (total positive charge = total negative charge). By making the charge of one ion the subscript of the other, we balance the charges. Example: AlÂ³âº + OÂ²â» â†’ Alâ‚‚Oâ‚ƒ (2Ã—3 = 3Ã—2 = 6).
+                      The cross-multiply method ensures the compound is electrically neutral (total positive charge = total negative charge). By making the charge of one ion the subscript of the other, we balance the charges. Example: Al³⁺ + O²⁻ → Al₂O₃ (2×3 = 3×2 = 6).
                     </p>
                   </details>
                   <details className="group">
@@ -249,7 +249,7 @@ export default function IonicFormulaCalculatorPage() {
                       What are polyatomic ions?
                     </summary>
                     <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                      Polyatomic ions are groups of atoms that act as a single ion with a charge. Common examples: NHâ‚„âº (ammonium), OHâ» (hydroxide), NOâ‚ƒâ» (nitrate), SOâ‚„Â²â» (sulfate), COâ‚ƒÂ²â» (carbonate), POâ‚„Â³â» (phosphate). Use parentheses when subscript &gt; 1: Ca(OH)â‚‚, not CaOHâ‚‚.
+                      Polyatomic ions are groups of atoms that act as a single ion with a charge. Common examples: NH₄⁺ (ammonium), OH⁻ (hydroxide), NO₃⁻ (nitrate), SO₄²⁻ (sulfate), CO₃²⁻ (carbonate), PO₄³⁻ (phosphate). Use parentheses when subscript &gt; 1: Ca(OH)₂, not CaOH₂.
                     </p>
                   </details>
                   <details className="group">
@@ -257,7 +257,7 @@ export default function IonicFormulaCalculatorPage() {
                       How do I name ionic compounds?
                     </summary>
                     <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                      Name the cation first (metal name), then the anion (nonmetal root + &quot;-ide&quot; or polyatomic ion name). Examples: NaCl = sodium chloride, MgO = magnesium oxide, CaSOâ‚„ = calcium sulfate. For transition metals, include charge in Roman numerals: FeClâ‚ƒ = iron(III) chloride.
+                      Name the cation first (metal name), then the anion (nonmetal root + &quot;-ide&quot; or polyatomic ion name). Examples: NaCl = sodium chloride, MgO = magnesium oxide, CaSO₄ = calcium sulfate. For transition metals, include charge in Roman numerals: FeCl₃ = iron(III) chloride.
                     </p>
                   </details>
                   <details className="group">
@@ -265,7 +265,7 @@ export default function IonicFormulaCalculatorPage() {
                       When should I simplify subscripts?
                     </summary>
                     <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                      Always simplify subscripts to lowest whole number ratio by dividing by the greatest common divisor (GCD). Examples: Caâ‚‚Oâ‚‚ â†’ CaO (Ã·2), Mgâ‚‚Sâ‚‚ â†’ MgS (Ã·2), Alâ‚ƒOâ‚ƒ â†’ AlO (Ã·3). Exception: Don&apos;t simplify within polyatomic ions like SOâ‚„Â²â».
+                      Always simplify subscripts to lowest whole number ratio by dividing by the greatest common divisor (GCD). Examples: Ca₂O₂ → CaO (÷2), Mg₂S₂ → MgS (÷2), Al₃O₃ → AlO (÷3). Exception: Don&apos;t simplify within polyatomic ions like SO₄²⁻.
                     </p>
                   </details>
                   <details className="group">
@@ -273,7 +273,7 @@ export default function IonicFormulaCalculatorPage() {
                       What is a formula unit vs. molecule?
                     </summary>
                     <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                      Ionic compounds don&apos;t form discrete molecules; they form crystal lattices. We use &quot;formula unit&quot; to describe the simplest ratio of ions. Example: One formula unit of NaCl contains 1 Naâº and 1 Clâ», but in the crystal, each ion is surrounded by multiple oppositely charged ions.
+                      Ionic compounds don&apos;t form discrete molecules; they form crystal lattices. We use &quot;formula unit&quot; to describe the simplest ratio of ions. Example: One formula unit of NaCl contains 1 Na⁺ and 1 Cl⁻, but in the crystal, each ion is surrounded by multiple oppositely charged ions.
                     </p>
                   </details>
                 </div>
@@ -287,28 +287,28 @@ export default function IonicFormulaCalculatorPage() {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Where It&apos;s Used</h3>
                 <div className="space-y-4">
                   <div className="flex gap-3">
-                    <span className="text-2xl">ðŸŽ“</span>
+                    <span className="text-2xl">🎓</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Education</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Teaching ionic bonding fundamentals</p>
                     </div>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-2xl">ðŸ“</span>
+                    <span className="text-2xl">📝</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Chemical Formulas</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Writing and predicting formulas</p>
                     </div>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-2xl">ðŸ§ª</span>
+                    <span className="text-2xl">🧪</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Nomenclature</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Naming compounds correctly</p>
                     </div>
                   </div>
                   <div className="flex gap-3">
-                    <span className="text-2xl">ðŸ”¬</span>
+                    <span className="text-2xl">🔬</span>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Lab Work</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Preparing ionic compounds</p>

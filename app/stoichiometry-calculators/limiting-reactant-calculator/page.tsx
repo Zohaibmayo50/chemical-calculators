@@ -92,19 +92,19 @@ export default function LimitingReactantCalculatorPage() {  return (
               </h3>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">â€¢</span>
+                  <span className="text-tertiary-500 mr-2">•</span>
                   <span className="text-sm"><strong>Industrial:</strong> Optimize reactant usage and costs</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">â€¢</span>
+                  <span className="text-tertiary-500 mr-2">•</span>
                   <span className="text-sm"><strong>Lab:</strong> Plan experiments and predict yields</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">â€¢</span>
+                  <span className="text-tertiary-500 mr-2">•</span>
                   <span className="text-sm"><strong>Pharmacy:</strong> Drug synthesis and formulation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-tertiary-500 mr-2">â€¢</span>
+                  <span className="text-tertiary-500 mr-2">•</span>
                   <span className="text-sm"><strong>Environmental:</strong> Pollution control reactions</span>
                 </li>
               </ul>
@@ -121,8 +121,8 @@ export default function LimitingReactantCalculatorPage() {  return (
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
                 <p className="font-semibold mb-2">Problem:</p>
                 <p className="text-sm">
-                  Reaction: 2Hâ‚‚ + Oâ‚‚ â†’ 2Hâ‚‚O<br />
-                  Given: 3.0 mol Hâ‚‚ and 1.0 mol Oâ‚‚<br />
+                  Reaction: 2H₂ + O₂ → 2H₂O<br />
+                  Given: 3.0 mol H₂ and 1.0 mol O₂<br />
                   Find: Limiting reactant and theoretical yield
                 </p>
               </div>
@@ -130,22 +130,22 @@ export default function LimitingReactantCalculatorPage() {  return (
               <div className="p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
                 <p className="font-semibold mb-2 text-blue-900 dark:text-blue-100">Solution:</p>
                 <div className="text-sm space-y-2 text-blue-800 dark:text-blue-200">
-                  <p><strong>From Hâ‚‚:</strong></p>
-                  <p>3.0 mol Hâ‚‚ Ã— (2 mol Hâ‚‚O / 2 mol Hâ‚‚) = 3.0 mol Hâ‚‚O</p>
+                  <p><strong>From H₂:</strong></p>
+                  <p>3.0 mol H₂ × (2 mol H₂O / 2 mol H₂) = 3.0 mol H₂O</p>
                   
-                  <p className="mt-2"><strong>From Oâ‚‚:</strong></p>
-                  <p>1.0 mol Oâ‚‚ Ã— (2 mol Hâ‚‚O / 1 mol Oâ‚‚) = 2.0 mol Hâ‚‚O</p>
+                  <p className="mt-2"><strong>From O₂:</strong></p>
+                  <p>1.0 mol O₂ × (2 mol H₂O / 1 mol O₂) = 2.0 mol H₂O</p>
                   
-                  <p className="mt-2 font-semibold">Oâ‚‚ produces less â†’ Oâ‚‚ is limiting</p>
+                  <p className="mt-2 font-semibold">O₂ produces less → O₂ is limiting</p>
                 </div>
               </div>
 
               <div className="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
                 <p className="text-sm font-semibold text-green-900 dark:text-green-100 mb-1">Results:</p>
                 <p className="text-sm text-green-800 dark:text-green-200">
-                  â€¢ Limiting reactant: Oâ‚‚<br />
-                  â€¢ Theoretical yield: 2.0 mol Hâ‚‚O<br />
-                  â€¢ Excess Hâ‚‚: 3.0 - 2.0 = 1.0 mol remaining
+                  • Limiting reactant: O₂<br />
+                  • Theoretical yield: 2.0 mol H₂O<br />
+                  • Excess H₂: 3.0 - 2.0 = 1.0 mol remaining
                 </p>
               </div>
             </div>
@@ -159,8 +159,8 @@ export default function LimitingReactantCalculatorPage() {  return (
               <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
                 <p className="font-semibold mb-2">Problem:</p>
                 <p className="text-sm">
-                  Reaction: Nâ‚‚ + 3Hâ‚‚ â†’ 2NHâ‚ƒ<br />
-                  Given: 2.0 mol Nâ‚‚ and 5.0 mol Hâ‚‚<br />
+                  Reaction: N₂ + 3H₂ → 2NH₃<br />
+                  Given: 2.0 mol N₂ and 5.0 mol H₂<br />
                   Find: Limiting reactant and theoretical yield
                 </p>
               </div>
@@ -168,28 +168,28 @@ export default function LimitingReactantCalculatorPage() {  return (
               <div className="p-4 bg-purple-50 dark:bg-purple-900/30 rounded-lg">
                 <p className="font-semibold mb-2 text-purple-900 dark:text-purple-100">Solution:</p>
                 <div className="text-sm space-y-2 text-purple-800 dark:text-purple-200">
-                  <p><strong>From Nâ‚‚:</strong></p>
-                  <p>2.0 mol Nâ‚‚ Ã— (2 mol NHâ‚ƒ / 1 mol Nâ‚‚) = 4.0 mol NHâ‚ƒ</p>
+                  <p><strong>From N₂:</strong></p>
+                  <p>2.0 mol N₂ × (2 mol NH₃ / 1 mol N₂) = 4.0 mol NH₃</p>
                   
-                  <p className="mt-2"><strong>From Hâ‚‚:</strong></p>
-                  <p>5.0 mol Hâ‚‚ Ã— (2 mol NHâ‚ƒ / 3 mol Hâ‚‚) = 3.33 mol NHâ‚ƒ</p>
+                  <p className="mt-2"><strong>From H₂:</strong></p>
+                  <p>5.0 mol H₂ × (2 mol NH₃ / 3 mol H₂) = 3.33 mol NH₃</p>
                   
-                  <p className="mt-2 font-semibold">Hâ‚‚ produces less â†’ Hâ‚‚ is limiting</p>
+                  <p className="mt-2 font-semibold">H₂ produces less → H₂ is limiting</p>
                 </div>
               </div>
 
               <div className="p-3 bg-green-50 dark:bg-green-900/30 rounded-lg">
                 <p className="text-sm font-semibold text-green-900 dark:text-green-100 mb-1">Results:</p>
                 <p className="text-sm text-green-800 dark:text-green-200">
-                  â€¢ Limiting reactant: Hâ‚‚<br />
-                  â€¢ Theoretical yield: 3.33 mol NHâ‚ƒ<br />
-                  â€¢ Excess Nâ‚‚: 2.0 - 1.67 = 0.33 mol remaining
+                  • Limiting reactant: H₂<br />
+                  • Theoretical yield: 3.33 mol NH₃<br />
+                  • Excess N₂: 2.0 - 1.67 = 0.33 mol remaining
                 </p>
               </div>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                ðŸ”— Related Calculators
+                🔗 Related Calculators
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -197,7 +197,7 @@ export default function LimitingReactantCalculatorPage() {  return (
                     href="/"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
-                    <span>â†’</span>
+                    <span>→</span>
                     <span>Gas Stoichiometry Calculator</span>
                   </a>
                 </li>
@@ -206,7 +206,7 @@ export default function LimitingReactantCalculatorPage() {  return (
                     href="/concentration-and-solution-calculators/molarity-calculator"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
-                    <span>â†’</span>
+                    <span>→</span>
                     <span>Molarity Calculator</span>
                   </a>
                 </li>
@@ -215,14 +215,14 @@ export default function LimitingReactantCalculatorPage() {  return (
                     href="/stoichiometry-calculators/molecular-weight-calculator"
                     className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                   >
-                    <span>â†’</span>
+                    <span>→</span>
                     <span>Molar Mass Calculator</span>
                   </a>
                 </li>
               </ul>
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  ðŸ“ Related Formulas
+                  📐 Related Formulas
                 </h3>
                 <ul className="space-y-3">
                   <li>
@@ -230,7 +230,7 @@ export default function LimitingReactantCalculatorPage() {  return (
                       href="/chemistry-formulas/limiting-reactant"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
-                      <span>â†’</span>
+                      <span>→</span>
                       <span>Limiting Reagent Formula</span>
                     </a>
                   </li>
@@ -239,7 +239,7 @@ export default function LimitingReactantCalculatorPage() {  return (
                       href="/chemistry-formulas/stoichiometry-formula"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
-                      <span>â†’</span>
+                      <span>→</span>
                       <span>Stoichiometry Formula</span>
                     </a>
                   </li>
@@ -250,7 +250,7 @@ export default function LimitingReactantCalculatorPage() {  return (
                   href="/stoichiometry-calculators"
                   className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                 >
-                  All Stoichiometry Calculators â†’
+                  All Stoichiometry Calculators →
                 </a>
               </div>
             </div>          </div>
@@ -272,23 +272,23 @@ export default function LimitingReactantCalculatorPage() {  return (
               <tbody className="text-gray-700 dark:text-gray-300">
                 <tr className="border-b border-gray-200 dark:border-gray-700">
                   <td className="py-3">Water Formation</td>
-                  <td className="text-center py-3">2Hâ‚‚ + Oâ‚‚ â†’ 2Hâ‚‚O</td>
-                  <td className="py-3">2 mol Hâ‚‚ : 1 mol Oâ‚‚ : 2 mol Hâ‚‚O</td>
+                  <td className="text-center py-3">2H₂ + O₂ → 2H₂O</td>
+                  <td className="py-3">2 mol H₂ : 1 mol O₂ : 2 mol H₂O</td>
                 </tr>
                 <tr className="border-b border-gray-200 dark:border-gray-700">
                   <td className="py-3">Ammonia Synthesis</td>
-                  <td className="text-center py-3">Nâ‚‚ + 3Hâ‚‚ â†’ 2NHâ‚ƒ</td>
-                  <td className="py-3">1 mol Nâ‚‚ : 3 mol Hâ‚‚ : 2 mol NHâ‚ƒ</td>
+                  <td className="text-center py-3">N₂ + 3H₂ → 2NH₃</td>
+                  <td className="py-3">1 mol N₂ : 3 mol H₂ : 2 mol NH₃</td>
                 </tr>
                 <tr className="border-b border-gray-200 dark:border-gray-700">
                   <td className="py-3">Combustion of Methane</td>
-                  <td className="text-center py-3">CHâ‚„ + 2Oâ‚‚ â†’ COâ‚‚ + 2Hâ‚‚O</td>
-                  <td className="py-3">1 mol CHâ‚„ : 2 mol Oâ‚‚</td>
+                  <td className="text-center py-3">CH₄ + 2O₂ → CO₂ + 2H₂O</td>
+                  <td className="py-3">1 mol CH₄ : 2 mol O₂</td>
                 </tr>
                 <tr className="border-b border-gray-200 dark:border-gray-700">
                   <td className="py-3">Iron Oxide Reduction</td>
-                  <td className="text-center py-3">Feâ‚‚Oâ‚ƒ + 3CO â†’ 2Fe + 3COâ‚‚</td>
-                  <td className="py-3">1 mol Feâ‚‚Oâ‚ƒ : 3 mol CO : 2 mol Fe</td>
+                  <td className="text-center py-3">Fe₂O₃ + 3CO → 2Fe + 3CO₂</td>
+                  <td className="py-3">1 mol Fe₂O₃ : 3 mol CO : 2 mol Fe</td>
                 </tr>
               </tbody>
             </table>
@@ -319,12 +319,12 @@ export default function LimitingReactantCalculatorPage() {  return (
             <div className="bg-white dark:bg-gray-800 rounded-lg p-4">
               <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Common Mistakes to Avoid:</h3>
               <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
-                <li>âœ— Comparing moles without considering coefficients</li>
-                <li>âœ— Assuming the reactant with fewer moles is limiting</li>
-                <li>âœ— Forgetting to use a balanced equation</li>
-                <li>âœ— Using mass instead of moles</li>
-                <li>âœ“ Always check stoichiometric ratios</li>
-                <li>âœ“ Convert all quantities to moles first</li>
+                <li>✗ Comparing moles without considering coefficients</li>
+                <li>✗ Assuming the reactant with fewer moles is limiting</li>
+                <li>✗ Forgetting to use a balanced equation</li>
+                <li>✗ Using mass instead of moles</li>
+                <li>✓ Always check stoichiometric ratios</li>
+                <li>✓ Convert all quantities to moles first</li>
               </ul>
             </div>
           </div>

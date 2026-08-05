@@ -83,8 +83,8 @@ export default function ElectrolysisCalculatorPage() {  return (
                   </p>
                   <div className="bg-white dark:bg-gray-800 p-4 rounded">
                     <p className="font-semibold mb-2">Mathematical Expression:</p>
-                    <p className="font-mono text-xl mb-2">m âˆ Q</p>
-                    <p className="font-mono text-xl">m = Z Ã— Q</p>
+                    <p className="font-mono text-xl mb-2">m ∝ Q</p>
+                    <p className="font-mono text-xl">m = Z × Q</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
                       where Z = electrochemical equivalent (g/C)
                     </p>
@@ -103,7 +103,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                   </p>
                   <div className="bg-white dark:bg-gray-800 p-4 rounded">
                     <p className="font-semibold mb-2">Mathematical Expression:</p>
-                    <p className="font-mono text-xl">mâ‚/mâ‚‚ = (Mâ‚/nâ‚)/(Mâ‚‚/nâ‚‚)</p>
+                    <p className="font-mono text-xl">m₁/m₂ = (M₁/n₁)/(M₂/n₂)</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
                       where M = molar mass, n = electrons transferred
                     </p>
@@ -118,13 +118,13 @@ export default function ElectrolysisCalculatorPage() {  return (
                   <div className="bg-white dark:bg-gray-800 p-4 rounded space-y-3">
                     <div>
                       <p className="font-semibold mb-2">General Equation:</p>
-                      <p className="font-mono text-2xl text-center">m = (Q Ã— M) / (n Ã— F)</p>
+                      <p className="font-mono text-2xl text-center">m = (Q × M) / (n × F)</p>
                     </div>
                     <div className="border-t border-gray-300 dark:border-gray-600 pt-3">
                       <p className="font-semibold mb-2">Where:</p>
                       <ul className="space-y-1">
                         <li><strong>m</strong> = mass deposited/liberated (g)</li>
-                        <li><strong>Q</strong> = total electric charge (C) = I Ã— t</li>
+                        <li><strong>Q</strong> = total electric charge (C) = I × t</li>
                         <li><strong>M</strong> = molar mass (g/mol)</li>
                         <li><strong>n</strong> = number of electrons transferred per ion/molecule</li>
                         <li><strong>F</strong> = Faraday's constant = 96,485 C/mol</li>
@@ -134,9 +134,9 @@ export default function ElectrolysisCalculatorPage() {  return (
                       <p className="font-semibold text-yellow-900 dark:text-yellow-100 mb-1">
                         Also remember:
                       </p>
-                      <p className="font-mono">Q = I Ã— t</p>
+                      <p className="font-mono">Q = I × t</p>
                       <p className="text-sm text-yellow-800 dark:text-yellow-200 mt-1">
-                        Charge (C) = Current (A) Ã— Time (s)
+                        Charge (C) = Current (A) × Time (s)
                       </p>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                     How many grams of copper will be deposited at the cathode?
                   </p>
                   <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                    Reaction: CuÂ²âº + 2eâ» â†’ Cu
+                    Reaction: Cu²⁺ + 2e⁻ → Cu
                   </p>
                 </div>
 
@@ -169,7 +169,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                     <li>Current (I) = 5.0 A</li>
                     <li>Time (t) = 1 hour = 3600 seconds</li>
                     <li>Molar mass of Cu (M) = 63.55 g/mol</li>
-                    <li>Electrons transferred (n) = 2 (CuÂ²âº â†’ Cu)</li>
+                    <li>Electrons transferred (n) = 2 (Cu²⁺ → Cu)</li>
                     <li>Faraday's constant (F) = 96,485 C/mol</li>
                   </ul>
                 </div>
@@ -179,14 +179,14 @@ export default function ElectrolysisCalculatorPage() {  return (
                   <div className="bg-white dark:bg-gray-800 p-4 rounded border border-gray-200 dark:border-gray-600 space-y-3">
                     <div>
                       <p className="font-semibold">Step 1: Calculate total charge (Q)</p>
-                      <p className="font-mono">Q = I Ã— t</p>
-                      <p className="font-mono">Q = 5.0 A Ã— 3600 s = 18,000 C</p>
+                      <p className="font-mono">Q = I × t</p>
+                      <p className="font-mono">Q = 5.0 A × 3600 s = 18,000 C</p>
                     </div>
 
                     <div>
                       <p className="font-semibold">Step 2: Apply Faraday's law</p>
-                      <p className="font-mono">m = (Q Ã— M) / (n Ã— F)</p>
-                      <p className="font-mono">m = (18,000 C Ã— 63.55 g/mol) / (2 Ã— 96,485 C/mol)</p>
+                      <p className="font-mono">m = (Q × M) / (n × F)</p>
+                      <p className="font-mono">m = (18,000 C × 63.55 g/mol) / (2 × 96,485 C/mol)</p>
                     </div>
 
                     <div>
@@ -234,7 +234,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                 </h3>
                 <p className="text-green-800 dark:text-green-200">
                   Large-scale production of chemicals like chlorine and sodium hydroxide (chlor-alkali process), 
-                  aluminum (Hall-HÃ©roult process), and hydrogen/oxygen gases. Essential for chemical industry 
+                  aluminum (Hall-Héroult process), and hydrogen/oxygen gases. Essential for chemical industry 
                   and manufacturing.
                 </p>
               </div>
@@ -303,49 +303,49 @@ export default function ElectrolysisCalculatorPage() {  return (
                   <tbody className="text-sm">
                     <tr>
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Copper</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">CuÂ²âº + 2eâ» â†’ Cu</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">Cu²⁺ + 2e⁻ → Cu</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">2</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">63.55</td>
                     </tr>
                     <tr className="bg-gray-50 dark:bg-gray-700/50">
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Silver</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">Agâº + eâ» â†’ Ag</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">Ag⁺ + e⁻ → Ag</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">1</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">107.87</td>
                     </tr>
                     <tr>
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Aluminum</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">AlÂ³âº + 3eâ» â†’ Al</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">Al³⁺ + 3e⁻ → Al</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">3</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">26.98</td>
                     </tr>
                     <tr className="bg-gray-50 dark:bg-gray-700/50">
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Zinc</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">ZnÂ²âº + 2eâ» â†’ Zn</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">Zn²⁺ + 2e⁻ → Zn</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">2</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">65.38</td>
                     </tr>
                     <tr>
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Hydrogen</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">2Hâ‚‚O + 2eâ» â†’ Hâ‚‚ + 2OHâ»</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">2H₂O + 2e⁻ → H₂ + 2OH⁻</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">2</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">2.016</td>
                     </tr>
                     <tr className="bg-gray-50 dark:bg-gray-700/50">
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Chlorine</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">2Clâ» â†’ Clâ‚‚ + 2eâ» (anode)</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">2Cl⁻ → Cl₂ + 2e⁻ (anode)</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">2</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">70.90</td>
                     </tr>
                     <tr>
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Oxygen</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">2Hâ‚‚O â†’ Oâ‚‚ + 4Hâº + 4eâ» (anode)</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">2H₂O → O₂ + 4H⁺ + 4e⁻ (anode)</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">4</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">32.00</td>
                     </tr>
                     <tr className="bg-gray-50 dark:bg-gray-700/50">
                       <td className="border border-gray-300 dark:border-gray-600 p-3">Gold</td>
-                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">AuÂ³âº + 3eâ» â†’ Au</td>
+                      <td className="border border-gray-300 dark:border-gray-600 p-3 font-mono">Au³⁺ + 3e⁻ → Au</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">3</td>
                       <td className="border border-gray-300 dark:border-gray-600 p-3 text-center">196.97</td>
                     </tr>
@@ -378,7 +378,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                     Step 2: Calculate Total Charge
                   </h3>
                   <ul className="list-disc list-inside space-y-2 text-green-800 dark:text-green-200">
-                    <li>Use Q = I Ã— t if current and time are given</li>
+                    <li>Use Q = I × t if current and time are given</li>
                     <li>Ensure time is in seconds (1 hour = 3600 s, 1 min = 60 s)</li>
                     <li>Current should be in amperes (A)</li>
                     <li>Result will be in coulombs (C)</li>
@@ -390,7 +390,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                     Step 3: Apply Faraday's Law
                   </h3>
                   <ul className="list-disc list-inside space-y-2 text-purple-800 dark:text-purple-200">
-                    <li>Use m = (Q Ã— M) / (n Ã— F) to find mass</li>
+                    <li>Use m = (Q × M) / (n × F) to find mass</li>
                     <li>Faraday's constant F = 96,485 C/mol</li>
                     <li>Rearrange the formula if solving for Q, I, or t instead</li>
                     <li>Keep track of units throughout the calculation</li>
@@ -420,22 +420,22 @@ export default function ElectrolysisCalculatorPage() {  return (
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
                 <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  âŒ Forgetting to Convert Time to Seconds
+                  ❌ Forgetting to Convert Time to Seconds
                 </h3>
                 <p className="text-red-800 dark:text-red-200 mb-2">
-                  Time must be in seconds when using Q = I Ã— t. Don't use minutes or hours directly.
+                  Time must be in seconds when using Q = I × t. Don't use minutes or hours directly.
                 </p>
                 <p className="text-sm text-red-700 dark:text-red-300">
-                  <strong>Correct:</strong> 2 hours = 2 Ã— 3600 = 7200 seconds
+                  <strong>Correct:</strong> 2 hours = 2 × 3600 = 7200 seconds
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
                 <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  âŒ Using Wrong Number of Electrons
+                  ❌ Using Wrong Number of Electrons
                 </h3>
                 <p className="text-red-800 dark:text-red-200 mb-2">
-                  Always check the balanced half-reaction. CuÂ²âº requires 2 electrons, not 1. AlÂ³âº requires 3.
+                  Always check the balanced half-reaction. Cu²⁺ requires 2 electrons, not 1. Al³⁺ requires 3.
                 </p>
                 <p className="text-sm text-red-700 dark:text-red-300">
                   <strong>Correct:</strong> Write and balance the half-reaction first
@@ -444,7 +444,7 @@ export default function ElectrolysisCalculatorPage() {  return (
 
               <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
                 <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  âŒ Confusing Anode and Cathode
+                  ❌ Confusing Anode and Cathode
                 </h3>
                 <p className="text-red-800 dark:text-red-200 mb-2">
                   In electrolysis, reduction occurs at the cathode (negative), oxidation at the anode (positive).
@@ -456,10 +456,10 @@ export default function ElectrolysisCalculatorPage() {  return (
 
               <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
                 <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  âŒ Using Atomic Mass Instead of Molecular Mass for Diatomic Gases
+                  ❌ Using Atomic Mass Instead of Molecular Mass for Diatomic Gases
                 </h3>
                 <p className="text-red-800 dark:text-red-200 mb-2">
-                  For Clâ‚‚, use 70.90 g/mol (not 35.45). For Hâ‚‚, use 2.016 g/mol (not 1.008).
+                  For Cl₂, use 70.90 g/mol (not 35.45). For H₂, use 2.016 g/mol (not 1.008).
                 </p>
                 <p className="text-sm text-red-700 dark:text-red-300">
                   <strong>Correct:</strong> Use the molar mass of the actual product formed
@@ -468,7 +468,7 @@ export default function ElectrolysisCalculatorPage() {  return (
 
               <div className="bg-red-50 dark:bg-red-900/30 p-6 rounded-lg border-l-4 border-red-500">
                 <h3 className="text-lg font-semibold text-red-900 dark:text-red-100 mb-2">
-                  âŒ Mixing Up F and f
+                  ❌ Mixing Up F and f
                 </h3>
                 <p className="text-red-800 dark:text-red-200 mb-2">
                   F (capital) is Faraday's constant = 96,485 C/mol. Don't confuse with frequency (f).
@@ -489,8 +489,8 @@ export default function ElectrolysisCalculatorPage() {  return (
               <div className="bg-gradient-to-br from-primary-50 to-secondary-50 dark:from-primary-900/20 dark:to-secondary-900/20 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-4">Key Formulas</h3>
                 <div className="space-y-2 font-mono text-sm">
-                  <p>m = (Q Ã— M) / (n Ã— F)</p>
-                  <p>Q = I Ã— t</p>
+                  <p>m = (Q × M) / (n × F)</p>
+                  <p>Q = I × t</p>
                   <p>F = 96,485 C/mol</p>
                   <p className="text-xs text-gray-600 dark:text-gray-400 mt-4">
                     m = mass (g)<br/>
@@ -512,19 +512,19 @@ export default function ElectrolysisCalculatorPage() {  return (
                   <p className="mt-3"><strong>Current:</strong></p>
                   <p>1 A = 1000 mA</p>
                   <p className="mt-3"><strong>Charge:</strong></p>
-                  <p>1 C = 1 AÂ·s</p>
+                  <p>1 C = 1 A·s</p>
                 </div>
               </div>
 
               <div className="bg-gradient-to-br from-secondary-50 to-tertiary-50 dark:from-secondary-900/20 dark:to-tertiary-900/20 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-4">Common n Values</h3>
                 <div className="space-y-1 text-sm">
-                  <p>CuÂ²âº â†’ Cu: <strong>n = 2</strong></p>
-                  <p>Agâº â†’ Ag: <strong>n = 1</strong></p>
-                  <p>AlÂ³âº â†’ Al: <strong>n = 3</strong></p>
-                  <p>2Hâ‚‚O â†’ Hâ‚‚: <strong>n = 2</strong></p>
-                  <p>2Hâ‚‚O â†’ Oâ‚‚: <strong>n = 4</strong></p>
-                  <p>2Clâ» â†’ Clâ‚‚: <strong>n = 2</strong></p>
+                  <p>Cu²⁺ → Cu: <strong>n = 2</strong></p>
+                  <p>Ag⁺ → Ag: <strong>n = 1</strong></p>
+                  <p>Al³⁺ → Al: <strong>n = 3</strong></p>
+                  <p>2H₂O → H₂: <strong>n = 2</strong></p>
+                  <p>2H₂O → O₂: <strong>n = 4</strong></p>
+                  <p>2Cl⁻ → Cl₂: <strong>n = 2</strong></p>
                 </div>
               </div>
 
@@ -550,7 +550,7 @@ export default function ElectrolysisCalculatorPage() {  return (
               <div className="sticky top-24">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    ðŸ”— Related Calculators
+                    🔗 Related Calculators
                   </h3>
                   <ul className="space-y-3">
                     <li>
@@ -558,7 +558,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                         href="/electrochemistry-calculators/cell-potential-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Cell Potential Calculator</span>
                       </a>
                     </li>
@@ -567,7 +567,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                         href="/electrochemistry-calculators/oxidation-number-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Oxidation Number Calculator</span>
                       </a>
                     </li>
@@ -576,14 +576,14 @@ export default function ElectrolysisCalculatorPage() {  return (
                         href="/electrochemistry-calculators/redox-balancing-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Redox Balancing Calculator</span>
                       </a>
                     </li>
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      ðŸ“ Related Formulas
+                      📐 Related Formulas
                     </h3>
                     <ul className="space-y-3">
                       <li>
@@ -591,7 +591,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                           href="/chemistry-formulas/electrolysis-formula"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>â†’</span>
+                          <span>→</span>
                           <span>Electrolysis Formula</span>
                         </a>
                       </li>
@@ -600,7 +600,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                           href="/chemistry-formulas/faradays-law"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>â†’</span>
+                          <span>→</span>
                           <span>Faraday's Law</span>
                         </a>
                       </li>
@@ -611,7 +611,7 @@ export default function ElectrolysisCalculatorPage() {  return (
                       href="/electrochemistry-calculators"
                       className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      All Electrochemistry Calculators â†’
+                      All Electrochemistry Calculators →
                     </a>
                   </div>
                 </div>

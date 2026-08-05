@@ -106,9 +106,9 @@ export default function IsoelectricPointCalculatorPage() {
                   <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg mb-6">
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Charge States</h4>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      <li>â€¢ pH &lt; pI: Molecule is positively charged (cation)</li>
-                      <li>â€¢ pH = pI: Molecule has zero net charge (zwitterion)</li>
-                      <li>â€¢ pH &gt; pI: Molecule is negatively charged (anion)</li>
+                      <li>• pH &lt; pI: Molecule is positively charged (cation)</li>
+                      <li>• pH = pI: Molecule has zero net charge (zwitterion)</li>
+                      <li>• pH &gt; pI: Molecule is negatively charged (anion)</li>
                     </ul>
                   </div>
 
@@ -126,37 +126,37 @@ export default function IsoelectricPointCalculatorPage() {
                   
                   <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">âš¡</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">⚡</span>
                       <div>
                         <strong>Electrophoresis:</strong> Separating proteins by charge in isoelectric focusing (IEF) and 2D gels
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ”¬</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🔬</span>
                       <div>
                         <strong>Chromatography:</strong> Ion-exchange chromatography for protein purification
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’§</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💧</span>
                       <div>
                         <strong>Precipitation:</strong> Isoelectric precipitation for protein purification and crystallization
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§ª</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧪</span>
                       <div>
                         <strong>Buffer Selection:</strong> Choosing pH for optimal protein stability and solubility
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’Š</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💊</span>
                       <div>
                         <strong>Drug Formulation:</strong> Designing stable pharmaceutical formulations
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§¬</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧬</span>
                       <div>
                         <strong>Protein Analysis:</strong> Identifying proteins based on charge properties
                       </div>
@@ -172,7 +172,7 @@ export default function IsoelectricPointCalculatorPage() {
                 {/* Quick Reference */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-300">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">âš¡</span>
+                    <span className="text-2xl">⚡</span>
                     Quick Reference
                   </h3>
                   <div className="space-y-3 text-sm">
@@ -202,7 +202,7 @@ export default function IsoelectricPointCalculatorPage() {
                 {/* Related Calculators */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-400">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸ”—</span>
+                    <span className="text-2xl">🔗</span>
                     Related Calculators
                   </h3>
                   <ul className="space-y-3">
@@ -233,7 +233,7 @@ export default function IsoelectricPointCalculatorPage() {
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      <span className="text-2xl">ðŸ“</span>
+                      <span className="text-2xl">📐</span>
                       Related Formulas
                     </h3>
                     <ul className="space-y-3">
@@ -261,7 +261,7 @@ export default function IsoelectricPointCalculatorPage() {
                         href="/biochemistry-calculators"
                         className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold"
                       >
-                        All Biochemistry Calculators â†’
+                        All Biochemistry Calculators →
                       </Link>
                     </li>
                   </ul>
@@ -270,33 +270,33 @@ export default function IsoelectricPointCalculatorPage() {
                 {/* Where It's Used */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-500">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸŽ¯</span>
+                    <span className="text-2xl">🎯</span>
                     Where It&apos;s Used
                   </h3>
                   <ul className="space-y-4 text-sm">
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">âš¡</span>
+                      <span className="text-xl">⚡</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Electrophoresis</p>
                         <p className="text-gray-600 dark:text-gray-400">Isoelectric focusing</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ”¬</span>
+                      <span className="text-xl">🔬</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Protein Purification</p>
                         <p className="text-gray-600 dark:text-gray-400">Ion-exchange chromatography</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ’Š</span>
+                      <span className="text-xl">💊</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Drug Development</p>
                         <p className="text-gray-600 dark:text-gray-400">Protein formulation</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ§¬</span>
+                      <span className="text-xl">🧬</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Proteomics</p>
                         <p className="text-gray-600 dark:text-gray-400">2D gel electrophoresis</p>

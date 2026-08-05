@@ -5,8 +5,8 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Specific Heat Formula | q = mcÎ”T | Heat Capacity Calculations',
-  description: 'Master the specific heat formula (q = mcÎ”T) for calculating heat transfer. Includes examples and calorimetry calculator links.',
+  title: 'Specific Heat Formula | q = mcΔT | Heat Capacity Calculations',
+  description: 'Master the specific heat formula (q = mcΔT) for calculating heat transfer. Includes examples and calorimetry calculator links.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/specific-heat-formula',
   },
@@ -32,7 +32,7 @@ export default function SpecificHeatFormulaPage() {
           </h1>
 
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-            The <strong>specific heat equation</strong> (q = mcÎ”T) calculates heat energy transferred during temperature changes. 
+            The <strong>specific heat equation</strong> (q = mcΔT) calculates heat energy transferred during temperature changes. 
             It's essential for calorimetry, thermodynamics, and understanding how substances store thermal energy.
           </p>
 
@@ -41,10 +41,10 @@ export default function SpecificHeatFormulaPage() {
             <h2 className="text-3xl font-bold text-white mb-4 text-center">The Specific Heat Formula</h2>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <p className="text-6xl font-bold text-gray-900 dark:text-white mb-2">
-                q = mcÎ”T
+                q = mcΔT
               </p>
               <p className="text-gray-600 dark:text-gray-400 text-lg">
-                Heat = mass Ã— specific heat Ã— temperature change
+                Heat = mass × specific heat × temperature change
               </p>
             </div>
           </div>
@@ -62,8 +62,8 @@ export default function SpecificHeatFormulaPage() {
                   Amount of thermal energy transferred
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  â€¢ Positive q = heat absorbed (endothermic)<br />
-                  â€¢ Negative q = heat released (exothermic)
+                  • Positive q = heat absorbed (endothermic)<br />
+                  • Negative q = heat released (exothermic)
                 </p>
               </div>
 
@@ -80,27 +80,27 @@ export default function SpecificHeatFormulaPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-bold text-red-600 dark:text-red-400 mb-2">c = Specific Heat Capacity</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> J/(gÂ·Â°C) or J/(gÂ·K)
+                  <strong>Units:</strong> J/(g·°C) or J/(g·K)
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 mb-2">
-                  Heat needed to raise 1 gram by 1Â°C
+                  Heat needed to raise 1 gram by 1°C
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  ðŸ’¡ Unique property of each substance
+                  💡 Unique property of each substance
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-red-600 dark:text-red-400 mb-2">Î”T = Temperature Change</h3>
+                <h3 className="text-xl font-bold text-red-600 dark:text-red-400 mb-2">ΔT = Temperature Change</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> Â°C or K (same magnitude)
+                  <strong>Units:</strong> °C or K (same magnitude)
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 mb-2">
-                  <strong>Formula:</strong> Î”T = T<sub>final</sub> - T<sub>initial</sub>
+                  <strong>Formula:</strong> ΔT = T<sub>final</sub> - T<sub>initial</sub>
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  â€¢ Positive Î”T = temperature increase<br />
-                  â€¢ Negative Î”T = temperature decrease
+                  • Positive ΔT = temperature increase<br />
+                  • Negative ΔT = temperature decrease
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function SpecificHeatFormulaPage() {
                 <thead className="bg-gradient-to-r from-red-600 to-pink-600 text-white">
                   <tr>
                     <th className="p-4 text-left">Substance</th>
-                    <th className="p-4 text-left">c [J/(gÂ·Â°C)]</th>
+                    <th className="p-4 text-left">c [J/(g·°C)]</th>
                     <th className="p-4 text-left">Notes</th>
                   </tr>
                 </thead>
@@ -127,7 +127,7 @@ export default function SpecificHeatFormulaPage() {
                   <tr>
                     <td className="p-4">Ice</td>
                     <td className="p-4">2.09</td>
-                    <td className="p-4">Solid Hâ‚‚O</td>
+                    <td className="p-4">Solid H₂O</td>
                   </tr>
                   <tr>
                     <td className="p-4">Steam</td>
@@ -163,7 +163,7 @@ export default function SpecificHeatFormulaPage() {
               </table>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-4">
-              ðŸ’¡ Water has an unusually high specific heat - it takes lots of energy to heat water!
+              💡 Water has an unusually high specific heat - it takes lots of energy to heat water!
             </p>
           </section>
 
@@ -174,28 +174,28 @@ export default function SpecificHeatFormulaPage() {
               <div className="bg-blue-100 dark:bg-blue-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-blue-900 dark:text-blue-100 mb-3">Find heat (q):</h3>
                 <p className="text-2xl font-bold text-blue-800 dark:text-blue-200">
-                  q = mcÎ”T
+                  q = mcΔT
                 </p>
               </div>
 
               <div className="bg-purple-100 dark:bg-purple-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-purple-900 dark:text-purple-100 mb-3">Find mass (m):</h3>
                 <p className="text-2xl font-bold text-purple-800 dark:text-purple-200">
-                  m = q / (cÎ”T)
+                  m = q / (cΔT)
                 </p>
               </div>
 
               <div className="bg-green-100 dark:bg-green-900/30 rounded-lg p-6">
                 <h3 className="font-bold text-green-900 dark:text-green-100 mb-3">Find specific heat (c):</h3>
                 <p className="text-2xl font-bold text-green-800 dark:text-green-200">
-                  c = q / (mÎ”T)
+                  c = q / (mΔT)
                 </p>
               </div>
 
               <div className="bg-orange-100 dark:bg-orange-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-orange-900 dark:text-orange-100 mb-3">Find Î”T:</h3>
+                <h3 className="font-bold text-orange-900 dark:text-orange-100 mb-3">Find ΔT:</h3>
                 <p className="text-2xl font-bold text-orange-800 dark:text-orange-200">
-                  Î”T = q / (mc)
+                  ΔT = q / (mc)
                 </p>
               </div>
             </div>
@@ -206,7 +206,7 @@ export default function SpecificHeatFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Step-by-Step Example</h2>
             <div className="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-xl p-8">
               <h3 className="text-2xl font-bold mb-4">
-                Problem: How much heat is needed to raise 250 g of water from 20Â°C to 80Â°C? (c<sub>water</sub> = 4.184 J/gÂ·Â°C)
+                Problem: How much heat is needed to raise 250 g of water from 20°C to 80°C? (c<sub>water</sub> = 4.184 J/g·°C)
               </h3>
               
               <div className="space-y-6">
@@ -214,31 +214,31 @@ export default function SpecificHeatFormulaPage() {
                   <h4 className="font-bold text-lg mb-2">Given:</h4>
                   <ul className="list-disc list-inside space-y-1">
                     <li>m = 250 g</li>
-                    <li>c = 4.184 J/(gÂ·Â°C)</li>
-                    <li>T<sub>initial</sub> = 20Â°C</li>
-                    <li>T<sub>final</sub> = 80Â°C</li>
+                    <li>c = 4.184 J/(g·°C)</li>
+                    <li>T<sub>initial</sub> = 20°C</li>
+                    <li>T<sub>final</sub> = 80°C</li>
                     <li>Find: q</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">Step 1: Calculate Î”T</h4>
+                  <h4 className="font-bold text-lg mb-2">Step 1: Calculate ΔT</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    Î”T = T<sub>final</sub> - T<sub>initial</sub> = 80Â°C - 20Â°C = 60Â°C
+                    ΔT = T<sub>final</sub> - T<sub>initial</sub> = 80°C - 20°C = 60°C
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 2: Write the formula</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    q = mcÎ”T
+                    q = mcΔT
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 3: Substitute values</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    q = (250 g)(4.184 J/gÂ·Â°C)(60Â°C)
+                    q = (250 g)(4.184 J/g·°C)(60°C)
                   </p>
                 </div>
 
@@ -266,30 +266,30 @@ export default function SpecificHeatFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Wrong Î”T direction</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Wrong ΔT direction</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  Î”T = final - initial, NOT initial - final. Sign matters! Heating gives positive Î”T, cooling gives negative.
+                  ΔT = final - initial, NOT initial - final. Sign matters! Heating gives positive ΔT, cooling gives negative.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Unit mismatches</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Unit mismatches</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  If c is in J/(gÂ·Â°C), mass must be in grams and Î”T in Â°C. If c is in J/(kgÂ·K), use kg and K.
+                  If c is in J/(g·°C), mass must be in grams and ΔT in °C. If c is in J/(kg·K), use kg and K.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using wrong specific heat value</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using wrong specific heat value</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Ice, water, and steam have different specific heats! Use the correct value for the substance's state.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Confusing with phase changes</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Confusing with phase changes</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  q = mcÎ”T is for temperature changes ONLY. Phase changes (melting, boiling) use q = mÎ”H instead.
+                  q = mcΔT is for temperature changes ONLY. Phase changes (melting, boiling) use q = mΔH instead.
                 </p>
               </div>
             </div>
@@ -301,7 +301,7 @@ export default function SpecificHeatFormulaPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/thermodynamics-calculators/specific-heat-calculator" className="block p-6 bg-gradient-to-r from-red-600 to-pink-600 text-white rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-2">Specific Heat Calculator</h3>
-                <p>Calculate q, m, c, or Î”T</p>
+                <p>Calculate q, m, c, or ΔT</p>
               </Link>
 
               <Link href="/thermodynamics-calculators/calorimetry-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
@@ -316,7 +316,7 @@ export default function SpecificHeatFormulaPage() {
 
               <Link href="/thermodynamics-calculators/enthalpy-reaction-calculator" className="block p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Enthalpy Calculator</h3>
-                <p className="text-gray-600 dark:text-gray-400">Î”H for reactions</p>
+                <p className="text-gray-600 dark:text-gray-400">ΔH for reactions</p>
               </Link>
             </div>
           </section>
@@ -328,7 +328,7 @@ export default function SpecificHeatFormulaPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What is specific heat?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Specific heat (c) is the energy needed to raise 1 gram of a substance by 1Â°C. It's a property unique to each material.
+                  Specific heat (c) is the energy needed to raise 1 gram of a substance by 1°C. It's a property unique to each material.
                 </p>
               </div>
 
@@ -340,9 +340,9 @@ export default function SpecificHeatFormulaPage() {
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">Can I use Â°C or K for Î”T?</h3>
+                <h3 className="text-xl font-bold mb-3">Can I use °C or K for ΔT?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Yes! A change of 1Â°C equals a change of 1 K, so Î”T has the same numerical value in both units.
+                  Yes! A change of 1°C equals a change of 1 K, so ΔT has the same numerical value in both units.
                 </p>
               </div>
 
@@ -365,10 +365,10 @@ export default function SpecificHeatFormulaPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                â† Back to All Formulas
+                ← Back to All Formulas
               </Link>
               <Link href="/chemistry-formulas/beers-law" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Beer's Law â†’
+                Next: Beer's Law →
               </Link>
             </div>
           </div>

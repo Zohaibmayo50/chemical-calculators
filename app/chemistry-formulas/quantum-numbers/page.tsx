@@ -24,11 +24,11 @@ export default function QuantumNumbersPage() {
             <Link href="/" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               Home
             </Link>
-            <span>â†’</span>
+            <span>→</span>
             <Link href="/chemistry-formulas" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               Chemistry Formulas
             </Link>
-            <span>â†’</span>
+            <span>→</span>
             <span className="text-gray-900 dark:text-white font-medium">Quantum Numbers</span>
           </nav>
         </div>
@@ -55,10 +55,10 @@ export default function QuantumNumbersPage() {
                   <p className="font-mono text-lg text-center">n = 1, 2, 3, 4, ...</p>
                 </div>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>â€¢ Determines electron shell and energy level</li>
-                  <li>â€¢ Positive integers only</li>
-                  <li>â€¢ Larger n â†’ higher energy, farther from nucleus</li>
-                  <li>â€¢ Corresponds to periods in periodic table</li>
+                  <li>• Determines electron shell and energy level</li>
+                  <li>• Positive integers only</li>
+                  <li>• Larger n → higher energy, farther from nucleus</li>
+                  <li>• Corresponds to periods in periodic table</li>
                 </ul>
               </div>
 
@@ -68,10 +68,10 @@ export default function QuantumNumbersPage() {
                   <p className="font-mono text-lg text-center">l = 0, 1, 2, ... (n-1)</p>
                 </div>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>â€¢ Determines orbital shape (subshell)</li>
-                  <li>â€¢ l = 0 (s), 1 (p), 2 (d), 3 (f)</li>
-                  <li>â€¢ Values from 0 to (n-1)</li>
-                  <li>â€¢ Each subshell has characteristic shape</li>
+                  <li>• Determines orbital shape (subshell)</li>
+                  <li>• l = 0 (s), 1 (p), 2 (d), 3 (f)</li>
+                  <li>• Values from 0 to (n-1)</li>
+                  <li>• Each subshell has characteristic shape</li>
                 </ul>
               </div>
 
@@ -81,23 +81,23 @@ export default function QuantumNumbersPage() {
                   <p className="font-mono text-lg text-center">m<sub>l</sub> = -l, ..., 0, ..., +l</p>
                 </div>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>â€¢ Determines orbital orientation in space</li>
-                  <li>â€¢ Values from -l to +l (including 0)</li>
-                  <li>â€¢ Total of (2l + 1) orbitals per subshell</li>
-                  <li>â€¢ Example: p has 3 orbitals (p<sub>x</sub>, p<sub>y</sub>, p<sub>z</sub>)</li>
+                  <li>• Determines orbital orientation in space</li>
+                  <li>• Values from -l to +l (including 0)</li>
+                  <li>• Total of (2l + 1) orbitals per subshell</li>
+                  <li>• Example: p has 3 orbitals (p<sub>x</sub>, p<sub>y</sub>, p<sub>z</sub>)</li>
                 </ul>
               </div>
 
               <div className="bg-cyan-50 dark:bg-cyan-900/30 rounded-xl p-6">
                 <h3 className="text-2xl font-bold text-cyan-900 dark:text-cyan-300 mb-4">4. Spin Quantum Number (m<sub>s</sub>)</h3>
                 <div className="bg-white dark:bg-gray-700 rounded-lg p-4 mb-4">
-                  <p className="font-mono text-lg text-center">m<sub>s</sub> = +Â½ or -Â½</p>
+                  <p className="font-mono text-lg text-center">m<sub>s</sub> = +½ or -½</p>
                 </div>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>â€¢ Determines electron spin direction</li>
-                  <li>â€¢ Only two values: +Â½ (â†‘) or -Â½ (â†“)</li>
-                  <li>â€¢ Pauli Exclusion Principle: no two electrons can have identical quantum numbers</li>
-                  <li>â€¢ Maximum 2 electrons per orbital (opposite spins)</li>
+                  <li>• Determines electron spin direction</li>
+                  <li>• Only two values: +½ (↑) or -½ (↓)</li>
+                  <li>• Pauli Exclusion Principle: no two electrons can have identical quantum numbers</li>
+                  <li>• Maximum 2 electrons per orbital (opposite spins)</li>
                 </ul>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function QuantumNumbersPage() {
                     <th className="border border-gray-300 dark:border-gray-600 p-3 text-left">Designation</th>
                     <th className="border border-gray-300 dark:border-gray-600 p-3 text-left">m<sub>l</sub> values</th>
                     <th className="border border-gray-300 dark:border-gray-600 p-3 text-left">Orbitals</th>
-                    <th className="border border-gray-300 dark:border-gray-600 p-3 text-left">Max eâ»</th>
+                    <th className="border border-gray-300 dark:border-gray-600 p-3 text-left">Max e⁻</th>
                   </tr>
                 </thead>
                 <tbody className="text-gray-700 dark:text-gray-300">
@@ -182,11 +182,11 @@ export default function QuantumNumbersPage() {
               <div className="bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 1: Valid Quantum Number Set?</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Given:</strong> n=3, l=2, m<sub>l</sub>=0, m<sub>s</sub>=+Â½</p>
-                  <p className="ml-6"><strong>Check n:</strong> n=3 âœ“ (positive integer)</p>
-                  <p className="ml-6"><strong>Check l:</strong> l=2, must be 0 to n-1 (0 to 2) âœ“</p>
-                  <p className="ml-6"><strong>Check m<sub>l</sub>:</strong> m<sub>l</sub>=0, must be -l to +l (-2 to +2) âœ“</p>
-                  <p className="ml-6"><strong>Check m<sub>s</sub>:</strong> m<sub>s</sub>=+Â½ âœ“</p>
+                  <p><strong>Given:</strong> n=3, l=2, m<sub>l</sub>=0, m<sub>s</sub>=+½</p>
+                  <p className="ml-6"><strong>Check n:</strong> n=3 ✓ (positive integer)</p>
+                  <p className="ml-6"><strong>Check l:</strong> l=2, must be 0 to n-1 (0 to 2) ✓</p>
+                  <p className="ml-6"><strong>Check m<sub>l</sub>:</strong> m<sub>l</sub>=0, must be -l to +l (-2 to +2) ✓</p>
+                  <p className="ml-6"><strong>Check m<sub>s</sub>:</strong> m<sub>s</sub>=+½ ✓</p>
                   <p className="mt-4"><strong className="text-green-600 dark:text-green-400">Valid set! Represents 3d orbital electron</strong></p>
                 </div>
               </div>
@@ -194,8 +194,8 @@ export default function QuantumNumbersPage() {
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 2: Invalid Quantum Numbers</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Given:</strong> n=2, l=2, m<sub>l</sub>=-1, m<sub>s</sub>=-Â½</p>
-                  <p className="ml-6"><strong>Check l:</strong> l=2 but n=2, so l can only be 0 or 1 âœ—</p>
+                  <p><strong>Given:</strong> n=2, l=2, m<sub>l</sub>=-1, m<sub>s</sub>=-½</p>
+                  <p className="ml-6"><strong>Check l:</strong> l=2 but n=2, so l can only be 0 or 1 ✗</p>
                   <p className="mt-4"><strong className="text-red-600 dark:text-red-400">Invalid! l cannot equal n</strong></p>
                   <p className="mt-2 text-sm italic">For n=2, maximum l=1 (2p orbital is highest)</p>
                 </div>
@@ -208,8 +208,8 @@ export default function QuantumNumbersPage() {
                   <p className="ml-6">n = 4 (fourth shell)</p>
                   <p className="ml-6">l = 3 (f orbital)</p>
                   <p className="ml-6">m<sub>l</sub> = -3, -2, -1, 0, +1, +2, +3 (7 orbitals)</p>
-                  <p className="ml-6">m<sub>s</sub> = +Â½ or -Â½</p>
-                  <p className="mt-4"><strong>Total electrons in 4f:</strong> 7 orbitals Ã— 2 electrons = 14 electrons maximum</p>
+                  <p className="ml-6">m<sub>s</sub> = +½ or -½</p>
+                  <p className="mt-4"><strong>Total electrons in 4f:</strong> 7 orbitals × 2 electrons = 14 electrons maximum</p>
                 </div>
               </div>
             </div>
@@ -223,15 +223,15 @@ export default function QuantumNumbersPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
-                  <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Setting l â‰¥ n</h3>
+                  <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Setting l ≥ n</h3>
                   <p className="text-gray-700 dark:text-gray-300">Remember: l can only be 0 to (n-1), never equal to or greater than n</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong m<sub>l</sub> Range</h3>
                   <p className="text-gray-700 dark:text-gray-300">m<sub>l</sub> must be between -l and +l; for l=2, m<sub>l</sub> cannot be 3</p>
@@ -239,7 +239,7 @@ export default function QuantumNumbersPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting Pauli Exclusion</h3>
                   <p className="text-gray-700 dark:text-gray-300">No two electrons can have all four identical quantum numbers</p>
@@ -247,10 +247,10 @@ export default function QuantumNumbersPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">ðŸ’¡</span>
+                <span className="text-2xl">💡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Remember Letter Designations</h3>
-                  <p className="text-gray-700 dark:text-gray-300">l = 0â†’s, 1â†’p, 2â†’d, 3â†’f, 4â†’g, 5â†’h (sharp, principal, diffuse, fundamental)</p>
+                  <p className="text-gray-700 dark:text-gray-300">l = 0→s, 1→p, 2→d, 3→f, 4→g, 5→h (sharp, principal, diffuse, fundamental)</p>
                 </div>
               </div>
             </div>

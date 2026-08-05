@@ -21,9 +21,9 @@ export default function RedoxBalancingFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>â†’</span>
+            <span>→</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>â†’</span>
+            <span>→</span>
             <span className="text-gray-900 dark:text-white font-medium">Redox Balancing</span>
           </nav>
         </div>
@@ -67,8 +67,8 @@ export default function RedoxBalancingFormulaPage() {
                 <div className="flex items-start gap-4">
                   <span className="text-3xl font-bold text-green-600">3</span>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-2">Balance Oxygen with Hâ‚‚O</h3>
-                    <p className="text-gray-700 dark:text-gray-300">Add Hâ‚‚O molecules to balance oxygen atoms</p>
+                    <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-2">Balance Oxygen with H₂O</h3>
+                    <p className="text-gray-700 dark:text-gray-300">Add H₂O molecules to balance oxygen atoms</p>
                   </div>
                 </div>
               </div>
@@ -77,8 +77,8 @@ export default function RedoxBalancingFormulaPage() {
                 <div className="flex items-start gap-4">
                   <span className="text-3xl font-bold text-cyan-600">4</span>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-cyan-900 dark:text-cyan-300 mb-2">Balance Hydrogen with Hâº</h3>
-                    <p className="text-gray-700 dark:text-gray-300">Add Hâº ions to balance hydrogen atoms</p>
+                    <h3 className="text-xl font-bold text-cyan-900 dark:text-cyan-300 mb-2">Balance Hydrogen with H⁺</h3>
+                    <p className="text-gray-700 dark:text-gray-300">Add H⁺ ions to balance hydrogen atoms</p>
                   </div>
                 </div>
               </div>
@@ -87,7 +87,7 @@ export default function RedoxBalancingFormulaPage() {
                 <div className="flex items-start gap-4">
                   <span className="text-3xl font-bold text-amber-600">5</span>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-2">Balance Charge with eâ»</h3>
+                    <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-2">Balance Charge with e⁻</h3>
                     <p className="text-gray-700 dark:text-gray-300">Add electrons to balance the total charge</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Electrons added to the more positive side</p>
                   </div>
@@ -133,56 +133,56 @@ export default function RedoxBalancingFormulaPage() {
             <h2 className="text-3xl font-bold mb-6">Worked Example (Acidic Solution)</h2>
             
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
-              <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Balance: Crâ‚‚Oâ‚‡Â²â» + FeÂ²âº â†’ CrÂ³âº + FeÂ³âº (acidic)</h3>
+              <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Balance: Cr₂O₇²⁻ + Fe²⁺ → Cr³⁺ + Fe³⁺ (acidic)</h3>
               
               <div className="space-y-6 text-gray-700 dark:text-gray-300">
                 <div>
                   <p className="font-bold text-lg mb-2">Step 1: Split into half-reactions</p>
                   <div className="ml-6 space-y-1 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p>Reduction: Crâ‚‚Oâ‚‡Â²â» â†’ CrÂ³âº</p>
-                    <p>Oxidation: FeÂ²âº â†’ FeÂ³âº</p>
+                    <p>Reduction: Cr₂O₇²⁻ → Cr³⁺</p>
+                    <p>Oxidation: Fe²⁺ → Fe³⁺</p>
                   </div>
                 </div>
 
                 <div>
                   <p className="font-bold text-lg mb-2">Step 2: Balance atoms except O, H</p>
                   <div className="ml-6 space-y-1 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p>Crâ‚‚Oâ‚‡Â²â» â†’ <span className="text-blue-600 font-bold">2</span>CrÂ³âº (balance Cr)</p>
-                    <p>FeÂ²âº â†’ FeÂ³âº (already balanced)</p>
+                    <p>Cr₂O₇²⁻ → <span className="text-blue-600 font-bold">2</span>Cr³⁺ (balance Cr)</p>
+                    <p>Fe²⁺ → Fe³⁺ (already balanced)</p>
                   </div>
                 </div>
 
                 <div>
-                  <p className="font-bold text-lg mb-2">Step 3: Balance O with Hâ‚‚O</p>
+                  <p className="font-bold text-lg mb-2">Step 3: Balance O with H₂O</p>
                   <div className="ml-6 space-y-1 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p>Crâ‚‚Oâ‚‡Â²â» â†’ 2CrÂ³âº + <span className="text-green-600 font-bold">7Hâ‚‚O</span> (7 O on left, 7 on right)</p>
-                    <p>FeÂ²âº â†’ FeÂ³âº (no O, skip)</p>
+                    <p>Cr₂O₇²⁻ → 2Cr³⁺ + <span className="text-green-600 font-bold">7H₂O</span> (7 O on left, 7 on right)</p>
+                    <p>Fe²⁺ → Fe³⁺ (no O, skip)</p>
                   </div>
                 </div>
 
                 <div>
-                  <p className="font-bold text-lg mb-2">Step 4: Balance H with Hâº</p>
+                  <p className="font-bold text-lg mb-2">Step 4: Balance H with H⁺</p>
                   <div className="ml-6 space-y-1 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p><span className="text-purple-600 font-bold">14Hâº</span> + Crâ‚‚Oâ‚‡Â²â» â†’ 2CrÂ³âº + 7Hâ‚‚O (14 H on each side)</p>
-                    <p>FeÂ²âº â†’ FeÂ³âº (no H, skip)</p>
+                    <p><span className="text-purple-600 font-bold">14H⁺</span> + Cr₂O₇²⁻ → 2Cr³⁺ + 7H₂O (14 H on each side)</p>
+                    <p>Fe²⁺ → Fe³⁺ (no H, skip)</p>
                   </div>
                 </div>
 
                 <div>
-                  <p className="font-bold text-lg mb-2">Step 5: Balance charge with eâ»</p>
+                  <p className="font-bold text-lg mb-2">Step 5: Balance charge with e⁻</p>
                   <div className="ml-6 space-y-3 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
                     <div>
                       <p className="mb-1">Reduction half:</p>
                       <p className="ml-4">Left: 14(+1) + (-2) = +12</p>
                       <p className="ml-4">Right: 2(+3) = +6</p>
-                      <p className="ml-4">Need <span className="text-red-600 font-bold">6eâ»</span> on left:</p>
-                      <p className="text-red-600 font-bold mt-2">6eâ» + 14Hâº + Crâ‚‚Oâ‚‡Â²â» â†’ 2CrÂ³âº + 7Hâ‚‚O</p>
+                      <p className="ml-4">Need <span className="text-red-600 font-bold">6e⁻</span> on left:</p>
+                      <p className="text-red-600 font-bold mt-2">6e⁻ + 14H⁺ + Cr₂O₇²⁻ → 2Cr³⁺ + 7H₂O</p>
                     </div>
                     <div className="pt-3 border-t border-gray-300 dark:border-gray-600">
                       <p className="mb-1">Oxidation half:</p>
                       <p className="ml-4">Left: +2, Right: +3</p>
-                      <p className="ml-4">Need <span className="text-red-600 font-bold">1eâ»</span> on right:</p>
-                      <p className="text-red-600 font-bold mt-2">FeÂ²âº â†’ FeÂ³âº + 1eâ»</p>
+                      <p className="ml-4">Need <span className="text-red-600 font-bold">1e⁻</span> on right:</p>
+                      <p className="text-red-600 font-bold mt-2">Fe²⁺ → Fe³⁺ + 1e⁻</p>
                     </div>
                   </div>
                 </div>
@@ -190,31 +190,31 @@ export default function RedoxBalancingFormulaPage() {
                 <div>
                   <p className="font-bold text-lg mb-2">Step 6: Equalize electrons (LCM = 6)</p>
                   <div className="ml-6 space-y-2 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p>6eâ» + 14Hâº + Crâ‚‚Oâ‚‡Â²â» â†’ 2CrÂ³âº + 7Hâ‚‚O (Ã—1)</p>
-                    <p className="text-amber-600 font-bold">[FeÂ²âº â†’ FeÂ³âº + 1eâ»] Ã— 6</p>
-                    <p className="mt-2">6FeÂ²âº â†’ 6FeÂ³âº + 6eâ»</p>
+                    <p>6e⁻ + 14H⁺ + Cr₂O₇²⁻ → 2Cr³⁺ + 7H₂O (×1)</p>
+                    <p className="text-amber-600 font-bold">[Fe²⁺ → Fe³⁺ + 1e⁻] × 6</p>
+                    <p className="mt-2">6Fe²⁺ → 6Fe³⁺ + 6e⁻</p>
                   </div>
                 </div>
 
                 <div>
                   <p className="font-bold text-lg mb-2">Step 7: Add and cancel</p>
                   <div className="ml-6 space-y-2 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p className="line-through text-gray-400">6eâ»</p>
-                    <p>14Hâº + Crâ‚‚Oâ‚‡Â²â» + 6FeÂ²âº â†’ 2CrÂ³âº + 7Hâ‚‚O + 6FeÂ³âº <span className="line-through text-gray-400">+ 6eâ»</span></p>
+                    <p className="line-through text-gray-400">6e⁻</p>
+                    <p>14H⁺ + Cr₂O₇²⁻ + 6Fe²⁺ → 2Cr³⁺ + 7H₂O + 6Fe³⁺ <span className="line-through text-gray-400">+ 6e⁻</span></p>
                   </div>
                 </div>
 
                 <div className="bg-green-100 dark:bg-green-900/30 rounded-xl p-6">
                   <p className="font-bold text-xl text-green-900 dark:text-green-300 mb-3">Final Balanced Equation:</p>
-                  <p className="font-mono text-lg">14Hâº + Crâ‚‚Oâ‚‡Â²â» + 6FeÂ²âº â†’ 2CrÂ³âº + 7Hâ‚‚O + 6FeÂ³âº</p>
+                  <p className="font-mono text-lg">14H⁺ + Cr₂O₇²⁻ + 6Fe²⁺ → 2Cr³⁺ + 7H₂O + 6Fe³⁺</p>
                   
                   <div className="mt-4 pt-4 border-t border-green-300 dark:border-green-700">
                     <p className="font-bold mb-2">Verification:</p>
-                    <p className="ml-4">Cr: 2 = 2 âœ“</p>
-                    <p className="ml-4">O: 7 = 7 âœ“</p>
-                    <p className="ml-4">H: 14 = 14 âœ“</p>
-                    <p className="ml-4">Fe: 6 = 6 âœ“</p>
-                    <p className="ml-4">Charge: 14 + (-2) + 6(2) = 12 + 6 = +24; 2(3) + 6(3) = 6 + 18 = +24 âœ“</p>
+                    <p className="ml-4">Cr: 2 = 2 ✓</p>
+                    <p className="ml-4">O: 7 = 7 ✓</p>
+                    <p className="ml-4">H: 14 = 14 ✓</p>
+                    <p className="ml-4">Fe: 6 = 6 ✓</p>
+                    <p className="ml-4">Charge: 14 + (-2) + 6(2) = 12 + 6 = +24; 2(3) + 6(3) = 6 + 18 = +24 ✓</p>
                   </div>
                 </div>
               </div>
@@ -232,11 +232,11 @@ export default function RedoxBalancingFormulaPage() {
               </p>
 
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/30 dark:to-cyan-900/30 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Extra Step: Neutralize Hâº with OHâ»</h3>
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Extra Step: Neutralize H⁺ with OH⁻</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p>1. Add <strong>OHâ»</strong> to both sides equal to the number of Hâº</p>
-                  <p>2. Combine Hâº + OHâ» â†’ Hâ‚‚O on the side with Hâº</p>
-                  <p>3. Cancel excess Hâ‚‚O from both sides</p>
+                  <p>1. Add <strong>OH⁻</strong> to both sides equal to the number of H⁺</p>
+                  <p>2. Combine H⁺ + OH⁻ → H₂O on the side with H⁺</p>
+                  <p>3. Cancel excess H₂O from both sides</p>
                 </div>
               </div>
 
@@ -244,16 +244,16 @@ export default function RedoxBalancingFormulaPage() {
                 <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example: Convert to Basic</h3>
                 <div className="space-y-3 font-mono text-sm">
                   <p className="text-gray-700 dark:text-gray-300">Acidic form:</p>
-                  <p className="bg-white dark:bg-gray-700 p-3 rounded">4Hâº + MnOâ‚„â» + 3eâ» â†’ MnOâ‚‚ + 2Hâ‚‚O</p>
+                  <p className="bg-white dark:bg-gray-700 p-3 rounded">4H⁺ + MnO₄⁻ + 3e⁻ → MnO₂ + 2H₂O</p>
                   
-                  <p className="text-gray-700 dark:text-gray-300 mt-4">Add 4OHâ» to each side:</p>
-                  <p className="bg-white dark:bg-gray-700 p-3 rounded">4Hâº + 4OHâ» + MnOâ‚„â» + 3eâ» â†’ MnOâ‚‚ + 2Hâ‚‚O + 4OHâ»</p>
+                  <p className="text-gray-700 dark:text-gray-300 mt-4">Add 4OH⁻ to each side:</p>
+                  <p className="bg-white dark:bg-gray-700 p-3 rounded">4H⁺ + 4OH⁻ + MnO₄⁻ + 3e⁻ → MnO₂ + 2H₂O + 4OH⁻</p>
                   
-                  <p className="text-gray-700 dark:text-gray-300 mt-4">Combine Hâº + OHâ» â†’ Hâ‚‚O:</p>
-                  <p className="bg-white dark:bg-gray-700 p-3 rounded">4Hâ‚‚O + MnOâ‚„â» + 3eâ» â†’ MnOâ‚‚ + 2Hâ‚‚O + 4OHâ»</p>
+                  <p className="text-gray-700 dark:text-gray-300 mt-4">Combine H⁺ + OH⁻ → H₂O:</p>
+                  <p className="bg-white dark:bg-gray-700 p-3 rounded">4H₂O + MnO₄⁻ + 3e⁻ → MnO₂ + 2H₂O + 4OH⁻</p>
                   
-                  <p className="text-gray-700 dark:text-gray-300 mt-4">Cancel 2Hâ‚‚O:</p>
-                  <p className="bg-green-100 dark:bg-green-900/30 p-3 rounded font-bold">2Hâ‚‚O + MnOâ‚„â» + 3eâ» â†’ MnOâ‚‚ + 4OHâ»</p>
+                  <p className="text-gray-700 dark:text-gray-300 mt-4">Cancel 2H₂O:</p>
+                  <p className="bg-green-100 dark:bg-green-900/30 p-3 rounded font-bold">2H₂O + MnO₄⁻ + 3e⁻ → MnO₂ + 4OH⁻</p>
                 </div>
               </div>
             </div>
@@ -265,7 +265,7 @@ export default function RedoxBalancingFormulaPage() {
             <h2 className="text-3xl font-bold mb-6">Another Complete Example</h2>
             
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-xl p-6">
-              <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-4">Balance: MnOâ‚„â» + SOâ‚ƒÂ²â» â†’ MnOâ‚‚ + SOâ‚„Â²â» (basic)</h3>
+              <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-4">Balance: MnO₄⁻ + SO₃²⁻ → MnO₂ + SO₄²⁻ (basic)</h3>
               
               <div className="space-y-5 text-gray-700 dark:text-gray-300">
                 <div>
@@ -273,15 +273,15 @@ export default function RedoxBalancingFormulaPage() {
                   <div className="ml-6 space-y-3 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
                     <div>
                       <p className="text-purple-600">Reduction:</p>
-                      <p>MnOâ‚„â» â†’ MnOâ‚‚</p>
-                      <p>4Hâº + MnOâ‚„â» â†’ MnOâ‚‚ + 2Hâ‚‚O</p>
-                      <p className="text-red-600 font-bold">3eâ» + 4Hâº + MnOâ‚„â» â†’ MnOâ‚‚ + 2Hâ‚‚O</p>
+                      <p>MnO₄⁻ → MnO₂</p>
+                      <p>4H⁺ + MnO₄⁻ → MnO₂ + 2H₂O</p>
+                      <p className="text-red-600 font-bold">3e⁻ + 4H⁺ + MnO₄⁻ → MnO₂ + 2H₂O</p>
                     </div>
                     <div className="pt-3 border-t border-gray-300 dark:border-gray-600">
                       <p className="text-blue-600">Oxidation:</p>
-                      <p>SOâ‚ƒÂ²â» â†’ SOâ‚„Â²â»</p>
-                      <p>Hâ‚‚O + SOâ‚ƒÂ²â» â†’ SOâ‚„Â²â» + 2Hâº</p>
-                      <p className="text-red-600 font-bold">Hâ‚‚O + SOâ‚ƒÂ²â» â†’ SOâ‚„Â²â» + 2Hâº + 2eâ»</p>
+                      <p>SO₃²⁻ → SO₄²⁻</p>
+                      <p>H₂O + SO₃²⁻ → SO₄²⁻ + 2H⁺</p>
+                      <p className="text-red-600 font-bold">H₂O + SO₃²⁻ → SO₄²⁻ + 2H⁺ + 2e⁻</p>
                     </div>
                   </div>
                 </div>
@@ -289,31 +289,31 @@ export default function RedoxBalancingFormulaPage() {
                 <div>
                   <p className="font-bold mb-2">Equalize electrons (LCM = 6):</p>
                   <div className="ml-6 space-y-2 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p>[3eâ» + 4Hâº + MnOâ‚„â» â†’ MnOâ‚‚ + 2Hâ‚‚O] Ã— 2</p>
-                    <p>[Hâ‚‚O + SOâ‚ƒÂ²â» â†’ SOâ‚„Â²â» + 2Hâº + 2eâ»] Ã— 3</p>
+                    <p>[3e⁻ + 4H⁺ + MnO₄⁻ → MnO₂ + 2H₂O] × 2</p>
+                    <p>[H₂O + SO₃²⁻ → SO₄²⁻ + 2H⁺ + 2e⁻] × 3</p>
                   </div>
                 </div>
 
                 <div>
                   <p className="font-bold mb-2">Combined (acidic):</p>
                   <div className="ml-6 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p>8Hâº + 2MnOâ‚„â» + 3SOâ‚ƒÂ²â» â†’ 2MnOâ‚‚ + 3SOâ‚„Â²â» + 4Hâ‚‚O + 6Hâº</p>
-                    <p className="mt-2">Simplify (cancel 6Hâº):</p>
-                    <p className="font-bold text-blue-600 mt-1">2Hâº + 2MnOâ‚„â» + 3SOâ‚ƒÂ²â» â†’ 2MnOâ‚‚ + 3SOâ‚„Â²â» + Hâ‚‚O</p>
+                    <p>8H⁺ + 2MnO₄⁻ + 3SO₃²⁻ → 2MnO₂ + 3SO₄²⁻ + 4H₂O + 6H⁺</p>
+                    <p className="mt-2">Simplify (cancel 6H⁺):</p>
+                    <p className="font-bold text-blue-600 mt-1">2H⁺ + 2MnO₄⁻ + 3SO₃²⁻ → 2MnO₂ + 3SO₄²⁻ + H₂O</p>
                   </div>
                 </div>
 
                 <div>
-                  <p className="font-bold mb-2">Convert to basic (add 2OHâ»):</p>
+                  <p className="font-bold mb-2">Convert to basic (add 2OH⁻):</p>
                   <div className="ml-6 font-mono text-sm bg-white dark:bg-gray-700 p-4 rounded">
-                    <p>2Hâº + 2OHâ» + 2MnOâ‚„â» + 3SOâ‚ƒÂ²â» â†’ 2MnOâ‚‚ + 3SOâ‚„Â²â» + Hâ‚‚O + 2OHâ»</p>
-                    <p className="mt-2">2Hâ‚‚O + 2MnOâ‚„â» + 3SOâ‚ƒÂ²â» â†’ 2MnOâ‚‚ + 3SOâ‚„Â²â» + Hâ‚‚O + 2OHâ»</p>
+                    <p>2H⁺ + 2OH⁻ + 2MnO₄⁻ + 3SO₃²⁻ → 2MnO₂ + 3SO₄²⁻ + H₂O + 2OH⁻</p>
+                    <p className="mt-2">2H₂O + 2MnO₄⁻ + 3SO₃²⁻ → 2MnO₂ + 3SO₄²⁻ + H₂O + 2OH⁻</p>
                   </div>
                 </div>
 
                 <div className="bg-green-100 dark:bg-green-900/30 rounded-xl p-6">
-                  <p className="font-bold text-xl text-green-900 dark:text-green-300 mb-2">Final (cancel 1Hâ‚‚O):</p>
-                  <p className="font-mono text-lg">Hâ‚‚O + 2MnOâ‚„â» + 3SOâ‚ƒÂ²â» â†’ 2MnOâ‚‚ + 3SOâ‚„Â²â» + 2OHâ»</p>
+                  <p className="font-bold text-xl text-green-900 dark:text-green-300 mb-2">Final (cancel 1H₂O):</p>
+                  <p className="font-mono text-lg">H₂O + 2MnO₄⁻ + 3SO₃²⁻ → 2MnO₂ + 3SO₄²⁻ + 2OH⁻</p>
                 </div>
               </div>
             </div>
@@ -326,15 +326,15 @@ export default function RedoxBalancingFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting to Balance Atoms First</h3>
-                  <p className="text-gray-700 dark:text-gray-300">Always balance Crâ‚‚Oâ‚‡Â²â» â†’ <strong>2</strong>CrÂ³âº before adding Hâ‚‚O!</p>
+                  <p className="text-gray-700 dark:text-gray-300">Always balance Cr₂O₇²⁻ → <strong>2</strong>Cr³⁺ before adding H₂O!</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong Electron Count</h3>
                   <p className="text-gray-700 dark:text-gray-300">Calculate charge on BOTH sides carefully. Many errors here!</p>
@@ -342,7 +342,7 @@ export default function RedoxBalancingFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Not Equalizing Electrons</h3>
                   <p className="text-gray-700 dark:text-gray-300">Find LCM of electron counts before adding half-reactions!</p>
@@ -350,7 +350,7 @@ export default function RedoxBalancingFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">ðŸ’¡</span>
+                <span className="text-2xl">💡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">Always Verify Final Answer</h3>
                   <p className="text-gray-700 dark:text-gray-300">Check: atoms balanced? Charges balanced? Electrons cancelled?</p>

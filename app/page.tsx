@@ -218,12 +218,12 @@ export default function HomePage() {
                 to solve quantitative problems. These tools incorporate established principles such as 
                 the <strong className="text-primary-700">law of conservation of mass</strong>, <strong className="text-primary-700">ideal gas law</strong> (PV = nRT), 
                 <strong className="text-primary-700"> stoichiometric ratios</strong> from balanced equations, and 
-                <strong className="text-primary-700"> thermodynamic relationships</strong> (╬öG = ╬öH - T╬öS).
+                <strong className="text-primary-700"> thermodynamic relationships</strong> (ΔG = ΔH - TΔS).
               </p>
               <p className="text-gray-700 leading-relaxed text-lg">
                 Each calculator uses specific formulas relevant to its domain. For instance, 
                 <strong className="text-primary-600"> molarity calculations</strong> use M = n/V (moles per liter), while 
-                <strong className="text-primary-600"> pH calculations</strong> apply pH = -log[HΓü║] based on hydrogen ion concentration. 
+                <strong className="text-primary-600"> pH calculations</strong> apply pH = -log[H⁺] based on hydrogen ion concentration. 
                 <strong className="text-primary-600"> Stoichiometry calculators</strong> determine mole ratios from balanced chemical 
                 equations to predict product quantities and identify limiting reagents.
               </p>
@@ -237,7 +237,7 @@ export default function HomePage() {
                 <p className="text-gray-700 text-sm leading-relaxed mb-3">
                   <strong>Molarity</strong>, <strong>molality</strong>, and <strong>normality</strong> calculators 
                   determine solution concentrations using molar mass, volume, and mass relationships. 
-                  The <strong>dilution calculator</strong> applies CΓéüVΓéü = CΓééVΓéé to find final concentrations 
+                  The <strong>dilution calculator</strong> applies C₁V₁ = C₂V₂ to find final concentrations 
                   after dilution.
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
@@ -258,7 +258,7 @@ export default function HomePage() {
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
                   <code className="text-sm text-gray-800">
-                    % Yield = (Actual Yield / Theoretical Yield) ├ù 100
+                    % Yield = (Actual Yield / Theoretical Yield) × 100
                   </code>
                 </div>
               </div>
@@ -274,7 +274,7 @@ export default function HomePage() {
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
                   <code className="text-sm text-gray-800">
-                    ╬öG = ╬öH - T╬öS (Gibbs Free Energy)
+                    ΔG = ΔH - TΔS (Gibbs Free Energy)
                   </code>
                 </div>
               </div>
@@ -290,7 +290,7 @@ export default function HomePage() {
                 </p>
                 <div className="bg-primary-50 p-3 rounded border-l-4 border-primary-500">
                   <code className="text-sm text-gray-800">
-                    pH = pKa + log([AΓü╗]/[HA])
+                    pH = pKa + log([A⁻]/[HA])
                   </code>
                 </div>
               </div>
@@ -379,8 +379,8 @@ export default function HomePage() {
               <h3 className="text-xl font-bold text-primary-700 mb-3">Thermodynamics</h3>
               <p className="text-gray-700 text-sm leading-relaxed">
                 <strong>Chemical thermodynamics</strong> studies energy changes in reactions. 
-                <strong> Enthalpy</strong> (╬öH), <strong>entropy</strong> (╬öS), and 
-                <strong> Gibbs free energy</strong> (╬öG) determine whether reactions occur 
+                <strong> Enthalpy</strong> (ΔH), <strong>entropy</strong> (ΔS), and 
+                <strong> Gibbs free energy</strong> (ΔG) determine whether reactions occur 
                 spontaneously and how much energy they release or consume.
               </p>
             </div>

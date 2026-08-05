@@ -75,7 +75,7 @@ export default function ProteinSolubilityCalculatorPage() {
                   
                   <div className="bg-gradient-to-r from-tertiary-50 to-secondary-50 dark:from-gray-700 dark:to-gray-600 p-6 rounded-lg mb-6">
                     <p className="text-center text-lg font-mono text-gray-900 dark:text-white mb-2">
-                      Minimum Solubility at pH â‰ˆ pI
+                      Minimum Solubility at pH ≈ pI
                     </p>
                     <p className="text-center text-sm text-gray-600 dark:text-gray-400">
                       Proteins precipitate most readily at their isoelectric point
@@ -114,21 +114,21 @@ export default function ProteinSolubilityCalculatorPage() {
                   <div className="bg-purple-50 dark:bg-purple-900/20 p-6 rounded-lg mb-6">
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Salt Considerations</h4>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      <li>â€¢ Use 50-150 mM salt for most proteins (salting-in)</li>
-                      <li>â€¢ Avoid very low ionic strength (&lt;10 mM)</li>
-                      <li>â€¢ High salt (&gt;500 mM) can cause precipitation</li>
-                      <li>â€¢ NaCl is standard; phosphate buffers also contribute ions</li>
+                      <li>• Use 50-150 mM salt for most proteins (salting-in)</li>
+                      <li>• Avoid very low ionic strength (&lt;10 mM)</li>
+                      <li>• High salt (&gt;500 mM) can cause precipitation</li>
+                      <li>• NaCl is standard; phosphate buffers also contribute ions</li>
                     </ul>
                   </div>
 
                   <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-lg mb-6">
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Preventing Precipitation</h4>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      <li>â€¢ Add glycerol (10-50%) to stabilize proteins</li>
-                      <li>â€¢ Use detergents (0.01-0.1%) for hydrophobic proteins</li>
-                      <li>â€¢ Keep temperature at 4Â°C for long-term storage</li>
-                      <li>â€¢ Avoid freeze-thaw cycles</li>
-                      <li>â€¢ Filter or centrifuge aggregates before use</li>
+                      <li>• Add glycerol (10-50%) to stabilize proteins</li>
+                      <li>• Use detergents (0.01-0.1%) for hydrophobic proteins</li>
+                      <li>• Keep temperature at 4°C for long-term storage</li>
+                      <li>• Avoid freeze-thaw cycles</li>
+                      <li>• Filter or centrifuge aggregates before use</li>
                     </ul>
                   </div>
 
@@ -138,37 +138,37 @@ export default function ProteinSolubilityCalculatorPage() {
                   
                   <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§ª</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧪</span>
                       <div>
                         <strong>Protein Storage:</strong> Optimizing buffer conditions for long-term stability
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’Š</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💊</span>
                       <div>
                         <strong>Drug Formulation:</strong> Developing stable therapeutic protein formulations
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’Ž</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💎</span>
                       <div>
                         <strong>Protein Crystallization:</strong> Finding conditions that promote crystal formation
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ”¬</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🔬</span>
                       <div>
                         <strong>Purification:</strong> Preventing aggregation during chromatography steps
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ­</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🏭</span>
                       <div>
                         <strong>Biomanufacturing:</strong> Optimizing production and storage of recombinant proteins
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§¬</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧬</span>
                       <div>
                         <strong>Structural Biology:</strong> Preparing samples for NMR, X-ray, or cryo-EM studies
                       </div>
@@ -184,7 +184,7 @@ export default function ProteinSolubilityCalculatorPage() {
                 {/* Quick Reference */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-300">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸ§¬</span>
+                    <span className="text-2xl">🧬</span>
                     Quick Reference
                   </h3>
                   <div className="space-y-3 text-sm">
@@ -194,7 +194,7 @@ export default function ProteinSolubilityCalculatorPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Optimal pH:</p>
-                      <p className="text-gray-600 dark:text-gray-400">Â±1-2 units from pI</p>
+                      <p className="text-gray-600 dark:text-gray-400">±1-2 units from pI</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Salt Range:</p>
@@ -202,7 +202,7 @@ export default function ProteinSolubilityCalculatorPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Storage Temp:</p>
-                      <p className="text-gray-600 dark:text-gray-400">4Â°C or -80Â°C</p>
+                      <p className="text-gray-600 dark:text-gray-400">4°C or -80°C</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Level:</p>
@@ -214,7 +214,7 @@ export default function ProteinSolubilityCalculatorPage() {
                 {/* Related Calculators */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-400">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸ”—</span>
+                    <span className="text-2xl">🔗</span>
                     Related Calculators
                   </h3>
                   <ul className="space-y-3">
@@ -245,7 +245,7 @@ export default function ProteinSolubilityCalculatorPage() {
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      <span className="text-2xl">ðŸ“</span>
+                      <span className="text-2xl">📐</span>
                       Related Formulas
                     </h3>
                     <ul className="space-y-3">
@@ -273,7 +273,7 @@ export default function ProteinSolubilityCalculatorPage() {
                         href="/biochemistry-calculators"
                         className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold"
                       >
-                        All Biochemistry Calculators â†’
+                        All Biochemistry Calculators →
                       </Link>
                     </li>
                   </ul>
@@ -282,33 +282,33 @@ export default function ProteinSolubilityCalculatorPage() {
                 {/* Where It's Used */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-500">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸŽ¯</span>
+                    <span className="text-2xl">🎯</span>
                     Where It&apos;s Used
                   </h3>
                   <ul className="space-y-4 text-sm">
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ”¬</span>
+                      <span className="text-xl">🔬</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Research Labs</p>
                         <p className="text-gray-600 dark:text-gray-400">Protein purification</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ’Š</span>
+                      <span className="text-xl">💊</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Pharma Industry</p>
                         <p className="text-gray-600 dark:text-gray-400">Antibody formulation</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ’Ž</span>
+                      <span className="text-xl">💎</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Structural Biology</p>
                         <p className="text-gray-600 dark:text-gray-400">Crystallography</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ­</span>
+                      <span className="text-xl">🏭</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Biotechnology</p>
                         <p className="text-gray-600 dark:text-gray-400">Biomanufacturing</p>

@@ -69,7 +69,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
             <div className="sticky top-24">
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                  ðŸ”— Related Calculators
+                  🔗 Related Calculators
                 </h3>
                 <ul className="space-y-3">
                   <li>
@@ -77,7 +77,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                       href="/"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
-                      <span>â†’</span>
+                      <span>→</span>
                       <span>Solubility Calculator</span>
                     </a>
                   </li>
@@ -86,7 +86,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                       href="/physical-chemistry-calculators/osmotic-pressure-calculator"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
-                      <span>â†’</span>
+                      <span>→</span>
                       <span>Activity Coefficient</span>
                     </a>
                   </li>
@@ -95,14 +95,14 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                       href="/physical-chemistry-calculators/osmotic-pressure-calculator"
                       className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                     >
-                      <span>â†’</span>
+                      <span>→</span>
                       <span>Osmotic Pressure Calculator</span>
                     </a>
                   </li>
                 </ul>
                 <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    ðŸ“ Related Formulas
+                    📐 Related Formulas
                   </h3>
                   <ul className="space-y-3">
                     <li>
@@ -110,7 +110,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                         href="/chemistry-formulas/partition-coefficient"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Partition Coefficient Formula</span>
                       </a>
                     </li>
@@ -119,7 +119,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                         href="/chemistry-formulas/partition-coefficient"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Distribution Coefficient Formula</span>
                       </a>
                     </li>
@@ -130,7 +130,7 @@ export default function PartitionCoefficientCalculatorPage() {  return (
                     href="/physical-chemistry-calculators"
                     className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                   >
-                    All Physical Chemistry Calculators â†’
+                    All Physical Chemistry Calculators →
                   </a>
                 </div>
               </div>

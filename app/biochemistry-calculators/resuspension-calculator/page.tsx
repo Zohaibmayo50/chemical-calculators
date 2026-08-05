@@ -89,7 +89,7 @@ export default function ResuspensionCalculatorPage() {
                     </div>
                     
                     <div className="border-l-4 border-tertiary-500 pl-4">
-                      <p className="font-semibold text-gray-900 dark:text-white">Molar Concentration (mM or ÂµM)</p>
+                      <p className="font-semibold text-gray-900 dark:text-white">Molar Concentration (mM or µM)</p>
                       <p className="text-gray-600 dark:text-gray-400">Used for small molecules and when stoichiometry matters</p>
                     </div>
 
@@ -106,11 +106,11 @@ export default function ResuspensionCalculatorPage() {
                   <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg mb-6">
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Solvent Selection</h4>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      <li>â€¢ <strong>Water:</strong> Sterile, deionized water for general use</li>
-                      <li>â€¢ <strong>PBS:</strong> Physiological pH (7.4) for proteins</li>
-                      <li>â€¢ <strong>Buffer:</strong> Match protein&apos;s optimal pH</li>
-                      <li>â€¢ <strong>DMSO:</strong> For hydrophobic small molecules</li>
-                      <li>â€¢ <strong>Ethanol:</strong> Alternative organic solvent for compounds</li>
+                      <li>• <strong>Water:</strong> Sterile, deionized water for general use</li>
+                      <li>• <strong>PBS:</strong> Physiological pH (7.4) for proteins</li>
+                      <li>• <strong>Buffer:</strong> Match protein&apos;s optimal pH</li>
+                      <li>• <strong>DMSO:</strong> For hydrophobic small molecules</li>
+                      <li>• <strong>Ethanol:</strong> Alternative organic solvent for compounds</li>
                     </ul>
                   </div>
 
@@ -129,12 +129,12 @@ export default function ResuspensionCalculatorPage() {
                   <div className="bg-green-50 dark:bg-green-900/20 p-6 rounded-lg mb-6">
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Stock Solution Tips</h4>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      <li>â€¢ Make concentrated stocks (10-100Ã—) for convenience</li>
-                      <li>â€¢ Label with name, concentration, date, and initials</li>
-                      <li>â€¢ Store at appropriate temperature (-20Â°C or -80Â°C for proteins)</li>
-                      <li>â€¢ Add glycerol (10-50%) for protein stability</li>
-                      <li>â€¢ Record lot numbers for reproducibility</li>
-                      <li>â€¢ Consider making aliquots to minimize contamination</li>
+                      <li>• Make concentrated stocks (10-100×) for convenience</li>
+                      <li>• Label with name, concentration, date, and initials</li>
+                      <li>• Store at appropriate temperature (-20°C or -80°C for proteins)</li>
+                      <li>• Add glycerol (10-50%) for protein stability</li>
+                      <li>• Record lot numbers for reproducibility</li>
+                      <li>• Consider making aliquots to minimize contamination</li>
                     </ul>
                   </div>
 
@@ -146,16 +146,16 @@ export default function ResuspensionCalculatorPage() {
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Example Scenarios</h4>
                     <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                       <li>
-                        <strong>Antibody (1 mg vial â†’ 1 mg/mL):</strong>
+                        <strong>Antibody (1 mg vial → 1 mg/mL):</strong>
                         <br />Add 1.0 mL PBS or sterile water
                       </li>
                       <li>
-                        <strong>Protein (5 mg â†’ 10 mg/mL):</strong>
-                        <br />Add 0.5 mL buffer (5 mg Ã· 10 mg/mL)
+                        <strong>Protein (5 mg → 10 mg/mL):</strong>
+                        <br />Add 0.5 mL buffer (5 mg ÷ 10 mg/mL)
                       </li>
                       <li>
-                        <strong>Small molecule (10 mg, MW 300 â†’ 100 mM):</strong>
-                        <br />Add 0.333 mL DMSO [(10/300) Ã· 0.1]
+                        <strong>Small molecule (10 mg, MW 300 → 100 mM):</strong>
+                        <br />Add 0.333 mL DMSO [(10/300) ÷ 0.1]
                       </li>
                     </ul>
                   </div>
@@ -166,37 +166,37 @@ export default function ResuspensionCalculatorPage() {
                   
                   <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§ª</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧪</span>
                       <div>
                         <strong>Protein Reconstitution:</strong> Preparing enzymes, antibodies, and recombinant proteins
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’‰</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💉</span>
                       <div>
                         <strong>Antibody Preparation:</strong> Reconstituting antibodies for Western blots and assays
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ”¬</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🔬</span>
                       <div>
                         <strong>Enzyme Stock Solutions:</strong> Making working stocks of restriction enzymes and polymerases
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ§¬</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🧬</span>
                       <div>
                         <strong>DNA/RNA Resuspension:</strong> Dissolving lyophilized oligonucleotides and primers
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸ’Š</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">💊</span>
                       <div>
                         <strong>Drug Compounds:</strong> Preparing small molecule stocks for screening assays
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">ðŸŽ¯</span>
+                      <span className="text-tertiary-600 dark:text-tertiary-400 mt-1">🎯</span>
                       <div>
                         <strong>Standards Preparation:</strong> Making calibration standards for analytical methods
                       </div>
@@ -212,7 +212,7 @@ export default function ResuspensionCalculatorPage() {
                 {/* Quick Reference */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-300">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸ§¬</span>
+                    <span className="text-2xl">🧬</span>
                     Quick Reference
                   </h3>
                   <div className="space-y-3 text-sm">
@@ -222,7 +222,7 @@ export default function ResuspensionCalculatorPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Common Units:</p>
-                      <p className="text-gray-600 dark:text-gray-400">mg/mL, mM, ÂµM, U/mL</p>
+                      <p className="text-gray-600 dark:text-gray-400">mg/mL, mM, µM, U/mL</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Typical Stocks:</p>
@@ -230,7 +230,7 @@ export default function ResuspensionCalculatorPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Storage:</p>
-                      <p className="text-gray-600 dark:text-gray-400">-20Â°C or -80Â°C</p>
+                      <p className="text-gray-600 dark:text-gray-400">-20°C or -80°C</p>
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 dark:text-white">Level:</p>
@@ -242,7 +242,7 @@ export default function ResuspensionCalculatorPage() {
                 {/* Related Calculators */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-400">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸ”—</span>
+                    <span className="text-2xl">🔗</span>
                     Related Calculators
                   </h3>
                   <ul className="space-y-3">
@@ -273,7 +273,7 @@ export default function ResuspensionCalculatorPage() {
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      <span className="text-2xl">ðŸ“</span>
+                      <span className="text-2xl">📐</span>
                       Related Formulas
                     </h3>
                     <ul className="space-y-3">
@@ -301,7 +301,7 @@ export default function ResuspensionCalculatorPage() {
                         href="/biochemistry-calculators"
                         className="text-tertiary-600 dark:text-tertiary-400 hover:text-tertiary-700 dark:hover:text-tertiary-300 transition-colors font-semibold"
                       >
-                        All Biochemistry Calculators â†’
+                        All Biochemistry Calculators →
                       </Link>
                     </li>
                   </ul>
@@ -310,33 +310,33 @@ export default function ResuspensionCalculatorPage() {
                 {/* Where It's Used */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 animate-slide-in-up animation-delay-500">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    <span className="text-2xl">ðŸŽ¯</span>
+                    <span className="text-2xl">🎯</span>
                     Where It&apos;s Used
                   </h3>
                   <ul className="space-y-4 text-sm">
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ”¬</span>
+                      <span className="text-xl">🔬</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Research Labs</p>
                         <p className="text-gray-600 dark:text-gray-400">Daily stock preparation</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ§¬</span>
+                      <span className="text-xl">🧬</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Molecular Biology</p>
                         <p className="text-gray-600 dark:text-gray-400">Enzyme and oligo prep</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ’Š</span>
+                      <span className="text-xl">💊</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Pharma Industry</p>
                         <p className="text-gray-600 dark:text-gray-400">Compound screening</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-xl">ðŸ¥</span>
+                      <span className="text-xl">🏥</span>
                       <div>
                         <p className="font-semibold text-gray-900 dark:text-white">Clinical Labs</p>
                         <p className="text-gray-600 dark:text-gray-400">Reagent preparation</p>

@@ -48,11 +48,11 @@ export default function TitrationCalculatorPage() {  return (
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
               <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">Key Concepts:</h3>
               <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                <li>â€¢ <strong>Titrant:</strong> Solution of known concentration added from burette</li>
-                <li>â€¢ <strong>Analyte:</strong> Solution of unknown concentration in the flask</li>
-                <li>â€¢ <strong>Equivalence Point:</strong> When moles of acid = moles of base</li>
-                <li>â€¢ <strong>Endpoint:</strong> When indicator changes color (should match equivalence point)</li>
-                <li>â€¢ <strong>Titration Curve:</strong> Graph of pH vs volume of titrant added</li>
+                <li>• <strong>Titrant:</strong> Solution of known concentration added from burette</li>
+                <li>• <strong>Analyte:</strong> Solution of unknown concentration in the flask</li>
+                <li>• <strong>Equivalence Point:</strong> When moles of acid = moles of base</li>
+                <li>• <strong>Endpoint:</strong> When indicator changes color (should match equivalence point)</li>
+                <li>• <strong>Titration Curve:</strong> Graph of pH vs volume of titrant added</li>
               </ul>
             </div>
           </section>
@@ -69,17 +69,17 @@ export default function TitrationCalculatorPage() {  return (
                   1. Strong Acid - Strong Base
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-2">
-                  Example: HCl + NaOH â†’ NaCl + Hâ‚‚O
+                  Example: HCl + NaOH → NaCl + H₂O
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                   <p className="text-sm text-gray-800 dark:text-gray-200 mb-2">
                     <strong>Characteristics:</strong>
                   </p>
                   <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
-                    <li>â€¢ Initial pH: Very low (&lt; 2)</li>
-                    <li>â€¢ Equivalence point pH: 7.0 (neutral)</li>
-                    <li>â€¢ Sharp, vertical pH jump at equivalence</li>
-                    <li>â€¢ Indicator: Bromothymol blue, phenolphthalein</li>
+                    <li>• Initial pH: Very low (&lt; 2)</li>
+                    <li>• Equivalence point pH: 7.0 (neutral)</li>
+                    <li>• Sharp, vertical pH jump at equivalence</li>
+                    <li>• Indicator: Bromothymol blue, phenolphthalein</li>
                   </ul>
                 </div>
               </div>
@@ -89,18 +89,18 @@ export default function TitrationCalculatorPage() {  return (
                   2. Weak Acid - Strong Base
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-2">
-                  Example: CHâ‚ƒCOOH + NaOH â†’ CHâ‚ƒCOONa + Hâ‚‚O
+                  Example: CH₃COOH + NaOH → CH₃COONa + H₂O
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                   <p className="text-sm text-gray-800 dark:text-gray-200 mb-2">
                     <strong>Characteristics:</strong>
                   </p>
                   <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
-                    <li>â€¢ Initial pH: Higher than strong acid (3-6)</li>
-                    <li>â€¢ Equivalence point pH: &gt; 7 (basic, typically 8-10)</li>
-                    <li>â€¢ Buffer region before equivalence (pH â‰ˆ pKa at halfway point)</li>
-                    <li>â€¢ Less sharp pH jump</li>
-                    <li>â€¢ Indicator: Phenolphthalein (pKa â‰ˆ 9.3)</li>
+                    <li>• Initial pH: Higher than strong acid (3-6)</li>
+                    <li>• Equivalence point pH: &gt; 7 (basic, typically 8-10)</li>
+                    <li>• Buffer region before equivalence (pH ≈ pKa at halfway point)</li>
+                    <li>• Less sharp pH jump</li>
+                    <li>• Indicator: Phenolphthalein (pKa ≈ 9.3)</li>
                   </ul>
                 </div>
               </div>
@@ -110,18 +110,18 @@ export default function TitrationCalculatorPage() {  return (
                   3. Strong Acid - Weak Base
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-2">
-                  Example: HCl + NHâ‚ƒ â†’ NHâ‚„Cl
+                  Example: HCl + NH₃ → NH₄Cl
                 </p>
                 <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                   <p className="text-sm text-gray-800 dark:text-gray-200 mb-2">
                     <strong>Characteristics:</strong>
                   </p>
                   <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
-                    <li>â€¢ Initial pH: High (9-11)</li>
-                    <li>â€¢ Equivalence point pH: &lt; 7 (acidic, typically 4-6)</li>
-                    <li>â€¢ Buffer region before equivalence</li>
-                    <li>â€¢ Less sharp pH jump</li>
-                    <li>â€¢ Indicator: Methyl orange (pKa â‰ˆ 3.7)</li>
+                    <li>• Initial pH: High (9-11)</li>
+                    <li>• Equivalence point pH: &lt; 7 (acidic, typically 4-6)</li>
+                    <li>• Buffer region before equivalence</li>
+                    <li>• Less sharp pH jump</li>
+                    <li>• Indicator: Methyl orange (pKa ≈ 3.7)</li>
                   </ul>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function TitrationCalculatorPage() {  return (
                   Finding Equivalence Point Volume:
                 </h3>
                 <p className="text-indigo-800 dark:text-indigo-200 font-mono text-lg mb-2">
-                  Mâ‚Vâ‚ = Mâ‚‚Vâ‚‚
+                  M₁V₁ = M₂V₂
                 </p>
                 <p className="text-sm text-indigo-700 dark:text-indigo-300">
                   For monoprotic acids and bases: Moles of acid = Moles of base
@@ -155,13 +155,13 @@ export default function TitrationCalculatorPage() {  return (
                   <strong>Strong Acid-Strong Base:</strong>
                 </p>
                 <p className="text-green-700 dark:text-green-300 font-mono mb-2">
-                  pH = -log[Hâº] where [Hâº] = (moles acid - moles base) / total volume
+                  pH = -log[H⁺] where [H⁺] = (moles acid - moles base) / total volume
                 </p>
                 <p className="text-sm text-green-800 dark:text-green-200 mb-2">
                   <strong>Weak Acid-Strong Base (buffer region):</strong>
                 </p>
                 <p className="text-green-700 dark:text-green-300 font-mono">
-                  pH = pKa + log([Aâ»]/[HA]) (Henderson-Hasselbalch)
+                  pH = pKa + log([A⁻]/[HA]) (Henderson-Hasselbalch)
                 </p>
               </div>
 
@@ -170,9 +170,9 @@ export default function TitrationCalculatorPage() {  return (
                   pH at Equivalence Point:
                 </h3>
                 <ul className="text-sm text-purple-800 dark:text-purple-200 space-y-2">
-                  <li>â€¢ <strong>Strong-Strong:</strong> pH = 7.0 (neutral salt solution)</li>
-                  <li>â€¢ <strong>Weak Acid-Strong Base:</strong> pH &gt; 7 (conjugate base hydrolyzes)</li>
-                  <li>â€¢ <strong>Strong Acid-Weak Base:</strong> pH &lt; 7 (conjugate acid dissociates)</li>
+                  <li>• <strong>Strong-Strong:</strong> pH = 7.0 (neutral salt solution)</li>
+                  <li>• <strong>Weak Acid-Strong Base:</strong> pH &gt; 7 (conjugate base hydrolyzes)</li>
+                  <li>• <strong>Strong Acid-Weak Base:</strong> pH &lt; 7 (conjugate acid dissociates)</li>
                 </ul>
               </div>
 
@@ -184,7 +184,7 @@ export default function TitrationCalculatorPage() {  return (
                   Determined by excess titrant (strong base or strong acid)
                 </p>
                 <p className="text-orange-700 dark:text-orange-300 font-mono mt-2">
-                  pH = 14 - pOH where pOH = -log[OHâ»] (excess base)
+                  pH = 14 - pOH where pOH = -log[OH⁻] (excess base)
                 </p>
               </div>
             </div>
@@ -213,31 +213,31 @@ export default function TitrationCalculatorPage() {  return (
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Methyl orange</td>
                     <td className="px-4 py-2">3.1 - 4.4</td>
-                    <td className="px-4 py-2">Red â†’ Yellow</td>
+                    <td className="px-4 py-2">Red → Yellow</td>
                     <td className="px-4 py-2">Strong acid - Weak base</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Methyl red</td>
                     <td className="px-4 py-2">4.4 - 6.2</td>
-                    <td className="px-4 py-2">Red â†’ Yellow</td>
+                    <td className="px-4 py-2">Red → Yellow</td>
                     <td className="px-4 py-2">Strong acid - Weak base</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Bromothymol blue</td>
                     <td className="px-4 py-2">6.0 - 7.6</td>
-                    <td className="px-4 py-2">Yellow â†’ Blue</td>
+                    <td className="px-4 py-2">Yellow → Blue</td>
                     <td className="px-4 py-2">Strong acid - Strong base</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Phenolphthalein</td>
                     <td className="px-4 py-2">8.3 - 10.0</td>
-                    <td className="px-4 py-2">Colorless â†’ Pink</td>
+                    <td className="px-4 py-2">Colorless → Pink</td>
                     <td className="px-4 py-2">Weak acid - Strong base</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="px-4 py-2">Thymol blue</td>
                     <td className="px-4 py-2">8.0 - 9.6</td>
-                    <td className="px-4 py-2">Yellow â†’ Blue</td>
+                    <td className="px-4 py-2">Yellow → Blue</td>
                     <td className="px-4 py-2">Weak acid - Strong base</td>
                   </tr>
                 </tbody>
@@ -255,7 +255,7 @@ export default function TitrationCalculatorPage() {  return (
                 Titration of Acetic Acid with Sodium Hydroxide
               </h3>
               <p className="text-gray-700 dark:text-gray-300 mb-2">
-                <strong>Problem:</strong> 25.0 mL of 0.100 M acetic acid (CHâ‚ƒCOOH, Ka = 1.8 Ã— 10â»âµ) is titrated 
+                <strong>Problem:</strong> 25.0 mL of 0.100 M acetic acid (CH₃COOH, Ka = 1.8 × 10⁻⁵) is titrated 
                 with 0.100 M NaOH. Calculate:
               </p>
               <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2 mb-4">
@@ -271,32 +271,32 @@ export default function TitrationCalculatorPage() {  return (
                   
                   <p className="text-sm text-gray-800 dark:text-gray-200 font-semibold mt-3 mb-1">1. Initial pH:</p>
                   <p className="font-mono text-sm text-gray-700 dark:text-gray-300">
-                    [Hâº] = âˆš(Ka Ã— Ca) = âˆš(1.8Ã—10â»âµ Ã— 0.100) = 1.34Ã—10â»Â³ M
+                    [H⁺] = √(Ka × Ca) = √(1.8×10⁻⁵ × 0.100) = 1.34×10⁻³ M
                     <br />
-                    pH = -log(1.34Ã—10â»Â³) = 2.87
+                    pH = -log(1.34×10⁻³) = 2.87
                   </p>
 
                   <p className="text-sm text-gray-800 dark:text-gray-200 font-semibold mt-3 mb-1">2. Volume at Equivalence:</p>
                   <p className="font-mono text-sm text-gray-700 dark:text-gray-300">
-                    Mâ‚Vâ‚ = Mâ‚‚Vâ‚‚
+                    M₁V₁ = M₂V₂
                     <br />
-                    Veq = (0.100 Ã— 25.0) / 0.100 = 25.0 mL
+                    Veq = (0.100 × 25.0) / 0.100 = 25.0 mL
                   </p>
 
                   <p className="text-sm text-gray-800 dark:text-gray-200 font-semibold mt-3 mb-1">3. pH at Equivalence:</p>
                   <p className="font-mono text-sm text-gray-700 dark:text-gray-300">
-                    Only CHâ‚ƒCOOâ» present; Kb = Kw/Ka = 10â»Â¹â´/(1.8Ã—10â»âµ) = 5.56Ã—10â»Â¹â°
+                    Only CH₃COO⁻ present; Kb = Kw/Ka = 10⁻¹⁴/(1.8×10⁻⁵) = 5.56×10⁻¹⁰
                     <br />
-                    [CHâ‚ƒCOOâ»] = 0.0025 mol / 0.050 L = 0.050 M
+                    [CH₃COO⁻] = 0.0025 mol / 0.050 L = 0.050 M
                     <br />
-                    [OHâ»] = âˆš(Kb Ã— C) = âˆš(5.56Ã—10â»Â¹â° Ã— 0.050) = 5.27Ã—10â»â¶ M
+                    [OH⁻] = √(Kb × C) = √(5.56×10⁻¹⁰ × 0.050) = 5.27×10⁻⁶ M
                     <br />
                     pOH = 5.28, pH = 14 - 5.28 = 8.72
                   </p>
 
                   <p className="text-sm text-gray-800 dark:text-gray-200 font-semibold mt-3 mb-1">4. pH at Half-Equivalence (12.5 mL):</p>
                   <p className="font-mono text-sm text-gray-700 dark:text-gray-300">
-                    pH = pKa = -log(1.8Ã—10â»âµ) = 4.74
+                    pH = pKa = -log(1.8×10⁻⁵) = 4.74
                   </p>
                 </div>
 
@@ -319,42 +319,42 @@ export default function TitrationCalculatorPage() {  return (
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">ðŸ”¬ Analytical Chemistry</h3>
+                <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2">🔬 Analytical Chemistry</h3>
                 <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-                  <li>â€¢ Determining unknown acid/base concentrations</li>
-                  <li>â€¢ Quality control in pharmaceuticals</li>
-                  <li>â€¢ Water hardness analysis</li>
-                  <li>â€¢ Standardizing solutions</li>
+                  <li>• Determining unknown acid/base concentrations</li>
+                  <li>• Quality control in pharmaceuticals</li>
+                  <li>• Water hardness analysis</li>
+                  <li>• Standardizing solutions</li>
                 </ul>
               </div>
 
               <div className="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2">ðŸ· Food Industry</h3>
+                <h3 className="font-semibold text-green-900 dark:text-green-100 mb-2">🍷 Food Industry</h3>
                 <ul className="text-sm text-green-800 dark:text-green-200 space-y-1">
-                  <li>â€¢ Measuring acidity in wine and beer</li>
-                  <li>â€¢ Determining citric acid content in fruits</li>
-                  <li>â€¢ Quality control of dairy products</li>
-                  <li>â€¢ Vinegar acetic acid content</li>
+                  <li>• Measuring acidity in wine and beer</li>
+                  <li>• Determining citric acid content in fruits</li>
+                  <li>• Quality control of dairy products</li>
+                  <li>• Vinegar acetic acid content</li>
                 </ul>
               </div>
 
               <div className="bg-purple-50 dark:bg-purple-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">âš•ï¸ Medicine</h3>
+                <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">⚕️ Medicine</h3>
                 <ul className="text-sm text-purple-800 dark:text-purple-200 space-y-1">
-                  <li>â€¢ Drug purity testing</li>
-                  <li>â€¢ Blood pH measurements</li>
-                  <li>â€¢ Pharmaceutical formulation</li>
-                  <li>â€¢ Vitamin C content determination</li>
+                  <li>• Drug purity testing</li>
+                  <li>• Blood pH measurements</li>
+                  <li>• Pharmaceutical formulation</li>
+                  <li>• Vitamin C content determination</li>
                 </ul>
               </div>
 
               <div className="bg-yellow-50 dark:bg-yellow-900/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">ðŸŒ± Environmental</h3>
+                <h3 className="font-semibold text-yellow-900 dark:text-yellow-100 mb-2">🌱 Environmental</h3>
                 <ul className="text-sm text-yellow-800 dark:text-yellow-200 space-y-1">
-                  <li>â€¢ Soil pH analysis</li>
-                  <li>â€¢ Water quality testing</li>
-                  <li>â€¢ Acid rain monitoring</li>
-                  <li>â€¢ Industrial waste analysis</li>
+                  <li>• Soil pH analysis</li>
+                  <li>• Water quality testing</li>
+                  <li>• Acid rain monitoring</li>
+                  <li>• Industrial waste analysis</li>
                 </ul>
               </div>
             </div>
@@ -367,7 +367,7 @@ export default function TitrationCalculatorPage() {  return (
               <div className="sticky top-24">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    ðŸ”— Related Calculators
+                    🔗 Related Calculators
                   </h3>
                   <ul className="space-y-3">
                     <li>
@@ -375,7 +375,7 @@ export default function TitrationCalculatorPage() {  return (
                         href="/acid-base-calculators/titration-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Titration Curve Calculator</span>
                       </a>
                     </li>
@@ -384,7 +384,7 @@ export default function TitrationCalculatorPage() {  return (
                         href="/acid-base-calculators/pka-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Buffer Solution Calculator</span>
                       </a>
                     </li>
@@ -393,14 +393,14 @@ export default function TitrationCalculatorPage() {  return (
                         href="/acid-base-calculators/pka-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Buffer Capacity Calculator</span>
                       </a>
                     </li>
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      ðŸ“ Related Formulas
+                      📐 Related Formulas
                     </h3>
                     <ul className="space-y-3">
                       <li>
@@ -408,7 +408,7 @@ export default function TitrationCalculatorPage() {  return (
                           href="/chemistry-formulas/titration-formula"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>â†’</span>
+                          <span>→</span>
                           <span>Titration Formula</span>
                         </a>
                       </li>
@@ -417,7 +417,7 @@ export default function TitrationCalculatorPage() {  return (
                           href="/chemistry-formulas/acid-dissociation-constant-formula"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>â†’</span>
+                          <span>→</span>
                           <span>Acid Dissociation Constant (Ka)</span>
                         </a>
                       </li>

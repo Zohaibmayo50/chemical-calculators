@@ -57,7 +57,7 @@ export default function FormalChargeCalculatorPage() {  return (
                     atoms emit light at specific wavelengths rather than a continuous spectrum.
                   </p>
                   <p className="leading-relaxed">
-                    While the Bohr model has been superseded by more accurate quantum mechanical models (SchrÃ¶dinger equation), 
+                    While the Bohr model has been superseded by more accurate quantum mechanical models (Schrödinger equation), 
                     it remains incredibly useful for understanding atomic structure and calculating the hydrogen spectrum. It 
                     successfully explains the <strong>Rydberg formula</strong> and predicts the correct wavelengths for hydrogen's 
                     spectral lines.
@@ -71,7 +71,7 @@ export default function FormalChargeCalculatorPage() {  return (
                   <div className="space-y-4">
                     <div className="bg-white dark:bg-gray-800 p-4 rounded border-l-4 border-blue-500">
                       <p className="font-bold text-lg mb-2">Energy of Level n:</p>
-                      <p className="text-3xl font-mono mb-3">E<sub>n</sub> = -13.6 eV / nÂ²</p>
+                      <p className="text-3xl font-mono mb-3">E<sub>n</sub> = -13.6 eV / n²</p>
                       <ul className="space-y-1 text-sm">
                         <li><strong>E<sub>n</sub></strong> = energy of electron in level n (eV or Joules)</li>
                         <li><strong>n</strong> = principal quantum number (1, 2, 3, ...)</li>
@@ -82,22 +82,22 @@ export default function FormalChargeCalculatorPage() {  return (
 
                     <div className="bg-white dark:bg-gray-800 p-4 rounded border-l-4 border-purple-500">
                       <p className="font-bold text-lg mb-2">Energy of Transition:</p>
-                      <p className="text-3xl font-mono mb-3">Î”E = E<sub>nâ‚‚</sub> - E<sub>nâ‚</sub> = hf = hc/Î»</p>
+                      <p className="text-3xl font-mono mb-3">ΔE = E<sub>n₂</sub> - E<sub>n₁</sub> = hf = hc/λ</p>
                       <ul className="space-y-1 text-sm">
-                        <li><strong>Î”E</strong> = energy difference between levels</li>
-                        <li><strong>nâ‚‚</strong> = upper (initial) level, <strong>nâ‚</strong> = lower (final) level</li>
-                        <li>For emission: Î”E is released as a photon</li>
-                        <li>For absorption: Î”E must be provided to promote electron</li>
+                        <li><strong>ΔE</strong> = energy difference between levels</li>
+                        <li><strong>n₂</strong> = upper (initial) level, <strong>n₁</strong> = lower (final) level</li>
+                        <li>For emission: ΔE is released as a photon</li>
+                        <li>For absorption: ΔE must be provided to promote electron</li>
                       </ul>
                     </div>
 
                     <div className="bg-white dark:bg-gray-800 p-4 rounded border-l-4 border-green-500">
                       <p className="font-bold text-lg mb-2">Rydberg Equation:</p>
-                      <p className="text-3xl font-mono mb-3">1/Î» = R<sub>H</sub> (1/nâ‚Â² - 1/nâ‚‚Â²)</p>
+                      <p className="text-3xl font-mono mb-3">1/λ = R<sub>H</sub> (1/n₁² - 1/n₂²)</p>
                       <ul className="space-y-1 text-sm">
-                        <li><strong>Î»</strong> = wavelength of emitted/absorbed light</li>
-                        <li><strong>R<sub>H</sub></strong> = Rydberg constant = 1.097 Ã— 10â· mâ»Â¹</li>
-                        <li><strong>nâ‚</strong> = lower level, <strong>nâ‚‚</strong> = upper level (nâ‚‚ &gt; nâ‚)</li>
+                        <li><strong>λ</strong> = wavelength of emitted/absorbed light</li>
+                        <li><strong>R<sub>H</sub></strong> = Rydberg constant = 1.097 × 10⁷ m⁻¹</li>
+                        <li><strong>n₁</strong> = lower level, <strong>n₂</strong> = upper level (n₂ &gt; n₁)</li>
                         <li>Directly relates energy levels to spectral lines</li>
                       </ul>
                     </div>
@@ -110,13 +110,13 @@ export default function FormalChargeCalculatorPage() {  return (
                   </h3>
                   <p className="leading-relaxed mb-4">
                     The energy levels of hydrogen get closer together as n increases, asymptotically approaching zero energy 
-                    (ionization) at n = âˆž. The largest energy gap is between n = 1 and n = 2.
+                    (ionization) at n = ∞. The largest energy gap is between n = 1 and n = 2.
                   </p>
                   
                   <div className="bg-gray-50 dark:bg-gray-700/50 p-5 rounded-lg">
                     <div className="space-y-2 font-mono text-sm">
                       <div className="flex justify-between items-center border-b border-gray-400 pb-1">
-                        <span>n = âˆž</span>
+                        <span>n = ∞</span>
                         <span className="font-bold">E = 0 eV (ionization)</span>
                       </div>
                       <div className="flex justify-between items-center border-b border-gray-300 dark:border-gray-600 pb-1">
@@ -152,7 +152,7 @@ export default function FormalChargeCalculatorPage() {  return (
                   </h3>
                   <p className="leading-relaxed mb-4">
                     When electrons transition between energy levels, they emit or absorb photons. Each series is named after 
-                    its discoverer and corresponds to transitions ending at a particular nâ‚ level:
+                    its discoverer and corresponds to transitions ending at a particular n₁ level:
                   </p>
                   
                   <div className="overflow-x-auto">
@@ -160,10 +160,10 @@ export default function FormalChargeCalculatorPage() {  return (
                       <thead>
                         <tr className="bg-gradient-to-r from-primary-100 to-secondary-100 dark:from-primary-900/30 dark:to-secondary-900/30">
                           <th className="px-4 py-3 text-left font-semibold border-b">Series</th>
-                          <th className="px-4 py-3 text-left font-semibold border-b">nâ‚</th>
-                          <th className="px-4 py-3 text-left font-semibold border-b">nâ‚‚ Range</th>
+                          <th className="px-4 py-3 text-left font-semibold border-b">n₁</th>
+                          <th className="px-4 py-3 text-left font-semibold border-b">n₂ Range</th>
                           <th className="px-4 py-3 text-left font-semibold border-b">Region</th>
-                          <th className="px-4 py-3 text-left font-semibold border-b">Î» Range</th>
+                          <th className="px-4 py-3 text-left font-semibold border-b">λ Range</th>
                         </tr>
                       </thead>
                       <tbody className="text-sm">
@@ -193,14 +193,14 @@ export default function FormalChargeCalculatorPage() {  return (
                           <td className="px-4 py-3 border-b">4</td>
                           <td className="px-4 py-3 border-b">5, 6, 7, ...</td>
                           <td className="px-4 py-3 border-b">Infrared</td>
-                          <td className="px-4 py-3 border-b">1.46-4.05 Î¼m</td>
+                          <td className="px-4 py-3 border-b">1.46-4.05 μm</td>
                         </tr>
                         <tr className="hover:bg-gray-50 dark:hover:bg-gray-700">
                           <td className="px-4 py-3 border-b font-semibold">Pfund</td>
                           <td className="px-4 py-3 border-b">5</td>
                           <td className="px-4 py-3 border-b">6, 7, 8, ...</td>
                           <td className="px-4 py-3 border-b">Infrared</td>
-                          <td className="px-4 py-3 border-b">2.28-7.46 Î¼m</td>
+                          <td className="px-4 py-3 border-b">2.28-7.46 μm</td>
                         </tr>
                       </tbody>
                     </table>
@@ -208,56 +208,56 @@ export default function FormalChargeCalculatorPage() {  return (
 
                   <div className="mt-4 bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border-l-4 border-blue-500">
                     <p className="text-sm">
-                      <strong>Balmer Series:</strong> The only series visible to the human eye! These transitions (n â†’ 2) 
+                      <strong>Balmer Series:</strong> The only series visible to the human eye! These transitions (n → 2) 
                       produce the characteristic red, blue-green, blue-violet, and violet lines of hydrogen's spectrum. 
-                      The HÎ± line (n=3â†’2) at 656 nm is prominently red.
+                      The Hα line (n=3→2) at 656 nm is prominently red.
                     </p>
                   </div>
                 </section>
 
                 <section className="bg-gradient-to-br from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20 p-6 rounded-lg">
                   <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
-                    Worked Example: Balmer Alpha (HÎ±)
+                    Worked Example: Balmer Alpha (Hα)
                   </h3>
                   <div className="space-y-4">
                     <div>
                       <p className="font-semibold mb-2">Problem:</p>
                       <p>
                         Calculate the wavelength of light emitted when an electron in hydrogen transitions from n = 3 to n = 2 
-                        (the Balmer alpha or HÎ± line).
+                        (the Balmer alpha or Hα line).
                       </p>
                     </div>
                     
                     <div className="bg-white dark:bg-gray-800 p-4 rounded">
                       <p className="font-semibold mb-2">Step 1: Calculate energy of each level</p>
-                      <p className="font-mono text-sm">Eâ‚‚ = -13.6 eV / 2Â² = -13.6 / 4 = -3.40 eV</p>
-                      <p className="font-mono text-sm">Eâ‚ƒ = -13.6 eV / 3Â² = -13.6 / 9 = -1.51 eV</p>
+                      <p className="font-mono text-sm">E₂ = -13.6 eV / 2² = -13.6 / 4 = -3.40 eV</p>
+                      <p className="font-mono text-sm">E₃ = -13.6 eV / 3² = -13.6 / 9 = -1.51 eV</p>
                     </div>
                     
                     <div className="bg-white dark:bg-gray-800 p-4 rounded">
                       <p className="font-semibold mb-2">Step 2: Calculate energy difference</p>
-                      <p className="font-mono text-sm">Î”E = Eâ‚ƒ - Eâ‚‚ = -1.51 - (-3.40) = 1.89 eV</p>
-                      <p className="text-xs mt-2">Convert to Joules: 1.89 eV Ã— 1.602Ã—10â»Â¹â¹ J/eV = 3.03Ã—10â»Â¹â¹ J</p>
+                      <p className="font-mono text-sm">ΔE = E₃ - E₂ = -1.51 - (-3.40) = 1.89 eV</p>
+                      <p className="text-xs mt-2">Convert to Joules: 1.89 eV × 1.602×10⁻¹⁹ J/eV = 3.03×10⁻¹⁹ J</p>
                     </div>
                     
                     <div className="bg-white dark:bg-gray-800 p-4 rounded">
-                      <p className="font-semibold mb-2">Step 3: Calculate wavelength using E = hc/Î»</p>
-                      <p className="font-mono text-sm">Î» = hc / Î”E</p>
-                      <p className="font-mono text-sm">Î» = (6.626Ã—10â»Â³â´ JÂ·s)(2.998Ã—10â¸ m/s) / (3.03Ã—10â»Â¹â¹ J)</p>
-                      <p className="font-mono text-sm">Î» = 6.56 Ã— 10â»â· m = 656 nm</p>
+                      <p className="font-semibold mb-2">Step 3: Calculate wavelength using E = hc/λ</p>
+                      <p className="font-mono text-sm">λ = hc / ΔE</p>
+                      <p className="font-mono text-sm">λ = (6.626×10⁻³⁴ J·s)(2.998×10⁸ m/s) / (3.03×10⁻¹⁹ J)</p>
+                      <p className="font-mono text-sm">λ = 6.56 × 10⁻⁷ m = 656 nm</p>
                     </div>
 
                     <div className="bg-white dark:bg-gray-800 p-4 rounded">
                       <p className="font-semibold mb-2">Alternative: Use Rydberg equation</p>
-                      <p className="font-mono text-sm">1/Î» = R<sub>H</sub> (1/nâ‚Â² - 1/nâ‚‚Â²)</p>
-                      <p className="font-mono text-sm">1/Î» = 1.097Ã—10â· (1/4 - 1/9) = 1.097Ã—10â· (0.1389)</p>
-                      <p className="font-mono text-sm">1/Î» = 1.524Ã—10â¶ mâ»Â¹</p>
-                      <p className="font-mono text-sm">Î» = 656 nm âœ“</p>
+                      <p className="font-mono text-sm">1/λ = R<sub>H</sub> (1/n₁² - 1/n₂²)</p>
+                      <p className="font-mono text-sm">1/λ = 1.097×10⁷ (1/4 - 1/9) = 1.097×10⁷ (0.1389)</p>
+                      <p className="font-mono text-sm">1/λ = 1.524×10⁶ m⁻¹</p>
+                      <p className="font-mono text-sm">λ = 656 nm ✓</p>
                     </div>
                     
                     <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded border-l-4 border-green-600">
                       <p className="font-semibold mb-1">Answer:</p>
-                      <p>The HÎ± line has a wavelength of <strong>656 nm</strong>, which appears as <strong>red light</strong> 
+                      <p>The Hα line has a wavelength of <strong>656 nm</strong>, which appears as <strong>red light</strong> 
                       in the visible spectrum. This is one of the most prominent lines in hydrogen's emission spectrum and is 
                       used extensively in astronomy.</p>
                     </div>
@@ -272,18 +272,18 @@ export default function FormalChargeCalculatorPage() {  return (
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="bg-blue-50 dark:bg-blue-900/20 p-5 rounded-lg">
                       <h4 className="font-bold text-blue-900 dark:text-blue-100 mb-2 flex items-center gap-2">
-                        <span className="text-2xl">ðŸŒŒ</span>
+                        <span className="text-2xl">🌌</span>
                         Astronomy
                       </h4>
                       <p className="text-sm">
-                        Hydrogen spectral lines (especially HÎ±) are used to study stars, nebulae, and galaxies. Redshift/blueshift 
+                        Hydrogen spectral lines (especially Hα) are used to study stars, nebulae, and galaxies. Redshift/blueshift 
                         of these lines reveals the velocity and distance of celestial objects.
                       </p>
                     </div>
                     
                     <div className="bg-green-50 dark:bg-green-900/20 p-5 rounded-lg">
                       <h4 className="font-bold text-green-900 dark:text-green-100 mb-2 flex items-center gap-2">
-                        <span className="text-2xl">ðŸ”¬</span>
+                        <span className="text-2xl">🔬</span>
                         Spectroscopy
                       </h4>
                       <p className="text-sm">
@@ -294,7 +294,7 @@ export default function FormalChargeCalculatorPage() {  return (
                     
                     <div className="bg-purple-50 dark:bg-purple-900/20 p-5 rounded-lg">
                       <h4 className="font-bold text-purple-900 dark:text-purple-100 mb-2 flex items-center gap-2">
-                        <span className="text-2xl">âš›ï¸</span>
+                        <span className="text-2xl">⚛️</span>
                         Quantum Mechanics
                       </h4>
                       <p className="text-sm">
@@ -305,7 +305,7 @@ export default function FormalChargeCalculatorPage() {  return (
                     
                     <div className="bg-red-50 dark:bg-red-900/20 p-5 rounded-lg">
                       <h4 className="font-bold text-red-900 dark:text-red-100 mb-2 flex items-center gap-2">
-                        <span className="text-2xl">ðŸ’¡</span>
+                        <span className="text-2xl">💡</span>
                         Plasma Physics
                       </h4>
                       <p className="text-sm">
@@ -326,28 +326,28 @@ export default function FormalChargeCalculatorPage() {  return (
                     </p>
                     <div className="space-y-2">
                       <div className="flex items-start gap-3">
-                        <span className="text-xl">âŒ</span>
+                        <span className="text-xl">❌</span>
                         <div>
                           <p className="font-semibold text-sm">Only works for hydrogen-like ions</p>
                           <p className="text-xs">Cannot accurately predict spectra of multi-electron atoms</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
-                        <span className="text-xl">âŒ</span>
+                        <span className="text-xl">❌</span>
                         <div>
                           <p className="font-semibold text-sm">Doesn't explain fine structure</p>
                           <p className="text-xs">Cannot account for splitting of spectral lines in magnetic fields (Zeeman effect)</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
-                        <span className="text-xl">âŒ</span>
+                        <span className="text-xl">❌</span>
                         <div>
                           <p className="font-semibold text-sm">Violates Heisenberg uncertainty principle</p>
                           <p className="text-xs">Assumes precise knowledge of both position and momentum</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
-                        <span className="text-xl">âŒ</span>
+                        <span className="text-xl">❌</span>
                         <div>
                           <p className="font-semibold text-sm">No explanation for chemical bonding</p>
                           <p className="text-xs">Cannot predict molecular structures or bond formation</p>
@@ -356,7 +356,7 @@ export default function FormalChargeCalculatorPage() {  return (
                     </div>
                     <div className="mt-4 bg-white dark:bg-gray-800 p-3 rounded">
                       <p className="text-sm">
-                        <strong>Modern Replacement:</strong> The SchrÃ¶dinger equation and quantum mechanical orbital theory 
+                        <strong>Modern Replacement:</strong> The Schrödinger equation and quantum mechanical orbital theory 
                         provide a more complete and accurate description of atomic structure, though the Bohr model remains 
                         pedagogically valuable.
                       </p>
@@ -394,7 +394,7 @@ export default function FormalChargeCalculatorPage() {  return (
                     </div>
 
                     <div className="border-l-4 border-green-500 pl-4">
-                      <p className="font-bold mb-1">1926: Erwin SchrÃ¶dinger</p>
+                      <p className="font-bold mb-1">1926: Erwin Schrödinger</p>
                       <p className="text-sm">
                         Formulated wave equation that completely describes atomic structure, superseding Bohr's model 
                         while confirming its main results for hydrogen.
@@ -411,19 +411,19 @@ export default function FormalChargeCalculatorPage() {  return (
                     <div>
                       <h4 className="font-bold mb-2">Key Equations:</h4>
                       <ul className="space-y-1 font-mono text-xs">
-                        <li>E<sub>n</sub> = -13.6 eV / nÂ²</li>
-                        <li>Î”E = E<sub>upper</sub> - E<sub>lower</sub></li>
-                        <li>1/Î» = R<sub>H</sub>(1/nâ‚Â² - 1/nâ‚‚Â²)</li>
-                        <li>R<sub>H</sub> = 1.097Ã—10â· mâ»Â¹</li>
+                        <li>E<sub>n</sub> = -13.6 eV / n²</li>
+                        <li>ΔE = E<sub>upper</sub> - E<sub>lower</sub></li>
+                        <li>1/λ = R<sub>H</sub>(1/n₁² - 1/n₂²)</li>
+                        <li>R<sub>H</sub> = 1.097×10⁷ m⁻¹</li>
                       </ul>
                     </div>
                     <div>
                       <h4 className="font-bold mb-2">Famous Lines:</h4>
                       <ul className="space-y-1">
-                        <li>HÎ± (n=3â†’2): 656 nm (red)</li>
-                        <li>HÎ² (n=4â†’2): 486 nm (blue-green)</li>
-                        <li>HÎ³ (n=5â†’2): 434 nm (violet)</li>
-                        <li>Lyman Î± (n=2â†’1): 121 nm (UV)</li>
+                        <li>Hα (n=3→2): 656 nm (red)</li>
+                        <li>Hβ (n=4→2): 486 nm (blue-green)</li>
+                        <li>Hγ (n=5→2): 434 nm (violet)</li>
+                        <li>Lyman α (n=2→1): 121 nm (UV)</li>
                       </ul>
                     </div>
                   </div>
@@ -439,7 +439,7 @@ export default function FormalChargeCalculatorPage() {  return (
               <div className="sticky top-24">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                    ðŸ”— Related Calculators
+                    🔗 Related Calculators
                   </h3>
                   <ul className="space-y-3">
                     <li>
@@ -447,7 +447,7 @@ export default function FormalChargeCalculatorPage() {  return (
                         href="/atomic-structure-calculators/wavelength-energy-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Wavelength Energy Calculator</span>
                       </a>
                     </li>
@@ -456,7 +456,7 @@ export default function FormalChargeCalculatorPage() {  return (
                         href="/atomic-structure-calculators/electron-configuration-calculator"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Electron Configuration</span>
                       </a>
                     </li>
@@ -465,14 +465,14 @@ export default function FormalChargeCalculatorPage() {  return (
                         href="/chemistry-formulas/quantum-numbers"
                         className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                       >
-                        <span>â†’</span>
+                        <span>→</span>
                         <span>Quantum Numbers Calculator</span>
                       </a>
                     </li>
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                      ðŸ“ Related Formulas
+                      📐 Related Formulas
                     </h3>
                     <ul className="space-y-3">
                       <li>
@@ -480,7 +480,7 @@ export default function FormalChargeCalculatorPage() {  return (
                           href="/chemistry-formulas/formal-charge-formula"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>â†’</span>
+                          <span>→</span>
                           <span>Formal Charge Formula</span>
                         </a>
                       </li>
@@ -489,7 +489,7 @@ export default function FormalChargeCalculatorPage() {  return (
                           href="/chemistry-formulas/oxidation-number-formula"
                           className="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-2"
                         >
-                          <span>â†’</span>
+                          <span>→</span>
                           <span>Oxidation Number Formula</span>
                         </a>
                       </li>
@@ -500,7 +500,7 @@ export default function FormalChargeCalculatorPage() {  return (
                       href="/atomic-structure-calculators"
                       className="text-sm text-primary-600 dark:text-primary-400 hover:underline"
                     >
-                      All Atomic Structure Calculators â†’
+                      All Atomic Structure Calculators →
                     </a>
                   </div>
                 </div>

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Henderson-Hasselbalch Equation | pH = pKa + log([Aâ»]/[HA])',
+  title: 'Henderson-Hasselbalch Equation | pH = pKa + log([A⁻]/[HA])',
   description: 'Master the Henderson-Hasselbalch equation for buffer pH calculations. Includes derivation, examples, and calculator links.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/henderson-hasselbalch-equation',
@@ -41,7 +41,7 @@ export default function HendersonHasselbalchPage() {
             <h2 className="text-3xl font-bold text-white mb-4 text-center">The Henderson-Hasselbalch Equation</h2>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-8 text-center">
               <p className="text-5xl font-bold text-gray-900 dark:text-white mb-2">
-                pH = pKa + log([Aâ»]/[HA])
+                pH = pKa + log([A⁻]/[HA])
               </p>
               <p className="text-gray-600 dark:text-gray-400 text-lg">
                 Buffer pH from acid-base ratio
@@ -72,12 +72,12 @@ export default function HendersonHasselbalchPage() {
                   <strong>Meaning:</strong> Strength of the weak acid
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
-                  ðŸ’¡ Lower pKa = stronger acid
+                  💡 Lower pKa = stronger acid
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">[Aâ»] = Conjugate Base Concentration</h3>
+                <h3 className="text-xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">[A⁻] = Conjugate Base Concentration</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   <strong>Units:</strong> M (mol/L)
                 </p>
@@ -103,21 +103,21 @@ export default function HendersonHasselbalchPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">When to Use This Equation</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-emerald-50 dark:bg-emerald-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-emerald-900 dark:text-emerald-100 mb-3">âœ… Good For:</h3>
+                <h3 className="font-bold text-emerald-900 dark:text-emerald-100 mb-3">✅ Good For:</h3>
                 <ul className="list-disc list-inside text-emerald-800 dark:text-emerald-200 space-y-2">
                   <li>Buffer solutions</li>
                   <li>Weak acid/conjugate base pairs</li>
-                  <li>pH close to pKa (Â±1 unit)</li>
+                  <li>pH close to pKa (±1 unit)</li>
                   <li>Comparable amounts of acid and base</li>
                 </ul>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/30 rounded-lg p-6">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-3">âŒ Not For:</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-3">❌ Not For:</h3>
                 <ul className="list-disc list-inside text-red-800 dark:text-red-200 space-y-2">
                   <li>Strong acids or bases</li>
                   <li>Very dilute solutions</li>
-                  <li>When [HA] or [Aâ»] is very small</li>
+                  <li>When [HA] or [A⁻] is very small</li>
                   <li>Non-buffer systems</li>
                 </ul>
               </div>
@@ -129,7 +129,7 @@ export default function HendersonHasselbalchPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Special Cases</h2>
             <div className="space-y-4">
               <div className="bg-blue-50 dark:bg-blue-900/30 rounded-lg p-6">
-                <h3 className="text-lg font-bold text-blue-900 dark:text-blue-100 mb-3">When [Aâ»] = [HA]</h3>
+                <h3 className="text-lg font-bold text-blue-900 dark:text-blue-100 mb-3">When [A⁻] = [HA]</h3>
                 <p className="text-2xl font-bold text-blue-800 dark:text-blue-200 mb-2">pH = pKa</p>
                 <p className="text-sm text-blue-700 dark:text-blue-300">
                   log(1) = 0, so pH equals pKa when concentrations are equal
@@ -137,18 +137,18 @@ export default function HendersonHasselbalchPage() {
               </div>
 
               <div className="bg-purple-50 dark:bg-purple-900/30 rounded-lg p-6">
-                <h3 className="text-lg font-bold text-purple-900 dark:text-purple-100 mb-3">When [Aâ»] &gt; [HA]</h3>
+                <h3 className="text-lg font-bold text-purple-900 dark:text-purple-100 mb-3">When [A⁻] &gt; [HA]</h3>
                 <p className="text-xl font-bold text-purple-800 dark:text-purple-200 mb-2">pH &gt; pKa</p>
                 <p className="text-sm text-purple-700 dark:text-purple-300">
-                  More base than acid â†’ more basic solution
+                  More base than acid → more basic solution
                 </p>
               </div>
 
               <div className="bg-orange-50 dark:bg-orange-900/30 rounded-lg p-6">
-                <h3 className="text-lg font-bold text-orange-900 dark:text-orange-100 mb-3">When [HA] &gt; [Aâ»]</h3>
+                <h3 className="text-lg font-bold text-orange-900 dark:text-orange-100 mb-3">When [HA] &gt; [A⁻]</h3>
                 <p className="text-xl font-bold text-orange-800 dark:text-orange-200 mb-2">pH &lt; pKa</p>
                 <p className="text-sm text-orange-700 dark:text-orange-300">
-                  More acid than base â†’ more acidic solution
+                  More acid than base → more acidic solution
                 </p>
               </div>
             </div>
@@ -168,14 +168,14 @@ export default function HendersonHasselbalchPage() {
                   <ul className="list-disc list-inside space-y-1">
                     <li>pKa = 4.76</li>
                     <li>[HA] = 0.10 M (acetic acid)</li>
-                    <li>[Aâ»] = 0.15 M (acetate)</li>
+                    <li>[A⁻] = 0.15 M (acetate)</li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 1: Write the equation</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    pH = pKa + log([Aâ»]/[HA])
+                    pH = pKa + log([A⁻]/[HA])
                   </p>
                 </div>
 
@@ -195,7 +195,7 @@ export default function HendersonHasselbalchPage() {
 
                 <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg">
                   <p className="font-bold">Answer: pH = 4.94</p>
-                  <p className="text-sm mt-2">Since [Aâ»] &gt; [HA], pH is slightly above pKa âœ“</p>
+                  <p className="text-sm mt-2">Since [A⁻] &gt; [HA], pH is slightly above pKa ✓</p>
                 </div>
               </div>
             </div>
@@ -206,28 +206,28 @@ export default function HendersonHasselbalchPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Flipping the ratio</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Flipping the ratio</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  It's [Aâ»]/[HA] (base/acid), NOT [HA]/[Aâ»]. Getting this backwards gives wrong pH.
+                  It's [A⁻]/[HA] (base/acid), NOT [HA]/[A⁻]. Getting this backwards gives wrong pH.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using Ka instead of pKa</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using Ka instead of pKa</h3>
                 <p className="text-red-800 dark:text-red-200">
                   The equation requires pKa, not Ka. If given Ka, calculate pKa = -log(Ka) first.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using natural log (ln)</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using natural log (ln)</h3>
                 <p className="text-red-800 dark:text-red-200">
                   Use log (base 10), not ln (natural log). Make sure calculator is in log mode.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using with strong acids</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using with strong acids</h3>
                 <p className="text-red-800 dark:text-red-200">
                   This equation is ONLY for weak acid/conjugate base buffers. Don't use for HCl, NaOH, etc.
                 </p>
@@ -268,35 +268,35 @@ export default function HendersonHasselbalchPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What is the Henderson-Hasselbalch equation?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  pH = pKa + log([Aâ»]/[HA]). It calculates buffer pH from the pKa and the ratio of conjugate base to weak acid.
+                  pH = pKa + log([A⁻]/[HA]). It calculates buffer pH from the pKa and the ratio of conjugate base to weak acid.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">When do I use Henderson-Hasselbalch?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Use it for buffer solutions containing a weak acid and its conjugate base, when pH is within Â±1 of pKa.
+                  Use it for buffer solutions containing a weak acid and its conjugate base, when pH is within ±1 of pKa.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What happens when pH equals pKa?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  When pH = pKa, the concentrations of acid and conjugate base are equal ([Aâ»] = [HA]). This is the optimal buffering point.
+                  When pH = pKa, the concentrations of acid and conjugate base are equal ([A⁻] = [HA]). This is the optimal buffering point.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Can I use molar ratios instead of concentrations?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Yes! If the acid and base are in the same solution, you can use mole ratios: pH = pKa + log(moles Aâ»/moles HA).
+                  Yes! If the acid and base are in the same solution, you can use mole ratios: pH = pKa + log(moles A⁻/moles HA).
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Why doesn't it work for strong acids?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Strong acids completely dissociate, so there's no equilibrium between HA and Aâ». The equation assumes weak acid equilibrium.
+                  Strong acids completely dissociate, so there's no equilibrium between HA and A⁻. The equation assumes weak acid equilibrium.
                 </p>
               </div>
             </div>
@@ -305,10 +305,10 @@ export default function HendersonHasselbalchPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                â† Back to All Formulas
+                ← Back to All Formulas
               </Link>
               <Link href="/chemistry-formulas/buffer-capacity-formula" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Buffer Capacity â†’
+                Next: Buffer Capacity →
               </Link>
             </div>
           </div>

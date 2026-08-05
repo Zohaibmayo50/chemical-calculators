@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Half-Life Formula | N(t) = Nâ‚€(Â½)^(t/tâ‚/â‚‚) | Radioactive Decay',
+  title: 'Half-Life Formula | N(t) = N₀(½)^(t/t₁/₂) | Radioactive Decay',
   description: 'Master the half-life formula for radioactive decay and first-order kinetics. Includes examples and decay calculator links.',
   alternates: {
     canonical: 'https://chemsolved.com/chemistry-formulas/half-life-formula',
@@ -32,7 +32,7 @@ export default function HalfLifeFormulaPage() {
           </h1>
 
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-            <strong>Half-life</strong> (t<sub>Â½</sub>) is the time required for half of a substance to decay. 
+            <strong>Half-life</strong> (t<sub>½</sub>) is the time required for half of a substance to decay. 
             It applies to radioactive decay, first-order reactions, and drug metabolism.
           </p>
 
@@ -43,19 +43,19 @@ export default function HalfLifeFormulaPage() {
               <div className="text-center pb-4 border-b border-gray-300 dark:border-gray-600">
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Amount Remaining:</p>
                 <p className="text-4xl font-bold text-gray-900 dark:text-white">
-                  N(t) = Nâ‚€ Ã— (Â½)<sup>t/tâ‚/â‚‚</sup>
+                  N(t) = N₀ × (½)<sup>t/t₁/₂</sup>
                 </p>
               </div>
               <div className="text-center pb-4 border-b border-gray-300 dark:border-gray-600">
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Exponential Form:</p>
                 <p className="text-4xl font-bold text-gray-900 dark:text-white">
-                  N(t) = Nâ‚€ Ã— e<sup>-kt</sup>
+                  N(t) = N₀ × e<sup>-kt</sup>
                 </p>
               </div>
               <div className="text-center">
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Half-Life from Rate Constant:</p>
                 <p className="text-4xl font-bold text-gray-900 dark:text-white">
-                  t<sub>Â½</sub> = 0.693 / k
+                  t<sub>½</sub> = 0.693 / k
                 </p>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function HalfLifeFormulaPage() {
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-violet-600 dark:text-violet-400 mb-2">Nâ‚€ = Initial Amount</h3>
+                <h3 className="text-xl font-bold text-violet-600 dark:text-violet-400 mb-2">N₀ = Initial Amount</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   <strong>Units:</strong> Same as N(t)
                 </p>
@@ -86,32 +86,32 @@ export default function HalfLifeFormulaPage() {
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-violet-600 dark:text-violet-400 mb-2">t<sub>Â½</sub> = Half-Life</h3>
+                <h3 className="text-xl font-bold text-violet-600 dark:text-violet-400 mb-2">t<sub>½</sub> = Half-Life</h3>
                 <p className="text-gray-700 dark:text-gray-300">
                   <strong>Units:</strong> s, min, h, days, years (time units)
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 mb-2">
-                  Time for N to decrease to Â½Nâ‚€
+                  Time for N to decrease to ½N₀
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  ðŸ’¡ Independent of starting amount for first-order decay
+                  💡 Independent of starting amount for first-order decay
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-bold text-violet-600 dark:text-violet-400 mb-2">k = Decay Constant</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> 1/time (sâ»Â¹, minâ»Â¹, etc.)
+                  <strong>Units:</strong> 1/time (s⁻¹, min⁻¹, etc.)
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Relationship:</strong> k = 0.693 / t<sub>Â½</sub> = ln(2) / t<sub>Â½</sub>
+                  <strong>Relationship:</strong> k = 0.693 / t<sub>½</sub> = ln(2) / t<sub>½</sub>
                 </p>
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-bold text-violet-600 dark:text-violet-400 mb-2">t = Elapsed Time</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong>Units:</strong> Same as t<sub>Â½</sub>
+                  <strong>Units:</strong> Same as t<sub>½</sub>
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
                   Time since decay started
@@ -130,7 +130,7 @@ export default function HalfLifeFormulaPage() {
                     <th className="p-4 text-left">Time Elapsed</th>
                     <th className="p-4 text-left">Fraction Remaining</th>
                     <th className="p-4 text-left">Percent Remaining</th>
-                    <th className="p-4 text-left">Amount (if Nâ‚€=100)</th>
+                    <th className="p-4 text-left">Amount (if N₀=100)</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -180,15 +180,15 @@ export default function HalfLifeFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Step-by-Step Example</h2>
             <div className="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-xl p-8">
               <h3 className="text-2xl font-bold mb-4">
-                Problem: Carbon-14 has t<sub>Â½</sub> = 5,730 years. If a fossil has 25% of original C-14, how old is it?
+                Problem: Carbon-14 has t<sub>½</sub> = 5,730 years. If a fossil has 25% of original C-14, how old is it?
               </h3>
               
               <div className="space-y-6">
                 <div>
                   <h4 className="font-bold text-lg mb-2">Given:</h4>
                   <ul className="list-disc list-inside space-y-1">
-                    <li>t<sub>Â½</sub> = 5,730 years</li>
-                    <li>N(t) / Nâ‚€ = 0.25 (25% remaining)</li>
+                    <li>t<sub>½</sub> = 5,730 years</li>
+                    <li>N(t) / N₀ = 0.25 (25% remaining)</li>
                     <li>Find: t (age)</li>
                   </ul>
                 </div>
@@ -196,20 +196,20 @@ export default function HalfLifeFormulaPage() {
                 <div>
                   <h4 className="font-bold text-lg mb-2">Step 1: Recognize the pattern</h4>
                   <p className="text-gray-700 dark:text-gray-300 mb-2">
-                    25% = 1/4 = (1/2)Â² â†’ 2 half-lives have passed
+                    25% = 1/4 = (1/2)² → 2 half-lives have passed
                   </p>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded">
-                    t = 2 Ã— t<sub>Â½</sub> = 2 Ã— 5,730 = 11,460 years
+                    t = 2 × t<sub>½</sub> = 2 × 5,730 = 11,460 years
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">Alternative: Using the formula</h4>
                   <p className="font-mono bg-white dark:bg-gray-800 p-3 rounded text-sm">
-                    N(t) = Nâ‚€ Ã— (1/2)<sup>t/tâ‚/â‚‚</sup><br />
-                    0.25Nâ‚€ = Nâ‚€ Ã— (1/2)<sup>t/5730</sup><br />
+                    N(t) = N₀ × (1/2)<sup>t/t₁/₂</sup><br />
+                    0.25N₀ = N₀ × (1/2)<sup>t/5730</sup><br />
                     0.25 = (1/2)<sup>t/5730</sup><br />
-                    (1/2)Â² = (1/2)<sup>t/5730</sup><br />
+                    (1/2)² = (1/2)<sup>t/5730</sup><br />
                     2 = t/5730<br />
                     t = 11,460 years
                   </p>
@@ -232,28 +232,28 @@ export default function HalfLifeFormulaPage() {
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Common Mistakes</h2>
             <div className="space-y-4">
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Thinking 2 half-lives = 0% remaining</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Thinking 2 half-lives = 0% remaining</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  Never reaches zero! After n half-lives, (1/2)â¿ remains. It approaches zero but never gets there.
+                  Never reaches zero! After n half-lives, (1/2)ⁿ remains. It approaches zero but never gets there.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Using wrong base in exponent</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Using wrong base in exponent</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  It's (1/2)^(t/tâ‚/â‚‚), NOT 2^(t/tâ‚/â‚‚). Half, not double!
+                  It's (1/2)^(t/t₁/₂), NOT 2^(t/t₁/₂). Half, not double!
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Mismatched time units</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Mismatched time units</h3>
                 <p className="text-red-800 dark:text-red-200">
-                  t and t<sub>Â½</sub> MUST use the same units. If t<sub>Â½</sub> is in years, t must be in years too.
+                  t and t<sub>½</sub> MUST use the same units. If t<sub>½</sub> is in years, t must be in years too.
                 </p>
               </div>
 
               <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-6 rounded-lg">
-                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">âŒ Confusing 0.693 and 0.6931</h3>
+                <h3 className="font-bold text-red-900 dark:text-red-100 mb-2">❌ Confusing 0.693 and 0.6931</h3>
                 <p className="text-red-800 dark:text-red-200">
                   0.693 is ln(2) rounded. For precise work, use ln(2) = 0.6931 or your calculator's ln function.
                 </p>
@@ -316,9 +316,9 @@ export default function HalfLifeFormulaPage() {
               </div>
 
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">What is the relationship between k and t<sub>Â½</sub>?</h3>
+                <h3 className="text-xl font-bold mb-3">What is the relationship between k and t<sub>½</sub>?</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  t<sub>Â½</sub> = 0.693/k or k = 0.693/t<sub>Â½</sub>. They're inversely related. Faster decay (larger k) means shorter half-life.
+                  t<sub>½</sub> = 0.693/k or k = 0.693/t<sub>½</sub>. They're inversely related. Faster decay (larger k) means shorter half-life.
                 </p>
               </div>
 
@@ -341,10 +341,10 @@ export default function HalfLifeFormulaPage() {
           <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
             <div className="flex justify-between">
               <Link href="/chemistry-formulas" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                â† Back to All Formulas
+                ← Back to All Formulas
               </Link>
               <Link href="/chemistry-formulas/empirical-formula" className="text-primary-600 dark:text-primary-400 hover:underline font-semibold">
-                Next: Empirical Formula â†’
+                Next: Empirical Formula →
               </Link>
             </div>
           </div>

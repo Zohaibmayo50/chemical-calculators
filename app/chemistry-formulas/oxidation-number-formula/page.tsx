@@ -21,9 +21,9 @@ export default function OxidationNumberFormulaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
           <nav className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">
             <Link href="/">Home</Link>
-            <span>â†’</span>
+            <span>→</span>
             <Link href="/chemistry-formulas">Chemistry Formulas</Link>
-            <span>â†’</span>
+            <span>→</span>
             <span className="text-gray-900 dark:text-white font-medium">Oxidation Number</span>
           </nav>
         </div>
@@ -48,7 +48,7 @@ export default function OxidationNumberFormulaPage() {
                   <div>
                     <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-2">Elements in Free State</h3>
                     <p className="text-gray-700 dark:text-gray-300">Oxidation number = <strong className="text-green-600">0</strong></p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Examples: Na, Oâ‚‚, Hâ‚‚, Clâ‚‚, Pâ‚„, Sâ‚ˆ</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Examples: Na, O₂, H₂, Cl₂, P₄, S₈</p>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ export default function OxidationNumberFormulaPage() {
                   <div>
                     <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-2">Monatomic Ions</h3>
                     <p className="text-gray-700 dark:text-gray-300">Oxidation number = <strong className="text-green-600">charge of ion</strong></p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Examples: Naâº = +1, CaÂ²âº = +2, Clâ» = -1, SÂ²â» = -2</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Examples: Na⁺ = +1, Ca²⁺ = +2, Cl⁻ = -1, S²⁻ = -2</p>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function OxidationNumberFormulaPage() {
                   <div>
                     <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-2">Hydrogen</h3>
                     <p className="text-gray-700 dark:text-gray-300">Usually <strong className="text-green-600">+1</strong></p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Exception: In metal hydrides (NaH, CaHâ‚‚), H = -1</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Exception: In metal hydrides (NaH, CaH₂), H = -1</p>
                   </div>
                 </div>
               </div>
@@ -83,9 +83,9 @@ export default function OxidationNumberFormulaPage() {
                     <p className="text-gray-700 dark:text-gray-300">Usually <strong className="text-green-600">-2</strong></p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Exceptions:</p>
                     <ul className="text-sm text-gray-600 dark:text-gray-400 list-disc ml-6 mt-1">
-                      <li>In peroxides (Hâ‚‚Oâ‚‚, Naâ‚‚Oâ‚‚): O = -1</li>
-                      <li>In superoxides (KOâ‚‚): O = -Â½</li>
-                      <li>In OFâ‚‚: O = +2 (F is more electronegative)</li>
+                      <li>In peroxides (H₂O₂, Na₂O₂): O = -1</li>
+                      <li>In superoxides (KO₂): O = -½</li>
+                      <li>In OF₂: O = +2 (F is more electronegative)</li>
                     </ul>
                   </div>
                 </div>
@@ -131,8 +131,8 @@ export default function OxidationNumberFormulaPage() {
                     <h3 className="text-xl font-bold text-gray-900 dark:text-gray-300 mb-2">Sum Rule</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-3">Sum of all oxidation numbers:</p>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      <li>â€¢ In <strong>neutral compounds</strong> = <span className="font-bold text-green-600">0</span></li>
-                      <li>â€¢ In <strong>polyatomic ions</strong> = <span className="font-bold text-green-600">charge of ion</span></li>
+                      <li>• In <strong>neutral compounds</strong> = <span className="font-bold text-green-600">0</span></li>
+                      <li>• In <strong>polyatomic ions</strong> = <span className="font-bold text-green-600">charge of ion</span></li>
                     </ul>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ export default function OxidationNumberFormulaPage() {
             
             <div className="space-y-8">
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: Hâ‚‚SOâ‚„</h3>
+                <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 1: H₂SO₄</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Find oxidation number of S</strong></p>
                   <p className="ml-6 mt-4"><strong>Step 1: Assign known values</strong></p>
@@ -164,7 +164,7 @@ export default function OxidationNumberFormulaPage() {
               </div>
 
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: Crâ‚‚Oâ‚‡Â²â»</h3>
+                <h3 className="text-xl font-bold text-purple-900 dark:text-purple-300 mb-4">Example 2: Cr₂O₇²⁻</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Find oxidation number of Cr</strong></p>
                   <p className="ml-6 mt-4"><strong>Setup:</strong></p>
@@ -178,7 +178,7 @@ export default function OxidationNumberFormulaPage() {
               </div>
 
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Example 3: NHâ‚„âº</h3>
+                <h3 className="text-xl font-bold text-green-900 dark:text-green-300 mb-4">Example 3: NH₄⁺</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Find oxidation number of N</strong></p>
                   <p className="ml-6 mt-4"><strong>Setup:</strong></p>
@@ -191,7 +191,7 @@ export default function OxidationNumberFormulaPage() {
               </div>
 
               <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-4">Example 4: Feâ‚ƒOâ‚„ (Mixed Oxidation States)</h3>
+                <h3 className="text-xl font-bold text-amber-900 dark:text-amber-300 mb-4">Example 4: Fe₃O₄ (Mixed Oxidation States)</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
                   <p><strong>Find average oxidation number of Fe</strong></p>
                   <p className="ml-6 mt-4"><strong>Setup:</strong></p>
@@ -201,7 +201,7 @@ export default function OxidationNumberFormulaPage() {
                   
                   <p className="ml-6 font-bold text-green-600 mt-4">Average Fe = +8/3</p>
                   <p className="ml-6 text-sm text-blue-600 mt-2">
-                    Actually: Feâ‚ƒOâ‚„ = FeOÂ·Feâ‚‚Oâ‚ƒ (1 FeÂ²âº and 2 FeÂ³âº)
+                    Actually: Fe₃O₄ = FeO·Fe₂O₃ (1 Fe²⁺ and 2 Fe³⁺)
                   </p>
                 </div>
               </div>
@@ -209,25 +209,25 @@ export default function OxidationNumberFormulaPage() {
               <div className="bg-gradient-to-r from-red-50 to-rose-50 dark:from-red-900/20 dark:to-rose-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-red-900 dark:text-red-300 mb-4">Example 5: Identify Redox Reaction</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p className="font-mono bg-white dark:bg-gray-700 p-2 rounded">Zn + CuÂ²âº â†’ ZnÂ²âº + Cu</p>
+                  <p className="font-mono bg-white dark:bg-gray-700 p-2 rounded">Zn + Cu²⁺ → Zn²⁺ + Cu</p>
                   <p className="mt-4"><strong>Assign oxidation numbers:</strong></p>
                   <table className="w-full mt-2 text-sm">
                     <tbody>
                       <tr>
                         <td className="p-2">Zn:</td>
-                        <td className="p-2 font-mono">0 â†’ +2</td>
-                        <td className="p-2 font-bold text-red-600">Oxidation (loses 2eâ»)</td>
+                        <td className="p-2 font-mono">0 → +2</td>
+                        <td className="p-2 font-bold text-red-600">Oxidation (loses 2e⁻)</td>
                       </tr>
                       <tr>
                         <td className="p-2">Cu:</td>
-                        <td className="p-2 font-mono">+2 â†’ 0</td>
-                        <td className="p-2 font-bold text-blue-600">Reduction (gains 2eâ»)</td>
+                        <td className="p-2 font-mono">+2 → 0</td>
+                        <td className="p-2 font-bold text-blue-600">Reduction (gains 2e⁻)</td>
                       </tr>
                     </tbody>
                   </table>
                   <p className="ml-6 mt-4"><strong>Conclusion:</strong></p>
                   <p className="ml-12 text-red-600">Zn is <strong>oxidized</strong> (reducing agent)</p>
-                  <p className="ml-12 text-blue-600">CuÂ²âº is <strong>reduced</strong> (oxidizing agent)</p>
+                  <p className="ml-12 text-blue-600">Cu²⁺ is <strong>reduced</strong> (oxidizing agent)</p>
                 </div>
               </div>
             </div>
@@ -245,8 +245,8 @@ export default function OxidationNumberFormulaPage() {
                   <p>F: always -1</p>
                   <p>Cl, Br, I: usually -1</p>
                   <p>Exceptions: +1, +3, +5, +7 in oxoacids/oxoanions</p>
-                  <p className="font-mono text-xs">ClOâ»: Cl = +1</p>
-                  <p className="font-mono text-xs">ClOâ‚„â»: Cl = +7</p>
+                  <p className="font-mono text-xs">ClO⁻: Cl = +1</p>
+                  <p className="font-mono text-xs">ClO₄⁻: Cl = +7</p>
                 </div>
               </div>
 
@@ -280,23 +280,23 @@ export default function OxidationNumberFormulaPage() {
             
             <div className="space-y-4">
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Confusing Oxidation Number with Charge</h3>
-                  <p className="text-gray-700 dark:text-gray-300">In Hâ‚‚O, O has oxidation number -2, but no actual -2 charge! It's a bookkeeping tool.</p>
+                  <p className="text-gray-700 dark:text-gray-300">In H₂O, O has oxidation number -2, but no actual -2 charge! It's a bookkeeping tool.</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Forgetting Exceptions for O</h3>
-                  <p className="text-gray-700 dark:text-gray-300">In Hâ‚‚Oâ‚‚, oxygen is -1 (peroxide), not -2!</p>
+                  <p className="text-gray-700 dark:text-gray-300">In H₂O₂, oxygen is -1 (peroxide), not -2!</p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start bg-red-50 dark:bg-red-900/20 rounded-xl p-4">
-                <span className="text-2xl">âš ï¸</span>
+                <span className="text-2xl">⚠️</span>
                 <div>
                   <h3 className="font-bold text-red-900 dark:text-red-300 mb-2">Wrong Sum Value</h3>
                   <p className="text-gray-700 dark:text-gray-300">Sum = 0 for neutral, sum = charge for ions. Don't mix up!</p>
@@ -304,7 +304,7 @@ export default function OxidationNumberFormulaPage() {
               </div>
 
               <div className="flex gap-4 items-start bg-yellow-50 dark:bg-yellow-900/20 rounded-xl p-4">
-                <span className="text-2xl">ðŸ’¡</span>
+                <span className="text-2xl">💡</span>
                 <div>
                   <h3 className="font-bold text-yellow-900 dark:text-yellow-300 mb-2">OIL RIG Memory Aid</h3>
                   <p className="text-gray-700 dark:text-gray-300">Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons)</p>

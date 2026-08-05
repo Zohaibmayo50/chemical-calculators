@@ -5,8 +5,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Liquid Ethylene Density Calculator | Câ‚‚Hâ‚„ Density at Temperature',
-  description: 'Calculate density of liquid ethylene (Câ‚‚Hâ‚„) at different temperatures and pressures. Essential for cryogenic applications and polymer production.',
+  title: 'Liquid Ethylene Density Calculator | C₂H₄ Density at Temperature',
+  description: 'Calculate density of liquid ethylene (C₂H₄) at different temperatures and pressures. Essential for cryogenic applications and polymer production.',
   keywords: 'ethylene density calculator, liquid ethylene, C2H4 density, cryogenic liquids, ethylene properties, polymer production, petrochemical calculations',
   alternates: {
     canonical: 'https://chemsolved.com/organic-chemistry-calculators/liquid-ethylene-density-calculator',
@@ -47,7 +47,7 @@ export default function LiquidEthyleneDensityPage() {
         </h1>
 
         <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 animate-fade-in animation-delay-100">
-          Calculate density of liquid ethylene (Câ‚‚Hâ‚„) at different temperatures
+          Calculate density of liquid ethylene (C₂H₄) at different temperatures
         </p>
 
         {/* Main Content */}
@@ -64,8 +64,8 @@ export default function LiquidEthyleneDensityPage() {
                   Liquid Ethylene Properties
                 </h2>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                  <strong>Ethylene (Câ‚‚Hâ‚„)</strong> is the simplest alkene and one of the most important industrial 
-                  chemicals. In its liquid form, ethylene exists at cryogenic temperatures below -103.7Â°C (boiling 
+                  <strong>Ethylene (C₂H₄)</strong> is the simplest alkene and one of the most important industrial 
+                  chemicals. In its liquid form, ethylene exists at cryogenic temperatures below -103.7°C (boiling 
                   point at 1 atm). Understanding its density is crucial for storage, transport, and use in polyethylene 
                   production.
                 </p>
@@ -85,8 +85,8 @@ export default function LiquidEthyleneDensityPage() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-cyan-900/20 dark:to-blue-900/20 p-4 rounded-xl border border-cyan-200 dark:border-cyan-800">
                     <p className="font-semibold text-cyan-800 dark:text-cyan-300 mb-2">Molecular Formula</p>
-                    <p className="text-2xl font-bold text-gray-800 dark:text-white">Câ‚‚Hâ‚„</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Hâ‚‚C=CHâ‚‚ (double bond)</p>
+                    <p className="text-2xl font-bold text-gray-800 dark:text-white">C₂H₄</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">H₂C=CH₂ (double bond)</p>
                   </div>
 
                   <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-4 rounded-xl border border-blue-200 dark:border-blue-800">
@@ -97,19 +97,19 @@ export default function LiquidEthyleneDensityPage() {
 
                   <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-4 rounded-xl border border-purple-200 dark:border-purple-800">
                     <p className="font-semibold text-purple-800 dark:text-purple-300 mb-2">Boiling Point</p>
-                    <p className="text-2xl font-bold text-gray-800 dark:text-white">-103.7Â°C</p>
+                    <p className="text-2xl font-bold text-gray-800 dark:text-white">-103.7°C</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">169.5 K at 1 atm</p>
                   </div>
 
                   <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-4 rounded-xl border border-green-200 dark:border-green-800">
                     <p className="font-semibold text-green-800 dark:text-green-300 mb-2">Melting Point</p>
-                    <p className="text-2xl font-bold text-gray-800 dark:text-white">-169.2Â°C</p>
+                    <p className="text-2xl font-bold text-gray-800 dark:text-white">-169.2°C</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">103.9 K</p>
                   </div>
 
                   <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 p-4 rounded-xl border border-orange-200 dark:border-orange-800">
                     <p className="font-semibold text-orange-800 dark:text-orange-300 mb-2">Critical Temperature</p>
-                    <p className="text-2xl font-bold text-gray-800 dark:text-white">9.2Â°C</p>
+                    <p className="text-2xl font-bold text-gray-800 dark:text-white">9.2°C</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">282.3 K</p>
                   </div>
 
@@ -130,25 +130,25 @@ export default function LiquidEthyleneDensityPage() {
                 <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-cyan-900/20 dark:to-blue-900/20 p-6 rounded-xl border border-cyan-200 dark:border-cyan-800 mb-6">
                   <p className="font-bold text-lg mb-3">Modified Rackett Equation:</p>
                   <p className="font-mono text-lg mb-4">
-                    Ï = Ïâ‚€ Ã— [1 + Î±(T - Tâ‚€)] Ã— [1 + Î²(P - Pâ‚€)]
+                    ρ = ρ₀ × [1 + α(T - T₀)] × [1 + β(P - P₀)]
                   </p>
                   <div className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                    <p><strong>Ï</strong> = Density at temperature T and pressure P (kg/mÂ³)</p>
-                    <p><strong>Ïâ‚€</strong> = Reference density at Tâ‚€ = 566 kg/mÂ³ at -169Â°C</p>
-                    <p><strong>Î±</strong> = Thermal expansion coefficient = -0.0045 Kâ»Â¹</p>
-                    <p><strong>Î²</strong> = Isothermal compressibility = 0.0001 barâ»Â¹</p>
-                    <p><strong>Tâ‚€</strong> = Reference temperature = -169Â°C (near triple point)</p>
-                    <p><strong>Pâ‚€</strong> = Reference pressure = 1.013 bar (1 atm)</p>
+                    <p><strong>ρ</strong> = Density at temperature T and pressure P (kg/m³)</p>
+                    <p><strong>ρ₀</strong> = Reference density at T₀ = 566 kg/m³ at -169°C</p>
+                    <p><strong>α</strong> = Thermal expansion coefficient = -0.0045 K⁻¹</p>
+                    <p><strong>β</strong> = Isothermal compressibility = 0.0001 bar⁻¹</p>
+                    <p><strong>T₀</strong> = Reference temperature = -169°C (near triple point)</p>
+                    <p><strong>P₀</strong> = Reference pressure = 1.013 bar (1 atm)</p>
                   </div>
                 </div>
 
                 <div className="bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg border border-yellow-200 dark:border-yellow-800">
-                  <p className="font-semibold text-gray-900 dark:text-white mb-2">âš ï¸ Important Notes:</p>
+                  <p className="font-semibold text-gray-900 dark:text-white mb-2">⚠️ Important Notes:</p>
                   <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
-                    <li>â€¢ Valid range: -169Â°C to -100Â°C (liquid phase only)</li>
-                    <li>â€¢ Above -103.7Â°C: Ethylene is gaseous at 1 atm</li>
-                    <li>â€¢ Below -169.2Â°C: Ethylene is solid</li>
-                    <li>â€¢ Pressure corrections are small for liquids (~0.01%/bar)</li>
+                    <li>• Valid range: -169°C to -100°C (liquid phase only)</li>
+                    <li>• Above -103.7°C: Ethylene is gaseous at 1 atm</li>
+                    <li>• Below -169.2°C: Ethylene is solid</li>
+                    <li>• Pressure corrections are small for liquids (~0.01%/bar)</li>
                   </ul>
                 </div>
               </section>
@@ -162,7 +162,7 @@ export default function LiquidEthyleneDensityPage() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-800">
                     <h3 className="font-bold text-blue-800 dark:text-blue-300 mb-2">
-                      ðŸ­ Polyethylene Production
+                      🏭 Polyethylene Production
                     </h3>
                     <p className="text-sm text-gray-700 dark:text-gray-300">
                       Primary feedstock for HDPE, LDPE, and LLDPE plastics. Density calculations are critical for 
@@ -172,7 +172,7 @@ export default function LiquidEthyleneDensityPage() {
 
                   <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-4 rounded-lg border border-green-200 dark:border-green-800">
                     <h3 className="font-bold text-green-800 dark:text-green-300 mb-2">
-                      â„ï¸ Cryogenic Storage
+                      ❄️ Cryogenic Storage
                     </h3>
                     <p className="text-sm text-gray-700 dark:text-gray-300">
                       Design of storage tanks, transfer systems, and safety equipment requires accurate density 
@@ -182,7 +182,7 @@ export default function LiquidEthyleneDensityPage() {
 
                   <div className="bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 p-4 rounded-lg border border-purple-200 dark:border-purple-800">
                     <h3 className="font-bold text-purple-800 dark:text-purple-300 mb-2">
-                      ðŸš¢ Transport & Logistics
+                      🚢 Transport & Logistics
                     </h3>
                     <p className="text-sm text-gray-700 dark:text-gray-300">
                       Calculate cargo volumes, shipping weights, and optimize transport economics for LNG carriers 
@@ -192,7 +192,7 @@ export default function LiquidEthyleneDensityPage() {
 
                   <div className="bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20 p-4 rounded-lg border border-orange-200 dark:border-orange-800">
                     <h3 className="font-bold text-orange-800 dark:text-orange-300 mb-2">
-                      ðŸ”¬ Process Engineering
+                      🔬 Process Engineering
                     </h3>
                     <p className="text-sm text-gray-700 dark:text-gray-300">
                       Design heat exchangers, pumps, and piping systems. Accurate density is essential for 
@@ -214,16 +214,16 @@ export default function LiquidEthyleneDensityPage() {
                 </h3>
                 <div className="space-y-3 text-sm">
                   <div className="p-3 bg-cyan-50 dark:bg-cyan-900/20 rounded-lg">
-                    <p className="font-semibold text-cyan-800 dark:text-cyan-300">At -169Â°C</p>
-                    <p className="text-gray-600 dark:text-gray-400">~566 kg/mÂ³</p>
+                    <p className="font-semibold text-cyan-800 dark:text-cyan-300">At -169°C</p>
+                    <p className="text-gray-600 dark:text-gray-400">~566 kg/m³</p>
                   </div>
                   <div className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-                    <p className="font-semibold text-blue-800 dark:text-blue-300">At -140Â°C</p>
-                    <p className="text-gray-600 dark:text-gray-400">~490 kg/mÂ³</p>
+                    <p className="font-semibold text-blue-800 dark:text-blue-300">At -140°C</p>
+                    <p className="text-gray-600 dark:text-gray-400">~490 kg/m³</p>
                   </div>
                   <div className="p-3 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg">
-                    <p className="font-semibold text-indigo-800 dark:text-indigo-300">At -104Â°C</p>
-                    <p className="text-gray-600 dark:text-gray-400">~430 kg/mÂ³</p>
+                    <p className="font-semibold text-indigo-800 dark:text-indigo-300">At -104°C</p>
+                    <p className="text-gray-600 dark:text-gray-400">~430 kg/m³</p>
                   </div>
                 </div>
               </div>
@@ -271,23 +271,23 @@ export default function LiquidEthyleneDensityPage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
                   <li className="flex items-start gap-2">
-                    <span className="text-cyan-500 mt-1">â€¢</span>
+                    <span className="text-cyan-500 mt-1">•</span>
                     <span>Petrochemical plants</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-cyan-500 mt-1">â€¢</span>
+                    <span className="text-cyan-500 mt-1">•</span>
                     <span>Polymer manufacturing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-cyan-500 mt-1">â€¢</span>
+                    <span className="text-cyan-500 mt-1">•</span>
                     <span>Cryogenic engineering</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-cyan-500 mt-1">â€¢</span>
+                    <span className="text-cyan-500 mt-1">•</span>
                     <span>Process design</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-cyan-500 mt-1">â€¢</span>
+                    <span className="text-cyan-500 mt-1">•</span>
                     <span>Safety engineering</span>
                   </li>
                 </ul>

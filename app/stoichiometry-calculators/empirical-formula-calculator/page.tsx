@@ -63,7 +63,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
                 <span className="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center text-primary-600 dark:text-primary-400">
-                  â„¹ï¸
+                  ℹ️
                 </span>
                 What It Does
               </h2>
@@ -76,7 +76,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-accent-100 dark:bg-accent-900 rounded-lg flex items-center justify-center text-accent-600 dark:text-accent-400">
-                  ðŸ“
+                  📐
                 </span>
                 Method
               </h2>
@@ -109,7 +109,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center text-green-600 dark:text-green-400">
-                  ðŸ“
+                  📝
                 </span>
                 Step-by-Step Example
               </h2>
@@ -144,7 +144,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
                   <span className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">4</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Result</p>
-                    <p className="text-gray-700 dark:text-gray-300">Empirical Formula: <span className="font-bold text-primary-600 dark:text-primary-400 font-mono text-xl">CHâ‚‚O</span></p>
+                    <p className="text-gray-700 dark:text-gray-300">Empirical Formula: <span className="font-bold text-primary-600 dark:text-primary-400 font-mono text-xl">CH₂O</span></p>
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
                 <span className="w-8 h-8 bg-red-100 dark:bg-red-900 rounded-lg flex items-center justify-center text-red-600 dark:text-red-400">
-                  âš ï¸
+                  ⚠️
                 </span>
                 Common Mistakes
               </h2>
@@ -169,7 +169,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
                 </div>
                 <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                   <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Not recognizing fractions</p>
-                  <p className="text-sm text-red-800 dark:text-red-400">1.5 â†’ multiply by 2, 1.33 â†’ multiply by 3</p>
+                  <p className="text-sm text-red-800 dark:text-red-400">1.5 → multiply by 2, 1.33 → multiply by 3</p>
                 </div>
                 <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg">
                   <p className="font-semibold text-red-900 dark:text-red-300 mb-1">Confusing empirical and molecular</p>
@@ -208,7 +208,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
               </div>
               <div className="grid sm:grid-cols-2 gap-4 mt-4">
                 <Link href="/stoichiometry-calculators" className="block p-4 bg-gray-100 dark:bg-gray-700 rounded-xl border-2 border-gray-300 dark:border-gray-600 hover:scale-105 transition-transform">
-                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Stoichiometry Calculators â†’</h3>
+                  <h3 className="font-bold text-gray-900 dark:text-white mb-1">All Stoichiometry Calculators →</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">View complete collection</p>
                 </Link>
               </div>
@@ -223,7 +223,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
                     What is an empirical formula?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    An empirical formula shows the simplest whole-number ratio of atoms in a compound. For example, glucose (Câ‚†Hâ‚â‚‚Oâ‚†) has the empirical formula CHâ‚‚O because the ratio 6:12:6 simplifies to 1:2:1.
+                    An empirical formula shows the simplest whole-number ratio of atoms in a compound. For example, glucose (C₆H₁₂O₆) has the empirical formula CH₂O because the ratio 6:12:6 simplifies to 1:2:1.
                   </p>
                 </details>
                 <details className="group">
@@ -231,7 +231,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
                     What&apos;s the difference between empirical and molecular formulas?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    The empirical formula is the simplest ratio, while the molecular formula is the actual number of atoms. For example, ethene (Câ‚‚Hâ‚„) and benzene (Câ‚†Hâ‚†) both have the empirical formula CH, but different molecular formulas.
+                    The empirical formula is the simplest ratio, while the molecular formula is the actual number of atoms. For example, ethene (C₂H₄) and benzene (C₆H₆) both have the empirical formula CH, but different molecular formulas.
                   </p>
                 </details>
                 <details className="group">
@@ -247,7 +247,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
                     What if my ratios are 1.5 or 1.33?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    Multiply all ratios to get whole numbers: 1.5 â†’ multiply by 2 (gives 3:2), 1.33 â†’ multiply by 3 (gives 4:3), 1.25 â†’ multiply by 4 (gives 5:4). The calculator does this automatically.
+                    Multiply all ratios to get whole numbers: 1.5 → multiply by 2 (gives 3:2), 1.33 → multiply by 3 (gives 4:3), 1.25 → multiply by 4 (gives 5:4). The calculator does this automatically.
                   </p>
                 </details>
                 <details className="group">
@@ -255,7 +255,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
                     How do I find the molecular formula from empirical?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    Divide the molecular mass by the empirical formula mass to get a multiplier (n). Then multiply all subscripts in the empirical formula by n. Example: if CHâ‚‚O has molecular mass 180 g/mol, n = 180/30 = 6, so molecular formula is Câ‚†Hâ‚â‚‚Oâ‚†.
+                    Divide the molecular mass by the empirical formula mass to get a multiplier (n). Then multiply all subscripts in the empirical formula by n. Example: if CH₂O has molecular mass 180 g/mol, n = 180/30 = 6, so molecular formula is C₆H₁₂O₆.
                   </p>
                 </details>
                 <details className="group">
@@ -271,7 +271,7 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
                     Can two compounds have the same empirical formula?
                   </summary>
                   <p className="mt-3 pl-4 text-gray-700 dark:text-gray-300">
-                    Yes! Many compounds share empirical formulas. CH is shared by ethene (Câ‚‚Hâ‚„), benzene (Câ‚†Hâ‚†), and acetylene (Câ‚‚Hâ‚‚). CHâ‚‚O is shared by formaldehyde (CHâ‚‚O), glucose (Câ‚†Hâ‚â‚‚Oâ‚†), and acetic acid (Câ‚‚Hâ‚„Oâ‚‚).
+                    Yes! Many compounds share empirical formulas. CH is shared by ethene (C₂H₄), benzene (C₆H₆), and acetylene (C₂H₂). CH₂O is shared by formaldehyde (CH₂O), glucose (C₆H₁₂O₆), and acetic acid (C₂H₄O₂).
                   </p>
                 </details>
                 <details className="group">
@@ -293,28 +293,28 @@ export default function EmpiricalFormulaCalculatorPage() {  return (
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Where It&apos;s Used</h3>
               <div className="space-y-4">
                 <div className="flex gap-3">
-                  <span className="text-2xl">ðŸŽ“</span>
+                  <span className="text-2xl">🎓</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Education</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">General chemistry and stoichiometry courses</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">ðŸ§ª</span>
+                  <span className="text-2xl">🧪</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Laboratory</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Determining unknown compound formulas</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">ðŸ­</span>
+                  <span className="text-2xl">🏭</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Industry</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Quality control and material analysis</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <span className="text-2xl">ðŸ”¬</span>
+                  <span className="text-2xl">🔬</span>
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Research</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Characterizing new compounds and synthesis products</p>
