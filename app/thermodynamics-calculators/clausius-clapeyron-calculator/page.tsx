@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Clausius-Clapeyron Calculator',
   description: 'Calculate vapor pressure, boiling point, and enthalpy of vaporization using the Clausius-Clapeyron equation. Essential for phase transitions and thermodynamics.',
   keywords: 'Clausius-Clapeyron equation, vapor pressure, boiling point, enthalpy of vaporization, phase transition, thermodynamics, chemistry calculator',
+  alternates: {
+    canonical: 'https://chemsolved.com/thermodynamics-calculators/clausius-clapeyron-calculator',
+  },
 };
 
 export default function ClausiusClapeyronCalculatorPage() {  return (
