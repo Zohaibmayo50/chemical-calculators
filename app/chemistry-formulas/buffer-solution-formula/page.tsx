@@ -53,7 +53,7 @@ export default function BufferSolutionFormulaPage() {
             <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-cyan-900/30 dark:to-blue-900/30 rounded-xl p-8">
               <div className="text-center">
                 <div className="inline-block bg-white dark:bg-gray-700 rounded-lg p-6">
-                  <p className="text-4xl font-mono font-bold text-cyan-900 dark:text-cyan-300 mb-4">pOH = pKբ + log([BH⁺]/[B])</p>
+                  <p className="text-4xl font-mono font-bold text-cyan-900 dark:text-cyan-300 mb-4">pOH = pKᵦ + log([BH⁺]/[B])</p>
                   <p className="text-xl text-gray-600 dark:text-gray-400">For basic buffers</p>
                 </div>
               </div>
@@ -109,9 +109,9 @@ export default function BufferSolutionFormulaPage() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-blue-900 dark:text-blue-300 mb-4">Example 2: Ammonia Buffer</h3>
                 <div className="space-y-3 text-gray-700 dark:text-gray-300">
-                  <p><strong>Given:</strong> 0.20 M NH₃ and 0.20 M NH₄Cl (pKբ = 4.75)</p>
+                  <p><strong>Given:</strong> 0.20 M NH₃ and 0.20 M NH₄Cl (pKᵦ = 4.75)</p>
                   <p className="mt-4"><strong>Solution:</strong></p>
-                  <p className="ml-6">pOH = pKբ + log([BH⁺]/[B])</p>
+                  <p className="ml-6">pOH = pKᵦ + log([BH⁺]/[B])</p>
                   <p className="ml-6">pOH = 4.75 + log(0.20/0.20)</p>
                   <p className="ml-6">pOH = 4.75 + 0 = 4.75</p>
                   <p className="ml-6">pH = 14 - 4.75</p>
