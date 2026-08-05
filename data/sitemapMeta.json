@@ -1,0 +1,1102 @@
+{
+  "https://chemsolved.com/about": {
+    "lastmod": "2026-01-20",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/acid-base-calculators": {
+    "lastmod": "2026-08-05",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/acid-base-calculators/pka-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/acid-base-calculators/titration-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/atomic-mass-calculator": {
+    "lastmod": "2026-01-02",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/bohr-model-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/electron-configuration-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/formal-charge-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/henderson-hasselbalch-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/hybridization-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/lewis-structure-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/ph-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/valence-electrons-calculator": {
+    "lastmod": "2026-01-02",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/atomic-structure-calculators/wavelength-energy-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/biochemistry-calculators/calibration-curve-calculator": {
+    "lastmod": "2026-01-02",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/biochemistry-calculators/enzyme-activity-calculator": {
+    "lastmod": "2026-01-02",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/biochemistry-calculators/isoelectric-point-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/biochemistry-calculators/michaelis-menten-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/biochemistry-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/biochemistry-calculators/protein-solubility-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/biochemistry-calculators/resuspension-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/chemical-reaction-calculators/arrhenius-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/chemical-reaction-calculators/equilibrium-constant-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/chemical-reaction-calculators/half-life-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/chemical-reaction-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/chemical-reaction-calculators/radioactive-decay-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/chemical-reaction-calculators/rate-law-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/chemical-reaction-calculators/reaction-quotient-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/chemistry-formulas/acid-dissociation-constant-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/activity-coefficient": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/arrhenius-equation": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/avogadros-law": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/balancing-equations-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/beers-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/bohr-model": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/boiling-point-elevation": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/bond-energy-formula": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/bond-enthalpy-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/boyles-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/braggs-law": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/buffer-capacity-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/buffer-solution-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/calorimetry-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/cell-potential-formula": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/charles-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/clausius-clapeyron-equation": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/colligative-properties-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/collision-theory": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/combined-gas-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/combustion-analysis": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/common-ion-effect": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/concentration-converter-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/coordination-chemistry-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/crystal-field-theory": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/daltons-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/de-broglie-wavelength": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/degree-of-unsaturation": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/density-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/dilution-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/dipole-moment-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/electrolysis-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/electron-configuration": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/empirical-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/enthalpy-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/enthalpy-reaction-formula": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/entropy-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/equilibrium-constant": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/faradays-law": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/formal-charge-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/freezing-point-depression": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/gas-density-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/gas-stoichiometry-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/gay-lussacs-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/gibbs-free-energy": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/grahams-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/half-life-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/heisenberg-uncertainty": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/henderson-hasselbalch-equation": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/hess-law": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/hybridization": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/ideal-gas-law": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/integrated-rate-law-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/integrated-rate-laws": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/ionic-strength-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/kinetic-molecular-theory-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/lattice-energy": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/le-chateliers-principle": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/lewis-structure": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/limiting-reactant": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/mass-percent-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/michaelis-menten-equation": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/molality-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/molar-volume-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/molarity-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/mole-fraction-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/molecular-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/molecular-orbital-theory": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/molecular-weight-formula": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/nernst-equation": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/nmr-chemical-shift-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/normality-formula": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/nuclear-binding-energy": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/nuclear-chemistry-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/osmotic-pressure": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/oxidation-number-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/oxidation-number-rules": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/partition-coefficient": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/percent-composition-formula": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/percent-error-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/percent-yield-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/ph-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/planck-equation": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/ppb-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/ppm-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/quantum-numbers": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/radioactive-decay-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/raoults-law": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/rate-determining-step": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/rate-law": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/reaction-order-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/reaction-quotient": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/reaction-rate-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/redox-balancing-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/rms-speed": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/rydberg-equation": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/solubility-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/solubility-product-constant-ksp": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/solution-preparation-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/specific-heat-formula": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/stereochemistry-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/stoichiometry-formula": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/theoretical-yield-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/titration-curve-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/titration-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/transition-state-theory-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/van-der-waals-equation": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/vant-hoff-equation": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/vapor-pressure-formula": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/vsepr-theory": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/vsepr-theory-formula": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/chemistry-formulas/wavelength-energy-relationship": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/concentration-converter": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/dilution-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/mass-percent-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/molality-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/molarity-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/mole-fraction-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/normality-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/ppb-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/ppm-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/concentration-and-solution-calculators/solution-preparation-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/contact": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.6"
+  },
+  "https://chemsolved.com/disclaimer": {
+    "lastmod": "2026-02-08",
+    "changefreq": "yearly",
+    "priority": "0.3"
+  },
+  "https://chemsolved.com/editorial-policy": {
+    "lastmod": "2025-12-27",
+    "changefreq": "yearly",
+    "priority": "0.3"
+  },
+  "https://chemsolved.com/electrochemistry-calculators/cell-potential-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/electrochemistry-calculators/electrolysis-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/electrochemistry-calculators/nernst-equation-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/electrochemistry-calculators/oxidation-number-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/electrochemistry-calculators/oxidation-state-calculator": {
+    "lastmod": "2026-01-02",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/electrochemistry-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/electrochemistry-calculators/redox-balancing-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/equilibrium-calculators": {
+    "lastmod": "2026-08-05",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/equilibrium-calculators/solubility-product-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/mass-percent-vs-mole-fraction": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/molarity-vs-molality": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/mole-vs-molar-mass": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/chemical-oxygen-demand-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/combustion-analysis-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/crude-protein-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/degree-unsaturation-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/liquid-ethylene-density-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/nmr-chemical-shift-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/radiocarbon-dating-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/organic-chemistry-calculators/stereochemistry-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com": {
+    "lastmod": "2025-12-31",
+    "changefreq": "daily",
+    "priority": "1.0"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/activity-coefficient-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/beers-law-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/combined-gas-law-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/daltons-law-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/dipole-moment-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/grahams-law-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/ideal-gas-law-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/kinetic-molecular-theory-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/osmotic-pressure-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/partition-coefficient-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/raoults-law-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/van-der-waals-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/physical-chemistry-calculators/vapor-pressure-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/privacy": {
+    "lastmod": "2026-02-08",
+    "changefreq": "yearly",
+    "priority": "0.3"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/balancing-equations-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/combustion-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/empirical-formula-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/ionic-formula-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/limiting-reactant-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/molecular-formula-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/molecular-weight-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators": {
+    "lastmod": "2025-12-27",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/percent-composition-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/percent-yield-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/stoichiometry-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/stoichiometry-calculators/theoretical-yield-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/terms": {
+    "lastmod": "2026-02-08",
+    "changefreq": "yearly",
+    "priority": "0.3"
+  },
+  "https://chemsolved.com/theoretical-yield-vs-percent-yield": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/boiling-point-elevation-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/bond-energy-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/calorimetry-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/clausius-clapeyron-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/enthalpy-reaction-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/entropy-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/freezing-point-depression-calculator": {
+    "lastmod": "2025-12-27",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/gibbs-free-energy-calculator": {
+    "lastmod": "2026-02-08",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/hess-law-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/lattice-energy-calculator": {
+    "lastmod": "2026-02-14",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  },
+  "https://chemsolved.com/thermodynamics-calculators": {
+    "lastmod": "2026-02-08",
+    "changefreq": "weekly",
+    "priority": "0.8"
+  },
+  "https://chemsolved.com/thermodynamics-calculators/specific-heat-calculator": {
+    "lastmod": "2026-02-28",
+    "changefreq": "monthly",
+    "priority": "0.7"
+  }
+}
