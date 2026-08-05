@@ -263,7 +263,7 @@ export default function PercentYieldCalculatorPage() {
                   Related Calculators
                 </h2>
                 <div className="space-y-3">
-                  <Link href="/stoichiometry-calculators/limiting-reagent-calculator" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
+                  <Link href="/stoichiometry-calculators/limiting-reactant-calculator" className="block p-3 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-primary-400 dark:hover:border-primary-500 hover:shadow-md transition-all group">
                     <p className="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                       Limiting Reagent Calculator
                     </p>

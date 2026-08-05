@@ -198,7 +198,7 @@ export default function StoichiometryCalculatorPage() {  return (
             <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200 dark:border-gray-700">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Related Calculators</h2>
               <div className="grid sm:grid-cols-2 gap-4">
-                <Link href="/stoichiometry-calculators/limiting-reagent-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
+                <Link href="/stoichiometry-calculators/limiting-reactant-calculator" className="block p-4 bg-gradient-to-br from-primary-50 to-accent-50 dark:from-primary-900/30 dark:to-accent-900/30 rounded-xl border-2 border-primary-200 dark:border-primary-700 hover:scale-105 transition-transform">
                   <h3 className="font-bold text-gray-900 dark:text-white mb-1">Limiting Reagent Calculator</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Identify the limiting reactant</p>
                 </Link>

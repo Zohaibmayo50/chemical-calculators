@@ -36,16 +36,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         educationalLevel: ['high-school', 'college']
       },
       {
-        id: 'limiting-reagent',
-        name: 'Limiting Reagent Calculator',
-        description: 'Determine the limiting reactant in chemical reactions',
-        slug: 'limiting-reagent-calculator',
-        formula: 'moles_reactant / coefficient',
-        variables: 'Compare mole ratios to stoichiometric coefficients',
-        units: 'mol',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
         id: 'theoretical-yield',
         name: 'Theoretical Yield Calculator',
         description: 'Calculate maximum product amount from reactants',
@@ -133,6 +123,16 @@ export const calculatorCategories: CalculatorCategory[] = [
         formula: 'Coefficients adjusted to balance atoms',
         variables: 'Reactants and products balanced by stoichiometry',
         units: 'unitless',
+        educationalLevel: ['high-school', 'college']
+      },
+      {
+        id: 'ionic-formula',
+        name: 'Ionic Formula Calculator',
+        description: 'Predict formulas of ionic compounds',
+        slug: 'ionic-formula-calculator',
+        formula: 'Cation charge + Anion charge = 0',
+        variables: 'Cross-multiply charges to get subscripts',
+        units: 'chemical formula',
         educationalLevel: ['high-school', 'college']
       },
     ]
@@ -497,16 +497,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'atm, L, mol, K',
         educationalLevel: ['college']
       },
-      {
-        id: 'combined-gas-law',
-        name: 'Combined Gas Law Calculator',
-        description: 'Relate P, V, T changes for fixed amount of gas',
-        slug: 'combined-gas-law-calculator',
-        formula: 'P₁V₁/T₁ = P₂V₂/T₂',
-        variables: 'Initial and final pressure, volume, temperature',
-        units: 'atm, L, K',
-        educationalLevel: ['high-school', 'college']
-      },
     ]
   },
   {
@@ -720,16 +710,6 @@ export const calculatorCategories: CalculatorCategory[] = [
     semanticContext: 'General chemistry encompasses fundamental principles governing matter, atomic structure, chemical bonding, and acid-base chemistry. These calculators determine molar masses, pH values, electron configurations, and other core chemical properties essential for all chemistry disciplines.',
     calculators: [
       {
-        id: 'molar-mass',
-        name: 'Molar Mass Calculator',
-        description: 'Calculate molecular weight from chemical formula',
-        slug: 'molar-mass-calculator',
-        formula: 'M = Σ(nᵢ × Mᵢ)',
-        variables: 'nᵢ = number of atoms, Mᵢ = atomic mass',
-        units: 'g/mol',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
         id: 'ph',
         name: 'pH Calculator',
         description: 'Calculate pH, pOH, [H+], and [OH-]',
@@ -738,16 +718,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         variables: 'pH + pOH = 14, [H⁺][OH⁻] = 10⁻¹⁴',
         units: 'pH, M',
         educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'pka',
-        name: 'pKa Calculator',
-        description: 'Calculate acid dissociation constant',
-        slug: 'pka-calculator',
-        formula: 'pKa = -log(Ka)',
-        variables: 'Ka = [H⁺][A⁻]/[HA]',
-        units: 'pKa units, M',
-        educationalLevel: ['college']
       },
       {
         id: 'henderson-hasselbalch',
@@ -799,15 +769,51 @@ export const calculatorCategories: CalculatorCategory[] = [
         units: 'electron dots/lines',
         educationalLevel: ['high-school', 'college']
       },
+    ]
+  },
+  {
+    id: 'acid-base',
+    name: 'Acid-Base Calculators',
+    description: 'pKa, titration, and acid-base equilibrium calculations.',
+    semanticContext: 'Acid-base chemistry quantifies proton transfer equilibria between acids and bases. These calculators determine acid dissociation constants, titration endpoints, and equivalence points for quantitative analysis of acidic and basic solutions.',
+    calculators: [
       {
-        id: 'ionic-formula',
-        name: 'Ionic Formula Calculator',
-        description: 'Predict formulas of ionic compounds',
-        slug: 'ionic-formula-calculator',
-        formula: 'Cation charge + Anion charge = 0',
-        variables: 'Cross-multiply charges to get subscripts',
-        units: 'chemical formula',
+        id: 'pka',
+        name: 'pKa Calculator',
+        description: 'Calculate acid dissociation constant',
+        slug: 'pka-calculator',
+        formula: 'pKa = -log(Ka)',
+        variables: 'Ka = [H⁺][A⁻]/[HA]',
+        units: 'pKa units, M',
+        educationalLevel: ['college']
+      },
+      {
+        id: 'titration',
+        name: 'Titration Calculator',
+        description: 'Calculate unknown concentrations from titration',
+        slug: 'titration-calculator',
+        formula: 'M₁V₁/n₁ = M₂V₂/n₂',
+        variables: 'M = molarity, V = volume, n = stoichiometric coefficient',
+        units: 'M, mL, L',
         educationalLevel: ['high-school', 'college']
+      },
+    ]
+  },
+  {
+    id: 'equilibrium',
+    name: 'Equilibrium Calculators',
+    description: 'Solubility product and chemical equilibrium calculations.',
+    semanticContext: 'Chemical equilibrium describes the state where forward and reverse reaction rates are equal. These calculators determine equilibrium constants, solubility limits, and ion concentrations in saturated solutions.',
+    calculators: [
+      {
+        id: 'solubility-product',
+        name: 'Solubility Product Calculator',
+        description: 'Calculate Ksp and solubility',
+        slug: 'solubility-product-calculator',
+        formula: 'Ksp = [cation]ᵐ[anion]ⁿ',
+        variables: 'Solubility equilibrium constant',
+        units: 'varies (M, M², M³)',
+        educationalLevel: ['college']
       },
     ]
   },
@@ -896,26 +902,6 @@ export const calculatorCategories: CalculatorCategory[] = [
         variables: 'a = coefficient (1 ≤ |a| < 10), n = exponent',
         units: 'standard form',
         educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'titration',
-        name: 'Titration Calculator',
-        description: 'Calculate unknown concentrations from titration',
-        slug: 'titration-calculator',
-        formula: 'M₁V₁/n₁ = M₂V₂/n₂',
-        variables: 'M = molarity, V = volume, n = stoichiometric coefficient',
-        units: 'M, mL, L',
-        educationalLevel: ['high-school', 'college']
-      },
-      {
-        id: 'solubility-product',
-        name: 'Solubility Product Calculator',
-        description: 'Calculate Ksp and solubility',
-        slug: 'solubility-product-calculator',
-        formula: 'Ksp = [cation]ᵐ[anion]ⁿ',
-        variables: 'Solubility equilibrium constant',
-        units: 'varies (M, M², M³)',
-        educationalLevel: ['college']
       },
       {
         id: 'ionic-strength',

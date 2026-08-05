@@ -1160,6 +1160,230 @@ export const clusterPages: ClusterPageData[] = [
       'organic-chemistry-calculators',
       'physical-chemistry-calculators'
     ]
+  },
+
+  {
+    slug: 'acid-base-calculators',
+    title: 'Acid-Base Calculators | pKa, Titration & Buffer Chemistry',
+    h1: 'Acid-Base Calculators',
+    metaDescription: 'Calculate pKa, Ka, and titration curves for acid-base chemistry. Accurate tools for acid dissociation, titration analysis, and buffer preparation.',
+    categoryId: 'acid-base',
+
+    entityDefinition: {
+      intro: 'Acid-base calculators quantify proton-transfer equilibria between acids and bases, determining how strongly an acid or base ionizes in solution and how solutions behave during titration.',
+      whatItMeasures: 'These calculators determine acid dissociation constants (Ka, pKa), titration curve points, equivalence points, and pH changes as acid or base is added to a solution.',
+      whyCalculationsNeeded: 'Acid-base calculations are essential for standardizing solutions, determining unknown concentrations via titration, selecting appropriate indicators, and understanding buffer behavior in biological and industrial systems.',
+      formulasInvolved: [
+        'pKa = -log(Ka)',
+        'Ka = [H⁺][A⁻]/[HA]',
+        'M₁V₁/n₁ = M₂V₂/n₂ (titration)',
+        'pH = pKa + log([A⁻]/[HA]) (Henderson-Hasselbalch)'
+      ]
+    },
+
+    historicalContext: {
+      origin: 'Acid-base theory evolved from Arrhenius\'s 1884 definition of acids and bases through dissociation, to the more general Brønsted-Lowry (1923) proton-transfer definition still used today.',
+      evolution: 'Titration as a quantitative technique developed alongside analytical chemistry in the 19th century, with indicators and standardized solutions enabling precise concentration determination.',
+      significance: 'Acid-base equilibrium underlies buffer systems in blood chemistry, industrial process control, water treatment, and virtually every quantitative wet-chemistry technique.'
+    },
+
+    whereUsed: {
+      education: 'Introductory and analytical chemistry courses use titration and pKa calculations to teach equilibrium concepts and quantitative analysis technique.',
+      labs: 'Analytical and quality-control labs use titration to standardize solutions and determine unknown concentrations of acids, bases, and other titratable species.',
+      industry: 'Pharmaceutical, food, and water-treatment industries rely on acid-base titration for quality control and regulatory compliance testing.',
+      research: 'Biochemistry and pharmacology research use pKa values to predict drug ionization state, solubility, and membrane permeability at physiological pH.'
+    },
+
+    coreFormulas: [
+      {
+        formula: 'pKa = -log(Ka)',
+        name: 'pKa Definition',
+        variables: 'Ka = acid dissociation constant',
+        units: 'pKa (dimensionless), Ka (M)',
+        explanation: 'pKa expresses the acid dissociation constant on a logarithmic scale; lower pKa means a stronger acid.'
+      },
+      {
+        formula: 'M₁V₁/n₁ = M₂V₂/n₂',
+        name: 'Titration Formula',
+        variables: 'M = molarity, V = volume, n = stoichiometric coefficient of acid/base',
+        units: 'M, mL or L',
+        explanation: 'Relates the moles of acid and base at the equivalence point of a titration, allowing calculation of an unknown concentration.'
+      }
+    ],
+
+    calculationTypes: [
+      {
+        type: 'pKa / Ka Conversion',
+        description: 'Converting between acid dissociation constant and its logarithmic form.',
+        when: 'Used to compare relative acid strengths and predict protonation state at a given pH.'
+      },
+      {
+        type: 'Titration Curve Analysis',
+        description: 'Calculating pH at any point during an acid-base titration, including the equivalence point.',
+        when: 'Used to determine unknown concentrations and select appropriate indicators for titrations.'
+      }
+    ],
+
+    commonMistakes: [
+      'Confusing Ka with pKa - remember pKa = -log(Ka), so a smaller pKa means a stronger, larger Ka acid',
+      'Using the wrong stoichiometric coefficient for polyprotic acids or bases in titration calculations',
+      'Forgetting that at the equivalence point, moles of acid equal moles of base only when the stoichiometric ratio is 1:1',
+      'Ignoring temperature dependence of Ka and Kw when precision matters'
+    ],
+
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Concentration and Solution Calculators',
+          slug: 'concentration-and-solution-calculators',
+          relationship: 'Titration relies on molarity calculations to relate volumes and concentrations of titrant and analyte.'
+        },
+        {
+          topic: 'Biochemistry Calculators',
+          slug: 'biochemistry-calculators',
+          relationship: 'Buffer systems in biochemistry depend directly on acid-base equilibrium and the Henderson-Hasselbalch equation.'
+        },
+        {
+          topic: 'Equilibrium Calculators',
+          slug: 'equilibrium-calculators',
+          relationship: 'Acid dissociation is itself a chemical equilibrium, governed by the same equilibrium-constant principles.'
+        }
+      ],
+      broaderConcepts: [
+        'Brønsted-Lowry Acid-Base Theory',
+        'Chemical Equilibrium',
+        'Buffer Chemistry'
+      ]
+    },
+
+    faqs: [
+      {
+        question: 'What is the difference between Ka and pKa?',
+        answer: 'Ka is the acid dissociation constant measuring how completely an acid ionizes in water. pKa is the negative logarithm of Ka (pKa = -log Ka), which compresses the wide range of Ka values into a more manageable scale. A lower pKa indicates a stronger acid.'
+      },
+      {
+        question: 'How do you find the equivalence point in a titration?',
+        answer: 'The equivalence point occurs when moles of added titrant exactly equal moles of analyte (accounting for stoichiometry). It is identified from the titration curve as the point of steepest pH change, or calculated directly from M₁V₁/n₁ = M₂V₂/n₂.'
+      },
+      {
+        question: 'Why do titration calculators matter in real labs?',
+        answer: 'Titration is one of the most common quantitative analysis techniques, used to standardize solutions, verify concentrations, and ensure product quality in pharmaceutical, food, and chemical manufacturing.'
+      }
+    ],
+
+    relatedClusters: [
+      'concentration-and-solution-calculators',
+      'equilibrium-calculators',
+      'biochemistry-calculators'
+    ]
+  },
+
+  {
+    slug: 'equilibrium-calculators',
+    title: 'Equilibrium Calculators | Solubility Product & Ksp',
+    h1: 'Equilibrium Calculators',
+    metaDescription: 'Calculate solubility product constants (Ksp), predict precipitation, and analyze chemical equilibrium in saturated solutions.',
+    categoryId: 'equilibrium',
+
+    entityDefinition: {
+      intro: 'Equilibrium calculators analyze the state where forward and reverse reaction rates are equal, focusing on solubility equilibria between dissolved ions and undissolved solid.',
+      whatItMeasures: 'These calculators determine the solubility product constant (Ksp), molar solubility, the reaction quotient (Qsp), and whether a precipitate will form under given ion concentrations.',
+      whyCalculationsNeeded: 'Solubility equilibrium calculations predict whether precipitation will occur, determine maximum safe ion concentrations, and are essential for water treatment, geology, and analytical separations.',
+      formulasInvolved: [
+        'Ksp = [cation]ᵐ[anion]ⁿ',
+        'Qsp compared to Ksp predicts precipitation direction',
+        'Molar solubility derived from Ksp and stoichiometry'
+      ]
+    },
+
+    historicalContext: {
+      origin: 'The concept of a solubility product emerged from Guldberg and Waage\'s law of mass action (1864), applied to sparingly soluble ionic compounds.',
+      evolution: 'Ksp tables became standard analytical chemistry references in the 20th century, enabling systematic prediction of precipitation reactions.',
+      significance: 'Solubility equilibrium principles underlie water hardness treatment, kidney stone formation, geological mineral formation, and qualitative analysis schemes.'
+    },
+
+    whereUsed: {
+      education: 'General and analytical chemistry courses use Ksp calculations to teach equilibrium concepts and qualitative analysis of ion mixtures.',
+      labs: 'Analytical labs use solubility product calculations to design selective precipitation and separation procedures for ion mixtures.',
+      industry: 'Water treatment facilities use Ksp values to predict and prevent scale formation from calcium carbonate and other sparingly soluble salts.',
+      research: 'Environmental and geochemistry research use solubility equilibria to model mineral dissolution and precipitation in natural water systems.'
+    },
+
+    coreFormulas: [
+      {
+        formula: 'Ksp = [cation]ᵐ[anion]ⁿ',
+        name: 'Solubility Product Constant',
+        variables: 'm, n = stoichiometric coefficients of the dissolved ions',
+        units: 'varies (M, M², M³ depending on stoichiometry)',
+        explanation: 'Ksp is the equilibrium constant for the dissolution of a sparingly soluble ionic compound, equal to the product of ion concentrations raised to their stoichiometric powers.'
+      }
+    ],
+
+    calculationTypes: [
+      {
+        type: 'Molar Solubility from Ksp',
+        description: 'Calculating how much of a compound dissolves in water given its Ksp value.',
+        when: 'Used to predict the maximum concentration of a sparingly soluble salt in solution.'
+      },
+      {
+        type: 'Precipitation Prediction',
+        description: 'Comparing the reaction quotient (Qsp) to Ksp to determine if a precipitate will form.',
+        when: 'Used when mixing solutions containing ions that could form an insoluble compound.'
+      }
+    ],
+
+    commonMistakes: [
+      'Forgetting to raise ion concentrations to their stoichiometric powers when writing the Ksp expression',
+      'Confusing Ksp (a constant) with molar solubility (a concentration) - they are related but not the same value',
+      'Ignoring the common ion effect, which reduces solubility when a shared ion is already present in solution',
+      'Comparing Qsp and Ksp incorrectly - precipitation occurs when Qsp > Ksp, not the reverse'
+    ],
+
+    relationships: {
+      connectedTopics: [
+        {
+          topic: 'Chemical Reaction Calculators',
+          slug: 'chemical-reaction-calculators',
+          relationship: 'Solubility equilibrium is a specific application of the general equilibrium constant principles used across chemical reactions.'
+        },
+        {
+          topic: 'Concentration and Solution Calculators',
+          slug: 'concentration-and-solution-calculators',
+          relationship: 'Molar solubility calculations directly use molarity concepts to express ion concentrations at saturation.'
+        },
+        {
+          topic: 'Acid-Base Calculators',
+          slug: 'acid-base-calculators',
+          relationship: 'Acid dissociation and solubility product are both equilibrium constants governed by the same law of mass action.'
+        }
+      ],
+      broaderConcepts: [
+        'Law of Mass Action',
+        'Chemical Equilibrium',
+        'Common Ion Effect'
+      ]
+    },
+
+    faqs: [
+      {
+        question: 'What does Ksp tell you?',
+        answer: 'Ksp (the solubility product constant) tells you the extent to which a sparingly soluble ionic compound dissolves in water at equilibrium. A smaller Ksp means the compound is less soluble.'
+      },
+      {
+        question: 'How do you predict if a precipitate will form?',
+        answer: 'Calculate the reaction quotient Qsp using the current ion concentrations. If Qsp > Ksp, a precipitate forms. If Qsp < Ksp, the solution remains unsaturated and no precipitate forms. If Qsp = Ksp, the solution is exactly saturated.'
+      },
+      {
+        question: 'What is the common ion effect on solubility?',
+        answer: 'Adding a common ion (already part of the dissolved compound) to a saturated solution shifts equilibrium to reduce solubility, per Le Chatelier\'s principle, since Ksp must remain constant.'
+      }
+    ],
+
+    relatedClusters: [
+      'chemical-reaction-calculators',
+      'concentration-and-solution-calculators',
+      'acid-base-calculators'
+    ]
   }
 ];
 

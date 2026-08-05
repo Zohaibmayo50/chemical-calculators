@@ -152,6 +152,10 @@ const nextConfig = {
       { source: '/spectroscopy-calculators/nmr-calculator', destination: '/organic-chemistry-calculators/nmr-chemical-shift-calculator', permanent: true },
       { source: '/molecular-structure-calculators/molecular-geometry-calculator', destination: '/chemistry-formulas/vsepr-theory', permanent: true },
 
+      // === Duplicate-content consolidation ===
+      { source: '/stoichiometry-calculators/limiting-reagent-calculator', destination: '/stoichiometry-calculators/limiting-reactant-calculator', permanent: true },
+      { source: '/chemistry-formulas/limiting-reagent-formula', destination: '/chemistry-formulas/limiting-reactant', permanent: true },
+
       // === Formula path fixes ===
       { source: '/chemistry-formulas/cell-potential', destination: '/chemistry-formulas/cell-potential-formula', permanent: true },
       { source: '/chemistry-formulas/rate-law-formula', destination: '/chemistry-formulas/rate-law', permanent: true },
